@@ -1,0 +1,17 @@
+<?php
+
+
+$countries = [
+    "Canada","Germany","Denmark","Norway","Greenland","Iran","Kiribati","Russian Federation","Papua New Guinea","Pakistan","Yemen","Chad","Cote D'Ivoire (Ivory Coast)","United Kingdom","United States","Saudi Arabia","Australia","Mexico","United Arab Emirates","Egypt","Nigeria","Colombia","Venezuela","Ghana","Panama","Turkey","Sudan","Ethiopia","Algeria","Indonesia","Solomon Islands","Niger","Morocco","India","France","South Africa","Greece","Puerto Rico","Japan","French Polynesia","Kuwait","Honduras","Namibia","Marshall Islands","Mauritania","Guyana","Cook Islands","Gabon","Cyprus","China","Kazakhstan","Iceland","Oman","Syria","Qatar","Philippines","Spain","Italy","Suriname","Brazil","Peru","New Zealand (Aotearoa)","Djibouti","Malaysia","Mongolia","Switzerland","Mozambique","Chile","Argentina","Somalia","Sweden","Guam","Madagascar","Ecuador","Kenya","Angola","Jordan","Sri Lanka","The Netherlands","Uzbekistan","Bahamas","Virgin Islands (British)","Vanuatu","Anguilla","Comoros","Antigua and Barbuda","Belgium","Samoa","Bolivia","Romania","Burkina Faso","Uruguay","Uganda","Aruba","Tanzania","Turkmenistan","Paraguay","Laos","New Zealand (aotearoa)","Fiji","Cameroon","Myanmar","Iraq","Nepal","Bahrain","Senegal","Central African Republic","Azerbaijan","Hungary","Mali","Afghanistan","Thailand","Brunei Darussalam","Zaire","Bosnia And Herzegovina","Gambia","Viet Nam","Ireland","Cuba","Dominican Republic","Bangladesh","Costa Rica","Guadeloupe","Equatorial Guinea","Cambodia","Georgia","Indonesia (East Timor)","Israel","Libya","Lebanon","New Caledonia","Yugoslavia","Yugoslavia (Serbia and Montenegro)","Belize","Liberia","Moldova","Ukraine","Netherlands","Bermuda","Congo","Seychelles","Kyrgyzstan","Guinea-Bissau","Malawi","Nicaragua","Sierra Leone","Cape Verde","Guinea","Croatia (Hrvatska)","Netherlands Antilles","Bulgaria","Portugal","Slovak Republic","Austria","Belarus","Barbados","Czechoslovakia (former)","Zimbabwe","Burundi","Korea (South)","Rwanda","Poland","Saint Vincent and the Grenadines","Haiti","Guatemala","Grenada","French Guiana","Cayman Islands","Hong Kong","Taiwan","Zambia","Christmas Island","Cocos (Keeling) Islands","Malta","Benin","Latvia","Tunisia","Dominica","Unites States","New Zealand","Tajikistan","Finland","Tonga","Faroe Islands","American Samoa","Martinique","Botswana","Tuvalu","Wallis and Futuna Islands","Maldives","St. Helena","Gibraltar","D. R. Congo","Turks and Caicos Islands","Guam (usa)","Guam (USA)","Armenia","D. R. Congo (Zaire)","Us Minor Outlying Islands","Estonia","Lithuania","Russia","TASMANIA","Jamaica","Palau","Micronesia","Lesotho","Slovenia","Togo","Luxembourg","Macau","Swaziland","Mauritius","US Minor Outlying Islands","St. Pierre and Miquelon","Monaco","MINNESOTA","Montserrat","Bosnia and Herzegovina","Falkland Islands","Nauru","Saint Kitts and Nevis","Serbia & Montenegro","Niue","Norfolk Island","Czech Republic (former Czechoslovakia)","Bhutan","Falkland Islands (Malvinas)","Sao Tome and Principe","Kosovo","Croatia (hrvatska)","Korea (North)","Northern Mariana Islands","Columbia","El Salvador","America","South Korea","Singapore","Macedonia","Virgin Islands(U.S.)","Reunion","Saint Lucia","St. Pierre And Miquelon","Albania","Serbia And Montenegro","Trinidad and Tobago","Serbia and Montenegro","Palestine","D. R. .Congo (Zaire)",
+];
+
+echo "<select name = 'country' >";
+echo "<option value> Select Country";
+
+foreach ($countries as $country){
+    echo "<option value '$country'>$country</option>";
+}
+
+    echo "</select>";
+
+?>
