@@ -1,43 +1,46 @@
 <?php
 
+$states = ['New York','Iowa','California','Florida'];
+
+echo "<h3>While</h3>";
+
+$i = 0;
+while ($i<4){
+    echo $i.": ".$states[$i]."<br>";
+    $i++;
+}
+
+echo "<hr>";
+
+    echo "<h3>Do While</h3>";
+
 /*
- * 1. User enters number #1 (1 and 10000E)
- * 2. User picks an operator (-, +, *, /)
- * 3. User enters number #2 (1 and 10000E)
- * 4. User pushes = sign
+ * The difference between Do While and While
  */
 
-
-#Step 1
-	$number1 = $_GET['number1']??5;
-
-#Step 2
-	$operator = $_GET['operator']??'plus';
-
-#Step 3
-	$number2 = $_GET['number2']??5;
-
-	$result = 'Empty';
-
-	if ($operator=='x'){
-		$result = $number1 * $number2;
-	}
-
-	if ($operator=='plus'){
-		$result = $number1 + $number2;
-	}
-
-	if ($operator=='minus'){
-		$result = $number1 - $number2;
-	}
-
-echo $result;
+$y = 0;
+do {
+    echo $y.": ".$states[$y]."<br>";
+    $y++;
+}
+while ($y<4);
 
 
+    echo "<hr>";
 
+    echo "<h3>For</h3>";
 
+for($x=0; $x<4; $x++){
+    echo $x.": ".$states[$x]."<br>";
+}
 
+    echo "<hr>";
 
+    echo "<h3>Foreach</h3>";
 
-
-?>
+    foreach($states as $z=>$state){
+        if ($z>1){
+            break;
+        }
+        echo $z.": ".$state."<br>";
+    }
