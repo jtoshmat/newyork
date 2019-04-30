@@ -9,5 +9,13 @@
 
 <h1>Blank Page</h1>
 
+<p>
+    Team, <br>
+
+    Please use this blank page as your new starting page.
+
+
+</p>
+
 </body>
 </html>
