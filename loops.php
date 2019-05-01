@@ -1,11 +1,11 @@
 <?php
 
-$states = ['New York','Iowa','California','Florida','Colorado'];
+$states = ['New York','Iowa','California','Florida','Colorado','New Jersey'];
 
 echo "<h3>While</h3>";
 
 $i = 0;
-while ($i<=4){
+while ($i<=5){
     echo $i.": ".$states[$i]."<br>";
     $i++;
 
