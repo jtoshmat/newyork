@@ -43,6 +43,7 @@
             $result = $con->query($sql);
             if ($result->num_rows == 0) {
                 $result = null;
+                return [];
             }
             $output = [];
             if ($result->num_rows > 0) {

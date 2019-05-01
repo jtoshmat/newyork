@@ -1,13 +1,14 @@
 <?php
 
-$states = ['New York','Iowa','California','Florida'];
+$states = ['New York','Iowa','California','Florida','Colorado'];
 
 echo "<h3>While</h3>";
 
 $i = 0;
-while ($i<4){
+while ($i<=4){
     echo $i.": ".$states[$i]."<br>";
     $i++;
+
 }
 
 echo "<hr>";
@@ -23,14 +24,14 @@ do {
     echo $y.": ".$states[$y]."<br>";
     $y++;
 }
-while ($y<4);
+while ($y<=4);
 
 
     echo "<hr>";
 
     echo "<h3>For</h3>";
 
-for($x=0; $x<4; $x++){
+for($x=0; $x<=4; $x++){
     echo $x.": ".$states[$x]."<br>";
 }
 
@@ -39,8 +40,5 @@ for($x=0; $x<4; $x++){
     echo "<h3>Foreach</h3>";
 
     foreach($states as $z=>$state){
-        if ($z>1){
-            break;
-        }
         echo $z.": ".$state."<br>";
     }

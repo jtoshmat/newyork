@@ -10,8 +10,22 @@
 
 <?php
     include 'inc/database.php';
-    $airports = $db->sql("select * from airports where country_abbr = 'BR'");
+    $keyword = $_GET['keyword']??'Uzbekistan';
+    $airports = $db->sql("select * from airports where country like '".$keyword."%' ");
+
+
+    //'%%' -- kaerda bulmasin
+    //'a%' - hamma a harfi bilan boshlanadigan davlat
+    //'%a' - hamma a harfi bilan tugadidan davlatlar toping
+
 ?>
+
+<form>
+    <br>
+    <p>Search: <input name="keyword" type="text" value="<?=$keyword?>">
+    <input type="submit" value="Search">
+    </p>
+</form>
 
 <table class="table table-responsive table-bordered">
 
@@ -36,6 +50,12 @@
 
 
 </table>
+
+<?php
+if (count($airports)==0){
+    echo "No airport is found by that search criteria";
+}
+?>
 
 <style>
     .tr1{
