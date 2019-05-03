@@ -1,4 +1,7 @@
 <?php
+    include_once 'inc/header.php';
+?>
+<?php
 
 $states = ['New York','Iowa','California','Florida','Colorado','New Jersey'];
 

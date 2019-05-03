@@ -6,7 +6,9 @@
     <script src="/js/bootstrap.js"></script>
 </head>
 <body>
-
+<?php
+    include_once 'inc/header.php';
+?>
 
 <main role="main" class="container">
     <div class="myheader d-flex align-items-center p-3 my-3 text-white-50 bg-purple rounded shadow-sm">

@@ -1,4 +1,7 @@
 <?php
+    include_once 'inc/header.php';
+?>
+<?php
     $states = $_GET['state']??'Iowa';
     $states2 = $_GET['state2']??'Texas';
 
@@ -27,12 +30,12 @@
     echo "<br>";
 
     if ($states=='Iowa'){
-        echo "Hello Iowa! If Statement";
+        echo "Hello Iowa! <br>";
     }
     if ($states=='California'){
-        echo "Welcome to Golden State!";
+        echo "Welcome to Golden State! <br> ";
     }
 
     if ($states=='Florida' or $states2=='Texas'){
-        echo "Welcome to Sunshine State!";
+        echo "Welcome to Sunshine State!<br>";
     }
