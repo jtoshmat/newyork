@@ -8,6 +8,11 @@
     </head>
 
     <body>
+    <?php
+        include_once 'inc/header.php';
+    ?>
+
+
         <div id = "header">
             <h1> MY IT EDUCATION </h1>
         </div>

@@ -5,6 +5,10 @@
 </head>
 <body>
 
+<?php
+    include_once 'inc/header.php';
+?>
+
 <h1>HTML TABLE</h1>
 
 <!--

@@ -1,4 +1,7 @@
 <?php
+    include_once 'inc/header.php';
+?>
+<?php
     $states = $_GET['state']??'Iowa';
     $states2 = $_GET['state2']??'Texas';
 

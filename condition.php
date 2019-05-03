@@ -1,4 +1,7 @@
 <?php
+    include_once 'inc/header.php';
+?>
+<?php
 
 $kids = ["ahmet","mehmet","salih","otkir","shoxruh","azamat","lochin"];
 

@@ -1,4 +1,7 @@
 <?php
+    include_once 'inc/header.php';
+?>
+<?php
 echo "<h1>Welcome to Functionville!</h1>";
 
 $emails = [
@@ -8,9 +11,9 @@ $emails = [
 
 
 foreach ($emails as $email){
-    $var = getUsername($email, true);
-    echo "Username: ".$var['user']."  ";
-    echo "Domain: ".$var['domain']."<hr>";
+    //$var = getUsername($email, true);
+    //echo "Username: ".$var['user']."  ";
+    //echo "Domain: ".$var['domain']."<hr>";
 }
 
 
@@ -25,4 +28,23 @@ function getUsername($email, $domain){
 
     return $output;
 
+}
+
+
+$plus = calculator(5,3,'plus');
+
+$minus = calculator(100,1,'minus');
+
+echo $plus;
+echo "<br>";
+echo $minus;
+
+
+function calculator($num1, $num2, $operator){
+    if ($operator=='plus'){
+        return $num1 + $num2;
+    }
+    if ($operator=='minus'){
+        return $num1 - $num2;
+    }
 }

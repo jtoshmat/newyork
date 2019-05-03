@@ -5,6 +5,9 @@
 </head>
 
 <body>
+<?php
+    include_once 'inc/header.php';
+?>
 <div id="calculator">
 
     <table class="calculator">
