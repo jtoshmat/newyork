@@ -16,16 +16,6 @@ body{
     float: left;
 }
 
-#txt{
-    width: 800px;
-    float: right;
-
-}
-#txt.mainheader{
-    width: 600px;
-    text-align: -moz-right;
-}
-
 #footer{
     background-color: #ffab13;
     text-align: right;
