@@ -9,7 +9,6 @@
     class Api
     {
         public $partner;
-
         public $mydb;
 
         public function __construct()
@@ -18,7 +17,7 @@
         }
 
 
-        public function setPartner($partner='expedia'){
+        public function setPartner($partner=[]){
             $this->partner = $partner;
         }
 
@@ -27,17 +26,41 @@
         }
 
         public function search($parms){
+            $partners = $this->getPartner();
+            $output = [];
+            foreach ($partners as $num=>$partner){
+                $output[] = $this->executeSearch("select * from $partner where from_city='".$parms['from_city']."' and to_city='".$parms['to_city']."'", $partner);
+            }
+            return $output;
+        }
 
-            if ($this->partner=='priceline'){
-                return 'This request is for Priceline';
+
+        protected function executeSearch($sql, $partner){
+            $db = $this->mydb;
+            $results = $db->sql($sql);
+            $data = [];
+            $logo = null;
+
+            if ($partner=='expedia'){
+                $logo = "https://blog.equityroots.com/wp-content/uploads/2017/10/expedia-logo.png";
             }
 
-            if ($this->partner=='expedia'){
-                return 'This request is for Expedia';
+            if ($partner=='priceline'){
+                $logo = "https://cdn.promocodes.com/img/merchants/253/360-logo/v3/priceline-coupons.png";
             }
 
-            return 'Search Kayak DB';
+            foreach ($results as $flight){
+                $data[] = [
+                    'from_city' => $flight['from_city'],
+                    'to_city' => $flight['to_city'],
+                    'class' => $flight['class'],
+                    'partner' => $partner,
+                    'logo' => $logo,
+                    'price' => $flight['price']
+                ];
+            }
 
+            return $data;
         }
 
 

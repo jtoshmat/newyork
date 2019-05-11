@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kayak/api.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kayak/backend.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kayak/kayak.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kayak/search.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inc/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kayak/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/kayak/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kayak/backend.php" beforeDir="false" afterPath="$PROJECT_DIR$/kayak/backend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kayak/search.php" beforeDir="false" afterPath="$PROJECT_DIR$/kayak/search.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,26 +30,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="api.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kayak/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+            <state relative-caret-position="594">
+              <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
               <folding>
                 <element signature="e#168#267#0#PHP" expanded="true" />
                 <element signature="e#278#374#0#PHP" expanded="true" />
                 <element signature="e#384#458#0#PHP" expanded="true" />
-                <element signature="e#468#779#0#PHP" expanded="true" />
+                <element signature="e#462#856#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="backend.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="backend.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kayak/backend.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="101">
+              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#5#0#PHP" expanded="true" />
+                <element signature="n#tr#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#tr#1;n#table#0;n#form#0;n#!!top" expanded="true" />
+                <element signature="e#1370#1373#0#PHP" expanded="true" />
+                <element signature="e#1420#1423#0#PHP" expanded="true" />
+                <element signature="e#1507#1510#0#PHP" expanded="true" />
+                <element signature="e#1556#1559#0#PHP" expanded="true" />
+                <element signature="n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/inc/database.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+              <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -68,15 +78,20 @@
       <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kayak/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="1385" column="7" lean-forward="true" selection-start-line="1385" selection-start-column="7" selection-end-line="1385" selection-end-column="7" />
+            <state relative-caret-position="319">
+              <caret line="924" lean-forward="true" selection-start-line="924" selection-end-line="924" />
               <folding>
-                <element signature="n#html#0;n#!!top" expanded="true" />
                 <element signature="n#script#0;n#!!top" expanded="true" />
-                <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#span#1;n#div#1;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#159861#159867#0#HTML" expanded="true" />
+                <element signature="e#159832#159838#0#HTML" expanded="true" />
+                <element signature="e#159839#159845#0#HTML" expanded="true" />
+                <element signature="e#159846#159852#0#HTML" expanded="true" />
+                <element signature="n#span#2;n#div#1;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,6 +104,8 @@
       <find>form-section noBg</find>
       <find>.css</find>
       <find>class=&quot;form-section noBg&quot;</find>
+      <find>to_c</find>
+      <find>PRICELINEUNCHECKB2_US_FFDCMP2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,8 +124,8 @@
         <option value="$PROJECT_DIR$/mstyle.css" />
         <option value="$PROJECT_DIR$/condition.php" />
         <option value="$PROJECT_DIR$/kayak/kayak.html" />
-        <option value="$PROJECT_DIR$/kayak/search.php" />
         <option value="$PROJECT_DIR$/inc/database.php" />
+        <option value="$PROJECT_DIR$/kayak/search.php" />
         <option value="$PROJECT_DIR$/kayak/api.php" />
         <option value="$PROJECT_DIR$/kayak/backend.php" />
       </list>
@@ -130,9 +147,9 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1013" />
+    <option name="width" value="1191" />
     <option name="height" value="1019" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -226,17 +243,18 @@
       <workItem from="1556676440663" duration="9115000" />
       <workItem from="1557596435317" duration="1471000" />
       <workItem from="1557598020222" duration="163000" />
-      <workItem from="1557598432727" duration="3854000" />
+      <workItem from="1557598432727" duration="12368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48642000" />
+    <option name="totallyTimeSpent" value="57156000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1013" height="1019" extended-state="0" />
+    <frame x="0" y="23" width="1920" height="1019" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36045313" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3313253" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
@@ -245,7 +263,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38153505" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.38153505" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,6 +305,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/inc/database.php</url>
+          <line>58</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/cases.php">
@@ -566,44 +595,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kayak/search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="1385" column="7" lean-forward="true" selection-start-line="1385" selection-start-column="7" selection-end-line="1385" selection-end-column="7" />
-          <folding>
-            <element signature="n#html#0;n#!!top" expanded="true" />
-            <element signature="n#script#0;n#!!top" expanded="true" />
-            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kayak/backend.php">
+    <entry file="file://$PROJECT_DIR$/kayak/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="319">
+          <caret line="924" lean-forward="true" selection-start-line="924" selection-end-line="924" />
+          <folding>
+            <element signature="n#script#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#span#1;n#div#1;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#159861#159867#0#HTML" expanded="true" />
+            <element signature="e#159832#159838#0#HTML" expanded="true" />
+            <element signature="e#159839#159845#0#HTML" expanded="true" />
+            <element signature="e#159846#159852#0#HTML" expanded="true" />
+            <element signature="n#span#2;n#div#1;n#div#0;n#div#1;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kayak/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+        <state relative-caret-position="594">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
           <folding>
             <element signature="e#168#267#0#PHP" expanded="true" />
             <element signature="e#278#374#0#PHP" expanded="true" />
             <element signature="e#384#458#0#PHP" expanded="true" />
-            <element signature="e#468#779#0#PHP" expanded="true" />
+            <element signature="e#462#856#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kayak/backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#5#0#PHP" expanded="true" />
+            <element signature="n#tr#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#tr#1;n#table#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="e#1370#1373#0#PHP" expanded="true" />
+            <element signature="e#1420#1423#0#PHP" expanded="true" />
+            <element signature="e#1507#1510#0#PHP" expanded="true" />
+            <element signature="e#1556#1559#0#PHP" expanded="true" />
+            <element signature="n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

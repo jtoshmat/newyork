@@ -786,7 +786,11 @@
                                             <div id="M6tz-origin">
                                                 <div id="M6tz-origin-input-wrapper">
                                                     <div id="M6tz-origin-airport-display" tabindex="0" class="_GH _kQ _b8 _b7 _btL _v _dR _qN _bB- _bBg _bAc _h3 _lZ _bCa _bCb _bBa _H7 _bB7 _bB8 _bB9 _hA _z3 _bB5 _bB6 _bA5 _bCL _np _bCM _bE _bCH _bCI _eIl _l1 _bCJ _bCK _bCD _bCE _bCF _bCG _F4 _Jx _bCC _rD _pG _bC1 _wW _fJ6 selectTextOnFocus _Qw" data-placeholder="From?" aria-label="Flight origin input">
-                                                        <svg class="js-display-icon _pr _b _bua _e _iB _Qo _mm _btT _bJ _bDc" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><use xlink:href="#common-icon-flights-risingjs-display-icon_pr_b_bua_e_iB_Qo_mm_btT_bJ_bDc"></use></svg> <div id="M6tz-origin-airport-display-inner" class="_ej _KE _ht _bDp _F4">New York (NYC)</div>
+                                                        <svg class="js-display-icon _pr _b _bua _e _iB _Qo _mm _btT _bJ _bDc" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><use xlink:href="#common-icon-flights-risingjs-display-icon_pr_b_bua_e_iB_Qo_mm_btT_bJ_bDc"></use></svg> <div id="M6tz-origin-airport-display-inner" class="_ej _KE _ht _bDp _F4">
+
+                                                           <input name="from_city" placeholder="From City">
+
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <input id="M6tz-origin-code" type="hidden" autocomplete="off" name="origincode" value="NYC/15830">
@@ -801,7 +805,11 @@
                                         <div id="M6tz-destination">
                                             <div id="M6tz-destination-input-wrapper">
                                                 <div id="M6tz-destination-airport-display" tabindex="0" class="_GH _kQ _b8 _b7 _btL _v _dR _qN _bB- _bBg _bAc _h3 _lZ _bCa _bCb _bBa _H7 _bB7 _bB8 _bB9 _hA _z3 _bB5 _bB6 _bA5 _bCl _np _bCm _bCn _bCo _wZ _Ag _bCh _bCi _l1 _bCj _eIm _bCk _cee _Jv _cp _rD _fJ7 _bCp _r0 _bCq _bCr _bCs selectTextOnFocus _Qw" data-placeholder="To?" aria-label="Flight destination input">
-                                                    <svg class="js-display-icon _pr _b _bua _e _iB _Qo _mm _btT _bJ _DK" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><use xlink:href="#common-icon-flights-risingjs-display-icon_pr_b_bua_e_iB_Qo_mm_btT_bJ_DK"></use></svg> <div id="M6tz-destination-airport-display-inner" class="_ej _KE _ht _bDp _F4">Orlando (SFB)</div>
+                                                    <svg class="js-display-icon _pr _b _bua _e _iB _Qo _mm _btT _bJ _DK" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><use xlink:href="#common-icon-flights-risingjs-display-icon_pr_b_bua_e_iB_Qo_mm_btT_bJ_DK"></use></svg> <div id="M6tz-destination-airport-display-inner" class="_ej _KE _ht _bDp _F4">
+
+                                                        <input name="to_city" placeholder="To City">
+
+                                                    </div>
                                                 </div>
                                             </div>
                                             <input id="M6tz-destination-code" type="hidden" autocomplete="off" name="destinationcode" value="SFB/9900">
@@ -812,7 +820,11 @@
                                             <div id="M6tz-dateRangeInput-display-start" class="_bd _wj _s _qM _btC _btI _btF _btG _btK _v">
                                                 <div class="_s _v _xc _z">
                                                     <svg class="cal _pr _e _iB _Eu _mm _btT" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><use xlink:href="#common-icon-calendarcal_pr_e_iB_Eu_mm_btT"></use></svg> <div class="startDate _ej _btL _KE _dN _x4 _ht _Qw">
-                                                        <div id="M6tz-dateRangeInput-display-start-inner" data-placeholder="Depart" class="_Qw">Fri 5/31</div>
+                                                        <div id="M6tz-dateRangeInput-display-start-inner" data-placeholder="Depart" class="_Qw">
+
+                                                            <input name="from_date" type="datetime-local">
+
+                                                        </div>
                                                         <div id="M6tz-dateRangeInput-start-flex" class="_b _b8 _b7 _iB _x _ht _bM _eE _H8"></div>
                                                     </div>
                                                 </div>
@@ -825,7 +837,12 @@
                                             <div id="M6tz-dateRangeInput-display-end" class="_bd _wj _s _qM _btC _btI _btF _btG js-date-end _v" data-placeholder="Return">
                                                 <div class="_s _v _xc _z">
                                                     <svg class="_pr _e _iB _Eu _mm _btT" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="currentColor"><use xlink:href="#common-icon-calendar_pr_e_iB_Eu_mm_btT"></use></svg> <div class="_ej _btL _KE _dN _x4 _ht _Qw">
-                                                        <div id="M6tz-dateRangeInput-display-end-inner" data-placeholder="Return" class="_Qw">Sat 6/8</div>
+                                                        <div id="M6tz-dateRangeInput-display-end-inner" data-placeholder="Return" class="_Qw">
+
+                                                            <input name="to_date" placeholder="TO DATE" type="datetime-local">
+
+
+                                                        </div>
                                                         <div id="M6tz-dateRangeInput-end-flex" class="_b _b8 _b7 _iB _x _ht _bM _eE _H8"></div>
                                                     </div>
                                                 </div>
@@ -902,7 +919,31 @@ Compare vs. KAYAK </span>
 <button id="M6tz-compareTo-noneLink" class="control Button-No-Standard-Style _a _eX _d9O" aria-label="Disable results comparison for this search">none</button>
 </span>
                                 </div>
-                                <div id="M6tz-compareTo-checkbox-row" class="items _gM _v" role="row" aria-labelledby="M6tz-compareTo-main-label"><span class="_o7 _lZ _N _H7 _Ug _Uf _Uh _Uo _Un _Uq _Up _cA _Us _Ur _Uu _Ut _Su _bd _a _jn _nq _gL _ht _hz _v _hA _cb _hL _y- _wL _zb _hO _Ox _hS _hV _y7 _R7 item   _d9Q _d9R _d9S _jb _d9T _Ip " role="checkbox" aria-checked="false" data-code="COAFDUSdomPrecheck_US_FFDCMP2" tabindex="0">CheapOair</span><span class="_o7 _lZ _N _H7 _Ug _Uf _Uh _Uo _Un _Uq _Up _cA _Us _Ur _Uu _Ut _Su _bd _a _jn _nq _gL _ht _hz _v _hA _cb _hL _y- _wL _zb _hO _Ox _hS _hV _y7 _R7 item  _d9Q _d9R _d9S _T7 _d9T _Ii  " role="checkbox" aria-checked="true" data-code="EXPEDIADOMESTIC_US_FDCMP2" tabindex="0">Expedia</span><span class="_o7 _lZ _N _H7 _Ug _Uf _Uh _Uo _Un _Uq _Up _cA _Us _Ur _Uu _Ut _Su _bd _a _jn _nq _gL _ht _hz _v _hA _cb _hL _y- _wL _zb _hO _Ox _hS _hV _y7 _R7 item  _d9Q _d9R _d9S _T7 _d9T _Ii  " role="checkbox" aria-checked="true" data-code="PRICELINEUNCHECKB2_US_FFDCMP2" tabindex="0">Priceline</span><span class="_o7 _lZ _N _H7 _Ug _Uf _Uh _Uo _Un _Uq _Up _cA _Us _Ur _Uu _Ut _Su _bd _a _jn _nq _gL _ht _hz _v _hA _cb _hL _y- _wL _zb _hO _Ox _hS _hV _y7 _R7 item  _d9Q _d9R _d9S _T7 _d9T _Ii  " role="checkbox" aria-checked="true" data-code="JustFlyTier1_US_FFDCMP2" tabindex="0">JustFly</span></div>
+                                <div id="M6tz-compareTo-checkbox-row" class="items _gM _v" role="row" aria-labelledby="M6tz-compareTo-main-label">
+
+
+
+
+                                    <span role="checkbox" aria-checked="true" data-code="EXPEDIADOMESTIC_US_FDCMP2" tabindex="0">
+
+                                        Expedia: <input value="expedia" type="checkbox" name="partners[]">
+
+                                    </span>
+
+                                    &nbsp; &nbsp; &nbsp; &nbsp;
+
+
+                                    <span  role="checkbox" aria-checked="true" data-code="PRICELINEUNCHECKB2_US_FFDCMP2" tabindex="0">
+
+                                         Priceline: <input value="priceline" type="checkbox" name="partners[]">
+
+
+                                    </span>
+
+
+
+
+                                </div>
                             </div>
                         </div>
                     </div>
