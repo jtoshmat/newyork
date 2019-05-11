@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- saved from url=(0053)https://cdn.flashtalking.com/89884/2504810/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style></style><script>(function(){function xvNMw() {
+  //<![CDATA[
+  window.NhGjOFw = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.feoufxX = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+  
+  if (!['http:', 'https:'].includes(window.location.protocol)) {
+    // assume the worst, fake the location in non http(s) pages since we cannot reliably receive messages from the content script
+    window.lURLq = true;
+    window.crMOV = 38.883333;
+    window.XNGRf = -77.000;
+  }
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.lURLq !== 'undefined')) {
+      if (window.lURLq === true) {
+        window.PZikckC({
+          coords: {
+            latitude: window.crMOV,
+            longitude: window.XNGRf,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.NhGjOFw(window.PZikckC, window.sltvoLX, window.KxIHu);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.lURLq !== 'undefined')) {
+      if (window.lURLq === true) {
+        navigator.getCurrentPosition(window.BvbOlVQ, window.PmAYUqs, window.Uaxzd);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.feoufxX(window.BvbOlVQ, window.PmAYUqs, window.Uaxzd);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.PZikckC = successCallback;
+    window.sltvoLX = errorCallback;
+    window.KxIHu = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.BvbOlVQ = successCallback;
+    window.PmAYUqs = errorCallback;
+    window.Uaxzd = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${xvNMw}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  Object.freeze(navigator.geolocation);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'iIBoNBK':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.crMOV = message.info.coords.lat;
+          window.XNGRf = message.info.coords.lon;
+          window.lURLq = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}xvNMw();})()</script>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>IHG 300x250</title>
+    <link rel="stylesheet" href="./style.css">
+<script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script><style>@font-face{    
+	font-family: amsipro-xlight-webfont;    
+	src: url('https://cdn.flashtalking.com/89884/assets/amsipro-xlight-webfont.woff') format('woff');
+}</style><style>@font-face{    
+	font-family: amsipro-black-webfont;    
+	src: url('https://cdn.flashtalking.com/89884/assets/amsipro-black-webfont.woff') format('woff');
+}</style><style type="text/css">.c1-ui-state-hover {background-color:yellow !important; padding:5px !important }</style></head>
+
+<body>
+    <div id="main" class="main" style="visibility: visible;">
+        <div id="bg" class="bg">
+            <img id="bgImage" src="./bgImage_HIEX_BaconandEggs_300x250.jpg" alt="background" width="300" height="250">
+        </div>
+        <div id="brandColor" class="brandColor" style="background-color: rgb(0, 45, 115); opacity: 1;">
+            <div class="conthead">
+                <div id="headline1" class="headlines flexDiv moveIn moveOut" style="color: rgb(155, 203, 235); font-family: amsipro-xlight-webfont;">
+                    <span id="headline1Txt">NOTHING BEATS<br>A HOT, FRESH BREAKFAST.</span>
+                </div>
+                <div id="headline1_sub" class="subHeadlines moveIn moveOut" style="color: rgb(155, 203, 235); font-family: amsipro-black-webfont;"></div>
+            </div>
+            <div class="conthead">
+                <div id="headline2" class="headlines flexDiv moveIn" style="color: rgb(155, 203, 235); font-family: amsipro-xlight-webfont;">
+                    <span id="headline2Txt">EXCEPT WHEN <span style="font-family:amsipro-black-webfont; color:#e35205">IT'S A FREE</span><br>HOT, FRESH BREAKFAST.</span>
+                </div>
+                <div id="headline2_sub" class="subHeadlines moveIn" style="color: rgb(155, 203, 235); font-family: amsipro-black-webfont;"></div>
+            </div>
+        </div>
+        <div id="finalBrandColor" class="finalBrandColor scaleDown" style="background-color: rgb(0, 45, 115);">
+            <div id="headline3" class="headline3 moveIn" style="font-family: amsipro-xlight-webfont; color: rgb(155, 203, 235);"><div style="margin-top:-20px;">BOOK EARLY<br>AND SAVE<br>UP TO 15%*<br>ON YOUR STAY</div></div>
+            <div id="headline3_sub" class="headline3_sub moveIn" style="font-family: amsipro-xlight-webfont; color: rgb(155, 203, 235);"></div>
+            <div id="headline3_legal" class="headline3_legal" style="font-family: amsipro-xlight-webfont; color: rgb(155, 203, 235); opacity: 1;">*Terms Apply</div>
+        </div>
+        <div id="bottomBar" class="bottomBar"></div>
+        <div id="logo1" class="logo">
+            <img id="logoImage1" src="./logo_left.png" alt="logo" width="300" height="250">
+        </div>
+        <div id="logo2" class="logo">
+            <img id="logoImage2" src="./logo2_right.png" alt="logo" width="300" height="250">
+        </div>
+        <div id="cta" class="cta" style="background-color: rgb(227, 82, 5); top: 194px; left: 103px; color: rgb(255, 255, 255);">
+            <p id="ctaText">BOOK NOW</p>
+        </div>
+        <div id="exit" class="exit" style="cursor: pointer;"></div>
+        <div id="guide" class="guide"></div>
+    </div>
+    <script src="./html5API.js"></script>
+    <script src="./script.js"></script>
+
+
+
+</body></html>

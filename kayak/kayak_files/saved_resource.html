@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)https://www.kayak.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./ytc.js" async=""></script><script type="text/javascript" async="" src="./f(5).txt"></script><script>(function(){function JFjNq() {
+  //<![CDATA[
+  window.UCIobMG = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.bqhHqhh = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+  
+  if (!['http:', 'https:'].includes(window.location.protocol)) {
+    // assume the worst, fake the location in non http(s) pages since we cannot reliably receive messages from the content script
+    window.AYiUi = true;
+    window.Mvqpe = 38.883333;
+    window.AwgWu = -77.000;
+  }
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.AYiUi !== 'undefined')) {
+      if (window.AYiUi === true) {
+        window.vQsKBin({
+          coords: {
+            latitude: window.Mvqpe,
+            longitude: window.AwgWu,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.UCIobMG(window.vQsKBin, window.dOmNsXK, window.RsCfZ);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.AYiUi !== 'undefined')) {
+      if (window.AYiUi === true) {
+        navigator.getCurrentPosition(window.iLFZSUi, window.NVuuhbU, window.CZeQN);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.bqhHqhh(window.iLFZSUi, window.NVuuhbU, window.CZeQN);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.vQsKBin = successCallback;
+    window.dOmNsXK = errorCallback;
+    window.RsCfZ = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.iLFZSUi = successCallback;
+    window.NVuuhbU = errorCallback;
+    window.CZeQN = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${JFjNq}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  Object.freeze(navigator.geolocation);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'EZQtEmM':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.Mvqpe = message.info.coords.lat;
+          window.AwgWu = message.info.coords.lon;
+          window.AYiUi = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}JFjNq();})()</script>
+    
+    <title>Search Flights, Hotels &amp; Rental Cars | KAYAK</title>
+<script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script><style type="text/css">.c1-ui-state-hover {background-color:yellow !important; padding:5px !important }</style><script src="./f(6).txt"></script></head>
+<body><script type="text/javascript" async="" src="./lidar.js"></script><script src="./f(7).txt"></script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PSCCSHQ"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script async="" src="./gtm.js"></script><script type="text/javascript">
+    function isIframe() {
+        try {
+            return window.self !== window.top;
+        } catch (e) {
+            return true;
+        }
+    }
+
+    if (isIframe()) {
+        var parentDoc = window.parent.document;
+
+        Object.defineProperty(document, "referrer", {
+            get: function () {
+                return parentDoc.referrer;
+            }
+        });
+        if (window.history && window.history.replaceState) {
+            window.history.replaceState("", parentDoc.title, parentDoc.location.href);
+        }
+        document.title = parentDoc.title;
+    }
+
+</script>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','unifiedDataLayer','GTM-PSCCSHQ');</script><iframe height="0" width="0" src="./activityi.html" style="display: none; visibility: hidden;"></iframe>
+
+
+
+<script type="text/javascript" id="">(function(){var event="screenView";var screenId="frontdoor";var vertical="main";var activeVerticals=["flight","hotel","car","package"];if(activeVerticals.indexOf(vertical)===-1)return;var params={};params.locale="en_US";var url="https://fdz.flashtalking.com"+"/services/kayak/FBI565_retargeting/segment.php?"+Object.keys(params).map(function(key){return encodeURIComponent(key)+"\x3d"+encodeURIComponent(params[key])}).join("\x26");var image=new Image;
+image.src=url})();</script>
+<script type="text/javascript" id="">(function(){var f=google_tag_manager["GTM-PSCCSHQ"].macro(115);"undefined"!==typeof f&&function(d,a,b,g,e){d[e]=d[e]||[];d[e].push({projectId:f.projectId,properties:{pixelId:f.pixelId}});var c=a.createElement(b);c.src=g;c.async=!0;c.onload=c.onreadystatechange=function(){var a=this.readyState,c=d[e];if(!a||"complete"==a||"loaded"==a)try{var b=YAHOO.ywa.I13N.fireBeacon;d[e]=[];d[e].push=function(a){b([a])};b(c)}catch(h){}};a=a.getElementsByTagName(b)[0];b=a.parentNode;b.insertBefore(c,a)}(window,document,"script","https://s.yimg.com/wi/ytc.js",
+"dotq")})();</script>
+<script type="text/javascript" id="">var scriptTag=document.createElement("script");scriptTag.src="https://ad.doubleclick.net/ddm/adj/N232003.197812NSO.CODESRV/B10240412.136907051;sz\x3d1x2;ord\x3d"+Math.floor(1E12*Math.random()+1)+";dc_lat\x3d;dc_rdid\x3d;tag_for_child_directed_treatment\x3d?";var insertionNode=document.body.firstChild;insertionNode.parentNode.insertBefore(scriptTag,insertionNode);</script><script type="text/javascript" id="">(function(){var a=new Image;a.src="https://srv.stackadapt.com/rt?sid\x3dVXQoSszalsZwraIZMKGVMQ"})();</script><script type="text/javascript" id="">(function(){var a=new Image;a.src="//bat.bing.com/action/0?ti\x3d5625892\x26Ver\x3d2"})();</script><script type="text/javascript" id="">(function(){var a=["4030466","5117764"];a.forEach(function(b){var a=new Image;a.src="results"===google_tag_manager["GTM-PSCCSHQ"].macro(116)?"//bat.bing.com/action/0?ti\x3d"+b+"\x26Ver\x3d2\x26ec\x3dSearch\x26ea\x3dPageLoad\x26el\x3dResults\x26ev\x3d1":"//bat.bing.com/action/0?ti\x3d"+b+"\x26Ver\x3d2"})})();</script><script type="text/javascript" id="">var image=new Image;image.src="https://www.kayak.com/s/kayakpixel/impression?creativeData\x3dCookieMap\x26size\x3d1\x26rand\x3d"+(Math.floor(9999999*Math.random())+1)+"\x26metadata\x3dVrY6NisJCFznj1SGIXw0S2V50jA";</script> <script type="text/javascript" id="">(function(){var id=google_tag_manager["GTM-PSCCSHQ"].macro(117);var ids=Array.isArray(id)?id:[id];ids.forEach(function(id){var eventName=getEventName();var params=google_tag_manager["GTM-PSCCSHQ"].macro(118)==="main"?getEventParameters("flight",eventName):getEventParameters(google_tag_manager["GTM-PSCCSHQ"].macro(119),eventName);var image=new Image;image.referrerPolicy="no-referrer";image.src="https://www.facebook.com/tr/"+"?id\x3d"+id+"\x26ev\x3d"+encodeURIComponent(eventName)+"\x26"+generateUrlPairsForParams(params)});if(getCustomEventName()!==null)ids.forEach(function(id){var customEventName=
+getCustomEventName();var params=getEventParameters(google_tag_manager["GTM-PSCCSHQ"].macro(120),customEventName);var image=new Image;image.referrerPolicy="no-referrer";image.src="https://www.facebook.com/tr/"+"?id\x3d"+id+"\x26ev\x3d"+encodeURIComponent(customEventName)+"\x26"+generateUrlPairsForParams(params)});function getEventParameters(vertical,eventName){var params={};setUniversalParams(params);setLiftTestParams(params);switch(vertical){case "flight":setFlightParams(eventName,params);break;case "hotel":setHotelParams(eventName,
+params);break;case "car":setCarParams(eventName,params);break;case "packagetour":setPackageParams(eventName,params);break}return params}function getEventName(){if(google_tag_manager["GTM-PSCCSHQ"].macro(121)==="expandDetails")return"ViewContent";else if(google_tag_manager["GTM-PSCCSHQ"].macro(122)==="resultsLoaded")return"SearchCompleted";else if(google_tag_manager["GTM-PSCCSHQ"].macro(123)==="results"&&google_tag_manager["GTM-PSCCSHQ"].macro(124)==="screenView"||google_tag_manager["GTM-PSCCSHQ"].macro(125)==="cfFindDeals")return"Search";else if(google_tag_manager["GTM-PSCCSHQ"].macro(126)==="clickOut")return"InitiateCheckout";else if(google_tag_manager["GTM-PSCCSHQ"].macro(127)===
+"confirmation"||google_tag_manager["GTM-PSCCSHQ"].macro(128)=="cfViewDeal")return"Purchase";else return"PageView"}function getCustomEventName(){if(google_tag_manager["GTM-PSCCSHQ"].macro(129)==="blog"||google_tag_manager["GTM-PSCCSHQ"].macro(130)==="magazine")return"AddToWishlist";return null}function setUniversalParams(params){var searchId=google_tag_manager["GTM-PSCCSHQ"].macro(131);if(typeof searchId!=="undefined")params.order_id=google_tag_manager["GTM-PSCCSHQ"].macro(132);params.content_type=["product"];params.is_logged_in="false";if(typeof google_tag_manager["GTM-PSCCSHQ"].macro(133)!=="undefined"){params.obfuscatedSessionId=
+google_tag_manager["GTM-PSCCSHQ"].macro(134);params.hashedUserId=google_tag_manager["GTM-PSCCSHQ"].macro(135);params.hashedSessionId=google_tag_manager["GTM-PSCCSHQ"].macro(136)}else params.obfuscatedSessionId=google_tag_manager["GTM-PSCCSHQ"].macro(137);params.obfuscatedTrackingCookie=google_tag_manager["GTM-PSCCSHQ"].macro(138);params.event_time=(new Date).getTime();params.locale=google_tag_manager["GTM-PSCCSHQ"].macro(139);params.referrer="intentmedia";params.currency=google_tag_manager["GTM-PSCCSHQ"].macro(140);params.placement=google_tag_manager["GTM-PSCCSHQ"].macro(141);params.brand=google_tag_manager["GTM-PSCCSHQ"].macro(142);params.placement=google_tag_manager["GTM-PSCCSHQ"].macro(143)}function setLiftTestParams(params){var liftTestBucket=
+[];if(typeof google_tag_manager["GTM-PSCCSHQ"].macro(146)!=="undefined")for(var key in google_tag_manager["GTM-PSCCSHQ"].macro(149)){if(key==="74ac32833f")liftTestBucket.push("lift-test-1");if(key==="b51f7d7d6b")liftTestBucket.push("lift-test-2");if(key==="aceb27e931")liftTestBucket.push("lift-test-3");if(key==="f2509541b5")liftTestBucket.push("lift-test-4");if(key.match(/^lift-test-\d+$/))liftTestBucket.push(key)}if(liftTestBucket.length>0)params.liftTestBucket=liftTestBucket}function setFlightParams(eventName,params){if(eventName==="Search"||
+eventName==="InitiateCheckout"||eventName==="Purchase"||eventName==="ViewContent"||eventName==="SearchCompleted")params.content_type=["product"]}function setHotelParams(eventName,params){if(eventName==="Search"||eventName==="InitiateCheckout"||eventName==="Purchase"||eventName==="ViewContent"||eventName==="SearchCompleted")if(eventName==="InitiateCheckout"||eventName==="Purchase"||eventName==="ViewContent")params.content_type=["product"];else params.content_type=["product"]}function setCarParams(eventName,
+params){if(eventName==="Search"||eventName==="InitiateCheckout"||eventName==="Purchase"||eventName==="ViewContent"||eventName==="SearchCompleted")params.content_type=["product"]}function setPackageParams(eventName,params){if(eventName==="Search"||eventName==="InitiateCheckout"||eventName==="Purchase"||eventName==="SearchCompleted")params.content_type=["product"]}function generateUrlPairsForParams(params){var pairs=[];Object.keys(params).forEach(function(name){var value=params[name];if(typeof value!==
+"undefined"&&value!==null&&value.toString().length>0){if(typeof value!=="string"&&typeof value!=="number")value=JSON.stringify(value);pairs.push("cd["+encodeURIComponent(name)+"]\x3d"+encodeURIComponent(value))}});return pairs.join("\x26")}})();</script>
+<script type="text/javascript" id="">if("frontdoor".toLowerCase()==="frontdoor")google_tag_manager["GTM-PSCCSHQ"].macro(150)("//s.amazon-adsystem.com/iui3",["d\x3dforester-did","ex-fargs\x3d%3Fid%3D22761370-53f1-dd8d-0872-fdd94fa0bf75%26type%3D55%26m%3D1","ex-fch\x3d416613","ex-src\x3dkayak.com","ex-hargs\x3dv%3D1.0%3Bc%3D3164205193067%3Bp%3D22761370-53F1-DD8D-0872-FDD94FA0BF75"]);
+if("frontdoor".toLowerCase()==="results")google_tag_manager["GTM-PSCCSHQ"].macro(151)("//s.amazon-adsystem.com/iui3",["d\x3dforester-did","ex-fargs\x3d%3Fid%3D78527f92-75e9-67d6-cbb9-d48aed5c38d1%26type%3D54%26m%3D1","ex-fch\x3d416613","ex-src\x3dkayak.com","ex-hargs\x3dv%3D1.0%3Bc%3D3164205193067%3Bp%3D78527F92-75E9-67D6-CBB9-D48AED5C38D1"]);</script><div style="display: none; visibility: hidden;"><script type="application/javascript">(function(){var b={u1:google_tag_manager["GTM-PSCCSHQ"].macro(152),u2:google_tag_manager["GTM-PSCCSHQ"].macro(153),u3:google_tag_manager["GTM-PSCCSHQ"].macro(154),u4:google_tag_manager["GTM-PSCCSHQ"].macro(155),u5:google_tag_manager["GTM-PSCCSHQ"].macro(156),u6:google_tag_manager["GTM-PSCCSHQ"].macro(157)},a="";switch(google_tag_manager["GTM-PSCCSHQ"].macro(158)){case "main":if("frontdoor"===google_tag_manager["GTM-PSCCSHQ"].macro(159))switch(google_tag_manager["GTM-PSCCSHQ"].macro(161)){case "US":a="99050";break;case "CA":a="99070"}break;case "flight":switch(google_tag_manager["GTM-PSCCSHQ"].macro(162)){case "frontdoor":switch(google_tag_manager["GTM-PSCCSHQ"].macro(164)){case "US":a="99051";break;case "CA":a="99071"}break;case "results":switch(google_tag_manager["GTM-PSCCSHQ"].macro(166)){case "US":a=
+"99055";break;case "CA":a="99075"}break;case "landing":switch(google_tag_manager["GTM-PSCCSHQ"].macro(168)){case "US":a="99059";break;case "CA":a="99079"}break;case "confirmation":a="99067"}break;case "hotel":switch(google_tag_manager["GTM-PSCCSHQ"].macro(169)){case "frontdoor":switch(google_tag_manager["GTM-PSCCSHQ"].macro(171)){case "US":a="99052";break;case "CA":a="99072"}break;case "results":switch(google_tag_manager["GTM-PSCCSHQ"].macro(173)){case "US":a="99056";break;case "CA":a="99076"}break;case "landing":switch(google_tag_manager["GTM-PSCCSHQ"].macro(175)){case "US":a="99060";break;case "CA":a="99080"}break;
+case "confirmation":a="99068"}break;case "car":switch(google_tag_manager["GTM-PSCCSHQ"].macro(176)){case "frontdoor":switch(google_tag_manager["GTM-PSCCSHQ"].macro(178)){case "US":a="99053";break;case "CA":a="99073"}break;case "results":switch(google_tag_manager["GTM-PSCCSHQ"].macro(180)){case "US":a="99057";break;case "CA":a="99077"}break;case "landing":switch(google_tag_manager["GTM-PSCCSHQ"].macro(182)){case "US":a="99061";break;case "CA":a="99081"}break;case "confirmation":a="99069"}break;case "packagetour":switch(google_tag_manager["GTM-PSCCSHQ"].macro(183)){case "frontdoor":switch(google_tag_manager["GTM-PSCCSHQ"].macro(185)){case "US":a=
+"99054";break;case "CA":a="99074"}break;case "results":switch(google_tag_manager["GTM-PSCCSHQ"].macro(187)){case "US":a="99058";break;case "CA":a="99078"}break;case "landing":switch(google_tag_manager["GTM-PSCCSHQ"].macro(189)){case "US":a="99062";break;case "CA":a="99082"}}break;case "explore":switch(google_tag_manager["GTM-PSCCSHQ"].macro(191)){case "US":a="99063";break;case "CA":a="99083"}break;case "blog":a="99064";break;case "marketing":"travelHacker"===google_tag_manager["GTM-PSCCSHQ"].macro(192)&&(a=-1!==google_tag_manager["GTM-PSCCSHQ"].macro(193).indexOf("holidaytravelhacker")?"99066":"99065")}var c=
+"",d=1;for(key in b)"undefined"!==typeof b[key]&&(c+="\x26U"+d+"\x3d"+b[key]),d++;b="https://servedby.flashtalking.com/container/11022;"+a+";10308;iframe/?ftXCurrency\x3dUSD";a=1E6*Math.random();a="\x26cachebuster\x3d"+a;document.write('\x3ciframe style\x3d"position:absolute; visibility:hidden; width:1px; height:1px;" src\x3d"'+b+c+a+'"\x3e\x3c/iframe\x3e')})();</script><iframe style="position:absolute; visibility:hidden; width:1px; height:1px;" src="./saved_resource(2).html"></iframe></div><script type="text/javascript" id="">(function(){var a=3;for(var b=document.createElement("div"),d=b.getElementsByTagName("i");b.innerHTML="\x3c!--[if gt IE "+ ++a+"]\x3e\x3ci\x3e\x3c/i\x3e\x3c![endif]--\x3e",d[0];);a=4<a?a:c;var c=[{eventType:"p",eventName:"",payload:{},domain:document.location.hostname,uri:document.location.pathname,queryString:encodeURIComponent(document.location.search),referrer:encodeURIComponent(document.referrer),windowSize:{width:window.innerWidth,height:window.innerHeight},fullPageType:{vertical:google_tag_manager["GTM-PSCCSHQ"].macro(194),
+pageType:google_tag_manager["GTM-PSCCSHQ"].macro(195),subPageType:google_tag_manager["GTM-PSCCSHQ"].macro(196)},screenName:{vertical:google_tag_manager["GTM-PSCCSHQ"].macro(197),pageType:google_tag_manager["GTM-PSCCSHQ"].macro(198),subPageType:google_tag_manager["GTM-PSCCSHQ"].macro(199)}}];a=9>=a?new XDomainRequest:new XMLHttpRequest;a.open("POST","/s/vestigo/track");a.setRequestHeader("Content-Type","application/json;charset\x3dUTF-8");a.send(JSON.stringify(c))})();</script><script type="application/javascript" id="ywa-1557596897922-650237" class="ywa-10000" defer="" src="./sp.pl.download"></script></body></html>

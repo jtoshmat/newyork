@@ -1,0 +1,21 @@
+
+var ftGUID_3596270="41361C33391518";
+var ftConfID_3596270="12467837";
+var ftParams_3596270="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=www.kayak.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.kayak.com%2F&cachebuster=62343.66135106839";
+var ftKeyword_3596270="";
+var ftCustom_3596270="";
+var ftSection_3596270="";
+var ftSegment_3596270="tg1,w2b,xtx,n7h,um2,tapNYC_SFB";
+var ftSegmentList_3596270=[{s:'tg1'},{s:'w2b'},{s:'xtx'},{s:'n7h'},{s:'um2'},{m:'c1777_priceline',s:'tapNYC_SFB'}];
+var ftRuleMatch_3596270="0";
+var ftTimestamp_3596270="1557597439";
+var ftImp3596270 = {};
+ftImp3596270.privacy = "x";
+ftImp3596270.guidAge = "12";
+ftImp3596270.impID = "67E7304B-9C7E-13DE-5478-81CBF8FF8889";
+ftImp3596270.duid = "FT:41361C33391518";
+
+ftImp3596270.ft_tpplid = "";
+ftImp3596270.ft_c = {};
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/359/3596270/2504816/js/j-3596270-2504816.js" id="ftscript_m3596270" name="ftscript_m3596270"></scr'+'ipt>');

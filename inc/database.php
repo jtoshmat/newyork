@@ -1,5 +1,7 @@
 <?php
 
+    namespace Database;
+
     class database
     {
         public $con;
@@ -13,7 +15,7 @@
             $password = "";
             $dbname = "dbq";
             try {
-                $this->con = new mysqli($servername, $username, $password, $dbname);
+                $this->con = new \mysqli($servername, $username, $password, $dbname);
             }catch(Exception $e) {
                 $this->error = $e->getMessage();
             }
@@ -61,4 +63,4 @@
             }
         }
     }
-    $db = new database();
+    //$db = new database();
