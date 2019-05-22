@@ -1,0 +1,29 @@
+body{
+    background-color: #e0dcd1;
+}
+
+
+#header{
+    font-size: 35px;
+    color: red;
+    text-align: center;
+
+}
+
+#nav ul{
+    width:100%;
+    background-color: #bfb076;
+    height:35px;
+}
+
+#nav ul{
+    background-color: #caba7d;
+    list-style: none;
+}
+
+#nav ul li{
+    float: left;
+    padding:5px;
+    margin:5px;
+    color:green;
+}
