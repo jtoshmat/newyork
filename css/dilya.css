@@ -1,0 +1,60 @@
+/*
+Header starts
+##############################################
+ */
+header{
+    background: #b3d7ff;
+    height: 100px;
+    color: #160e52;
+}
+
+#mylogo{
+    width: 132px;
+    padding-bottom: 10px;
+}
+/*
+Container Starts
+##############################################
+ */
+
+#container{
+    background-color: #8fd19e;
+height: 400px
+}
+
+.one{
+    background-color: #005cbf;
+    width: 33%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.one img{
+    width: 100%;
+    height: 100%;
+}
+.two{
+    background-color: #6f42c1;
+    width: 33%;
+    float: left;
+    height: auto;
+    position: relative;
+}
+
+.three{
+    background-color: #7abaff;
+    width: 33%;
+    float: left;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .two {
+        font-size: 10px;
+    }
+}
+
