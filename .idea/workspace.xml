@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5dd7f8bf-5152-4f45-bb51-8e9275c39cea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dilya/myphp.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/myphp2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,40 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dilya/index.php">
+      <file leaf-file-name="myphp2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dilya/myphp2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-              <folding>
-                <element signature="n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myphp.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dilya/myphp.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="91" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
-              <folding>
-                <element signature="n#style#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#!!top" expanded="true" />
-                <element signature="n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#p#0;n#!!top" expanded="true" />
-                <element signature="n#p#0;n#form#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#table#0;n#!!top" expanded="true" />
-                <element signature="n#table#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#tr#0;n#table#0;n#!!top" expanded="true" />
-                <element signature="e#1316#1321#0#PHP" expanded="true" />
-                <element signature="n#tr#1;n#table#0;n#!!top" expanded="true" />
-                <element signature="e#1438#1441#0#PHP" expanded="true" />
-                <element signature="e#1487#1490#0#PHP" expanded="true" />
-                <element signature="e#1538#1541#0#PHP" expanded="true" />
-                <element signature="e#1589#1592#0#PHP" expanded="true" />
-                <element signature="e#1658#1663#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -88,6 +58,7 @@
         <option value="$PROJECT_DIR$/css/dilya.css" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/dilya/myphp.php" />
+        <option value="$PROJECT_DIR$/dilya/myphp2.php" />
       </list>
     </option>
   </component>
@@ -102,7 +73,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1213" />
+    <option name="width" value="815" />
     <option name="height" value="839" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -121,6 +92,11 @@
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+              <item name="dilya" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
@@ -180,18 +156,18 @@
       <workItem from="1557967268839" duration="5000" />
       <workItem from="1558239031790" duration="3549000" />
       <workItem from="1558725854350" duration="5558000" />
-      <workItem from="1559054766056" duration="3963000" />
+      <workItem from="1559054766056" duration="4718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16078000" />
+    <option name="totallyTimeSpent" value="16833000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1213" height="839" extended-state="0" />
+    <frame x="0" y="23" width="815" height="839" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25192145" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.38163" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
@@ -244,13 +220,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jontoshmatov.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend.php" />
     <entry file="file://$PROJECT_DIR$/table.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -504,23 +473,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dilya/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dilya/myphp.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -542,6 +494,30 @@
             <element signature="e#1589#1592#0#PHP" expanded="true" />
             <element signature="e#1658#1663#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dilya/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="n#p#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dilya/myphp2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
