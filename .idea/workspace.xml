@@ -37,8 +37,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/friday/samarqand.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="45">
               <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+=======
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+>>>>>>> 3e4f8d666182f9906f2b0988b85c7fd51613ce93
             </state>
           </provider>
         </entry>
@@ -64,8 +69,13 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="632" />
     <option name="y" value="23" />
+<<<<<<< HEAD
     <option name="width" value="683" />
     <option name="height" value="728" />
+=======
+    <option name="width" value="709" />
+    <option name="height" value="712" />
+>>>>>>> 3e4f8d666182f9906f2b0988b85c7fd51613ce93
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -130,12 +140,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="9319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="632" y="23" width="683" height="728" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29641184" />
+=======
+    <option name="totallyTimeSpent" value="9169000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="709" height="714" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28485757" />
+>>>>>>> 3e4f8d666182f9906f2b0988b85c7fd51613ce93
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -147,7 +167,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38207546" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.38102895" />
+>>>>>>> 3e4f8d666182f9906f2b0988b85c7fd51613ce93
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32823366" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -235,8 +259,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/friday/samarqand.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="45">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+=======
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+>>>>>>> 3e4f8d666182f9906f2b0988b85c7fd51613ce93
         </state>
       </provider>
     </entry>
