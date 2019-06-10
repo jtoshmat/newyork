@@ -8,14 +8,11 @@
     <title>Welcome to Manchester</title>
 </head>
 <body>
-<div>
-
-</div>
 <div id="container">
     <div id="header">
 
         <div id="header2">
-            <img id="mylogo" src="images/MYULOGO.jpg">
+            <img id="mylogo" src="manchesterlogo.png">
         </div>
 
     </div>
@@ -35,7 +32,7 @@
     </div>
     <div id="slideshow">
         <br>
-        </div>
+        slideshow</div>
     <div>content</div>
 </div>
 
@@ -68,7 +65,7 @@
     }
 
     #mylogo{
-        width: 148px;
+        width: 265px;
         margin-top: 22px;
     }
 
@@ -102,7 +99,7 @@
         width:100%;
         height:428px;
         background-color: #797979;
-        background-image: url('images/manphoto.jpg');
+        background-image: url('manchesterslideshow.jpg');
         background-repeat: no-repeat;
         background-size: 115% 100%;
     }
