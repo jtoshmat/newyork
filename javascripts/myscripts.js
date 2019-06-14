@@ -1,22 +1,51 @@
-//Pure Javascripts
-//document.getElementById("mybox").innerHTML = "Hello JavaScript";
-//document.getElementsByClassName("myp")[0].innerHTML = "HOWDY YO ALL!";
-
-//#######################################################################################//
-
-//JQuery Libraries
-
 $( document ).ready(function() {
-   //alert("HOWDY, I AM A JQUERY!");
-    //console.log("HOWDY, LOOK ME UP/DOWN in the console");
-    //document.writeln("I AM A JS and I LOVE ACTIONS! <hr>");
-    //document.writeln("<br> SOMETIMES I AM FULL OF BLAH BLAH");
+    $("#calc_btn").click(function () {
+        var cur_type1 = $("#cur_type1").val();
+        var cur_type2 = $("#cur_type2").val();
+        var amount = $("#amount").val();
+        if (cur_type1 == cur_type2){
+            alert("Sorry, you must select one of the types different");
+            return false;
+        }
 
+        if (amount==''){
+            alert("Please enter the amount");
+            return false;
+        }
 
-    $("#mybtn").click(function () {
-        $("#mybox img").toggle();
-
+        calculate(cur_type1, cur_type2, amount);
     });
+    function calculate(cur_type1, cur_type2, amount){
+        var usrate = 8500.45;
+        var output = "N/A";
+
+        //USD to UZS
+        if (cur_type1 == 'dollar' && cur_type2 == 'som'){
+            output = "The currency rate:  ";
+            var result = amount * usrate;
+            output += '$'+convert_format(result);
+        }
+
+        //UZS to USD
+
+        if (cur_type1 == 'som' && cur_type2 == 'dollar'){
+            output = "The currency rate:  ";
+            var result = amount / usrate;
+            output += 'UZS '+convert_format(result);
+        }
+
+        $("#output").html(output);
+    }
+/*    $("#amount").change(function () {
+       var amount = $(this).val();
+       var num = convert_format(amount);
+       console.log('num:' + num);
+    });*/
+
+    function convert_format(result) {
+        var num = result.toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+        return num;
+    }
 
 
 });
