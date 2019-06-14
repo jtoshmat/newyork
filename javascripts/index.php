@@ -10,23 +10,23 @@
 </head>
 <body>
 <div id="mybox">
-    <p class="myp">HELLO WORLD!</p>
+    <p class="myp">TURN ON/OFF LIGHT BULB</p>
     <p>
-        <img src="planet.jpg">
+        <img id="mylight" src="pic_bulboff.gif">
     </p>
 </div>
-<button class="btn btn-success" id="mybtn">SHOW PHOTO</button>
+<button class="btn btn-success" id="mybtnon">TURN ON</button>
+<button class="btn btn-success" id="mybtnoff">TURN OFF</button>
 <style>
 #mybox{
+
     background-color: #f9f1b4;
+    background-color: #414141;
     color: #f00;
     border: 1px solid #004085;
     width:100%;
 }
 
-#mybox img{
-    display: none;
-}
 </style>
 <script src="myscripts.js"></script>
 </body>
