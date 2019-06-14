@@ -18,7 +18,7 @@
 <button class="btn btn-success" id="mybtn">SHOW PHOTO</button>
 <style>
 #mybox{
-    background-color: #f1b0b7;
+    background-color: #f9f1b4;
     color: #f00;
     border: 1px solid #004085;
     width:100%;
