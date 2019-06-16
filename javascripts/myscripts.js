@@ -17,6 +17,7 @@ $( document ).ready(function() {
     });
     function calculate(cur_type1, cur_type2, amount){
         var usrate = 8500.45;
+        var mexrate = 19.10
         var output = "N/A";
 
         //USD to UZS
@@ -28,19 +29,29 @@ $( document ).ready(function() {
 
         //UZS to USD
 
-        if (cur_type1 == 'som' && cur_type2 == 'dollar'){
+        if (cur_type1 == 'peso' && cur_type2 == 'dollar'){
             output = "The currency rate:  ";
-            var result = amount / usrate;
+            var result = amount / mexrate;
             output += '$ '+convert_format(result);
         }
 
+        //USD to MXN
+        if (cur_type1 == 'dollar' && cur_type2 == 'peso'){
+            output = "The currency rate:  ";
+            var result = amount * mexrate;
+            output += 'MXN'+convert_format(result);
+        }
+
+
+        if (cur_type1 == 'mexican peso' && cur_type2 == 'dollar'){
+            output = "The currency rate:  ";
+            var result = amount / mexrate;
+            output += '$ '+convert_format(result);
+        }
+
+
         $("#output").html(output);
     }
-/*    $("#amount").change(function () {
-       var amount = $(this).val();
-       var num = convert_format(amount);
-       console.log('num:' + num);
-    });*/
 
     function convert_format(result) {
         var num = result.toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
