@@ -19,6 +19,8 @@
 <button class="btn btn-success" id="mybtnoff">TURN OFF</button>
 <style>
 #mybox{
+
+    background-color: #f9f1b4;
     background-color: #414141;
     color: #f00;
     border: 1px solid #004085;
