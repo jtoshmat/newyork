@@ -36,18 +36,10 @@ $( document ).ready(function() {
 
         $("#output").html(output);
     }
-/*    $("#amount").change(function () {
-       var amount = $(this).val();
-       var num = convert_format(amount);
-       console.log('num:' + num);
-    });*/
-
     function convert_format(result) {
         var num = result.toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
         return num;
     }
-
-
 });
 
 
