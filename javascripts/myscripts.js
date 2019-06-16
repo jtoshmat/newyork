@@ -23,13 +23,13 @@ $( document ).ready(function() {
         if (cur_type1 == 'dollar' && cur_type2 == 'som'){
             output = "The currency rate:  ";
             var result = amount * usrate;
-            output += 'UZS'+convert_format(result);
+            output += 'UZS '+convert_format(result);
         }
 
         //UZS to USD
 
         if (cur_type1 == 'som' && cur_type2 == 'dollar'){
-            output = "The currency rate:  ";
+            output = 'The currency rate:  ';
             var result = amount / usrate;
             output += '$ '+convert_format(result);
         }
