@@ -24,14 +24,20 @@ $( document ).ready(function() {
         if (cur_type1 == 'dollar' && cur_type2 == 'som'){
             output = "The currency rate:  ";
             var result = amount * usrate;
-            output += 'UZS'+convert_format(result);
+            output += 'UZS '+convert_format(result);
         }
 
         //UZS to USD
 
+<<<<<<< HEAD
         if (cur_type1 == 'peso' && cur_type2 == 'dollar'){
             output = "The currency rate:  ";
             var result = amount / mexrate;
+=======
+        if (cur_type1 == 'som' && cur_type2 == 'dollar'){
+            output = 'The currency rate:  ';
+            var result = amount / usrate;
+>>>>>>> e8d91888c5f31586762371266b6995000ac39ebe
             output += '$ '+convert_format(result);
         }
 
@@ -52,13 +58,14 @@ $( document ).ready(function() {
 
         $("#output").html(output);
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e8d91888c5f31586762371266b6995000ac39ebe
     function convert_format(result) {
         var num = result.toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
         return num;
     }
-
-
 });
 
 

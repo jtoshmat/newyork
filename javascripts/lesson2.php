@@ -9,37 +9,33 @@
     <script src="jquery-3.4.1.js" type="text/javascript"></script>
 </head>
 <body>
-<div id="mybox">
+    <div id="mybox">
 
-    <h3>Currency Calculator</h3>
-        <p>From:
-            <select id="cur_type1">
-                <option value="dollar">USD</option>
-                <option value="ruble">RUD</option>
-                <option value="som">UZS</option>
-            </select>
-
-
-            To:
-            <select id="cur_type2">
-                <option value="dollar">USD</option>
-                <option value="ruble">RUD</option>
-                <option value="som">UZS</option>
-            </select>
-
-            <br>
-            <input required="required" id="amount" type="number" name="currency1" placeholder="Currency 1">
-            <button id="calc_btn">Calculate</button>
-        </p>
-
-        <p id="output">
-                Output:
-        </p>
+        <h3>Currency Calculator</h3>
+            <p>From:
+                <select id="cur_type1">
+                    <option value="dollar">USD</option>
+                    <option value="ruble">RUD</option>
+                    <option value="som">UZS</option>
+                </select>
 
 
+                To:
+                <select id="cur_type2">
+                    <option value="dollar">USD</option>
+                    <option value="ruble">RUD</option>
+                    <option value="som">UZS</option>
+                </select>
 
+                <br>
+                <input required="required" id="amount" type="number" name="currency1" placeholder="Currency 1">
+                <button id="calc_btn">Calculate</button>
+            </p>
 
-</div>
+            <p id="output">
+                    Output:
+            </p>
+    </div>
 
 <style>
 #mybox{
