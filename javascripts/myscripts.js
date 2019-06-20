@@ -23,31 +23,23 @@ $( document ).ready(function() {
         if (cur_type1 == 'dollar' && cur_type2 == 'som'){
             output = "The currency rate:  ";
             var result = amount * usrate;
-            output += 'UZS'+convert_format(result);
+            output += 'UZS '+convert_format(result);
         }
 
         //UZS to USD
 
         if (cur_type1 == 'som' && cur_type2 == 'dollar'){
-            output = "The currency rate:  ";
+            output = 'The currency rate:  ';
             var result = amount / usrate;
             output += '$ '+convert_format(result);
         }
 
         $("#output").html(output);
     }
-/*    $("#amount").change(function () {
-       var amount = $(this).val();
-       var num = convert_format(amount);
-       console.log('num:' + num);
-    });*/
-
     function convert_format(result) {
         var num = result.toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
         return num;
     }
-
-
 });
 
 
