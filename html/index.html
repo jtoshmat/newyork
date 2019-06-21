@@ -4,66 +4,31 @@
     <link href="/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
-<h3>Contact Form</h3>
-<div>
-    <form method="post">
-        <p>First Name: <input maxlength="5" name="first_name" type="text"></p>
-        <p>Last Name: <input maxlength="5" name="last_name" type="text"></p>
-        <p><strong>What kind of cars are you interested in? </strong><br>
-            BMW<input type="checkbox" name="bmw" value="BMW">
-            Audi<input type="checkbox" name="audi" value="Audi">
-            Toyota<input type="checkbox" name="toyota" value="toyota">
-        </p>
-        <p>
-            <strong>What kind of car do do you drive? </strong><br>
-            Honda <input type="radio" name="cars" value="Honda">
-            Chrysler <input type="radio" name="cars" value="Chrysler">
-            Huyndai <input type="radio" name="cars" value="Huyndai">
-            Other <input type="radio" name="cars" value="other">
-        </p>
-        <p>
-            <textarea name="biography"></textarea>
-        </p>
-        <p>
-            <strong>Pick your city?</strong><br>
-            <select name="cities">
-                <option value="">Select City</option>
-                <option value="Tashkent">Tashkent</option>
-                <option value="Ferghana">Ferghana</option>
-                <option value="Samarkand">Samarkand</option>
-            </select>
-        </p>
-        <p>
-            <input name="reset" value="Start Over" type="reset">
-            <input name="submit" value="Submit" type="submit">
-        </p>
+
+<div class="container-fluid">
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+
 <style>
-    form {
-        background-color: #1e7fff;
-        border: 1px solid #000;
-        padding-left: 20px;
-        margin: 20px;
+    .container-fluid{
+        background-color: #005cbf;
     }
-
-    form textarea {
-        width: 350px;
-        height: 145px;
-        background-color: #fff3cd;
-        border: 1px solid #000;
-    }
-
-    form p{
-        border-bottom: 2px solid #a1c0e0;
-        padding: 3px;
-    }
-
-    form input {
-        color: #f00;
-        background-color: #fff3cd;
-    }
-
 </style>
+
 </body>
 </html>
