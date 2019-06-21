@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<<<<<<< HEAD
+    <link href="/css">
+=======
+>>>>>>> 90ca4a43df758b599ba84f9546d7041677077d8e
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
+    <title>Document</title>
+</head>
+<body>
+
+=======
     <title>My CSS FORM EXERCISE</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
@@ -28,5 +38,6 @@
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
+>>>>>>> 90ca4a43df758b599ba84f9546d7041677077d8e
 </body>
 </html>
