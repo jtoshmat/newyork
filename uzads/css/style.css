@@ -63,13 +63,44 @@ body {
 ######################################################################################################
  */
 #leftpart{
-    background-color: yellow;
+    background-color: #74caff;
     width: 20%;
     height: auto;
     float: left;
     z-index: 999;
     position: relative;
+    height: 100%;
 }
+
+.quickfind input{
+    border-radius: 20px;
+}
+
+.child{
+    display: none;
+}
+
+.father li{
+    background-color: #f00;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    list-style: none;
+    cursor: pointer;
+}
+.father li{
+    background-color: #721c24;
+    color:#fff;
+}
+
+.father li:hover{
+    background-color: #ff66f2;
+    color: #74caff;
+}
+
+.hidechild{
+    display: none;
+}
+
 /*
 ######################################################################################################
  */
