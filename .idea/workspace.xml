@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzads/css/iphone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzads/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzads/img/gear_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzads/img/help_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzads/img/pc_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzads/img/uztel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzads/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/uzads/navbar.php" afterDir="false" />
+    <list default="true" id="6f7fe2be-f756-4ae7-886d-4c85f546b172" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/1A82E7FC-61D5-4D52-B522-C70383DE0229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/2d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/3d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/4d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/5d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_2537.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_3869.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_5390 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/backphoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/bckphoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/cateye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/classic.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/doll.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/dolleye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/fon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/mega.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/natural.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/openeye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/openeye1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/tweezer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,47 +56,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uzads/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uzads/navbar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uzads/css/iphone.css">
+        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="521">
+              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uzads/css/style.css">
+        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#355#436#0" />
-                <element signature="e#445#553#0" />
-              </folding>
+            <state relative-caret-position="96">
+              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -95,8 +83,19 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>strong</find>
+      <find>Darling Love ya</find>
+      <find>collapse</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Hey Darling Love ya</replace>
+      <replace>Darling Love</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/newyork" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -115,6 +114,8 @@
         <option value="$PROJECT_DIR$/uzads/navbar.php" />
         <option value="$PROJECT_DIR$/uzads/css/style.css" />
         <option value="$PROJECT_DIR$/uzads/css/iphone.css" />
+        <option value="$PROJECT_DIR$/newyork/fabulashik/index.php" />
+        <option value="$PROJECT_DIR$/newyork/fabulashik/css.css" />
       </list>
     </option>
   </component>
@@ -124,45 +125,55 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1441" />
+    <option name="x" value="-9" />
     <option name="y" value="23" />
-    <option name="width" value="844" />
-    <option name="height" value="988" />
+    <option name="width" value="1004" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="uzads" type="462c0819:PsiDirectoryNode" />
+              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="uzads" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fabulashik" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fabulashik" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="img" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -171,11 +182,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.stylelint" value="project" />
-    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="" />
@@ -184,15 +196,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/newyork/fabulashik/img" />
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$/uzads/img" />
       <recent name="$PROJECT_DIR$/uzads" />
       <recent name="$PROJECT_DIR$/uzads/css" />
-      <recent name="$PROJECT_DIR$/foha" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -212,7 +224,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="" />
+      <changelist id="6f7fe2be-f756-4ae7-886d-4c85f546b172" name="Default Changelist" comment="" />
       <created>1556043158221</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -226,17 +238,25 @@
       <workItem from="1556676440663" duration="9115000" />
       <workItem from="1561674041792" duration="2675000" />
       <workItem from="1561678051613" duration="4934000" />
+      <workItem from="1561759319049" duration="138000" />
+      <workItem from="1561759476874" duration="26000" />
+      <workItem from="1561759847409" duration="5815000" />
+      <workItem from="1562008641062" duration="246000" />
+      <workItem from="1562023493614" duration="1138000" />
+      <workItem from="1562533178828" duration="8229000" />
+      <workItem from="1562878390172" duration="7646000" />
+      <workItem from="1563067191602" duration="4755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51199000" />
+    <option name="totallyTimeSpent" value="79447000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1441" y="23" width="844" height="988" extended-state="0" />
+    <frame x="-9" y="23" width="1004" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30299252" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34511435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -258,7 +278,7 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32884902" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27736133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22048193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -270,9 +290,10 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23365785" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.203125" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.36717662" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -286,56 +307,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mstyle.css" />
-    <entry file="file://$PROJECT_DIR$/myitedu.php" />
-    <entry file="file://$PROJECT_DIR$/homework" />
-    <entry file="file://$PROJECT_DIR$/jontoshmatov.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend.php" />
-    <entry file="file://$PROJECT_DIR$/table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fanctions.php" />
-    <entry file="file://$PROJECT_DIR$/homework.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cases.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cookies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/while.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -532,18 +503,6 @@
     <entry file="file://$PROJECT_DIR$/umidagui.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/uzads/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uzads/navbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -566,6 +525,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/IMG_3869.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/IMG_2537.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/dolleye.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/doll.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/classic.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/cateye.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/5d.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/backphoto.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/openeye.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/natural.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/IMG_5390 2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/mega.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/img/openeye1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
         </state>
       </provider>
     </entry>
