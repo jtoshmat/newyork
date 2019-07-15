@@ -1,5 +1,7 @@
 <?php
 
+    namespace Database;
+
     class database
     {
         public $con;
@@ -13,7 +15,7 @@
             $password = "";
             $dbname = "dbq";
             try {
-                $this->con = new mysqli($servername, $username, $password, $dbname);
+                $this->con = new \mysqli($servername, $username, $password, $dbname);
             }catch(Exception $e) {
                 $this->error = $e->getMessage();
             }
@@ -41,6 +43,11 @@
            }
             $con = $this->connect();
             $result = $con->query($sql);
+
+            if(isset($result)){
+                //return [];
+            }
+
             if ($result->num_rows == 0) {
                 $result = null;
                 return [];
@@ -61,4 +68,4 @@
             }
         }
     }
-    $db = new database();
+    //$db = new database();

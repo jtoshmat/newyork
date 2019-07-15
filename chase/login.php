@@ -6,23 +6,15 @@
     <script src="/js/bootstrap.js"></script>
 </head>
 <body>
-
 <?php
     include_once 'header.php';
-
     session_start();
-
     $submit = $_POST['submit']??null;
-
-
-
     if ($submit=='Login') {
         $username = $_POST['username'] ?? null;
         $password = $_POST['password'] ?? null;
         include_once '../inc/database.php';
-
         $user = $db->sql("select * from users where email='$username' and password='$password'");
-
         if(count($user)){
             $_SESSION['is_authorized'] = 'sdfsdfsdf';
             $_SESSION['user'] = $user[0];
@@ -31,9 +23,6 @@
             echo "the user is bad";
         }
     }
-
-
-
 ?>
 <br>
 <h4>Login to your account</h4>
