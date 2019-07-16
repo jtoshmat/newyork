@@ -2,69 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/airports/database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airports/result.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airports/search.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/airports/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dilya/CSS.exercise.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dilya/Css.exercise" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dilya/HTML.exercise" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dilya/HTML.exercise.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dilya/JavaScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dilya/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/submit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/uploadform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/friday/samarqand.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hmloginform/loginform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/brooklynusedcars.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/ezcars.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/img.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/indexm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/murod.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/muzaffar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/myformstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/myscripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hwcar/moshin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/939x427.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/flower.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/jon.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/puppy.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/warning.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wget-log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/cool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/cool.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/jpy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/jpyscripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/jpystyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/lesson2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/murodjon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/myscripts.bk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/myscripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/myweb.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/pic_bulboff.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/pic_bulbon.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/planet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manchester/contactus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manchester/images/MYULOGO.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manchester/images/manphoto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manchester/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manchester/indexbackup.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manchester/manchesterlogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manchester/manchesterslideshow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manchester/table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umida/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chase/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/chase/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/subscribe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/inc/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/database.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,31 +13,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/inc/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+            <state relative-caret-position="276">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
-                <element signature="e#36#1736#1#PHP" expanded="true" />
                 <element signature="e#110#539#0#PHP" expanded="true" />
                 <element signature="e#549#842#0#PHP" expanded="true" />
-                <element signature="e#852#1583#0#PHP" expanded="true" />
-                <element signature="e#1149#1251#0#PHP" />
                 <element signature="e#1593#1730#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="subscribe.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="subscribe.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/forms/subscribe.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+            <state relative-caret-position="1132">
+              <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
               <folding>
+                <element signature="n#html#0;n#!!top" expanded="true" />
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#439#444#0#PHP" expanded="true" />
                 <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#996#1078#0" expanded="true" />
                 <element signature="e#1048#1078#0" expanded="true" />
@@ -137,8 +74,8 @@
         <option value="$PROJECT_DIR$/myitedu.php" />
         <option value="$PROJECT_DIR$/mstyle.css" />
         <option value="$PROJECT_DIR$/condition.php" />
-        <option value="$PROJECT_DIR$/inc/database.php" />
         <option value="$PROJECT_DIR$/forms/subscribe.php" />
+        <option value="$PROJECT_DIR$/inc/database.php" />
       </list>
     </option>
   </component>
@@ -152,6 +89,12 @@
     <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1446" />
+    <option name="y" value="-305" />
+    <option name="width" value="1010" />
+    <option name="height" value="1019" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
   </component>
@@ -212,10 +155,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48755000" />
+    <option name="totallyTimeSpent" value="49004000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1446" y="-305" width="1004" height="1019" extended-state="0" />
+    <frame x="1446" y="-305" width="1010" height="1019" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24948025" />
@@ -227,7 +170,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.34371525" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.34371525" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -564,28 +507,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-          <folding>
-            <element signature="e#36#1736#1#PHP" expanded="true" />
-            <element signature="e#110#539#0#PHP" expanded="true" />
-            <element signature="e#549#842#0#PHP" expanded="true" />
-            <element signature="e#852#1583#0#PHP" expanded="true" />
-            <element signature="e#1149#1251#0#PHP" />
-            <element signature="e#1593#1730#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forms/subscribe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="28" column="63" selection-start-line="28" selection-start-column="63" selection-end-line="28" selection-end-column="63" />
+        <state relative-caret-position="1132">
+          <caret line="89" column="7" lean-forward="true" selection-start-line="89" selection-start-column="7" selection-end-line="89" selection-end-column="7" />
           <folding>
+            <element signature="n#html#0;n#!!top" expanded="true" />
             <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#439#444#0#PHP" expanded="true" />
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#996#1078#0" expanded="true" />
             <element signature="e#1048#1078#0" expanded="true" />
@@ -600,6 +531,18 @@
             <element signature="n#p#2;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#p#0;n#!!top" expanded="true" />
             <element signature="n#p#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#110#539#0#PHP" expanded="true" />
+            <element signature="e#549#842#0#PHP" expanded="true" />
+            <element signature="e#1593#1730#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
