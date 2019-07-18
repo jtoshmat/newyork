@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,38 +16,30 @@
         include_once '../inc/database.php';
         $db = new \Database\database();
         $email = $parms['email'];
-        $remove = $parms['remove']??0;
+        $remove = $parms['remove'] ?? 0;
         $msg = null;
         $class = "alert-success";
         $results = $db->sql("select email from users where email='$email'");
 
-        if(count($results)){
-            if (!$remove){
+        if (count($results)) {
+            if (!$remove) {
                 $msg = "We are sorry, your email already exists in our database";
                 $class = "alert-success";
-            }else{
+            } else {
                 $db->sql("delete from users where email='$email'");
                 $msg = "Your email has been removed successfully";
                 $class = "alert-success";
             }
-        }else{
-            if (!$remove){
+        } else {
+            if (!$remove) {
                 $db->sql("insert into users (email) values('$email')");
                 $msg = "Your email has been added to our database successfully";
                 $class = "alert-success";
-            }else{
+            } else {
                 $msg = "Your email does not exist in our database so no need to unsubscribe";
                 $class = "alert-danger";
             }
         }
-
-
-        #Pseudocode
-        #1: if your email does not exist in our database then we will insert
-        #2: if your email exists and you want to subscribe then we will send a message saying "Your email is already in our database"
-        #3: if your email exists in our database and you want to remove it then we will remove it and send a message saying "Your email has been removed from our database successfully"
-
-
     }
 ?>
 <script>
@@ -68,8 +60,8 @@
 <div class="container">
     <div class="myform">
         <form action="subscribe.php" method="post">
-            <p><h4>Subscribe Our Newsletter</h4></p>
-            <div class="alert <?=$class?>"><?=$msg??null?></div>
+            <p><h4>Subscribe Our Newsletters</h4></p>
+            <div class="alert <?= $class ?>"><?= $msg ?? null ?></div>
 
             <p><label for="email">Your Email Address: </label>
                 <input class="input-group" type="email" placeholder="Your Email Address"
@@ -85,6 +77,5 @@
         </form>
     </div>
 </div>
-
 </body>
 </html>
