@@ -11,10 +11,84 @@
 
 <?php
 
-    $str = "A 'quote' is <b>bold</b>";
+
+    //foreach, for, while, do while
+
+
+
+    $cars = ['bmw','audi','mercedes','mazda','acura'];
+
+
+
+    $x = 0;
+
+    do {
+        echo "The number is: $cars[$x]<br>";
+        $x++;
+    } while ($x > 100);
+
+
+
+
+
+/*    $i=0;
+    $y = 1;
+    while($i<5){
+
+        echo $y.': '.$cars[$i]."<hr>";
+
+        $y++;
+        $i++;
+
+    }*/
+
+
+
+
+/*
+    for ($i=0; $i<count($cars); $i++){
+
+
+        echo $i.': '.$cars[$i]."<hr>";
+
+
+
+    }*/
+
+
+
+    echo "<hr>";
+    echo "<hr>";
+    echo "<hr>";
+
+
+
+    foreach ($cars as $i=>$car){
+$i++;
+
+
+        echo $i.": ".$car."<hr>";
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    $str = "A 'quote' is <b>bold</b>";
 
     // Outputs: A 'quote' is &lt;b&gt;bold&lt;/b&gt;
-    echo htmlentities($str);
+    echo htmlentities($str);*/
 
 
 
