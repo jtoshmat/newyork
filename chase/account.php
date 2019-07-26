@@ -6,25 +6,18 @@
     <script src="/js/bootstrap.js"></script>
 </head>
 <body>
-
 <?php
-    include_once '../inc/header.php';
+    include_once '../in/cheader.php';
     include_once 'auth.php';
 
     $user = $_SESSION['user']??null;
 ?>
-
 <hr>
 <?php
 
     if (isset($user)){
         echo "Welcome ".$user['name']."!";
     }
-
 ?>
-
-
-
-
 </body>
 </html>

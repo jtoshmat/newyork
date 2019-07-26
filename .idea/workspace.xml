@@ -1,10 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b18603f9-e55f-4183-a6a9-86be8ce0e6d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monday/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/monday/monday.png" afterDir="false" />
+    <list default="true" id="0aae47d7-ca26-4696-9802-8d1eb37d2435" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/newyork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/CSS.exercise.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/Css.exercise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/HTML.exercise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/HTML.exercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/JavaScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/datatypes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/dowhile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/echo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/foreach.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/ifelse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/oop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/operators.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/switch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/foha/variables.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/contactus2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/submit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/subscribe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/uploadform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friday/samarqand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gm/cars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gm/moshina.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hmloginform/loginform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/basics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/brooklynusedcars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/ezcars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/indexm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/murod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/muzaffar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/myformstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hwcar/car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hwcar/mah.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hwcar/moshin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ifelse.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/939x427.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/flower.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jontosh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/puppy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wget-log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/cool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/cool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jpy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jpyscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jpystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/lesson2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/murodjon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myscripts.bk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myweb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/pic_bulboff.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/pic_bulbon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/planet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manchester/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manchester/images/MYULOGO.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manchester/images/manphoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manchester/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manchester/indexbackup.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manchester/manchesterlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manchester/manchesterslideshow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manchester/table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mars.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/myindex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/frontend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neptun.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/new.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbackend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/city.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/federal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/state.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saturn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umida/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidagui.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidatemp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chase/account.php" beforeDir="false" afterPath="$PROJECT_DIR$/chase/account.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chase/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/chase/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loops.php" beforeDir="false" afterPath="$PROJECT_DIR$/loops.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monday/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/monday/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/foha/mstyle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myitedu.php" beforeDir="false" afterPath="$PROJECT_DIR$/foha/myitedu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swich.php" beforeDir="false" afterPath="$PROJECT_DIR$/swich.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,26 +122,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/monday/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#602#618#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/monday/monday.png">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/monday/myindex.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="565">
+              <caret line="180" column="7" lean-forward="true" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="7" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -43,8 +144,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/monday/index.php" />
+        <option value="$PROJECT_DIR$/monday/myindex.php" />
       </list>
     </option>
   </component>
@@ -67,52 +168,12 @@
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
               <item name="chase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="dilya" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="foha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="forms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="friday" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="gm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="hwcar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
@@ -128,11 +189,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/monday" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,7 +209,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22224000" />
+    <option name="totallyTimeSpent" value="2316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="710" height="797" extended-state="0" />
@@ -204,69 +260,20 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/api/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms/uploadform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/friday/samarqand.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms/index.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms/style.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms/submit.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms/subscribe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chase/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/monday/monday.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/monday/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="83" column="28" selection-start-line="83" selection-start-column="28" selection-end-line="83" selection-end-column="28" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#602#618#0#HTML" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monday/myindex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="180" column="7" lean-forward="true" selection-start-line="180" selection-start-column="7" selection-end-line="180" selection-end-column="7" />
         </state>
       </provider>
     </entry>
