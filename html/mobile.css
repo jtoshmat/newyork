@@ -1,0 +1,28 @@
+/*Iphone X */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+
+
+
+    form select{
+        background-color: #fff;
+        color: #000;
+    }
+
+}
+
+/*iPhone 5*/
+@media only screen
+and (min-device-width : 220px)
+and (max-device-width : 468px)
+{
+n
+
+    form select{
+        background-color: #fff;
+        color: #000;
+    }
+
+}

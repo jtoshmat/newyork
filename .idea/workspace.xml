@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="19fa0def-a605-4e22-86ac-93e744738814" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/airports/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/CSS.exercise.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/Css.exercise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/HTML.exercise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/HTML.exercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/JavaScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/contactus2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/submit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/subscribe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/uploadform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friday/samarqand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hmloginform/loginform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/basics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/brooklynusedcars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/ezcars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/indexm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/murod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/muzaffar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/myformstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hwcar/moshin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/939x427.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/flower.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jontosh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/puppy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wget-log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/cool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/cool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jpy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jpyscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jpystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/lesson2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/murodjon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myscripts.bk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myweb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/pic_bulboff.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/pic_bulbon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/planet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sisinho.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sisinho.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/monday.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/frontend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chase/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/chase/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Unnamed">
+      <favorite_root url="file://$PROJECT_DIR$/inc" module="myproject" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/inc/header.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/inc/database.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/uzads/sukhrob/SUKHROB.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascripts/sisinho.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascripts/sisinho.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>media</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/myjob/lesson1.html" />
+        <option value="$PROJECT_DIR$/myjob/lessoncss.css" />
+        <option value="$PROJECT_DIR$/myjob/lesson1.php" />
+        <option value="$PROJECT_DIR$/uzads/index.php" />
+        <option value="$PROJECT_DIR$/uzads/css/style.css" />
+        <option value="$PROJECT_DIR$/uzads/sukhrob/css/sukhrob.css" />
+        <option value="$PROJECT_DIR$/uzads/sukhrob/sukhrob.php" />
+        <option value="$PROJECT_DIR$/javascripts/sukhrob.php" />
+        <option value="$PROJECT_DIR$/javascripts/sukhrob.js" />
+        <option value="$PROJECT_DIR$/javascripts/sisinho.php" />
+        <option value="$PROJECT_DIR$/javascripts/sisinho.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="726" />
+    <option name="height" value="809" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/uzads/sukhrob/img" />
+      <recent name="$PROJECT_DIR$/uzads/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/uzads/sukhrob/img" />
+      <recent name="$PROJECT_DIR$/myjob/logo" />
+      <recent name="$PROJECT_DIR$/myjob" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="19fa0def-a605-4e22-86ac-93e744738814" name="Default Changelist" comment="" />
+      <created>1562792191450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562792191450</updated>
+      <workItem from="1562792196269" duration="7000" />
+      <workItem from="1562803799285" duration="13000" />
+      <workItem from="1562806023274" duration="4273000" />
+      <workItem from="1562881191875" duration="3566000" />
+      <workItem from="1562886463971" duration="5488000" />
+      <workItem from="1563734337415" duration="4902000" />
+      <workItem from="1563743863384" duration="12004000" />
+      <workItem from="1564586046778" duration="5830000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="41513000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="726" height="809" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04385965" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36820084" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.7218359" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32775453" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.36717662" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32884902" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27736133" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23365785" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32884902" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/Sukhrob.html" />
+    <entry file="file://$PROJECT_DIR$/myjob/lesson1.html" />
+    <entry file="file://$PROJECT_DIR$/myjob/lesson1.php" />
+    <entry file="file://$PROJECT_DIR$/uzads/css/iphone.css" />
+    <entry file="file://$PROJECT_DIR$/myjob/file.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myjob/lessoncss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/navbar.php" />
+    <entry file="file://$PROJECT_DIR$/myjob/logo/leftlogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/index.php" />
+    <entry file="file://$PROJECT_DIR$/uzads/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/uzads/sukhrob/img/leftlogo.png" />
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="555" selection-start-line="555" selection-end-line="577" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/sukhrob/css/sukhrob.css" />
+    <entry file="file://$PROJECT_DIR$/uzads/sukhrob/sukhrob.php" />
+    <entry file="file://$PROJECT_DIR$/javascripts/sukhrob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="7" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/sukhrob.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/sisinho.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/sisinho.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
