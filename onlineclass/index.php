@@ -11,12 +11,8 @@
     <script src="js/myscripts.js" type="text/javascript"></script>
 </head>
 <body>
-
-
 <div class="container-fluid">
-
     <div class="myheader">
-
         <div class="mysearch">
             <form class="myform">
                 <p><input class="input-group myinputs">
@@ -24,25 +20,16 @@
                 </p>
             </form>
         </div>
-
-
         <div class="mybuttons">
             <a href="http://google.com">MOBILE</a>
             <a href="http://google.com">DESKTOP</a>
         </div>
     </div>
-
-
-    <div class="myemptybox">
-
-    </div>
-
+    <div class="myemptybox"></div>
     <div class="mycontent">
-
         <div class="myimgbox">
             <img src="img/percent_cirle.png">
         </div>
-
         <div class="mydescbox">
             <p>http://example.com</p>
             <p>The speed score is based on the lab kbkj</p>
@@ -53,13 +40,37 @@
                 into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
                 release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
                 software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <hr>
+
+            <p>
+                unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+            </p>
+
+
+            <div class="leftbox">
+                <p class="mystrongp">Left Col explanation</p>
+                <div class="mybox box1">75%</div>
+                <div class="mybox box2">15%</div>
+                <div class="mybox box3">10%</div>
+            </div>
+
+            <div class="rightbox">
+                <p class="mystrongp">Right Col explanation</p>
+                <div class="mybox box4">10%</div>
+                <div class="mybox box5">55%</div>
+                <div class="mybox box6">35%</div>
+
+
+            </div>
+
+            <p>
+                <img class="living_room_img" src="/img/living_room.jpeg">
+            </p>
+
+
         </div>
 
-
     </div>
-
-
 </div>
-
 </body>
 </html>
