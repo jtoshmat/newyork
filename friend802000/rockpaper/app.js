@@ -28,10 +28,18 @@ function win(userChoice, computerChoice) {
 }
 
 function lose() {
+    userScore++;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    result_p.innerHTML = convertToword(userChoice) + " beats " + convertToword(computerChoice) + ". You lose!";
 
 }
 
 function draw() {
+    userScore++;
+    userScore_span.innerHTML = userScore;
+    computerScore_span.innerHTML = computerScore;
+    result_p.innerHTML = convertToword(userChoice) + " beats " + convertToword(computerChoice) + ". Draw!";
 
 }
 
