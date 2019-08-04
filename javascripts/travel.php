@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <title>Travel</title>
+</head>
+<body>
+
+<div class="container">
+    <form>
+        <h3>TRAVEL PACKAGE</h3>
+        <p>Select Destination:
+            <select class="custom-select" id="myselect">
+                <option value="">Select your Destination</option>
+                <option value="samarkand">Samarkand, Uzbekistan</option>
+                <option value="cancun">Cancun, Mexico</option>
+                <option value="miami">Miami, Florida</option>
+                <option value="maldives">Maldives</option>
+                <option value="tashkent">Tashkent, Uzbekistan</option>
+            </select>
+        </p>
+        <br>
+        <div id="mybox">
+            <div id="photos">
+                <img src="https://www.advantour.com/img/uzbekistan/samarkand/samarkand.jpg">
+                <img src="https://img.veenaworld.com/group-tours/world/europe/euta/euta-bnn-1.jpg">
+            </div>
+
+
+            <div id="description">
+                Samarkand is situated in the valley of the river Zerafshan. It is the second largest city of Uzbekistan
+                and is of the same age as the city of Babylon or Rome.
+                The history of Samarkand is about 2,750 years old and has witnessed many upheavals during the times of
+                Alexander the Great, the Arabic Conquest, Genghis-Khan Conquest and lastly Tamerlane's. Hence, the
+                culture of Samarkand was developed and mixed together with the Iranian, Indian, Mongolian and a bit of
+                the Western and Eastern cultures.
+                Today Samarkand is the treasure of unique antiquity spirit. It is included in the UNESCO World Heritage
+                List due to the abundance of material and spiritual values. Unique monuments of ancient architecture,
+                heritage of scientific and arts schools, artisans workshops are well-known around the world.
+            </div>
+        </div>
+    </form>
+
+
+</div>
+<div class="container" id="mymessage"></div>
+
+
+<style>
+    #mymessage {
+        background-color: #e6ca12;
+        padding: 5px;
+        border-top: 3px solid black;
+        text-align: center;
+        display: none;
+        cursor: pointer;
+    }
+    #mybox{
+        background-color: #758fff;
+        width: 100%;
+        height: 500px;
+        display: none;
+    }
+    .container {
+        background-color: #758fff;
+    }
+    #photos{
+        width: 49%;
+        float: left;
+        margin-right: 5px;
+    }
+
+    #photos img {
+        width: 100%;
+        height: 200px;
+        border: 1px solid black;
+        margin-bottom: 5px;
+    }
+
+    #description {
+        width: 49%;
+        float: left;
+        color: #fff;
+
+    }
+
+
+</style>
+
+<script>
+    $(function () {
+        $("#myselect").change(function () {
+            var destination = $(this).val();
+            change_content(destination);
+        });
+
+    });
+    $("#mymessage").click(function () {
+        document.location = "https://en.wikipedia.org/wiki/Samarkand";
+
+    });
+    $("#mymessage1").click(function () {
+        document.location = "https://en.wikipedia.org/wiki/Cancun";
+    });
+    $("#mymessage2").click(function () {
+        document.location = "https://en.wikipedia.org/wiki/Miami";
+    });
+    $("#mymessage3").click(function () {
+        document.location = "https://en.wikipedia.org/wiki/Maldives";
+    });
+    $("#mymessage4").click(function () {
+        document.location = "https://en.wikipedia.org/wiki/Tashkent";
+    });
+
+
+    function change_content(destination) {
+
+        var city = destination.toUpperCase();
+        var welcome_message = "<h1>Welcome to "+city +"! </h1><br>";
+
+        switch (destination) {
+            case 'samarkand' :
+                // $("photos img").eq(0).attr('src','https://www.advantour.com/img/uzbekistan/samarkand/samarkand.jpg');
+                $("photos img").eq(1).attr('src','https://img.veenaworld.com/group-tours/world/europe/euta/euta-bnn-1.jpg');
+                $("#description").html(welcome_message + "Samarkand is situated in the valley of the river Zerafshan. It is the second largest city of Uzbekistan\n" +
+                    "                and is of the same age as the city of Babylon or Rome.\n" +
+                    "                The history of Samarkand is about 2,750 years old and has witnessed many upheavals during the times of\n" +
+                    "                Alexander the Great, the Arabic Conquest, Genghis-Khan Conquest and lastly Tamerlane's. Hence, the\n" +
+                    "                culture of Samarkand was developed and mixed together with the Iranian, Indian, Mongolian and a bit of\n" +
+                    "                the Western and Eastern cultures.\n" +
+                    "                Today Samarkand is the treasure of unique antiquity spirit. It is included in the UNESCO World Heritage\n" +
+                    "                List due to the abundance of material and spiritual values. Unique monuments of ancient architecture,\n" +
+                    "                heritage of scientific and arts schools, artisans workshops are well-known around the world.");
+                $("#mymessage").delay(8000).fadeIn(400).html("Please click here to learn more about Samarkand!");
+                break;
+
+            case 'cancun' :
+                $("photos img").eq(2).attr('src','https://s-ec.bstatic.com/images/hotel/max1024x768/173/173333316.jpg');
+                $("photos img").eq(1).attr('src','https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Cancun001.JPG/2560px-Cancun001.JPG');
+                $("#description").html(welcome_message + "Mayan-inspired megaresort on Cancún’s widest beach, with all-inclusive dining, four pools and a nine-hole golf course\n" +
+                    "The Look\n" +
+                    "In the middle of Cancún’s widest beach, a row of modern pyramids look out over the Caribbean and the Nichupte Lagoon. Although it’s massive and cast in " +
+                    "concrete, the resort’s Mayan inspiration makes it a striking element of the Hotel Zone beachfront. Inside, an $8 million renovation completed in 2012 has " +
+                    "refreshed the restaurants and bars with bold, contemporary looks. By day the setting is tropical: Huge skylights brighten the foyer in each pyramid, and vines" +
+                    " cascade over nine stories of balconies. By night, red and purple lights transform the common areas into a club-worthy scene.");
+                $("#mymessage1").delay(8000).fadeIn(400).html("Please click here to learn more about Cancun!");
+                break;
+
+            case 'miami' :
+                $("photos img").eq(0).attr('src','https://cdn.thecrazytourist.com/wp-content/uploads/2016/05/Miami-Beach-1024x655.jpg');
+                $("photos img").eq(1).attr('src','http://biginexcursions.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/i/miami_beach_airplane.jpg');
+                $("#description").html(welcome_message + "Miami does not really need an introduction. It is well known across the globe for its " +
+                    "glitz and glamor and its beaches and sunny weather. Miami is a city that will capture you with its dazzling glamor and hold you in its spell. The beauty of " +
+                    "the city’s nature will also steal your heart from Biscayne Bay and the clear blue South Florida skies.\n" +
+                    "\n" +
+                    "Miami is glamor first and foremost but spend a little time here and dig a little deeper to see what is under the surface. " +
+                    "Or simply go with the flow and indulge in the glamor in true Miami style.");
+                    $("#mymessage2").delay(8000).fadeIn(400).html("Please click here to learn more about Miami!");
+                break;
+
+            case 'maldives' :
+                $("photos img").eq(0).attr('src','https://pbs.twimg.com/media/DMQN0SXUMAEWPYB.jpg');
+                $("photos img").eq(1).attr('src','https://www.arenatours.com/wp-content/uploads/2016/11/meeru-island-resort-and-spa-maldives-8.jpg');
+                $("#description").html(welcome_message + "Settle in this unparalleled beauty in Maldives as these gorgeous sunset water suites offers " +
+                    "you tranquillity in the heart of the Indian Ocean. Spend the holidays in complete serenity making unforgettable memories with your " +
+                    "loved ones beside you. The Sunset Water Suites at Lily Beach Resort and Spa offers luxury and five star experience and is a heaven on" +
+                    " earth for both ocean and sunset lovers. Let your eyes enjoy what they see in and around these Sunset Water Suites and get the pleasurable " +
+                    "experience of waking up in this heavenly paradise.");
+                    $("#mymessage3").delay(8000).fadeIn(400).html("Please click here to learn more about Maldives Island!");
+                break;
+
+            case 'tashkent' :
+                $("photos img").eq(0).attr('src','https://dolorestravel.com/wp-content/uploads/2016/12/mytashkent.jpg');
+                $("photos img").eq(1).attr('src','http://hilaltravel.uz/images/sampledata/17-02-2018-09.jpg');
+                $("#description").html(welcome_message + "Tashkent, the capital of Uzbekistan, is the largest city in Central Asia with regard to area and population. Its history stretches back more than 2200 years.\n" +
+                    "\n" +
+                    "The city was called as Chach, Shash, Shashkent, and Binkat. After the conquest of the Arab Muslims in the 7th century, the city was renamed Madinat ash-Shash.\n" +
+                    "\n" +
+                    "A large number of mosques, madrasahs and historical shrines survive to this day and still serve as places of worship and religious education.\n" +
+                    "\n" +
+                    "A wide range of great scholars lived here, including Khoja Akhrar Vali, Sheikh Umar Baghistani, Abu Bakr Qaffal Shashi, Abu Sulaiman Banakati, and Hafiz Kuhaki.\n" +
+                    "\n" +
+                    "The Islamic Educational, Scientific and Cultural Organization (ISESCO), one of the OIC specialized institutions, announced Tashkent a capital of the Islamic culture in 2007.");
+                    $("#mymessage4").delay(8000).fadeIn(400).html("Please click here to learn more about Tashkent!");
+                break;
+        }
+        $("#mybox").fadeIn("slow");
+
+    }
+
+
+
+</script>
+
+</body>
+</html>
