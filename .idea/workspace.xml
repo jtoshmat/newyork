@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/howdy/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineclass/monday.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/onlineclass/monday2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/jon.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/lola.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/myobject.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/soliha.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/card.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/img/icon_box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/img/icon_fingerprint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/img/icon_help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/img/icon_whatever.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/img/img_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/landing.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blank.php" beforeDir="false" afterPath="$PROJECT_DIR$/blank.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascripts/travel.php" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/travel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/muhamad1999/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/muhamad1999/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,14 +34,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/muhamad1999" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/muhamad1999/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/muhamad1999" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -84,7 +85,8 @@
       <workItem from="1564950964352" duration="1251000" />
       <workItem from="1564952259218" duration="7812000" />
       <workItem from="1565024744945" duration="4988000" />
-      <workItem from="1565040411023" duration="3885000" />
+      <workItem from="1565040411023" duration="4215000" />
+      <workItem from="1565100440610" duration="4141000" />
     </task>
     <servers />
   </component>
