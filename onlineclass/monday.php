@@ -12,12 +12,17 @@
 <body>
 
 <div class="container">
-    <div id="mybox">
-        My BOX
+    <div class="mybox myboxtop">
+        This is a <strong>text</strong> in the top Box
     </div>
+
+    <div class="mybox myboxbottom">
+        This is a text in the bottom Box
+    </div>
+
     <div id="buttons">
-        <button class="btn btn-primary" id="btnleft">Left</button>
-        <button class="btn btn-danger" id="btnright">Right</button>
+        <button id="reset" class="btn btn-danger" id="btnleft">Reset</button>
+        <button id="copy" class="btn btn-primary" id="btnleft">Copy</button>
     </div>
 </div>
 
@@ -32,10 +37,18 @@
         text-align: center;
     }
 
-    #mybox{
-        width:300px;
-        height:300px;
-        background-color: #0f6674;
+    .mybox{
+        width:150px;
+        height:150px;
+        background-color: #ffe671;
+        margin: auto;
+        position: relative;
+    }
+
+    .mybox:first-child{
+        width:150px;
+        height:150px;
+        background-color: #e23f82;
         margin: auto;
         position: relative;
     }
@@ -45,20 +58,20 @@
 <script>
 
     $(function () {
-        $("#btnright").click(function(){
-            $("#mybox").animate({top: "250px"});
-            $("#mybox").animate({left: "100%"});
-            $("#mybox").animate({left: "0%"});
-            $("#mybox").animate({top: "0"});
-            $("#mybox").animate({top: "200px"});
+        $("#copy").click(function(){
+            //get
+            var topboxtext = $(".myboxtop").html();
+            var bottomboxtext = $(".myboxbottom").html();
+
+            //set
+            $(".myboxbottom").html(bottomboxtext + topboxtext);
+
         });
-        $("#btnleft").click(function(){
-            $("#mybox").animate({top: "250px"});
-            $("#mybox").animate({left: "-100%"});
-            $("#mybox").animate({left: "0%"});
-            $("#mybox").animate({top: "0"});
-            $("#mybox").animate({top: "200px"});
+
+        $("#reset").click(function(){
+            $(".myboxbottom").html('This is a text in the bottom Box');
         });
+
     });
 
 

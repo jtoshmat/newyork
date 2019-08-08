@@ -15,6 +15,21 @@ $(function () {
         $(".names").html('Alex Johnson');
         $(".myimg").css("border","1px solid #000");
         $(".myimg").attr('src','https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg');
+
+        var ask = prompt("Hey Alex, what year were you born in?");
+        if (ask){
+            var age = 2019 - ask;
+            alert("Alex, you are "+ age+ " years of old");
+        }
+
+        var ask2 = confirm("Have you heard about Uzbekistan?");
+
+        if (ask2){
+            alert("Wow, you must be a world traveler");
+        }else{
+            alert("Uzbekistan is a great travel destination, you should travel there");
+        }
+
     });
 
     $(".btn-sarah").click(function () {
