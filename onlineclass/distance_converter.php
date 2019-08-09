@@ -17,7 +17,7 @@
     <div class="myformbox">
         <form id="myconverter_form">
             <p>
-                <input min="0" max="1000000" required="required" type="number" class="mygroup_inputs">
+                <input min="0" max="100000000" required="required" type="number" class="mygroup_inputs">
                 <select class="myown_select">
                     <option value="mile">Mile</option>
                     <option value="km">Km</option>
