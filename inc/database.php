@@ -14,8 +14,9 @@
             $username = "root";
             $password = "";
             $dbname = "dbq";
+            $port = 3307;
             try {
-                $this->con = new \mysqli($servername, $username, $password, $dbname);
+                $this->con = new \mysqli($servername, $username, $password, $dbname, $port);
             }catch(Exception $e) {
                 $this->error = $e->getMessage();
             }

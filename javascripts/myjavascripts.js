@@ -9,7 +9,7 @@ $(".form-control").submit(function () {
 
 
     if (age>1 && age<=15){
-        doMyWork("Borib toshingi ter", "https://news.sanfordhealth.org/wp-content/uploads/2017/05/Children-blowing-bubbles.jpg", true,"f00");
+        doMyWork("Borib toshingi ter", "https://news.sanfordhealth.org/wp-content/uploads/2017/05/Children-blowing-bubbles.jpg",true,"f00");
     }
 
     else if(age>15 && age<=21){

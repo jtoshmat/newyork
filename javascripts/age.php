@@ -20,7 +20,8 @@
     </div>
     <div class="result"></div>
     <form class="form-control">
-        <p><input class="age" name="age" type="number" placeholder="Age"><button type="submit">Calculate</button></p>
+        <p><input class="age" name="age" type="number" placeholder="Age">
+            <button type="submit">Calculate</button></p>
     </form>
 
 

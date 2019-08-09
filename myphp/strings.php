@@ -13,8 +13,8 @@
 
     $str = "A 'quote' is <b>bold</b>";
 
-    // Outputs: A 'quote' is &lt;b&gt;bold&lt;/b&gt;
-    echo htmlentities($str);
+   //  Outputs: A 'quote' is &lt;b&gt;bold&lt;/b&gt;
+  //  echo htmlentities($str);
 
 
 
@@ -71,22 +71,21 @@
 
 
 
-/*    $text = "abc@abc";
+  $text = "abc@abc";
 
 
     $found = strpos($text,'@');
 
-echo $found;*/
+echo $found;
 
 
 
+$text = "Jon Toshmatov";
 
-/*$text = "Jon Toshmatov";
-
-$result = str_split($text,3);
+$result = str_split($text,2);
 
 echo "<pre>";
-var_dump($result);*/
+var_dump($result);
 
 
 
@@ -98,16 +97,19 @@ var_dump($result);*/
     //echo strip_tags($text);
 
 
-/*$text = "Jon Toshmatov";
+$text = "Jon Toshmatov";
 
-echo str_shuffle($text);*/
-
-
+echo str_shuffle($text);
 
 
-/*    $text = "<<<<< Jon  Toshmatov >>>>>>";
 
-    echo trim($text,'Jon');*/
+
+
+
+  $text = "<<<<<< Jonaka  Toshmatov >>>>>>";
+
+
+    echo ltrim($text,'Jo');
 
 
 
@@ -128,7 +130,7 @@ echo $name .' = '. $name2;*/
 ?>
 
 <style>
-    .php{
+    . php {
         background-color: #effac3;
         color: #ff0000;
 
