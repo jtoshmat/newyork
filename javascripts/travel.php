@@ -183,9 +183,8 @@
 
 
             $("#mymessage").click(function () {
-                var url = $(this).attr("data-url");
+                var url = $("#mymessage").attr("data-url");
                 if (typeof url == 'undefined' || url == '') {
-                    $(this).hide();
                     return false;
                 }
                 document.location = url;

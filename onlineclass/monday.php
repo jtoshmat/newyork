@@ -12,17 +12,12 @@
 <body>
 
 <div class="container">
-    <div class="mybox myboxtop">
-        This is a <strong>text</strong> in the top Box
+    <div id="mybox">
+        My BOX
     </div>
-
-    <div class="mybox myboxbottom">
-        This is a text in the bottom Box
-    </div>
-
     <div id="buttons">
-        <button id="reset" class="btn btn-danger" id="btnleft">Reset</button>
-        <button id="copy" class="btn btn-primary" id="btnleft">Copy</button>
+        <button class="btn btn-primary" id="btnleft">Left</button>
+        <button class="btn btn-danger" id="btnright">Right</button>
     </div>
 </div>
 
@@ -35,22 +30,20 @@
 
     .container{
         text-align: center;
+        border:1px solid #e23f82;
     }
 
-    .mybox{
-        width:150px;
-        height:150px;
-        background-color: #ffe671;
+    #mybox{
+        width:300px;
+        height:300px;
+        background-color: #0f6674;
         margin: auto;
         position: relative;
+        border:1px solid #00e200;
     }
 
-    .mybox:first-child{
-        width:150px;
-        height:150px;
-        background-color: #e23f82;
-        margin: auto;
-        position: relative;
+    body{
+        background-color: #0c5460;
     }
 
 </style>
@@ -58,20 +51,18 @@
 <script>
 
     $(function () {
-        $("#copy").click(function(){
-            //get
-            var topboxtext = $(".myboxtop").html();
-            var bottomboxtext = $(".myboxbottom").html();
-
-            //set
-            $(".myboxbottom").html(bottomboxtext + topboxtext);
-
+        $("#btnright").click(function(){
+            //$("#mybox").css("color", "red").slideUp(3000).slideDown(2000).animate({left: "-100%"});
+            $('div').css("color", "pink").slideUp(3000).slideDown(2000).animate({left: "-100%"});
+            $('.container').css("color", "pink").slideUp(0).slideDown(500).animate({left: "100%"});
         });
-
-        $("#reset").click(function(){
-            $(".myboxbottom").html('This is a text in the bottom Box');
+        $("#btnleft").click(function(){
+            $("#mybox").animate({top: "250px"});
+            $("#mybox").animate({left: "-100%"});
+            $("#mybox").animate({left: "0%"});
+            $("#mybox").animate({top: "0"});
+            $("#mybox").animate({top: "200px"});
         });
-
     });
 
 
