@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
-    <title>Rock Paper Scissors Game</title>
+    <title>Rock Paper Scissors Game.</title>
 </head>
 <body>
 <header>

@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/javascripts/thursday.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javascripts/thursday.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/Iowa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/Newyork.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/Usa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/abstract/daughter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/abstract/father.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/abstract/son.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/cedarrapids.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/desmoines.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/dubuque.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/interfaces/iowa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/interfaces/usa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oop/traits/MasterTrait.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friend802000/jav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/travelbackground.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/onlineclass/distance_converter.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineclass/distance_converter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/jon.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/lola.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/lola.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friend802000/rockpaper/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/friend802000/rockpaper/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friend802000/rockpaper/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/friend802000/rockpaper/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/travel.php" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/travel.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +97,8 @@
       <workItem from="1565210320383" duration="617000" />
       <workItem from="1565282406021" duration="8237000" />
       <workItem from="1565300977030" duration="4787000" />
-      <workItem from="1565368200215" duration="8969000" />
+      <workItem from="1565368200215" duration="9205000" />
+      <workItem from="1565442476678" duration="3146000" />
     </task>
     <servers />
   </component>
