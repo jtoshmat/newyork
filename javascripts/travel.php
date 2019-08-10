@@ -172,7 +172,7 @@
             }
 
 
-                // var mymessage, mymessage1;
+                // var mymessage, mymessage1; .....
 
             $("#mybox").fadeIn("slow");
 
