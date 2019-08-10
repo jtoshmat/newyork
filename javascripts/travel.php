@@ -46,7 +46,8 @@
 
         </div>
     </form>
-    <div id="mymessage"></div>
+
+    <div class="mylink" id="mymessage"></div>
 
 
 </div>
@@ -104,6 +105,7 @@
     $(function () {
         $(".custom-select").change(function () {
             var city = $(this).val();
+
             $("#description").delay(600).fadeIn("slow");
 
 
@@ -120,6 +122,7 @@
                     "                List due to the abundance of material and spiritual values. Unique monuments of ancient architecture,\n" +
                     "                heritage of scientific and arts schools, artisans workshops are well-known around the world.");
                 $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Samarkand!");
+
 
             } else if (city == 'cancun') {
                 $("#photos img").eq(0).attr('src', 'https://s-ec.bstatic.com/images/hotel/max1024x768/173/173333316.jpg');
@@ -168,6 +171,9 @@
                 alert("Please select your destination!")
             }
 
+
+                // var mymessage, mymessage1;
+
             $("#mybox").fadeIn("slow");
 
 
@@ -186,7 +192,7 @@
             $("#mymessage").click(function () {
                 document.location = "https://en.wikipedia.org/wiki/Tashkent";
             });
-            // $("#mybox").fadeIn("slow");
+
         });
     });
 
