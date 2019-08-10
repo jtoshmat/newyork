@@ -96,6 +96,7 @@
     body {
         background-image: url("/img/travelbackground.jpg");
         background-repeat: no-repeat;
+        background-size: 100%;
     }
 
 
@@ -121,7 +122,7 @@
                     "                Today Samarkand is the treasure of unique antiquity spirit. It is included in the UNESCO World Heritage\n" +
                     "                List due to the abundance of material and spiritual values. Unique monuments of ancient architecture,\n" +
                     "                heritage of scientific and arts schools, artisans workshops are well-known around the world.");
-                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Samarkand!");
+                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Samarkand!").attr('data-url','https://en.wikipedia.org/wiki/Samarkand');
 
 
             } else if (city == 'cancun') {
@@ -133,7 +134,7 @@
                     "concrete, the resort’s Mayan inspiration makes it a striking element of the Hotel Zone beachfront. Inside, an $8 million renovation completed in 2012 has " +
                     "refreshed the restaurants and bars with bold, contemporary looks. By day the setting is tropical: Huge skylights brighten the foyer in each pyramid, and vines" +
                     " cascade over nine stories of balconies. By night, red and purple lights transform the common areas into a club-worthy scene.");
-                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Cancun!");
+                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Cancun!").attr('data-url','https://en.wikipedia.org/wiki/Cancun');
             } else if (city == 'miami') {
                 $("#photos img").eq(0).attr('src', 'https://cdn.thecrazytourist.com/wp-content/uploads/2016/05/Miami-Beach-1024x655.jpg');
                 $("#photos img").eq(1).attr('src', 'http://biginexcursions.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/i/miami_beach_airplane.jpg');
@@ -143,7 +144,7 @@
                     "\n" +
                     "Miami is glamor first and foremost but spend a little time here and dig a little deeper to see what is under the surface. " +
                     "Or simply go with the flow and indulge in the glamor in true Miami style.");
-                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Miami!");
+                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Miami!").attr('data-url','https://en.wikipedia.org/wiki/Miami');
             } else if (city == 'maldives') {
                 $("#photos img").eq(0).attr('src', 'https://pbs.twimg.com/media/DMQN0SXUMAEWPYB.jpg');
                 $("#photos img").eq(1).attr('src', 'https://www.arenatours.com/wp-content/uploads/2016/11/meeru-island-resort-and-spa-maldives-8.jpg');
@@ -152,7 +153,7 @@
                     "loved ones beside you. The Sunset Water Suites at Lily Beach Resort and Spa offers luxury and five star experience and is a heaven on" +
                     " earth for both ocean and sunset lovers. Let your eyes enjoy what they see in and around these Sunset Water Suites and get the pleasurable " +
                     "experience of waking up in this heavenly paradise.");
-                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Maldives Island!");
+                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Maldives Island!").attr('data-url','https://en.wikipedia.org/wiki/Maldives');
 
             } else if (city == 'tashkent') {
                 $("#photos img").eq(0).attr('src', 'https://dolorestravel.com/wp-content/uploads/2016/12/mytashkent.jpg');
@@ -166,7 +167,7 @@
                     "A wide range of great scholars lived here, including Khoja Akhrar Vali, Sheikh Umar Baghistani, Abu Bakr Qaffal Shashi, Abu Sulaiman Banakati, and Hafiz Kuhaki.\n" +
                     "\n" +
                     "The Islamic Educational, Scientific and Cultural Organization (ISESCO), one of the OIC specialized institutions, announced Tashkent a capital of the Islamic culture in 2007.");
-                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Tashkent!");
+                $("#mymessage").delay(800).fadeIn(400).html("Please click here to learn more about Tashkent!").attr('data-url','https://en.wikipedia.org/wiki/Tashkent');
             } else {
                 alert("Please select your destination!")
             }
@@ -178,20 +179,15 @@
 
 
             $("#mymessage").click(function () {
-                document.location = "https://en.wikipedia.org/wiki/Samarkand";
+                //get the data-url from the #message first
+                var url = $(this).attr('data-url');
+                if (typeof url == 'undefined' || url == '') {
+                    return false;
+                }
+                document.location = url;
+
             });
-            $("#mymessage").click(function () {
-                document.location = "https://en.wikipedia.org/wiki/Cancun";
-            });
-            $("#mymessage").click(function () {
-                document.location = "https://en.wikipedia.org/wiki/Miami";
-            });
-            $("#mymessage").click(function () {
-                document.location = "https://en.wikipedia.org/wiki/Maldives";
-            });
-            $("#mymessage").click(function () {
-                document.location = "https://en.wikipedia.org/wiki/Tashkent";
-            });
+
 
         });
     });
