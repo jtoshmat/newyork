@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/img/umida.JPG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/img/umishka.JPG" afterDir="false" />
@@ -44,6 +45,27 @@
       <change beforePath="$PROJECT_DIR$/myphp/strings.php" beforeDir="false" afterPath="$PROJECT_DIR$/myphp/strings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newyork/umida/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/newyork/umida/index.php" afterDir="false" />
+=======
+    <list default="true" id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/javascripts/thursday.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/thursday.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/Iowa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/Newyork.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/Usa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/abstract/daughter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/abstract/father.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/abstract/son.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/cedarrapids.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/desmoines.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/dubuque.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/interfaces/iowa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/interfaces/usa.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oop/traits/MasterTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineclass/distance_converter.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineclass/distance_converter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/jon.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop/lola.php" beforeDir="false" afterPath="$PROJECT_DIR$/oop/lola.php" afterDir="false" />
+>>>>>>> 9658cbf55be6d2eedf0cc4583d36f9513d60fc46
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +77,7 @@
     <execution>
       <executable />
     </execution>
+<<<<<<< HEAD
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -68,6 +91,8 @@
         </entry>
       </file>
     </leaf>
+=======
+>>>>>>> 9658cbf55be6d2eedf0cc4583d36f9513d60fc46
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +104,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -133,10 +159,14 @@
     <option name="width" value="777" />
     <option name="height" value="797" />
   </component>
+=======
+  <component name="ProjectId" id="1Ov4jDmADnpWnjF3dmUizSkkSDJ" />
+>>>>>>> 9658cbf55be6d2eedf0cc4583d36f9513d60fc46
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -185,12 +215,24 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/myjavascript" />
       <recent name="$PROJECT_DIR$/img" />
+=======
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oop" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/onlineclass/img" />
+      <recent name="$PROJECT_DIR$/muhamad1999/img" />
+      <recent name="$PROJECT_DIR$" />
+>>>>>>> 9658cbf55be6d2eedf0cc4583d36f9513d60fc46
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/monday" />
-      <recent name="$PROJECT_DIR$/forms" />
-      <recent name="$PROJECT_DIR$/img" />
-      <recent name="$PROJECT_DIR$/myphp" />
+      <recent name="$PROJECT_DIR$/oop" />
+      <recent name="$PROJECT_DIR$/muhamad1999" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -205,11 +247,22 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="travel.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newyork/javascripts/travel.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.travel.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="" />
       <created>1556043158221</created>
       <option name="number" value="Default" />
@@ -635,5 +688,42 @@
         </state>
       </provider>
     </entry>
+=======
+      <changelist id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="" />
+      <created>1564844869690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564844869690</updated>
+      <workItem from="1564844870838" duration="241000" />
+      <workItem from="1564845180759" duration="1027000" />
+      <workItem from="1564846713973" duration="9631000" />
+      <workItem from="1564950964352" duration="1251000" />
+      <workItem from="1564952259218" duration="7812000" />
+      <workItem from="1565024744945" duration="4988000" />
+      <workItem from="1565040411023" duration="4215000" />
+      <workItem from="1565100440610" duration="9311000" />
+      <workItem from="1565210320383" duration="617000" />
+      <workItem from="1565282406021" duration="8237000" />
+      <workItem from="1565300977030" duration="4787000" />
+      <workItem from="1565368200215" duration="8969000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+>>>>>>> 9658cbf55be6d2eedf0cc4583d36f9513d60fc46
   </component>
 </project>

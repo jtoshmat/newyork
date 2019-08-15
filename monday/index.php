@@ -80,7 +80,14 @@
 
     </div>
     <div class="footer">
-        Footer
+        <div class="mylinksmenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sales</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 <style>
@@ -120,11 +127,7 @@
         color: #000;
     }
 
-    .footer{
-        width:100%;
-        height:60px;
-        background-color: #1e7e34;
-    }
+
 
     .col1{
         width: 33%;
@@ -158,6 +161,33 @@
     table tr:nth-child(5){
         background-color: #d8d8d8;
         text-align: center;
+    }
+
+/*########################*/
+
+    .footer{
+        width:100%;
+        height:60px;
+        background-color: #f5d457;
+        text-align: center;
+    }
+
+    .mylinksmenu{
+        width: 60%;
+        position: relative;
+        height: 60px;
+        margin: auto;
+    }
+
+
+    .footer ul{
+        list-style: none;
+    }
+
+    .footer ul li{
+        float: left;
+        margin:5px;
+        padding:5px;
     }
 
 </style>
