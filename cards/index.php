@@ -58,6 +58,8 @@
 
     </div>
 
+    <br/>
+
     <div id="myscreen">
         Everything will be displayed here.
     </div>
@@ -71,8 +73,21 @@
 </div>
 
 <style>
+
+    #players{
+        border:1px solid #000;
+        border-radius: 10px;
+        padding:10px;
+        text-align: center;
+    }
+
+    #players img{
+        width:100px;
+        height: 100px;
+    }
+
     #myscreen{
-        width:90%;
+        width:100%;
         height:100px;
         background-color: #f5c6cb;
         border:1px solid #000;

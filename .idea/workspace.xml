@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cards/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/img/player_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cards/img/player_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cards/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cards/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+            <state relative-caret-position="434">
+              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -67,6 +70,12 @@
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
               <item name="cards" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -87,14 +96,15 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/onlineclass/img" />
-      <recent name="$PROJECT_DIR$/muhamad1999/img" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/oop" />
       <recent name="$PROJECT_DIR$/muhamad1999" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cards/img" />
+      <recent name="$PROJECT_DIR$/onlineclass/img" />
+      <recent name="$PROJECT_DIR$/muhamad1999/img" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -147,13 +157,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2886000" />
+    <option name="totallyTimeSpent" value="3494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="762" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -217,10 +228,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cards/img/player_1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/img/player_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/img/player_4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/img/player_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/img/player_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/cards/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="72" column="26" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
+        <state relative-caret-position="434">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
         </state>
       </provider>
     </entry>
