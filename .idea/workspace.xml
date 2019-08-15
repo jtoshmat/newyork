@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/gulya78/login page.php" afterDir="false" />
@@ -14,6 +15,13 @@
       <change beforePath="$PROJECT_DIR$/forms/uploadform.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/uploadform.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+    <list default="true" id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/img/player_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cards/img/player_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cards/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +30,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   <component name="ComposerSettings">
     <execution>
       <executable />
     </execution>
   </component>
+<<<<<<< HEAD
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -61,23 +73,15 @@
         <entry file="file://$PROJECT_DIR$/homework.php">
           <provider selected="true" editor-type-id="text-editor" />
 =======
+=======
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/index.php">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cards/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#443#448#0#PHP" expanded="true" />
-                <element signature="e#485#568#0#HTML" expanded="true" />
-                <element signature="e#525#560#0#HTML" expanded="true" />
-                <element signature="e#646#924#0#HTML" expanded="true" />
-                <element signature="e#613#749#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="434">
+              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
             </state>
           </provider>
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
@@ -152,6 +156,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+<<<<<<< HEAD
         <option value="CSS File" />
         <option value="HTML File" />
       </list>
@@ -171,12 +176,18 @@
       <dir>$PROJECT_DIR$/gulya78</dir>
     </dirStrings>
   </component>
+=======
+      </list>
+    </option>
+  </component>
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/table.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/jontoshmatov.txt" />
@@ -246,8 +257,16 @@
     <option name="height" value="1019" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
   </component>
+=======
+        <option value="$PROJECT_DIR$/cards/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ov4jDmADnpWnjF3dmUizSkkSDJ" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -264,16 +283,24 @@
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="gm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
               <item name="gulya78" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
             </path>
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -284,6 +311,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
@@ -302,10 +330,22 @@
     <property name="nodejs.protractor.protractor_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+=======
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oop" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -318,6 +358,18 @@
 =======
     <property name="WebServerToolWindowFactoryState" value="false" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+      <recent name="$PROJECT_DIR$/oop" />
+      <recent name="$PROJECT_DIR$/muhamad1999" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cards/img" />
+      <recent name="$PROJECT_DIR$/onlineclass/img" />
+      <recent name="$PROJECT_DIR$/muhamad1999/img" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -331,15 +383,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="travel.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newyork/javascripts/travel.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.travel.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="" />
-      <created>1556043158221</created>
+      <changelist id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="" />
+      <created>1564844869690</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1556043158221</updated>
       <workItem from="1556043160629" duration="3943000" />
       <workItem from="1556124953471" duration="4459000" />
@@ -364,10 +427,27 @@
       <workItem from="1563466098031" duration="1674000" />
       <workItem from="1563487284219" duration="4051000" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+      <updated>1564844869690</updated>
+      <workItem from="1564844870838" duration="241000" />
+      <workItem from="1564845180759" duration="1027000" />
+      <workItem from="1564846713973" duration="9631000" />
+      <workItem from="1564950964352" duration="1251000" />
+      <workItem from="1564952259218" duration="7812000" />
+      <workItem from="1565024744945" duration="4988000" />
+      <workItem from="1565040411023" duration="4215000" />
+      <workItem from="1565100440610" duration="9311000" />
+      <workItem from="1565210320383" duration="617000" />
+      <workItem from="1565282406021" duration="8237000" />
+      <workItem from="1565300977030" duration="4787000" />
+      <workItem from="1565368200215" duration="9205000" />
+      <workItem from="1565442476678" duration="8580000" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="86127000" />
   </component>
@@ -414,43 +494,26 @@
       <window_info anchor="bottom" id="Run" order="2" />
 =======
     <option name="totallyTimeSpent" value="56251000" />
+=======
+    <option name="totallyTimeSpent" value="3494000" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1255" height="1019" extended-state="0" />
+    <frame x="0" y="23" width="762" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19455895" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32884902" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.38153505" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.36717662" />
       <window_info anchor="bottom" id="Find" order="1" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27736133" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="2" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Message" order="0" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -473,11 +536,25 @@
       <window_info id="Favorites" order="2" side_tool="true" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
     </layout-to-restore>
+=======
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -490,6 +567,7 @@
               <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
                 <collection />
               </option>
+<<<<<<< HEAD
               <option name="COLUMN_ORDER">
                 <list>
                   <option value="0" />
@@ -498,6 +576,9 @@
                   <option value="3" />
                 </list>
               </option>
+=======
+              <option name="COLUMN_ORDER" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
             </State>
           </value>
         </entry>
@@ -517,6 +598,7 @@
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
 =======
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -600,12 +682,18 @@
     </entry>
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
     <entry file="file://$PROJECT_DIR$/while.php">
+=======
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myjavascript/index.php">
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="-65">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/blank.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -628,14 +716,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/calculator.png">
+=======
+    <entry file="file://$PROJECT_DIR$/cards/img/player_1.jpg">
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
+    <entry file="file://$PROJECT_DIR$/cards/img/player_3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/mylogo.png">
+    <entry file="file://$PROJECT_DIR$/cards/img/player_4.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/foha/while.php" />
     <entry file="file://$PROJECT_DIR$/foha/dowhile.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -970,28 +1062,18 @@
           <caret line="75" selection-start-line="75" selection-end-line="82" selection-end-column="1" />
         </state>
       </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/cards/img/player_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
     </entry>
-    <entry file="file://$PROJECT_DIR$/interview.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/cards/img/player_2.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/index.php">
+    <entry file="file://$PROJECT_DIR$/cards/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#meta#1;n#head#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#443#448#0#PHP" expanded="true" />
-            <element signature="e#485#568#0#HTML" expanded="true" />
-            <element signature="e#525#560#0#HTML" expanded="true" />
-            <element signature="e#646#924#0#HTML" expanded="true" />
-            <element signature="e#613#749#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="434">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
         </state>
       </provider>
     </entry>
