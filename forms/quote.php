@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Us</title>
+    <title>Piano Moving Quote</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
 </head>
 <body>
@@ -48,64 +48,102 @@
 
             <tr>
                 <td class="leftcol">Tell About your Move/Storage Request:</td>
+                <td class="rightcol">
+                </td>
+            </tr>
+
+            <tr>
                 <td class="leftcol">Will you need Storage?:</td>
                 <td class="rightcol">
                     <div class="myradiobuttons">
-                        <p><input value="chrome" name="browser" type="radio"> Google Chrome</p>
-                        <p><input value="firefox" name="browser" type="radio"> Mozilla Firefox</p>
-                    </div>
-                <td class="leftcol">Will you need Move?:</td>
-                    <div class="myradiobuttons">
-                        <p><input value="chrome" name="browser" type="radio"> Google Chrome</p>
-                        <p><input value="firefox" name="browser" type="radio"> Mozilla Firefox</p>
+                        <input value="yes" name="yes_no" type="radio"> yes
+                        <input value="no" name="yes_no" type="radio"> no
                     </div>
                 </td>
             </tr>
 
             <tr>
-                <td class="leftcol">Department:</td>
+                <td class="leftcol">Will you need Move?:</td>
+                <td class="rightcol">
+                    <div class="myradiobuttons">
+                        <input value="yes" name="yes_no1" type="radio"> yes
+                        <input value="no" name="yes_no1" type="radio"> no
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="leftcol">Please find your Piano type:</td>
                 <td class="rightcol">
 
                     <select name="department">
-                        <option value="sales">Sales</option>
-                        <option value="accounting">Accounting</option>
-                        <option value="management">Management</option>
-                        <option value="customerservice">Customer Service</option>
-                        <option value="misc">Misc</option>
+                        <option value="sales">Type</option>
+                        <option value="spinet">spinet upright under 38"</option>
+                        <option value="console">console upright 39"-43"</option>
+                        <option value="studio">Studio upright 44"-48"</option>
+                        <option value="full_sized">full sized Upright 49"-52"</option>
+                        <option value="upright_grand">upright grand 52"-56"</option>
+                        <option value="babygrand">babygrand piano under 5.6"</option>
+                        <option value="grand">grand piano 5.7inch-6.1incht</option>
+                        <option value="grandstudio">studio grand piano 6.4"-7'</option>
+                        <option value="concert grand">Concert Grand 7' to 9'</option>
+                        <option value="digital_upright">Digital upright</option>
+                        <option value="digital_baby_grand">Digital Baby Grand</option>
+                        <option value="small_h_organ">small Home Organ</option>
+                        <option value="large_h_organ">Large Home Organ</option>
+                        <option value="church_organ">Church Organ</option>
+                        <option value="Harsichord">Harsichord/Clavichord</option>
+                        <option value="Fortepiano">Forte Piano</option>
+                        <option value="Squarepiano">Square Piano</option>
                     </select>
-
                 </td>
+
             </tr>
-
-
             <tr>
-                <td class="leftcol">Gender:</td>
+                <td class="leftcol">Piano Type *Does the piano have a player mechanism? <br>(Ability to play on its own)
+                </td>
                 <td class="rightcol">
-
                     <div class="myradiobuttons">
-                        <p><input value="1" name="gender" type="radio"> Male</p>
-                        <p><input value="2" name="gender" type="radio"> Female</p>
+                        <input value="yes" name="yes_no2" type="radio"> yes
+                        <input value="no" name="yes_no2" type="radio"> no
                     </div>
-
                 </td>
             </tr>
-
-
             <tr>
-                <td class="leftcol">Subject:</td>
-                <td class="rightcol"><input required="required" class="input-group" name="subject" type="tel"
-                                            placeholder="Your subject"></td>
+                <td class="leftcol">Piano information:</td>
+            </tr>
+            <tr>
+                <td class="leftcol">Make and model:</td>
+                <td class="rightcol"><input required="required" class="input-group" name="piano_name" type="text"
+                                            placeholder="Piano make and model"></td>
             </tr>
 
             <tr>
-                <td class="leftcol">Message:</td>
+                <td class="leftcol">Measurements:</td>
+                <td class="rightcol"><input class="input-group" name="subject" type="text"
+                                            placeholder="Piano measurements height, length"></td>
+            </tr>
+            <tr>
+                <td class="leftcol">Pickup From:</td>
+                <td class="rightcol"><input required="required" class="input-group" name="pickup" type="text"
+                                            placeholder="Pickup Address"></td>
+            </tr>
+            <tr>
+                <td class="leftcol">Delivery to:</td>
+                <td class="rightcol"><input required="required" class="input-group" name="delivery" type="text"
+                                            placeholder="Delivery address"></td>
+            </tr>
+
+
+            <tr>
+                <td class="leftcol">Additional information:</td>
                 <td class="rightcol">
-                    <textarea name="mymessage" class="mytextarea">Your Message goes here</textarea>
+                    <textarea name="mymessage" class="mytextarea">please type more info about your piano</textarea>
                 </td>
             </tr>
 
             <tr>
-                <td class="leftcol">Upload File:</td>
+                <td class="leftcol">Upload Piano Photos or Videos here:</td>
                 <td class="rightcol">
                     <input type="file" name="uploadfile">
                 </td>

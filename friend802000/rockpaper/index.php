@@ -14,9 +14,9 @@
     <h1>Rock Paper Scissors</h1>
 </header>
 
-<div class="score">
-    <div id="user-id" class="badge">User</div>
-    <div id="computer-id" class="badge">Comp</div>
+<div class="score-board">
+    <div id="user-label" class="badge">User</div>
+    <div id="computer-label" class="badge">Comp</div>
     <span id="user-score">0</span>:<span id="computer-score">0</span>
 </div>
 
