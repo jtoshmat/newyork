@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/forms/contactus2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/basics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jontosh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/monday.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/img/percent_cirle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/js/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shahriyor/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shahriyor/practice2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/contactus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shahriyor/practice.php" beforeDir="false" afterPath="$PROJECT_DIR$/shahriyor/practice.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.container</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
+  <component name="ProjectId" id="1PChuQtdCNPfztnQuXV00bQFRxJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/onlineclass/img" />
+      <recent name="$PROJECT_DIR$/monday" />
+      <recent name="$PROJECT_DIR$/forms" />
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/myphp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="" />
+      <created>1556043158221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556043158221</updated>
+      <workItem from="1556043160629" duration="3943000" />
+      <workItem from="1556124953471" duration="4459000" />
+      <workItem from="1556575085238" duration="717000" />
+      <workItem from="1556645738610" duration="2041000" />
+      <workItem from="1556667456578" duration="417000" />
+      <workItem from="1556668483250" duration="98000" />
+      <workItem from="1556676440663" duration="9115000" />
+      <workItem from="1563466098031" duration="1674000" />
+      <workItem from="1563487284219" duration="9740000" />
+      <workItem from="1563552726420" duration="16250000" />
+      <workItem from="1563583064775" duration="1166000" />
+      <workItem from="1563658170997" duration="3134000" />
+      <workItem from="1563726772854" duration="8339000" />
+      <workItem from="1563826323989" duration="11001000" />
+      <workItem from="1564063520963" duration="10269000" />
+      <workItem from="1564156962077" duration="6016000" />
+      <workItem from="1564331632122" duration="1003000" />
+      <workItem from="1565289682777" duration="266000" />
+      <workItem from="1565289952741" duration="163000" />
+      <workItem from="1565290212448" duration="99000" />
+      <workItem from="1565290354438" duration="316000" />
+      <workItem from="1565297282343" duration="495000" />
+      <workItem from="1565317175438" duration="50000" />
+      <workItem from="1565375514339" duration="590000" />
+      <workItem from="1565384211458" duration="1473000" />
+      <workItem from="1565540821453" duration="11843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+</project>
