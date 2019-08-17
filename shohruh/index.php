@@ -14,6 +14,37 @@
 <div class="container">
     <h4 style="text-align: center">Figure 20.</h4>
 
+    <div class="mynav">
+
+      <ul>
+          <li title="Click here to go to Google"><a target="_blank" href="http://google.com">Google</a></li>
+          <li title="Click here to go to Yahoo"><a target="_blank" href="http://yahoo.com">Yahoo</a></li>
+          <li title="Click here to go to Facebook"><a target="_blank" href="http://facebook.com">Facebook</a></li>
+          <li title="Click here to go to Amazon"><a target="_blank" href="http://amazon.com">Amazon</a></li>
+      </ul>
+
+    </div>
+
+    <div class="clearfix"></div>
+
+    <hr>
+
+<div class="myform">
+    <form>
+        <br>
+        <p>First Name: <br> <input required="required"></p>
+        <p>Last Name: <br><input></p>
+        <p>Email: <br><input type="email" required="required"></p>
+        <p>
+            <button class="btn btn-dark" type="reset">Reset</button>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </p>
+        <br>
+    </form>
+</div>
+
+
+<hr>
     <table>
 
         <tr>
@@ -56,10 +87,64 @@
     </table>
 
 
+
+    <hr>
+
+    <img class="myimg" src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BRhEgWLDiqncsmrv/aerial-footage-of-beautiful-dolomites-landscape-golden-evening-light-mountain-scene-of-meadows-and-high-alps-and-mountain-road-with-many-curves_h7a8xuqa_thumbnail-full01.png">
+
+    <hr>
+
+    <br>
+    <br>
+    <br>
+    <br>
 </div>
 
 
 <style>
+
+    .mynav ul{
+        list-style: none;
+    }
+
+    .mynav ul li{
+        float: left;
+        margin:10px;
+        padding:5px;
+        background-color: #008CBA;
+        border:1px solid #000;
+        text-decoration: none;
+    }
+
+    .mynav ul li:hover{
+        background-color: #ba4da2;
+        cursor: pointer;
+        color:white !important;
+    }
+
+
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .myform{
+        text-align: center;
+        margin: auto;
+        width:90%;
+        background-color: #dbece5;
+    }
+
+    .myimg{
+        width:100%;
+        border-radius: 20px;
+        border:5px dotted #d20000;
+    }
+
+    .myimg:hover{
+        cursor: pointer;
+        box-shadow: 10px 10px 10px 10px;
+    }
 
     body{
         font-family: Verdana;
