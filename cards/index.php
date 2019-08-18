@@ -10,6 +10,11 @@
     <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
+<audio id="myAudio">
+    <source src="sounds/card.mp3" type="audio/ogg">
+    <source src="sounds/card.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
 
 <script>
 
@@ -19,9 +24,26 @@
     //var cardtypes = ['diamond','heart','spade','club'];
     var cardtypes = [1,2,3,4];
 
+    $(function () {
+        $('#btn_shuffle').click(function () {
+            playAudio();
+            shuffle(cards);
+            console.log(cards);
 
-    function shuffle(){
-        shuffle(cards);
+        });
+    });
+
+
+    var x = document.getElementById("myAudio");
+
+    function playAudio() {
+        x.play();
+    }
+
+
+    function shuffle_cards(cards){
+        let arr = [1, 2, 3];
+        shuffle(arr);
     }
 
     function distribute(){
@@ -45,40 +67,125 @@
     }
 
 
+    var shuffle = function (array) {
+
+        var currentIndex = array.length;
+        var temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+
+    };
+
 
 </script>
 
 <div class="container">
 
+    <div class="emptybox"></div>
+
     <div id="players">
-        <img src="img/player_1.jpg">
-        <img src="img/player_2.jpg">
-        <img src="img/player_3.jpg">
-        <img src="img/player_4.jpg">
+        <table class="table">
+            <tr>
+                <td><img src="img/player_1.jpg"></td>
+                <td><img src="img/player_2.jpg"></td>
+                <td><img src="img/player_3.jpg"></td>
+                <td><img src="img/player_4.jpg"></td>
+            </tr>
+            <tr class="players_names">
+                <td><div>Alex</div></td>
+                <td><div>Max</div></td>
+                <td><div>Jessica</div></td>
+                <td><div>Sarah</div></td>
+            </tr>
+        </table>
 
     </div>
 
     <br/>
 
+    <div id="labels">
+        <table class="table">
+            <tr>
+                <td><img class="stackofcards" src="img/cards.png"></td>
+            </tr>
+            <tr>
+                <td>12 cards left</td>
+            </tr>
+        </table>
+
+    </div>
+
     <div id="myscreen">
         Everything will be displayed here.
     </div>
-    <hr>
     <div class="mybuttons">
     <button id="btn_shuffle">Shuffle</button>
-    <button id="btn_shuffle">Shuffle</button>
-    <button id="btn_shuffle">Shuffle</button>
-    <button id="btn_shuffle">Shuffle</button>
+    <button id="btn_1">Shuffle</button>
+    <button id="btn_2">Shuffle</button>
+    <button id="btn_3">Shuffle</button>
     </div>
 </div>
 
+
 <style>
 
+    .emptybox{
+        height: 50px;
+    }
+
+    #players td{
+        text-align: center;
+        text-align: center;
+    }
+    .players_names div{
+        background-color: yellow;
+        margin:10px;
+        border-radius: 10px;
+        width:100px;
+        margin: auto;
+        box-shadow: 8px 6px 11px #d6d600;
+    }
+
+    body{
+        background-color: rgba(11, 53, 117, 0.99);
+        background-image: url("img/casino_background.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+
+    }
+
+    .stackofcards{
+        width: 100px;
+        left: 100px;
+        top: 100px;
+    }
+
     #players{
-        border:1px solid #000;
+        border:1px solid #003f80;
         border-radius: 10px;
         padding:10px;
         text-align: center;
+
+        background-color: rgba(11, 53, 117, 0.99);
+        background-image: url("img/casino_background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        box-shadow: 11px 21px 1px #0056a1;
     }
 
     #players img{
@@ -89,13 +196,17 @@
     #myscreen{
         width:100%;
         height:100px;
-        background-color: #f5c6cb;
         border:1px solid #000;
     }
     .mybuttons{
         margin: auto;
         text-align: center;
     }
+
+    .table th, .table td {
+        border: none;
+    }
+
 </style>
 
 </body>
