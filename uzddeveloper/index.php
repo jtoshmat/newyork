@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,14 +14,19 @@
 <body>
 <div class="container-fluid">
     <div class="header">
-        <img id="logo" src="/uzddeveloper/png/logoheader.png" alt="logo">
+        <img id="logo" src="https://www.podigee.com/images/podigee-logo-text-horizontal.png" alt="logo">
         <input id="search" type="text" placeholder="Search..">
-        <h1>U Z &nbsp; &nbsp; D E V E L O P E R</h1>
+        <img id="uzdeveloper_img" src="img/uzdeveloper.png">
+
+        <div class="topbuttons">
+            <a data-link="signin" class="btn-primary mybtn">Sign in</a>
+            <a data-link="signout" class="btn-primary mybtn">Sign out</a>
+            <a data-link="contactme" class="btn-primary mybtn">Contact Me</a>
+        </div>
+
+        <img data-link="facebook" class="mybtn" src="https://cdn1.iconfinder.com/data/icons/iconza-circle-social/64/697057-facebook-512.png">
     </div>
-    <!-- Button to open the modal login form -->
-    <a class="btn-primary" onclick="document.getElementById('id01').style.display='block'">Sign in</a>
-    <!-- The Modal -->
-    <?php include_once 'modals.php'; ?>
+
     <div class="middle">
         <div class="leftcol">Left</div>
         <div class="rightcol">
@@ -33,6 +38,5 @@
         <?php include_once 'footer.php'; ?>
     </div>
 </div>
-
 </body>
 </html>
