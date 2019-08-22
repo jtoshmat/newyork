@@ -5,20 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Javascript Exercises</title>
+    <script src="jquery-3.4.1.js" rel="stylesheet"></script>
+    <script src="myjavascripts.js" type="text/javascript"></script>
+    <title>Document</title>
+    <h1>11111</h1>
 </head>
+
 <body>
-<h1>Where are you from?</h1>
 
-
-
-
-
-<style>
-    h1{
-        text-align: center;
-    }
-
-</style>
 </body>
-</html>
+</html><?php
