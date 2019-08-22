@@ -1,46 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Basic Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Package</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <script src="/js/bootstrap.js"></script>
+    <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
-
-<?php
-    include_once 'inc/header.php';
-?>
-
-<h1>Blank Page</h1>
-
-<p>
-    Team, <br>
-
-    Please use this blank page as your new starting page.
-
-
-</p>
-
-
-
-<?php
-    $name = 'farhod';
-    $title = 'sr';
-
-
-    if ($name=='Jon'){
-        echo "Hey Jon, it is nice meet you!";
-    }
-    elseif($name=='farhod' && $title=='jr'){
-            echo "Hey there Farhod Jr!";
-    }
-    elseif($name=='farhod' && $title=='sr'){
-        echo "Hey there Farhod Sr!";
-    }
-    else{
-        echo "I do not know who you are";
-    }
-?>
-
+<div class="container">
+hahahahahahahahahahahahahahahahahahahahh
+</div>
 </body>
 </html>

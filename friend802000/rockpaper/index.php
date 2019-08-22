@@ -25,9 +25,9 @@
     <p>Paper covers rock. You win!</p>
 </div>
 <div class="choices">
-<div class="choice" id="r">
-    <img src="rock.png">
-</div>
+    <div class="choice" id="r">
+        <img src="rock.png">
+    </div>
     <div class="choice" id="p">
         <img src="paper.png">
     </div>

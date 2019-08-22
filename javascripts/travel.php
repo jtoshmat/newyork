@@ -95,8 +95,11 @@
     }
     body {
         background-image: url("/img/travelbackground.jpg");
+        height: 100%;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
+        background-size: 100% 100vh;
+
     }
 
 
@@ -181,7 +184,7 @@
             $("#mymessage").click(function () {
                 //get the data-url from the #message first
                 var url = $(this).attr('data-url');
-                if (typeof url == 'undefined' || url == '') {
+                if (takeof url == 'undifined' || url == '') {
                     return false;
                 }
                 document.location = url;

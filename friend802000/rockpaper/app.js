@@ -2,7 +2,7 @@ var userScore = 0;
 var computerScore = 0;
 const userScore_span = document.getElementById("user-score");
 const computerScore_span = document.getElementById("computer-score");
-const scoreboard_div = document.querySelector(".score");
+const scoreBoard_div = document.querySelector("#score");
 const result_p = document.querySelector(".result > p");
 const rock_div = document.getElementById("r");
 const paper_div = document.getElementById("p");
@@ -27,32 +27,36 @@ function win(userChoice, computerChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = '${convertToWord(userChoice)}${smallUserWorld} beats ${convertToWorld(computerChoice)}. You win! ';
+    result_p.innerHTML = `${convertToWord(userChoice)} ${smallUserWorld} beats ${convertToWord(computerChoice)}${(smallCompWorld)}. You win!`;
     userChoice_div.classList.add('green-glow');
-    setTimeout(function () { userChoice_div.classList.remove('green-glow') }, 300);
+    setTimeout(function () {
+        userChoice_div.classList.remove('green-glow')
+    }, 300);
 }
+
 function lose(userChoice, computerChoice) {
     const smallUserWorld = "user".fontsize(3).sub();
     const smallCompWorld = "comp".fontsize(3).sub();
     const userChoice_div = document.getElementById(userChoice);
-    userScore++;
+    computerScore++;
     userScore_span.innerHTML = userScore;
     computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = '${convertToWord(userChoice)}${smallUserWorld} loses to ${convertToWorld(computerChoice)}. You win! ';
+    result_p.innerHTML = `${convertToWord(userChoice)} ${smallUserWorld} loses to ${convertToWord(computerChoice)}${(smallCompWorld)}. You lose!`;
     userChoice_div.classList.add('red-glow');
-    setTimeout(() => { userChoice_div.classList.remove('red-glow') }, 300);
+    setTimeout(() => {
+        userChoice_div.classList.remove('red-glow')
+    }, 300);
 }
 
 function draw(userChoice, computerChoice) {
     const smallUserWorld = "user".fontsize(3).sub();
     const smallCompWorld = "comp".fontsize(3).sub();
     const userChoice_div = document.getElementById(userChoice);
-    userScore++;
-    userScore_span.innerHTML = userScore;
-    computerScore_span.innerHTML = computerScore;
-    result_p.innerHTML = '${convertToWord(userChoice)}${smallUserWorld} Equals ${convertToWorld(computerChoice)}. It`s Draw! ';
+    result_p.innerHTML = `${convertToWord(userChoice)}${smallUserWorld} Equals ${convertToWord(computerChoice)}${(smallCompWorld)}. It's Draw! `;
     userChoice_div.classList.add('gray-glow');
-    setTimeout(function () { userChoice_div.classList.remove('gray-glow') }, 300);
+    setTimeout(function () {
+        userChoice_div.classList.remove('gray-glow')
+    }, 300);
 }
 
 function game(userChoice) {
@@ -66,12 +70,12 @@ function game(userChoice) {
         case "rp":
         case "ps":
         case "sr":
-            lose();
+            lose(userChoice, computerChoice);
             break;
         case "rr":
         case "pp":
         case "ss":
-            draw();
+            draw(userChoice, computerChoice);
             break;
 
     }
