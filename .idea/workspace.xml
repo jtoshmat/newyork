@@ -4,6 +4,7 @@
 <<<<<<< HEAD
     <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/queries.sql" afterDir="false" />
@@ -155,6 +156,32 @@
       <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/img/living_room.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/myscripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/myscripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineclass/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineclass/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineclass/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineclass/index.php" afterDir="false" />
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
+=======
+      <change afterPath="$PROJECT_DIR$/img/blue_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/simplewebsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social_media_icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/muhamad1999/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/muhamad1999/index.php" afterDir="false" />
+>>>>>>> 9bc7540618c1a4919574bb4ac3a3425797f7480f
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +189,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 
   <component name="FavoritesManager">
@@ -179,10 +207,13 @@
 =======
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
   <component name="ComposerSettings">
     <execution>
       <executable />
     </execution>
+<<<<<<< HEAD
   </component>
 <<<<<<< HEAD
 =======
@@ -213,6 +244,9 @@
     <select />
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
   </component>
+=======
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
@@ -336,6 +370,7 @@
         </entry>
       </file>
     </leaf>
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -379,6 +414,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -389,6 +425,11 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
   <component name="ProjectId" id="1PhMcDOTpxV7slx0Po8xfWEiLeG" />
 
+=======
+<<<<<<< HEAD
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -505,12 +546,17 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1Ov4jDmADnpWnjF3dmUizSkkSDJ" />
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+=======
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -518,6 +564,10 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
 
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -585,7 +635,9 @@
       <pane id="Scope" />
     </panes>
   </component>
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
   <component name="PropertiesComponent">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -594,6 +646,8 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
 
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
 =======
@@ -838,6 +892,8 @@
     </task>
     <servers />
   </component>
+<<<<<<< HEAD
+=======
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="41513000" />
@@ -982,9 +1038,11 @@
     </layout>
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   </component>
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/html/Sukhrob.html" />
@@ -1001,11 +1059,14 @@
 <<<<<<< HEAD
 =======
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State>
               <option name="RECENTLY_FILTERED_USER_GROUPS">
                 <collection />
@@ -1026,10 +1087,14 @@
               <option name="COLUMN_ORDER" />
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
             </State>
+=======
+            <State />
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
           </value>
         </entry>
       </map>
     </option>
+<<<<<<< HEAD
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -1049,11 +1114,15 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
   </component>
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
+<<<<<<< HEAD
+=======
   <component name="editorHistoryManager">
 <<<<<<< HEAD
 =======
@@ -1548,4 +1617,5 @@
     </entry>
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
   </component>
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
 </project>
