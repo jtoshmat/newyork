@@ -8,9 +8,10 @@
     <title>Honda & Accord</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fluid" id="jon">
     <div class="myheader">
         <nav class="mynav">
             <ul>
