@@ -10,36 +10,41 @@
 </head>
 <h1 class="header">My first Calculator</h1>
 <body>
+<?php
+$result = null;
+$num1 = null;
+$num2 = null;
+$op = null;
 
-
-<form class="container" action="myphp.php" method="post">
-    <input type="number" name="num1">
-    <input class="operator" type="text" name="operator">
-    <input type="number" name="num2">
-    <input type="submit"> <br>
-    <p>result</p>
-
-
-    <?php
+if($_POST) {
     $num1 = $_POST["num1"];
     $num2 = $_POST["num2"];
     $op = $_POST["operator"];
 
-    if ($op == "+"){
-        echo $num1 + $num2;
-    } elseif ($op == "-"){
-        echo $num1 - $num2;
-    } elseif ($op == "*"){
-        echo $num1 * $num2;
-    } elseif ($op == "/"){
-        echo $num1 / $num2 ;
+    if ($op == "+") {
+        $result = $num1 + $num2;
+    } elseif ($op == "-") {
+        $result =  $num1 - $num2;
+    } elseif ($op == "*") {
+        $result =  $num1 * $num2;
+    } elseif ($op == "/") {
+        $result = $num1 / $num2;
     } else {
-        echo "invalid";
+        $result =  "invalid";
     }
+}
+?>
 
-    ?>
-
+<form class="container" action="myphp.php" method="post">
+    <input required="required" value="<?=$num1?>" type="number" name="num1">
+    <input pattern="(\*|-|\+" required="required" value="<?=$op?>" class="operator" type="text" name="operator">
+    <input required="required" value="<?=$num2?>" type="number" name="num2">
+    <input type="submit"> <br>
+    <div class="myresult">
+        Result: <?=round($result, 1)?>
+    </div>
 </form>
+
 <style>
     body {
         background-image: url("https://image.shutterstock.com/image-photo/business-abstract-background-260nw-244721185.jpg");
