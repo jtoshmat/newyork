@@ -87,6 +87,7 @@ if ($mybutton == 'Search' && $keyword!=''){
 
     </div>
 </div>
+
 <style>
 
     .keyword_error{

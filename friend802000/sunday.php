@@ -13,7 +13,7 @@
 <hr>
 
 <?php
-$addressv = "";
+$address = "";
 $firstName = "";
 $lastName = "";
 $age = "";
@@ -147,6 +147,7 @@ if ($error) {
         border: 1px solid black;
         background-color: #003f80;
         color: #f9f9f9;
+        transform: matrix(<1>);
     }
 
     .businesscard {
