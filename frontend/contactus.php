@@ -25,16 +25,71 @@
     </nav>
 
     <div class="mybox">
+        <h3 style="text-align: center">Contact Us</h3>
+        <div class="myform">
+            <form method="post">
+                <table class="table">
+                    <tr>
+                        <td><label>First Name: </label></td>
+                        <td><input required="required" name="firstname" type="text" placeholder="First Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name: </label></td>
+                        <td><input required="required" name="last" type="text" placeholder="Last Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email Address: </label></td>
+                        <td><input required="required" name="email" type="email" placeholder="Your Email Address"></td>
+                    </tr>
 
-        <h3>Contact Us</h3>
-
-
+                    <tr>
+                        <td><label>Your Message: </label></td>
+                        <td>
+                            <textarea class="text-lg-center" name="message"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="reset">RESET</button>
+                            <button type="submit">Submit</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </div>
-
-
 </div>
 
 <style>
+
+    td:first-child {
+        text-align: right;
+        padding-right: 5px;
+    }
+
+    td:last-child {
+        text-align: center;
+    }
+
+    td {
+        border-top: none !important;
+    }
+
+
+    td:nth-child(2) {
+        text-align: left;
+        padding-left: 5px;
+    }
+
+    table {
+        margin: auto;
+        width: 80%;
+    }
+
+    .myform {
+        margin: auto;
+        text-align: center;
+    }
 
     .mynav {
         text-align: center;
