@@ -41,14 +41,20 @@
            }
             $con = $this->connect();
             $result = $con->query($sql);
-            if ($result->num_rows == 0) {
-                $result = null;
-                return [];
+            if (isset($result->num_rows)) {
+                if ($result->num_rows == 0) {
+                    $result = null;
+                    return [];
+                }
             }
+
+
             $output = [];
-            if ($result->num_rows > 0) {
-                while ($row = $result->fetch_assoc()) {
-                    $output[] = $row;
+            if (isset($result->num_rows)) {
+                if ($result->num_rows > 0) {
+                    while ($row = $result->fetch_assoc()) {
+                        $output[] = $row;
+                    }
                 }
             }
             return $output;
