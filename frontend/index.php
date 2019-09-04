@@ -13,6 +13,7 @@
 <div class="container">
 
 
+<<<<<<< HEAD
     <div class="myheader">Welcome to New York!</div>
 
     <nav class="mynav">
@@ -27,6 +28,19 @@
 
 
 
+=======
+    <div class="myheader"><span>W</span><span>elcome to New York!</span></div>
+
+    <nav class="mynav">
+        <ul>
+            <li><a href="/frontend">Home</a></li>
+            <li><a href="/frontend/contactus.php">Contact Us</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">About Us</a></li>
+        </ul>
+    </nav>
+
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
     <div class="mybox">
 
         What is Lorem Ipsum?
@@ -104,6 +118,23 @@
         color: #e2e23a;
         font-family: "American Typewriter";
         margin-top: 20px;
+<<<<<<< HEAD
+=======
+        box-shadow: #3a90ea 10px 10px 20px;
+        border: 1px solid #3888dd;
+    }
+
+    .myheader span{
+        box-shadow: #3889df 10px 10px 20px;
+    }
+
+    .myheader span:first-child{
+        box-shadow: #fffdb2 10px 10px 20px;
+        border-radius: 30px;
+        margin:5px;
+        padding:5px;
+        border: 2px dotted #3a90ea;
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
     }
 
     .mybox {
@@ -117,11 +148,18 @@
         padding-left: 20px;
         border-radius: 30px;
         overflow: auto;
+<<<<<<< HEAD
+=======
+        text-transform: capitalize;
+        font-style: italic;
+        font-family: Arial, Helvetica, sans-serif;
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
     }
     .mybox:hover{
         opacity: 1;
         cursor: move;
     }
+<<<<<<< HEAD
     .myform:
     body {
         background-color: #254daa;
@@ -138,6 +176,20 @@
     }
 
 
+=======
+
+    /*
+    This is main body style, I will change the bg later.
+
+    @TODO: When I go home, I will spend more time to study the body and style
+     */
+    body {
+        background-color: #254daa;
+        background-image: url("http://i.stack.imgur.com/vhoa0.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
 </style>
 
 </body>

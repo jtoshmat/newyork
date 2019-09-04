@@ -1,0 +1,90 @@
+@import "mobile.css";
+.joncontainer{
+    background-color: #346aa0;
+}
+#formdiv{
+    width:80%;
+    margin: auto;
+    padding:10px;
+    color: #fff3cd;
+    font-size: 14px;
+}
+.leftcol{
+    float: left;
+    width: 40%;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.rightcol{
+    float: left;
+    width: 60%;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.rightcolinside{
+    float: right;
+}
+.rightcolinside label{
+    padding-left:5px;
+}
+.groupleft{
+    float: left;
+    margin-right: 5px;
+}
+.groupright{
+    float: left;
+    margin-left: 5px;
+}
+.myinputs{
+    border-radius: 3px;
+}
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em;
+    display: block;
+    margin-inline-start: 2px;
+    margin-inline-end: 2px;
+    padding-block-start: 0.35em;
+    padding-inline-start: 0.75em;
+    padding-inline-end: 0.75em;
+    padding-block-end: 0.625em;
+    min-inline-size: min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: threedface;
+    border-image: initial;
+    border: 1px solid #fff;
+}
+legend {
+    width: auto;
+    display: block;
+    padding-inline-start: 2px;
+    padding-inline-end: 2px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    color: #fff3cd;
+    font-size: 20px;
+
+}
+
+.mybuttons input{
+    margin-top: 10px;
+}
+
+.warnings{
+    width:20px;
+    position: relative;
+    left:10px;
+    top:10px;
+    z-index: 1000;
+}
+
+.errorinput{
+    background-color: yellow !important;
+    color: #f00 !important;
+}
