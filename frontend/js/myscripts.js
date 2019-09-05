@@ -22,12 +22,15 @@ $(function () {
 
 
      */
-
-
 var number1 = '';
 var number2 = '';
 var operator = '';
-
+$(".reset").click(function () {
+    number1 = '';
+    number2 = '';
+    operator = '';
+    $(".display").text(0);
+});
 $(".num").click(function () {
     if (!operator){
         number1 += $(this).text();
@@ -37,12 +40,34 @@ $(".num").click(function () {
         $(".display").text(number2);
     }
 });
-
 $(".sign").click(function () {
-    operator = $(this).text();
-});
+    txt = $(this).text();
 
+    console.log(txt);
+
+    switch (txt){
+        case 'x':
+            operator = '*';
+            break;
+        case '÷':
+            operator = '/';
+            break;
+
+        case '-':
+            operator = '-';
+            break;
+        case '+':
+            operator = '+';
+            break;
+        default:
+            return false;
+            break;
+    }
+});
 $(".execute").click(function () {
+    if (!number1 || !number2){
+        return false;
+    }
     var result = eval(number1 + operator + number2);
     $(".display").text(result);
 

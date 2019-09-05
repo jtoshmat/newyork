@@ -22,17 +22,17 @@
             </tr>
 
             <tr>
-                <td>AC</td>
-                <td class="sign">+/-</td>
-                <td class="sign">%</td>
-                <td>&#247;</td>
+                <td class="reset">AC</td>
+                <td>+/-</td>
+                <td>%</td>
+                <td class="sign">&#247;</td>
             </tr>
 
             <tr>
                 <td class="num">7</td>
                 <td class="num">8</td>
                 <td class="num">9</td>
-                <td>x</td>
+                <td class="sign">x</td>
             </tr>
 
             <tr>
