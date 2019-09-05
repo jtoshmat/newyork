@@ -42,9 +42,6 @@ $(".num").click(function () {
 });
 $(".sign").click(function () {
     txt = $(this).text();
-
-    console.log(txt);
-
     switch (txt){
         case 'x':
             operator = '*';
@@ -73,6 +70,13 @@ $(".execute").click(function () {
 
 });
 
+    document.addEventListener("keydown", function(event) {
+        var num = event.key;
+        if (!isNaN(num) && number1.length<5){
+            number1 += num;
+            $(".display").text(number1);
+        }
+    })
 
 
 
