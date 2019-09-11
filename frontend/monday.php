@@ -22,37 +22,37 @@
             </tr>
 
             <tr>
-                <td>AC</td>
+                <td class="reset">AC</td>
                 <td>+/-</td>
                 <td>%</td>
-                <td>&#247;</td>
+                <td class="sign">&#247;</td>
             </tr>
 
             <tr>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-                <td>x</td>
+                <td class="num">7</td>
+                <td class="num">8</td>
+                <td class="num">9</td>
+                <td class="sign">x</td>
             </tr>
 
             <tr>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>-</td>
+                <td class="num">4</td>
+                <td class="num">5</td>
+                <td class="num">6</td>
+                <td class="sign">-</td>
             </tr>
 
             <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-                <td>+</td>
+                <td class="num">1</td>
+                <td class="num">2</td>
+                <td class="num">3</td>
+                <td class="sign">+</td>
             </tr>
 
             <tr>
                 <td colspan="2">0</td>
                 <td>.</td>
-                <td>=</td>
+                <td class="execute">=</td>
             </tr>
 
 
