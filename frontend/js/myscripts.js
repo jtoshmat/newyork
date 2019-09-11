@@ -25,12 +25,14 @@ $(function () {
 var number1 = '';
 var number2 = '';
 var operator = '';
+
 $(".reset").click(function () {
     number1 = '';
     number2 = '';
     operator = '';
     $(".display").text(0);
 });
+
 $(".num").click(function () {
     if (!operator){
         number1 += $(this).text();
@@ -40,6 +42,7 @@ $(".num").click(function () {
         $(".display").text(number2);
     }
 });
+
 $(".sign").click(function () {
     txt = $(this).text();
     switch (txt){
@@ -61,6 +64,7 @@ $(".sign").click(function () {
             break;
     }
 });
+
 $(".execute").click(function () {
     if (!number1 || !number2){
         return false;
@@ -69,6 +73,10 @@ $(".execute").click(function () {
     $(".display").text(result);
 
 });
+
+
+
+
 
     document.addEventListener("keydown", function(event) {
         var num = event.key;
