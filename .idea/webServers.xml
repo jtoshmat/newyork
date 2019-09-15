@@ -2,17 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-<<<<<<< HEAD
-      <webServer id="720df189-d4cd-4f76-8603-a0a84e312e8d" name="http://newyork.local" url="http://localhost">
-        <fileTransfer port="0" accessType="MOUNT">
-          <advancedOptions>
-            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
-          </advancedOptions>
-        </fileTransfer>
-=======
-      <webServer id="5e51368c-5440-4374-ae03-3654a7d51605" name="newyork.local" url="http://newyork.local">
+      <webServer id="8d35f977-f89d-483b-ab96-0e5838d8876b" name="http://nework.local" url="http://newyork.local">
         <fileTransfer port="0" mountedRoot="$PROJECT_DIR$" accessType="MOUNT" />
->>>>>>> 4c8d0c2dbbce2bad62c1c37f578575e55b5c9cba
       </webServer>
     </option>
   </component>
