@@ -17,6 +17,8 @@ class Mercedes extends Car
         $mytext .= "<br>Mercedes: This is the child's method and overwriting it.";
         return $mytext;
     }
+
+
 }
 
 $mercedes = new Mercedes();
@@ -25,5 +27,5 @@ $mercedes->make = "C300";
 print $mercedes->drive();
 print "<hr>";
 
-echo $mercedes->autoPark();
+echo $mercedes->backup();
 

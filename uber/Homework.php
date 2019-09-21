@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>homework</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="file:///Users/khursandkhalmanov/Downloads/fontawesome-free-5.10.2-web/css/all.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome-free-5.10.2-web/css/all.css"/>
 </head>
 <body>
 <div class="div1">
