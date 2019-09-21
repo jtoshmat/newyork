@@ -5,113 +5,121 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Test</title>
+    <title>test1</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
 </head>
-
 <body>
-
 <div class="container">
     <div id="loginform">
+        <img src="img/logo.png">
         <div class="topemptyspace"></div>
         <div class="myform">
-            <div class="myheader">Registration</div>
-            <form method="post">
-                <p><input class="myinputs" required="required" name="username" type="email" placeholder="Username"></p>
-                <p><input class="myinputs" required="required" name="password" type="password" placeholder="Password"></p>
-                <p>Select your country</p>
-                <p>
-                    <select class="myselects">
-                        <option type="text" name="USA">USA</option>
-                        <option type="text" name="Uzbekistan">Uzbekistan</option>
-                        <option type="text" name="UK">UK</option>
-                        <option type="text" name="UAE">UAE</option>
-                        <option type="text" name="China">China</option>
-                    </select>
-                </p>
-                <p>How did you hear about us:<br>
-                    Google <input type="checkbox"><br>
-                    Yahoo <input type="checkbox"><br>
-                    College <input type="checkbox"><br>
-                    Friends <input type="checkbox"><br>
-                </p>
-               <p><button class="mybtn">Sign in</button></p>
-                <p> <a href="#">Lost your Password</a> </p>
+            <div class="header">Registration</div><br>
 
-            </form>
+        <form method="post">
+            <p><input class="myinputs" required="required" name="Username" type="email" placeholder="Username"></p>
+            <p><input class="myinputs" required="required" name="password" type="password" placeholder="Password"></p>
+            <p>Select your country</p>
+            <p>
+                <select class="myselects">
+                    <option class="myselects" type="text">USA</option>
+                    <option class="myselects" type="text">AZ</option>
+                    <option class="myselects" type="text">KZ</option>
+                    <option class="myselects" type="text">RU</option>
+                    <option class="myselects" type="text">AU</option>
+                </select>
+            </p>
+
+            <p>How did you hear about us:</p>
+
+            <p class="checkbox"><input type="checkbox">Google<br>
+            <input type="checkbox">Yahoo<br>
+            <input type="checkbox">College<br>
+            <input type="checkbox">Friends</p>
+
+            <p><button class="mybtn">Sign in</button></p>
+
+            <div class="Lost"> <a href="#">Lost your Password</a> </div>
+
         </div>
-        <div class="buttomtext"> Don't have an accaunt? <a href="#">Sign up here!</a> </div>
+        </form>
 
+        <div class="bottomtext">Don't have an accaunt? <a href="#">Sign in!</a>
+        </div>
     </div>
+
 </div>
+
 <style>
 
-    .buttomtext{
-        color: white;
-        margin-top: 20px;
+    .loginform img{
+        width: 150px;
+        float: left;
     }
 
-    .myform a{
-        color: #9e9e9e;
+    .bottomtext a{
+      color: white;
     }
 
-    a{
-        color: white;
-        text-decoration: underline;
-    }
+.bottomtext{
+    text-decoration: underline;
+    color: white;
+}
+
 
     .mybtn{
-        width: 60%;
-        height: 30px;
+        width: 65%;
         background-color: #005cbf;
-        border-radius: 5px;
-        font-size: 20px;
+        border-radius: 6px;
     }
 
     .myselects{
-        width: 60%;
-        height: 30px;
-        background-color: #e9e9e9;
+      width: 65%;
+        height: 35px;
+        background-color: #ffac9d;
         border: none;
-        border-radius: 3px;
     }
 
     .myinputs{
-        background-color: #e9e9e9;
-        width: 60%;
-        border-radius: 3px;
+        width: 65%;
+        height: 35px;
+        background-color: #e8e8e8;
+        border-radius: 7px;
         border: none;
-        height: 30px;
+        box-shadow: #6f6f6f 2px 2px 2px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     }
 
-    .myheader{
-        color: #040404;
+    .header{
+        color: #414d4b;
         font-size: 45px;
-        font-family: "Al Nile";
-        padding-top: 10px;
-        padding-bottom: 5px;
+        font-family: -apple-system;
+    }
+
+    .myform{
+        width: 80%;
+        height: auto;
+        background-color: white;
+        padding-top: 15px;
+        margin: auto;
+
     }
 
     .topemptyspace{
-        height: 22px;
-    }
-    .myform{
-        background-color: white;
-        width: 80%;
-        height: auto;
-        margin: auto;
-        border-radius: 8px;
-        box-shadow: black 3px 3px 3px;
-
+        margin: 20px;
     }
 
-    #loginform{
-        width: 100%;
-        height: auto;
-        background-color: #7ab4ff;
-        text-align: center;
-    }
+#loginform{
+    background-color: #7abaff;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 15px;
+    padding-top: 20px;
+}
+
 </style>
+
 
 
 </body>
