@@ -29,12 +29,13 @@
                 </p>
                 <p>
                     Howd did you hear about us?
-                    <br>
+                </p>
+                <div id="checkbox">
                     Google <input type="checkbox"><br>
                     Yahoo <input type="checkbox"><br>
                     MSN <input type="checkbox"><br>
                     TV <input type="checkbox"><br>
-                </p>
+                </div>
                 <p><button class="btn mybtn">Sign in</button></p>
                 <p><a href="#">Lost your Password?</a> </p>
             </form>
@@ -43,11 +44,18 @@
         <div class="bottomtext">Don't have an account? <a href="#">Sign up here!</a></div>
 
     </div>
+    <div>
+
+    </div>
 
 </div>
 
 
 <style>
+    #checkbox{
+        text-align:right;
+        width:55%;
+    }
 
     .myselects{
         display: inline-block;
