@@ -69,24 +69,14 @@ $(function () {
         var x = $("#num1").val();
         var y = $("#num2").val();
 
-        if (operator == '*'){
-            var c = x * y;
-        }
-        if (operator == '+'){
-            var c = eval(x +"+"+ y);
-        }
+        if (operator == '*'){var c = x * y;}
+        if (operator == '+'){var c = x + y);}
 
-        if (operator == '/'){
-            var c = x / y;
-        }
+        if (operator == '/'){var c = x / y;}
 
-        if (operator == '-'){
-            var c = x - y;
-        }
+        if (operator == '-'){var c = x - y;}
 
-        if (c<0){
-            alert("God damn, this is so negative, give me some more positive energy");
-        }
+        if (c<0){alert("God damn, this is so negative, give me some more positive energy");}
 
         $("#mybox").html(x + operator + y +"=" + c);
     });
