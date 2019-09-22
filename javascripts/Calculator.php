@@ -83,13 +83,13 @@
                 <td><input class="button"type="button" value="C"></td>
                 <td><input class="button"type="button" value="+/-"></td>
                 <td><input class="button"type="button" value="%"></td>
-                <td><input class="button3"type="button" value="/"></td>
+                <td><input class="button3"type="button" value="&divide;"></td>
             </tr>
             <tr>
                 <td><input class="button"type="button" value="7"></td>
                 <td><input class="button"type="button" value="8"></td>
                 <td><input class="button"type="button" value="9"></td>
-                <td><input class="button3"type="button" value="*"></td>
+                <td><input class="button3"type="button" value="&times;"></td>
             </tr>
             <tr>
                 <td><input class="button"type="button" value="4"></td>
@@ -112,7 +112,6 @@
         </table>
     </form>
 </div>
-
 </body>
 </html>
 
