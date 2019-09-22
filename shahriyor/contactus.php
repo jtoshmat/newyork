@@ -9,15 +9,20 @@
 </head>
 <body>
 
-<div>
-    Hello World
+<div class="head">
+    contact us with information
 </div>
 <hr>
 <form>
     <table>
     <tr>
-        <td class="first">how</td>
+        <td class="first">Firstname:</td>
+        <td class="first_2"><input type="text" name="lastname" placeholder="your name" required="required" class="ti"></td>
     </tr>
+        <tr>
+            <td class="first">Lastname:</td>
+            <td class="first_2"><input type="text" name="lastname" placeholder="your lastname" required="required" class="ti"</td>
+        </tr>
 
 
     </table>
@@ -25,14 +30,30 @@
 <style>
     table{
         background-color: #f00;
-        width: 100%;
-        height: 200px;
+        width: 100px;
+        height: 25px;
     }
 
     .first {
-        text-align: center;
+        text-align: left;
+        font-size: 25px;
     }
 
+    .first_2 {
+        font-size: 2px;
+        width: 100px;
+        padding-left: 20px
+    }
+
+    .head {
+        font-size: 30px;
+    }
+
+    .ti {
+        width: 265px;
+        font-size: 20px;
+
+    }
 </style>
 
 
