@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <?php
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
@@ -91,3 +92,5 @@ $helper->log('Set autofilter');
 $spreadsheet->getActiveSheet()->setAutoFilter($spreadsheet->getActiveSheet()->calculateWorksheetDimension());
 // Save
 $helper->write($spreadsheet, __FILE__);
+=======
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18

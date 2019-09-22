@@ -36,6 +36,6 @@
     </div>
 </div>
 <p id="action-message">Make your move</p>
-<script src="app.js" charset="utf-8"></script>
+<script src="app.js" charset="utf-8" type="text/javascript"></script>
 </body>
 </html>
