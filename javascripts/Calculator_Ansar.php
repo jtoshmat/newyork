@@ -5,10 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calculate_Ansar</title>
+    <title>Calculator_Ansar</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
-
-
 
 </head>
 <body>
@@ -63,8 +61,9 @@
 <style>
 
     .head {
+        background-color: black;
         border: 1px solid #060606;
-        width: 23.1%;
+        width: 24.5%;
         height: auto;
         border-radius: 5px;
         margin-left: 200px;
@@ -74,19 +73,18 @@
     .text{
         background-color: #454545;
         border: none;
-        margin: 0 px;
         width: 100%;
         height: 85px;
         color: white;
-        text-align: -webkit-right;
+        text-align: right;
         font-size: 35px;
 
     }
 
     .buttons{
         background-color: #595959;
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         border: none;
         color: white;
         padding: 0 px;
@@ -94,16 +92,16 @@
 
     .button{
         background-color: #737373;
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         border:none;
         font-size: 20px;
         color: white;
     }
     .button3{
         background-color: orange;
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         color: white;
         font-size: 20px;
 
@@ -111,24 +109,23 @@
 
     .button4{
         background-color: orange;
-        width: 100%;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         color: white;
         font-size: 20px;
+        border-bottom-right-radius: 5px;
     }
 
     .button2{
         background-color: #737373;
         width: 100%;
-        height: 50px;
-        color: white;
+        height: 55px;
+        color: #fdfdfd;
         font-size: 20px;
+        border-bottom-left-radius: 5px;
     }
 
-    .mytable td {
-        border:  solid black 1px;
-        box-shadow: 0.5px 0.5px 0.5px 0.5px  black;
-    }
+
 
 </style>
 
