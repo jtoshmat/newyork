@@ -127,7 +127,7 @@
 
     </div>
 
-    <div id="myscreen">
+    <div id="myscreen" contenteditable="false">
         Everything will be displayed here.
     </div>
     <div class="mybuttons">
@@ -138,6 +138,9 @@
     </div>
 </div>
 
+<?php
+include 'cards.php'
+?>
 
 <style>
 
