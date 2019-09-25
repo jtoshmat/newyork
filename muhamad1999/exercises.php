@@ -9,8 +9,7 @@
 </head>
 <body>
 
-<h1> Welcome to Rustam's site!</h1>
+<h1>My Exercises</h1>
 
-
-
+</body>
 </html>
