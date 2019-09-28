@@ -1,34 +1,47 @@
 <?php
 
-$city = ['New York','Miami','London','Paris','Tokio','Tashkent'];
+$numbers = range(32, 100);
+
+foreach ($numbers as $number){
+    echo "Faranheit: <span class='degree'> $number </span> is <span class='degree2'>".convertToCelcius($number)."</span> C";
+    echo "<hr>";
+    echo "Celcius:$number is ".convertToFaranheit($number)." F";
+    echo "<br>";
+}
 
 
-unset($city[4]);
+function convertToCelcius($number){
+   $result = ($number - 32) * 5/9;
+   return round($result,2);
+}
 
-$city[3] = 'Los Angeles';
-$city[4] = 'Kiev';
+function convertToFaranheit($number){
+    $result = ($number * 9/5) + 32;
+    return round($result,2);
 
-$total = count($city);
+}
 
-array_push($city,'you are stupid');
-array_push($city,'Tel Aviv');
-array_push($city,'Samarqand');
-array_push($city,'Kokand');
-array_push($city,'Dubai');
-array_push($city,'Antalia');
-array_push($city,'Rome');
-array_push($city,'Manchester');
+?>
 
+<style>
+    .degree{
+        background-color:red;
+        color:yellow;
+        border:1px solid black;
+        border-radius:10px;
+        box-shadow: #000 5px 5px 5px 5px;
+        padding:5px;
+        margin:2px;
+    }
 
-echo "<pre>";
+    .degree2{
+        background-color:blue;
+        color:yellow;
+        border:1px solid black;
+        border-radius:10px;
+        box-shadow: #000 5px 5px 5px 5px;
+        padding:5px;
+        margin:2px;
+    }
 
-$num = array_search('Dubai', $city);
-$city[$num] = 'WOHOOOO';
-print_r($city);
-
-
-
-
-
-
-
+</style>
