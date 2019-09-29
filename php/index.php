@@ -124,6 +124,8 @@ $img = $cars[$selected]['img'];
 
     .mycarcollections {
         width: 95%;
+        max-width: 610px;
+        min-width: 610px;
         background-color: #6c0912;
         margin: auto;
     }
