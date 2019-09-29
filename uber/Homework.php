@@ -110,7 +110,7 @@
                     <li>Share</li>
                 </ul>
             </td>
-            <td>
+            <td id="td12">
                 <div class="circle1 rounded-circle">6.8K</div>
             </td>
             <td>
@@ -363,6 +363,7 @@
         font-size:11px;
         text-align:center;
         padding-top:17px;
+
     }
     #www{
         font-family:"Times New Roman";
