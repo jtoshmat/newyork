@@ -171,6 +171,39 @@ $car1 = new Car("Acura", "MDX", 2019, 20);
 echo __LINE__ .' : '. $car1;
 echo __LINE__ .' : '. "\n";
 
+// array changing and removing practice
+$my_car = [
+    "oil" => "black looks bad",
+    "brakes" => "new",
+    "tires" => "old",
+    "filth" => "chumchuq parod qivorgan",
+    "wiper fluid" => "full",
+    "headlights" => "bright"
+];
+print_r($my_car);
+
+
+
+$my_car["oil"] = "new";
+$my_car["tires"] = "new and deep treads";
+
+unset($my_car["filth"]);
+
+print_r($my_car);
+
+/*
+$GLOBALS
+$_SERVER
+$_GET
+$_POST
+$_FILES
+$_COOKIE
+$_SESSION
+$_REQUEST
+$_ENV
+*/
+
+
 
 
 
