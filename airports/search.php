@@ -80,7 +80,7 @@ $flights = new Reservation();
         </div>
 
 
-    </div>
+    </div> 
 
 </div>
 
