@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 
 
 // objet oriented; class
@@ -13,7 +12,7 @@ class Car{
 
     public function backup(){
         return "The $this->make  is now backing up";
-
+$_GET
     }
     public function turning(){
         return "The $this->make  is turning.";
@@ -40,13 +39,11 @@ class Car{
 
     public function backup(){
         print "Watch out kids, the $this->make is backing up! <br>";
->>>>>>> 2cee4dbbf1ef9c1b4a16e0383effecf12d3ee283
     }
 
 }
 
 $car = new Car();
-<<<<<<< HEAD
 $car->make = 'Honda';
 echo $car->drive();
 echo "<pre>";
@@ -59,7 +56,6 @@ echo "<hr>";
 
 var_dump(array_key_exists(10, $cars));
 echo "<hr>";
-=======
 
 $car->make = 'BMW';
 $car->drive();
@@ -78,7 +74,6 @@ $car->drive();
 
 $car->make = 'Nexia';
 $car->drive();
->>>>>>> 2cee4dbbf1ef9c1b4a16e0383effecf12d3ee283
 
 
 
