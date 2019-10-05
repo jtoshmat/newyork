@@ -1,43 +1,24 @@
 <?php
 
-/*
- * 1. User enters number #1 (1 and 10000E)
- * 2. User picks an operator (-, +, *, /)
- * 3. User enters number #2 (1 and 10000E)
- * 4. User pushes = sign
- */
+if (count($_POST)) {
+    $parms = $_POST;
 
+    $number = $parms ["number"];
+    $whatever = $parms["whatever"];
 
-#Step 1
-	$number1 = $_GET['number1']??5;
+    if ($whatever==1){
+        $result = $number * 1.609 . " km";
+    }
 
-#Step 2
-	$operator = $_GET['operator']??'plus';
+    else{
+        $result = $number/1.6. " mls";
+    }
 
-#Step 3
-	$number2 = $_GET['number2']??5;
-
-	$result = 'Empty';
-
-	if ($operator=='x'){
-		$result = $number1 * $number2;
-	}
-
-	if ($operator=='plus'){
-		$result = $number1 + $number2;
-	}
-
-	if ($operator=='minus'){
-		$result = $number1 - $number2;
-	}
-
-echo $result;
+    echo $result;
 
 
 
-
-
-
+}
 
 
 ?>

@@ -31,6 +31,32 @@
 
 <style>
 
+
+    .mybutton{
+        width:90%;
+        background-color: #d7d7d7;
+        border-radius: 5px;
+        border:1px solid #1b1e21;
+        margin:5px;
+        padding:5px;
+        font-size: 14px;
+    }
+
+    .mytext{
+        font-size: 15px;
+        color:#1b1e21;
+    }
+
+    .mybox{
+        width:23%;
+        height:400px;
+        float: left;
+        margin:5px;
+        background-color: #9fcdff;
+        border: px solid #9fcdff;
+
+    }
+
     form input, textarea{
         border:1px double #858585 !important;
     }
@@ -47,6 +73,26 @@
 
     body{
         background-color: #625da4;
+    }
+
+    ul a {
+        display: block;
+        height: 26px;
+        line-height: 26px;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 0px 4px;
+        background-color: #ffffff;
+    }
+    p {
+        margin: 0;
+    }
+
+
+
+    .myheader{
+        text-align: center;
     }
 </style>
 </body>
