@@ -1,12 +1,12 @@
 <?php
-$numbers = range(100,500);
+$numbers = range(1,5);
 $randomoperator = ['/','*','+','-','%'];
 foreach ($numbers as $row=>$number){
     $row++;
-    echo "$row): ".calculate(rand(1, 100),$number, $randomoperator[rand(0,4)]) ."<hr>";
+    echo "$row): ".calculate($number,rand(5,10), $randomoperator[0]) ."<hr>";
 }
 function calculate($a, $b, $operator){
-    return "$a $operator $b = ".eval("return $a  $operator  $b;");
+    return "$a $operator $b  =".eval("return $a  $operator  $b;");
 }
 
 /*echo "$a * $b = ". multiply($a,$b);

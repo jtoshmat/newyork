@@ -7,86 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculator</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
-    <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+
     <script>
-        $(function () {
-
-            //1) get all numbers when they are pressed
-            var num1 = '';
-            var num2 = '';
-            var operator = '';
-            var result = '';
-
-            //Get Number 1
-            $(".numbers").click(function () {
-
-                var mynumber = '';
-
-                if (!num1.length>8){
-                    return false; //exit
-                };
-
-
-                console.log(mynumber)
-
-                var num = $(this).val();
-
-                if (!operator){
-                    num1 += num;
-                    mynumber = num1;}
-                else{
-                    num2 += num;
-                    mynumber = num2;
-                }
-
-                $(".textview").val(mynumber);
-
-            });
-
-            //Get operator
-            $(".operator").click(function () {
-                var ope = $(this).val();
-
-                if(ope=='×'){
-                    ope = '*';
-                }
-
-                if (ope=='÷'){
-                    ope = "/";
-                }
-                operator = ope;
-                $(".textview").val(num1);
-
-            });
-
-            //Reset button
-            $(".resetbtn").click(function () {
-                num1 = '';
-                num2 = '';
-                operator = '';
-                $(".textview").val('');
-            });
-
-            //Execute button
-            $(".executebtn").click(function () {
-                if (!num1 || !num2 || !operator){
-                    return false;
-                }
-                result = eval(" "+num1+" "+operator+" "+num2+" ");
-
-                if (result % 1 !== 0){
-                    result = result.toFixed(1);
-                }
-                if (operator==='%'){result=num1*num2/100};
-
-                $(".textview").val(result);
-                num1 = '';
-                num2 = '';
-                operator = '';
-                operator = '';
-            });
-
-        })
+        function insert(num){
+            document.form.textview.value=document.form.textview.value+num
+        }
     </script>
     <style>
         .main{
@@ -155,12 +80,12 @@
 <body>
 <div class="main">
     <form name="form">
-        <input class="textview">
+        <input class="textview" name="textview">
         <table>
             <tr>
                 <td><input class="button resetbtn"type="button" value="C"></td>
                 <td><input class="button operator"type="button" value="+/-"></td>
-                <td><input class="button operator"type="button" value="%"></td>
+                <td><input class="button"type="button" value="%" onclick="insert('%')"></td>
                 <td><input class="button3 operator"type="button" value="&divide;"></td>
             </tr>
             <tr>
@@ -170,15 +95,15 @@
                 <td><input class="button3 operator"type="button" value="&times;"></td>
             </tr>
             <tr>
-                <td><input class="button numbers"type="button" value="4"></td>
-                <td><input class="button numbers"type="button" value="5"></td>
-                <td><input class="button numbers"type="button" value="6"></td>
+                <td><input class="button"type="button" value="4"onclick="insert(4)"></td>
+                <td><input class="button"type="button" value="5"onclick="insert(5)"></td>
+                <td><input class="button"type="button" value="6"onclick="insert(6)"></td>
                 <td><input class="button3 operator"type="button" value="-"></td>
             </tr>
             <tr>
-                <td><input class="button numbers"type="button" value="1"></td>
-                <td><input class="button numbers"type="button" value="2"></td>
-                <td><input class="button numbers"type="button" value="3"></td>
+                <td><input class="button "type="button" value="1" onclick="insert(1)"></td>
+                <td><input class="button"type="button" value="2"onclick="insert(2)"></td>
+                <td><input class="button"type="button" value="3"onclick="insert(3)"></td>
                 <td><input class="button3 operator"type="button" value="+"></td>
             </tr>
             <tr>

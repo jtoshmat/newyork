@@ -18,7 +18,6 @@
                 var sel3 =$(".select3").val();
 
 
-
                 if (select1 === 'Length' && sel2==='Mile'&& sel3 === 'Kilometer'){var view2 = view1 * 1.609;}
                 $(".textview2").val(view2);
                 if (select1 === 'Length' && sel2 === 'Kilometer' && sel3 === 'Mile'){var view2 = view1/1.609;}
