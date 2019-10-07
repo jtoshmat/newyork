@@ -13,7 +13,6 @@
 <div class="container">
 
 
-<<<<<<< HEAD
     <div class="myheader">Welcome to New York!</div>
 
     <nav class="mynav">
@@ -52,7 +51,7 @@
 <style>
 
     .mynav{
-=======
+
     <div class="myheader"><span>W</span><span>elcome to New York!</span></div>
 
     <nav class="mynav">

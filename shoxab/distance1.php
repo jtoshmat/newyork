@@ -34,6 +34,7 @@ include_once 'postdistance1.php';
             <div class="result">
 
                 <?php
+
                     if ($parms){
                         if ($option == 1){
                             echo "$number km is $result miles";
@@ -74,6 +75,7 @@ include_once 'postdistance1.php';
 
     .result{
         width: 100%;
+        border: 5px green;
     }
 
     .form{

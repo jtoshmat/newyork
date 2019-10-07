@@ -43,20 +43,13 @@
            }
             $con = $this->connect();
             $result = $con->query($sql);
-<<<<<<< HEAD
-            if (isset($result->num_rows)) {
-                if ($result->num_rows == 0) {
-                    $result = null;
-                    return [];
-                }
-=======
+
             if(!isset($result->num_rows)){
                 return [];
             }
             if ($result->num_rows == 0) {
                 $result = null;
                 return [];
->>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
             }
 
 

@@ -11,26 +11,29 @@
 
 </head>
 <body>
+<?php
+include_once 'workphp.php';
+?>
 
 <div class="container">
 
     <div class="mycalc">
 
-        <form action="workphp.php" method="post" id="myform">
+        <form method="post" id="myform">
             <h3 style="text-align: center"> Weight Converter</h3>
             <br><br><br>
-            <p><input type="number" name="number" required="required" placeholder="1,2,3...">
-                <input type="no text" class="result">
+            <p><input type="number" name="number" required="required" placeholder="1,2,3..." value="<?=$parms['number']??null?>"></p>
+                <input  class="result">
+
                 <br>
-                <div margin-top="20 px">
+            <p><div margin-top="20 px">
                 <select name="Choose" id="Choose">
-                    <option>choose</option>
-                    <option>to kg</option>
-                    <option>to lbs</option>
+                    <option name="option" value="1">from kg</option>
+                    <option name="option" value="2">from lbs</option>
                 </select>
                 <select name="Choose" id="Choose">
-                    <option>to kg</option>
-                    <option>to lbs</option>
+                    <option name="option" value="3">to kg</option>
+                    <option name="option" value="4">to lbs</option>
                 </select>
 
                 <br><br>
@@ -41,6 +44,7 @@
 
 
             </p>
+
 
 
         </form>
