@@ -1,8 +1,8 @@
 <?php
 
 
-namespace family;
-include_once 'father.php';
+namespace family2;
+include_once 'father2.php';
  class son
 {
     public function playWithDog(){
