@@ -11,7 +11,7 @@
 <body>
 
 <div class="container">
-    <form method="get" action="search.php">
+    <form method="get" action="search11.php">
 
     <div>
         <p>
@@ -27,9 +27,9 @@
                 <option value="aeroflot">Aeroflot</option>
             </select>
             <select class="from-to">
+                <option value="economy">Economy class</option>
                 <option value="business">Business class</option>
                 <option value="first">First class</option>
-                <option value="economy">Economy class</option>
             </select>
 
         </p>
