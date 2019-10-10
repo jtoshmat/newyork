@@ -16,7 +16,7 @@
                 <img src="../img/default_photo_cirle_profile.png">
             </div>
         <div class="myform_inputs">
-            <form>
+            <form method="post" action="login_process.php">
                 <div class="formheader">SIGN IN</div>
                 <p><input placeholder="Your Email Address" name="email" type="email" class="myinputs input-group"></p>
                 <p><input placeholder="Your Password" name="password" type="password" class="myinputs input-group"></p>
@@ -103,7 +103,7 @@
     .profile_photo img{
         width:100px;
     }
-    .container-fluid{
+    body{
         background-color: #b4b2b8;
     }
 
