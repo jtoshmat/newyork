@@ -20,7 +20,7 @@
         <img src="http://www.my-it-education.us/img/sales/my-it-education-logo.png">
     </p>
 
-    <h3>Contact us confirmation</h3>
+    <h3>Bizblan aloqaga chiqganisga raxmat</h3>
     <hr>
 
 

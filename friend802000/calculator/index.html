@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet">
+
+    <title>calculator</title>
+</head>
+<body>
+
+<div class="calculator_border">
+    <div class="calculator">
+        <div class="output">
+            <div data-previous-op id="result" class="result"></div>
+                <div data-current-op class="keyword"></div>
+        </div>
+                <div class="keyboard">
+
+                    <button data-all-clear class="op1" id="clear">AC</button>
+                    <button data-backspace class="op1" id="backspace">C</button>
+                    <button data-operator class="op1">%</button>
+                    <button data-operator class="op">÷</button>
+                    <br>
+                    <button data-number>7</button>
+                    <button data-number>8</button>
+                    <button data-number>9</button>
+                    <button data-operator class="op">×</button>
+                    <br>
+                    <button data-number>4</button>
+                    <button data-number>5</button>
+                    <button data-number>6</button>
+                    <button data-operator class="op">-</button>
+                    <br>
+                    <button data-number-one>1</button>
+                    <button data-number>2</button>
+                    <button data-number>3</button>
+                    <button data-operator class="op">+</button>
+                    <br>
+                    <button data-number class="zero">0</button>
+                    <button data-number>.</button>
+                    <button data-equals class="op">=</button>
+                </div>
+
+
+            </div>
+
+        <script src="../script.js" defer></script>
+</body>
+</html>

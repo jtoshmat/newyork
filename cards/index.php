@@ -19,11 +19,25 @@
 <script>
 
     //Declaring all variables here
-    var cards = [6,7,8,9,10,11,12,13,14];
-    var players = [1,2,3,4];
-    //var cardtypes = ['diamond','heart','spade','club'];
-    var cardtypes = [1,2,3,4];
+    // var cards = [6,7,8,9,10,11,12,13,14];
+    // var players = [1,2,3,4];
+    // //var cardtypes = ['diamond','heart','spade','club'];
+    // var cardtypes = [1,2,3,4];
+    //
+    // $(function () {
+    //     $('#btn_shuffle').click(function () {
+    //         playAudio();
+    //     });
+    // });
+    function stackMakeDeck(n) {
 
+<<<<<<< HEAD
+        var ranks = new Array("A", "2", "3", "4", "5", "6", "7", "8", "9",
+            "10", "J", "Q", "K");
+        var suits = new Array("C", "D", "H", "S");
+        var i, j, k;
+        var m;
+=======
     $(function () {
         $('#btn_shuffle').click(function () {
             playAudio();
@@ -32,7 +46,22 @@
 
         });
     });
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
 
+        m = ranks.length * suits.length;
+
+        // Set array of cards.
+
+        this.cards = new Array(n * m);
+
+        // Fill the array with 'n' packs of cards.
+
+        for (i = 0; i < n; i++)
+            for (j = 0; j < suits.length; j++)
+                for (k = 0; k < ranks.length; k++)
+                    this.cards[i * m + j * ranks.length + k] =
+                        new Card(ranks[k], suits[j]);
+    }
 
     var x = document.getElementById("myAudio");
 
@@ -159,14 +188,16 @@
     }
 
     body{
-        background-color: rgba(11, 53, 117, 0.99);
         background-image: url("img/casino_background.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
     }
 
     .stackofcards{
