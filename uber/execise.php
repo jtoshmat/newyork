@@ -1,43 +1,45 @@
 <?php
-const BR ='<br/>';
-/*$cars = array('Toyota'=>'Camry', 'Chevrolet'=>'Suburban','Ravon'=>'Cobalt');
-$numbers = range(1,5);
-foreach ($cars as $company => $mark){
+/*
+$friends =array("Ansor => 5","Rustam","Farhod","Julya",3,true,null,);
 
-    echo $numbers[0]++.'): '.$company.' '.$mark.'<br/>';
-}
-echo '<br/>';
-print_r($cars);
-echo BR;
-function multiply($a,$b,$c){return ($a * $b)/($a-$c);}
-$numbers = range(10,1000);
-$num = [1,2];
-foreach ($numbers as $number){
+unset($friends[7]);
+echo "<pre>";
+foreach ($friends as $friend){
+    echo $friend."<br>";
+}*//*
+$f1=0;
+$f2=2;
+$coun=0;
 
-echo $num[0]++.'):'.'('.$number.'*2)/('.$number.'-3)='.multiply($number,2,3).BR;}
-*/
- $cars =['Audi','BMW','Mercedes','Alfa'];
- $numbers =[1,2];
- foreach($cars as $car){
-     echo $numbers[0]++."):";
-     drive($car);
-     echo $numbers[0]++."):";
-     stop($car);
-     echo $numbers[0]++."):";
-     backup($car);
-     echo $numbers[0]++."):";
-     park($car);
- }
- function drive($cars){
-     echo $cars." drive <hr>";
-};
- function stop($cars){
-     echo $cars." stop <hr>";
- };
- function backup($cars){
-     echo $cars." backup<hr>";
- };
- function park($cars){
-     echo $cars." park<hr>";
- };
+echo $f1."<hr>";
+echo $f2."<hr>";
+
+While($coun<=100){
+    $f3=$f1+$f2;
+    echo $f3."<hr>";
+    $f1=$f2;
+    $f2=$f3;
+    $coun=$coun+1;
+
+}*/
+$f1=0;
+$f2=1;
+for($count=0;$count<=12;$count++){
+    $f3=$f1+$f2;
+    $f1=$f2;
+    $f2=$f3;
+    echo $f3."<hr>";
+    }
+/*
+$n=1;
+for($a=1;$a<=10;$a++){
+
+    echo $n++."):$a*$a+2*$a+3=".($a*$a+2*$a+3)."<hr>";
+
+}*/
+/* Interface - shartnome,meros;
+abstract class is a templete - only one abstract can be used;
+trait collection of all usefull methods, and tools;
+
+
 

@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,35 +11,31 @@
 <body>
 <?php
 
-if(isset($_POST["submit"])){
-    $username=$_POST["username"];
-    $password=$_POST["password"];
-   $connection = mysqli_connect('localhost','root','','Username');
-if($connection){echo "Yes";}else{echo "Sorry";}}
-
-$query = "INSERT INTO Username(Name,Password) VALUES('$username','$password')";
-
-
-$result=mysqli_query($connection,$query);
-/*
-
 $connection = mysqli_connect('localhost','root','','Username');
 $query = "SELECT * FROM Username";
 $result=mysqli_query($connection,$query);
-while($row = mysqli_fetch_row($result)){
-?>
-<pre>
-    <?php
-    print_r($row);}*/
+
+
+
 ?>
 
 <div class="container">
-<form action="git.php" method="post">
+<form action="blank.php" method="post">
     <label>Username</label>
     <input type="text" placeholder="Username" name="username"><br>
     <label>Password</label>
     <input type="password" placeholder="Password" name="password"><br>
-    <input type="submit" name="submit" >
+    <div>
+    <select name="" id="" >
+        <?php
+        while ($row = mysqli_fetch_assoc($result)){
+            $id = $row['ID'];
+        echo "<option value='$id'>$id</option>";}
+
+        ?>
+    </select>
+    </div>
+    <input type="submit" name="submit" value="Update" >
 </form>
 </div>
 </body>
