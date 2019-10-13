@@ -1,0 +1,3 @@
+<?php
+​
+$city = ['new york', ]
