@@ -12,11 +12,11 @@ class Car
     public $year;
 
     public function drive(){
-        return "The $this->make is in a driving mode";
+        return "Parent: The $this->make is in a driving mode";
     }
 
     public function backup(){
-        return "Please be careful, the car is backing up";
+        return "Please be careful, the $this->make is backing up";
     }
 
     public function park(){
