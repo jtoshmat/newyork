@@ -1,45 +1,13 @@
 <<<<<<< HEAD
 =======
 <?php
-namespace Family;
+session_start();
+$_SESSION['name'] = 'Jon Tosh';
 
-class Father{
-
-    public $parms;
-
-    public function __construct()
-    {
-        $this->parms = $_GET;
-    }
-
-
-    public function getAirports(){
-        $this->parms['name'] = $this->parms['name']??null;
-        switch($this->parms['name']){
-            case 'Jon':
-                echo "Howdy Jon, How are things?";
-                break;
-
-            case 'Sukhrob':
-                echo "Salom Sukhrobjon, hammasi yaxshimi?";
-                break;
-
-            default:
-                echo "No name was passed";
-                break;
-        }
-
-
-
-    }
-
-
-}
-
-$father = new Father();
 ?>
 >>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
 
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 <head>
@@ -132,3 +100,7 @@ echo $cars[$randomnumber];
 </body>
 </html>
 >>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
+=======
+
+<a href="members.php">Members</a>
+>>>>>>> 7d798a2fbc9080cc3492481d17a281021556f919

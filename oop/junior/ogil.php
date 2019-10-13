@@ -9,4 +9,4 @@ class ogil{
 
 $son = new ogil();
 
-echo $son->goToSalon();
+echo $son->goToSalon(-am );

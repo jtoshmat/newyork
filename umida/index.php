@@ -1,10 +1,6 @@
 <?php
-namespace Gaybullaevs;
-include_once 'Myfather.php';
-include_once 'MyMother.php';
-include_once 'startbusiness.php';
-include_once 'Traits/ToolsTrait.php';
 
+<<<<<<< HEAD
 
 class Son extends Startbusiness implements \Myfather, \MyMother {
 
@@ -36,3 +32,6 @@ $son = new Son();
 echo $son->noMoreHangOutAtNight();
 
 // We covered:   Interface, Traits, Abstract.
+=======
+var_dump($_REQUEST);
+>>>>>>> 7d798a2fbc9080cc3492481d17a281021556f919
