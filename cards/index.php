@@ -19,11 +19,51 @@
 <script>
 
     //Declaring all variables here
-    var cards = [6,7,8,9,10,11,12,13,14];
-    var players = [1,2,3,4];
-    //var cardtypes = ['diamond','heart','spade','club'];
-    var cardtypes = [1,2,3,4];
+    // var cards = [6,7,8,9,10,11,12,13,14];
+    // var players = [1,2,3,4];
+    // //var cardtypes = ['diamond','heart','spade','club'];
+    // var cardtypes = [1,2,3,4];
+    //
+    // $(function () {
+    //     $('#btn_shuffle').click(function () {
+    //         playAudio();
+    //     });
+    // });
+    function stackMakeDeck(n) {
 
+<<<<<<< HEAD
+        var ranks = new Array("A", "2", "3", "4", "5", "6", "7", "8", "9",
+            "10", "J", "Q", "K");
+        var suits = new Array("C", "D", "H", "S");
+        var i, j, k;
+        var m;
+=======
+    $(function () {
+        $('#btn_shuffle').click(function () {
+            playAudio();
+            shuffle(cards);
+            console.log(cards);
+
+        });
+    });
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+
+        m = ranks.length * suits.length;
+
+        // Set array of cards.
+
+        this.cards = new Array(n * m);
+
+        // Fill the array with 'n' packs of cards.
+
+        for (i = 0; i < n; i++)
+            for (j = 0; j < suits.length; j++)
+                for (k = 0; k < ranks.length; k++)
+                    this.cards[i * m + j * ranks.length + k] =
+                        new Card(ranks[k], suits[j]);
+    }
+
+<<<<<<< HEAD
     $(function () {
         $('#btn_shuffle').click(function () {
             playAudio();
@@ -36,6 +76,10 @@
 
     var x = document.getElementById("myAudio");
 
+=======
+    var x = document.getElementById("myAudio");
+
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
     function playAudio() {
         x.play();
     }
@@ -127,7 +171,11 @@
 
     </div>
 
+<<<<<<< HEAD
     <div id="myscreen" contenteditable="false">
+=======
+    <div id="myscreen">
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
         Everything will be displayed here.
     </div>
     <div class="mybuttons">
@@ -138,9 +186,12 @@
     </div>
 </div>
 
+<<<<<<< HEAD
 <?php
 include 'cards.php'
 ?>
+=======
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
 
 <style>
 
@@ -162,14 +213,25 @@ include 'cards.php'
     }
 
     body{
+<<<<<<< HEAD
         background-color: rgba(11, 53, 117, 0.99);
+=======
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
         background-image: url("img/casino_background.jpg");
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+<<<<<<< HEAD
 
 
+=======
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
     }
 
     .stackofcards{

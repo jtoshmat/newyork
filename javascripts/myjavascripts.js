@@ -1,7 +1,13 @@
 $(document).ready(function () {
 
+    $(".form-control").submit(function () {
+        var name = $(".name").val();
+        listPerson(name);
+        return false;
+    });
 
 
+<<<<<<< HEAD
 $(".form-control").submit(function () {
     var age = $(".age").val();
 
@@ -57,21 +63,25 @@ function doMyWork(zhavob, img, show=true, color="fff", question='') {
 
     survey(zhavob, question);
 }
+=======
+    function listPerson(name) {
+        if (name == 'sukhrob'){
+            $(".result").html('Shadiyarov Sukhrob Suratovich');
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
 
+            return false;
+        }
+        if (name == 'Jon'){
+            $(".result").html('Hello Jon!, How are you?');
+            return false;
+        }
+        if (name == 'Max'){
+            $(".result").html('Hello Max!,  How are you?');
 
-function survey(zhavob, question) {
+            return false;
 
-    if (question!='') {
-        var ask = confirm(question);
-        if (ask){
-            $(".result").html(question + " VERY GOOOD");
-        }else{
-            $(".result").html(question + " DAMINGI OL, RETURN QILA OLMISAN");
         }
     }
-}
-
-
 
 
 

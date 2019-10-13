@@ -12,38 +12,47 @@
 </head>
 <body>
 <div class="container">
-    <h1>FUN FUN FUN</h1>
-
-
-    <div>
-        <img class="myimg" src="https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg">
-    </div>
+    <h1>What's your name?</h1>
     <div class="result"></div>
     <form class="form-control">
+<<<<<<< HEAD
         <p><input class="age" name="age" type="number" placeholder="Age">
             <button type="submit">Calculate</button></p>
+=======
+        <p><input class="name" name="name" type="text" placeholder="Please, enter your name">
+            <button type="Submit">Calculate</button>
+        </p>
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
     </form>
+</div>
 
-
+<div class="img">
+    <img src="cosmos.png">
 </div>
 
 <style>
-    .result{
+    h1 {
+        text-align: center;
+    }
+    .result {
         background-color: #e3d8dd;
         height: 50px;
         border: 1px solid #1b1e21;
-        padding:5px;
+        padding: 5px;
         font-size: 14px;
-        color:#ff0000;
+        color: #ff0000;
     }
-
-    .myimg{
-        width:200px;
-        border: 1px solid #000;
-        margin:5px;
-        display: none;
+    .name {
+        margin-top: -1px;
+        margin-left: 23%;
     }
+    .img {
+        border-radius: 50%;
+        height: 10px;
+        width: 20px;
 
+
+    }
 </style>
 
 </body>

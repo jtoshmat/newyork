@@ -6,10 +6,14 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title>Welcome to Brooklyn</title>
 =======
     <title>Travel Package</title>
 >>>>>>> b1ea42110097febf5599c8f4bfd5a0b7460532c2
+=======
+    <title>Welcome to Brooklyn</title>
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
     <link href="/css/bootstrap.css" rel="stylesheet">
     <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
@@ -17,6 +21,9 @@
 
 <div class="container">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
 
     <p>
         <input class="input-group-lg">
@@ -76,6 +83,7 @@
 
             console.log(random_number);
         });
+<<<<<<< HEAD
 =======
     <div claas="header">
         <h1>Travel Package!</h1>
@@ -199,16 +207,22 @@
 
     });
 >>>>>>> b1ea42110097febf5599c8f4bfd5a0b7460532c2
+=======
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
     });
 
 
 </script>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
 </body>
 </html>
 
 
+<<<<<<< HEAD
 =======
 
 
@@ -216,3 +230,5 @@
 </body>
 </html>
 >>>>>>> b1ea42110097febf5599c8f4bfd5a0b7460532c2
+=======
+>>>>>>> ae6fb802820e9e03f7637d05b89e0b9dd0d96cea
