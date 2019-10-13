@@ -1,3 +1,44 @@
+<?php
+namespace Airports;
+include_once "../inc/database.php";
+include_once "validateforms.php";
+include_once "mytools.php";
+
+use Database\database;
+
+class Airport extends database implements \ValidateForms
+{
+    private $db;
+    public $parms;
+    use \MyTools;
+
+    public function __construct()
+    {
+        $this->db = new database();
+        $this->parms = $_GET;
+        $this->checkInputs();
+    }
+
+    public function checkInputs()
+    {
+       $this->parms['keyword'] = strip_tags($this->parms['keyword']);
+    }
+
+    public function getAirports()
+    {
+        $aiports = $this->db->sql("SELECT * FROM airports where {$this->parms['selectBy']} LIKE '%{$this->parms['keyword']}%'");
+        return $aiports;
+    }
+}
+
+
+$obj = new Airport();
+$airports = $obj->getAirports();
+if (!$obj->checkUserAuthentication()){
+    die("Sorry, you are not a loggedin user");
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,93 +46,65 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="/css/bootstrap.css" rel="stylesheet">
+    <title>Airports</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
+<div class="container-fluid">
 
-<?php
-
-$sortby = $_GET['sortby']??'id';
-$keyword = $_GET['keyword']??null;
-$field = $_GET['field']??'country';
-
-use Database\database;
-
-include_once "../inc/database.php";
-$db = new database();
-
-if ($keyword){
-    $airports = $db->sql("select * from airports where $field like '%$keyword%'");
-}else {
-    $airports = $db->sql('select * from airports where country ="Uzbekistan" order by ' . $sortby . ' desc');
-}
-?>
-
-<div class="container">
-    <h3>The world aiports</h3>
-
-    <div class="searchform">
-        <form method="get" action="index.php">
-            <p>
-                <input name="keyword" type="text">
-                <select name="field">
-                    <option value="country">Country</option>
+    <h4 style="text-align: center">
+        The world Aiports Directory
+    </h4>
+    <div class="mysearch">
+        <form style="text-align: center">
+            <p>Search: <input value="<?= $obj->parms['keyword'] ?? NULL ?>" name="keyword" type="text">
+                <select name="selectBy">
+                    <option value="name">Name</option>
                     <option value="city">City</option>
-                    <option value="details">Details</option>
+                    <option value="country">Country</option>
                 </select>
-            <button type="submit">Search</button>
+
+                <button>Search</button>
             </p>
         </form>
     </div>
 
-    <table class="table">
-        <tr>
-            <td><a href="http://newyork.local/airports/index.php?sortby=id">ID</a></td>
-            <td><a href="http://newyork.local/airports/index.php?sortby=city">City</a></td>
-            <td><a href="http://newyork.local/airports/index.php?sortby=country">Country</a></td>
-            <td><a href="http://newyork.local/airports/index.php?sortby=code">Code</a></td>
-        </tr>
-
-        <?php
-        foreach ($airports as $airport) {
-            ?>
-
+    <div class="mytable">
+        <table class="table table-bordered">
             <tr>
-                <td><?=$airport['id']?></td>
-                <td><?=$airport['city']?></td>
-                <td><?=$airport['country']?></td>
-                <td><?=$airport['code']?></td>
+                <td>ID</td>
+                <td>Name</td>
+                <td>City</td>
+                <td>Country</td>
             </tr>
 
-            <?php
-        }
-        ?>
 
-    </table>
+            <?php
+            foreach ($airports as $airport) {
+                ?>
+
+                <tr>
+                    <td><?= $airport['id'] ?></td>
+                    <td><?= $airport['name'] ?></td>
+                    <td><?= $airport['city'] ?></td>
+                    <td><?= $airport['country'] ?></td>
+
+                </tr>
+
+                <?php
+            }
+            ?>
+
+
+        </table>
+    </div>
+
 </div>
 
-
 <style>
-.searchform{
-    width:80%;
-    margin: auto;
-    text-align: center;
-}
-
-    table{
-        background-color: #fff1fd;
-        box-shadow: #622b2c 5px 5px 5px 5px;
-        border-radius: 15px;
-    }
-
-    tr:first-child{
-        background-color: #b60000;
-        color: #ffe4a8;
-    }
-
-    table a {
-        color: #fff1c2;
+    tr:first-child {
+        background-color: #46060c;
+        color: #ffe755;
     }
 </style>
 
