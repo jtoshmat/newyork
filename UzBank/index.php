@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UzBank Login</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="container-fluid">
@@ -17,8 +18,8 @@
             <form method="post">
             <p class="myp">
                 <label>Enter your card number</label><br>
-                <span class="cardlogo"><img src="img/discover_icon.png"></span>
-                <input minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
+                <span class="cardlogo"><img id="cardlogo" src="img/discover_icon.png"></span>
+                <input id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
             </p>
 
             <p class="myp">
@@ -82,5 +83,40 @@
         box-shadow: grey 5px 5px 5px 5px;
     }
 </style>
+
+<script>
+    $(function () {
+        $("#cardnumber").keyup(function () {
+           var cardnumbers = $(this).val();
+           var first_number = parseInt(cardnumbers[0]);
+           if (!isNaN(first_number)){
+               switch (first_number) {
+                   case 3:
+                       changeCardImg('img/amex_icon.jpg');
+                       break;
+                   case 4:
+                       changeCardImg('img/visa_icon.png');
+                       break;
+                   case 5:
+                       changeCardImg('img/master_icon.png');
+                       break;
+                   case 6:
+                       changeCardImg('img/discover_icon.png');
+                       break;
+                   default:
+                       changeCardImg('img/othercard_icon.png');
+                       break;
+               }
+           }
+        });
+
+        function changeCardImg(img='img/othercard_icon.png') {
+            $("#cardlogo").attr("src",img);
+        }
+
+
+    });
+</script>
+
 </body>
 </html>
