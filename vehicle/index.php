@@ -23,7 +23,11 @@ $cars = $vehicle->getCars();
     <div class="mycars">
         <h4>Welcome to Car Collections</h4>
         <form>
+<<<<<<< HEAD
             <p>Search your car: <input value="<?=$_GET['keyword']??NULL?>" name="keyword" ><button>Search</button></p>
+=======
+            <p>Search your car: <input value="<?=$_GET['keyword']??NULL?>" name="keyword"><button>Search</button></p>
+>>>>>>> eaca0238c35807eeaef00a2195efee1e66ae2c12
         </form>
 
         <table class="table">

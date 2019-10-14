@@ -11,7 +11,7 @@
 <body>
 <div class="container">
     <div id="loginform">
-        <img src="img/logo.png">
+
         <div class="topemptyspace"></div>
         <div class="myform">
             <div class="header">Registration</div><br>
@@ -52,10 +52,6 @@
 
 <style>
 
-    .loginform img{
-        width: 150px;
-        float: left;
-    }
 
     .bottomtext a{
       color: white;
