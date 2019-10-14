@@ -11,7 +11,7 @@
 <body>
 
 <div class="container">
-    <form method="get" action="search11.php">
+    <form method="get" action="reservation.php">
 
     <div>
         <p>
@@ -26,7 +26,7 @@
                 <option value="british">British Airlines</option>
                 <option value="aeroflot">Aeroflot</option>
             </select>
-            <select class="from-to">
+            <select name="seat_class" class="from-to">
                 <option value="economy">Economy class</option>
                 <option value="business">Business class</option>
                 <option value="first">First class</option>

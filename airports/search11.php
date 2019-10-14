@@ -1,6 +1,7 @@
 <?php
 namespace Flights;
 use Database\database;
+include_once '../airports/database.php';
 class Reservation
 {
     public $parms;

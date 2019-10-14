@@ -22,7 +22,7 @@ class Car
         foreach ($vehicles as $num=>$vehicle){
             $cars[] = [
                 'cars' => $vehicle,
-                'mymodels' => $this->getModels($vehicle['id'])
+                'mymodels' => $this->getMo dels($vehicle['id'])
             ];
         }
         return $cars;
