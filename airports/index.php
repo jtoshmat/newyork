@@ -26,8 +26,8 @@ class Airport extends database implements \ValidateForms
 
     public function getAirports()
     {
-        $aiports = $this->db->sql("SELECT * FROM airports where {$this->parms['selectBy']} LIKE '%{$this->parms['keyword']}%'");
-        return $aiports;
+        $airports = $this->db->sql("SELECT * FROM airports where {$this->parms['selectBy']} LIKE '%{$this->parms['keyword']}%'");
+        return $airports;
     }
 }
 
@@ -53,7 +53,7 @@ if (!$obj->checkUserAuthentication()){
 <div class="container-fluid">
 
     <h4 style="text-align: center">
-        The world Aiports Directory
+        The world Airports Directory
     </h4>
     <div class="mysearch">
         <form style="text-align: center">
