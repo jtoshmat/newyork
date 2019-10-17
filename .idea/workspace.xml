@@ -2,31 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/1A82E7FC-61D5-4D52-B522-C70383DE0229.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/2d.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/3d.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/4d.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/5d.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_2537.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_3869.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_5390 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/backphoto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/bckphoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/cateye.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/classic.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/doll.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/dolleye.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/fon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/mega.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/natural.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/openeye.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/openeye1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/tweezer.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,28 +14,6 @@
     <execution>
       <executable />
     </execution>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="191" column="40" lean-forward="true" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -72,59 +28,23 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/newyork" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/newyork/fabulashik/css.css" />
-        <option value="$PROJECT_DIR$/newyork/fabulashik/index.php" />
-        <option value="$PROJECT_DIR$/newyork/fabulashik/style.css" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="23" />
-    <option name="width" value="1004" />
-    <option name="height" value="797" />
-  </component>
+  <component name="ProjectId" id="1SDlCdiXwA3ODSOPZMn1pflEFta" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-            </path>
-            <path>
-              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="fabulashik" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -143,73 +63,31 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="" />
+      <created>1571105920324</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571105920324</updated>
+      <workItem from="1571105921478" duration="559000" />
+      <workItem from="1571347381466" duration="385000" />
+    </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4782000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-9" y="23" width="1004" height="797" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.34511435" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20283689" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.36717662" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32884902" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22048193" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.203125" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.36717662" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32884902" />
-    </layout-to-restore>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="191" column="40" lean-forward="true" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
