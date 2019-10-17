@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+jhgjhg
+=======
 <!doctype html>
 <html lang="en">
 <head>
@@ -84,6 +87,7 @@ if ($mybutton == 'Search' && $keyword!=''){
 
     </div>
 </div>
+
 <style>
 
     .keyword_error{
@@ -150,3 +154,4 @@ if ($mybutton == 'Search' && $keyword!=''){
 </style>
 </body>
 </html>
+>>>>>>> 3218846207945941c6bc5cdb12cf61a3c26322d6

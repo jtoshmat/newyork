@@ -5,6 +5,13 @@
     <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/forms/contactus2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/basics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jontosh.png" afterDir="false" />
+=======
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/api/queries.sql" afterDir="false" />
@@ -91,10 +98,23 @@
       <change afterPath="$PROJECT_DIR$/img/jontosh.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascripts/age.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascripts/myjavascripts.js" afterDir="false" />
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
       <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/monday/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/monday/monday.png" afterDir="false" />
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/myphp/strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/img/percent_cirle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/js/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shahriyor/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shahriyor/practice2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/contactus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shahriyor/practice.php" beforeDir="false" afterPath="$PROJECT_DIR$/shahriyor/practice.php" afterDir="false" />
+=======
       <change afterPath="$PROJECT_DIR$/myphp/backend.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myphp/frontend.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/myphp/index.php" afterDir="false" />
@@ -135,6 +155,7 @@
       <change beforePath="$PROJECT_DIR$/backend.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newyork/umida/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/newyork/umida/index.php" afterDir="false" />
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
 =======
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/gulya78/login page.php" afterDir="false" />
@@ -156,6 +177,8 @@
       <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
@@ -182,6 +205,7 @@
       <change beforePath="$PROJECT_DIR$/muhamad1999/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/muhamad1999/index.php" afterDir="false" />
 >>>>>>> 9bc7540618c1a4919574bb4ac3a3425797f7480f
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,6 +213,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -207,13 +233,20 @@
 =======
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
+=======
 =======
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   <component name="ComposerSettings">
     <execution>
       <executable />
     </execution>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   </component>
 <<<<<<< HEAD
 =======
@@ -370,7 +403,11 @@
         </entry>
       </file>
     </leaf>
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
 >>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -415,6 +452,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
+  <component name="ProjectId" id="1PChuQtdCNPfztnQuXV00bQFRxJ" />
+=======
+=======
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -430,6 +472,7 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
 =======
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -549,15 +592,22 @@
 <<<<<<< HEAD
   <component name="ProjectId" id="1Ov4jDmADnpWnjF3dmUizSkkSDJ" />
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
 =======
 >>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
 <<<<<<< HEAD
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+=======
+=======
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -568,6 +618,7 @@
 <<<<<<< HEAD
 =======
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -655,6 +706,7 @@
 <<<<<<< HEAD
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -834,6 +886,23 @@
       <workItem from="1563726772854" duration="8339000" />
       <workItem from="1563826323989" duration="11001000" />
       <workItem from="1564063520963" duration="10269000" />
+<<<<<<< HEAD
+      <workItem from="1564156962077" duration="6016000" />
+      <workItem from="1564331632122" duration="1003000" />
+      <workItem from="1565289682777" duration="266000" />
+      <workItem from="1565289952741" duration="163000" />
+      <workItem from="1565290212448" duration="99000" />
+      <workItem from="1565290354438" duration="316000" />
+      <workItem from="1565297282343" duration="495000" />
+      <workItem from="1565317175438" duration="50000" />
+      <workItem from="1565375514339" duration="590000" />
+      <workItem from="1565384211458" duration="1473000" />
+      <workItem from="1565540821453" duration="11843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+=======
       <workItem from="1564156962077" duration="14965000" />
       <workItem from="1564277883179" duration="2434000" />
       <workItem from="1564320606583" duration="17305000" />
@@ -869,6 +938,7 @@
       <workItem from="1564178126402" duration="6073000" />
       <workItem from="1564362273773" duration="13205000" />
       <workItem from="1564668616805" duration="7407000" />
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
 =======
       <workItem from="1563487284219" duration="4051000" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
@@ -916,6 +986,7 @@
     <option name="totallyTimeSpent" value="86127000" />
   </component>
   <component name="TodoView" selected-index="2">
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -923,6 +994,8 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+<<<<<<< HEAD
+=======
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="716" height="804" extended-state="0" />
@@ -1037,11 +1110,14 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
   </component>
 >>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+=======
 <<<<<<< HEAD
 <<<<<<< HEAD
   <component name="editorHistoryManager">
@@ -1059,8 +1135,12 @@
 <<<<<<< HEAD
 =======
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
 =======
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -1068,6 +1148,9 @@
           <value>
 <<<<<<< HEAD
             <State>
+<<<<<<< HEAD
+              <option name="COLUMN_ORDER" />
+=======
               <option name="RECENTLY_FILTERED_USER_GROUPS">
                 <collection />
               </option>
@@ -1086,6 +1169,7 @@
 =======
               <option name="COLUMN_ORDER" />
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
             </State>
 =======
             <State />
@@ -1095,6 +1179,10 @@
       </map>
     </option>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
     <option name="RECENT_FILTERS">
       <map>
         <entry key="Branch">
@@ -1114,8 +1202,12 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
 =======
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   </component>
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
   <component name="VcsManagerConfiguration">
@@ -1617,5 +1709,9 @@
     </entry>
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
   </component>
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
 >>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
 </project>
