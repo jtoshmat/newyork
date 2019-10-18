@@ -4,5 +4,3 @@ interface officerules{
     public function washYourHand();
     public function checkYourEmail();
 }
-
-

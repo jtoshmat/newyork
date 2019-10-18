@@ -1,25 +1,20 @@
 <?php
-
-namespace Airking;
+namespace AirKing;
 include_once '../api/callhttp.php';
 
 
-class Search
-{
+class Search{
     use \CallHttp;
     public $parms;
+    public function __construct()
 
-    public function _contruct()
     {
         $this->parms = $_GET;
     }
-
-    public function search()
-    {
-        $url = "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/US/USD/en-US/SFO-sky/JFK-sky/2019-12-01?inboundpartialdate=2019-12-30";
-        $results = $this->getResults($url, 'GET');
+    public function search(){
+        $url = "https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsequotes/v1.0/US/USD/en-US/TAS/JFK/2019-12-01?inboundpartialdate=2019-12-30";
+        $results = $this->getResults($url,'GET');
         return $results;
-
     }
 }
 

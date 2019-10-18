@@ -5,4 +5,3 @@ foreach ($parms as $field=>$value){
     echo $field." = ".$value;
     echo "<hr>";
 }
-

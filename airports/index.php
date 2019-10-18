@@ -1,3 +1,44 @@
+<?php
+namespace Airports;
+include_once "../inc/database.php";
+include_once "validateforms.php";
+include_once "mytools.php";
+
+use Database\database;
+
+class Airport extends database implements \ValidateForms
+{
+    private $db;
+    public $parms;
+    use \MyTools;
+
+    public function __construct()
+    {
+        $this->db = new database();
+        $this->parms = $_GET;
+        $this->checkInputs();
+    }
+
+    public function checkInputs()
+    {
+       $this->parms['keyword'] = strip_tags($this->parms['keyword']);
+    }
+
+    public function getAirports()
+    {
+        $aiports = $this->db->sql("SELECT * FROM airports where {$this->parms['selectBy']} LIKE '%{$this->parms['keyword']}%'");
+        return $aiports;
+    }
+}
+
+
+$obj = new Airport();
+$airports = $obj->getAirports();
+if (!$obj->checkUserAuthentication()){
+    die("Sorry, you are not a loggedin user");
+}
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -5,10 +46,11 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Flight search</title>
-    <link href="../css/bootstrap.css" rel="stylesheet">
+    <title>Airports</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
+<div class="container-fluid">
 
 <div class="container">
     <form method="get" action="reservation.php">
@@ -65,75 +107,59 @@
             Roundtrip
         </div>
 
-
+    <h4 style="text-align: center">
+        The world Aiports Directory
+    </h4>
+    <div class="mysearch">
+        <form style="text-align: center">
+            <p>Search: <input value="<?= $obj->parms['keyword'] ?? NULL ?>" name="keyword" type="text">
+                <select name="selectBy">
+                    <option value="name">Name</option>
+                    <option value="city">City</option>
+                    <option value="country">Country</option>
+                </select>
+                <button>Search</button>
+            </p>
+        </form>
     </div>
-    </form>
+
+    <div class="mytable">
+        <table class="table table-bordered">
+            <tr>
+                <td>ID</td>
+                <td>Name</td>
+                <td>City</td>
+                <td>Country</td>
+            </tr>
+
+
+            <?php
+            foreach ($airports as $airport) {
+                ?>
+
+                <tr>
+                    <td><?= $airport['id'] ?></td>
+                    <td><?= $airport['name'] ?></td>
+                    <td><?= $airport['city'] ?></td>
+                    <td><?= $airport['country'] ?></td>
+
+                </tr>
+
+                <?php
+            }
+            ?>
+
+
+        </table>
+    </div>
+
 </div>
+
 <style>
-    body{
-        background-image: url("../img/plane-over-water2.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
+    tr:first-child {
+        background-color: #46060c;
+        color: #ffe755;
     }
-    .container{
-        background-color: #05122a;
-        height: 500px;
-        margin-top: 100px;
-        padding-top: 250px;
-        border-radius: 5px 5px;
-        color: white;
-        opacity: 0.8;
-    }
-    .plane{
-         background-color: #004a97;
-         width: 80px;
-         height: 70px;
-         text-align: center;
-         border-radius: 5px;
-         position: relative;
-         font-family: "Arial Narrow";
-         font-weight: bold;
-         color: white;
-         left: 3px;
-         bottom: 400px;
-     }
-    .round{
-        background-color: #004a97;
-        width: 80px;
-        height: 35px;
-        padding-top: 3px;
-        text-align: center;
-        border-radius: 2px;
-        position: relative;
-        font-family: "Arial Narrow";
-        font-weight: bold;
-        color: white;
-        left: 3px;
-        bottom: 370px;
-    }
-    .from-to{
-        width: 40%;
-        border-radius: 3px 3px;
-    }
-    .dep-ar{
-        border-radius: 3px 3px;
-        width: 19%;
-        margin-right: 12px;
-
-    }
-    .button{
-        width: 20%;
-        text-align: center;
-        border-radius: 3px 3px;
-        background-color: #c8e4ce;
-
-    }
-    a{
-        padding-right: 16%;
-        position: relative;
-
-    }
-
 </style>
 
 </body>
