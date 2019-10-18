@@ -41,16 +41,20 @@ $items = $obj->getItems();
 <div class="dashboard">
 
     <?php
-    foreach ($items as $item) {
+    foreach ($items as $id=>$item) {
         ?>
-        <div class="items">
+        <div class="items" data-id="<?=$id?>">
 
             <img src="<?=$item['image']?>">
 
             <div class="description">
                 <?=$item['product_name']?><br>
-                $90.09
+                $<?=$item['price']?>
+                <div id="description<?=$id?>" class="quantitybox">
+                    <button>-</button><input class="items_input" value="0"><button>+</button>
+                </div>
             </div>
+
 
             </div>
         </div>
@@ -63,6 +67,27 @@ $items = $obj->getItems();
 
 </div>
 <style>
+    .quantitybox button{
+        background-color: blue;
+        border-radius: 10px;
+    color:white;
+    }
+
+    .items_input{
+        width:30px;
+        margin:5px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #ccc9ea;
+    }
+    .quantitybox{
+        width: 145px;
+        position: relative;
+        top:0px;
+        z-index: 1000;
+        visibility: hidden;
+    }
 
     .description{
         background-color: #3a247a;
@@ -107,6 +132,13 @@ $items = $obj->getItems();
 
         $(".items").click(function () {
             $(this).toggleClass('items_clicked');
+            var id = $(this).data('id');
+            var is_visible = $("#description"+id).css('visibility');
+            if (is_visible == 'visible'){
+                $("#description"+id).css('visibility','hidden');
+            }else{
+                $("#description"+id).css('visibility','visible');
+            }
         });
 
 
