@@ -44,14 +44,31 @@ $items = $obj->getItems();
     foreach ($items as $item) {
         ?>
         <div class="items">
+
             <img src="<?=$item['image']?>">
+
+            <div class="description">
+                <?=$item['product_name']?><br>
+                $90.09
+            </div>
+
+            </div>
         </div>
+
         <?php
     }
     ?>
 
+    <div class="clearfix"></div>
+
 </div>
 <style>
+
+    .description{
+        background-color: #3a247a;
+        color: #ffeb60;
+
+    }
 
     body{
         background-color: #645a92;
@@ -60,22 +77,24 @@ $items = $obj->getItems();
         border:3px dotted #3a247a;
         box-shadow: #2b2b2b 2px 2px 2px 2px;
         cursor: pointer;
+        background-color: #98aeff;
     }
     .items{
         width:150px;
-        height:140px;
+        height:auto;
         border:3px solid #5a41aa;
-        box-shadow: #636363 2px 2px 2px 2px;
-        margin:5px;
+        box-shadow: #343434 5px 5px 5px 5px;
+        margin:50px 20px 20px 20px;
         float: left;
         background-color: white;
         text-align: center;
+        border-radius: 10px;
     }
     .items_clicked{
         border:3px dotted #ff3d4f;
         box-shadow: #ffe748 2px 2px 2px 2px;
         cursor: move;
-        background-color: #ffcfd7;
+        background-color: #072448;
     }
 
     .items img{
