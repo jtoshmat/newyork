@@ -1,5 +1,5 @@
 <?php
 
 interface Validation{
-    public function validateUser();
+    public function checkInputs();
 }
