@@ -6,8 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UzBank Login</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="container-fluid">
@@ -19,20 +19,20 @@
             <p class="myp">
                 <label>Enter your card number</label><br>
                 <span class="cardlogo"><img id="cardlogo" src="img/discover_icon.png"></span>
-<<<<<<< HEAD
-                <input id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="number" placeholder="Your Card Number">
-=======
+
+                <input id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
+
                 <input title="Enter only numbers"  pattern="\d*"  required="required" id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
->>>>>>> cdd3b9a96dfc048fd82eb67601b473448dedb1d5
+
             </p>
 
             <p class="myp">
                 <span class="cardlogo"><img src="img/lock_icon.png"></span>
-<<<<<<< HEAD
+
                 <input required="required" pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
-=======
+
                 <input title="Enter only numbers" required="required" pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
->>>>>>> cdd3b9a96dfc048fd82eb67601b473448dedb1d5
+
             </p>
 
             <p class="myp">
@@ -96,9 +96,9 @@
         $("#cardnumber").keyup(function () {
            var cardnumbers = $(this).val();
            var first_number = parseInt(cardnumbers[0]);
-           var second_number = parseInt(cardnumbers[1]);
-           if(first_number ==3 && second_number ==4){changeCardImg('img/amex_icon.jpg')} else{changeCardImg('img/othercard_icon.png')}
-           /*if (!isNaN(first_number)){
+
+
+           if (!isNaN(first_number)){
                switch (first_number) {
                    case 3:
                        changeCardImg('img/amex_icon.jpg');
@@ -116,7 +116,7 @@
                        changeCardImg('img/othercard_icon.png');
                        break;
                }
-           }*/
+           }
         });
 
         function changeCardImg(img='img/othercard_icon.png') {

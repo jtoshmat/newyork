@@ -21,7 +21,7 @@
         </p><br>
         <p>
             <select id="select">
-                <option>Papulation</option>
+                <option>Population</option>
                 <option>Geography</option>
                 <option>Politics</option>
             </select>
