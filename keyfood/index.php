@@ -50,7 +50,7 @@ $items = $obj->getItems();
             <div class="description">
                 <?=$item['product_name']?><br>
                 $<?=$item['price']?>
-                <div id="description<?=$id?>" class="quantitybox">
+                <div id="description<?=$id?>" class="quantitybox quantitybox2">
                     <button>-</button><input class="items_input" value="0"><button>+</button>
                 </div>
             </div>
@@ -86,6 +86,9 @@ $items = $obj->getItems();
         position: relative;
         top:0px;
         z-index: 1000;
+    }
+
+    .quantitybox2{
         visibility: hidden;
     }
 
@@ -133,12 +136,7 @@ $items = $obj->getItems();
         $(".items").click(function () {
             $(this).toggleClass('items_clicked');
             var id = $(this).data('id');
-            var is_visible = $("#description"+id).css('visibility');
-            if (is_visible == 'visible'){
-                $("#description"+id).css('visibility','hidden');
-            }else{
-                $("#description"+id).css('visibility','visible');
-            }
+            $("#description"+id).toggleClass('quantitybox2');
         });
 
 
