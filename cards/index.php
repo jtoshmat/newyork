@@ -19,17 +19,49 @@
 <script>
 
     //Declaring all variables here
-    var cards = [6,7,8,9,10,11,12,13,14];
-    var players = [1,2,3,4];
-    //var cardtypes = ['diamond','heart','spade','club'];
-    var cardtypes = [1,2,3,4];
+    // var cards = [6,7,8,9,10,11,12,13,14];
+    // var players = [1,2,3,4];
+    // //var cardtypes = ['diamond','heart','spade','club'];
+    // var cardtypes = [1,2,3,4];
+    //
+    // $(function () {
+    //     $('#btn_shuffle').click(function () {
+    //         playAudio();
+    //     });
+    // });
+    function stackMakeDeck(n) {
 
+<<<<<<< HEAD
+        var ranks = new Array("A", "2", "3", "4", "5", "6", "7", "8", "9",
+            "10", "J", "Q", "K");
+        var suits = new Array("C", "D", "H", "S");
+        var i, j, k;
+        var m;
+=======
     $(function () {
         $('#btn_shuffle').click(function () {
             playAudio();
+            shuffle(cards);
+            console.log(cards);
+
         });
     });
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
 
+        m = ranks.length * suits.length;
+
+        // Set array of cards.
+
+        this.cards = new Array(n * m);
+
+        // Fill the array with 'n' packs of cards.
+
+        for (i = 0; i < n; i++)
+            for (j = 0; j < suits.length; j++)
+                for (k = 0; k < ranks.length; k++)
+                    this.cards[i * m + j * ranks.length + k] =
+                        new Card(ranks[k], suits[j]);
+    }
 
     var x = document.getElementById("myAudio");
 
@@ -38,8 +70,9 @@
     }
 
 
-    function shuffle(){
-        shuffle(cards);
+    function shuffle_cards(cards){
+        let arr = [1, 2, 3];
+        shuffle(arr);
     }
 
     function distribute(){
@@ -62,6 +95,27 @@
         alert("total 4 in hand and 23 in stack");
     }
 
+
+    var shuffle = function (array) {
+
+        var currentIndex = array.length;
+        var temporaryValue, randomIndex;
+
+        // While there remain elements to shuffle...
+        while (0 !== currentIndex) {
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+
+    };
 
 
 </script>
@@ -113,6 +167,7 @@
     </div>
 </div>
 
+
 <style>
 
     .emptybox{
@@ -133,10 +188,16 @@
     }
 
     body{
-        background-color: rgba(11, 53, 117, 0.99);
         background-image: url("img/casino_background.jpg");
-        background-repeat: no-repeat;
-        background-size: 100%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
     }
 
     .stackofcards{

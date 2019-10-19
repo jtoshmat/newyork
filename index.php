@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /*
  *
@@ -240,8 +241,22 @@ $img = $cars[$selected]['img'];
     .caricons:hover {
         opacity: 1;
         cursor: pointer;
-    }
+=======
+<?php
 
+function fibonacci($n,$first = 0,$second = 1)
+{
+    $fib = [$first,$second];
+    for($i=1;$i<$n;$i++)
+    {
+        $fib[] = $fib[$i]+$fib[$i-1];
+>>>>>>> 3d2faad7d4dd6b9f6f3c4c6e7181cea9db4b74b5
+    }
+    return $fib;
+}
+$results = fibonacci(50);
+
+<<<<<<< HEAD
     .caricons:hover > div {
         color: #563fff;
         background-color: #7de472;
@@ -262,3 +277,8 @@ $img = $cars[$selected]['img'];
 </script>
 </body>
 </html>
+=======
+foreach ($results as $result){
+    echo $result."<hr>";
+}
+>>>>>>> 3d2faad7d4dd6b9f6f3c4c6e7181cea9db4b74b5

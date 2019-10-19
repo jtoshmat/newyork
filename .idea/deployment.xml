@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="PublishConfigData" serverName="http://newyork.local" />
+=======
+  <component name="PublishConfigData" serverName="http://nework.local" />
+>>>>>>> 3d2faad7d4dd6b9f6f3c4c6e7181cea9db4b74b5
 </project>
