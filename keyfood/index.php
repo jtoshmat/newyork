@@ -50,8 +50,10 @@ $items = $obj->getItems();
             <div class="description">
                 <?=$item['product_name']?><br>
                 $<?=$item['price']?>
-                <div id="description<?=$id?>" class="quantitybox quantitybox2">
-                    <button>-</button><input class="items_input" value="0"><button>+</button>
+                <div data-did="<?=$id?>" id="description<?=$id?>" class="quantitybox quantitybox2">
+                    <button data-bid1="<?=$id?>" class="btn btn-primary mybtn">-</button>
+                    <input disabled="disabled" class="items_input" value="0" id="myinput<?=$id?>">
+                    <button data-bid2="<?=$id?>"  class="btn btn-primary mybtn">+</button>
                 </div>
             </div>
 
@@ -132,13 +134,50 @@ $items = $obj->getItems();
 </style>
 <script>
     $(function () {
+        var total = 0;
+        var prev_id = '';
 
         $(".items").click(function () {
             $(this).toggleClass('items_clicked');
             var id = $(this).data('id');
             $("#description"+id).toggleClass('quantitybox2');
+            if ( $("#myinput"+id).val()==0) {
+                $("#myinput" + id).val(1);
+            }
+            total = 0;
+            prev_id = '';
         });
 
+        $(".quantitybox").click(function () {
+          var id = $(this).data('did');
+           return false;
+        });
+
+
+        $(".mybtn").click(function () {
+           var sign = $(this).text();
+           if (sign=='-'){
+               var id = $(this).data('bid1');
+               total--;
+           }else{
+               var id = $(this).data('bid2');
+               total++;
+           }
+            if (prev_id != id){
+                prev_id = id;
+
+            }
+
+           total[prev_id] ++;
+
+           console.log(total);
+
+
+           if (total<0){
+               total = 0;
+           }
+           $("#myinput"+id).val(total);
+        });
 
     });
 </script>
