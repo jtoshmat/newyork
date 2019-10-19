@@ -17,7 +17,7 @@
     <hr>
 
 
-    Number 1: <input type="number" name="num1" id="num1">
+    Number 1: <input type="length" name="lenght" id="lenght">
     <br>
     Select operator:
     <select id="operator">

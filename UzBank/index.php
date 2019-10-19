@@ -19,12 +19,12 @@
             <p class="myp">
                 <label>Enter your card number</label><br>
                 <span class="cardlogo"><img id="cardlogo" src="img/discover_icon.png"></span>
-                <input id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
+                <input title="Enter only numbers"  pattern="\d*"  required="required" id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
             </p>
 
             <p class="myp">
                 <span class="cardlogo"><img src="img/lock_icon.png"></span>
-                <input pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
+                <input title="Enter only numbers" required="required" pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
             </p>
 
             <p class="myp">
