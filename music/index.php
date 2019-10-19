@@ -10,6 +10,8 @@ class Artists
     private $db;
     public $results;
     public $parms;
+    public $albumids;
+    public $songs;
 
     public function __construct()
     {
@@ -29,23 +31,24 @@ class Artists
     {
         $albums = $this->db->sql("SELECT * FROM albums order by AlbumId desc");
         $myalbums = [];
-        $album_ids = [];
         foreach ($albums as $num=>$album) {
-            $album_ids[] = $album['AlbumId'];
+            $this->albumids[] = $album['AlbumId'];
             $myalbums[$album['ArtistId']][] = [
                 'id' => $album['AlbumId'],
                 'album' => $album['album_name'],
             ];
         }
-
-        return $this->db->sql("SELECT * FROM song where albumId in (103,105)");
-
         return $myalbums;
     }
 
-    public function getSongs($albumid)
+    public function getSongs()
     {
-        return $this->db->sql("SELECT * FROM songs where albumId=".$albumid);
+        $ids = array_values($this->albumids);
+        $ids = implode(',',$ids);
+        $songs = $this->db->sql("select * from songs where albumId in ($ids);");
+        foreach ($songs as $id=>$song){
+            $this->songs[$song['albumId']][] = $song;
+        }
     }
 
 }
@@ -53,10 +56,7 @@ class Artists
 $obj = new Artists();
 $artists = $obj->getArtists();
 $albums = $obj->getAlbums();
-echo "<pre>";
-var_dump($albums);
-exit;
-
+$obj->getSongs();
 ?>
 <!doctype html>
 <html lang="en">
@@ -72,7 +72,14 @@ exit;
 </head>
 <body>
 
-<div id="mymodal"></div>
+<div id="mymodal">
+    <?php
+    if (isset($_GET['albumid'])) {
+        $albumid = (int)$_GET['albumid'] ?? null;
+        include_once 'modal.php';
+    }
+    ?>
+</div>
 
 <div class="container-fluid">
     <h3 style="text-align: center">Songs Artists</h3>
@@ -122,7 +129,7 @@ exit;
                                         <td><?=$myalbums['id'];?></td>
                                         <td>
                                             <!-- Button trigger modal -->
-                                            <a data-target="<?=$myalbums['id']?>" data-albumid="<?=$myalbums['id']?>" data-toggle="modal" data-target="#exampleModalLong"><?=$myalbums['album'];?></a>
+                                            <a href="/music/?albumid=<?=$myalbums['id']?>"><?=$myalbums['album'];?></a>
                                         </td>
                                     </tr>
                                     <?php
