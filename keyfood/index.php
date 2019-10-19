@@ -36,110 +36,253 @@ $items = $obj->getItems();
     <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
-
-<div class="container-fluid"></div>
-<div class="dashboard">
-
-    <?php
-    foreach ($items as $id=>$item) {
+<div class="container-fluid">
+        <div class="dashboard">
+        <?php
+        foreach ($items as $id => $item) {
         ?>
-        <div class="items" data-id="<?=$id?>">
-
-            <img src="<?=$item['image']?>">
-
+        <div class="items" data-id="<?= $id ?>">
+            <img src="<?= $item['image'] ?>">
             <div class="description">
-                <?=$item['product_name']?><br>
-                $<?=$item['price']?>
-                <div id="description<?=$id?>" class="quantitybox quantitybox2">
-                    <button>-</button><input class="items_input" value="0"><button>+</button>
+                <?= $item['product_name'] ?><br>
+                $<?= $item['price'] ?>
+                <div data-did="<?= $id ?>" id="description<?= $id ?>" class="quantitybox quantitybox2">
+                    <button data-bid1="<?= $id ?>" class="btn btn-primary mybtn">-</button>
+                    <input disabled="disabled" class="items_input" value="0" id="myinput<?= $id ?>">
+                    <input id="price<?=$id?>" class="price" type="hidden" value="<?=$item['price']?>">
+                    <button data-bid2="<?= $id ?>" class="btn btn-primary mybtn">+</button>
                 </div>
             </div>
-
-
+        </div>
+        <?php
+        }
+            ?>
+        </div>
+        <div class="rightpanel">
+            <h4 style="text-align: center">Shopping Cart</h4>
+            <p>csdcs</p>
+            <div class="shopping_details">
+                <table class="table table-bordered">
+                    <tr>
+                        <td>#</td>
+                        <td>Name</td>
+                        <td>Qnty</td>
+                        <td>Total</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Tomato</td>
+                        <td>6</td>
+                        <td>$12.44</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Strawbery</td>
+                        <td>6</td>
+                        <td>$12.44</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Lime</td>
+                        <td>6</td>
+                        <td>$12.44</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Cucumber</td>
+                        <td>6</td>
+                        <td>$12.44</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Banana</td>
+                        <td>6</td>
+                        <td>$12.44</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Orange</td>
+                        <td>6</td>
+                        <td>$12.44</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Potato</td>
+                        <td>6</td>
+                        <td>$12.44</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="shopping_totals">
+                <p>Total: $<span id="checkout_total">0</span></p>
+                <p>Tax: $<span id="checkout_tax">0</span></p>
+                <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
             </div>
         </div>
 
-        <?php
-    }
-    ?>
-
     <div class="clearfix"></div>
-
 </div>
 <style>
-    .quantitybox button{
-        background-color: blue;
-        border-radius: 10px;
-    color:white;
+
+    .shopping_totals{
+        background-color: #463e66;
+        width:100%;
+
     }
 
-    .items_input{
-        width:30px;
-        margin:5px;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bolder;
-    background-color: #ccc9ea;
+    .shopping_details{
+        height:500px;
+        overflow: auto;
+        background-color: #beb9cd;
+        color: #2b2b2b;
+
     }
-    .quantitybox{
+
+    .dashboard{
+        float: left;
+        width: 80%;
+    }
+
+    .rightpanel{
+        float: left;
+        width: 20%;
+        background-color: #463e66;
+        height: 800px;
+        border-left: 2px solid #1e1a2f;
+        color: white;
+    }
+
+
+    .quantitybox button {
+        background-color: blue;
+        border-radius: 10px;
+        color: white;
+    }
+
+    .items_input {
+        width: 30px;
+        margin: 5px;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bolder;
+        background-color: #ccc9ea;
+    }
+
+    .quantitybox {
         width: 145px;
         position: relative;
-        top:0px;
+        top: 0;
         z-index: 1000;
     }
 
-    .quantitybox2{
+    .quantitybox2 {
         visibility: hidden;
     }
 
-    .description{
+    .description {
         background-color: #3a247a;
         color: #ffeb60;
 
     }
 
-    body{
+    body {
         background-color: #645a92;
     }
-    .items:hover{
-        border:3px dotted #3a247a;
+
+    .items:hover {
+        border: 3px dotted #3a247a;
         box-shadow: #2b2b2b 2px 2px 2px 2px;
         cursor: pointer;
         background-color: #98aeff;
     }
-    .items{
-        width:150px;
-        height:auto;
-        border:3px solid #5a41aa;
+
+    .items {
+        width: 150px;
+        height: auto;
+        border: 3px solid #5a41aa;
         box-shadow: #343434 5px 5px 5px 5px;
-        margin:50px 20px 20px 20px;
+        margin: 50px 20px 20px 20px;
         float: left;
         background-color: white;
         text-align: center;
         border-radius: 10px;
     }
-    .items_clicked{
-        border:3px dotted #ff3d4f;
+
+    .items_clicked {
+        border: 3px dotted #ff3d4f;
         box-shadow: #ffe748 2px 2px 2px 2px;
         cursor: move;
         background-color: #072448;
     }
 
-    .items img{
-        width:100%;
+    .items img {
+        width: 100%;
         height: 130px;
     }
 </style>
 <script>
     $(function () {
+        var total = 0;
+        var prev_id = '';
+        var ctotal = 0;
+
 
         $(".items").click(function () {
             $(this).toggleClass('items_clicked');
             var id = $(this).data('id');
-            $("#description"+id).toggleClass('quantitybox2');
+            $("#description" + id).toggleClass('quantitybox2');
+            if ($("#myinput" + id).val() == 0) {
+                $("#myinput" + id).val(1);
+            }
+            total = 0;
+            prev_id = '';
+        });
+        $(".quantitybox").click(function () {
+            var id = $(this).data('did');
+            return false;
         });
 
+        var temp_total = 0;
+        $(".mybtn").click(function () {
+            var sign = $(this).text();
+            if (sign == '-') {
+                var id = $(this).data('bid1');
+                total--;
+            } else {
+                var id = $(this).data('bid2');
+                total++;
+            }
+            if (prev_id != id) {
+                prev_id = id;
 
+            }
+            $("#myinput"+id).val(total);
+            total[prev_id]++;
+
+            temp_total = total;
+
+            if (total < 0) {
+                total = 0;
+            }
+            var price = $("#price"+id).val();
+            ctotal[prev_id]=calculate_total(price, temp_total);
+            console.log( ctotal);
+            $("#checkout_total").text(111);
+        });
+
+        function calculate_total(price, total){
+            var total = price * total;
+            total = total.toFixed(2);
+            return total;
+        }
+
+        function calculate_tax() {
+            return "sdcsdc";
+        }
+
+        function calculate_grand_total() {
+            return "dssdc";
+        }
     });
 </script>
 </body>
