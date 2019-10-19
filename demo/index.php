@@ -1,14 +1,18 @@
+<DOCTYPE html>
 <html>
+<head>
+    <title>HikmaBank</title>
+</head>
 <body>
-
-<form action="welcome.php" method="post">
-    Name: <input type="text" name="name"><br>
-    E-mail: <input type="text" name="email"><br>
-    <input type="submit">
+<form action="index.php" method="post">
+    <input type="radio" name="credit_card" value="MasterCard"
+           checked="checked"> MasterCard
+    <br>
+    <input type="radio" name="credit_card" value="Visa">VISA<br>
+    <input type="radio" name="credit_card" value="American Express">
+    American Express <br>
+    <input type="submit" name="Button" value="Submit">
 </form>
-<?php
-echo $_POST["name"];
-echo $_POST["email"];
-?>
+
 </body>
 </html>
