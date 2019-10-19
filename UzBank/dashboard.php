@@ -1,6 +1,6 @@
 <?php
 namespace Uzbank;
-session_start(['cookie_lifetime' => 300]);
+session_start(['cookie_lifetime' => 60]);
 
 if ($_SESSION['msg']['error_type']!=200){
     $_SESSION['msg'] =[
@@ -18,6 +18,7 @@ include_once '../inc/database.php';
 class Dashboard
 {
     private $db;
+    public $cardholder_name;
 
     public function __construct()
     {
@@ -31,8 +32,11 @@ class Dashboard
             header("Location: index.php");
             exit;
         }
+        $this->cardholder_name = $_SESSION['msg']['cardholder_name'];
     }
 }
+
+$obj = new Dashboard();
 ?>
 <!doctype html>
 <html lang="en">
@@ -47,7 +51,9 @@ class Dashboard
 <body>
 
 <div class="container-fluid">
-    <h2>Members Dashboard!</h2>
+    <h2>Welcome back <?=$obj->cardholder_name?>!</h2>
+    <hr>
+    <a href="logout.php">Logout</a>
 </div>
 
 </body>

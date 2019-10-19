@@ -1,5 +1,5 @@
 <?php
-session_start(['cookie_lifetime' => 300]);
+session_start(['cookie_lifetime' => 60]);
 ?>
 <!doctype html>
 <html lang="en">
