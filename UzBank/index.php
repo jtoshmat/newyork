@@ -1,3 +1,6 @@
+<?php
+session_start(['cookie_lifetime' => 300]);
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,17 +18,31 @@
     <div class="mylogin">
         <div class="banklogo"><img src="img/banklogo.png"> </div>
         <div class="myloginform">
-            <form method="post">
+
+            <?php
+                if (isset($_SESSION['msg']['error_type']) && $_SESSION['msg']['error_type']!=200) {
+                    ?>
+                    <div class="alert alert-danger">
+                        <?=$_SESSION['msg']['message']?>
+                    </div>
+                    <?php
+                }
+            ?>
+
+            <form method="post" action="login.php">
             <p class="myp">
                 <label>Enter your card number</label><br>
                 <span class="cardlogo"><img id="cardlogo" src="img/discover_icon.png"></span>
+<<<<<<< HEAD
 
                 <input id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
 
                 <input title="Enter only numbers"  pattern="\d*"  required="required" id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
 
+=======
+                <input  title="Enter only numbers"  pattern="\d*"  required="required" id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
+>>>>>>> 3f691f7088974b3e5b0cd5028ca1086b32d61773
             </p>
-
             <p class="myp">
                 <span class="cardlogo"><img src="img/lock_icon.png"></span>
 
@@ -34,7 +51,6 @@
                 <input title="Enter only numbers" required="required" pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
 
             </p>
-
             <p class="myp">
                 <button class="btn btn-primary mybtn">LOGIN</button>
             </p>
@@ -90,7 +106,6 @@
         box-shadow: grey 5px 5px 5px 5px;
     }
 </style>
-
 <script>
     $(function () {
         $("#cardnumber").keyup(function () {
@@ -126,6 +141,5 @@
 
     });
 </script>
-
 </body>
 </html>
