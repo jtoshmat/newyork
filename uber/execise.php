@@ -21,7 +21,7 @@ While($coun<=100){
     $f2=$f3;
     $coun=$coun+1;
 
-}*/
+}*//*
 $f1=0;
 $f2=1;
 for($count=0;$count<=12;$count++){
@@ -29,7 +29,7 @@ for($count=0;$count<=12;$count++){
     $f1=$f2;
     $f2=$f3;
     echo $f3."<hr>";
-    }
+    }*/
 /*
 $n=1;
 for($a=1;$a<=10;$a++){
@@ -40,6 +40,12 @@ for($a=1;$a<=10;$a++){
 /* Interface - shartnome,meros;
 abstract class is a templete - only one abstract can be used;
 trait collection of all usefull methods, and tools;
+*/
 
+$password = "text";
+$hash = "$2y$10$";
+$salt = "khursandkhalmanov22048";
+$hash_salt = $hash.$salt;
+$password = crypt($password,$hash_salt);
 
-
+echo $password;

@@ -13,7 +13,7 @@ class Artists
 
     public function __construct()
     {
-        $this->db = new database('songs');
+        $this->db = new database();
         $this->parms = $_GET;
 
     }

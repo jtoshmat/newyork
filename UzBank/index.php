@@ -19,12 +19,12 @@
             <p class="myp">
                 <label>Enter your card number</label><br>
                 <span class="cardlogo"><img id="cardlogo" src="img/discover_icon.png"></span>
-                <input id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
+                <input id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="number" placeholder="Your Card Number">
             </p>
 
             <p class="myp">
                 <span class="cardlogo"><img src="img/lock_icon.png"></span>
-                <input pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
+                <input required="required" pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
             </p>
 
             <p class="myp">
@@ -34,7 +34,6 @@
         </div>
     </div>
 </div>
-
 <style>
 
     .mybtn{
@@ -89,7 +88,9 @@
         $("#cardnumber").keyup(function () {
            var cardnumbers = $(this).val();
            var first_number = parseInt(cardnumbers[0]);
-           if (!isNaN(first_number)){
+           var second_number = parseInt(cardnumbers[1]);
+           if(first_number ==3 && second_number ==4){changeCardImg('img/amex_icon.jpg')} else{changeCardImg('img/othercard_icon.png')}
+           /*if (!isNaN(first_number)){
                switch (first_number) {
                    case 3:
                        changeCardImg('img/amex_icon.jpg');
@@ -107,7 +108,7 @@
                        changeCardImg('img/othercard_icon.png');
                        break;
                }
-           }
+           }*/
         });
 
         function changeCardImg(img='img/othercard_icon.png') {
