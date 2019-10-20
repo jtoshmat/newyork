@@ -101,6 +101,7 @@ $results = $obj->list;
 <style>
     .searchform input{
         width:60%;
+        margin-bottom: 20px;
     }
     .myresults{
         background-color: #fbfff6;
@@ -115,6 +116,13 @@ $results = $obj->list;
     .searchform{
         background-color: #ccc9ea;
         text-align: center;
+    }
+
+    .myresults li{
+        list-style: none;
+        border-bottom: 2px dotted #a00848;
+        margin-bottom: 10px;
+
     }
 </style>
 
