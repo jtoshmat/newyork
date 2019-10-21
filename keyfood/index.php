@@ -36,122 +36,56 @@ $items = $obj->getItems();
     <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
-<div class="container-fluid">
-        <div class="dashboard">
+
+<div class="row">
+    <div class="dashboard">
+
         <?php
         foreach ($items as $id => $item) {
-        ?>
-        <div class="items" data-id="<?= $id ?>">
-            <img src="<?= $item['image'] ?>">
-            <div class="description">
-                <?= $item['product_name'] ?><br>
-                $<?= $item['price'] ?>
-                <div data-did="<?= $id ?>" id="description<?= $id ?>" class="quantitybox quantitybox2">
-                    <button data-bid1="<?= $id ?>" class="btn btn-primary mybtn">-</button>
-                    <input disabled="disabled" class="items_input" value="0" id="myinput<?= $id ?>">
-                    <input id="price<?=$id?>" class="price" type="hidden" value="<?=$item['price']?>">
-                    <button data-bid2="<?= $id ?>" class="btn btn-primary mybtn">+</button>
+            ?>
+            <div class="items" data-id="<?= $id ?>">
+
+                <img src="<?= $item['image'] ?>">
+
+                <div class="description">
+                    <?= $item['product_name'] ?><br>
+                    $<?= $item['price'] ?>
+                    <div id="description<?= $id ?>" class="quantitybox quantitybox2">
+                        <button>-</button>
+                        <input class="items_input" value="1">
+                        <button>+</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <?php
+
+
+            <?php
         }
-            ?>
-        </div>
-        <div class="rightpanel">
-            <h4 style="text-align: center">Shopping Cart</h4>
-            <p>csdcs</p>
-            <div class="shopping_details">
-                <table class="table table-bordered">
-                    <tr>
-                        <td>#</td>
-                        <td>Name</td>
-                        <td>Qnty</td>
-                        <td>Total</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Tomato</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Strawbery</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Lime</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Cucumber</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Banana</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Orange</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Potato</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="shopping_totals">
-                <p>Total: $<span id="checkout_total">0</span></p>
-                <p>Tax: $<span id="checkout_tax">0</span></p>
-                <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
-            </div>
-        </div>
+        ?>
 
-    <div class="clearfix"></div>
+        <div class="clearfix"></div>
+
+    </div>
+    <div class="shopping-box">
+
+    </div>
 </div>
+
 <style>
-
-    .shopping_totals{
-        background-color: #463e66;
-        width:100%;
-
-    }
-
-    .shopping_details{
-        height:500px;
-        overflow: auto;
-        background-color: #beb9cd;
-        color: #2b2b2b;
-
-    }
-
-    .dashboard{
-        float: left;
-        width: 80%;
-    }
-
-    .rightpanel{
-        float: left;
-        width: 20%;
-        background-color: #463e66;
+    .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+    .shopping-box {
+        background-color: #847ABF;
+        width: 30%;
         height: 800px;
-        border-left: 2px solid #1e1a2f;
-        color: white;
     }
 
+    .dashboard {
+        width: 70%;
+    }
 
     .quantitybox button {
         background-color: blue;
@@ -222,67 +156,20 @@ $items = $obj->getItems();
 </style>
 <script>
     $(function () {
-        var total = 0;
-        var prev_id = '';
-        var ctotal = 0;
-
 
         $(".items").click(function () {
             $(this).toggleClass('items_clicked');
-            var id = $(this).data('id');
+            let id = $(this).data('id');
             $("#description" + id).toggleClass('quantitybox2');
-            if ($("#myinput" + id).val() == 0) {
-                $("#myinput" + id).val(1);
+
+            function addToBasket(itemId) {
+                cartItems.push(item['id']);
+                updateCart();
+                return false;
             }
-            total = 0;
-            prev_id = '';
-        });
-        $(".quantitybox").click(function () {
-            var id = $(this).data('did');
-            return false;
         });
 
-        var temp_total = 0;
-        $(".mybtn").click(function () {
-            var sign = $(this).text();
-            if (sign == '-') {
-                var id = $(this).data('bid1');
-                total--;
-            } else {
-                var id = $(this).data('bid2');
-                total++;
-            }
-            if (prev_id != id) {
-                prev_id = id;
 
-            }
-            $("#myinput"+id).val(total);
-            total[prev_id]++;
-
-            temp_total = total;
-
-            if (total < 0) {
-                total = 0;
-            }
-            var price = $("#price"+id).val();
-            ctotal[prev_id]=calculate_total(price, temp_total);
-            console.log( ctotal);
-            $("#checkout_total").text(111);
-        });
-
-        function calculate_total(price, total){
-            var total = price * total;
-            total = total.toFixed(2);
-            return total;
-        }
-
-        function calculate_tax() {
-            return "sdcsdc";
-        }
-
-        function calculate_grand_total() {
-            return "dssdc";
-        }
     });
 </script>
 </body>
