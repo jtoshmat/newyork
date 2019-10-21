@@ -225,8 +225,6 @@ $items = $obj->getItems();
         var total = 0;
         var prev_id = '';
         var ctotal = 0;
-
-
         $(".items").click(function () {
             $(this).toggleClass('items_clicked');
             var id = $(this).data('id');
@@ -241,7 +239,6 @@ $items = $obj->getItems();
             var id = $(this).data('did');
             return false;
         });
-
         var temp_total = 0;
         $(".mybtn").click(function () {
             var sign = $(this).text();
@@ -265,21 +262,18 @@ $items = $obj->getItems();
                 total = 0;
             }
             var price = $("#price"+id).val();
-            ctotal[prev_id]=calculate_total(price, temp_total);
+            ctotal=calculate_total(price, temp_total);
             console.log( ctotal);
             $("#checkout_total").text(111);
         });
-
         function calculate_total(price, total){
             var total = price * total;
             total = total.toFixed(2);
             return total;
         }
-
         function calculate_tax() {
             return "sdcsdc";
         }
-
         function calculate_grand_total() {
             return "dssdc";
         }
