@@ -113,7 +113,7 @@ $items = $obj->getItems();
                     </tr>
                 </table>
             </div>
-            <div class="shopping_totals">
+            <div class="shopping_totals"> <!--have to create function that calculates taxes of 8.8% out of Total amount, grand total calculates total + tax.-->
                 <p>Total: $<span id="checkout_total">0</span></p>
                 <p>Tax: $<span id="checkout_tax">0</span></p>
                 <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
@@ -265,23 +265,24 @@ $items = $obj->getItems();
                 total = 0;
             }
             var price = $("#price"+id).val();
-            ctotal[prev_id]=calculate_total(price, temp_total);
+            ctotal=calculate_total(price, temp_total);
             console.log( ctotal);
-            $("#checkout_total").text(111);
+            $("#checkout_total").text(total);
         });
 
         function calculate_total(price, total){
             var total = price * total;
-            total = total.toFixed(2);
             return total;
         }
 
-        function calculate_tax() {
-            return "sdcsdc";
+        function calculate_tax(amount) {
+            var tax = (amount / 100) * 8.875;
+            return tax;
         }
 
         function calculate_grand_total() {
-            return "dssdc";
+            var grand_total = total + calculate_tax;
+            return grand_total;
         }
     });
 </script>
