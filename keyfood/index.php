@@ -62,55 +62,14 @@ $items = $obj->getItems();
             <h4 style="text-align: center">Shopping Cart</h4>
             <p>csdcs</p>
             <div class="shopping_details">
-                <table class="table table-bordered">
+                <table class="table table-bordered" id="displaytable">
                     <tr>
                         <td>#</td>
                         <td>Name</td>
                         <td>Qnty</td>
                         <td>Total</td>
                     </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Tomato</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Strawbery</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Lime</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Cucumber</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Banana</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Orange</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Potato</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
+
                 </table>
             </div>
             <div class="shopping_totals">
@@ -230,7 +189,7 @@ $items = $obj->getItems();
             var id = $(this).data('id');
             $("#description" + id).toggleClass('quantitybox2');
             if ($("#myinput" + id).val() == 0) {
-                $("#myinput" + id).val(1);
+                $("#myinput" + id).val(0);
             }
             total = 0;
             prev_id = '';
@@ -240,14 +199,22 @@ $items = $obj->getItems();
             return false;
         });
         var temp_total = 0;
+
+
+        var myid = '';
+        var tax = '';
+        var grandtotal = '';
+        var jon = [];
         $(".mybtn").click(function () {
             var sign = $(this).text();
             if (sign == '-') {
                 var id = $(this).data('bid1');
                 total--;
+                myid = id;
             } else {
                 var id = $(this).data('bid2');
                 total++;
+                myid = id;
             }
             if (prev_id != id) {
                 prev_id = id;
@@ -262,17 +229,43 @@ $items = $obj->getItems();
                 total = 0;
             }
             var price = $("#price"+id).val();
-            ctotal=calculate_total(price, temp_total);
-            console.log( ctotal);
-            $("#checkout_total").text(111);
+            ctotal = calculate_total(price, temp_total);
+            tax = calculate_tax(ctotal);
+            var gtt = eval(ctotal+"+"+tax);
+            grandtotal = gtt.toFixed(2);
+
+
+            $.each(jon, function( index, value ) {
+                if (!isNaN(value) && value>0) {
+                    //grandtotal = eval(grandtotal+"+"+value);
+                    grandtotal = grandtotal +", "+value;
+                    //grandtotal = grandtotal.toFixed(2);
+                    var html = "<tr>" +
+                        "<td>1</td>" +
+                        "<td>product name</td>" +
+                        "<td>56</td>" +
+                        "<td>"+value+"</td>" +
+                        "</tr>";
+                    $("#displaytable").append(html);
+                }
+            });
+            jon[myid] = grandtotal;
+
+
+
+            //$("#checkout_total").text(ctotal);
+            //$("#checkout_tax").text(tax);
+            //$("#checkout_grand_total").text(grandtotal);
+            $("#checkout_grand_total").text(grandtotal);
         });
         function calculate_total(price, total){
             var total = price * total;
             total = total.toFixed(2);
             return total;
         }
-        function calculate_tax() {
-            return "sdcsdc";
+        function calculate_tax(amount) {
+            var result = amount/100*8.875;
+            return result.toFixed(2);
         }
         function calculate_grand_total() {
             return "dssdc";
