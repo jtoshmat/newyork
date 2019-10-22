@@ -56,6 +56,25 @@ $items = $obj->getItems();
                         <button>+</button>
                     </div>
                 </div>
+        </div>
+        <div class="rightpanel">
+            <h4 style="text-align: center">Shopping Cart</h4>
+            <p>csdcs</p>
+            <div class="shopping_details">
+                <table class="table table-bordered" id="displaytable">
+                    <tr>
+                        <td>#</td>
+                        <td>Name</td>
+                        <td>Qnty</td>
+                        <td>Total</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="shopping_totals">
+                <p>Total: $<span id="checkout_total">0</span></p>
+                <p>Tax: $<span id="checkout_tax">0</span></p>
+                <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
             </div>
 
 
@@ -157,6 +176,9 @@ $items = $obj->getItems();
 <script>
     $(function () {
 
+        var total = 0;
+        var prev_id = '';
+        var ctotal = 0;
         $(".items").click(function () {
             $(this).toggleClass('items_clicked');
             let id = $(this).data('id');
@@ -170,6 +192,88 @@ $items = $obj->getItems();
         });
 
 
+            if ($("#myinput" + id).val() == 0) {
+                $("#myinput" + id).val(0);
+            }
+            total = 0;
+            prev_id = '';
+        });
+        $(".quantitybox").click(function () {
+            var id = $(this).data('did');
+            return false;
+        });
+        var temp_total = 0;
+
+
+        var myid = '';
+        var tax = '';
+        var grandtotal = '';
+        var jon = [];
+        $(".mybtn").click(function () {
+            var sign = $(this).text();
+            if (sign == '-') {
+                var id = $(this).data('bid1');
+                total--;
+                myid = id;
+            } else {
+                var id = $(this).data('bid2');
+                total++;
+                myid = id;
+            }
+            if (prev_id != id) {
+                prev_id = id;
+
+            }
+            $("#myinput"+id).val(total);
+            total[prev_id]++;
+
+            temp_total = total;
+
+            if (total < 0) {
+                total = 0;
+            }
+            var price = $("#price"+id).val();
+            ctotal = calculate_total(price, temp_total);
+            tax = calculate_tax(ctotal);
+            var gtt = eval(ctotal+"+"+tax);
+            grandtotal = gtt.toFixed(2);
+
+
+            $.each(jon, function( index, value ) {
+                if (!isNaN(value) && value>0) {
+                    //grandtotal = eval(grandtotal+"+"+value);
+                    grandtotal = grandtotal +", "+value;
+                    //grandtotal = grandtotal.toFixed(2);
+                    var html = "<tr>" +
+                        "<td>1</td>" +
+                        "<td>product name</td>" +
+                        "<td>56</td>" +
+                        "<td>"+value+"</td>" +
+                        "</tr>";
+                    $("#displaytable").append(html);
+                }
+            });
+            jon[myid] = grandtotal;
+
+
+
+            //$("#checkout_total").text(ctotal);
+            //$("#checkout_tax").text(tax);
+            //$("#checkout_grand_total").text(grandtotal);
+            $("#checkout_grand_total").text(grandtotal);
+        });
+        function calculate_total(price, total){
+            var total = price * total;
+            total = total.toFixed(2);
+            return total;
+        }
+        function calculate_tax(amount) {
+            var result = amount/100*8.875;
+            return result.toFixed(2);
+        }
+        function calculate_grand_total() {
+            return "dssdc";
+        }
     });
 </script>
 </body>
