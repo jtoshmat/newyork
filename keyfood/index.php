@@ -203,8 +203,9 @@ $items = $obj->getItems();
 
         var myid = '';
         var tax = '';
-        var grandtotal = '';
+        var grandtotal = [];
         var jon = [];
+        var jessica = [];
         $(".mybtn").click(function () {
             var sign = $(this).text();
             if (sign == '-') {
@@ -232,31 +233,19 @@ $items = $obj->getItems();
             ctotal = calculate_total(price, temp_total);
             tax = calculate_tax(ctotal);
             var gtt = eval(ctotal+"+"+tax);
-            grandtotal = gtt.toFixed(2);
-
-
-            $.each(jon, function( index, value ) {
-                if (!isNaN(value) && value>0) {
-                    //grandtotal = eval(grandtotal+"+"+value);
-                    grandtotal = grandtotal +", "+value;
-                    //grandtotal = grandtotal.toFixed(2);
-                    var html = "<tr>" +
-                        "<td>1</td>" +
-                        "<td>product name</td>" +
-                        "<td>56</td>" +
-                        "<td>"+value+"</td>" +
-                        "</tr>";
-                    $("#displaytable").append(html);
+            grandtotal[myid] = gtt.toFixed(2);
+            jessica = 0;
+            $.each(grandtotal, function( index, value ) {
+                if (!isNaN(value)) {
+                    jessica = eval(jessica+"+"+value);
+                    jessica = jessica.toFixed(2);
                 }
             });
-            jon[myid] = grandtotal;
-
-
 
             //$("#checkout_total").text(ctotal);
             //$("#checkout_tax").text(tax);
             //$("#checkout_grand_total").text(grandtotal);
-            $("#checkout_grand_total").text(grandtotal);
+            $("#checkout_grand_total").text(jessica);
         });
         function calculate_total(price, total){
             var total = price * total;
