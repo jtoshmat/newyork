@@ -39,7 +39,9 @@
                 each vehicle.<br>
             </div>
         </div>
+        <div class="clearfix"></div>
     </div>
+    <div class="clearfix"></div>
 </div>
 <style>
     .capitalonecar{
@@ -94,9 +96,13 @@
         float: right;
     }
     .capitalone{
-        width: 100%;
+        width: 1285px;
         height: 500px;
+        margin: auto;
     }
+     body{
+         background-color: #343434;
+     }
 </style>
 </body>
 </html>
