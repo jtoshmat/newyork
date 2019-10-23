@@ -37,88 +37,47 @@ $items = $obj->getItems();
 </head>
 <body>
 <div class="container-fluid">
-        <div class="dashboard">
+    <div class="dashboard">
         <?php
         foreach ($items as $id => $item) {
-        ?>
-        <div class="items" data-id="<?= $id ?>">
-            <img src="<?= $item['image'] ?>">
-            <div class="description">
-                <?= $item['product_name'] ?><br>
-                $<?= $item['price'] ?>
-                <div data-did="<?= $id ?>" id="description<?= $id ?>" class="quantitybox quantitybox2">
-                    <button data-bid1="<?= $id ?>" class="btn btn-primary mybtn">-</button>
-                    <input disabled="disabled" class="items_input" value="0" id="myinput<?= $id ?>">
-                    <input id="price<?=$id?>" class="price" type="hidden" value="<?=$item['price']?>">
-                    <button data-bid2="<?= $id ?>" class="btn btn-primary mybtn">+</button>
+            ?>
+            <div class="items" data-id="<?= $id ?>">
+                <img src="<?= $item['image'] ?>">
+                <div class="description">
+                    <?= $item['product_name'] ?><br>
+                    $<?= $item['price'] ?>
+                    <div data-did="<?= $id ?>" id="description<?= $id ?>" class="quantitybox quantitybox2">
+                        <button data-bid1="<?= $id ?>" class="btn btn-primary mybtn">-</button>
+                        <input disabled="disabled" class="items_input" value="0" id="myinput<?= $id ?>">
+                        <input id="price<?=$id?>" class="price" type="hidden" value="<?=$item['price']?>">
+                        <button data-bid2="<?= $id ?>" class="btn btn-primary mybtn">+</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        <?php
+            <?php
         }
-            ?>
+        ?>
+    </div>
+    <div class="rightpanel">
+        <h4 style="text-align: center">Shopping Cart</h4>
+        <p>csdcs</p>
+        <div class="shopping_details">
+            <table class="table table-bordered" id="displaytable">
+                <tr>
+                    <td>#</td>
+                    <td>Name</td>
+                    <td>Qnty</td>
+                    <td>Total</td>
+                </tr>
+
+            </table>
         </div>
-        <div class="rightpanel">
-            <h4 style="text-align: center">Shopping Cart</h4>
-            <p>csdcs</p>
-            <div class="shopping_details">
-                <table class="table table-bordered">
-                    <tr>
-                        <td>#</td>
-                        <td>Name</td>
-                        <td>Qnty</td>
-                        <td>Total</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Tomato</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Strawbery</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Lime</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Cucumber</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Banana</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Orange</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                    <tr>
-                        <td>1</td>
-                        <td>Potato</td>
-                        <td>6</td>
-                        <td>$12.44</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="shopping_totals"> <!--have to create function that calculates taxes of 8.8% out of Total amount, grand total calculates total + tax.-->
-                <p>Total: $<span id="checkout_total">0</span></p>
-                <p>Tax: $<span id="checkout_tax">0</span></p>
-                <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
-            </div>
+        <div class="shopping_totals">
+            <p>Total: $<span id="checkout_total">0</span></p>
+            <p>Tax: $<span id="checkout_tax">0</span></p>
+            <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
         </div>
+    </div>
 
     <div class="clearfix"></div>
 </div>
@@ -230,7 +189,7 @@ $items = $obj->getItems();
             var id = $(this).data('id');
             $("#description" + id).toggleClass('quantitybox2');
             if ($("#myinput" + id).val() == 0) {
-                $("#myinput" + id).val(1);
+                $("#myinput" + id).val(0);
             }
             total = 0;
             prev_id = '';
@@ -240,14 +199,23 @@ $items = $obj->getItems();
             return false;
         });
         var temp_total = 0;
+
+
+        var myid = '';
+        var tax = '';
+        var grandtotal = [];
+        var jon = [];
+        var jessica = [];
         $(".mybtn").click(function () {
             var sign = $(this).text();
             if (sign == '-') {
                 var id = $(this).data('bid1');
                 total--;
+                myid = id;
             } else {
                 var id = $(this).data('bid2');
                 total++;
+                myid = id;
             }
             if (prev_id != id) {
                 prev_id = id;
@@ -262,31 +230,36 @@ $items = $obj->getItems();
                 total = 0;
             }
             var price = $("#price"+id).val();
-            ctotal=calculate_total(price, temp_total);
-            console.log( ctotal);
-            $("#checkout_total").text(total);
+            ctotal = calculate_total(price, temp_total);
+            tax = calculate_tax(ctotal);
+            var gtt = eval(ctotal+"+"+tax);
+            grandtotal[myid] = gtt.toFixed(2);
+            jessica = 0;
+            $.each(grandtotal, function( index, value ) {
+                if (!isNaN(value)) {
+                    jessica = eval(jessica+"+"+value);
+                    jessica = jessica.toFixed(2);
+                }
+            });
+
+            //$("#checkout_total").text(ctotal);
+            //$("#checkout_tax").text(tax);
+            //$("#checkout_grand_total").text(grandtotal);
+            $("#checkout_grand_total").text(jessica);
         });
         function calculate_total(price, total){
             var total = price * total;
+            total = total.toFixed(2);
             return total;
         }
-<<<<<<< HEAD
-
         function calculate_tax(amount) {
-            var tax = (amount / 100) * 8.875;
-            return tax;
-=======
-        function calculate_tax() {
-            return "sdcsdc";
->>>>>>> 24716d45eb5ab9311882fe45541c867b6a639476
+            var result = amount/100*8.875;
+            return result.toFixed(2);
         }
         function calculate_grand_total() {
-            var grand_total = total + calculate_tax;
-            return grand_total;
+            return "dssdc";
         }
     });
 </script>
 </body>
 </html>
-
-
