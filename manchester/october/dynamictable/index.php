@@ -17,7 +17,11 @@ class Display
 
     public function getRecords()
     {
+<<<<<<< HEAD
         return $this->db->sql("SELECT * FROM dynamictables where country='Uzbekistan'");
+=======
+        return $this->db->sql("SELECT * FROM airports where country='Uzbekistan'");
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
     }
 }
 

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+<?php
+session_start(['cookie_lifetime' => 60]);
+?>
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <!doctype html>
 <html lang="en">
 <head>
@@ -15,6 +21,7 @@
     <div class="mylogin">
         <div class="banklogo"><img src="img/banklogo.png"> </div>
         <div class="myloginform">
+<<<<<<< HEAD
             <form method="post">
             <p class="myp">
                 <label>Enter your card number</label><br>
@@ -22,11 +29,33 @@
                 <input title="Enter only numbers"  pattern="\d*"  required="required" id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
             </p>
 
+=======
+
+            <?php
+                if (isset($_SESSION['msg']['error_type']) && $_SESSION['msg']['error_type']!=200) {
+                    ?>
+                    <div class="alert alert-danger">
+                        <?=$_SESSION['msg']['message']?>
+                    </div>
+                    <?php
+                }
+            ?>
+
+            <form method="post" action="login.php">
+            <p class="myp">
+                <label>Enter your card number</label><br>
+                <span class="cardlogo"><img id="cardlogo" src="img/discover_icon.png"></span>
+                <input  title="Enter only numbers"  pattern="\d*"  required="required" id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
+            </p>
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
             <p class="myp">
                 <span class="cardlogo"><img src="img/lock_icon.png"></span>
                 <input title="Enter only numbers" required="required" pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
             </p>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
             <p class="myp">
                 <button class="btn btn-primary mybtn">LOGIN</button>
             </p>
@@ -34,7 +63,10 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <style>
 
     .mybtn{
@@ -83,7 +115,10 @@
         box-shadow: grey 5px 5px 5px 5px;
     }
 </style>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <script>
     $(function () {
         $("#cardnumber").keyup(function () {
@@ -117,6 +152,9 @@
 
     });
 </script>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 </body>
 </html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 <head>
@@ -191,4 +192,16 @@ ul{
 <footer>
 
 </footer>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Asror's First Class</title>
+</head>
+<body>
+
+Your HTML content goes here
+
+</body>
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 </html>

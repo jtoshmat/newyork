@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
     <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -115,6 +118,7 @@
       <change afterPath="$PROJECT_DIR$/onlineclass/js/myscripts.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/shahriyor/contactus.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/shahriyor/practice2.php" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forms/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/contactus.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shahriyor/practice.php" beforeDir="false" afterPath="$PROJECT_DIR$/shahriyor/practice.php" afterDir="false" />
@@ -176,6 +180,69 @@
 =======
     <list default="true" id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/contactus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shahriyor/practice.php" beforeDir="false" afterPath="$PROJECT_DIR$/shahriyor/practice.php" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/myphp/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/frontend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chase/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/chase/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/myphp/strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/1A82E7FC-61D5-4D52-B522-C70383DE0229.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/2d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/3d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/4d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/5d.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_2537.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_3869.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_5390 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/backphoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/bckphoto.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/cat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/cateye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/classic.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/doll.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/dolleye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/fon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/mega.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/natural.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/openeye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/openeye1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/tweezer.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umida/jon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newyork/umida/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/newyork/umida/index.php" afterDir="false" />
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/gulya78/login page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulya78/new work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/subscribe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/uploadform.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/uploadform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+    <list default="true" id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
       <change beforePath="$PROJECT_DIR$/cards/img/player_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cards/img/player_2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cards/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cards/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
@@ -210,7 +277,10 @@
 >>>>>>> 9bc7540618c1a4919574bb4ac3a3425797f7480f
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
 >>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+<<<<<<< HEAD
 >>>>>>> e8e8e56976cfec922def68712d6d51f09033b86c
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -254,6 +324,7 @@
 >>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&lt;label</find>
@@ -267,6 +338,8 @@
     </replaceStrings>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 =======
 <<<<<<< HEAD
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
@@ -460,20 +533,31 @@
       <dir>$PROJECT_DIR$/hwcar</dir>
       <dir>$PROJECT_DIR$/gulya78</dir>
     </dirStrings>
+<<<<<<< HEAD
   </component>
 =======
       </list>
     </option>
 >>>>>>> e8e8e56976cfec922def68712d6d51f09033b86c
   </component>
+=======
+  </component>
+=======
+      </list>
+    </option>
+  </component>
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectId" id="1SDlCdiXwA3ODSOPZMn1pflEFta" />
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <<<<<<< HEAD
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
   <component name="ProjectId" id="1PChuQtdCNPfztnQuXV00bQFRxJ" />
@@ -605,12 +689,21 @@
     <option name="height" value="1019" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
   </component>
 =======
         <option value="$PROJECT_DIR$/cards/index.php" />
       </list>
     </option>
   </component>
+=======
+  </component>
+=======
+        <option value="$PROJECT_DIR$/cards/index.php" />
+      </list>
+    </option>
+  </component>
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <<<<<<< HEAD
   <component name="ProjectId" id="1Ov4jDmADnpWnjF3dmUizSkkSDJ" />
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
@@ -621,16 +714,22 @@
 >>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
 >>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+<<<<<<< HEAD
 >>>>>>> e8e8e56976cfec922def68712d6d51f09033b86c
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
 <<<<<<< HEAD
   <component name="PropertiesComponent">
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
   <component name="PropertiesComponent">
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <<<<<<< HEAD
 =======
 =======
@@ -733,7 +832,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
 >>>>>>> e8e8e56976cfec922def68712d6d51f09033b86c
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -821,7 +923,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+<<<<<<< HEAD
 >>>>>>> e8e8e56976cfec922def68712d6d51f09033b86c
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -868,6 +973,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <changelist id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="" />
       <created>1571105920324</created>
       <option name="number" value="Default" />
@@ -883,6 +989,8 @@
   </component>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
       <changelist id="19fa0def-a605-4e22-86ac-93e744738814" name="Default Changelist" comment="" />
       <created>1562792191450</created>
       <option name="number" value="Default" />
@@ -948,6 +1056,7 @@
       <workItem from="1565375514339" duration="590000" />
       <workItem from="1565384211458" duration="1473000" />
       <workItem from="1565540821453" duration="11843000" />
+<<<<<<< HEAD
     </task>
     <servers />
   </component>
@@ -1012,11 +1121,78 @@
     </task>
     <servers />
   </component>
+=======
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+=======
+      <workItem from="1564156962077" duration="14965000" />
+      <workItem from="1564277883179" duration="2434000" />
+      <workItem from="1564320606583" duration="17305000" />
+      <workItem from="1566321953310" duration="7126000" />
+      <workItem from="1566423065567" duration="606000" />
+      <workItem from="1566423741876" duration="474000" />
+      <workItem from="1566477260722" duration="111000" />
+      <workItem from="1566477695518" duration="419000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+
+      <workItem from="1564063520963" duration="8449000" />
+      <workItem from="1564178126402" duration="6073000" />
+      <workItem from="1564362273773" duration="13205000" />
+      <workItem from="1564668616805" duration="7407000" />
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+=======
+      <workItem from="1563487284219" duration="4051000" />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+      <updated>1564844869690</updated>
+      <workItem from="1564844870838" duration="241000" />
+      <workItem from="1564845180759" duration="1027000" />
+      <workItem from="1564846713973" duration="9631000" />
+      <workItem from="1564950964352" duration="1251000" />
+      <workItem from="1564952259218" duration="7812000" />
+      <workItem from="1565024744945" duration="4988000" />
+      <workItem from="1565040411023" duration="4215000" />
+      <workItem from="1565100440610" duration="9311000" />
+      <workItem from="1565210320383" duration="617000" />
+      <workItem from="1565282406021" duration="8237000" />
+      <workItem from="1565300977030" duration="4787000" />
+      <workItem from="1565368200215" duration="9205000" />
+      <workItem from="1565442476678" duration="8580000" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+    </task>
+    <servers />
+  </component>
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <<<<<<< HEAD
 =======
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="41513000" />
+<<<<<<< HEAD
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="726" height="809" extended-state="0" />
@@ -1051,6 +1227,42 @@
     <frame x="0" y="23" width="716" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
+=======
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="726" height="809" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04385965" />
+    <option name="totallyTimeSpent" value="136982000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1201" height="797" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32352942" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="86127000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+<<<<<<< HEAD
+=======
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="716" height="804" extended-state="0" />
+    <editor active="true" />
+    <layout>
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2967359" />
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1093,6 +1305,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
 =======
@@ -1119,6 +1332,34 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+=======
+    <option name="totallyTimeSpent" value="56251000" />
+=======
+    <option name="totallyTimeSpent" value="3494000" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="762" height="797" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <<<<<<< HEAD
       <window_info anchor="bottom" id="Message" order="0" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
@@ -1191,7 +1432,10 @@
 =======
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
 >>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+<<<<<<< HEAD
 >>>>>>> e8e8e56976cfec922def68712d6d51f09033b86c
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -1199,11 +1443,14 @@
           <value>
 <<<<<<< HEAD
             <State>
+<<<<<<< HEAD
               <option name="COLUMN_ORDER" />
             </State>
 =======
 <<<<<<< HEAD
             <State>
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <<<<<<< HEAD
               <option name="COLUMN_ORDER" />
 =======
@@ -1249,7 +1496,10 @@
         <entry key="User">
           <value>
             <list />
+<<<<<<< HEAD
 >>>>>>> e8e8e56976cfec922def68712d6d51f09033b86c
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
           </value>
         </entry>
       </map>
@@ -1257,7 +1507,10 @@
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
@@ -1669,6 +1922,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulya78/new work.html">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
@@ -1677,6 +1931,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulya78/login page.php">
       <provider selected="true" editor-type-id="text-editor">
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/login page.php">
+      <provider selected="true" editor-type-id="text-editor">
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
         <state relative-caret-position="195">
           <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
@@ -1767,7 +2031,10 @@
       </provider>
     </entry>
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+<<<<<<< HEAD
 >>>>>>> e8e8e56976cfec922def68712d6d51f09033b86c
+=======
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
   </component>
 <<<<<<< HEAD
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67

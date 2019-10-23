@@ -10,6 +10,11 @@ class Artists
     private $db;
     public $results;
     public $parms;
+<<<<<<< HEAD
+=======
+    public $albumids;
+    public $songs;
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 
     public function __construct()
     {
@@ -29,14 +34,20 @@ class Artists
     {
         $albums = $this->db->sql("SELECT * FROM albums order by AlbumId desc");
         $myalbums = [];
+<<<<<<< HEAD
         $album_ids = [];
         foreach ($albums as $num=>$album) {
             $album_ids[] = $album['AlbumId'];
+=======
+        foreach ($albums as $num=>$album) {
+            $this->albumids[] = $album['AlbumId'];
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
             $myalbums[$album['ArtistId']][] = [
                 'id' => $album['AlbumId'],
                 'album' => $album['album_name'],
             ];
         }
+<<<<<<< HEAD
 
         return $this->db->sql("SELECT * FROM song where albumId in (103,105)");
 
@@ -46,6 +57,19 @@ class Artists
     public function getSongs($albumid)
     {
         return $this->db->sql("SELECT * FROM songs where albumId=".$albumid);
+=======
+        return $myalbums;
+    }
+
+    public function getSongs()
+    {
+        $ids = array_values($this->albumids);
+        $ids = implode(',',$ids);
+        $songs = $this->db->sql("select * from songs where albumId in ($ids);");
+        foreach ($songs as $id=>$song){
+            $this->songs[$song['albumId']][] = $song;
+        }
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
     }
 
 }
@@ -53,10 +77,14 @@ class Artists
 $obj = new Artists();
 $artists = $obj->getArtists();
 $albums = $obj->getAlbums();
+<<<<<<< HEAD
 echo "<pre>";
 var_dump($albums);
 exit;
 
+=======
+$obj->getSongs();
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 ?>
 <!doctype html>
 <html lang="en">
@@ -72,7 +100,18 @@ exit;
 </head>
 <body>
 
+<<<<<<< HEAD
 <div id="mymodal"></div>
+=======
+<div id="mymodal">
+    <?php
+    if (isset($_GET['albumid'])) {
+        $albumid = (int)$_GET['albumid'] ?? null;
+        include_once 'modal.php';
+    }
+    ?>
+</div>
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 
 <div class="container-fluid">
     <h3 style="text-align: center">Songs Artists</h3>
@@ -122,7 +161,11 @@ exit;
                                         <td><?=$myalbums['id'];?></td>
                                         <td>
                                             <!-- Button trigger modal -->
+<<<<<<< HEAD
                                             <a data-target="<?=$myalbums['id']?>" data-albumid="<?=$myalbums['id']?>" data-toggle="modal" data-target="#exampleModalLong"><?=$myalbums['album'];?></a>
+=======
+                                            <a href="/music/?albumid=<?=$myalbums['id']?>"><?=$myalbums['album'];?></a>
+>>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
                                         </td>
                                     </tr>
                                     <?php
