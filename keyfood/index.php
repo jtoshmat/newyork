@@ -184,6 +184,16 @@ $items = $obj->getItems();
         var total = 0;
         var prev_id = '';
         var ctotal = 0;
+
+        var myid = '';
+        var tax = '';
+        var grandtotal = [];
+        var jon = [];
+        var jessica = [];
+        var grandtax = 0;
+        var jontotal = 0;
+
+
         $(".items").click(function () {
             $(this).toggleClass('items_clicked');
             var id = $(this).data('id');
@@ -201,11 +211,8 @@ $items = $obj->getItems();
         var temp_total = 0;
 
 
-        var myid = '';
-        var tax = '';
-        var grandtotal = [];
-        var jon = [];
-        var jessica = [];
+
+
         $(".mybtn").click(function () {
             var sign = $(this).text();
             if (sign == '-') {
@@ -242,8 +249,19 @@ $items = $obj->getItems();
                 }
             });
 
-            //$("#checkout_total").text(ctotal);
-            //$("#checkout_tax").text(tax);
+            grandtax = eval(grandtax+"+"+tax);
+            grandtax[myid] = grandtax.toFixed(2);
+
+            jontotal = eval(jontotal+"+"+ctotal);
+            jontotal[myid] = jontotal.toFixed(2);
+
+            console.log(ctotal+"|"+jontotal);
+
+
+
+
+            $("#checkout_total").text(jontotal);
+            $("#checkout_tax").text(grandtax);
             //$("#checkout_grand_total").text(grandtotal);
             $("#checkout_grand_total").text(jessica);
         });
@@ -263,3 +281,4 @@ $items = $obj->getItems();
 </script>
 </body>
 </html>
+
