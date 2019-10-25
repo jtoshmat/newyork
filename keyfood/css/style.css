@@ -1,4 +1,12 @@
-
+.panelbuttons{
+    position: relative;
+    top:150px;
+    right:10px;
+    z-index: 1000;
+}
+.mycontainer{
+    width:1500px;
+}
 .shopping_totals{
     background-color: #463e66;
     width:100%;
@@ -15,16 +23,17 @@
 
 .dashboard{
     float: left;
-    width: 80%;
+    width: 65%;
 }
 
 .rightpanel{
-    float: left;
-    width: 20%;
+    right: 0px;
+    width: 35%;
     background-color: #463e66;
     height: 800px;
     border-left: 2px solid #1e1a2f;
     color: white;
+    position: fixed;
 }
 
 

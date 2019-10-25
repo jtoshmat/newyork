@@ -38,23 +38,18 @@ $items = $obj->getItems();
     <script src="js/scripts.js" type="text/javascript"></script>
 </head>
 <body>
-<div class="container-fluid">
+<div class="container-fluid mycontainer">
     <div class="dashboard">
         <?php
         foreach ($items as $id => $item) {
             ?>
-            <div class="items" data-id="<?= $id ?>">
+            <div class="items" id="item<?=$id?>" data-id="<?=$id?>">
                 <img src="<?= $item['image'] ?>">
                 <div class="description">
                     <?= $item['product_name'] ?><br>
                     $<?= $item['price'] ?>
-                    <div data-did="<?= $id ?>" id="description<?= $id ?>" class="quantitybox quantitybox2">
-                        <button data-bid1="<?= $id ?>" class="btn btn-primary mybtn">-</button>
-                        <input disabled="disabled" class="items_input" value="0" id="myinput<?= $id ?>">
-                        <input id="price<?=$id?>" class="price" type="hidden" value="<?=$item['price']?>">
-                        <button data-bid2="<?= $id ?>" class="btn btn-primary mybtn">+</button>
-                    </div>
                 </div>
+                <input type="hidden" id="product_name<?=$id?>" value="<?= $item['product_name'] ?>">
             </div>
             <?php
         }
@@ -62,7 +57,7 @@ $items = $obj->getItems();
     </div>
     <div class="rightpanel">
         <h4 style="text-align: center">Shopping Cart</h4>
-        <p>csdcs</p>
+        <p><button>Start Over</button></p>
         <div class="shopping_details">
             <table class="table table-bordered" id="displaytable">
                 <tr>
@@ -70,6 +65,7 @@ $items = $obj->getItems();
                     <td>Name</td>
                     <td>Qnty</td>
                     <td>Total</td>
+                    <td>Delete</td>
                 </tr>
 
             </table>
@@ -84,5 +80,3 @@ $items = $obj->getItems();
 </div>
 </body>
 </html>
-
-
