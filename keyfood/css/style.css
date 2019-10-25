@@ -10,7 +10,7 @@
 .shopping_totals{
     background-color: #463e66;
     width:100%;
-
+background-color: #b1040d;
 }
 
 .shopping_details{
@@ -102,4 +102,24 @@ body {
 .items img {
     width: 100%;
     height: 130px;
+}
+
+.btnremove{
+background-color: #bdb9cb;
+color: #B1040D;
+border: #bdb9cb;
+font-size:20px;
+}
+
+#add{
+background: #bdb9cb;
+color: #B1040D;
+border: #bdb9cb;
+font-size: 20px;
+}
+#minus{
+background-color: #bdb9cb;
+color: #B1040D;
+border: #bdb9cb;
+font-size:20px;
 }

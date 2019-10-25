@@ -34,6 +34,7 @@ $items = $obj->getItems();
     <title>KeyFood Checkout Dashboard</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
 </head>

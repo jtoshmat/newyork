@@ -24,4 +24,4 @@ class Reservation{
 
 $jon = new Reservation();
 
-echo $jon->
+echo $jon->search();
