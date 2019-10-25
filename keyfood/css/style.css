@@ -34,6 +34,7 @@ background-color: #b1040d;
     border-left: 2px solid #1e1a2f;
     color: white;
     position: fixed;
+    display: none;
 }
 
 
@@ -96,7 +97,7 @@ body {
     border: 3px dotted #ff3d4f;
     box-shadow: #ffe748 2px 2px 2px 2px;
     cursor: move;
-    background-color: #072448;
+    background-color: #78b4dc;
 }
 
 .items img {
@@ -114,6 +115,35 @@ font-size:20px;
 .shopping_btns{
 background: #bdb9cb;
 color: #B1040D;
-border: #bdb9cb;
+border: none;
 font-size: 20px;
+padding:5px;
+cursor: pointer;
+    border:1px solid black;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.shopping_btns:hover{
+    background-color: #463e66;
+    color: white !important;
+}
+
+.shopping_total{
+    border:1px solid black;
+    padding:5px;
+    background-color: #463e66;
+    color: #ffd84b !important;
+    font-size: 20px;
+    font-family: "American Typewriter";
+}
+
+tr:first-child{
+    background-color: #a22e3d;
+    color: #ffe359;
+}
+
+th,td{
+    border-top: 1px solid #8c9196 !important;
 }

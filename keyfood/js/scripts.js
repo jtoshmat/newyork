@@ -6,6 +6,7 @@ $(function () {
 });
 function click_functions() {
     $(document).on('click', '.items', function (event) {
+        $(".rightpanel").show();
         id = $(this).data('id');
         $(this).addClass('items_clicked');
         print(id);
@@ -44,18 +45,13 @@ function print(id) {
 }
 function print_table(id, total) {
     var product_name = $("#product_name" + id).val();
-    itemcount++;
     var tr = "          <tr class='mytr" + id + "'>\n" +
-        "                    <td>" + itemcount + "</td>\n" +
         "                    <td>" + product_name + "</td>\n" +
-        "                    <td><button data-id='"+id+"' class='shopping_btns'>-</button><span class='shopping_total'>" + total + "</span><button data-id='"+id+"' class='shopping_btns'>+</button></td>\n" +
+        "                    <td><a data-id='"+id+"' class='shopping_btns'>-</a><span class='shopping_total'>" + total + "</span><a data-id='"+id+"' class='shopping_btns'>+</a></td>\n" +
         "                    <td>$6.60</td>\n" +
         "                    <td><button class='btnremove' data-id='" + id + "'><span class='fa fa-trash'></span></button></td>\n" +
         "                </tr>";
-
     $("#displaytable").append(tr);
-
-
 }
 function substract() {
 
