@@ -111,15 +111,9 @@ border: #bdb9cb;
 font-size:20px;
 }
 
-#add{
+.shopping_btns{
 background: #bdb9cb;
 color: #B1040D;
 border: #bdb9cb;
 font-size: 20px;
-}
-#minus{
-background-color: #bdb9cb;
-color: #B1040D;
-border: #bdb9cb;
-font-size:20px;
 }

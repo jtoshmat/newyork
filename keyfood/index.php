@@ -44,13 +44,13 @@ $items = $obj->getItems();
         <?php
         foreach ($items as $id => $item) {
             ?>
-            <div class="items" id="item<?=$id?>" data-id="<?=$id?>">
+            <div class="items" id="item<?= $id ?>" data-id="<?= $id ?>">
                 <img src="<?= $item['image'] ?>">
                 <div class="description">
                     <?= $item['product_name'] ?><br>
                     $<?= $item['price'] ?>
                 </div>
-                <input type="hidden" id="product_name<?=$id?>" value="<?= $item['product_name'] ?>">
+                <input type="hidden" id="product_name<?= $id ?>" value="<?= $item['product_name'] ?>">
             </div>
             <?php
         }
@@ -58,7 +58,9 @@ $items = $obj->getItems();
     </div>
     <div class="rightpanel">
         <h4 style="text-align: center">Shopping Cart</h4>
-        <p><button>Start Over</button></p>
+        <p>
+            <button>Start Over</button>
+        </p>
         <div class="shopping_details">
             <table class="table table-bordered" id="displaytable">
                 <tr>
@@ -68,7 +70,6 @@ $items = $obj->getItems();
                     <td>Total</td>
                     <td>Delete</td>
                 </tr>
-
             </table>
         </div>
         <div class="shopping_totals">

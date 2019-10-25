@@ -15,6 +15,21 @@ function click_functions() {
         removeTableItem(id);
         return false;
     });
+    $(document).on('click', '.shopping_btns', function (event) {
+        var id = $(this).data('id');
+        var sign = $(this).text();
+        var total = $(this).siblings('span').text();
+        if (sign == '-'){
+            if (total==1){
+                return false;
+            }
+            total--;
+        }
+        if (sign == '+'){
+            total++;
+        }
+        $(this).siblings('span').text(total);
+    });
 }
 function print(id) {
     var tr_exists = $("#displaytable tr");
@@ -33,7 +48,7 @@ function print_table(id, total) {
     var tr = "          <tr class='mytr" + id + "'>\n" +
         "                    <td>" + itemcount + "</td>\n" +
         "                    <td>" + product_name + "</td>\n" +
-        "                    <td><button id='minus'>-</button>" + total + "<button id='add'>+</button></td>\n" +
+        "                    <td><button data-id='"+id+"' class='shopping_btns'>-</button><span class='shopping_total'>" + total + "</span><button data-id='"+id+"' class='shopping_btns'>+</button></td>\n" +
         "                    <td>$6.60</td>\n" +
         "                    <td><button class='btnremove' data-id='" + id + "'><span class='fa fa-trash'></span></button></td>\n" +
         "                </tr>";
