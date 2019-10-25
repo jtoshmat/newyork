@@ -60,9 +60,8 @@ $items = $obj->getItems();
         <h4 style="text-align: center">Shopping Cart</h4>
         <p><button>Start Over</button></p>
         <div class="shopping_details">
-            <table class="table table-bordered" id="displaytable">
+            <table class="table" id="displaytable">
                 <tr>
-                    <td>#</td>
                     <td>Name</td>
                     <td>Qnty</td>
                     <td>Total</td>

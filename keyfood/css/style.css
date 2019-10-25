@@ -10,7 +10,7 @@
 .shopping_totals{
     background-color: #463e66;
     width:100%;
-background-color: #b1040d;
+    font-size: 20px;
 }
 
 .shopping_details{
@@ -102,4 +102,31 @@ body {
 .items img {
     width: 100%;
     height: 130px;
+}
+
+.btnremove{
+    background-color: #bdb9cb!important;
+    color: #B1040D!important;
+    border: #bdb9cb!important;
+    font-size:20px!important;
+}
+
+.shopping_btns{
+    background: #bdb9cb;
+    color: #B1040D;
+    border: #bdb9cb;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.shopping_btns:hover{
+    background-color: #0b18ff;
+    color: #fefefe!important;
+}
+th, td {
+    border-top: #6c757d!important;
 }
