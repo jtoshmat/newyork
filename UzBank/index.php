@@ -9,8 +9,8 @@ session_start(['cookie_lifetime' => 60]);
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>UzBank Login</title>
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="container-fluid">
@@ -20,40 +20,28 @@ session_start(['cookie_lifetime' => 60]);
         <div class="myloginform">
 
             <?php
-                if (isset($_SESSION['msg']['error_type']) && $_SESSION['msg']['error_type']!=200) {
-                    ?>
-                    <div class="alert alert-danger">
-                        <?=$_SESSION['msg']['message']?>
-                    </div>
-                    <?php
-                }
+            if (isset($_SESSION['msg']['error_type']) && $_SESSION['msg']['error_type']!=200) {
+                ?>
+                <div class="alert alert-danger">
+                    <?=$_SESSION['msg']['message'];?>
+                </div>
+                <?php
+            }
             ?>
 
             <form method="post" action="login.php">
-            <p class="myp">
-                <label>Enter your card number</label><br>
-                <span class="cardlogo"><img id="cardlogo" src="img/discover_icon.png"></span>
-<<<<<<< HEAD
-
-                <input id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
-
-                <input title="Enter only numbers"  pattern="\d*"  required="required" id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
-
-=======
-                <input  title="Enter only numbers"  pattern="\d*"  required="required" id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
->>>>>>> 3f691f7088974b3e5b0cd5028ca1086b32d61773
-            </p>
-            <p class="myp">
-                <span class="cardlogo"><img src="img/lock_icon.png"></span>
-
-                <input required="required" pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
-
-                <input title="Enter only numbers" required="required" pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
-
-            </p>
-            <p class="myp">
-                <button class="btn btn-primary mybtn">LOGIN</button>
-            </p>
+                <p class="myp">
+                    <label>Enter your card number</label><br>
+                    <span class="cardlogo"><img id="cardlogo" src="img/discover_icon.png"></span>
+                    <input  title="Enter only numbers"  pattern="\d*"  required="required" id="cardnumber" minlength="16" maxlength="16" name="cardnumber" type="text" placeholder="Your Card Number">
+                </p>
+                <p class="myp">
+                    <span class="cardlogo"><img src="img/lock_icon.png"></span>
+                    <input title="Enter only numbers" required="required" pattern="\d*" minlength="4"  maxlength="4" name="pin" type="password" placeholder="PIN">
+                </p>
+                <p class="myp">
+                    <button class="btn btn-primary mybtn">LOGIN</button>
+                </p>
             </form>
         </div>
     </div>
@@ -109,29 +97,27 @@ session_start(['cookie_lifetime' => 60]);
 <script>
     $(function () {
         $("#cardnumber").keyup(function () {
-           var cardnumbers = $(this).val();
-           var first_number = parseInt(cardnumbers[0]);
-
-
-           if (!isNaN(first_number)){
-               switch (first_number) {
-                   case 3:
-                       changeCardImg('img/amex_icon.jpg');
-                       break;
-                   case 4:
-                       changeCardImg('img/visa_icon.png');
-                       break;
-                   case 5:
-                       changeCardImg('img/master_icon.png');
-                       break;
-                   case 6:
-                       changeCardImg('img/discover_icon.png');
-                       break;
-                   default:
-                       changeCardImg('img/othercard_icon.png');
-                       break;
-               }
-           }
+            var cardnumbers = $(this).val();
+            var first_number = parseInt(cardnumbers[0]);
+            if (!isNaN(first_number)){
+                switch (first_number) {
+                    case 3:
+                        changeCardImg('img/amex_icon.jpg');
+                        break;
+                    case 4:
+                        changeCardImg('img/visa_icon.png');
+                        break;
+                    case 5:
+                        changeCardImg('img/master_icon.png');
+                        break;
+                    case 6:
+                        changeCardImg('img/discover_icon.png');
+                        break;
+                    default:
+                        changeCardImg('img/othercard_icon.png');
+                        break;
+                }
+            }
         });
 
         function changeCardImg(img='img/othercard_icon.png') {
