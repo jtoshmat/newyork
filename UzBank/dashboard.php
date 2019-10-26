@@ -33,10 +33,17 @@ class Dashboard
             exit;
         }
         $this->cardholder_name = $_SESSION['msg']['cardholder_name'];
+        $this->cardholder_id = $_SESSION['msg']['cardholder_id'];
+    }
+
+    public function displayBankAccounts(){
+        return $this->db->sql("SELECT * FROM bank_accounts WHERE bank_card_id=$this->cardholder_id");
     }
 }
 
 $obj = new Dashboard();
+$accounts = $obj->displayBankAccounts();
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -55,7 +62,8 @@ $obj = new Dashboard();
         <div class="myheader">
             <div class="userprofile">
                 <img src="img/profile_icon.png">
-                <?=$obj->cardholder_name?>
+                <?=$obj->cardholder_name?><br>
+                <a href="logout.php">Logout</a>
             </div>
             <p class="logo">
                 <img src="img/chase-logo-white.png">
@@ -75,7 +83,19 @@ $obj = new Dashboard();
         <div class="mymenuborder">
             <img src="img/line.png">
         </div>
-        <div class="mybody"></div>
+        <div class="mybody">
+            <ul>
+                <?php
+                foreach ($accounts as $account) {
+                    ?>
+                    <li><?=$account['name']?>: $<?=$account['balance']?></li>
+                    <?php
+                }
+                ?>
+            </ul>
+
+
+        </div>
     </div>
 </div>
 <style>
