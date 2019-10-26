@@ -11,16 +11,21 @@ function click_functions() {
         id = $(this).data('id');
         $(this).addClass('items_clicked');
         print(id);
+        sub_total();
     });
     $(document).on('click', '.btnremove', function (event) {
         var id = $(this).data('id');
         removeTableItem(id);
+        sub_total();
         return false;
     });
     $(document).on('click', '.shopping_btns', function (event) {
         var id = $(this).data('id');
         var sign = $(this).text();
         var total = $(this).siblings('span').text();
+        var quantity = $("#quantity"+id).val();
+        var quantity2 = eval($(this).siblings('span').text() +"+"+ 1);
+        var price = $("#price"+id).val();
         if (sign == '-'){
             if (total==1){
                 return false;
@@ -28,9 +33,17 @@ function click_functions() {
             total--;
         }
         if (sign == '+'){
+            if (total==quantity){
+                return false;
+            }
             total++;
         }
+        // console.log(quantity2);
+        var totalprice = quantity2 * price;
+        totalprice = totalprice.toFixed(2);
+        $(".price"+id).text(totalprice);
         $(this).siblings('span').text(total);
+        sub_total();
     });
     $(document).on('click', '#btnstartover', function (event) {
         total = 0;
@@ -39,6 +52,7 @@ function click_functions() {
         if (ask) {
             $("#displaytable").find("tr").not("tr:first-child").remove();
             $(".items").removeClass("items_clicked");
+            sub_total();
         }
     });
 }
@@ -55,10 +69,11 @@ function print(id) {
 }
 function print_table(id, total) {
     var price = $("#price"+id).val();
+    var quantity = $("#quantity"+id).val();
     var product_name = $("#product_name" + id).val();
-    var tr = "          <tr class='mytr" + id + "'>\n" +
+    var tr = "          <tr data-id='"+id+"' class='myitems mytr" + id + "'>\n" +
         "                    <td>" + product_name + "</td>\n" +
-        "                    <td><a data-id='"+id+"' class='shopping_btns'>-</a><span class='shopping_total'>" + total + "</span><a data-id='"+id+"' class='shopping_btns'>+</a></td>\n" +
+        "                    <td><a data-id='"+id+"' class='shopping_btns'>-</a><span class='shopping_total'>1</span><a data-id='"+id+"' class='shopping_btns'>+</a></td>\n" +
         "                    <td class='price"+id+"'>"+price+"</td>\n" +
         "                    <td><button class='btnremove' data-id='" + id + "'><span class='fa fa-trash'></span></button></td>\n" +
         "                </tr>";
@@ -74,7 +89,17 @@ function removeTableItem(id) {
 function tax() {
 
 }
-function total() {
+function sub_total() {
+//$("#checkout_total").text('working');
+    //var id = $(this).data('id');
+    var total = 0;
+    $(".myitems").each(function(index, value){
+        var id = $(this).data('id');
+        var price = $(".price"+id).text();
+        total = eval(total+"+"+price);
+        total = total.toFixed(2);
+        $("#checkout_total").text(total);
+    });
 
 }
 function grandtotal() {

@@ -52,6 +52,7 @@ $items = $obj->getItems();
                 </div>
                 <input type="hidden" id="product_name<?= $id ?>" value="<?= $item['product_name'] ?>">
                 <input type="hidden" id="price<?= $id ?>" value="<?= $item['price'] ?>">
+                <input type="hidden" id="quantity<?= $id ?>" value="<?= $item['quantity'] ?>">
             </div>
             <?php
         }
