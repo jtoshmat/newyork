@@ -108,4 +108,3 @@ function grandtotal() {
 function startover() {
 
 }
-//HOWDY

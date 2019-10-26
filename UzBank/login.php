@@ -1,6 +1,6 @@
 <?php
 namespace Uzbank;
-session_start(['cookie_lifetime' => 60]);
+session_start(['cookie_lifetime' => 3600]);
 use Database\database;
 
 include_once '../inc/database.php';
