@@ -51,6 +51,7 @@ $items = $obj->getItems();
                     $<?= $item['price'] ?>
                 </div>
                 <input type="hidden" id="product_name<?= $id ?>" value="<?= $item['product_name'] ?>">
+                <input type="hidden" id="price<?= $id ?>" value="<?= $item['price'] ?>">
             </div>
             <?php
         }
@@ -59,7 +60,7 @@ $items = $obj->getItems();
     <div class="rightpanel">
         <h4 style="text-align: center">Shopping Cart</h4>
         <p>
-            <button>Start Over</button>
+            <button id="btnstartover">Start Over</button>
         </p>
         <div class="shopping_details">
             <table class="table" id="displaytable">

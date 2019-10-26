@@ -4,6 +4,7 @@ $(function () {
     var id = '';
     click_functions();
 });
+
 function click_functions() {
     $(document).on('click', '.items', function (event) {
         $(".rightpanel").show();
@@ -31,6 +32,15 @@ function click_functions() {
         }
         $(this).siblings('span').text(total);
     });
+    $(document).on('click', '#btnstartover', function (event) {
+        total = 0;
+        itemcount = 0;
+        var ask = confirm("Are you sure you want to empty your shopping card?");
+        if (ask) {
+            $("#displaytable").find("tr").not("tr:first-child").remove();
+            $(".items").removeClass("items_clicked");
+        }
+    });
 }
 function print(id) {
     var tr_exists = $("#displaytable tr");
@@ -44,11 +54,12 @@ function print(id) {
     }
 }
 function print_table(id, total) {
+    var price = $("#price"+id).val();
     var product_name = $("#product_name" + id).val();
     var tr = "          <tr class='mytr" + id + "'>\n" +
         "                    <td>" + product_name + "</td>\n" +
         "                    <td><a data-id='"+id+"' class='shopping_btns'>-</a><span class='shopping_total'>" + total + "</span><a data-id='"+id+"' class='shopping_btns'>+</a></td>\n" +
-        "                    <td>$6.60</td>\n" +
+        "                    <td class='price"+id+"'>"+price+"</td>\n" +
         "                    <td><button class='btnremove' data-id='" + id + "'><span class='fa fa-trash'></span></button></td>\n" +
         "                </tr>";
     $("#displaytable").append(tr);
