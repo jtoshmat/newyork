@@ -16,7 +16,7 @@ class Checkout
 
     public function getItems()
     {
-        return $this->db->sql("SELECT * FROM groceries");
+        return $this->db->sql("SELECT * FROM groceries where quantity >= 1");
     }
 
 }
