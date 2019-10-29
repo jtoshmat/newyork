@@ -14,12 +14,20 @@
 }
 
 .shopping_details{
-    height:500px;
+    height: 300px;
     overflow: auto;
     background-color: #beb9cd;
     color: #2b2b2b;
 
 }
+
+.shopping_checkout{
+    text-align: center;
+}
+.shopping_checkout button{
+    width:100%;
+}
+
 
 .dashboard{
     float: left;

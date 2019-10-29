@@ -78,6 +78,12 @@ $items = $obj->getItems();
             <p>Tax: $<span id="checkout_tax">0</span></p>
             <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
         </div>
+        <div class="shopping_checkout">
+            <input id="api_total" value="111">
+            <input id="api_tax" value="222">
+            <input id="api_grandtotal" value="333">
+            <button id="mycheckout_button" class="btn btn-light">CHECKOUT</button>
+        </div>
     </div>
     <div class="clearfix"></div>
 </div>

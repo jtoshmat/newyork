@@ -1,10 +1,11 @@
 var total = 0;
 var itemcount = 0;
+var grandtax = '';
+var sum = '';
 $(function () {
     var id = '';
     click_functions();
 });
-
 function click_functions() {
     $(document).on('click', '.items', function (event) {
         $(".rightpanel").show();
@@ -12,7 +13,6 @@ function click_functions() {
         $(this).addClass('items_clicked');
         print(id);
         sub_total();
-        tax();
     });
     $(document).on('click', '.btnremove', function (event) {
         var id = $(this).data('id');
@@ -60,6 +60,10 @@ function click_functions() {
             return false;
         }
     });
+    $(document).on('click', '#mycheckout_button', function (event) {
+        var mydata = { "first-name": 'Jon', "last-name": 'Toshmatov' } ;
+        var result = callHttp('api/checkout.php', mydata, 'post');
+    });
 }
 function print(id) {
     var tr_exists = $("#displaytable tr");
@@ -91,34 +95,45 @@ function removeTableItem(id) {
     $(".mytr" + id).remove();
     $("#item" + id).removeClass("items_clicked");
 }
-function tax() {
-    var totaltax = 0;
-    $(".myitems").each(function (index, value) {
-        var id = $(this).data('id');
-        var price = $(".price" +id).text();
-        totaltax = eval(totaltax+"+"+price * (0.0875));
-        totaltax = totaltax.toFixed(2);
-        $("#checkout_tax").text(totaltax);
-  })
-}
 function sub_total() {
-//$("#checkout_total").text('working');
-    //var id = $(this).data('id');
-    var result = 0;
+    var result = '';
+    var totaltax = '';
     $(".myitems").each(function(index, value){
         var id = $(this).data('id');
         var price = $(".price"+id).text();
         result = eval(result+"+"+price);
         result = result.toFixed(2);
         $("#checkout_total").text(result);
+        var id = $(this).data('id');
+        var price = $(".price" +id).text();
+        totaltax = eval(totaltax+"+"+price * (0.0875));
+        totaltax = totaltax.toFixed(2);
+        $("#checkout_tax").text(totaltax);
     });
+    grandtax = totaltax;
+    var jon = grandtotal(grandtax, result);
+
+    $("#api_total").val(result);
+    $("#api_tax").val(grandtax);
 
 }
-function grandtotal(){
-    var subtotal = sub_total();
-    var sales_tax = tax();
-    document
+function grandtotal(grandtax, sum){
+   var grantotal = eval(grandtax+"+"+sum);
+   grantotal = grantotal.toFixed(2);
+   $("#checkout_grand_total").html(grantotal);
+   $("#api_grandtotal").val(grantotal);
 }
+function startover() {
+}
+function callHttp(url, mydata, method='get') {
+      var url = 'http://newyork.local/lathis/api/checkout.php';
+      var tax = $("#api_tax").val();
+      var total = $("#api_total").val();
+      var grandtotal = $("#api_grandtotal").val();
 
-    function startover() {
+    var jqxhr = $.post( url, { tax: tax, total: total, grandtotal:grandtotal}, function(data) {
+        alert( "success:"+data );
+    }).fail(function() {
+            alert( "error" );
+        })
 }
