@@ -1,41 +1,29 @@
 <?php
-namespace Groceries;
-include_once "../inc/database.php";
-include_once "validation.php";
+namespace Keyfood;
 
 use Database\database;
 
-class Groceries extends database implements \Validation
-{
+include_once '../inc/database.php';
 
+class Checkout
+{
     private $db;
-    public $parameters;
 
     public function __construct()
     {
         $this->db = new database();
-        $this->parameters = $_GET;
-        $this->checkInputs();
     }
 
-    public function checkInputs()
+    public function getItems()
     {
-        $this->parameters['keyword'] = strip_tags($this->parameters['keyword']);
+        return $this->db->sql("SELECT * FROM groceries where quantity >= 1");
     }
 
-    public function getGroceries()
-    {
-        $groceries = $this->db->sql("SELECT * FROM groceries_demo WHERE {$this->parameters['selectBy']} LIKE '%{$this->parameters['keyword']}%'");
-        return $groceries;
-    }
 }
 
-$obj = new Groceries();
-$groceries = $obj->getGroceries();
-
+$obj = new Checkout();
+$items = $obj->getItems();
 ?>
-
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -43,66 +31,55 @@ $groceries = $obj->getGroceries();
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Groceries</title>
+    <title>KeyFood Checkout Dashboard</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
 </head>
 <body>
-<div class="container-fluid">
-
-    <h4 style="text-align: center">
-        Household Grocery List
-    </h4>
-    <div class="mysearch">
-        <form style="text-align: left">
-            <p>Search: <input value="<?= $obj->parameters['keyword'] ?? NULL ?>" name="keyword" type="text">
-                <select name="selectBy">
-                    <option value="id">ID</option>
-                    <option value="product_name">Product Name</option>
-                    <option value="price">Price</option>
-                </select>
-
-                <button>Go!</button>
-
-                <button onclick="updateRecord();" style="float:right; padding: 2px 2px; margin: 0px 5px;">Delete</button>
-                <button onclick="deleteRecord();" style="float:right; padding: 2px 2px; margin: 0px 5px;">Update</button>
-
-
-            </p>
-        </form>
-    </div>
-
-    <div class="mytable">
-        <table class="table table-bordered">
-            <tr>
-                <td>ID</td>
-                <td>Product Name</td>
-                <td>Price</td>
-                <td></td>
-            </tr>
-
-
-            <?php
-            foreach ($groceries as $grocery) {
-                ?>
-
-                <tr>
-                    <td><?= $grocery['id'] ?></td>
-                    <td><?= $grocery['product_name'] ?></td>
-                    <td><?= $grocery['price'] ?></td>
-                    <td><input type="checkbox" value="checkbox" name="checkbox"></td>
-                </tr>
-
-                <?php
-            }
+<div class="container-fluid mycontainer">
+    <div class="dashboard">
+        <?php
+        foreach ($items as $id => $item) {
             ?>
-
-
-        </table>
+            <div class="items" id="item<?= $id ?>" data-id="<?= $id ?>">
+                <img src="<?= $item['image'] ?>">
+                <div class="description">
+                    <?= $item['product_name'] ?><br>
+                    $<?= $item['price'] ?>
+                </div>
+                <input type="hidden" id="product_name<?= $id ?>" value="<?= $item['product_name'] ?>">
+                <input type="hidden" id="price<?= $id ?>" value="<?= $item['price'] ?>">
+                <input type="hidden" id="quantity<?= $id ?>" value="<?= $item['quantity'] ?>">
+            </div>
+            <?php
+        }
+        ?>
     </div>
-
+    <div class="rightpanel">
+        <h4 style="text-align: center">Shopping Cart</h4>
+        <p>
+            <button id="btnstartover">Start Over</button>
+        </p>
+        <div class="shopping_details">
+            <table class="table" id="displaytable">
+                <tr>
+                    <td>Name</td>
+                    <td>Qnty</td>
+                    <td>Total</td>
+                    <td>Delete</td>
+                </tr>
+            </table>
+        </div>
+        <div class="shopping_totals">
+            <p>Total: $<span id="checkout_total">0</span></p>
+            <p>Tax: $<span id="checkout_tax">0</span></p>
+            <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
 </div>
-
-
-
-
-
+</body>
+</html>
