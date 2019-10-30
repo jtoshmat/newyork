@@ -2,7 +2,76 @@
 <head>
     <title>Welcome to Wall Street!</title>
 </head>
+
 <body>
+
+
+<ul>
+    <li>Tashkent
+        <ol>
+            <li>Mirzo Uluqbek</li>
+            <li>Chilanzar</li>
+            <li>Shayhontur</li>
+            <li>Hamza</li>
+            <li>Yunosobod</li>
+        </ol>
+    </li>
+    <li>Kiev</li>
+    <li>Moscow
+        <ol>
+            <li>Kuzminki</li>
+            <li>Tsaritsino</li>
+            <li>Tverskoy</li>
+            <li>Izmaylovo</li>
+            <li>Chertanovo</li>
+        </ol>
+    </li>
+    <li>New York</li>
+    <li>Paris</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h1>Welcome to Wall Street page!</h1>
 
@@ -28,6 +97,7 @@
 <p>
     <a href="mailto:jontoshmatov@yahoo.com?subject=Hello&body=This is a friendly reminder">Send Email</a>
 </p>
+
 
 
 
