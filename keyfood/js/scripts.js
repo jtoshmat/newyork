@@ -60,12 +60,8 @@ function click_functions() {
             sub_total();
             tax();
             $(".items, .shopping_totals").removeClass("items_clicked");
-            sub_total();
-            tax();
-            grandtotal();
-            $("#checkout_total").text(0);
-            $("#checkout_tax").text(0);
-            $("#checkout_grand_total").text(0);
+            var total = 0;
+            var itemcount = 0;
             return false;
         }
     });
@@ -95,7 +91,7 @@ function print_table(id, total) {
         "                    <td>" + product_name + "</td>\n" +
         "                    <td><a data-id='"+id+"' class='shopping_btns'>-</a><span class='shopping_total'>1</span><a data-id='"+id+"' class='shopping_btns'>+</a></td>\n" +
         "                    <td class='price"+id+"'>"+price+"</td>\n" +
-        "                    <td><button class='btnremove' data-id='" + id + "'><span class='fa fa-trash'></span></button></td>\n" +
+        "                    <td><button class='btnremove' data-id='" + id + "'><span class='glyphicon glyphicon-trash'></span></button></td>\n" +
         "                </tr>";
     $("#displaytable").append(tr);
 }
@@ -166,4 +162,7 @@ function grandtotal(){
 
 }
 function startover() {
+    $("#checkout_total").text(0);
+    $("#checkout_tax").text(0);
+    $("#checkout_grand_total").text(0);
 }
