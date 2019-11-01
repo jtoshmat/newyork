@@ -83,9 +83,7 @@ $items = $obj->getItems();
 
         </div>
     </div>
-    <div class="fade" id="fade">
-        Please Slide your card for payment
-    </div>
+    <div class="fade" id="fade">Please Slide your card for the Payment</div>
     <div class="clearfix"></div>
 </div>
 </body>
