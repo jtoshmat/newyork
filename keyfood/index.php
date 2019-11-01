@@ -32,13 +32,13 @@ $items = $obj->getItems();
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KeyFood Checkout Dashboard</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
     <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script src="../js/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="../css/jquery.modal.min.css" />
 </head>
 <body>
 <div class="container-fluid mycontainer">
