@@ -55,8 +55,9 @@ function click_functions() {
         if (ask) {
             $("#displaytable").find("tr").not("tr:first-child").remove();
             $(".items").removeClass("items_clicked");
-            sub_total();
-            tax();
+            startover();
+            var total = 0;
+            var itemcount = 0;
             return false;
         }
     });
@@ -118,12 +119,15 @@ function sub_total() {
 
 }
 function grandtotal(grandtax, sum){
-   var grantotal = eval(grandtax+"+"+sum);
-   grantotal = grantotal.toFixed(2);
-   $("#checkout_grand_total").html(grantotal);
-   $("#api_grandtotal").val(grantotal);
+   var grandtotal = eval(grandtax+"+" +sum);
+   grandtotal = grantotal.toFixed(2);
+   $("#checkout_grand_total").html(grandtotal);
+   $("#api_grandtotal").val(grandtotal);
 }
 function startover() {
+    $("#checkout_total").text(0);
+    $("#checkout_tax").text(0);
+    $("#checkout_grand_total").text(0);
 }
 function callHttp(url, mydata, method='get') {
       var url = 'http://newyork.local/lathis/api/checkout.php';

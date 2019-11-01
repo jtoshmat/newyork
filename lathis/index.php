@@ -82,7 +82,7 @@ $items = $obj->getItems();
             <input id="api_total" value="111">
             <input id="api_tax" value="222">
             <input id="api_grandtotal" value="333">
-            <button id="mycheckout_button" class="btn btn-light">CHECKOUT</button>
+            <button id="mycheckout_button" class="btn btn-light" onclick="return confirm('Do you want to checkout now?')">CHECKOUT</button>
         </div>
     </div>
     <div class="clearfix"></div>
