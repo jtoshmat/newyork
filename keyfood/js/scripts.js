@@ -4,7 +4,6 @@ $(function () {
     var id = '';
     click_functions();
 });
-
 function click_functions() {
     $(document).on('click', '.items', function (event) {
         $(".rightpanel").show();
@@ -61,6 +60,9 @@ function click_functions() {
             sub_total();
             tax();
             grandtotal();
+            $("#checkout_total").text(0);
+            $("#checkout_tax").text(0);
+            $("#checkout_grand_total").text(0);
             return false;
         }
     });
@@ -135,6 +137,5 @@ function grandtotal(){
     });
 
 }
-
 function startover() {
 }
