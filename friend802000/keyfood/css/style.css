@@ -97,7 +97,7 @@ body {
     border: 3px dotted #ff3d4f;
     box-shadow: #ffe748 2px 2px 2px 2px;
     cursor: move;
-    background-color: #a22e3d;
+    background-color: #78b4dc;
 }
 
 .items img {
@@ -165,8 +165,8 @@ th,td{
 
 }
 .fade{
-    width: 750px;
-    height: 300px;
+    width: 500px;
+    height: 100px;
     background-color: #fefefe;
     font-family: "American Typewriter";
     position: absolute;

@@ -62,9 +62,6 @@ $items = $obj->getItems();
     </div>
     <div class="rightpanel">
         <h4 style="text-align: center">Shopping Cart</h4>
-        <p>
-            <button id="btnstartover">Start Over</button>
-        </p>
         <div class="shopping_details">
             <table class="table" id="displaytable">
                 <tr>
@@ -86,10 +83,7 @@ $items = $obj->getItems();
 
         </div>
     </div>
-    <div class="fade" id="fade">
-        <img src="img/slidecard.gif" width="400px">
-        Please Slide your card for payment
-    </div>
+    <div class="fade" id="fade">Please Slide your card for the Payment</div>
     <div class="clearfix"></div>
 </div>
 </body>
