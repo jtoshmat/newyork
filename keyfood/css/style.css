@@ -30,7 +30,7 @@
     right: 0px;
     width: 35%;
     background-color: #463e66;
-    height: 800px;
+    height: 760px;
     border-left: 2px solid #1e1a2f;
     color: white;
     position: fixed;
@@ -146,4 +146,34 @@ tr:first-child{
 
 th,td{
     border-top: 1px solid #8c9196 !important;
+}
+.b01, .b02{
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #a22e3d;
+    color: #efefef;
+
+}
+.b01:hover, .b02:hover{
+    width: 252px;
+    height: 37px;
+    background-color: #e24055;
+    color: #ffffff;
+
+}
+.fade{
+    width: 750px;
+    height: 300px;
+    background-color: #fefefe;
+    font-family: "American Typewriter";
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
 }

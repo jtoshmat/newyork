@@ -25,18 +25,20 @@ $obj = new Checkout();
 $items = $obj->getItems();
 ?>
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>KeyFood Checkout Dashboard</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
     <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
+    <script src="../js/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="../css/jquery.modal.min.css" />
 </head>
 <body>
 <div class="container-fluid mycontainer">
@@ -78,6 +80,15 @@ $items = $obj->getItems();
             <p>Tax: $<span id="checkout_tax">0</span></p>
             <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
         </div>
+        <div>
+                <button class="b01" id="btnstartover">Start Over</button>
+                <button class="b02 btncheckout" id="btnCheckout">Checkout</button>
+
+        </div>
+    </div>
+    <div class="fade" id="fade">
+        <img src="img/slidecard.gif" width="400px">
+        Please Slide your card for payment
     </div>
     <div class="clearfix"></div>
 </div>

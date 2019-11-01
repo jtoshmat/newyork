@@ -80,7 +80,7 @@
                 <div class="search-box2 mar">
             <input class=" date-picker-start search-box2" data-provide="datepicker" placeholder="To Date">
             </div>
-            <div class="search-box2 sel mar">
+            <div class="search-box8 sel mar">
                 <select name="" id="select_adult" class="sel1">
                     <option value="Adult">Adult</option>
                     <option value="1">1</option>
@@ -89,7 +89,7 @@
                     <option value="4">4</option>
                 </select>
             </div>
-            <div class="search-box2 sel mar">
+            <div class="search-box3 sel mar">
                 <select name="" id="" class="sel1">
                     <option value="children">Children</option>
                     <option value="1">1</option>
@@ -100,6 +100,39 @@
                     <option value="6">6</option>
                 </select>
             </div>
+                <div class="search-box5232323 sel mar">
+                    <select name="" id="" class="sel1">
+                        <option value="children">Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="search-box3434342 sel mar">
+                    <select name="" id="" class="sel1">
+                        <option value="children">Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="search-box23 sel mar">
+                    <select name="" id="" class="sel1">
+                        <option value="children">Children</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
                 <button class="submit1" type="submit">Search now</button>
     </div>
 
@@ -145,7 +178,7 @@
         padding:5px;
     }
     .areabox input{
-        border:0px;
+        border:0;
         padding:5px;
         font-size:12px;
     }
