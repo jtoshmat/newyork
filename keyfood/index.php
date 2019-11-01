@@ -62,6 +62,9 @@ $items = $obj->getItems();
     </div>
     <div class="rightpanel">
         <h4 style="text-align: center">Shopping Cart</h4>
+        <p>
+            <button id="btnstartover">Start Over</button>
+        </p>
         <div class="shopping_details">
             <table class="table" id="displaytable">
                 <tr>

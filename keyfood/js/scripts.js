@@ -56,6 +56,9 @@ function click_functions() {
         var ask = confirm("Are you sure you want to empty your shopping card?");
         if (ask) {
             $("#displaytable").find("tr").not("tr:first-child").remove();
+            $(".items").removeClass("items_clicked");
+            sub_total();
+            tax();
             $(".items, .shopping_totals").removeClass("items_clicked");
             sub_total();
             tax();
@@ -104,6 +107,31 @@ function removeTableItem(id) {
     $("#item" + id).removeClass("items_clicked");
 }
 function tax() {
+    var totaltax = 0;
+    $(".myitems").each(function (index, value) {
+        var id = $(this).data('id');
+        var price = $(".price" +id).text();
+        totaltax = eval(totaltax+"+"+price * (0.0875));
+        totaltax = totaltax.toFixed(2);
+        $("#checkout_tax").text(totaltax);
+  })
+}
+function sub_total() {
+//$("#checkout_total").text('working');
+    //var id = $(this).data('id');
+    var total = 0;
+    $(".myitems").each(function(index, value){
+        var id = $(this).data('id');
+        var price = $(".price"+id).text();
+        total = eval(total+"+"+price);
+        total = total.toFixed(2);
+        $("#checkout_total").text(total);
+    });
+
+}
+function grandtotal(){
+   }
+function startover() {
     var mytax = 0;
     $(".myitems").each(function (index, value) {
         var id = $(this).data('id');
