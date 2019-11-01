@@ -84,6 +84,7 @@ $items = $obj->getItems();
         </div>
     </div>
     <div class="fade" id="fade">
+        <img src="img/slidecard.gif" width="400px">
         Please Slide your card for payment
     </div>
     <div class="clearfix"></div>
