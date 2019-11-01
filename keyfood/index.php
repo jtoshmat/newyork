@@ -34,11 +34,11 @@ $items = $obj->getItems();
     <title>KeyFood Checkout Dashboard</title>
     <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
     <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
     <script src="js/scripts.js" type="text/javascript"></script>
     <script src="../js/jquery.modal.min.js"></script>
     <link rel="stylesheet" href="../css/jquery.modal.min.css" />
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 </head>
 <body>
 <div class="container-fluid mycontainer">
