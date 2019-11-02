@@ -1,6 +1,6 @@
 <?php
 namespace Uzbank;
-session_start(['cookie_lifetime' => 300]);
+session_start(['cookie_lifetime' => 60]);
 use Database\database;
 
 include_once '../inc/database.php';
@@ -23,14 +23,11 @@ class Bankcard{
     }
 
     public function findCard(){
-        return $this->db->sql("SELECT * FROM bank_cards WHERE number='".$this->parms['cardnumber']."' and pin = '".$this->parms['pin']."'");
+        return $this->db->sql("SELECT * FROM bank_cards WHERE number='".$this->parms['cardnumber']."' and pin = '".$this->parms['pin']."' limit 1");
     }
 }
-
-
 $obj = new Bankcard();
 $account = $obj->findCard();
-
 
 if (!count($account)){
     $_SESSION['msg'] =[
@@ -41,12 +38,10 @@ if (!count($account)){
     exit;
 }else{
     $_SESSION['msg'] =[
+        'cardholder_name' => $account[0]['cardholder_name'],
         'error_type' => 200,
         'message' => "Your card validation is successful",
     ];
     header("Location: dashboard.php");
     exit;
 }
-
-
-
