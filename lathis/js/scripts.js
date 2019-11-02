@@ -58,7 +58,7 @@ function click_functions() {
         }
     });
     $(document).on('click', '#mycheckout_button', function (event) {
-        $(".creditcardform").fadeIn("slow");
+        $(".creditcardform").show();
         validate_credit_card();
         return false;
         var mydata = { "first-name": 'Jon', "last-name": 'Toshmatov' } ;
@@ -135,27 +135,25 @@ function startover() {
     $("#api_grandtotal").text(0);
     return false;
 }
-
 function validate_credit_card() {
     var cc = $("#creditcard_number").val();
     var pin_number = $("#pin_number").val();
-
-    if (cc.length==0 || pin_number.length==0){
+    if (cc.length!=16 && pin_number.length!=4){
         return false;
     }
     var validate = new RegExp('^[0-9]{16}$');
     if (!validate.test(cc)) {
-        alert('Bad CC Format');
+        alert('Your credit card number is in a wrong format');
         return false;
     }
 
     var validate = new RegExp('^[0-9]{4}$');
     if (!validate.test(pin_number)) {
-        alert('Bad PIN number');
+        alert('Your PIN is in a wrong format');
         return false;
     }
-
-    alert("GOOOOOOOOOOD");
+    var mydata = [];
+    callHttp('http://newyork.local/lathis/api/checkout.php', mydata, method='get');
 
 }
 
