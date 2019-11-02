@@ -53,16 +53,20 @@ function click_functions() {
         itemcount = 0;
         var ask = confirm("Are you sure you want to empty your shopping card?");
         if (ask) {
-            $("#displaytable").find("tr").not("tr:first-child").remove();
-            $(".items").removeClass("items_clicked");
-            sub_total();
-            tax();
+            startover();
             return false;
         }
     });
     $(document).on('click', '#mycheckout_button', function (event) {
+        $(".creditcardform").fadeIn("slow");
+        validate_credit_card();
+        return false;
         var mydata = { "first-name": 'Jon', "last-name": 'Toshmatov' } ;
         var result = callHttp('api/checkout.php', mydata, 'post');
+    });
+    $(document).on('submit', '#ccform', function (event) {
+alert("The form has been submitted");
+return false;
     });
 }
 function print(id) {
@@ -124,16 +128,34 @@ function grandtotal(grandtax, sum){
    $("#api_grandtotal").val(grantotal);
 }
 function startover() {
+    $("#displaytable").find("tr").not("tr:first-child").remove();
+    $(".items").removeClass("items_clicked");
+    $(".creditcardform").fadeOut("slow");
+    $("#api_total").text(0);
+    $("#api_tax").text(0);
+    $("#api_grandtotal").text(0);
+    return false;
 }
+
+function validate_credit_card() {
+    var cc = $("#creditcard_number").val();
+    if (!isNaN(cc)){
+        var validate = new RegExp('^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$');
+
+        if (validate.test(VAL)) {
+            alert('WRIB');
+        }
+    }
+}
+
 function callHttp(url, mydata, method='get') {
       var url = 'http://newyork.local/lathis/api/checkout.php';
       var tax = $("#api_tax").val();
       var total = $("#api_total").val();
       var grandtotal = $("#api_grandtotal").val();
-
-    var jqxhr = $.post( url, { tax: tax, total: total, grandtotal:grandtotal}, function(data) {
-        alert( "success:"+data );
-    }).fail(function() {
-            alert( "error" );
-        })
+        var jqxhr = $.post( url, { tax: tax, total: total, grandtotal:grandtotal}, function(data) {
+            alert( "success:"+data );
+        }).fail(function() {
+                alert( "error" );
+            })
 }

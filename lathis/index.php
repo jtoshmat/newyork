@@ -78,12 +78,20 @@ $items = $obj->getItems();
             <p>Tax: $<span id="checkout_tax">0</span></p>
             <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
         </div>
-        <div class="shopping_checkout">
-            <input id="api_total" value="111">
-            <input id="api_tax" value="222">
-            <input id="api_grandtotal" value="333">
-            <button id="mycheckout_button" class="btn btn-light">CHECKOUT</button>
-        </div>
+
+        <form method="post" id="ccform">
+            <div class="creditcardform">
+                <p>Enter your credit card number</p>
+                <p><input minlength="16" maxlength="16" title="Your cc format is wrong" type="text" required="required" pattern="/^([0-9]{4}( |\-)){3}[0-4]{4}$/" id="creditcard_number" placeholder="Enter you credit card number" class="myinputs" name="cc"></p>
+                <p><input minlength="4" maxlength="4" type="text" required="required"  id="pin_number" placeholder="PIN" class="myinputs" name="pin"></p>
+            </div>
+            <div class="shopping_checkout">
+                <input type="hidden" id="api_total" value="111">
+                <input type="hidden" id="api_tax" value="222">
+                <input type="hidden" id="api_grandtotal" value="333">
+                <button type="submit" id="mycheckout_button" class="btn btn-primary">CHECKOUT</button>
+            </div>
+        </form>
     </div>
     <div class="clearfix"></div>
 </div>
