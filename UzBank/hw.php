@@ -56,7 +56,7 @@
         margin-left: 30px;
         font-size: 11px;
         font-family: "American Typewriter";
-        color: #5a5a5a;
+        color:grey;
     }
     .myemptydiv4{
         height:20px;
