@@ -65,8 +65,7 @@ function click_functions() {
         var result = callHttp('api/checkout.php', mydata, 'post');
     });
     $(document).on('submit', '#ccform', function (event) {
-alert("The form has been submitted");
-return false;
+        return false;
     });
 }
 function print(id) {
@@ -139,13 +138,17 @@ function startover() {
 
 function validate_credit_card() {
     var cc = $("#creditcard_number").val();
-    if (!isNaN(cc)){
-        var validate = new RegExp('^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$');
-
-        if (validate.test(VAL)) {
-            alert('WRIB');
-        }
+    if (cc.length==0){
+        return false;
     }
+    var validate = new RegExp('^[0-9]{16}$');
+    if (!validate.test(cc)) {
+        alert('Bad Format');
+        return false;
+    }
+
+    alert("GOOOOOOOOOOD");
+
 }
 
 function callHttp(url, mydata, method='get') {
