@@ -138,12 +138,20 @@ function startover() {
 
 function validate_credit_card() {
     var cc = $("#creditcard_number").val();
-    if (cc.length==0){
+    var pin_number = $("#pin_number").val();
+
+    if (cc.length==0 || pin_number.length==0){
         return false;
     }
     var validate = new RegExp('^[0-9]{16}$');
     if (!validate.test(cc)) {
-        alert('Bad Format');
+        alert('Bad CC Format');
+        return false;
+    }
+
+    var validate = new RegExp('^[0-9]{4}$');
+    if (!validate.test(pin_number)) {
+        alert('Bad PIN number');
         return false;
     }
 
