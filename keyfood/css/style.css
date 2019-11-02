@@ -10,7 +10,7 @@
 .shopping_totals{
     background-color: #463e66;
     width:100%;
-background-color: #b1040d;
+    background-color: #b1040d;
 }
 
 .shopping_details{
@@ -30,7 +30,7 @@ background-color: #b1040d;
     right: 0px;
     width: 35%;
     background-color: #463e66;
-    height: 800px;
+    height: 760px;
     border-left: 2px solid #1e1a2f;
     color: white;
     position: fixed;
@@ -106,19 +106,19 @@ body {
 }
 
 .btnremove{
-background-color: #bdb9cb;
-color: #B1040D;
-border: #bdb9cb;
-font-size:20px;
+    background-color: #bdb9cb;
+    color: #B1040D;
+    border: #bdb9cb;
+    font-size:20px;
 }
 
 .shopping_btns{
-background: #bdb9cb;
-color: #B1040D;
-border: none;
-font-size: 20px;
-padding:5px;
-cursor: pointer;
+    background: #bdb9cb;
+    color: #B1040D;
+    border: none;
+    font-size: 20px;
+    padding:5px;
+    cursor: pointer;
     border:1px solid black;
     border-radius: 5px;
     margin-right: 5px;
@@ -146,4 +146,34 @@ tr:first-child{
 
 th,td{
     border-top: 1px solid #8c9196 !important;
+}
+.b01, .b02{
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 10px;
+    background-color: #a22e3d;
+    color: #efefef;
+
+}
+.b01:hover, .b02:hover{
+    width: 252px;
+    height: 37px;
+    background-color: #e24055;
+    color: #ffffff;
+
+}
+.fade{
+    width: 750px;
+    height: 300px;
+    background-color: #fefefe;
+    font-family: "American Typewriter";
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
 }

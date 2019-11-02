@@ -4,7 +4,6 @@ $(function () {
     var id = '';
     click_functions();
 });
-
 function click_functions() {
     $(document).on('click', '.items', function (event) {
         $(".rightpanel").show();
@@ -12,11 +11,15 @@ function click_functions() {
         $(this).addClass('items_clicked');
         print(id);
         sub_total();
+        tax();
+        grandtotal();
     });
     $(document).on('click', '.btnremove', function (event) {
         var id = $(this).data('id');
         removeTableItem(id);
         sub_total();
+        tax();
+        grandtotal();
         return false;
     });
     $(document).on('click', '.shopping_btns', function (event) {
@@ -44,6 +47,8 @@ function click_functions() {
         $(".price"+id).text(totalprice);
         $(this).siblings('span').text(total);
         sub_total();
+        tax();
+        grandtotal();
     });
     $(document).on('click', '#btnstartover', function (event) {
         total = 0;
@@ -53,8 +58,20 @@ function click_functions() {
             $("#displaytable").find("tr").not("tr:first-child").remove();
             $(".items").removeClass("items_clicked");
             sub_total();
+            tax();
+            $(".items, .shopping_totals").removeClass("items_clicked");
+            sub_total();
+            tax();
+            grandtotal();
+            return false;
         }
     });
+    $(document).on('click', '.btncheckout', function (event) {
+        $("#fade").modal({
+            fadeDuration: 100
+        });
+
+    })
 }
 function print(id) {
     var tr_exists = $("#displaytable tr");
@@ -87,7 +104,14 @@ function removeTableItem(id) {
     $("#item" + id).removeClass("items_clicked");
 }
 function tax() {
-
+    var totaltax = 0;
+    $(".myitems").each(function (index, value) {
+        var id = $(this).data('id');
+        var price = $(".price" +id).text();
+        totaltax = eval(totaltax+"+"+price * (0.0875));
+        totaltax = totaltax.toFixed(2);
+        $("#checkout_tax").text(totaltax);
+  })
 }
 function sub_total() {
 //$("#checkout_total").text('working');
@@ -102,9 +126,41 @@ function sub_total() {
     });
 
 }
-function grandtotal() {
+function grandtotal(){
+   }
+function startover() {
+    var mytax = 0;
+    $(".myitems").each(function (index, value) {
+        var id = $(this).data('id');
+        var price = $(".price" +id).text();
+        mytax = eval(mytax+"+"+price * (0.0875));
+        mytax = mytax.toFixed(2);
+        $("#checkout_tax").text(mytax);
+    })
+}
+function sub_total() {
+//$("#checkout_total").text('working');
+    //var id = $(this).data('id');
+    var total = 0;
+    $(".myitems").each(function(index, value){
+        var id = $(this).data('id');
+        var price = $(".price"+id).text();
+        total = eval(total+"+"+price);
+        total = total.toFixed(2);
+        $("#checkout_total").text(total);
+    });
+
+}
+function grandtotal(){
+    var gtotal = 0;
+    $(".myitems").each(function(index, value){
+        var id = $(this).data('id');
+        var price = $(".price"+id).text();
+        gtotal = eval(gtotal+"+"+price * (0.0875) + (total+"+"+price));
+        gtotal = gtotal.toFixed(2);
+        $("#checkout_grand_total").text(gtotal);
+    });
 
 }
 function startover() {
-
 }
