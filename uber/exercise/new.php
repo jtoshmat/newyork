@@ -9,8 +9,26 @@
            echo "</ul>";}
 */
 ?>
-<script src=script.js></script>
-<p id="demo" >Hello World</p>
-<button type="button" onclick='my()'>Click Me</button>
-<button type="button" onclick='document.getElementById("img").style.display="block"'>USA</button>
-<img id=img style="display:none" src="/uber/countries/img/flag.png" width="50%">
+<input id="age" value="18">
+<input id="dem" type="text" name='textview'>
+<p id="demo"></p>
+<button type="button" onclick="demo()">Show</button>
+<button type="button" onclick='document.getElementById("demo").innerHTML=""'>Hide</button>
+<script>
+    function myFunction() {
+
+
+var age,variable;
+    age = Number(document.getElementById("age").value);
+if(isNaN(age)){ variable = "Input is not a number";
+    document.getElementById("dem").value=variable;}
+else{ variable = (age<18) ? "to yong": "old enough";
+    document.getElementById("dem").value=variable;}
+ }
+    car="Hello"
+
+
+
+function demo(){document.getElementById("demo").innerHTML=car;}
+
+</script>
