@@ -46,7 +46,7 @@ class Dashboard
     }
 
     public function displayBanks(){
-        $bank_ids = implode(',', $this->bank_ids);
+        $bank_ids = implode('', $this->bank_ids);
         $banks = $this->db->sql("SELECT * FROM banks WHERE id IN ($bank_ids) ");
         return $banks;
     }
@@ -64,7 +64,7 @@ $banks = $obj->displayBanks();
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Members Dashboard</title>
-    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
 </head>
 <body>
 <div class="container-fluid">
@@ -179,6 +179,7 @@ $banks = $obj->displayBanks();
     .container-fluid {
         padding-right: 0px;
         padding-left: 0px;
+
     }
     .blankdiv{
         height:38px;
