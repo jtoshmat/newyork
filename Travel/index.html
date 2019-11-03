@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link href="angular-datepicker.css" rel="stylesheet" type="text/css" />
+        <link href="flight.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
+    </head>
+
+    <body ng-app="FlightApp" ng-controller="flightController" ng-cloak>
+        <div class="header-main">
+            <h1>Flight Search Engine</h1>
+        </div>
+
+        <div ng-cloak class="main-content" >
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <a class="tab" ng-class='{active : oneway }' ng-click="journeytype(0)">One way</a>
+                    <a  class="tab" ng-class='{active : !oneway }' ng-click="journeytype(1)">Return</a>
+                </div>
+
+                <form name="form" class="flightdetails">
+                    <input type="text" name="src" ng-model="src" placeholder="Enter origin city" required />
+                    <input type="text" name="dest" ng-model="dest" placeholder="Enter Destination city" required />
+                    <div >
+                        <datepicker date-format="EEEE, MMMM d, y">
+                            <input readonly ng-model="departDate" name="departDate" type="text" placeholder="Departure Date" required />
+                        </datepicker>
+                        <div ng-show="!oneway">
+                            <datepicker date-format="EEEE, MMMM d, y">
+                                <input readonly ng-model="returnDate" name="returnDate" type="text" placeholder="Return Date"  />
+                            </datepicker>
+                        </div>
+                    </div>
+                    <div class="select-div">
+                        <select  class="select-button" name="passengers" id="singleSelect" ng-model="passengers"  required/>
+                        <option value="">Passengers</option>  
+                        <option ng-repeat="count in passengerCount" value="{{count}}">{{count}}</option>
+                        </select>
+                    </div>
+                    <button ng-disabled="!form.$valid" type="submit" ng-click="search()">Search</button>
+                    <div class="error">{{error}}</div>
+                </form>
+                <div class="pricerange" >
+                    <p>
+                        <label for="price">Price range:</label>
+                        Rs. {{priceRange[0]}} - {{priceRange[1]}}
+                    </p>
+                </div>
+                <div id="slider" ></div>
+            </div>
+            <div ng-cloak class="flight-container">
+                <div class="flight-header">
+                    <div ng-if="!notYetSearched">
+                        <div class="flight-summary-left" ><h2>{{srcDest}} - {{flightCount}} flights found.</h2></div>
+                        <div class="flight-summary-right">
+                            <p >Depart: {{departDateStr}}</p>
+                            <p ng-if="!oneway" >Return: {{returnDateStr}}</p>
+                        </div>
+                    </div>
+                    <div ng-cloak class="default-msg" ng-if="notYetSearched">
+                        <h2>Book Your tickets instantly...</h2>
+                    </div>
+                </div>
+
+
+                <div class="flight-main" ng-repeat="flights in toFroFlights| byPrice:priceRange[0]:priceRange[1]| orderBy:'price' " >
+                    <div class="flight-content">
+                        <h2>Price: Rs. {{flights.price}}</h2>
+                            <div class="flight-box" >
+                                <div  class="flight-detail-to" >
+                                    <p ng-if="flights.to !== '-'">{{flights.to.src}} > {{flights.to.dest}}</p>
+                                    <p ng-if="flights.to === '-'">{{flights.fro.dest}} > {{flights.fro.src}}</p>
+                                    <div class="left"  ng-if="flights.to === '-'"><p>No Flights available</p></div>
+                                    <div ng-if="flights.to !== '-'">
+                                        <p>{{flights.to.name}}</p>
+                                        <p>Departure Time: {{flights.to.depTime}}</p>
+                                        <p>Arrival Time: {{flights.to.arrTime}}</p>
+                                    </div>
+
+                                </div>
+                                <div  ng-if="!oneway" class="flight-detail-fro" >
+                                    <p ng-if="flights.fro !== '-'">{{flights.fro.src}} > {{flights.fro.dest}}</p>
+                                    <p ng-if="flights.fro === '-'">{{flights.to.dest}} > {{flights.to.src}}</p>
+                                    <div class="right" ng-if="flights.fro === '-'"><p>No Flights available</p></div>
+                                    <div ng-if="flights.fro !== '-'">
+                                        <p>{{flights.fro.name}}</p>
+                                        <p>Departure Time: {{flights.fro.depTime}}</p>
+                                        <p>Arrival Time: {{flights.fro.arrTime}}</p>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                    </div>
+                    <div class="flight-book">
+                        <div class="flight-img" ><img  src="airplane.png"></div>
+                        <div class="book-btn">
+                            <button >Book Flight</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-touch.min.js"></script>
+        <script src="https://code.angularjs.org/1.4.8/angular-route.min.js"></script>
+        <script src="angular-datepicker.js"></script>
+        <script src="app.js"></script>
+        <script src="flight.controller.js"></script>
+    </body>
+</html>

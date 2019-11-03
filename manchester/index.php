@@ -5,120 +5,58 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to Manchester</title>
+    <meta name="author" content="Jon Toshmatov">
+    <title>Document</title>
+    <meta name="description" content="Sukhrob is an experienced web developer">
+    <meta name="keywords" content="php developer, uzbek developer, zend certified enginner">
+    <meta name="author" content="Sukhrob Shadiyarov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
 </head>
 <body>
-<div>
+<div class="container-fluid mycontainer">
+
+    <?php
+        $error = false;
+        $parms = $_GET;
+        $phone = null;
+        if (isset($parms['phone'])){
+            $phone = $parms['phone'];
+        }
+
+        //(347)-576-4951
+        $jon = preg_match("#\([0-9]{3}\)-[0-9]{3}-[0-9]{4}$#", $phone, $match);
+
+        if (!$jon){
+            $error = "Your phone format is invalid";
+        }
+
+    ?>
+
+<h3>Phone Number Submission Form</h3>
+
+    <?php
+    if ($error) {
+        ?>
+        <div class="alert alert-danger">
+            <?=$error?>
+        </div>
+        <?php
+    }
+    ?>
+
+
+    <form method="get">
+        <p>Phone:<input value="<?=$phone?>" name="phone" placeholder="(347)-576-4951" type="text"></p>
+        <p><button>Submit</button></p>
+    </form>
+
+    <div>
+        <?=$phone?>
+    </div>
 
 </div>
-<div id="container">
-    <div id="header">
-
-        <div id="header2">
-            <img id="mylogo" src="images/MYULOGO.jpg">
-        </div>
-
-    </div>
-    <div id="nav">
-
-        <div id="nav2">
-            <ul>
-                <li><a href="http://www.apple.com">Biznesni boshlash</a></li>
-                <li><a href="#">Biznesni boshqarish</a></li>
-                <li><a href="#">Learner Center</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Our Guarantee</a></li>
-            </ul>
-        </div>
-        <div class="clearfix"></div>
-
-    </div>
-    <div id="slideshow">
-        <br>
-        </div>
-    <div>content</div>
-</div>
-
-
-<style>
-
-    html, body{
-        width: 100%;
-        height: 100%;
-        margin: auto;
-    }
-
-    #container{
-        width: 100%;
-        height: 100%;
-        margin: auto;
-    }
-
-    #header{
-        width:100%;
-        height:93px;
-        background-color: #fff;
-    }
-
-    #header2{
-        margin: auto;
-        width: 76%;
-        height: 100px;
-
-    }
-
-    #mylogo{
-        width: 148px;
-        margin-top: 22px;
-    }
-
-    #nav{
-        width:100%;
-        background-color: #3a90ea;
-        border-top: 1px solid #005cbf;
-        border-bottom: 1px solid #005cbf;
-    }
-
-    #nav2{
-        margin: auto;
-        width: 76%;
-        height: 29px;
-
-    }
-
-    #nav2 ul li{
-        float: left;
-        margin:5px;
-        padding:5px;
-        color:#fff;
-        list-style: none;
-    }
-    #nav2 ul li a{
-        text-decoration: none;
-        color: #fff;
-    }
-
-    #slideshow{
-        width:100%;
-        height:428px;
-        background-color: #797979;
-        background-image: url('images/manphoto.jpg');
-        background-repeat: no-repeat;
-        background-size: 115% 100%;
-    }
-
-    .clearfix {
-        overflow: auto;
-    }
-
-    .clearfix::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-
-</style>
-
 
 </body>
 </html>
