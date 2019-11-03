@@ -1,7 +1,7 @@
 <?php
 
 
-namespace family;
+namespace family2;
 use usa\usa;
 
 abstract class father implements usa

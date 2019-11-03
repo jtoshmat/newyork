@@ -1,0 +1,126 @@
+@import "iphone.css";
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/*
+######################################################################################################
+ */
+#header{
+    height:15%;
+    z-index: 1000;
+    position: relative;
+}
+
+#leftcol{
+    float: left;
+    width: 20%;
+
+}
+
+#leftcol img{
+    width: 50px;
+    z-index: 10;
+    position: relative;
+}
+
+#middlecol{
+    background-color: #f9ffe5;
+    float: left;
+    width: 40%;
+}
+#rightcol{
+    float: right;
+    width: 40%;
+    text-align: right;
+}
+#rightcol img{
+    width:44px;
+    height:36px;
+}
+
+#bottomcol{
+    bottom: 10px;
+    position: absolute;
+    height: 10px;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+}
+
+.mynav{
+    float: left;
+}
+.mynav2{
+   float: left;
+    z-index: 100;
+}
+
+/*
+######################################################################################################
+ */
+#leftpart{
+    background-color: #74caff;
+    width: 20%;
+    height: auto;
+    float: left;
+    z-index: 999;
+    position: relative;
+    height: 100%;
+}
+
+.quickfind input{
+    border-radius: 20px;
+}
+
+.child{
+    display: none;
+}
+
+.father li{
+    background-color: #f00;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    list-style: none;
+    cursor: pointer;
+}
+.father li{
+    background-color: #721c24;
+    color:#fff;
+}
+
+.father li:hover{
+    background-color: #ff66f2;
+    color: #74caff;
+}
+
+.hidechild{
+    display: none;
+}
+
+/*
+######################################################################################################
+ */
+#rightpart{
+    background-color: red;
+    width: 80%;
+    height: auto;
+    float: left;
+}
+/*
+######################################################################################################
+ */
+#footer{
+    background-color: #46ddff;
+    width: 100%;
+    height: 10%;
+    bottom: 0;
+    position: fixed;
+
+}
+/*
+######################################################################################################
+ */

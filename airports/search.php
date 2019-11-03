@@ -1,25 +1,27 @@
-<!doctype html>
-<html>
-<head>
-    <title>AIRPORT SEARCH PAGE</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <div>
-        <h1>
-            SEARCH AIRPORTS AROUND THE GLOBE
-        </h1>
-    </div>
-</head>
-<body>
-<div id="frm">
-    <form action="result.php" method="POST">
-        <p>
-            <label> ENTER COUNTRY NAME </label>
-            <input type="text" id="country" name="country" />
-        </p>
-        <p>
-            <input type="submit" id="btn" value="SEARCH" />
-        </p>
-    </form>
-</div>
-</body>
-</html>
+<?php
+namespace Flights;
+
+class Reservation{
+
+
+
+
+
+    public function search(){
+        return "This is a search method";
+    }
+    public function book(){
+        return "This is a book method";
+    }
+    protected function cancel(){
+        return "This is a cancel method";
+    }
+
+
+
+}
+
+
+$jon = new Reservation();
+
+echo $jon->search();
