@@ -21,10 +21,11 @@
 
 .mydiv{
     margin: 10%;
-    border: 1px solid #1b1e21;
-    width: 40%;
+    border: 3px solid #1b1e21;
+    width: 80%;
     padding: 7%;
     background-color: #4CAF50;
+    margin-right: 40px;
 }
 
 .myimg{
