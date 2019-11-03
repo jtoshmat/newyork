@@ -178,7 +178,7 @@
         padding:5px;
     }
     .areabox input{
-        border:0px;
+        border:0;
         padding:5px;
         font-size:12px;
     }
