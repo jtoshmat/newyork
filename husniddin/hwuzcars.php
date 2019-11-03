@@ -210,6 +210,8 @@ $img = $cars[$selected]['img'];
 
     .mleftdiv img {
         width: 90%;
+        position: relative;
+        top:40px;
     }
 
     .mrighttdiv label {
