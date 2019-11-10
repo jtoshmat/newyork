@@ -19,10 +19,27 @@ class Checkout
         return $this->db->sql("SELECT * FROM groceries where quantity >= 1");
     }
 
+    public function downloadImages(){
+        $items = $this->db->sql("SELECT id, image  FROM groceries;");
+
+        foreach ($items as $item){
+            echo $item['image'] . "<hr>";
+            $url = $item['image'];
+            system("cd img; wget $url");
+        }
+
+    }
+
 }
 
 $obj = new Checkout();
 $items = $obj->getItems();
+
+
+$obj->downloadImages();
+
+exit;
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -53,6 +70,7 @@ $items = $obj->getItems();
                 <input type="hidden" id="product_name<?= $id ?>" value="<?= $item['product_name'] ?>">
                 <input type="hidden" id="price<?= $id ?>" value="<?= $item['price'] ?>">
                 <input type="hidden" id="quantity<?= $id ?>" value="<?= $item['quantity'] ?>">
+                <input type="hidden" id="id<?= $id ?>" value="<?= $item['id'] ?>">
             </div>
             <?php
         }
@@ -79,9 +97,10 @@ $items = $obj->getItems();
             <p>Grand Total: $<span id="checkout_grand_total">0</span></p>
         </div>
         <div class="shopping_checkout">
-            <input id="api_total" value="111">
-            <input id="api_tax" value="222">
-            <input id="api_grandtotal" value="333">
+            <input name="realids" id="api_realids" value="1111">
+            <input name="total" id="api_total" value="111">
+            <input name="tax" id="api_tax" value="222">
+            <input name="grandtotal" id="api_grandtotal" value="333">
             <button id="mycheckout_button" class="btn btn-light">CHECKOUT</button>
         </div>
     </div>

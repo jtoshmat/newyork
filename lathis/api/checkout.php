@@ -1,4 +1,3 @@
 <?php
 $parms = $_REQUEST;
-
-echo "Tax: ". $parms['tax']."| Total: ".$parms['total']."| GrandTotal: ".$parms['grandtotal'];
+var_dump($parms);

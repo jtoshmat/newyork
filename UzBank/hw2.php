@@ -20,6 +20,11 @@
         <p>Phone: <input class="myinput" required="required" type="tel" name="phone" value="" placeholder="Your Phone Number"></p>
         <p><button>Sign Up</button></p>
     </form>
+
+
+    <p>
+        <button data-id="3232323" class="jonclass" id="dubuque">Dubuque - USA</button>
+    </p>
 </div>
     <style>
 
@@ -43,7 +48,20 @@
         }
     </style>
     <script>
+
+
+        //document.getElementById("dubuque").innerHTML = "<img src='img/boa_icon.png'>";
+        var myclass = document.getElementById("dubuque").getAttribute('class');
+
+        document.write(myclass);
+
+
+
         $(function () {
+
+            var jon = $("#dubuque").text();
+            document.write(jon);
+
            $(".myinput").change(function () {
                var email = $(this).val();
                if (email.length>5) {
