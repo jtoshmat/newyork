@@ -3,6 +3,7 @@ var itemcount = 0;
 var grandtax = '';
 var sum = '';
 $(function () {
+
     var id = '';
     click_functions();
 });
@@ -21,7 +22,10 @@ function click_functions() {
         tax();
         return false;
     });
+
+    var uzbekistan = [];
     $(document).on('click', '.shopping_btns', function (event) {
+        var realid = $(this).data('realid');
         var id = $(this).data('id');
         var sign = $(this).text();
         var total = $(this).siblings('span').text();
@@ -46,7 +50,8 @@ function click_functions() {
         $(".price"+id).text(totalprice);
         $(this).siblings('span').text(total);
         sub_total();
-        tax();
+        uzbekistan[realid]={realid:quantity2};
+        $("#api_realids").val(uzbekistan);
     });
     $(document).on('click', '#btnstartover', function (event) {
         total = 0;
@@ -78,11 +83,12 @@ function print(id) {
 }
 function print_table(id, total) {
     var price = $("#price"+id).val();
+    var realid = $("#id"+id).val();
     var quantity = $("#quantity"+id).val();
     var product_name = $("#product_name" + id).val();
     var tr = "          <tr data-id='"+id+"' class='myitems mytr" + id + "'>\n" +
         "                    <td>" + product_name + "</td>\n" +
-        "                    <td><a data-id='"+id+"' class='shopping_btns'>-</a><span class='shopping_total'>1</span><a data-id='"+id+"' class='shopping_btns'>+</a></td>\n" +
+        "                    <td><a data-realid='"+realid+"' data-id='"+id+"' class='shopping_btns'>-</a><span class='shopping_total'>1</span><a data-realid='"+realid+"' data-id='"+id+"' class='shopping_btns'>+</a></td>\n" +
         "                    <td class='price"+id+"'>"+price+"</td>\n" +
         "                    <td><button class='btnremove' data-id='" + id + "'><span class='fa fa-trash'></span></button></td>\n" +
         "                </tr>";
@@ -130,8 +136,9 @@ function callHttp(url, mydata, method='get') {
       var tax = $("#api_tax").val();
       var total = $("#api_total").val();
       var grandtotal = $("#api_grandtotal").val();
+      var realids = $("#api_realids").val();
 
-    var jqxhr = $.post( url, { tax: tax, total: total, grandtotal:grandtotal}, function(data) {
+    var jqxhr = $.post( url, { tax: tax, total: total, grandtotal:grandtotal, realids:realids}, function(data) {
         alert( "success:"+data );
     }).fail(function() {
             alert( "error" );
