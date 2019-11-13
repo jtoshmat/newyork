@@ -21,11 +21,12 @@ include_once 'postdistance.php';
         <div class="form">
             <h3 style="text-align: center">Basic Distance Calculator</h3>
             <form method="post">
-                <p>Conver <input required="required" type="number" name="number" value="<?=$parms['number']??null?>">
-                To Mile:  <input type="radio" name="option" value="1">
-                    &nbsp
-                To Km:  <input checked="checked" type="radio" name="option" value="2">
-                    &nbsp
+                <p>Convert <input required="required" type="number" name="number" value="<?=$parms['number']??null?>">
+                    <select name="option">
+                        <option disabled selected value="select"> select measurement</option>
+                        <option value="1">Kilometer</option>
+                        <option value="2">Mile</option>
+                    </select>
                     <button>Convert</button>
                 </p>
 

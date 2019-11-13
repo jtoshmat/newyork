@@ -1,8 +1,6 @@
 <?php
-interface Officerules{
+interface officerules{
     public function comeOnTime();
-    public function washYourHands();
+    public function washYourHand();
     public function checkYourEmail();
-    public function prepareForXmas();
 }
-

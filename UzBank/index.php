@@ -1,7 +1,7 @@
 <<<<<<< HEAD
 =======
 <?php
-session_start(['cookie_lifetime' => 60]);
+session_start(['cookie_lifetime' => 3600]);
 ?>
 >>>>>>> 43d504fb141c9bb0874367dd0c89d5d89793aa0e
 <!doctype html>

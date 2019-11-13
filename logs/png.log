@@ -1,0 +1,511 @@
+Array
+(
+    [png] => Array
+        (
+            [0] => 192.168.1.6 - - [27/Sep/2019:10:16:32 -0400] "GET /dashboard/images/bitnami-xampp.png HTTP/1.1" 200 22133
+
+            [1] => 192.168.1.6 - - [27/Sep/2019:10:16:32 -0400] "GET /dashboard/images/social-icons@2x.png HTTP/1.1" 200 5360
+
+            [2] => 192.168.1.6 - - [27/Sep/2019:10:16:33 -0400] "GET /dashboard/images/fastly-logo.png HTTP/1.1" 200 1770
+
+            [3] => 192.168.1.6 - - [27/Sep/2019:10:16:34 -0400] "GET /dashboard/images/favicon.png HTTP/1.1" 200 2508
+::1 - - [27/Sep/2019:10:16:38 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [27/Sep/2019:10:16:39 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [4] => 127.0.0.1 - - [27/Sep/2019:10:30:50 -0400] "GET /dashboard/images/bitnami-xampp.png HTTP/1.1" 200 22133
+
+            [5] => 127.0.0.1 - - [27/Sep/2019:10:30:50 -0400] "GET /dashboard/images/fastly-logo.png HTTP/1.1" 200 1770
+
+            [6] => 127.0.0.1 - - [27/Sep/2019:10:30:50 -0400] "GET /dashboard/images/social-icons@2x.png HTTP/1.1" 200 5360
+
+            [7] => 127.0.0.1 - - [27/Sep/2019:10:30:51 -0400] "GET /dashboard/images/favicon.png HTTP/1.1" 200 2508
+::1 - - [27/Sep/2019:10:30:58 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [8] => 127.0.0.1 - - [27/Sep/2019:10:36:01 -0400] "GET /img/logo.png HTTP/1.1" 200 3764
+
+            [9] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /images/icon-envelope.png HTTP/1.1" 200 1732
+
+            [10] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /images/fan.png HTTP/1.1" 200 9399
+
+            [11] => 127.0.0.1 - - [27/Sep/2019:17:45:41 -0400] "GET /images/favicon.png HTTP/1.1" 200 1676
+::1 - - [27/Sep/2019:17:45:48 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [12] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/images/superuser.png HTTP/1.1" 200 3019
+
+            [13] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/images/is-user.png HTTP/1.1" 200 3831
+
+            [14] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/images/is-document.png HTTP/1.1" 200 3240
+
+            [15] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/images/is-tickets.png HTTP/1.1" 200 1856
+
+            [16] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/images/is-comments.png HTTP/1.1" 200 2083
+
+            [17] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/images/icon-search.png HTTP/1.1" 200 1239
+
+            [18] => 127.0.0.1 - - [27/Sep/2019:17:45:55 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [19] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/images/sort_both.png HTTP/1.1" 200 1040
+
+            [20] => 127.0.0.1 - - [27/Sep/2019:17:47:03 -0400] "GET /admin/images/subscribe.png HTTP/1.1" 200 139354
+
+            [21] => 127.0.0.1 - - [27/Sep/2019:18:03:01 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [22] => 127.0.0.1 - - [27/Sep/2019:18:03:41 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [23] => 127.0.0.1 - - [27/Sep/2019:18:04:09 -0400] "GET /admin/images/sort_desc.png HTTP/1.1" 200 1017
+
+            [24] => 127.0.0.1 - - [27/Sep/2019:18:07:10 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [25] => 127.0.0.1 - - [27/Sep/2019:18:09:36 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [26] => 127.0.0.1 - - [27/Sep/2019:18:10:06 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [27] => 127.0.0.1 - - [27/Sep/2019:18:10:57 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [28] => 127.0.0.1 - - [27/Sep/2019:18:11:32 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [29] => 127.0.0.1 - - [27/Sep/2019:18:14:26 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [30] => 127.0.0.1 - - [02/Oct/2019:18:28:40 -0400] "GET /img/logo.png HTTP/1.1" 200 3764
+
+            [31] => 127.0.0.1 - - [04/Oct/2019:15:55:19 -0400] "GET /img/plane-512.png HTTP/1.1" 200 41173
+
+            [32] => 127.0.0.1 - - [04/Oct/2019:15:55:56 -0400] "GET /img/plane-512.png HTTP/1.1" 304 -
+
+            [33] => 127.0.0.1 - - [04/Oct/2019:15:59:55 -0400] "GET /img/plane-512.png HTTP/1.1" 304 -
+
+            [34] => 127.0.0.1 - - [04/Oct/2019:17:25:48 -0400] "GET /img/plane-512.png HTTP/1.1" 304 -
+
+            [35] => 127.0.0.1 - - [04/Oct/2019:18:04:52 -0400] "GET /img/plane-512.png HTTP/1.1" 304 -
+
+            [36] => 127.0.0.1 - - [08/Oct/2019:10:39:05 -0400] "GET /images/favicon.png HTTP/1.1" 200 1676
+::1 - - [08/Oct/2019:10:39:12 -0400] "OPTIONS * HTTP/1.0" 200 -
+::1 - - [08/Oct/2019:10:39:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [37] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /images/icon-envelope.png HTTP/1.1" 200 1732
+
+            [38] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /images/fan.png HTTP/1.1" 200 9399
+
+            [39] => 127.0.0.1 - - [08/Oct/2019:10:40:59 -0400] "GET /images/favicon.png HTTP/1.1" 200 1676
+
+            [40] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/images/superuser.png HTTP/1.1" 200 3019
+
+            [41] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/images/is-user.png HTTP/1.1" 200 3831
+
+            [42] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/images/is-document.png HTTP/1.1" 200 3240
+
+            [43] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/images/is-tickets.png HTTP/1.1" 200 1856
+
+            [44] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/images/is-comments.png HTTP/1.1" 200 2083
+
+            [45] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/images/icon-search.png HTTP/1.1" 200 1239
+
+            [46] => 127.0.0.1 - - [08/Oct/2019:10:41:23 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+::1 - - [08/Oct/2019:10:41:30 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [47] => 127.0.0.1 - - [08/Oct/2019:10:42:28 -0400] "GET /admin/images/phpkb-login-logo.png HTTP/1.1" 200 8826
+
+            [48] => 127.0.0.1 - - [08/Oct/2019:10:42:28 -0400] "GET /admin/images/user.png HTTP/1.1" 200 1106
+
+            [49] => 127.0.0.1 - - [08/Oct/2019:10:42:28 -0400] "GET /admin/images/locked.png HTTP/1.1" 200 1132
+
+            [50] => 127.0.0.1 - - [08/Oct/2019:10:44:44 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [51] => 127.0.0.1 - - [08/Oct/2019:10:46:10 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [52] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/images/user.png HTTP/1.1" 200 1106
+
+            [53] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/images/locked.png HTTP/1.1" 200 1132
+
+            [54] => 127.0.0.1 - - [08/Oct/2019:10:48:18 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+::1 - - [08/Oct/2019:10:48:25 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [55] => 127.0.0.1 - - [08/Oct/2019:10:49:01 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+
+            [56] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/images/user.png HTTP/1.1" 200 1106
+
+            [57] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/images/locked.png HTTP/1.1" 200 1132
+
+            [58] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/images/favicon.png HTTP/1.1" 200 1676
+::1 - - [08/Oct/2019:10:49:13 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [59] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /admin/images/email.png HTTP/1.1" 200 641
+
+            [60] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /admin/images/sort_desc.png HTTP/1.1" 200 1017
+
+            [61] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /admin/images/sort_both.png HTTP/1.1" 200 1040
+
+            [62] => 127.0.0.1 - - [08/Oct/2019:10:52:59 -0400] "GET /images/user.png HTTP/1.1" 200 4222
+
+            [63] => 127.0.0.1 - - [08/Oct/2019:10:53:10 -0400] "GET /images/arrow.png HTTP/1.1" 200 240
+
+            [64] => 127.0.0.1 - - [08/Oct/2019:10:55:12 -0400] "GET /images/tree/folder.png HTTP/1.1" 200 476
+
+            [65] => 127.0.0.1 - - [08/Oct/2019:10:55:12 -0400] "GET /admin/images/sort_asc.png HTTP/1.1" 200 1022
+
+            [66] => 127.0.0.1 - - [08/Oct/2019:10:55:45 -0400] "GET /admin/images/expand.png HTTP/1.1" 200 819
+
+            [67] => 127.0.0.1 - - [08/Oct/2019:10:55:45 -0400] "GET /admin/images/syntaxhl-themes/default-thumbnail.png HTTP/1.1" 200 231
+
+            [68] => 127.0.0.1 - - [08/Oct/2019:10:55:45 -0400] "GET /admin/images/input-unchecked.png HTTP/1.1" 200 154
+
+            [69] => 127.0.0.1 - - [08/Oct/2019:10:55:45 -0400] "GET /admin/images/input-checked.png HTTP/1.1" 200 318
+
+            [70] => 127.0.0.1 - - [08/Oct/2019:10:55:56 -0400] "GET /admin/images/subscribe.png HTTP/1.1" 200 139354
+
+            [71] => 127.0.0.1 - - [10/Oct/2019:12:39:33 -0400] "GET /img/logo.png HTTP/1.1" 200 3764
+
+            [72] => 127.0.0.1 - - [10/Oct/2019:12:48:18 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 200 9047
+
+            [73] => 127.0.0.1 - - [10/Oct/2019:12:48:40 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [74] => 127.0.0.1 - - [10/Oct/2019:12:48:58 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [75] => 127.0.0.1 - - [10/Oct/2019:12:49:18 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [76] => 127.0.0.1 - - [10/Oct/2019:12:49:40 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [77] => 127.0.0.1 - - [10/Oct/2019:12:50:04 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [78] => 127.0.0.1 - - [10/Oct/2019:12:51:35 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [79] => 127.0.0.1 - - [10/Oct/2019:12:52:04 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [80] => 127.0.0.1 - - [10/Oct/2019:12:52:48 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [81] => 127.0.0.1 - - [10/Oct/2019:12:53:38 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [82] => 127.0.0.1 - - [10/Oct/2019:12:57:36 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [83] => 127.0.0.1 - - [10/Oct/2019:12:58:57 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [84] => 127.0.0.1 - - [10/Oct/2019:13:00:14 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [85] => 127.0.0.1 - - [10/Oct/2019:13:01:35 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [86] => 127.0.0.1 - - [10/Oct/2019:13:02:12 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 200 9047
+
+            [87] => 127.0.0.1 - - [10/Oct/2019:13:03:54 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [88] => 127.0.0.1 - - [10/Oct/2019:13:03:57 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 200 9047
+
+            [89] => 127.0.0.1 - - [10/Oct/2019:13:05:40 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [90] => 127.0.0.1 - - [10/Oct/2019:13:07:38 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [91] => 127.0.0.1 - - [10/Oct/2019:13:11:33 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [92] => 127.0.0.1 - - [10/Oct/2019:13:11:36 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 200 9047
+
+            [93] => 127.0.0.1 - - [10/Oct/2019:13:15:38 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [94] => 127.0.0.1 - - [10/Oct/2019:13:18:56 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [95] => 127.0.0.1 - - [10/Oct/2019:13:26:35 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [96] => 127.0.0.1 - - [10/Oct/2019:13:54:17 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [97] => 127.0.0.1 - - [10/Oct/2019:14:01:17 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 200 9047
+
+            [98] => 127.0.0.1 - - [10/Oct/2019:14:01:52 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 200 9047
+
+            [99] => 127.0.0.1 - - [10/Oct/2019:18:00:18 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 304 -
+
+            [100] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/img/logo.png HTTP/1.1" 404 1250
+
+            [101] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/img/logo.png HTTP/1.1" 404 1250
+
+            [102] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/img/logo.png HTTP/1.1" 404 1250
+
+            [103] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/img/logo.png HTTP/1.1" 404 1280
+
+            [104] => 127.0.0.1 - - [11/Oct/2019:20:13:21 -0400] "GET /img/default_photo_cirle_profile.png HTTP/1.1" 200 9047
+
+            [105] => 127.0.0.1 - - [13/Oct/2019:16:46:53 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [106] => 127.0.0.1 - - [13/Oct/2019:16:47:46 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [107] => 127.0.0.1 - - [13/Oct/2019:16:48:27 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [108] => 127.0.0.1 - - [13/Oct/2019:16:49:32 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [109] => 127.0.0.1 - - [13/Oct/2019:16:50:03 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [110] => 127.0.0.1 - - [13/Oct/2019:16:52:41 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [111] => 127.0.0.1 - - [13/Oct/2019:16:52:41 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 200 10364
+
+            [112] => 127.0.0.1 - - [13/Oct/2019:16:52:57 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [113] => 127.0.0.1 - - [13/Oct/2019:16:53:09 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [114] => 127.0.0.1 - - [13/Oct/2019:16:54:02 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [115] => 127.0.0.1 - - [13/Oct/2019:16:54:02 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [116] => 127.0.0.1 - - [13/Oct/2019:16:54:20 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [117] => 127.0.0.1 - - [13/Oct/2019:16:54:54 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [118] => 127.0.0.1 - - [13/Oct/2019:16:54:54 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [119] => 127.0.0.1 - - [13/Oct/2019:16:56:40 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [120] => 127.0.0.1 - - [13/Oct/2019:16:56:40 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [121] => 127.0.0.1 - - [13/Oct/2019:16:57:10 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [122] => 127.0.0.1 - - [13/Oct/2019:16:57:54 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [123] => 127.0.0.1 - - [13/Oct/2019:16:57:54 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [124] => 127.0.0.1 - - [13/Oct/2019:16:59:46 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [125] => 127.0.0.1 - - [13/Oct/2019:16:59:46 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [126] => 127.0.0.1 - - [13/Oct/2019:16:59:46 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 200 14991
+
+            [127] => 127.0.0.1 - - [13/Oct/2019:17:00:29 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [128] => 127.0.0.1 - - [13/Oct/2019:17:00:55 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [129] => 127.0.0.1 - - [13/Oct/2019:17:00:55 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [130] => 127.0.0.1 - - [13/Oct/2019:17:01:41 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [131] => 127.0.0.1 - - [13/Oct/2019:17:01:41 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [132] => 127.0.0.1 - - [13/Oct/2019:17:01:50 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [133] => 127.0.0.1 - - [13/Oct/2019:17:11:02 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [134] => 127.0.0.1 - - [13/Oct/2019:17:11:02 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [135] => 127.0.0.1 - - [13/Oct/2019:17:11:02 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [136] => 127.0.0.1 - - [13/Oct/2019:17:12:20 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [137] => 127.0.0.1 - - [13/Oct/2019:17:13:11 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [138] => 127.0.0.1 - - [13/Oct/2019:17:14:41 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [139] => 127.0.0.1 - - [13/Oct/2019:17:14:41 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [140] => 127.0.0.1 - - [13/Oct/2019:17:15:31 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [141] => 127.0.0.1 - - [13/Oct/2019:17:21:00 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [142] => 127.0.0.1 - - [13/Oct/2019:17:21:00 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [143] => 127.0.0.1 - - [13/Oct/2019:17:21:00 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [144] => 127.0.0.1 - - [13/Oct/2019:17:24:14 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [145] => 127.0.0.1 - - [13/Oct/2019:17:24:14 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [146] => 127.0.0.1 - - [13/Oct/2019:17:24:30 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [147] => 127.0.0.1 - - [13/Oct/2019:17:30:16 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [148] => 127.0.0.1 - - [13/Oct/2019:17:30:16 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [149] => 127.0.0.1 - - [13/Oct/2019:17:30:17 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [150] => 127.0.0.1 - - [13/Oct/2019:17:34:02 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [151] => 127.0.0.1 - - [13/Oct/2019:17:34:05 -0400] "GET /uzbank/img/amex_icon.png HTTP/1.1" 404 1190
+
+            [152] => 127.0.0.1 - - [13/Oct/2019:17:34:07 -0400] "GET /uzbank/img/visa_icon.png HTTP/1.1" 200 37462
+
+            [153] => 127.0.0.1 - - [13/Oct/2019:17:34:09 -0400] "GET /uzbank/img/master_icon.png HTTP/1.1" 200 65377
+
+            [154] => 127.0.0.1 - - [13/Oct/2019:17:34:12 -0400] "GET /uzbank/img/amex_icon.png HTTP/1.1" 404 1190
+
+            [155] => 127.0.0.1 - - [13/Oct/2019:17:34:21 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [156] => 127.0.0.1 - - [13/Oct/2019:17:35:24 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [157] => 127.0.0.1 - - [13/Oct/2019:18:01:01 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [158] => 127.0.0.1 - - [13/Oct/2019:18:01:01 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [159] => 127.0.0.1 - - [13/Oct/2019:18:01:01 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [160] => 127.0.0.1 - - [13/Oct/2019:18:01:06 -0400] "GET /uzbank/img/othercard_icon.png HTTP/1.1" 200 131203
+
+            [161] => 127.0.0.1 - - [13/Oct/2019:19:20:27 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [162] => 127.0.0.1 - - [13/Oct/2019:19:20:27 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [163] => 127.0.0.1 - - [13/Oct/2019:19:20:27 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [164] => 127.0.0.1 - - [13/Oct/2019:19:20:35 -0400] "GET /uzbank/img/visa_icon.png HTTP/1.1" 304 -
+
+            [165] => 127.0.0.1 - - [13/Oct/2019:19:20:38 -0400] "GET /uzbank/img/master_icon.png HTTP/1.1" 304 -
+
+            [166] => 127.0.0.1 - - [13/Oct/2019:19:20:40 -0400] "GET /uzbank/img/othercard_icon.png HTTP/1.1" 304 -
+
+            [167] => 127.0.0.1 - - [13/Oct/2019:22:54:46 -0400] "GET /uzbank/img/visa_icon.png HTTP/1.1" 304 -
+
+            [168] => 127.0.0.1 - - [13/Oct/2019:22:54:52 -0400] "GET /uzbank/img/othercard_icon.png HTTP/1.1" 304 -
+
+            [169] => 127.0.0.1 - - [13/Oct/2019:22:54:54 -0400] "GET /uzbank/img/master_icon.png HTTP/1.1" 304 -
+
+            [170] => 127.0.0.1 - - [13/Oct/2019:22:55:08 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 304 -
+
+            [171] => 127.0.0.1 - - [13/Oct/2019:22:55:08 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [172] => 127.0.0.1 - - [13/Oct/2019:22:55:08 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [173] => 127.0.0.1 - - [13/Oct/2019:23:03:30 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [174] => 127.0.0.1 - - [13/Oct/2019:23:03:30 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 200 10364
+
+            [175] => 127.0.0.1 - - [13/Oct/2019:23:03:30 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 200 14991
+
+            [176] => 127.0.0.1 - - [13/Oct/2019:23:04:15 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 200 10364
+
+            [177] => 127.0.0.1 - - [13/Oct/2019:23:04:15 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [178] => 127.0.0.1 - - [13/Oct/2019:23:04:15 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 200 14991
+
+            [179] => 127.0.0.1 - - [14/Oct/2019:08:49:37 -0400] "GET /uzbank/img/visa_icon.png HTTP/1.1" 304 -
+
+            [180] => 127.0.0.1 - - [14/Oct/2019:08:49:38 -0400] "GET /uzbank/img/master_icon.png HTTP/1.1" 304 -
+
+            [181] => 127.0.0.1 - - [14/Oct/2019:12:01:32 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 200 10364
+
+            [182] => 127.0.0.1 - - [14/Oct/2019:12:01:32 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [183] => 127.0.0.1 - - [14/Oct/2019:12:01:32 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 200 14991
+
+            [184] => 127.0.0.1 - - [14/Oct/2019:12:48:16 -0400] "GET /uzbank/img/master_icon.png HTTP/1.1" 200 65377
+
+            [185] => 127.0.0.1 - - [14/Oct/2019:12:48:24 -0400] "GET /uzbank/img/visa_icon.png HTTP/1.1" 200 37462
+
+            [186] => 127.0.0.1 - - [14/Oct/2019:18:14:15 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [187] => 127.0.0.1 - - [14/Oct/2019:18:14:15 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 304 -
+
+            [188] => 127.0.0.1 - - [14/Oct/2019:18:14:16 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 304 -
+
+            [189] => 127.0.0.1 - - [14/Oct/2019:18:17:06 -0400] "GET /uzbank/img/visa_icon.png HTTP/1.1" 304 -
+
+            [190] => 127.0.0.1 - - [14/Oct/2019:18:17:08 -0400] "GET /uzbank/img/master_icon.png HTTP/1.1" 200 65377
+
+            [191] => 127.0.0.1 - - [14/Oct/2019:18:18:05 -0400] "GET /uzbank/img/othercard_icon.png HTTP/1.1" 200 131203
+
+            [192] => 127.0.0.1 - - [16/Oct/2019:12:25:37 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [193] => 127.0.0.1 - - [16/Oct/2019:12:25:37 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 200 10364
+
+            [194] => 127.0.0.1 - - [16/Oct/2019:12:25:37 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 200 14991
+
+            [195] => 127.0.0.1 - - [16/Oct/2019:12:26:00 -0400] "GET /uzbank/img/visa_icon.png HTTP/1.1" 200 37462
+
+            [196] => 127.0.0.1 - - [16/Oct/2019:12:26:04 -0400] "GET /uzbank/img/master_icon.png HTTP/1.1" 200 65377
+
+            [197] => 127.0.0.1 - - [16/Oct/2019:12:26:12 -0400] "GET /uzbank/img/othercard_icon.png HTTP/1.1" 200 131203
+
+            [198] => 127.0.0.1 - - [17/Oct/2019:12:18:01 -0400] "GET /img/sales/my-it-education-logo.png HTTP/1.1" 200 55232
+
+            [199] => 127.0.0.1 - - [17/Oct/2019:12:18:01 -0400] "GET /img/usa_flag.png HTTP/1.1" 200 5246
+
+            [200] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/russian_flag.png HTTP/1.1" 200 2287
+
+            [201] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/uzbek_flag.png HTTP/1.1" 200 2778
+
+            [202] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/sales/calendar.png HTTP/1.1" 200 897
+
+            [203] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/sales/clock.png HTTP/1.1" 200 1306
+
+            [204] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/sales/notepad.png HTTP/1.1" 200 766
+
+            [205] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/sales/jontoshmatov_small_photo.png HTTP/1.1" 200 
+            [206] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/sales/aws_logo.png HTTP/1.1" 200 54012
+
+            [207] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/sales/wordpress_logo.png HTTP/1.1" 200 24180
+
+            [208] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/sales/laravel_logo.png HTTP/1.1" 200 47735
+
+            [209] => 127.0.0.1 - - [17/Oct/2019:12:18:02 -0400] "GET /img/blue_bg.png HTTP/1.1" 200 321
+::1 - - [17/Oct/2019:12:18:08 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [210] => 127.0.0.1 - - [17/Oct/2019:15:25:48 -0400] "GET /img/usa_flag.png HTTP/1.1" 304 -
+
+            [211] => 127.0.0.1 - - [17/Oct/2019:15:25:48 -0400] "GET /img/logo.png HTTP/1.1" 200 110194
+
+            [212] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/russian_flag.png HTTP/1.1" 304 -
+
+            [213] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/uzbek_flag.png HTTP/1.1" 304 -
+
+            [214] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/sales/calendar.png HTTP/1.1" 304 -
+
+            [215] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/sales/clock.png HTTP/1.1" 304 -
+
+            [216] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/sales/notepad.png HTTP/1.1" 304 -
+
+            [217] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/sales/aws_logo.png HTTP/1.1" 304 -
+
+            [218] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/sales/jontoshmatov_small_photo.png HTTP/1.1" 304 -
+
+            [219] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/sales/wordpress_logo.png HTTP/1.1" 304 -
+
+            [220] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/sales/laravel_logo.png HTTP/1.1" 304 -
+
+            [221] => 127.0.0.1 - - [17/Oct/2019:15:25:49 -0400] "GET /img/blue_bg.png HTTP/1.1" 304 -
+::1 - - [17/Oct/2019:15:25:56 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [222] => 127.0.0.1 - - [17/Oct/2019:15:26:10 -0400] "GET /img/sales/my-it-education-logo.png HTTP/1.1" 304 -
+
+            [223] => 127.0.0.1 - - [17/Oct/2019:15:26:44 -0400] "GET /img/logo_uzbek.png HTTP/1.1" 200 116436
+
+            [224] => 127.0.0.1 - - [17/Oct/2019:15:27:10 -0400] "GET /img/logo_russian.png HTTP/1.1" 200 110330
+
+            [225] => 127.0.0.1 - - [19/Oct/2019:16:29:37 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [226] => 127.0.0.1 - - [19/Oct/2019:16:29:37 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 200 10364
+
+            [227] => 127.0.0.1 - - [19/Oct/2019:16:29:38 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 200 14991
+
+            [228] => 127.0.0.1 - - [19/Oct/2019:16:29:57 -0400] "GET /uzbank/img/othercard_icon.png HTTP/1.1" 200 131203
+
+            [229] => 127.0.0.1 - - [19/Oct/2019:17:35:40 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 200 10364
+
+            [230] => 127.0.0.1 - - [19/Oct/2019:17:35:40 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [231] => 127.0.0.1 - - [19/Oct/2019:17:35:40 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 200 14991
+
+            [232] => 127.0.0.1 - - [19/Oct/2019:18:04:12 -0400] "GET /uzbank/img/master_icon.png HTTP/1.1" 200 65377
+
+            [233] => 127.0.0.1 - - [19/Oct/2019:18:05:43 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 200 10364
+
+            [234] => 127.0.0.1 - - [19/Oct/2019:18:05:43 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [235] => 127.0.0.1 - - [19/Oct/2019:18:05:43 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 200 14991
+
+            [236] => 127.0.0.1 - - [19/Oct/2019:18:05:58 -0400] "GET /uzbank/img/banklogo.png HTTP/1.1" 200 53747
+
+            [237] => 127.0.0.1 - - [19/Oct/2019:18:05:58 -0400] "GET /uzbank/img/discover_icon.png HTTP/1.1" 200 10364
+
+            [238] => 127.0.0.1 - - [19/Oct/2019:18:05:58 -0400] "GET /uzbank/img/lock_icon.png HTTP/1.1" 200 14991
+
+            [239] => 127.0.0.1 - - [19/Oct/2019:18:06:00 -0400] "GET /uzbank/img/master_icon.png HTTP/1.1" 200 65377
+
+            [240] => 127.0.0.1 - - [19/Oct/2019:18:08:16 -0400] "GET /uzbank/img/visa_icon.png HTTP/1.1" 200 37462
+
+            [241] => 127.0.0.1 - - [21/Oct/2019:14:42:02 -0400] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 1049
+
+            [242] => 127.0.0.1 - - [21/Oct/2019:14:42:02 -0400] "GET /apple-touch-icon.png HTTP/1.1" 404 1049
+
+            [243] => 127.0.0.1 - - [21/Oct/2019:14:42:03 -0400] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 1049
+
+            [244] => 127.0.0.1 - - [21/Oct/2019:14:42:03 -0400] "GET /apple-touch-icon.png HTTP/1.1" 404 1049
+
+            [245] => 127.0.0.1 - - [21/Oct/2019:14:42:03 -0400] "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 1049
+
+            [246] => 127.0.0.1 - - [21/Oct/2019:14:42:03 -0400] "GET /apple-touch-icon.png HTTP/1.1" 404 1049
+
+        )
+
+)

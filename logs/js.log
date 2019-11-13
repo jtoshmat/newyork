@@ -1,0 +1,847 @@
+Array
+(
+    [js] => Array
+        (
+            [0] => 192.168.1.6 - - [27/Sep/2019:10:16:32 -0400] "GET /dashboard/javascripts/modernizr.js HTTP/1.1" 200 51365
+
+            [1] => 192.168.1.6 - - [27/Sep/2019:10:16:32 -0400] "GET /dashboard/javascripts/all.js HTTP/1.1" 200 188385
+
+            [2] => 127.0.0.1 - - [27/Sep/2019:10:30:50 -0400] "GET /dashboard/javascripts/modernizr.js HTTP/1.1" 200 51365
+
+            [3] => 127.0.0.1 - - [27/Sep/2019:10:30:50 -0400] "GET /dashboard/javascripts/all.js HTTP/1.1" 200 188385
+
+            [4] => 127.0.0.1 - - [27/Sep/2019:10:36:01 -0400] "GET /js/bootstrap.js HTTP/1.1" 200 131637
+
+            [5] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/libs/nprogress-min.js HTTP/1.1" 200 1690
+
+            [6] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/components/_preloader.js HTTP/1.1" 200 669
+
+            [7] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/libs/jquery-3.2.1.min.js HTTP/1.1" 200 30144
+
+            [8] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/libs/popper.min.js HTTP/1.1" 200 7440
+
+            [9] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/libs/modernizr.min.js HTTP/1.1" 200 5397
+
+            [10] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/libs/bootstrap.min.js HTTP/1.1" 200 13112
+
+            [11] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/libs/lightslider.js HTTP/1.1" 200 7183
+
+            [12] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/components/_lightSlider.js HTTP/1.1" 200 761
+
+            [13] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/responsive.js HTTP/1.1" 200 723
+
+            [14] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/common.js HTTP/1.1" 200 2370
+
+            [15] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/ajax.js HTTP/1.1" 200 2032
+
+            [16] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /js/jquery.livesearch.js HTTP/1.1" 200 1935
+
+            [17] => 127.0.0.1 - - [27/Sep/2019:17:45:49 -0400] "GET /js/countdown.js HTTP/1.1" 200 489
+
+            [18] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 3063
+
+            [19] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/js/modernizr.min.js HTTP/1.1" 200 6133
+
+            [20] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/js/bootstrap.min.js HTTP/1.1" 200 8535
+
+            [21] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/js/toggles.min.js HTTP/1.1" 200 1138
+
+            [22] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/js/common.js HTTP/1.1" 200 5241
+
+            [23] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/js/jquery-1.11.1.min.js HTTP/1.1" 200 33225
+
+            [24] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/js/jquery.cookies.js HTTP/1.1" 200 950
+
+            [25] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/js/jquery.gritter.min.js HTTP/1.1" 200 1756
+
+            [26] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/js/morris.min.js HTTP/1.1" 200 9095
+
+            [27] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/js/custom.js?v1.0.0 HTTP/1.1" 200 3874
+
+            [28] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/js/raphael-2.1.0.min.js HTTP/1.1" 200 3
+            [29] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/dropit.js HTTP/1.1" 200 1001
+
+            [30] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/venobox/venobox.js HTTP/1.1" 200 3837
+
+            [31] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/jquery-ui-1.10.3.min.js HTTP/1.1" 200 60467
+
+            [32] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/select/js/bootstrap-select.js HTTP/1.1" 200 15955
+
+            [33] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /js/bootstrap-editable.min.js HTTP/1.1" 200 19176
+
+            [34] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/manage.js HTTP/1.1" 200 854
+
+            [35] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/jquery.validate.min.js HTTP/1.1" 200 6362
+
+            [36] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/ajax.js?v0.0.1 HTTP/1.1" 200 1027
+
+            [37] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/common.js?v1.0.5 HTTP/1.1" 200 5241
+
+            [38] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/articles.js?v0.0.1 HTTP/1.1" 200 913
+
+            [39] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/bulk-action.js HTTP/1.1" 200 928
+
+            [40] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/clone.js HTTP/1.1" 200 1040
+
+            [41] => 127.0.0.1 - - [27/Sep/2019:17:47:51 -0400] "GET /admin/charts/line_styles_files/analytics.js HTTP/1.1" 200 17757
+
+            [42] => 127.0.0.1 - - [27/Sep/2019:17:47:51 -0400] "GET /admin/charts/line_styles_files/Chart.min.js HTTP/1.1" 200 46992
+
+            [43] => 127.0.0.1 - - [27/Sep/2019:17:47:51 -0400] "GET /admin/charts/line_styles_files/utils.js HTTP/1.1" 200 1426
+
+            [44] => 127.0.0.1 - - [27/Sep/2019:18:30:51 -0400] "GET /js/libs/jquery.slimscroll.min.js HTTP/1.1" 200 1753
+
+            [45] => 127.0.0.1 - - [27/Sep/2019:18:30:51 -0400] "GET /js/components/_sidebar.js HTTP/1.1" 200 3014
+
+            [46] => 127.0.0.1 - - [27/Sep/2019:18:30:51 -0400] "GET /js/libs/jquery.dlmenu.min.js HTTP/1.1" 200 1327
+
+            [47] => 127.0.0.1 - - [27/Sep/2019:18:30:51 -0400] "GET /js/components/xv-menu.js HTTP/1.1" 200 548
+
+            [48] => 127.0.0.1 - - [29/Sep/2019:13:15:04 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [49] => 127.0.0.1 - - [29/Sep/2019:13:25:12 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [50] => 127.0.0.1 - - [30/Sep/2019:18:47:09 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [51] => 127.0.0.1 - - [02/Oct/2019:18:28:11 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [52] => 127.0.0.1 - - [02/Oct/2019:18:28:40 -0400] "GET /js/bootstrap.js HTTP/1.1" 200 131637
+
+            [53] => 127.0.0.1 - - [03/Oct/2019:11:40:39 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [54] => 127.0.0.1 - - [03/Oct/2019:18:25:52 -0400] "GET /js/bootstrap.js HTTP/1.1" 200 131637
+
+            [55] => 127.0.0.1 - - [05/Oct/2019:13:14:48 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [56] => 127.0.0.1 - - [05/Oct/2019:13:20:23 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [57] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/libs/nprogress-min.js HTTP/1.1" 200 1690
+
+            [58] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/libs/jquery-3.2.1.min.js HTTP/1.1" 200 30144
+
+            [59] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/components/_preloader.js HTTP/1.1" 200 669
+
+            [60] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/libs/modernizr.min.js HTTP/1.1" 200 5397
+
+            [61] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/libs/popper.min.js HTTP/1.1" 200 7440
+
+            [62] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/libs/bootstrap.min.js HTTP/1.1" 200 13112
+
+            [63] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/libs/lightslider.js HTTP/1.1" 200 7183
+
+            [64] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/components/_lightSlider.js HTTP/1.1" 200 761
+
+            [65] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/common.js HTTP/1.1" 200 2370
+
+            [66] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/responsive.js HTTP/1.1" 200 723
+
+            [67] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/ajax.js HTTP/1.1" 200 2032
+
+            [68] => 127.0.0.1 - - [08/Oct/2019:10:40:58 -0400] "GET /js/jquery.livesearch.js HTTP/1.1" 200 1935
+
+            [69] => 127.0.0.1 - - [08/Oct/2019:10:41:16 -0400] "GET /js/countdown.js HTTP/1.1" 200 489
+
+            [70] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/common.js HTTP/1.1" 200 5241
+
+            [71] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/jquery-1.11.1.min.js HTTP/1.1" 200 33225
+
+            [72] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 3063
+
+            [73] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/bootstrap.min.js HTTP/1.1" 200 8535
+
+            [74] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/modernizr.min.js HTTP/1.1" 200 6133
+
+            [75] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/toggles.min.js HTTP/1.1" 200 1138
+
+            [76] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/jquery.cookies.js HTTP/1.1" 200 950
+
+            [77] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/jquery.gritter.min.js HTTP/1.1" 200 1756
+
+            [78] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/morris.min.js HTTP/1.1" 200 9095
+
+            [79] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/custom.js?v1.0.0 HTTP/1.1" 200 3874
+
+            [80] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/js/raphael-2.1.0.min.js HTTP/1.1" 200 3
+            [81] => 127.0.0.1 - - [08/Oct/2019:10:42:28 -0400] "GET /admin/js/animated.js HTTP/1.1" 200 210
+
+            [82] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /js/countdown.js HTTP/1.1" 200 489
+
+            [83] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 3063
+
+            [84] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/js/bootstrap.min.js HTTP/1.1" 200 8535
+
+            [85] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/js/jquery-1.11.1.min.js HTTP/1.1" 200 33225
+
+            [86] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/js/toggles.min.js HTTP/1.1" 200 1138
+
+            [87] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/js/modernizr.min.js HTTP/1.1" 200 6133
+
+            [88] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/js/jquery.cookies.js HTTP/1.1" 200 950
+
+            [89] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/js/custom.js?v1.0.0 HTTP/1.1" 200 3874
+
+            [90] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/js/animated.js HTTP/1.1" 200 210
+
+            [91] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /js/countdown.js HTTP/1.1" 200 489
+
+            [92] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/js/jquery-migrate-1.2.1.min.js HTTP/1.1" 200 3063
+
+            [93] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/js/bootstrap.min.js HTTP/1.1" 200 8535
+
+            [94] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/js/jquery-1.11.1.min.js HTTP/1.1" 200 33225
+
+            [95] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/js/modernizr.min.js HTTP/1.1" 200 6133
+
+            [96] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/js/toggles.min.js HTTP/1.1" 200 1138
+
+            [97] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/js/jquery.cookies.js HTTP/1.1" 200 950
+
+            [98] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/js/animated.js HTTP/1.1" 200 210
+
+            [99] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/js/custom.js?v1.0.0 HTTP/1.1" 200 3874
+
+            [100] => 127.0.0.1 - - [08/Oct/2019:10:49:42 -0400] "GET /admin/js/select/js/bootstrap-select.js HTTP/1.1" 200 15955
+
+            [101] => 127.0.0.1 - - [08/Oct/2019:10:49:42 -0400] "GET /admin/js/select2.min.js HTTP/1.1" 200 18147
+
+            [102] => 127.0.0.1 - - [08/Oct/2019:10:49:42 -0400] "GET /admin/js/user.js HTTP/1.1" 200 1380
+
+            [103] => 127.0.0.1 - - [08/Oct/2019:10:49:42 -0400] "GET /admin/js/jquery.validate.min.js HTTP/1.1" 200 6362
+
+            [104] => 127.0.0.1 - - [08/Oct/2019:10:49:42 -0400] "GET /admin/js/common.js?v1.0.5 HTTP/1.1" 200 5241
+
+            [105] => 127.0.0.1 - - [08/Oct/2019:10:49:42 -0400] "GET /admin/js/jquery-ui-1.10.3.min.js HTTP/1.1" 200 60467
+
+            [106] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /admin/js/venobox/venobox.js HTTP/1.1" 200 3837
+
+            [107] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /js/bootstrap-editable.min.js HTTP/1.1" 200 19176
+
+            [108] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /admin/js/manage.js HTTP/1.1" 200 854
+
+            [109] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /admin/js/ajax.js HTTP/1.1" 200 1027
+
+            [110] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /admin/js/bulk-action.js HTTP/1.1" 200 928
+
+            [111] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /admin/js/articles.js?v0.0.1 HTTP/1.1" 200 913
+
+            [112] => 127.0.0.1 - - [08/Oct/2019:10:53:10 -0400] "GET /js/search.js HTTP/1.1" 200 184
+
+            [113] => 127.0.0.1 - - [08/Oct/2019:10:53:16 -0400] "GET /js/jquery.mark.min.js?v0.0.1 HTTP/1.1" 200 5891
+
+            [114] => 127.0.0.1 - - [08/Oct/2019:10:55:12 -0400] "GET /admin/js/venobox/venobox.js?v1.0.0 HTTP/1.1" 200 3837
+
+            [115] => 127.0.0.1 - - [08/Oct/2019:10:55:18 -0400] "GET /admin/js/dropit.js HTTP/1.1" 200 1001
+
+            [116] => 127.0.0.1 - - [08/Oct/2019:10:55:18 -0400] "GET /admin/js/ajax.js?v0.0.1 HTTP/1.1" 200 1027
+
+            [117] => 127.0.0.1 - - [08/Oct/2019:10:55:18 -0400] "GET /admin/js/clone.js HTTP/1.1" 200 1040
+
+            [118] => 127.0.0.1 - - [08/Oct/2019:10:55:26 -0400] "GET /admin/js/common.js?v0.0.3 HTTP/1.1" 200 5241
+
+            [119] => 127.0.0.1 - - [08/Oct/2019:10:55:45 -0400] "GET /admin/js/jquery-labelauty.js HTTP/1.1" 200 2448
+
+            [120] => 127.0.0.1 - - [08/Oct/2019:10:55:45 -0400] "GET /admin/js/jquery.prettyPhoto.js HTTP/1.1" 200 6016
+
+            [121] => 127.0.0.1 - - [08/Oct/2019:10:55:45 -0400] "GET /admin/js/settings.js?v1.0.3 HTTP/1.1" 200 3712
+
+            [122] => 127.0.0.1 - - [08/Oct/2019:10:55:52 -0400] "GET /admin/charts/line_styles_files/analytics.js HTTP/1.1" 200 17757
+
+            [123] => 127.0.0.1 - - [08/Oct/2019:10:55:52 -0400] "GET /admin/charts/line_styles_files/utils.js HTTP/1.1" 200 1426
+
+            [124] => 127.0.0.1 - - [08/Oct/2019:10:55:52 -0400] "GET /admin/charts/line_styles_files/Chart.min.js HTTP/1.1" 200 46992
+
+            [125] => 127.0.0.1 - - [10/Oct/2019:12:39:33 -0400] "GET /js/bootstrap.js HTTP/1.1" 200 131637
+
+            [126] => 127.0.0.1 - - [10/Oct/2019:13:48:24 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [127] => 127.0.0.1 - - [10/Oct/2019:13:48:25 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [128] => 127.0.0.1 - - [10/Oct/2019:13:56:58 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [129] => 127.0.0.1 - - [10/Oct/2019:13:56:58 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [130] => 127.0.0.1 - - [10/Oct/2019:13:57:09 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [131] => 127.0.0.1 - - [10/Oct/2019:13:57:09 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [132] => 127.0.0.1 - - [10/Oct/2019:13:57:55 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [133] => 127.0.0.1 - - [10/Oct/2019:13:57:56 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [134] => 127.0.0.1 - - [10/Oct/2019:13:58:01 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [135] => 127.0.0.1 - - [10/Oct/2019:13:58:02 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [136] => 127.0.0.1 - - [10/Oct/2019:13:59:01 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [137] => 127.0.0.1 - - [10/Oct/2019:13:59:01 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [138] => 127.0.0.1 - - [10/Oct/2019:13:59:18 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [139] => 127.0.0.1 - - [10/Oct/2019:13:59:19 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [140] => 127.0.0.1 - - [10/Oct/2019:13:59:21 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [141] => 127.0.0.1 - - [10/Oct/2019:13:59:21 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [142] => 127.0.0.1 - - [10/Oct/2019:13:59:28 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [143] => 127.0.0.1 - - [10/Oct/2019:13:59:28 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [144] => 127.0.0.1 - - [10/Oct/2019:14:00:24 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [145] => 127.0.0.1 - - [10/Oct/2019:14:00:24 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [146] => 127.0.0.1 - - [10/Oct/2019:14:00:36 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [147] => 127.0.0.1 - - [10/Oct/2019:14:00:38 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [148] => 127.0.0.1 - - [10/Oct/2019:14:01:35 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [149] => 127.0.0.1 - - [10/Oct/2019:14:02:09 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [150] => 127.0.0.1 - - [10/Oct/2019:18:00:39 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [151] => 127.0.0.1 - - [10/Oct/2019:18:00:39 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [152] => 127.0.0.1 - - [10/Oct/2019:18:00:49 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [153] => 127.0.0.1 - - [10/Oct/2019:18:00:50 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [154] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/modernizr.custom.65274.js HTTP/1.1" 404 1250
+
+            [155] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/jquery.js HTTP/1.1" 404 1250
+
+            [156] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/retina.js HTTP/1.1" 404 1250
+
+            [157] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/hoverIntent.js HTTP/1.1" 404 1250
+
+            [158] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/superfish.js HTTP/1.1" 404 1250
+
+            [159] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/bootstrap.js HTTP/1.1" 404 1250
+
+            [160] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/fullscreenr.js HTTP/1.1" 404 1250
+
+            [161] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/caroufredsel.js HTTP/1.1" 404 1250
+
+            [162] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/jquery.nouislider.min.js HTTP/1.1" 404 1250
+
+            [163] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/html5audio.js HTTP/1.1" 404 1250
+
+            [164] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/gmaps.js HTTP/1.1" 404 1250
+
+            [165] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/nicescroll.js HTTP/1.1" 404 1250
+
+            [166] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/jquery.dlmenu.js HTTP/1.1" 404 1250
+
+            [167] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/mobile_detector.js HTTP/1.1" 404 1250
+
+            [168] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/jquery.knob.js HTTP/1.1" 404 1250
+
+            [169] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/jquery.easing.js HTTP/1.1" 404 1250
+
+            [170] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/jquery.magnific-popup.min.js HTTP/1.1" 404 1250
+
+            [171] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/custom.js HTTP/1.1" 404 1250
+
+            [172] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/js/dubuqueweb.js HTTP/1.1" 404 1250
+
+            [173] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/jquery.js HTTP/1.1" 404 1250
+
+            [174] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/retina.js HTTP/1.1" 404 1250
+
+            [175] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/hoverIntent.js HTTP/1.1" 404 1250
+
+            [176] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/superfish.js HTTP/1.1" 404 1250
+
+            [177] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/bootstrap.js HTTP/1.1" 404 1250
+
+            [178] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/caroufredsel.js HTTP/1.1" 404 1250
+
+            [179] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/fullscreenr.js HTTP/1.1" 404 1250
+
+            [180] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/jquery.nouislider.min.js HTTP/1.1" 404 1250
+
+            [181] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/html5audio.js HTTP/1.1" 404 1250
+
+            [182] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/gmaps.js HTTP/1.1" 404 1250
+
+            [183] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/nicescroll.js HTTP/1.1" 404 1250
+
+            [184] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/jquery.dlmenu.js HTTP/1.1" 404 1250
+
+            [185] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/jquery.knob.js HTTP/1.1" 404 1250
+
+            [186] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/mobile_detector.js HTTP/1.1" 404 1250
+
+            [187] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/jquery.easing.js HTTP/1.1" 404 1250
+
+            [188] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/jquery.magnific-popup.min.js HTTP/1.1" 404 1250
+
+            [189] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/custom.js HTTP/1.1" 404 1250
+
+            [190] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/js/dubuqueweb.js HTTP/1.1" 404 1250
+
+            [191] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/modernizr.custom.65274.js HTTP/1.1" 404 1250
+
+            [192] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/jquery.js HTTP/1.1" 404 1250
+
+            [193] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/retina.js HTTP/1.1" 404 1250
+
+            [194] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/superfish.js HTTP/1.1" 404 1250
+
+            [195] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/hoverIntent.js HTTP/1.1" 404 1250
+
+            [196] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/bootstrap.js HTTP/1.1" 404 1250
+
+            [197] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/fullscreenr.js HTTP/1.1" 404 1250
+
+            [198] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/caroufredsel.js HTTP/1.1" 404 1250
+
+            [199] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/jquery.nouislider.min.js HTTP/1.1" 404 1250
+
+            [200] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/html5audio.js HTTP/1.1" 404 1250
+
+            [201] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/nicescroll.js HTTP/1.1" 404 1250
+
+            [202] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/gmaps.js HTTP/1.1" 404 1250
+
+            [203] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/jquery.knob.js HTTP/1.1" 404 1250
+
+            [204] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/jquery.dlmenu.js HTTP/1.1" 404 1250
+
+            [205] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/jquery.easing.js HTTP/1.1" 404 1250
+
+            [206] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/mobile_detector.js HTTP/1.1" 404 1250
+
+            [207] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/jquery.magnific-popup.min.js HTTP/1.1" 404 1250
+
+            [208] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/custom.js HTTP/1.1" 404 1250
+
+            [209] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/js/dubuqueweb.js HTTP/1.1" 404 1250
+
+            [210] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/jquery.js HTTP/1.1" 404 1250
+
+            [211] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/retina.js HTTP/1.1" 404 1250
+
+            [212] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/hoverIntent.js HTTP/1.1" 404 1250
+
+            [213] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/superfish.js HTTP/1.1" 404 1250
+
+            [214] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/bootstrap.js HTTP/1.1" 404 1250
+
+            [215] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/caroufredsel.js HTTP/1.1" 404 1250
+
+            [216] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/fullscreenr.js HTTP/1.1" 404 1250
+
+            [217] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/jquery.nouislider.min.js HTTP/1.1" 404 1250
+
+            [218] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/html5audio.js HTTP/1.1" 404 1250
+
+            [219] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/gmaps.js HTTP/1.1" 404 1250
+
+            [220] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/nicescroll.js HTTP/1.1" 404 1250
+
+            [221] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/jquery.dlmenu.js HTTP/1.1" 404 1250
+
+            [222] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/jquery.knob.js HTTP/1.1" 404 1250
+
+            [223] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/mobile_detector.js HTTP/1.1" 404 1250
+
+            [224] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/jquery.easing.js HTTP/1.1" 404 1250
+
+            [225] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/jquery.magnific-popup.min.js HTTP/1.1" 404 1250
+
+            [226] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/custom.js HTTP/1.1" 404 1250
+
+            [227] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/js/dubuqueweb.js HTTP/1.1" 404 1250
+
+            [228] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/modernizr.custom.65274.js HTTP/1.1" 404 1250
+
+            [229] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/retina.js HTTP/1.1" 404 1250
+
+            [230] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/jquery.js HTTP/1.1" 404 1250
+
+            [231] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/hoverIntent.js HTTP/1.1" 404 1250
+
+            [232] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/superfish.js HTTP/1.1" 404 1250
+
+            [233] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/caroufredsel.js HTTP/1.1" 404 1250
+
+            [234] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/fullscreenr.js HTTP/1.1" 404 1250
+
+            [235] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/jquery.nouislider.min.js HTTP/1.1" 404 1250
+
+            [236] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/bootstrap.js HTTP/1.1" 404 1250
+
+            [237] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/html5audio.js HTTP/1.1" 404 1250
+
+            [238] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/gmaps.js HTTP/1.1" 404 1250
+
+            [239] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/nicescroll.js HTTP/1.1" 404 1250
+
+            [240] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/jquery.dlmenu.js HTTP/1.1" 404 1250
+
+            [241] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/jquery.knob.js HTTP/1.1" 404 1250
+
+            [242] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/mobile_detector.js HTTP/1.1" 404 1250
+
+            [243] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/jquery.easing.js HTTP/1.1" 404 1250
+
+            [244] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/jquery.magnific-popup.min.js HTTP/1.1" 404 1250
+
+            [245] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/custom.js HTTP/1.1" 404 1250
+
+            [246] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/js/dubuqueweb.js HTTP/1.1" 404 1250
+
+            [247] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/jquery.js HTTP/1.1" 404 1250
+
+            [248] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/retina.js HTTP/1.1" 404 1250
+
+            [249] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/hoverIntent.js HTTP/1.1" 404 1250
+
+            [250] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/superfish.js HTTP/1.1" 404 1250
+
+            [251] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/bootstrap.js HTTP/1.1" 404 1250
+
+            [252] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/caroufredsel.js HTTP/1.1" 404 1250
+
+            [253] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/fullscreenr.js HTTP/1.1" 404 1250
+
+            [254] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/jquery.nouislider.min.js HTTP/1.1" 404 1250
+
+            [255] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/html5audio.js HTTP/1.1" 404 1250
+
+            [256] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/gmaps.js HTTP/1.1" 404 1250
+
+            [257] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/nicescroll.js HTTP/1.1" 404 1250
+
+            [258] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/jquery.dlmenu.js HTTP/1.1" 404 1250
+
+            [259] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/jquery.knob.js HTTP/1.1" 404 1250
+
+            [260] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/mobile_detector.js HTTP/1.1" 404 1250
+
+            [261] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/jquery.easing.js HTTP/1.1" 404 1250
+
+            [262] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/jquery.magnific-popup.min.js HTTP/1.1" 404 1250
+
+            [263] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/custom.js HTTP/1.1" 404 1250
+
+            [264] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/js/dubuqueweb.js HTTP/1.1" 404 1250
+
+            [265] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/modernizr.custom.65274.js HTTP/1.1" 404 1280
+
+            [266] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/jquery.js HTTP/1.1" 404 1280
+
+            [267] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/retina.js HTTP/1.1" 404 1280
+
+            [268] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/hoverIntent.js HTTP/1.1" 404 1280
+
+            [269] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/superfish.js HTTP/1.1" 404 1280
+
+            [270] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/bootstrap.js HTTP/1.1" 404 1280
+
+            [271] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/caroufredsel.js HTTP/1.1" 404 1280
+
+            [272] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/fullscreenr.js HTTP/1.1" 404 1280
+
+            [273] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/jquery.nouislider.min.js HTTP/1.1" 404 1280
+
+            [274] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/html5audio.js HTTP/1.1" 404 1280
+
+            [275] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/gmaps.js HTTP/1.1" 404 1280
+
+            [276] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/nicescroll.js HTTP/1.1" 404 1280
+
+            [277] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/jquery.dlmenu.js HTTP/1.1" 404 1280
+
+            [278] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/jquery.knob.js HTTP/1.1" 404 1280
+
+            [279] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/mobile_detector.js HTTP/1.1" 404 1280
+
+            [280] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/custom.js HTTP/1.1" 404 1280
+
+            [281] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/jquery.easing.js HTTP/1.1" 404 1280
+
+            [282] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/jquery.magnific-popup.min.js HTTP/1.1" 404 1280
+
+            [283] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/js/dubuqueweb.js HTTP/1.1" 404 1280
+
+            [284] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/jquery.js HTTP/1.1" 404 1280
+
+            [285] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/retina.js HTTP/1.1" 404 1280
+
+            [286] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/hoverIntent.js HTTP/1.1" 404 1280
+
+            [287] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/superfish.js HTTP/1.1" 404 1280
+
+            [288] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/bootstrap.js HTTP/1.1" 404 1280
+
+            [289] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/caroufredsel.js HTTP/1.1" 404 1280
+
+            [290] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/fullscreenr.js HTTP/1.1" 404 1280
+
+            [291] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/jquery.nouislider.min.js HTTP/1.1" 404 1280
+
+            [292] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/html5audio.js HTTP/1.1" 404 1280
+
+            [293] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/gmaps.js HTTP/1.1" 404 1280
+
+            [294] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/nicescroll.js HTTP/1.1" 404 1280
+
+            [295] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/jquery.dlmenu.js HTTP/1.1" 404 1280
+
+            [296] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/jquery.knob.js HTTP/1.1" 404 1280
+
+            [297] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/mobile_detector.js HTTP/1.1" 404 1280
+
+            [298] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/jquery.easing.js HTTP/1.1" 404 1280
+
+            [299] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/jquery.magnific-popup.min.js HTTP/1.1" 404 1280
+
+            [300] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/custom.js HTTP/1.1" 404 1280
+
+            [301] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/js/dubuqueweb.js HTTP/1.1" 404 1280
+
+            [302] => 127.0.0.1 - - [11/Oct/2019:20:13:32 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [303] => 127.0.0.1 - - [11/Oct/2019:20:13:33 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [304] => 127.0.0.1 - - [11/Oct/2019:20:13:42 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [305] => 127.0.0.1 - - [11/Oct/2019:20:13:44 -0400] "GET /_templates/jake/js/min/production.min.js?v=277 HTTP/1.1" 404 1210
+
+            [306] => 127.0.0.1 - - [13/Oct/2019:14:02:57 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [307] => 127.0.0.1 - - [13/Oct/2019:14:06:21 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [308] => 127.0.0.1 - - [13/Oct/2019:14:08:49 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [309] => 127.0.0.1 - - [13/Oct/2019:23:03:30 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [310] => 127.0.0.1 - - [13/Oct/2019:23:04:15 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [311] => 127.0.0.1 - - [14/Oct/2019:12:01:32 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [312] => 127.0.0.1 - - [14/Oct/2019:18:14:15 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [313] => 127.0.0.1 - - [15/Oct/2019:19:12:19 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [314] => 127.0.0.1 - - [15/Oct/2019:19:17:36 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [315] => 127.0.0.1 - - [15/Oct/2019:19:19:08 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [316] => 127.0.0.1 - - [15/Oct/2019:19:19:08 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [317] => 127.0.0.1 - - [15/Oct/2019:19:20:18 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [318] => 127.0.0.1 - - [15/Oct/2019:19:20:48 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [319] => 127.0.0.1 - - [15/Oct/2019:19:21:30 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [320] => 127.0.0.1 - - [15/Oct/2019:19:22:05 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [321] => 127.0.0.1 - - [15/Oct/2019:19:22:29 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [322] => 127.0.0.1 - - [15/Oct/2019:19:22:36 -0400] "GET /js/bootstrap.min.js.map HTTP/1.1" 200 190253
+
+            [323] => 127.0.0.1 - - [15/Oct/2019:19:22:58 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [324] => 127.0.0.1 - - [15/Oct/2019:19:23:53 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [325] => 127.0.0.1 - - [15/Oct/2019:19:23:53 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [326] => 127.0.0.1 - - [15/Oct/2019:19:25:00 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [327] => 127.0.0.1 - - [15/Oct/2019:19:25:58 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [328] => 127.0.0.1 - - [15/Oct/2019:19:36:58 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [329] => 127.0.0.1 - - [15/Oct/2019:19:39:25 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [330] => 127.0.0.1 - - [15/Oct/2019:19:47:41 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [331] => 127.0.0.1 - - [15/Oct/2019:19:47:41 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [332] => 127.0.0.1 - - [15/Oct/2019:19:49:58 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [333] => 127.0.0.1 - - [15/Oct/2019:19:49:58 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [334] => 127.0.0.1 - - [15/Oct/2019:19:52:57 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [335] => 127.0.0.1 - - [15/Oct/2019:19:52:57 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [336] => 127.0.0.1 - - [15/Oct/2019:19:56:47 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [337] => 127.0.0.1 - - [15/Oct/2019:19:56:47 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [338] => 127.0.0.1 - - [15/Oct/2019:19:56:59 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [339] => 127.0.0.1 - - [15/Oct/2019:19:56:59 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [340] => 127.0.0.1 - - [15/Oct/2019:20:28:20 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 304 -
+
+            [341] => 127.0.0.1 - - [16/Oct/2019:12:25:37 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [342] => 127.0.0.1 - - [17/Oct/2019:12:18:01 -0400] "GET /js/myscripts.js HTTP/1.1" 200 998
+
+            [343] => 127.0.0.1 - - [17/Oct/2019:12:18:01 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [344] => 127.0.0.1 - - [17/Oct/2019:12:18:01 -0400] "GET /js/bootstrap.js HTTP/1.1" 200 131637
+
+            [345] => 127.0.0.1 - - [17/Oct/2019:12:22:07 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [346] => 127.0.0.1 - - [17/Oct/2019:15:25:48 -0400] "GET /js/bootstrap.js HTTP/1.1" 304 -
+
+            [347] => 127.0.0.1 - - [17/Oct/2019:15:25:48 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 304 -
+
+            [348] => 127.0.0.1 - - [17/Oct/2019:15:25:48 -0400] "GET /js/myscripts.js HTTP/1.1" 304 -
+
+            [349] => 127.0.0.1 - - [18/Oct/2019:18:06:33 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [350] => 127.0.0.1 - - [18/Oct/2019:18:42:16 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [351] => 127.0.0.1 - - [18/Oct/2019:18:43:11 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [352] => 127.0.0.1 - - [18/Oct/2019:18:43:33 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [353] => 127.0.0.1 - - [18/Oct/2019:18:53:55 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [354] => 127.0.0.1 - - [18/Oct/2019:19:09:13 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [355] => 127.0.0.1 - - [18/Oct/2019:19:12:38 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [356] => 127.0.0.1 - - [18/Oct/2019:19:23:17 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [357] => 127.0.0.1 - - [18/Oct/2019:19:23:26 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [358] => 127.0.0.1 - - [18/Oct/2019:19:27:00 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [359] => 127.0.0.1 - - [18/Oct/2019:19:27:15 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [360] => 127.0.0.1 - - [18/Oct/2019:19:27:20 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [361] => 127.0.0.1 - - [18/Oct/2019:19:28:15 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [362] => 127.0.0.1 - - [18/Oct/2019:19:33:21 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [363] => 127.0.0.1 - - [18/Oct/2019:19:33:30 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [364] => 127.0.0.1 - - [18/Oct/2019:19:35:02 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [365] => 127.0.0.1 - - [18/Oct/2019:19:36:57 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [366] => 127.0.0.1 - - [18/Oct/2019:19:44:51 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [367] => 127.0.0.1 - - [18/Oct/2019:20:14:01 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [368] => 127.0.0.1 - - [18/Oct/2019:20:14:33 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [369] => 127.0.0.1 - - [18/Oct/2019:20:51:30 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [370] => 127.0.0.1 - - [18/Oct/2019:21:03:55 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [371] => 127.0.0.1 - - [18/Oct/2019:22:29:48 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [372] => 127.0.0.1 - - [19/Oct/2019:13:29:11 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [373] => 127.0.0.1 - - [19/Oct/2019:13:29:55 -0400] "GET /js/bootstrap.min.js.map HTTP/1.1" 200 190253
+
+            [374] => 127.0.0.1 - - [19/Oct/2019:13:55:56 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [375] => 127.0.0.1 - - [19/Oct/2019:13:55:56 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [376] => 127.0.0.1 - - [19/Oct/2019:13:56:11 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [377] => 127.0.0.1 - - [19/Oct/2019:13:56:11 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [378] => 127.0.0.1 - - [19/Oct/2019:14:00:41 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [379] => 127.0.0.1 - - [19/Oct/2019:14:00:41 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [380] => 127.0.0.1 - - [19/Oct/2019:14:02:49 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [381] => 127.0.0.1 - - [19/Oct/2019:14:02:49 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [382] => 127.0.0.1 - - [19/Oct/2019:14:03:24 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [383] => 127.0.0.1 - - [19/Oct/2019:14:03:24 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [384] => 127.0.0.1 - - [19/Oct/2019:14:11:49 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [385] => 127.0.0.1 - - [19/Oct/2019:14:11:49 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [386] => 127.0.0.1 - - [19/Oct/2019:14:16:11 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [387] => 127.0.0.1 - - [19/Oct/2019:14:16:11 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [388] => 127.0.0.1 - - [19/Oct/2019:14:16:34 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [389] => 127.0.0.1 - - [19/Oct/2019:14:16:34 -0400] "GET /js/bootstrap.min.js HTTP/1.1" 200 48944
+
+            [390] => 127.0.0.1 - - [19/Oct/2019:17:35:40 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [391] => 127.0.0.1 - - [19/Oct/2019:18:05:43 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [392] => 127.0.0.1 - - [19/Oct/2019:18:05:58 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [393] => 127.0.0.1 - - [21/Oct/2019:18:19:08 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [394] => 127.0.0.1 - - [21/Oct/2019:18:50:18 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [395] => 127.0.0.1 - - [21/Oct/2019:18:57:54 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [396] => 127.0.0.1 - - [21/Oct/2019:18:58:35 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [397] => 127.0.0.1 - - [21/Oct/2019:19:04:08 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [398] => 127.0.0.1 - - [21/Oct/2019:19:04:15 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [399] => 127.0.0.1 - - [21/Oct/2019:19:04:49 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [400] => 127.0.0.1 - - [21/Oct/2019:19:07:19 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [401] => 127.0.0.1 - - [21/Oct/2019:19:17:27 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [402] => 127.0.0.1 - - [21/Oct/2019:19:18:33 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [403] => 127.0.0.1 - - [21/Oct/2019:19:20:45 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [404] => 127.0.0.1 - - [21/Oct/2019:19:24:25 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [405] => 127.0.0.1 - - [21/Oct/2019:19:28:19 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [406] => 127.0.0.1 - - [21/Oct/2019:19:30:55 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [407] => 127.0.0.1 - - [21/Oct/2019:19:31:46 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [408] => 127.0.0.1 - - [21/Oct/2019:19:34:11 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [409] => 127.0.0.1 - - [21/Oct/2019:19:39:27 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [410] => 127.0.0.1 - - [21/Oct/2019:19:41:49 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [411] => 127.0.0.1 - - [21/Oct/2019:19:42:07 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [412] => 127.0.0.1 - - [21/Oct/2019:19:42:38 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [413] => 127.0.0.1 - - [21/Oct/2019:19:49:55 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [414] => 127.0.0.1 - - [21/Oct/2019:20:11:07 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [415] => 127.0.0.1 - - [21/Oct/2019:20:11:22 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [416] => 127.0.0.1 - - [21/Oct/2019:20:12:02 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [417] => 127.0.0.1 - - [21/Oct/2019:20:30:36 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [418] => 127.0.0.1 - - [21/Oct/2019:20:41:39 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [419] => 127.0.0.1 - - [21/Oct/2019:20:47:35 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+            [420] => 127.0.0.1 - - [21/Oct/2019:20:59:10 -0400] "GET /js/jquery-3.4.1.min.js HTTP/1.1" 200 88145
+
+        )
+
+)

@@ -26,8 +26,8 @@ class Airport extends database implements \ValidateForms
 
     public function getAirports()
     {
-        $aiports = $this->db->sql("SELECT * FROM airports where {$this->parms['selectBy']} LIKE '%{$this->parms['keyword']}%'");
-        return $aiports;
+        $airports = $this->db->sql("SELECT * FROM airports where {$this->parms['selectBy']} LIKE '%{$this->parms['keyword']}%'");
+        return $airports;
     }
 }
 
@@ -52,8 +52,63 @@ if (!$obj->checkUserAuthentication()){
 <body>
 <div class="container-fluid">
 
+<div class="container">
+    <form method="get" action="reservation.php">
+
+    <div>
+        <p>
+            <input class="from-to" name="from" placeholder="From: City or Airport">
+        <input class="from-to" name="to" placeholder="To: City or Airport">
+        </p>
+        <p>
+            <select name="company" class="from-to">
+                <option value="Any">Any</option>
+                <option value="uzbek">Uzbekistan Airways</option>
+                <option value="turk">Turkish Airlines</option>
+                <option value="british">British Airlines</option>
+                <option value="aeroflot">Aeroflot</option>
+            </select>
+            <select name="seat_class" class="from-to">
+                <option value="economy">Economy class</option>
+                <option value="business">Business class</option>
+                <option value="first">First class</option>
+            </select>
+
+        </p>
+        <a>Departure <a>Return </a><a>Adult </a><a>Child</a></a>
+        <p>
+             <input class="dep-ar" type="date" name="departure_date">
+          <input class="dep-ar" type="date" name="arrival_date">
+             <select class="dep-ar" name="adult">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+             <select class="dep-ar" name="child">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+
+        </p>
+
+        <button class="button" type="submit">Search</button>
+
+        <div class="plane">
+            <img src="../img/plane-512.png" style="width: 52%">
+            Flight only
+        </div>
+        <div class="round">
+            Roundtrip
+        </div>
+
     <h4 style="text-align: center">
-        The world Aiports Directory
+        The world Airports Directory
     </h4>
     <div class="mysearch">
         <form style="text-align: center">
@@ -63,7 +118,6 @@ if (!$obj->checkUserAuthentication()){
                     <option value="city">City</option>
                     <option value="country">Country</option>
                 </select>
-
                 <button>Search</button>
             </p>
         </form>
