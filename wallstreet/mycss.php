@@ -54,10 +54,10 @@
 <script>
     $(function () {
         $("#turnon").click(function () {
-           $("#lightbulb").attr('src','../img/lightbulbon.png');
+           $("#rightwindow img").attr('src','../img/lightbulbon.png');
         });
         $("#turnoff").click(function () {
-            $("#lightbulb").attr('src','../img/lightbulboff.png');
+            $("#rightwindow img").attr('src','../img/lightbulboff.png');
         });
     });
 </script>
