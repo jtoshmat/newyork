@@ -89,7 +89,7 @@ function main(args) {
   const INCLUDED_EXTENSIONS = new Set([
     // This extension whitelist is how we avoid modifying binary files
     '',
-    '.css',
+    '.rushomework.calendar1.css',
     '.html',
     '.js',
     '.json',

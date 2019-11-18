@@ -1,0 +1,35 @@
+.calendar-left-side-day-of-week, .current-day-events ul
+{
+    position: relative;
+}
+.calendar-left-side-day, .calendar-left-side-day-of-week, .current-day-events, .add-event-day-field-btn
+{
+    color: white;
+}
+.calendar
+{
+    background: white;
+    width: 840px;
+    height: 490px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.right-side, .left-side
+{
+    padding: 30px;
+    height: 100%;
+}
+.left-side
+{
+    width: 320px;
+    background: #ec364f;
+    float: left;
+}
+.right-side
+{
+    width: 840px;
+}
+.current-day, .current-day-events
+{
+    padding-top: 40px;
+}

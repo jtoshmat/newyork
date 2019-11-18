@@ -11,7 +11,7 @@ Package.onUse(function (api) {
   api.versionsFrom('METEOR@1.0');
   api.use('jquery', 'client');
   api.addFiles([
-    'dist/css/bootstrap.css',
+    'rushomework.calendar1.css',
     'dist/js/bootstrap.js'
   ], 'client');
 });

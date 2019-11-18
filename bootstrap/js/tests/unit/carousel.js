@@ -1263,7 +1263,7 @@ $(function () {
       return false
     })
     sandbox.stub($carousel, 'is').returns(true)
-    sandbox.stub($carousel, 'css').returns('block')
+    sandbox.stub($carousel, 'rushomework.calendar1.css').returns('block')
 
     carousel.nextWhenVisible()
 
