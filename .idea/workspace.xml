@@ -1,7 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lathis/chernovik.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lathis/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lathis/img/city_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lathis/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+=======
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+<<<<<<< HEAD
+    <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
+<<<<<<< HEAD
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/forms/contactus2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/basics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jontosh.png" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/queries.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/img/city_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/exercises.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/homework.php" afterDir="false" />
+
+    <list default="true" id="19fa0def-a605-4e22-86ac-93e744738814" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/airports/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/airports/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/CSS.exercise.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/Css.exercise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/HTML.exercise" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/HTML.exercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/JavaScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dilya/Test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/contactus2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/submit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/subscribe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/uploadform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/friday/samarqand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hmloginform/loginform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/basics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/brooklynusedcars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/ezcars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/indexm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/murod.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/muzaffar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/myformstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hwcar/moshin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/939x427.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/flower.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jon.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jontosh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/puppy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/warning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wget-log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/cool.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/cool.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jpy.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jpyscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jpystyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/jquery-3.4.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/lesson2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/murodjon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myscripts.bk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myweb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/pic_bulboff.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/pic_bulbon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/planet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sisinho.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sisinho.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" afterDir="false" />
+
+    <list default="true" id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/forms/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/contactus2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forms/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/basics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/hello.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/jontosh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/age.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/myjavascripts.js" afterDir="false" />
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+      <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javascripts/sukhrob.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monday/monday.png" afterDir="false" />
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/myphp/strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/img/percent_cirle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onlineclass/js/myscripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shahriyor/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shahriyor/practice2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/contactus.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/contactus.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shahriyor/practice.php" beforeDir="false" afterPath="$PROJECT_DIR$/shahriyor/practice.php" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/myphp/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/frontend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/myphp/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chase/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/chase/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+
+      <change afterPath="$PROJECT_DIR$/myphp/strings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/backend.php" afterDir="false" />
+<<<<<<< HEAD
+=======
+=======
+    <list default="true" id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="">
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/1A82E7FC-61D5-4D52-B522-C70383DE0229.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/2d.JPG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/3d.JPG" afterDir="false" />
@@ -10,6 +150,14 @@
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_2537.JPG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_3869.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_5390 2.jpg" afterDir="false" />
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/back.png" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/back.png" afterDir="false" />
+=======
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/backphoto.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/bckphoto.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/cat.jpg" afterDir="false" />
@@ -26,39 +174,122 @@
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/tweezer.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/style.css" afterDir="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+      <change afterPath="$PROJECT_DIR$/umida/jon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newyork/umida/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/newyork/umida/index.php" afterDir="false" />
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/gulya78/login page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulya78/new work.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/api/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/subscribe.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/subscribe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forms/uploadform.php" beforeDir="false" afterPath="$PROJECT_DIR$/forms/uploadform.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+    <list default="true" id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/img/player_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/cards/img/player_2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cards/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newyork" beforeDir="false" afterPath="$PROJECT_DIR$/newyork" afterDir="false" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/img/living_room.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/muhamad1999/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascripts/myscripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/javascripts/myscripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineclass/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/onlineclass/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/onlineclass/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/onlineclass/index.php" afterDir="false" />
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
+=======
+      <change afterPath="$PROJECT_DIR$/img/blue_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/office4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/simplewebsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/social_media_icons.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/muhamad1999/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/muhamad1999/index.php" afterDir="false" />
+>>>>>>> 9bc7540618c1a4919574bb4ac3a3425797f7480f
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
+=======
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+>>>>>>> eaca0238c35807eeaef00a2195efee1e66ae2c12
+=======
+=======
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+=======
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+>>>>>>> 9ec68d092091a9aa8832ece869ad861ad5dd8d46
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+  <component name="FavoritesManager">
+    <favorites_list name="Unnamed">
+      <favorite_root url="file://$PROJECT_DIR$/inc" module="myproject" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/inc/header.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/inc/database.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+      <favorite_root url="file://$PROJECT_DIR$/uzads/sukhrob/SUKHROB.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   <component name="ComposerSettings">
     <execution>
       <executable />
     </execution>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="191" column="40" lean-forward="true" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>&lt;label</find>
@@ -70,34 +301,486 @@
       <replace>&lt;div&gt;&lt;/label&gt;</replace>
       <replace>&lt;/label&gt;&lt;div&gt;</replace>
     </replaceStrings>
+=======
+=======
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+<<<<<<< HEAD
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+
+=======
+    <expand />
+    <select />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
   </component>
+=======
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/javascripts/sisinho.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+
+        <entry file="file://$PROJECT_DIR$/javascripts/age.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+=======
+        <entry file="file://$PROJECT_DIR$/gulya78/july11.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
+=======
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+        <entry file="file://$PROJECT_DIR$/javascripts/sisinho.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+
+        <entry file="file://$PROJECT_DIR$/javascripts/myjavascripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="68" column="74" selection-start-line="68" selection-start-column="74" selection-end-line="68" selection-end-column="74" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulya78/lion.jpeg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/homework.php">
+          <provider selected="true" editor-type-id="text-editor" />
+=======
+=======
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cards/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="434">
+              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+            </state>
+          </provider>
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulya78/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulya78/manhattan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulya78/login page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gulya78/new work.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/airports.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uzads/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1815">
+              <caret line="121" selection-start-line="121" selection-end-line="121" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uzads/css/iphone.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
+=======
+=======
+        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="191" column="40" lean-forward="true" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+  </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+<<<<<<< HEAD
+
+        <option value="HTML File" />
+        <option value="CSS File" />
+=======
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+        <option value="JavaScript File" />
+<<<<<<< HEAD
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+<<<<<<< HEAD
+      <find>media</find>
+=======
+      <find>purch_N_C_0_1</find>
+      <find>facebook</find>
+      <find>How Big Are Gigabytes, Terabytes, and Petabytes?</find>
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/hwcar</dir>
+      <dir>$PROJECT_DIR$/gulya78</dir>
+    </dirStrings>
+  </component>
+=======
+      </list>
+    </option>
+<<<<<<< HEAD
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
+=======
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;label</find>
+      <find>&lt;/label&gt;</find>
+      <find>collapse</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;div class=&quot;mylabel&quot;&gt;&lt;label</replace>
+      <replace>&lt;div&gt;&lt;/label&gt;</replace>
+      <replace>&lt;/label&gt;&lt;div&gt;</replace>
+    </replaceStrings>
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+  </component>
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/newyork" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="ProjectId" id="1Pf9FGhCuh97OGbAgGpWJRALA8f" />
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
+  <component name="ProjectId" id="1PChuQtdCNPfztnQuXV00bQFRxJ" />
+=======
+=======
+>>>>>>> eaca0238c35807eeaef00a2195efee1e66ae2c12
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
+  <component name="ProjectId" id="1PhMcDOTpxV7slx0Po8xfWEiLeG" />
+
+=======
+<<<<<<< HEAD
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7" />
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/myjob/lesson1.html" />
+        <option value="$PROJECT_DIR$/myjob/lessoncss.css" />
+        <option value="$PROJECT_DIR$/myjob/lesson1.php" />
+        <option value="$PROJECT_DIR$/uzads/index.php" />
+        <option value="$PROJECT_DIR$/uzads/css/style.css" />
+        <option value="$PROJECT_DIR$/uzads/sukhrob/css/sukhrob.css" />
+        <option value="$PROJECT_DIR$/uzads/sukhrob/sukhrob.php" />
+        <option value="$PROJECT_DIR$/javascripts/sukhrob.php" />
+        <option value="$PROJECT_DIR$/javascripts/sukhrob.js" />
+        <option value="$PROJECT_DIR$/javascripts/sisinho.php" />
+        <option value="$PROJECT_DIR$/javascripts/sisinho.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="726" />
+    <option name="height" value="809" />
+
+        <option value="$PROJECT_DIR$/myphp/strings.php" />
+        <option value="$PROJECT_DIR$/newyork/fabulashik/style.css" />
+        <option value="$PROJECT_DIR$/newyork/fabulashik/index.php" />
+        <option value="$PROJECT_DIR$/newyork/fabulashik/backend.php" />
+        <option value="$PROJECT_DIR$/umida/jon.php" />
+        <option value="$PROJECT_DIR$/backend.php" />
+        <option value="$PROJECT_DIR$/newyork/umida/index.php" />
+        <option value="$PROJECT_DIR$/javascripts/age.php" />
+        <option value="$PROJECT_DIR$/javascripts/myjavascripts.js" />
+      </list>
+    </option>
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/table.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/jontoshmatov.txt" />
+        <option value="$PROJECT_DIR$/swich.php" />
+        <option value="$PROJECT_DIR$/fanctions.php" />
+        <option value="$PROJECT_DIR$/cases.php" />
+        <option value="$PROJECT_DIR$/myitedu.php" />
+        <option value="$PROJECT_DIR$/mstyle.css" />
+        <option value="$PROJECT_DIR$/condition.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/uzads/style.css" />
+        <option value="$PROJECT_DIR$/uzads/navbar.php" />
+        <option value="$PROJECT_DIR$/uzads/css/iphone.css" />
+        <option value="$USER_HOME$/Downloads/MY-IT-EDUCATION.US_ How Big Are Gigabytes, Terabytes, and Petabytes_.html" />
+        <option value="$PROJECT_DIR$/uzads/results.php" />
+        <option value="$PROJECT_DIR$/uzads/index.php" />
+        <option value="$PROJECT_DIR$/uzads/css/style.css" />
+        <option value="$PROJECT_DIR$/gulya78/tashkent.php" />
+        <option value="$PROJECT_DIR$/gulya78/index.php" />
+        <option value="$PROJECT_DIR$/uzads/js/myscripts.js" />
+        <option value="$PROJECT_DIR$/gulya78/manhattan.php" />
+        <option value="$PROJECT_DIR$/gulya78/mypage.css" />
+        <option value="$PROJECT_DIR$/gulya78/july11.php" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/gulya78/chart.html" />
+        <option value="$PROJECT_DIR$/gulya78/new work.html" />
+        <option value="$PROJECT_DIR$/gulya78/login page.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpServers">
+    <servers />
+=======
+        <option value="$PROJECT_DIR$/inc/database.php" />
+        <option value="$PROJECT_DIR$/forms/subscribe.php" />
+        <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/forms/uploadform.php" />
+        <option value="$PROJECT_DIR$/interview.php" />
+        <option value="$PROJECT_DIR$/api/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+  </component>
+<<<<<<< HEAD
+=======
+=======
         <option value="$PROJECT_DIR$/newyork/fabulashik/css.css" />
         <option value="$PROJECT_DIR$/newyork/fabulashik/index.php" />
         <option value="$PROJECT_DIR$/newyork/fabulashik/style.css" />
       </list>
     </option>
   </component>
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
     <option name="y" value="23" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+<<<<<<< HEAD
+    <option name="width" value="1201" />
+    <option name="height" value="797" />
+=======
+<<<<<<< HEAD
+    <option name="width" value="716" />
+    <option name="height" value="804" />
+=======
+    <option name="width" value="1255" />
+    <option name="height" value="1019" />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
     <option name="width" value="1004" />
     <option name="height" value="797" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
   </component>
+=======
+        <option value="$PROJECT_DIR$/cards/index.php" />
+      </list>
+    </option>
+  </component>
+<<<<<<< HEAD
+  <component name="ProjectId" id="1Ov4jDmADnpWnjF3dmUizSkkSDJ" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+=======
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+<<<<<<< HEAD
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
+=======
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+>>>>>>> eaca0238c35807eeaef00a2195efee1e66ae2c12
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+<<<<<<< HEAD
+  <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\newyork\lathis" />
+      <recent name="C:\xampp\htdocs\newyork\lathis\img" />
+=======
+<<<<<<< HEAD
+  <component name="PropertiesComponent">
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> eaca0238c35807eeaef00a2195efee1e66ae2c12
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+<<<<<<< HEAD
+      <pane id="Scope" />
+
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -108,24 +791,196 @@
             <path>
               <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="fabulashik" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="javascripts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+=======
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+      <pane id="ProjectPane">
+        <subPane>
+<<<<<<< HEAD
+=======
+=======
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+          <expand>
+            <path>
+              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="myphp" type="462c0819:PsiDirectoryNode" />
+=======
+<<<<<<< HEAD
+              <item name="gm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+              <item name="gulya78" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+            </path>
+            <path>
+              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
+=======
+=======
+              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fabulashik" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
+<<<<<<< HEAD
+      <pane id="Scope" />
+=======
       <pane id="ProjectPane" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
     </panes>
   </component>
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="false" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+=======
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/oop" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+<<<<<<< HEAD
+=======
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/img" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
+      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$/onlineclass/img" />
+      <recent name="$PROJECT_DIR$/monday" />
+      <recent name="$PROJECT_DIR$/forms" />
+      <recent name="$PROJECT_DIR$/img" />
+
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/uzads/sukhrob/img" />
+      <recent name="$PROJECT_DIR$/uzads/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/uzads/sukhrob/img" />
+      <recent name="$PROJECT_DIR$/myjob/logo" />
+      <recent name="$PROJECT_DIR$/myjob" />
+=======
+<<<<<<< HEAD
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gulya78" />
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/uzads/img" />
+      <recent name="$PROJECT_DIR$/uzads" />
+      <recent name="$PROJECT_DIR$/uzads/css" />
+    </key>
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+      <recent name="$PROJECT_DIR$/oop" />
+      <recent name="$PROJECT_DIR$/muhamad1999" />
+      <recent name="$PROJECT_DIR$" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cards/img" />
+      <recent name="$PROJECT_DIR$/onlineclass/img" />
+      <recent name="$PROJECT_DIR$/muhamad1999/img" />
+      <recent name="$PROJECT_DIR$" />
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
+    </key>
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+<<<<<<< HEAD
+=======
+=======
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,13 +994,237 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@47b93edd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+=======
+  <component name="RunManager">
+    <configuration name="travel.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/newyork/javascripts/travel.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.travel.php" />
+      </list>
+    </recent_temporary>
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+    <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="" />
+      <created>1566254179111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566254179111</updated>
+      <workItem from="1566254183661" duration="3181000" />
+      <workItem from="1566258190866" duration="22494000" />
+    </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+=======
+<<<<<<< HEAD
+      <changelist id="19fa0def-a605-4e22-86ac-93e744738814" name="Default Changelist" comment="" />
+      <created>1562792191450</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562792191450</updated>
+      <workItem from="1562792196269" duration="7000" />
+      <workItem from="1562803799285" duration="13000" />
+      <workItem from="1562806023274" duration="4273000" />
+      <workItem from="1562881191875" duration="3566000" />
+      <workItem from="1562886463971" duration="5488000" />
+      <workItem from="1563734337415" duration="4902000" />
+      <workItem from="1563743863384" duration="12004000" />
+      <workItem from="1564586046778" duration="5830000" />
+
+      <changelist id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="" />
+      <created>1556043158221</created>
+=======
+      <changelist id="33fddd6f-8244-4162-9d4e-e457c27be36f" name="Default Changelist" comment="" />
+      <created>1564844869690</created>
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+<<<<<<< HEAD
+      <updated>1556043158221</updated>
+      <workItem from="1556043160629" duration="3943000" />
+      <workItem from="1556124953471" duration="4459000" />
+      <workItem from="1556575085238" duration="717000" />
+      <workItem from="1556645738610" duration="2041000" />
+      <workItem from="1556667456578" duration="417000" />
+      <workItem from="1556668483250" duration="98000" />
+      <workItem from="1556676440663" duration="9115000" />
+<<<<<<< HEAD
+      <workItem from="1561674041792" duration="2675000" />
+      <workItem from="1561678051613" duration="5346000" />
+      <workItem from="1561782964622" duration="1303000" />
+      <workItem from="1561841153066" duration="4177000" />
+      <workItem from="1562879173036" duration="79000" />
+      <workItem from="1562879312744" duration="2495000" />
+      <workItem from="1562887316162" duration="4233000" />
+      <workItem from="1563056829443" duration="13149000" />
+      <workItem from="1563229942816" duration="150000" />
+      <workItem from="1563488522625" duration="530000" />
+      <workItem from="1563489314968" duration="3074000" />
+=======
+      <workItem from="1563466098031" duration="1674000" />
+<<<<<<< HEAD
+      <workItem from="1563487284219" duration="9740000" />
+      <workItem from="1563552726420" duration="16250000" />
+      <workItem from="1563583064775" duration="1166000" />
+      <workItem from="1563658170997" duration="3134000" />
+      <workItem from="1563726772854" duration="8339000" />
+      <workItem from="1563826323989" duration="11001000" />
+      <workItem from="1564063520963" duration="10269000" />
+<<<<<<< HEAD
+      <workItem from="1564156962077" duration="6016000" />
+      <workItem from="1564331632122" duration="1003000" />
+      <workItem from="1565289682777" duration="266000" />
+      <workItem from="1565289952741" duration="163000" />
+      <workItem from="1565290212448" duration="99000" />
+      <workItem from="1565290354438" duration="316000" />
+      <workItem from="1565297282343" duration="495000" />
+      <workItem from="1565317175438" duration="50000" />
+      <workItem from="1565375514339" duration="590000" />
+      <workItem from="1565384211458" duration="1473000" />
+      <workItem from="1565540821453" duration="11843000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+=======
+      <workItem from="1564156962077" duration="14965000" />
+      <workItem from="1564277883179" duration="2434000" />
+      <workItem from="1564320606583" duration="17305000" />
+      <workItem from="1566321953310" duration="7126000" />
+      <workItem from="1566423065567" duration="606000" />
+      <workItem from="1566423741876" duration="474000" />
+      <workItem from="1566477260722" duration="111000" />
+      <workItem from="1566477695518" duration="419000" />
+    </task>
+=======
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+
+      <workItem from="1564063520963" duration="8449000" />
+      <workItem from="1564178126402" duration="6073000" />
+      <workItem from="1564362273773" duration="13205000" />
+      <workItem from="1564668616805" duration="7407000" />
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+=======
+      <workItem from="1563487284219" duration="4051000" />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+      <updated>1564844869690</updated>
+      <workItem from="1564844870838" duration="241000" />
+      <workItem from="1564845180759" duration="1027000" />
+      <workItem from="1564846713973" duration="9631000" />
+      <workItem from="1564950964352" duration="1251000" />
+      <workItem from="1564952259218" duration="7812000" />
+      <workItem from="1565024744945" duration="4988000" />
+      <workItem from="1565040411023" duration="4215000" />
+      <workItem from="1565100440610" duration="9311000" />
+      <workItem from="1565210320383" duration="617000" />
+      <workItem from="1565282406021" duration="8237000" />
+      <workItem from="1565300977030" duration="4787000" />
+      <workItem from="1565368200215" duration="9205000" />
+      <workItem from="1565442476678" duration="8580000" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+    </task>
+    <servers />
+  </component>
+<<<<<<< HEAD
+=======
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="41513000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="726" height="809" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.04385965" />
+    <option name="totallyTimeSpent" value="136982000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1201" height="797" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.32352942" />
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="86127000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+<<<<<<< HEAD
+=======
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="716" height="804" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2967359" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+<<<<<<< HEAD
+=======
+=======
     <option name="totallyTimeSpent" value="4782000" />
   </component>
   <component name="ToolWindowManager">
@@ -153,6 +1232,8 @@
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.34511435" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -161,11 +1242,33 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36820084" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.7218359" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32775453" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.36717662" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.379694" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.379694" />
+=======
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.20283689" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
+=======
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2991573" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.05322129" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.36717662" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -174,28 +1277,712 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32884902" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22048193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27736133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
+=======
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+=======
+    <option name="totallyTimeSpent" value="56251000" />
+=======
+    <option name="totallyTimeSpent" value="3494000" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="762" height="797" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3375" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Message" order="0" />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.23365785" />
+<<<<<<< HEAD
+=======
+=======
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.203125" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Database Console" order="12" weight="0.36717662" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32884902" />
+<<<<<<< HEAD
+=======
+=======
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
     </layout-to-restore>
+=======
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
   </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/html/Sukhrob.html" />
+    <entry file="file://$PROJECT_DIR$/myjob/lesson1.html" />
+    <entry file="file://$PROJECT_DIR$/myjob/lesson1.php" />
+    <entry file="file://$PROJECT_DIR$/uzads/css/iphone.css" />
+    <entry file="file://$PROJECT_DIR$/myjob/file.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myjob/lessoncss.css">
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+<<<<<<< HEAD
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
+=======
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+>>>>>>> eaca0238c35807eeaef00a2195efee1e66ae2c12
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+<<<<<<< HEAD
+            <State>
+<<<<<<< HEAD
+              <option name="COLUMN_ORDER" />
+            </State>
+=======
+<<<<<<< HEAD
+            <State>
+=======
+<<<<<<< HEAD
+              <option name="COLUMN_ORDER" />
+=======
+>>>>>>> eaca0238c35807eeaef00a2195efee1e66ae2c12
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+<<<<<<< HEAD
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+=======
+              <option name="COLUMN_ORDER" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+            </State>
+=======
+            <State />
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
+          </value>
+        </entry>
+      </map>
+    </option>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+>>>>>>> eaca0238c35807eeaef00a2195efee1e66ae2c12
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+<<<<<<< HEAD
+=======
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+=======
+>>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+  </component>
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+<<<<<<< HEAD
+=======
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/while.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loops.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/condition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myitedu.php" />
+    <entry file="file://$PROJECT_DIR$/homework" />
+    <entry file="file://$PROJECT_DIR$/jontoshmatov.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend.php" />
+    <entry file="file://$PROJECT_DIR$/table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fanctions.php" />
+    <entry file="file://$PROJECT_DIR$/homework.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cases.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cookies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+    <entry file="file://$PROJECT_DIR$/while.php">
+=======
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myjavascript/index.php">
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-65">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/blank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/condition.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chase/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/calculator.png">
+=======
+    <entry file="file://$PROJECT_DIR$/cards/img/player_1.jpg">
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/img/player_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/img/player_4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/foha/while.php" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+    <entry file="file://$PROJECT_DIR$/foha/dowhile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/navbar.php" />
+    <entry file="file://$PROJECT_DIR$/myjob/logo/leftlogo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/index.php" />
+    <entry file="file://$PROJECT_DIR$/uzads/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/uzads/sukhrob/img/leftlogo.png" />
+    <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="555" selection-start-line="555" selection-end-line="577" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/sukhrob/css/sukhrob.css" />
+    <entry file="file://$PROJECT_DIR$/uzads/sukhrob/sukhrob.php" />
+    <entry file="file://$PROJECT_DIR$/javascripts/sukhrob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="7" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/sukhrob.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+
+    <entry file="file://$PROJECT_DIR$/javascripts/sukhrob.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/sisinho.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/sisinho.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+
+    <entry file="file://$PROJECT_DIR$/myphp/strings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+<<<<<<< HEAD
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monday/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-486" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hmloginform/loginform.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/umida/jon.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/umida/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascripts/age.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="31" lean-forward="true" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+=======
+          <caret line="1" selection-start-line="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hwcar/car.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hwcar/mah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/umidatemp.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/umidagui.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/MY-IT-EDUCATION.US_ How Big Are Gigabytes, Terabytes, and Petabytes_.html" />
+    <entry file="file://$PROJECT_DIR$/uzads/img/uztel.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/js/myscripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/navbar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/mypage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/tashkent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uzads/css/iphone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/airports.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/my-it-education-logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/chart.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/manhattan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/july11.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/lion.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/homework.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/new work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulya78/login page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+=======
+    <entry file="file://$PROJECT_DIR$/forms/subscribe.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <element signature="e#2223#2226#0#PHP" expanded="true" />
+            <element signature="e#2238#2241#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52054">
+          <caret line="3062" column="7" selection-start-line="3062" selection-start-column="2" selection-end-line="3062" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#110#539#0#PHP" expanded="true" />
+            <element signature="e#549#842#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms/uploadform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="75" selection-start-line="75" selection-end-line="82" selection-end-column="1" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+        </state>
+      </provider>
+=======
+    <entry file="file://$PROJECT_DIR$/cards/img/player_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+>>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/javascripts/myjavascripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="68" column="74" selection-start-line="68" selection-start-column="74" selection-end-line="68" selection-end-column="74" />
+=======
+    <entry file="file://$PROJECT_DIR$/cards/img/player_2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+<<<<<<< HEAD
+>>>>>>> f8fdc27b58afa63660ed6d8867669748052880f5
+=======
+=======
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/newyork/fabulashik/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -211,5 +1998,12 @@
         </state>
       </provider>
     </entry>
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+>>>>>>> 15a335f74536644dfdd12bfe20b38f1ff95d15f2
   </component>
+<<<<<<< HEAD
+>>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+>>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
+>>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
 </project>

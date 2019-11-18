@@ -1,0 +1,67 @@
+.myheader{
+    width: 100%;
+    background-color: #1e7fff;
+    position: relative;
+    height: 150px;
+}
+
+
+.mylogo img{
+    width: 300px;
+    float: left;
+}
+
+.mytitle{
+ float: left;
+    font-size: 50px;
+    color: #fff;
+    font-family: "Abril Fatface";
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.mymenu{
+    height: 40px;
+    width: 100%;
+    background-color: #ac252d;
+    border-bottom: 8px solid #2a87d0
+}
+
+.mylinks{
+    list-style: none;
+}
+
+.mylinks li{
+    float: left;
+    margin-left: 5px;
+    border-right:1px solid #d3d9df;
+    background-color: #7abaff;
+    height: 35px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #721c24;
+}
+
+.mylinks li:hover{
+    background-color: #6f42c1;
+    color: #fff3cd;
+    cursor: pointer;
+}
+
+body{
+    background-color: #005cbf;
+}
+
+.mytext{
+    width: 70%;
+    height: 340px;
+    background-color: #f0f0f0;
+    position: fixed;
+    left:100px;
+    top:50%;
+    overflow-x: auto;
+    overflow-y: auto;
+    scrollbar-color: red yellow;
+    border:5px solid #b5d8ff;
+}

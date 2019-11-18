@@ -1,19 +1,20 @@
 <?php
 
+    namespace Database;
+
     class database
     {
         public $con;
         public $error;
 
-        public function __construct()
+        public function __construct($dbname='dbq')
         {
             mysqli_report(MYSQLI_REPORT_STRICT);
             $servername = "127.0.0.1";
             $username = "root";
             $password = "";
-            $dbname = "dbq";
             try {
-                $this->con = new mysqli($servername, $username, $password, $dbname);
+                $this->con = new \mysqli($servername, $username, $password, $dbname);
             }catch(Exception $e) {
                 $this->error = $e->getMessage();
             }
@@ -41,6 +42,9 @@
            }
             $con = $this->connect();
             $result = $con->query($sql);
+            if(!isset($result->num_rows)){
+                return [];
+            }
             if ($result->num_rows == 0) {
                 $result = null;
                 return [];
@@ -61,4 +65,4 @@
             }
         }
     }
-    $db = new database();
+    //$db = new database();
