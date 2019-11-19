@@ -22,7 +22,7 @@
             <button class="btn btn-success">Logout</button>
         </div>
         <div class="bottomdiv">
-            <div style="height: 100px"></div>
+            <div id="mybox" style="height: 100px"></div>
 
             <form method="get" action="form.php">
                 <table>
@@ -83,9 +83,15 @@
     </div>
 
 </div>
-
-
 <style>
+.jon {
+    color: #ffea4a;
+    text-align: right;
+}
+    hr{
+        background-color: #dcf1ff;
+        color: #dcf1ff;
+    }
 
     .myalerts span{
         background-color: red;
@@ -153,5 +159,48 @@
         color: #ffcf57;
     }
 </style>
+
+<script>
+    /*
+        if (ask == 'Good'){
+            alert("It is so nice to hear that you are good");
+            var ask = prompt("What are you doing later tonight?");
+            if (ask == 'nothing much'){
+                alert('Maybe, we should grab a cup of coffee');
+            }else{
+                alert("ohhh, too bad I was gonna ask you out");
+            }
+        }else{
+            alert("My bad, I hope the rest oyour day will go better");
+        }
+
+        /*
+    var name = prompt("What is your name?");
+    if (name!='') {
+    document.getElementById('mybox').innerHTML = "<div class='jon'>Hello "+name+"!</div>";
+    }else{
+    document.getElementById('mybox').innerHTML = "<div class='jon'>Hello World!</div>";
+    }
+
+
+    console.log("This is a message displayed only for developers");
+    console.error("The user did not enter his/her true name");
+    console.warn("Be sure to delete these console messages when you are done");
+    */
+
+    //var and let
+
+    var name = 'Asror';
+    var age = 21;
+    var city = 'New York';
+    var degree = 'BA';
+    var biografy ='hgsdajhfdslhfjsdhvbcjhdsgfhefJhvdsjavgfadshgfjadhsgvfjhdgshfs  vcsJ   uhgfiudgfi Ugiu';
+    document.writeln(""+name+" is "+age+" years old and he is from "+city+" and he has earned his "+degree+"");
+
+
+
+
+
+</script>
 </body>
 </html>
