@@ -10,6 +10,8 @@ class Artists
     private $db;
     public $results;
     public $parms;
+    public $albumids;
+    public $songs;
 
     public function __construct()
     {
@@ -29,13 +31,24 @@ class Artists
     {
         $albums = $this->db->sql("SELECT * FROM albums order by AlbumId desc");
         $myalbums = [];
-        foreach ($albums as $album) {
+        foreach ($albums as $num=>$album) {
+            $this->albumids[] = $album['AlbumId'];
             $myalbums[$album['ArtistId']][] = [
                 'id' => $album['AlbumId'],
-                'album' => $album['album_name']
+                'album' => $album['album_name'],
             ];
         }
         return $myalbums;
+    }
+
+    public function getSongs()
+    {
+        $ids = array_values($this->albumids);
+        $ids = implode(',',$ids);
+        $songs = $this->db->sql("select * from songs where albumId in ($ids);");
+        foreach ($songs as $id=>$song){
+            $this->songs[$song['albumId']][] = $song;
+        }
     }
 
 }
@@ -43,8 +56,7 @@ class Artists
 $obj = new Artists();
 $artists = $obj->getArtists();
 $albums = $obj->getAlbums();
-
-
+$obj->getSongs();
 ?>
 <!doctype html>
 <html lang="en">
@@ -56,8 +68,19 @@ $albums = $obj->getAlbums();
     <title>Top Songs Artists</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <script src="../js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body>
+
+<div id="mymodal">
+    <?php
+    if (isset($_GET['albumid'])) {
+        $albumid = (int)$_GET['albumid'] ?? null;
+        include_once 'modal.php';
+    }
+    ?>
+</div>
+
 <div class="container-fluid">
     <h3 style="text-align: center">Songs Artists</h3>
 
@@ -73,12 +96,10 @@ $albums = $obj->getAlbums();
             </p>
         </form>
     </div>
-
-
     <table class="table table-bordered mytable1">
         <tr>
             <td>ID</td>
-            <td>Artists Name</td>
+            <td>Artist Name</td>
         </tr>
 
         <?php
@@ -94,6 +115,10 @@ $albums = $obj->getAlbums();
                 <tr class="myrows2" id="myrows2_<?= $id ?>">
                     <td colspan="2">
                         <table class="table table-bordered mytable2">
+                            <tr>
+                                <td>ID</td>
+                                <td>Album Name</td>
+                            </tr>
                             <?php
                             $albomlarim = $albums[$artist['ArtistId']];
 
@@ -103,7 +128,8 @@ $albums = $obj->getAlbums();
                                     <tr>
                                         <td><?=$myalbums['id'];?></td>
                                         <td>
-                                            <a target="_blank" href="https://www.youtube.com/results?search_query=<?=urldecode($myalbums['album'])?>"><?=$myalbums['album'];?></a>
+                                            <!-- Button trigger modal -->
+                                            <a href="/music/?albumid=<?=$myalbums['id']?>"><?=$myalbums['album'];?></a>
                                         </td>
                                     </tr>
                                     <?php
@@ -169,6 +195,11 @@ $albums = $obj->getAlbums();
             $("#myrows2_" + id).toggle();
 
         });
+
+            $('[data-albumid]').click(function(){
+                var albumid = $(this).data('albumid');
+                alert("ALbum ID: "+albumid);
+            });
     })
 </script>
 
