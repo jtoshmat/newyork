@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="8b8bae7c-99c9-4e8b-a1ce-89457fb062bd" name="Default" comment="">
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -125,6 +126,9 @@
 
       <change afterPath="$PROJECT_DIR$/myphp/strings.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/backend.php" afterDir="false" />
+=======
+    <list default="true" id="a8169e12-4ee4-4ed1-954e-6d496e67543c" name="Default Changelist" comment="">
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/1A82E7FC-61D5-4D52-B522-C70383DE0229.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/2d.JPG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/3d.JPG" afterDir="false" />
@@ -133,7 +137,10 @@
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_2537.JPG" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_3869.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/IMG_5390 2.jpg" afterDir="false" />
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/back.png" afterDir="false" />
+=======
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/backphoto.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/bckphoto.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/cat.jpg" afterDir="false" />
@@ -150,6 +157,7 @@
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/img/tweezer.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/index.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/newyork/fabulashik/style.css" afterDir="false" />
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/umida/jon.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend.php" afterDir="false" />
@@ -205,9 +213,13 @@
       <change beforePath="$PROJECT_DIR$/muhamad1999/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/muhamad1999/index.php" afterDir="false" />
 >>>>>>> 9bc7540618c1a4919574bb4ac3a3425797f7480f
 >>>>>>> 0ac62c195cf8135d963d561bb4e3be1fb4bc3c19
+<<<<<<< HEAD
+=======
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
+=======
 >>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+>>>>>>> 9ec68d092091a9aa8832ece869ad861ad5dd8d46
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -248,6 +260,7 @@
 =======
 >>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -299,12 +312,22 @@
             <state relative-caret-position="45">
               <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="552">
+              <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
             </state>
           </provider>
         </entry>
       </file>
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/javascripts/sisinho.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -398,6 +421,12 @@
             <state relative-caret-position="165">
               <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+        <entry file="file://$PROJECT_DIR$/newyork/fabulashik/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="191" column="40" lean-forward="true" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
             </state>
           </provider>
         </entry>
@@ -409,6 +438,7 @@
 >>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
 >>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -446,10 +476,23 @@
 =======
       </list>
     </option>
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;label</find>
+      <find>&lt;/label&gt;</find>
+      <find>collapse</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;div class=&quot;mylabel&quot;&gt;&lt;label</replace>
+      <replace>&lt;div&gt;&lt;/label&gt;</replace>
+      <replace>&lt;/label&gt;&lt;div&gt;</replace>
+    </replaceStrings>
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
   </component>
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/newyork" />
   </component>
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -476,6 +519,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
 <<<<<<< HEAD
         <option value="$PROJECT_DIR$/myjob/lesson1.html" />
         <option value="$PROJECT_DIR$/myjob/lessoncss.css" />
@@ -569,8 +613,18 @@
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
   </component>
+=======
+        <option value="$PROJECT_DIR$/newyork/fabulashik/css.css" />
+        <option value="$PROJECT_DIR$/newyork/fabulashik/index.php" />
+        <option value="$PROJECT_DIR$/newyork/fabulashik/style.css" />
+      </list>
+    </option>
+  </component>
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
   <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
     <option name="y" value="23" />
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="width" value="1201" />
     <option name="height" value="797" />
@@ -583,6 +637,10 @@
     <option name="height" value="1019" />
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+    <option name="width" value="1004" />
+    <option name="height" value="797" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
   </component>
 =======
         <option value="$PROJECT_DIR$/cards/index.php" />
@@ -625,6 +683,7 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="Scope" />
 
       <pane id="Scope">
@@ -647,12 +706,22 @@
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
       <pane id="ProjectPane">
         <subPane>
+=======
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
           <expand>
             <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
+              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+<<<<<<< HEAD
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
 <<<<<<< HEAD
@@ -678,16 +747,27 @@
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
               <item name="img" type="462c0819:PsiDirectoryNode" />
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+              <item name="newyork" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="$PROJECT_DIR$" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="newyork" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fabulashik" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+      <pane id="ProjectPane" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
     </panes>
   </component>
 >>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
   <component name="PropertiesComponent">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -787,6 +867,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
+=======
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -831,6 +915,7 @@
     <configuration />
   </component>
   <component name="TaskManager">
+<<<<<<< HEAD
     <task active="true" id="Default" summary="Default task">
 <<<<<<< HEAD
       <changelist id="19fa0def-a605-4e22-86ac-93e744738814" name="Default Changelist" comment="" />
@@ -912,6 +997,8 @@
       <workItem from="1566477260722" duration="111000" />
       <workItem from="1566477695518" duration="419000" />
     </task>
+=======
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -966,6 +1053,7 @@
 =======
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="41513000" />
   </component>
   <component name="ToolWindowManager">
@@ -1003,6 +1091,15 @@
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2967359" />
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
+=======
+    <option name="totallyTimeSpent" value="4782000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="23" width="1004" height="797" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.34511435" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1021,7 +1118,11 @@
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" weight="0.32775453" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.36717662" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.379694" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20283689" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
 =======
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
@@ -1038,7 +1139,7 @@
       <window_info anchor="right" id="Database" order="3" weight="0.32884902" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27736133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22048193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1080,12 +1181,17 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.23365785" />
+=======
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.203125" />
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Database Console" order="12" weight="0.36717662" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1112,6 +1218,7 @@
 >>>>>>> c6946b19578cb9d3a4996f8c70a0b57e5eb0bf79
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67
   </component>
+<<<<<<< HEAD
 >>>>>>> def6023ad137dcfd06fef75620c3e54fbbd72cef
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1708,6 +1815,23 @@
       </provider>
     </entry>
 >>>>>>> 0a452801667e70e3eaa8ed24120b69e8a249bec3
+=======
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="77" column="1" lean-forward="true" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newyork/fabulashik/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="191" column="40" lean-forward="true" selection-start-line="191" selection-start-column="40" selection-end-line="191" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> f026f2a65732a2859fbc0c306ac2fd8971cd77ce
   </component>
 <<<<<<< HEAD
 >>>>>>> d83c6b00b6b62b51667fb9171cf585284ff9df67

@@ -1,6 +1,6 @@
 <?php
 namespace Uzbank;
-session_start(['cookie_lifetime' => 60]);
+session_start(['cookie_lifetime' => 3600]);
 use Database\database;
 
 include_once '../inc/database.php';
@@ -39,6 +39,7 @@ if (!count($account)){
 }else{
     $_SESSION['msg'] =[
         'cardholder_name' => $account[0]['cardholder_name'],
+        'cardholder_id' => $account[0]['id'],
         'error_type' => 200,
         'message' => "Your card validation is successful",
     ];
