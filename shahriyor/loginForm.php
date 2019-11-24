@@ -1,3 +1,30 @@
+<?php
+namespace Shahriyor;
+use Database\database;
+
+include_once '../inc/database.php';
+class Login{
+    protected $db;
+    public $parms;
+
+    public function __construct()
+    {
+        $this->parms = $_POST;
+        $this->db = new database();
+    }
+
+    public function verifyUser(){
+        $email = $this->parms['email'];
+        $password  = $this->parms['password'];
+        return $this->db->sql("select * from users where email='".$email."' and password='".$password."'");
+    }
+}
+
+$login = new Login();
+$result = $login->verifyUser();
+var_dump($result);
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,21 +35,21 @@
     <title>Login Form</title>
 </head>
 <body>
-
 <div class="box">
     <h2 style="text-align: center">Login</h2>
     <p style="text-align: center; opacity: 0.5; font-size: 14px">ACCESS YOUR ACCOUNT</p>
     <hr>
-    <form method="get" action="loginFormBackend-1.php">
+    <form method="post">
         <p style="font-size: 14px; margin-left: 6px">YOUR EMAIL ADDRESS:</p>
-        <input class="email" type="email" placeholder="Your email address" required="required">
+        <input class="email" type="email" placeholder="Your email address" required="required" name="email">
         <p style="font-size: 14px; margin-left: 6px">YOUR PASSWORD:</p>
-        <input class="email" type="email" placeholder="Your password" required="required">
+        <input class="email" type="password" placeholder="Your password" required="required" name="password">
+        <button class="login" type="submit">Login</button>
     </form>
-    <button class="login" type="submit">Login</button>
+
     <p style="text-align: center; text-decoration: underline; margin-top: 15px; margin-bottom: 15px"><a href="loginFormBackend-1.php">Forgot Password?</p>
     <hr>
-    <p style="text-align: center">Not yet a student?<a href="loginFormBackend-2.php">Sign up</a></p>
+    <p style="text-align: center"><a href="loginFormBackend-2.php">Not yet a student? Sign up</a></p>
 </div>
 
 
