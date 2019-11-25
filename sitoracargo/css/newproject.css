@@ -1,0 +1,37 @@
+.body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: coral;
+}
+.container {
+    width:70%;
+    margin: 0 auto;
+
+}
+#header h1 {
+    color: white;
+    font-family: sans-serif;
+    padding: 10px 0;
+}
+#navbar {
+    background-color: rgba(20, 42, 20, 0.85);
+}
+#navbar ul li {
+    list-style-type: none;
+    display: inline;
+
+}
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    display: inline-block;
+    font-family:  sans-serif;
+}
+#navbar ul li:first-child a {
+    padding-left: 0;
+} .container {
+   background-image: url("sitoracargo/img/download.jpeg");
+}
