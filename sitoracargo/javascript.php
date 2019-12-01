@@ -10,91 +10,78 @@
     <script src="../js/jquery-3.4.1.min.js"></script>
 </head>
 <body>
- <div class="container-fluid">
-     <div style="height: 50px;"></div>
-     <div id="mycalculator">
-        <table class="table">
-            <tr>
-                <td class="display" colspan="4">0</td>
-            </tr>
-            <tr>
-                <td class="operator">AC</td>
-                <td class="operator">+/-</td>
-                <td class="operator">%</td>
-                <td class="operator">÷</td>
-            </tr>
-            <tr>
-                <td class="numbers">7</td>
-                <td class="numbers">8</td>
-                <td class="numbers">9</td>
-                <td class="operator">×</td>
-            </tr>
-            <tr>
-                <td class="numbers">4</td>
-                <td class="numbers">5</td>
-                <td class="numbers">6</td>
-                <td class="operator">-</td>
-            </tr>
+<div class="container-fluid mybox">
+   <form id="myform" method="post">
+       <p>My Basic Currency Calculator to USD</p>
+       <p>
+           Currency: <input name="currency" placeholder="Enter your currency amount" type="text" id="currency_amount">
+           <select name="currency_types" id="currency_types">
+               <option value="rub">RUB</option>
+               <option value="uzs">UZS</option>
+               <option value="yen">YEN</option>
+           </select>
+           <button>Calculate</button>
+       </p>
+       <div id="myresults"></div>
 
-            <tr>
-                <td class="numbers">1</td>
-                <td class="numbers">2</td>
-                <td class="numbers">3</td>
-                <td class="operator">+</td>
-            </tr>
-            <tr>
-                <td colspan="2" class="numbers">0</td>
-                <td class="operator">.</td>
-                <td id="result">=</td>
-            </tr>
-        </table>
-     </div>
+   </form>
+</div>
 
- </div>
+<script>
+    $(function () {
+       $("#myform").submit(function () {
+           calculate();
+          return false;
+       });
+    });
+
+    function calculate() {
+        var currency_amount = $("#currency_amount").val();
+        var currency_types = $("#currency_types").val();
+        var output = '';
+        var money_type = '';
+        switch (currency_types) {
+            case 'rub':
+                output = currency_amount * 64.30;
+                money_type = 'Rossiskiy Ruble';
+                break;
+
+            case 'uzs':
+                output = currency_amount * 9491.18;
+                money_type = 'Uzbek SOM';
+                break;
+
+            case 'yen':
+                output = currency_amount * 109.48;
+                money_type = 'Japanese YEN';
+                break;
+
+            default:
+                alert("Currency type must be selected or not found");
+                break;
+        }
+        $("#myresults").html(output.toFixed(2)+" "+money_type).fadeIn('slow');
+
+    }
+
+
+</script>
+
 <style>
-
-    tr td:last-child{
-        background-color: #ec9649;
-        color: white;
+    .mybox{
+        background-color: #520006;
+        color: #ffe14a;
+        width: 500px;
+        height: 200px;
+        margin: auto;
     }
-
-    table td{
-        text-align: center;
-        font-weight: bolder;
-        font-size: 100%;
+    #myresults{
+        background-color: #f5cbcd;
+        border: 1px solid black;
+        color:black;
+        padding:5px;
+        display: none;
     }
-
-    tr:last-child td{
-        height: 70px;
-        border-bottom: 0px;
-
-
-    }
-
-    tr td:hover{
-        background-color: #cacaca;
-    }
-
-    table td{
-        border:1px solid black;
-        cursor: pointer;
-    }
-    .display{
-       font-size: 50px;
-        text-align: right;
-        background-color: #4c4c4c !important;
-        color: white;
-    }
-#mycalculator{
-    width:280px;
-    height:369px;
-    background-color: #e0e0e0;
-    border-radius: 10px;
-    border:1px solid black;
-    box-shadow: #cacaca 5px 5px 5px 5px;
-    margin: auto;
-}
 </style>
-<script src="js/scripts.js"></script>
 </body>
 </html>
