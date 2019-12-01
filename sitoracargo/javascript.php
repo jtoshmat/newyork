@@ -18,7 +18,7 @@
                 <td class="display" colspan="4">0</td>
             </tr>
             <tr>
-                <td class="operator">AC</td>
+                <td class="AC">AC</td>
                 <td class="operator">+/-</td>
                 <td class="operator">%</td>
                 <td class="operator">÷</td>
@@ -80,7 +80,7 @@
         cursor: pointer;
     }
     .display{
-       font-size: 50px;
+       font-size: 47px;
         text-align: right;
         background-color: #4c4c4c !important;
         color: white;
