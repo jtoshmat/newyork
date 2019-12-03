@@ -7,7 +7,7 @@ $(function () {
 
     $(".leftimgs").click(function () {
         var img_src = $(this).attr('src');
-        change_image_source(false, img_src);
+        change_image_source2(img_src);
     });
 });
 function images_usa(){
@@ -32,13 +32,11 @@ function images_japan(){
 }
 
 function change_image_source(img_id, img_src) {
-    if (!img_id){
-        $(".rightimgs").attr('src',img_src);
-        return false;
-    }
     if (img_id==0){
-        $(".rightimgs").attr('src',img_src);
+        change_image_source2(img_src);
     }
    $(".leftimgs").eq(img_id).attr('src',img_src);
-
+}
+function change_image_source2(img_src) {
+    $(".rightimgs").attr('src',img_src);
 }
