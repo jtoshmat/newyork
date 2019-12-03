@@ -5,21 +5,22 @@
     <title>Sitora Travel</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="css/travel.css">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="js/travel.js"></script>
 </head>
 <body>
 <div class="container-fluid">
     <div id="topheader">
         <h1 class="header1">SITORA TRAVEL</h1>
         <div class="options">
-            <button id="USA">USA</button>
-            <button id="TURKEY">TURa</button>
-            <button id="JAPAN">JAPa</button>
-            <button id="AUS">AUSt</button>
+            <img data-flag="usa" class="flags" src="img/usaflag.jpg">
+            <img data-flag="turkey" class="flags" src="img/turkeyfg.png">
+            <img data-flag="australia" class="flags" src="img/uastraliafg.jpeg">
+            <img data-flag="japan" class="flags" src="img/japanfg.jpg">
         </div>
         <div class="clearfix"></div>
     </div>
     <div class="clearfix"></div>
-
     <div id="presentation_window">
         <div class="leftwindow">
             <img alt="The image of city" title="Click on the image to display it larger" class="leftimgs" id="usimg" src="img/us.jpg">
@@ -33,10 +34,8 @@
         </div>
         <div class="clearfix"></div>
     </div>
-
-
-    <button class="button2">CALL US</button>
+    <div style="height: 60px"></div>
+    <div class="callusnow">CALL US NOW</div>
 </div>
-
 </body>
 </html>

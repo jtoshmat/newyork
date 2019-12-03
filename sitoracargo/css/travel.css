@@ -154,7 +154,29 @@ cursor: pointer;
     width:800px;
 }
 
+.flags{
+    width:38px;
+    height: 23px;
+    border:1px solid #85b1ca;
+}
+.flags:hover{
+    cursor: pointer;
+}
 
+.callusnow{
+    background-color: #510006;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 90px;
+    font-size: 40px;
+    border: 1px solid #520006;
+    box-shadow: black 5px 5px 5px 5px;
+    border-radius: 10px;
+    color: #ffd246;
+    cursor: pointer;
+}
 
 
 /*
