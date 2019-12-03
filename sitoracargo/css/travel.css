@@ -1,22 +1,36 @@
-.body1 {
+body{
     background-image: url("../img/main6.jpg");
     background-size: cover;
     margin-top: auto ;
     float: initial;
+}
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
 
-}.header1 {
-    background-color: #1636e2;
+#presentation_window{
+    width: 1320px;
+    text-align: center;
+    margin: auto;
+}
+
+#topheader{
+background-color: #0e1850;
+}
+
+.header1 {
+   /* background-color: #1636e2;*/
     color: #fffdfe;
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-     margin-top: 20px;
+    float: left;
  }
+
  .options {
-      position: center;
-     text-align: right;
-     margin-right: 10px;
-
-
+    float: right;
+     top: 10px;
+     position: relative;
  }
  #USA  {
      background-image: url("../img/usaflag.jpg");
@@ -127,7 +141,67 @@
 
 
 
+/*
+Media Queries
+ */
 
+@media (min-width: 601px) {
+    body{
+        background-image: url("../img/jpn_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url("../img/jpn_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-image: url("../img/jpn_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url("../img/uzb_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-image: url("../img/rus_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-image: url("../img/turkey.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
 
 
 
