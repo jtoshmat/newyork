@@ -1,0 +1,152 @@
+.body1 {
+    background-image: url("../img/main6.jpg");
+    background-size: cover;
+    margin-top: auto ;
+    float: initial;
+
+
+}.header1 {
+    background-color: #1636e2;
+    color: #fffdfe;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+     margin-top: 20px;
+ }
+ .options {
+      position: center;
+     text-align: right;
+     margin-right: 10px;
+
+
+ }
+ #USA  {
+     background-image: url("../img/usaflag.jpg");
+     list-style-type: none;
+     box-sizing: border-box;
+     background-size: 100% 100%;
+     border: 1px solid #202cff;
+     color: transparent;
+     user-select: none;
+     border-radius: 3px;
+     box-shadow: black 1px 1px 1px 1px;
+
+
+
+ }
+ #TURKEY {
+     background-image: url("../img/turkeyfg.png");
+     background-size: 100% 100%;
+     border: 1px solid #202cff;
+     color: transparent;
+     user-select: none;
+     border-radius: 3px;
+     box-shadow: black 1px 1px 1px 1px;
+ }
+ #JAPAN {
+     background-image: url("../img/japanfg.jpg");
+     background-size: 100% 100%;
+     border: 1px solid #202cff;
+     display: inline-block;
+     color: transparent;
+     user-select: none;
+     border-radius: 3px;
+     box-shadow: black 1px 1px 1px 1px;
+
+ }
+ #AUS {
+     background-image: url("../img/uastraliafg.jpeg");
+     background-size: 100% 100%;
+     border: 1px solid #202cff;
+     color: transparent;
+     user-select: none;
+     border-radius: 3px;
+     box-shadow: black 1px 1px 1px 1px;
+ }
+ #USA:hover {
+       cursor: pointer;
+   }
+#TURKEY:hover {
+    cursor: pointer;
+}
+#JAPAN:hover {
+    cursor: pointer;
+}
+#AUS:hover {
+    cursor: pointer;
+}
+
+.leftwindow {
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+
+
+}
+#usimg {
+    border: solid blue;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+
+}
+#usimg1 {
+    border: solid blue;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+#usimg2 {
+    border: solid blue;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+
+
+}
+.rightwindow {
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+
+#usimg3 {
+    border: solid blue;
+    position: page;
+    border-radius: 20px;
+
+}
+.button2 {
+    position: fixed;
+    left: 0;
+    top: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
