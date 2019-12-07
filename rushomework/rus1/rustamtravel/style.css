@@ -142,6 +142,12 @@ body{
     height:500px;
     width:800px;
 }
+.flags{
+    width: 50px;
+}
+.flags:hover{
+    cursor: pointer;
+}
 
 
 @media (min-width: 601px) {

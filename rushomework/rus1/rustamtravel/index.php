@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../../css/bootstrap.css">
     <script src="../../../js/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -16,10 +17,10 @@
     <div id="topheader">
         <h1 class="header1">Rustam Travel</h1>
         <div class="options">
-            <button id="USA">USA</button>
-            <button id="TURKEY">TURKEY</button>
-            <button id="UZB">UZB</button>
-            <button id="UAE">UAE</button>
+            <img data-flag="usa" class="flags" src="pics/usaflag.jpg">
+            <img data-flag="turkey" class="flags" src="pics/turkeyflag3.jpg">
+            <img data-flag="uzb" class="flags" src="pics/uzbflag1.gif">
+            <img data-flag="uae" class="flags" src="pics/uaeflag1.jpg">
         </div>
         <div class="clearfix"></div>
     </div>
