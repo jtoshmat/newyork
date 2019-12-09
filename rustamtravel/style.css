@@ -1,0 +1,140 @@
+.body1{
+    background-image: url("pics/uzb1.jpg");
+    background-size: cover;
+    margin-top: auto;
+    float: initial;
+}
+
+.header1{
+    background-color: #98aeff;
+    color: #98aeff;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    margin-top: 20px;
+}
+
+.options{
+    position: center;
+    text-align: right;
+    margin-right: 10px;
+}
+#USA{
+    background-image: url("pics/usa1.jpg");
+    list-style-type: none;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    border: 1px solid #e80707;
+    color: transparent;
+    user-select: none;
+    border-radius: 3px;
+    box-shadow: black 1px 1px 1px 1px;
+}
+
+#TURKEY{
+    background-image: url("pics/turkey1.jpg");
+    background-size: 100% 100%;
+    border: 1px solid #e80707;
+    color: transparent;
+    user-select: none;
+    border-radius: 3px;
+    box-shadow: black 1px 1px 1px 1px;
+}
+
+#UAE{
+    background-image: url("pics/usa1.jpg");
+    list-style-type: none;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+    border: 1px solid #e80707;
+    color: transparent;
+    user-select: none;
+    border-radius: 3px;
+    box-shadow: black 1px 1px 1px 1px;
+}
+
+#UZB{
+    background-image: url("pics/turkey1.jpg");
+    background-size: 100% 100%;
+    border: 1px solid #e80707;
+    color: transparent;
+    user-select: none;
+    border-radius: 3px;
+    box-shadow: black 1px 1px 1px 1px;
+}
+#USA:hover{
+    cursor: pointer;
+}
+#UAE:hover{
+    cursor: pointer;
+}
+#UZB:hover{
+    cursor: pointer;
+}
+#TURKEY:hover{
+    cursor: pointer;
+}
+.leftwindow{
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#usimg{
+    border: solid blue;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#usimg1{
+    border: solid blue;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+#usimg2{
+    border: solid blue;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.rightwindow{
+    float: right;
+    margin-top: 80px;
+    margin-right: 100px;
+}
+#usimg3{
+    border: solid blue;
+    position: page;
+    border-radius: 20px;
+}
+.button2{
+    position: fixed;
+    left: 0;
+    top 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

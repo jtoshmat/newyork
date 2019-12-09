@@ -1,0 +1,54 @@
+h1
+{
+    text-align: center;
+}
+h2
+{
+    float: left;
+}
+h3
+{
+
+    float: right;
+}
+img
+{
+
+    margin: auto;
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 5px 5px;
+    border: 3px dotted black;
+    margin: auto;
+    float: right;
+}
+.myimg{
+    margin: auto;
+    text-align: center;
+}
+.myimg2
+{
+    margin: auto;
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 5px 5px;
+    border: 3px dotted black;
+    margin: auto;
+    float: left;
+}
+.myimg3
+{
+    margin: auto;
+    width: 400px;
+    height: 340px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 5px 5px;
+    border: 3px dotted black;
+    margin: auto;
+    text-align: center;
+}

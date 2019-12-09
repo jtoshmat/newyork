@@ -7,10 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Travel</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../../../css/bootstrap.css">
-    <script src="../../../js/jquery-3.4.1.min.js"></script>
-    <script src="script.js"></script>
-
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <script src="../../js/jquery-3.4.1.min.js" type="text/javascript"></script>
+    <script src="script.js" type="text/javascript"></script>
 </head>
 <body>
 <div class="container-fluid">
