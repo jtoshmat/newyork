@@ -13,10 +13,9 @@ body{
     text-align: center;
     margin: auto;
 }
-#topheader{
+#topheader {
     background-color: blue;
 }
-
 .header1{
     /*background-color: #98aeff;*/
     color: white;
@@ -43,7 +42,7 @@ body{
 }
 
 #TURKEY{
-    background-image: url("pics/turkeyflag2.png");
+    background-image: url("pics/turkeyflag2.jpg");
     list-style-type: none;
     box-sizing: border-box;
     background-size: 100% 100%;
