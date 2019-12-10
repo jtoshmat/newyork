@@ -1,85 +1,54 @@
 <?php
-$parms = $_REQUEST;
 
-var_dump($parms);
-exit;
-?>
+function findMedianNumber($a, $b, $c)
+{
+    /*
+     * a,b,c
+     */
 
-
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Monday</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-</head>
-<body>
-
-<div class="container-fluid">
-    <div class="myad">
-    <div class="topdiv">
-
-        <p><img src="img/myheader.png"></p>
-
-    </div>
-    <div class="bottomdiv">
-        <div class="bottomleftdiv">
-            <img src="img/girlimg.png">
-        </div>
-        <div class="bottomrightdiv">
-            <img src="img/medicinimg.png">
-        </div>
-    </div>
-    </div>
-</div>
-
-
-<style>
-    .topdiv img{
-        width: 54%;
+    //a
+    if ($a>=$b && $a<=$c){
+        return $a;
     }
-    .bottomrightdiv img{
-        width: 100%;
-        height:620px;
+    if ($a<=$b && $a>=$c){
+        return $a;
     }
-    .topdiv p{
-        text-align: center;
-        font-size: 50px;
+     if ($b>=$a && $b<=$c){
+        return $b;
     }
-    .topdiv span:first-child{
-        color:black;
+    if ($b<=$a && $b>=$c){
+        return $b;
     }
-    .topdiv span:nth-child(2){
-        color: #45953a;
+ if ($c>=$a && $c<=$b){
+        return $c;
     }
-    .bottomleftdiv img{
-        width: 100%;
-    }
-    .bottomrightdiv{
-        float: right;
-        width: 34%;
-        height: 100%;
-
+    if ($c<=$a && $c>=$b){
+        return $c;
     }
 
-    .bottomleftdiv{
-        float: left;
-        width: 66%;
-        height: 100%;
-    }
 
-    .topdiv{
-        height:94px;
-    }
-    .myad{
-        width:970px;
-        height:710px;
-        margin: auto;
 
-    }
-</style>
-</body>
-</html>
+
+
+}
+
+echo "1: ";
+var_dump(1 === findMedianNumber(0, 3, 1));
+echo "<hr>";
+echo "2: ";
+var_dump(9 === findMedianNumber(10, 9, 8));
+echo "<hr>";
+echo "3: ";
+var_dump(8 === findMedianNumber(8, 8, 8));
+echo "<hr>";
+echo "4: ";
+var_dump(20 === findMedianNumber(20, 10, 30));
+echo "<hr>";
+echo "5: ";
+var_dump(99 === findMedianNumber(76, 160, 99));
+echo "<hr>";
+echo "6: ";
+var_dump(21 === findMedianNumber(21, 12, 45));
+
+
+
