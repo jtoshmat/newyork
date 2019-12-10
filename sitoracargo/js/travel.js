@@ -1,13 +1,21 @@
+var country = 'usa';
+var desc = [];
+var img_pos = '';
 $(function () {
     $(".flags").click(function () {
-        var country = $(this).data('flag');
+        country = $(this).data('flag');
         var function_name = "images_"+country;
         window[function_name]();
     })
 
     $(".leftimgs").click(function () {
         var img_src = $(this).attr('src');
+        img_pos = $(this).data('id');
         change_image_source2(img_src);
+    });
+    $(document).on("click",".btnid",function() {
+        var id = $(this).data('btnid');
+        alert(id);
     });
 });
 function images_usa(){
@@ -38,5 +46,65 @@ function change_image_source(img_id, img_src) {
    $(".leftimgs").eq(img_id).attr('src',img_src);
 }
 function change_image_source2(img_src) {
-    $(".rightimgs").attr('src',img_src);
+    $(".rightwindow").css('background-image',"url("+img_src+")");
+    $(".destination_desc").fadeIn('slow');
+    var description = dest_desc();
+   $(".destination_desc").html(description);
+}
+
+function dest_desc() {
+    var mydesc = [];
+    if (country=='usa'){
+        mydesc = {
+            'desc1':"sdfsdfsdfsdfsd <hr><img class='mediamimgs' src='https://thenypost.files.wordpress.com/2019/03/190309-nyc-bankrupt.jpg?quality=90&strip=all&w=618&h=410&crop=1'><hr>fsdfsdfsdfsdfsdfsdfsdf",
+            'desc2':"rem Ipsum  is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t",
+            'desc3':"usa -333wedwedwedwedwedwed: adfsadfsdfsdf aerfwefarem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t<br><button class='btnid' data-btnid='usa3'>Share this image</button>",
+        };
+        return returnDesc(mydesc);
+    }
+    if (country=='turkey'){
+        mydesc = {
+            'desc1':"Turkie jumhiriyatiga hush geldingiz?\n" +
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+            'desc2':"usa -222wedwedwedwedwedwed : rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t",
+            'desc3':"usa -333wedwedwedwedwedwed: adfsadfsdfsdf aerfwefarem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t",
+        };
+        return returnDesc(mydesc);
+    }
+    if (country=='australia'){
+        mydesc = {
+            'desc1':"Welcome to Ausie Land!\n" +
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+            'desc2':"usa -222wedwedwedwedwedwed : rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t",
+            'desc3':"usa -333wedwedwedwedwedwed: adfsadfsdfsdf aerfwefarem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t <br><button class='btnid' data-btnid='australia3'>Share this image</button>",
+        };
+        return returnDesc(mydesc);
+    }
+    if (country=='japan'){
+        mydesc = {
+            'desc1':"This is Japan\n" +
+                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to",
+            'desc2':"328765jhdiwdbaksdasd -222wedwedwedwedwedwed : rem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t",
+            'desc3':"jsdbnksdbfksfjb  ikasdhbfsf -333wedwedwedwedwedwed: adfsadfsdfsdf aerfwefarem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been t",
+        };
+        return returnDesc(mydesc);
+    }
+
+}
+
+function returnDesc(desc) {
+    switch (img_pos) {
+        case 1:
+            return desc.desc1;
+            break;
+        case 2:
+            return desc.desc2;
+            break;
+        case 3:
+            return desc.desc3;
+            break;
+        default:
+            return desc.desc1;
+            break;
+    }
 }

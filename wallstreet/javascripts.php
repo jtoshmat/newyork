@@ -11,42 +11,47 @@
     <script src="js/scripts.js"></script>
 </head>
 <body>
-<h1 style="text-align: center">Jon's Javascript World!</h1>
-<div class="container-fluid">
-    <div id="display" class="mybox1">
-        Box1
-    </div>
+<div id="mybox">
+    <div class="mytext">
 
-    <div class="mybox2">
-        <button id="button1">Calculate Tax</button>
-        <button id="button2">Change Something</button>
-    </div>
+        <img src="../img/background-plane.jpg">
 
+    </div>
+    <hr>
+    <button id="hideboxbutton">HIDE THE TEXT</button>
 </div>
 
 
 <style>
-    .mybox1{
+    #mybox{
         width:300px;
-        height:300px;
-        background-color: #f6f6f6;
-        border:1px solid black;
-        box-shadow: #343434 5px 5px 5px 5px;
-        border-radius: 15px;
-        margin: auto;
-        padding:5px;
-    }
-    .mybox2{
-        width:300px;
-        height:50px;
-        background-color: #cacaca;
-        border:1px solid black;
-        box-shadow: #343434 5px 5px 5px 5px;
-        border-radius: 15px;
+        height: 300px;
+        background-color: #e90007;
         margin: auto;
         text-align: center;
     }
+
+    .mytext{
+        background-color: #9ae9ff;
+    }
+
+    .mytext img{
+        width:300px;
+    }
 </style>
 
+
+<script>
+    $(function () {
+
+        $("#hideboxbutton").click(function () {
+            $( ".mytext" ).slideUp( 20000 ).delay( 20000 ).fadeIn( 20000 );
+
+
+        });
+
+
+    });
+</script>
 </body>
 </html>

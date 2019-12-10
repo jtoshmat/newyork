@@ -1,3 +1,30 @@
+.mediamimgs{
+    width: 100px;
+    border:1px solid red;
+    border-radius: 10px;
+    margin:5px;
+    cursor: move;
+}
+.boldnames{
+    background-color: red;
+    padding:3px;
+    margin: 3px;
+}
+.destination_desc{
+    background-color: #467297;
+    width: 240px;
+    height: 518px;
+    float: right;
+    overflow: auto;
+    border-left: 3px solid #a7655a;
+    opacity: 0.9;
+    color: #dadee1;
+    font-size: 14px;
+    font-family: serif;
+    display: none;
+}
+
+
 body{
     background-image: url("../img/main6.jpg");
     background-size: cover;
@@ -121,8 +148,16 @@ background-color: #0e1850;
 }
 .rightwindow {
     float: right;
-    margin-top: 80px;
+    margin-top: 63px;
     margin-right: 100px;
+    background-image: url(../img/us3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 811px;
+    height: 520px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: black 5px 5px 5px 5px;
 }
 
 #usimg3 {
