@@ -1,6 +1,7 @@
 var country = 'usa';
 var desc = [];
 var img_pos = '';
+alert('ddddddddddd');
 $(function () {
     $(".flags").click(function () {
         country = $(this).data('flag');
