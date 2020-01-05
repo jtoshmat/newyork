@@ -8,6 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-<h1>Welcome to Gulmira's Application!</h1>
+<h1>Welcome to Gulmira's Ilova!</h1>
+<h2>Bu yangi paragraf</h2>
+<h2>Hammaga Salom</h2>
 </body>
 </html>
