@@ -10,6 +10,7 @@
 <body>
 <h1>Welcome to Gulmira's Ilova!</h1>
 <h2>Bu yangi paragraf</h2>
-<h2>Hammaga Salom</h2>
+<h2>Hello Everybody!</h2>
+<h3>Bu textlarni Muhamedjon kiritdi!</h3>
 </body>
 </html>
