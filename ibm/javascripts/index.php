@@ -16,52 +16,18 @@
 
 <script>
 
-    var cars = ['Audi','Alfa','BMW','Mercedes','Acura','Honda','Audi','Toyota','Fiat','Alfa'];
+   for (var i = 0; i<1000; i++){
 
-    for(var i=0; i<cars.length; i++){
-
-        document.write("The hourse power is " + getCarsHoursePowers(cars[i]));
-        document.write(" --- ");
-
-
-        if (cars[i] == 'Alfa'){
-            document.write("<span class='myalfa'>" + cars[i] + "</span>");
-        }else if (cars[i] == 'Audi'){
-            document.write("<span class='myaudi'>" + cars[i] + "</span>");
-        }
-        else{
-            document.write(cars[i]);
-        }
-
-        document.write("<br> The price is " + getCarsPrices(cars[i]));
-        document.write(" --- ");
+       if (i%2==0){
+           document.write("EVEN NUMBER ---> ");
+       }else{
+           document.write("ODD NUMBER ---> ");
+       }
 
 
-        document.write("<hr>");
-    }
-
-
-
-    function getCarsPrices(car) {
-        if (car == 'Alfa'){
-            return 50000;
-        }else if (car == 'Audi'){
-            return 450000;
-        }else{
-            return 35000;
-        }
-    }
-
-
-    function getCarsHoursePowers(car) {
-        if (car == 'Alfa'){
-            return 505;
-        }else if (car == 'Audi'){
-            return 350;
-        }else{
-            return 250;
-        }
-    }
+       document.write(i);
+       document.write("<hr>");
+   }
 
 </script>
 
