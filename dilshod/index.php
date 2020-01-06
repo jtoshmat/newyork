@@ -1,5 +1,5 @@
-Welcome to Dilshod's Portal!
+Welcome From Dilshod's Company!
 <br>
-Hammaga Salom!
+Vsem Privet
 
 new york is beautiful
