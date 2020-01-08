@@ -13,11 +13,8 @@
             $servername = "127.0.0.1";
             $username = "root";
             $password = "";
-<<<<<<< HEAD
             $dbname = "dbq";
-            $port = 3307;
-=======
->>>>>>> 7d798a2fbc9080cc3492481d17a281021556f919
+            $port = 3306;
             try {
                 $this->con = new \mysqli($servername, $username, $password, $dbname, $port);
             }catch(Exception $e) {

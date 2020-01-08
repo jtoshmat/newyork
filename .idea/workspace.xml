@@ -2,44 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ibm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ibm.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/BADGE.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/BADGE1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/BADGE2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/BADGE3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/BADGE4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/IMG_0347.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/IMG_3692 2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/backit.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/badge photo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/badge photo4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/badge.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/bob.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/fon1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/font1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/love.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/mimi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/mishka.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/photo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/ribbon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/ribbon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/ribbon3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/save.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/save2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/save3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/save4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/umi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/umida.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/back1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/back4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/backit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/badges.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/badges/back4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/badges/backend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/badges/otabek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/farrukh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/laziz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/otabek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/oybek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/save2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/shox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/badges/wbw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fatima/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oybek/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oybek/table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/InternetExplorer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/back.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/back1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/back4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/example.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/wbw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/web1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/web2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/web3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/web5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/webb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/website.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/website.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umidochka/umisarray.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/umisarray.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umidochka/badge.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/badge.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/umidochka/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,34 +75,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/umidochka/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-              <folding>
-                <element signature="e#256#1173#0#PHP" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/umidochka/badge.php">
+        <entry file="file://$PROJECT_DIR$/fatima/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-5">
+              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/umidochka/IMG_0347.JPG">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -105,6 +90,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -119,9 +105,17 @@
         <option value="$PROJECT_DIR$/umidochka/java.js" />
         <option value="$PROJECT_DIR$/umidochka/index.js" />
         <option value="$PROJECT_DIR$/umidochka/umisarray.php" />
-        <option value="$PROJECT_DIR$/umidochka/index.php" />
         <option value="$PROJECT_DIR$/ibm.php" />
+        <option value="$PROJECT_DIR$/inc/database.php" />
+        <option value="$PROJECT_DIR$/badges/badges.php" />
         <option value="$PROJECT_DIR$/umidochka/badge.php" />
+        <option value="$PROJECT_DIR$/umidochka/index.php" />
+        <option value="$PROJECT_DIR$/badges/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/oybek/table.php" />
+        <option value="$PROJECT_DIR$/umidochka/example.php" />
+        <option value="$PROJECT_DIR$/oybek/index.php" />
+        <option value="$PROJECT_DIR$/fatima/index.html" />
       </list>
     </option>
   </component>
@@ -132,7 +126,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="708" />
+    <option name="width" value="1174" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -154,22 +148,7 @@
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="phparrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="umidochka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="wallstreet" type="462c0819:PsiDirectoryNode" />
+              <item name="fatima" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
@@ -191,7 +170,7 @@
               <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
               <item name="PHP" type="5114b859:PhpExternalLibrariesNodePatcher$PatchedLibraryNode" />
               <item name="newyork" type="462c0819:PsiDirectoryNode" />
-              <item name="umidochka" type="462c0819:PsiDirectoryNode" />
+              <item name="fatima" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,8 +201,15 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/badges" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -232,7 +218,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/badges" />
+      <recent name="$PROJECT_DIR$/umidochka" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/badges/badges" />
+      <recent name="$PROJECT_DIR$/badges" />
       <recent name="$PROJECT_DIR$/umidochka" />
       <recent name="$PROJECT_DIR$/img" />
     </key>
@@ -248,6 +240,20 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.php">
+    <configuration name="badge.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://newyork.local/umidochka/badge.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://newyork.local/oybek/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.php" />
+        <item itemvalue="JavaScript Debug.badge.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -266,18 +272,21 @@
       <workItem from="1574141775670" duration="5258000" />
       <workItem from="1574485546615" duration="8608000" />
       <workItem from="1574993998972" duration="6889000" />
-      <workItem from="1575938010412" duration="16495000" />
+      <workItem from="1575938010412" duration="32715000" />
+      <workItem from="1576555884820" duration="19268000" />
+      <workItem from="1576811261746" duration="6472000" />
+      <workItem from="1578435157771" duration="3793000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39077000" />
+    <option name="totallyTimeSpent" value="84830000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="708" height="797" extended-state="0" />
+    <frame x="0" y="23" width="1174" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3063063" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12897527" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,7 +298,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20283689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.20283689" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.36717662" />
@@ -297,7 +306,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32697946" />
-      <window_info anchor="right" id="Remote Host" order="4" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.3280116" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22048193" />
@@ -347,13 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/umidochka/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phparrays/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -380,9 +382,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/umidochka/umida.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/umidochka/badge photo2.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -417,27 +416,92 @@
     <entry file="file://$PROJECT_DIR$/umidochka/mimi.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/umidochka/IMG_0347.JPG">
+    <entry file="file://$PROJECT_DIR$/badges/badges/asror.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/umidochka/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        <state relative-caret-position="3165">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
           <folding>
             <element signature="e#256#1173#0#PHP" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/umidochka/umida.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/umidochka/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oybek/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oybek/table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/umidochka/IMG_0347.JPG">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/umidochka/example.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/badges/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="111" column="19" selection-start-line="111" selection-start-column="19" selection-end-line="111" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/badges/badges.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/umidochka/badge.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="182" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fatima/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>

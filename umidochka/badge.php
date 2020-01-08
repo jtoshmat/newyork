@@ -19,7 +19,113 @@
 </div>
 </div>
 
+<div class="box2">
+    <div class="mybadge2">
+        <img class="myimg" src="logo.png">
+        <ul class="mylist ul">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+            <li>Wordpress</li>
+
+        </ul>
+        <ul class="mylist2 ul">
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>AWS</li>
+            <li>Linux</li>
+            <li>Laravel</li>
+            <li>API</li>
+        </ul>
+        <div class="footer">
+            <div style="height: 275px"></div>
+            <table class="table mytable">
+                <tr>
+                    <td>
+                        <img class="icon" src="wbw.png">
+                    </td>
+                    <td>
+                        my-it-education.us
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="icon" src="email.png">
+                    </td>
+                    <td>
+                        umida@my-it-education.us
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="icon" src="home.png">
+                    </td>
+                    <td>
+                        1868 Burnett Street, Brooklyn, NY 11229
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
+
 <style>
+    td{
+        color: #c3811f;
+        font-family: "Times New Roman";
+        font-style: inherit;
+    }
+
+    td:first-child{
+        width:31px;
+        padding-right: 8px;
+    }
+
+    .mytable td{
+        text-align: left;
+    }
+
+    .mytable{
+        width:100%;
+        margin: auto;
+    }
+
+    .icon{
+        width:30px;
+        height: 24px;
+        margin-left: 20px;
+    }
+
+
+
+    .mylist{
+        width: 90px;
+        float: left;
+        margin-left: 100px;
+    }
+    .mylist2{
+        float: left;
+    }
+    .ul{
+        color: #0f2e41;
+        size: 40px;
+        margin-top: 30px;
+    }
+
+    .mybadge2{
+        width: 350px;
+        height: 500px;
+        text-align: center;
+        border: 4px solid #c7841f;
+        margin-top: 30px;
+        margin-left: 200px;
+        background-image: url("back1.jpg");
+        background-size: 100% 100%;
+
+    }
 
     .title1{
         font-size: 21px !important;
@@ -55,9 +161,7 @@
         width: 70%;
         margin-top: 1px;
     }
-    body{
-        background-color: #7abaff;
-    }
+
     .mybadge{
         background-image: url("save2.jpg");
         background-color: #70a5ff;
