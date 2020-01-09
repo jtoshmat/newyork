@@ -479,7 +479,7 @@ $(function () {
       .on('inserted.bs.tooltip', function () {
         var $tooltip = $($(this).data('bs.tooltip').tip)
         assert.ok($tooltip.hasClass('bs-tooltip-right'))
-        assert.ok(typeof $tooltip.attr('style') === 'undefined')
+        assert.ok(typeof $tooltip.attr('rusjquery.calculator.style') === 'undefined')
         $styles.remove()
         done()
       })

@@ -51,7 +51,7 @@ $(function () {
 
     $el.one('shown.bs.collapse', function () {
       assert.ok($el.hasClass('show'), 'has class "show"')
-      assert.ok(!/height/i.test($el.attr('style')), 'has height reset')
+      assert.ok(!/height/i.test($el.attr('rusjquery.calculator.style')), 'has height reset')
       done()
     }).bootstrapCollapse('show')
   })
@@ -64,11 +64,11 @@ $(function () {
     var $el2 = $('<div class="collapse multi"/>').appendTo('#qunit-fixture')
     $el.one('shown.bs.collapse', function () {
       assert.ok($el.hasClass('show'), 'has class "show"')
-      assert.ok(!/height/i.test($el.attr('style')), 'has height reset')
+      assert.ok(!/height/i.test($el.attr('rusjquery.calculator.style')), 'has height reset')
     })
     $el2.one('shown.bs.collapse', function () {
       assert.ok($el2.hasClass('show'), 'has class "show"')
-      assert.ok(!/height/i.test($el2.attr('style')), 'has height reset')
+      assert.ok(!/height/i.test($el2.attr('rusjquery.calculator.style')), 'has height reset')
       done()
     })
     $target.trigger('click')

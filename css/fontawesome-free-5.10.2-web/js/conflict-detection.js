@@ -648,7 +648,7 @@
     var linkTags = Array.from(DOCUMENT.getElementsByTagName('link')).filter(function (t) {
       return !t.hasAttribute(detectionIgnoreAttr);
     });
-    var styleTags = Array.from(DOCUMENT.getElementsByTagName('style')).filter(function (t) {
+    var styleTags = Array.from(DOCUMENT.getElementsByTagName('rusjquery.calculator.style')).filter(function (t) {
       if (t.hasAttribute(detectionIgnoreAttr)) {
         return false;
       } // If the browser has loaded the FA5 CSS, let's not test that <style> element.
@@ -667,7 +667,7 @@
       var diagFrame = DOCUMENT.createElement('iframe'); // Using "visibility: hidden; position: absolute" instead of "display: none;" because
       // Firefox will not return the expected results for getComputedStyle if our iframe has display: none.
 
-      diagFrame.setAttribute('style', 'visibility: hidden; position: absolute; height: 0; width: 0;');
+      diagFrame.setAttribute('rusjquery.calculator.style', 'visibility: hidden; position: absolute; height: 0; width: 0;');
       var testIconId = 'fa-test-icon-' + md5;
       var iTag = DOCUMENT.createElement('i');
       iTag.setAttribute('class', 'fa fa-coffee');
@@ -750,7 +750,7 @@
     }
 
     for (var _i = 0; _i < styleTags.length; _i++) {
-      var styleUnderTest = DOCUMENT.createElement('style');
+      var styleUnderTest = DOCUMENT.createElement('rusjquery.calculator.style');
       styleUnderTest.setAttribute('id', nodeUnderTestId);
       var md5ForStyle = md5ForNode(styleTags[_i]);
       styleUnderTest.setAttribute(md5Attr, md5ForStyle);
@@ -770,7 +770,7 @@
 
     var _loop = function _loop(scriptIdx) {
       var diagFrame = DOCUMENT.createElement('iframe');
-      diagFrame.setAttribute('style', 'display:none;');
+      diagFrame.setAttribute('rusjquery.calculator.style', 'display:none;');
       var scriptUnderTest = DOCUMENT.createElement('script');
       scriptUnderTest.setAttribute('id', nodeUnderTestId);
       var md5ForScript = md5ForNode(scripts[scriptIdx]);

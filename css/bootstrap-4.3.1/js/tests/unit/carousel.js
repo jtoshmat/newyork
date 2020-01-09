@@ -975,7 +975,7 @@ $(function () {
       assert.ok($firstItem.hasClass('active'))
       $html
         .bootstrapCarousel('dispose')
-        .attr('style', 'visibility: hidden;')
+        .attr('rusjquery.calculator.style', 'visibility: hidden;')
         .bootstrapCarousel()
 
       setTimeout(function () {
@@ -1014,7 +1014,7 @@ $(function () {
     setTimeout(function () {
       assert.ok($firstItem.hasClass('active'))
       $carousel.bootstrapCarousel('dispose')
-      $parent.attr('style', 'visibility: hidden;')
+      $parent.attr('rusjquery.calculator.style', 'visibility: hidden;')
       $carousel.bootstrapCarousel()
 
       setTimeout(function () {

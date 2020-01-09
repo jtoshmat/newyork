@@ -394,7 +394,7 @@ $(function () {
       .on('hidden.bs.modal', function () {
         var currentPadding = $body.css('padding-right')
         assert.strictEqual(currentPadding, originalPadding, 'body padding should be reset after closing')
-        $body.removeAttr('style')
+        $body.removeAttr('rusjquery.calculator.style')
         done()
       })
       .on('shown.bs.modal', function () {
@@ -416,7 +416,7 @@ $(function () {
     $('<div id="modal-test"/>')
       .on('hidden.bs.modal', function () {
         assert.strictEqual(typeof $body.data('padding-right'), 'undefined', 'data-padding-right should be cleared after closing')
-        $body.removeAttr('style')
+        $body.removeAttr('rusjquery.calculator.style')
         done()
       })
       .on('shown.bs.modal', function () {
@@ -542,7 +542,7 @@ $(function () {
 
     $('<div id="modal-test"/>')
       .on('hidden.bs.modal', function () {
-        assert.strictEqual($body.attr('style').indexOf('padding-right'), -1, 'body does not have inline padding set')
+        assert.strictEqual($body.attr('rusjquery.calculator.style').indexOf('padding-right'), -1, 'body does not have inline padding set')
         $style.remove()
         done()
       })
@@ -564,7 +564,7 @@ $(function () {
       .on('hidden.bs.modal', function () {
         assert.strictEqual($body[0].style.paddingRight, '', 'body does not have inline padding set')
         assert.strictEqual($body[0].style.color, 'red', 'body still has other inline styles set')
-        $body.removeAttr('style')
+        $body.removeAttr('rusjquery.calculator.style')
         $style.remove()
         done()
       })
@@ -584,7 +584,7 @@ $(function () {
     $('<div id="modal-test"/>')
       .on('hidden.bs.modal', function () {
         assert.strictEqual($body[0].style.paddingRight, '5%', 'body does not have inline padding set')
-        $body.removeAttr('style')
+        $body.removeAttr('rusjquery.calculator.style')
         done()
       })
       .on('shown.bs.modal', function () {

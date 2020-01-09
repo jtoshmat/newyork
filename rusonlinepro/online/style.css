@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900');
+body
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.center
+{
+    position: relative;
+    width: 400px;
+    transform: rotate(0deg) skew(0deg);
+}
+.center div
+{
+    position: relative;
+    background: #000;
+    height: 100px;
+    margin: -30px 0;
+    z-index: 2;
+    transform: skewY(-5deg);
+    background: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center div:nth-child(2),
+.center div:nth-child(4)
+{
+    transform: skewY(14.5deg);
+    background: #ccc;
+    z-index: 1;
+}
+.center div:nth-child(4)
+{
+    transform: skewY(25deg);
+    transform-origin: left;
+    top: -52px;
+}
+.center div:before
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.center div:nth-child(1):before,
+.center div:nth-child(3):before
+{
+    background: linear-gradient(-160deg,#ff0058,#673AB7);
+    transform: scaleX(0)
+}
+.center div:nth-child(2):before,
+.center div:nth-child(4):before
+{
+    background: linear-gradient(-20deg,#ff0058,#38009c);
+    transform: scaleX(0)
+}
+.center div:nth-child(1):before
+{
+    animation: animate 1s linear forwards;
+    animation-delay: 12s;
+    transform-origin: right;
+    border-top-right-radius: 10px;
+    border-top-bottom-radius: 10px;
+}
+.center div:nth-child(2):before
+{
+    animation: animate 1s linear forwards;
+    animation-delay: 13s;
+    transform-origin: left;
+}
+.center div:nth-child(3):before
+{
+    animation: animate 1s linear forwards;
+    animation-delay: 14s;
+    transform-origin: right;
+}
+.center div:nth-child(4):before
+{
+    animation: animate 1s linear forwards;
+    animation-delay: 15s;
+    transform-origin: left;
+    border-top-right-radius: 10px;
+    width: 60%;
+    left: 0;
+}
+.center div:nth-child(1):after,
+.center div:nth-child(3):after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255,255,255,.2);
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: scaleX(0);
+    }
+    100%
+    {
+        transform: scaleX(1);
+    }
+}
+.center div h2
+{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    z-index: 10;
+    opacity: 0;
+    color: #fff;
+}
+.center div:nth-child(1) h2
+{
+    animation: fade 0.5s linear forwards;
+    animation-delay: 13s;
+    font-size: 40px;
+    color: #fff;
+}
+.center div:nth-child(3) h2
+{
+    animation: fade 0.5s linear forwards;
+    animation-delay: 15s;
+    font-size: 90px;
+    font-weight: 800;
+}
+@keyframes fade
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+.loading
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeOut 11s linear forwards;
+}
+@keyframes fadeOut
+{
+    0%,91%
+    {
+        opacity: 1;
+        visibility: visible;
+    }
+    100%
+    {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.loading h2
+{
+    color: #000;
+}
+.bar
+{
+    position: relative;
+    width: 400px;
+    height: 40px;
+    background: transparent;
+    margin: 0 20px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+.bar:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleX(0.5);
+    background: #000;
+    transform-origin: left;
+    animation: animate 10s linear forwards;
+}
+.bar:after
+{
+    content: 'Loading...';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    font-size: 20px;
+    mix-blend-mode: difference;
+}

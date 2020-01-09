@@ -745,7 +745,7 @@ $(function () {
     $triggerDropdown
       .parent('.dropdown')
       .on('shown.bs.dropdown', function () {
-        assert.ok(typeof $dropdownMenu.attr('style') === 'undefined', 'No inline style applied by Popper.js')
+        assert.ok(typeof $dropdownMenu.attr('rusjquery.calculator.style') === 'undefined', 'No inline style applied by Popper.js')
         done()
       })
     $triggerDropdown.trigger($.Event('click'))

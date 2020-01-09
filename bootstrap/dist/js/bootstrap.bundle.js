@@ -2326,7 +2326,7 @@
    * @argument {Array} arr
    * @argument prop
    * @argument value
-   * @returns rushomework.calendar1.index or -1
+   * @returns rusjquery.calculator.index or -1
    */
   function find(arr, check) {
     // use native find if supported
@@ -2345,7 +2345,7 @@
    * @argument {Array} arr
    * @argument prop
    * @argument value
-   * @returns rushomework.calendar1.index or -1
+   * @returns rusjquery.calculator.index or -1
    */
   function findIndex(arr, prop, value) {
     // use native findIndex if supported

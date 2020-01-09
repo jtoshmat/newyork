@@ -2532,7 +2532,7 @@
       return;
     }
 
-    var style = DOCUMENT.createElement('style');
+    var style = DOCUMENT.createElement('rusjquery.calculator.style');
     style.setAttribute('type', 'text/css');
     style.innerHTML = css;
     var headChildren = DOCUMENT.head.childNodes;
@@ -2757,7 +2757,7 @@
     var styleString = joinStyles(styles);
 
     if (styleString.length > 0) {
-      attributes['style'] = styleString;
+      attributes['rusjquery.calculator.style'] = styleString;
     }
 
     if (transformIsMeaningful(transform)) {
@@ -2804,7 +2804,7 @@
         x: width / height / 2,
         y: 0.5
       };
-      attributes['style'] = joinStyles(_objectSpread({}, styles, {
+      attributes['rusjquery.calculator.style'] = joinStyles(_objectSpread({}, styles, {
         'transform-origin': "".concat(offset.x + transform.x / 16, "em ").concat(offset.y + transform.y / 16, "em")
       }));
     }
@@ -2941,7 +2941,7 @@
     var styleString = joinStyles(styles);
 
     if (styleString.length > 0) {
-      attributes['style'] = styleString;
+      attributes['rusjquery.calculator.style'] = styleString;
     }
 
     var val = [];
@@ -2977,7 +2977,7 @@
     var styleString = joinStyles(extra.styles);
 
     if (styleString.length > 0) {
-      attributes['style'] = styleString;
+      attributes['rusjquery.calculator.style'] = styleString;
     }
 
     var val = [];
@@ -3384,7 +3384,7 @@
   }
 
   function styleParser (node) {
-    var style = node.getAttribute('style');
+    var style = node.getAttribute('rusjquery.calculator.style');
     var val = [];
 
     if (style) {
@@ -3503,7 +3503,7 @@
 
   function attributesParser (node) {
     var extraAttributes = toArray(node.attributes).reduce(function (acc, attr) {
-      if (acc.name !== 'class' && acc.name !== 'style') {
+      if (acc.name !== 'class' && acc.name !== 'rusjquery.calculator.style') {
         acc[attr.name] = attr.value;
       }
 

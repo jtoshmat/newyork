@@ -256,7 +256,7 @@ $img = $cars[$selected]['img'];
     $(function () {
         $(".caricons").click(function () {
            var car =  $(this).attr('data-car');
-           document.location = "rushomework.calendar1.index.php?car="+car;
+           document.location = "rusjquery.calculator.index.php?car="+car;
         });
     })
 </script>
