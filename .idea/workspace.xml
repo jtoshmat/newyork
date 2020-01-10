@@ -2,123 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alimovich/img/cars.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alimovich/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/barno/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/barno/monday.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/applicationform.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/img/formbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forms/img/formbg.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/tricks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/airports.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/dells.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/img/cabin1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/img/cabin2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/img/dells1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/img/dells2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/img/doorwithlocks.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/img/html_form.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/img/route66.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/img/route66b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/javascripts/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/javascripts/myscripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/kish.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm/table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jontoshmatov/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mukhlissa/css.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mukhlissa/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mukhlissa/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mukhlissa/mybootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mukhlissa/table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/Shakhriyor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/foreach.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/Honda_car.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/Interface_practice.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/interface_practice_backend.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/loginForm.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/loginFormBackend-1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/loginFormBackend-2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/myApi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/php_family_car.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/php_functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shahriyor/php_math.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/css/newproject.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/css/travel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/currency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/currency1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/hello.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/aus.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/aus1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/aus2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/aus3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/aus4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/car.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/download.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/japan.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/japan1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/japan2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/japan3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/japan4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/japanfg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/jpn_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/main2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/main3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/main4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/main5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/main6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/rus_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/turkey.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/turkey1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/turkey2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/turkey3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/turkey4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/turkeyfg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/uastraliafg.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/us.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/us1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/us2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/us3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/us4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/usaflag.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/usimg5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/img/uzb_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/javascript.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/js/jsexpert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/js/myjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/js/scripts2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/js/travel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/jsexpert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/lessondec1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/lessondec1b.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/new.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/newproject.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/nov17.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/thursday.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitoracargo/travel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/table/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallstreet/img/0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallstreet/img/lenta.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallstreet/img/travel_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallstreet/javascripts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallstreet/jontoshmatov.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallstreet/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallstreet/travel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wallstreet/tuesday.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculators/basic.php" beforeDir="false" afterPath="$PROJECT_DIR$/calculators/basic.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cards/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/cards/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework2.php" beforeDir="false" afterPath="$PROJECT_DIR$/homework2.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/music/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/modal.php" beforeDir="false" afterPath="$PROJECT_DIR$/music/modal.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sitoracargo/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sitoracargo/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallstreet/form.php" beforeDir="false" afterPath="$PROJECT_DIR$/wallstreet/form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wallstreet/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wallstreet/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jontoshmatov/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/jontoshmatov/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -151,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jontoshmatov/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="482">
+              <caret line="58" column="7" selection-start-line="58" selection-end-line="58" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -200,7 +85,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1174" />
+    <option name="width" value="790" />
     <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -212,6 +97,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="newyork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="newyork" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -234,7 +130,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,16 +211,18 @@
       <workItem from="1578613113253" duration="4000" />
       <workItem from="1578613219215" duration="2000" />
       <workItem from="1578613251803" duration="4000" />
+      <workItem from="1578685212983" duration="1357000" />
+      <workItem from="1578693132906" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86415000" />
+    <option name="totallyTimeSpent" value="87778000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1174" height="797" extended-state="0" />
+    <frame x="0" y="23" width="790" height="797" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1360424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.094919786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -546,8 +443,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jontoshmatov/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="482">
+          <caret line="58" column="7" selection-start-line="58" selection-end-line="58" selection-end-column="7" />
         </state>
       </provider>
     </entry>
