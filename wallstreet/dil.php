@@ -5,19 +5,17 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form</title>
-    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
-
+    <title>Dilafruz</title>
+    <script src="js/scripts.js"></script>
 </head>
 <body>
 
-<div class="container-fluid">
-    <div>
-        var
-    </div>
+var name =" Bob";
+var age = "25";
+var mylocation = "BROOKLYN";
+var hobby = "DRAWING";
+alert ( name + " " + age + " " + mylocation + " " + " " );
 
-</div>
 
 </body>
 </html>
-

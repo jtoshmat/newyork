@@ -23,8 +23,13 @@
             </tr>
             <tr>
                 <td>1</td>
+<<<<<<< HEAD
                 <td>Mercedes</td>
                 <td>C300</td>
+=======
+                <td>BMW</td>
+                <td>M6</td>
+>>>>>>> 49d6e2b91d33dbdaeffc1a9b99f1becde38b2551
             </tr>
             <tr>
                 <td>2</td>
@@ -54,10 +59,17 @@
 <script>
     $(function () {
         $("#turnon").click(function () {
+<<<<<<< HEAD
            $("#lightbulb").attr('src','../img/lightbulbon.png');
         });
         $("#turnoff").click(function () {
             $("#lightbulb").attr('src','../img/lightbulboff.png');
+=======
+           $("#rightwindow img").attr('src','../img/lightbulbon.png');
+        });
+        $("#turnoff").click(function () {
+            $("#rightwindow img").attr('src','../img/lightbulboff.png');
+>>>>>>> 49d6e2b91d33dbdaeffc1a9b99f1becde38b2551
         });
     });
 </script>
