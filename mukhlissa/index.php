@@ -6,6 +6,10 @@
 </head>
 <body>
 
+<img id="mountain_image" src="img/mountain.jpg">
+
+
+
 <p>To do list</p>
 <ol>
     <li>Go to grocery shopping</li>
@@ -67,6 +71,13 @@ wefwefwefwefwef11
     <button>SUBMIT</button>
 </a>
 
+<style>
+    #mountain_image{
+        width:300px;
+        border:5px solid #ff1b31;
+
+    }
+</style>
 
 </body>
 </html>

@@ -31,13 +31,11 @@
     // });
     function stackMakeDeck(n) {
 
-<<<<<<< HEAD
         var ranks = new Array("A", "2", "3", "4", "5", "6", "7", "8", "9",
             "10", "J", "Q", "K");
         var suits = new Array("C", "D", "H", "S");
         var i, j, k;
         var m;
-=======
     $(function () {
         $('#btn_shuffle').click(function () {
             playAudio();
@@ -46,7 +44,6 @@
 
         });
     });
->>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
 
         m = ranks.length * suits.length;
 
@@ -198,11 +195,9 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 0a2188acf675d030a9476bb771c7e43924ab1b18
+
     }
 
     .stackofcards{
