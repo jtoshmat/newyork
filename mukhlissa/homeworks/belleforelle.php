@@ -72,6 +72,28 @@
 
 
     </div>
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators>
+        <li class="data-target="mycarousel" data-slide-to="0"class="active"></ol>
+        <li class="data-target="mycarousel" data-slide-to="1"></li>
+        <li class="data-target="mycarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+        <div class="item active">
+        <img src="../img/updo1.jpg">
+        </div>
+        <div class="item">
+        <img src="../img/updo2.jpg">
+        </div>
+        <div class="item">
+        <img src="../img/updo3.jpg">
+        </div>
+        <div class="item"
+        <img src="../img/updo4.jpg"
+        </div>
+
+        </div>
+    </div>
 </div>
 <style>
     body{
