@@ -96,7 +96,7 @@
       </div>
 
       <div class="item">
-        <img src="../img/updo2.jpg" alt="Chicago" >
+        <img src="../img/jlo.png" alt="Chicago" >
       </div>
 
       <div class="item">
