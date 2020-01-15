@@ -18,7 +18,28 @@
     <div class="middlediv">
         <div style="height: 30px;"></div>
         <div class="searchbox">
-            refgerg4e5rgergerg
+
+            <div class="mtop">
+                <div class="mysmallbox">
+                <img src="https://webstockreview.net/images/clipart-plane-icon-5.png">
+                </div>
+                <div class="mysmallbox">Box 2</div>
+                <div class="mysmallbox">Box 3</div>
+                <div class="mysmallbox">Box 4</div>
+                <div class="mysmallbox">Box 5</div>
+                <div class="mysmallbox">Box 6</div>
+                <div class="mysmallbox">Box 7</div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="myform">
+                <div class="myform2">
+                    <input name="from">
+                    <input name="to">
+                </div>
+            </div>
+
+
         </div>
 
     </div>
@@ -39,6 +60,42 @@
 </div>
 
 <style>
+
+    .myform2 input{
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        width: 330px;
+        height: 41px;
+        background-color: white !important;
+    }
+
+
+.myform2{
+    display: flex;
+}
+
+    .mysmallbox img{
+        width: 80%;
+    }
+
+    .mysmallbox:hover{
+        background-color: #438aff;
+        cursor: pointer;
+    }
+
+    .mysmallbox{
+        text-align: center;
+        width: 69px;
+        height: 64px;
+        background-color: #212529;
+        float: left;
+        margin: 10px;
+        border-radius: 5px;
+        border: 1px solid black;
+        color: white;
+        padding:5px;
+    }
     .bottomcontainer p:first-child{
         margin:10px;
         font-size: 20px;
