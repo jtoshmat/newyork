@@ -1,54 +1,194 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <table class="table1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+    <br>
+    <table class="table2">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+    </table>
+</div>
 
-function findMedianNumber($a, $b, $c)
-{
-    /*
-     * a,b,c
-     */
 
-    //a
-    if ($a>=$b && $a<=$c){
-        return $a;
+<style>
+    body {
+        background-color: #00aa88;
     }
-    if ($a<=$b && $a>=$c){
-        return $a;
-    }
-     if ($b>=$a && $b<=$c){
-        return $b;
-    }
-    if ($b<=$a && $b>=$c){
-        return $b;
-    }
- if ($c>=$a && $c<=$b){
-        return $c;
-    }
-    if ($c<=$a && $c>=$b){
-        return $c;
+
+    .table1 {
+        background-color: #00a2f9;
+        width: 700px;
     }
 
+    .table1 td {
+        border: 2px solid brown;
+        padding: 20px;
+    }
+
+    .table1 tr:nth-child(even) {
+        background-color: red;
+    }
+
+    .table2{
+        background-color: #c10000;
+        width: 700px;
+    }
+    .table2 td {
+        border: 2px solid #ffce7f;
+        padding: 20px;
+    }
 
 
+</style>
 
-
-}
-
-echo "1: ";
-var_dump(1 === findMedianNumber(0, 3, 1));
-echo "<hr>";
-echo "2: ";
-var_dump(9 === findMedianNumber(10, 9, 8));
-echo "<hr>";
-echo "3: ";
-var_dump(8 === findMedianNumber(8, 8, 8));
-echo "<hr>";
-echo "4: ";
-var_dump(20 === findMedianNumber(20, 10, 30));
-echo "<hr>";
-echo "5: ";
-var_dump(99 === findMedianNumber(76, 160, 99));
-echo "<hr>";
-echo "6: ";
-var_dump(21 === findMedianNumber(21, 12, 45));
-
-
-
+</body>
+</html>
