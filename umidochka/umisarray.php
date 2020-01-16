@@ -242,6 +242,11 @@ echo "<hr>";
 
 $str = "Is your name O'Reilly?";
 echo addslashes($str);
+echo "<hr>";
+echo "################################################################################################################";
+echo "<pre>";
+$a = [1 =>'Apple', 3 =>'Cactus', 5=>'Elderflower'] + ['Banana', 'DragonFruit', 'Fig'];
+var_dump(count($a));
 
 
 
