@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(190, 250, 255, 0.26);
+}
+table{
+    background-color: white;
+    width: 500px;
+
+}
+tr:first-child{
+    background-color: green;
+}
+table td{
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    border: 0.5px solid black;
+}
