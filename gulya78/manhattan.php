@@ -32,10 +32,14 @@
 <style>
 
     tr:first-child{
-        background-color: #005cbf;
+        background-color: #b5d8ff;
         color: #fff;
     }
+    td{
+        background-color: red;
 
+
+    }
 </style>
 
 </body>

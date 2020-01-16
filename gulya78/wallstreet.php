@@ -4,7 +4,7 @@
     <title>Welcome to Wall Street </title>
 </head>
 <body>
-    <p> I want to be a software developer </p>
+    <p> I want to be a web developer </p>
     <p> 
         <img width="600px"
              height="400px"
