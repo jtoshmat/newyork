@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 <div class="mybody">
@@ -122,8 +123,8 @@
                 </div>
             </div>-->
         </div>
-        <div class="container">
-            <h2>Carousel Example</h2>
+        <div class="container-fluid">
+            <h2>Start your week with Fabulash!</h2>
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -146,16 +147,24 @@
                     <div class="item">
                         <img src="../umidochka/img/fabu6.jpg" alt="Chicago" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3>Chicago</h3>
-                            <p>Thank you, Chicago!</p>
+                            <h3>Cat Eye Look</h3>
+                            <p>Thank you, Gorgeous!</p>
                         </div>
                     </div>
 
                     <div class="item">
                         <img src="../umidochka/img/fabu7.jpg" alt="New York" style="width:100%;">
                         <div class="carousel-caption">
-                            <h3>New York</h3>
-                            <p>We love the Big Apple!</p>
+                            <h3>Dool Eye Look</h3>
+                            <p>Have a fabulash day!</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="../umidochka/img/fabu7.jpg" alt="New York" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Dool Eye Look</h3>
+                            <p>Have a fabulash day!</p>
                         </div>
                     </div>
 
@@ -176,11 +185,13 @@
 <div class="pictures">
     <div class="container">
         <div class="row">
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/shahzosh.JPG">
+            <h5>Cat Eye Look</h5>
+            </div>
 
+            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
         </div>
         <div class="row">
             <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
@@ -203,34 +214,57 @@
 
     </div>
 </div>
+
+<div class="card" style="width: 18rem;">
+    <div></div>
+    <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
 </div>
     <style>
         * {
             box-sizing: border-box;
         }
+        h2{
+            text-align: center;
+        }
+        .col h5{
+            text-align: center;
+        }
 
         .col img{
-            width: 200px;
-            height: 200px;
+            width: 180px;
+            height: 180px;
+            margin: 10px;
+            border: 2px solid darkslategrey;
+            box-shadow: 4px 4px 4px 4px #3d546f;
+            margin-top: 20px;
+            border-radius: 90px;
         }
         .col img:hover{
             cursor: pointer;
             transform: scale(1.3);
+            border-radius: 90px;
+
         }
 
         .myimg img{
             width: 90%;
             height: 90%;
-            border-radius: 50%;
             margin-top: 10px;
             text-align: center;
             border: 3px solid #3d546f;
             margin-left: 7px;
+            border-radius: 50%;
         }
 
         .myheader h4{
             text-align: center;
             margin-top: 20px;
+
         }
 
 
@@ -277,6 +311,8 @@
         }
 
     </style>
+    <script>
 
+    </script>
 </body>
 </html>
