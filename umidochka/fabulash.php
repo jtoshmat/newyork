@@ -37,7 +37,7 @@
             <p class="lead">Life is short but your lashes should not be...</p>
             <hr class="my-4">
             <p>Eyelash Extensions are perfect for special occasions or for everyday wear.</p>
-            <!-- <img class="mygif" src="../umidochka/img/lash.gif"> -->
+
         </div>
         <div class="gallery">
 
@@ -85,7 +85,7 @@
 
 
 
-           <!-- <div class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm">
                         <h5>How long Eyelash Extensions last?</h5>
@@ -121,7 +121,7 @@
                             to explain the discomfort."</p>
                     </div>
                 </div>
-            </div>-->
+            </div>
         </div>
         <div class="container-fluid">
             <h2>Start your week with Fabulash!</h2>
@@ -137,7 +137,7 @@
                 <div class="carousel-inner">
 
                     <div class="item active">
-                        <img src="../umidochka/img/fabu3.jpg" alt="Eyelash" style="width:100%;">
+                        <img src="../umidochka/img/eye4.JPG" alt="Eyelash" style="width:100%;">
                         <div class="carousel-caption">
                             <h3>Umidochka</h3>
                             <p>She is the best lashmaker!</p>
@@ -145,7 +145,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../umidochka/img/fabu6.jpg" alt="Chicago" style="width:100%;">
+                        <img src="../umidochka/img/eye3.JPG" alt="Chicago" style="width:100%;">
                         <div class="carousel-caption">
                             <h3>Cat Eye Look</h3>
                             <p>Thank you, Gorgeous!</p>
@@ -153,7 +153,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../umidochka/img/fabu7.jpg" alt="New York" style="width:100%;">
+                        <img src="../umidochka/img/eye7.JPG" alt="New York" style="width:100%;">
                         <div class="carousel-caption">
                             <h3>Dool Eye Look</h3>
                             <p>Have a fabulash day!</p>
@@ -161,7 +161,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="../umidochka/img/fabu7.jpg" alt="New York" style="width:100%;">
+                        <img src="../umidochka/img/eye6.JPG" alt="New York" style="width:100%;">
                         <div class="carousel-caption">
                             <h3>Dool Eye Look</h3>
                             <p>Have a fabulash day!</p>
@@ -184,15 +184,7 @@
     </div>
 <div class="pictures">
     <div class="container">
-        <div class="row">
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG">
-            <h5>Cat Eye Look</h5>
-            </div>
 
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-        </div>
         <div class="row">
             <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
             <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
@@ -214,19 +206,147 @@
 
     </div>
 </div>
-
+<hr>
+<!--Pricelist! -->
+<h1 class="price_chart">Price Chart</h1>
+<div class="row myrow">
 <div class="card" style="width: 18rem;">
-    <div></div>
+    <div class="mypricelist">
+        <h2>Classic</h2>
+    </div>
     <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+        <h4 class="card-title">Single Touch</h4>
+        <h1 class="card-text">$50</h1>
+        <a href="#" class="btn btn-success">Get it!</a>
     </div>
 </div>
+    <div class="card" style="width: 18rem;">
+        <div class="mypricelist">
+            <h2>Natural Set</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">2D</h4>
+            <h1 class="card-text">$60</h1>
+            <a href="#" class="btn btn-success">Get it!</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="mypricelist">
+            <h2>Hybrid Set</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">3D</h4>
+            <h1 class="card-text">$70</h1>
+            <a href="#" class="btn btn-success">Get it!</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="mypricelist">
+            <h2>Volume Set</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title mytitle">4D</h4>
+            <h1 class="card-text">$80</h1>
+            <a href="#" class="btn btn-success">Get it!</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="mypricelist">
+            <h2>Hybrid Set</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">5D</h4>
+            <h1 class="card-text">$90</h1>
+            <a href="#" class="btn btn-success">Get it!</a>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="mypricelist">
+            <h2>Mega Set</h2>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Mega Volume</h4>
+            <h1 class="card-text">$100</h1>
+            <a href="#" class="btn btn-success">Get it!</a>
+        </div>
+    </div>
+ <hr>
+    <div class="container-fluid mycontainer">
+        <form class="my_container">
+            <div class="form-group">
+                <label for="exampleInputEmail1">First Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Last Name</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Phone Number</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+
+
+
+
+    </div>
 </div>
+</body>
     <style>
+
+        .submit{
+            text-align: center;
+        }
+
+        .my_container{
+           margin-left: 37%;
+        }
+
+        .form-group {
+            color: #0f2e41;
+            width: 40%;
+
+        }
+        #emailHelp{
+            color: #0f2e41;
+        }
+
+        .mycontainer{
+            width: 100%;
+            height: 500px;
+            /*background-image: linear-gradient(to right, rgba(165, 190, 255, 0), rgb(234, 236, 38)); Standard syntax (must be last) */
+            background-image: url("../umidochka/img/form2.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            opacity: 0.5;
+            margin-top: 60px;
+
+
+        }
+
         * {
             box-sizing: border-box;
+        }
+        .topprice{
+            float: left;
+        }
+        hr{
+            margin-top: 6%;
         }
         h2{
             text-align: center;
@@ -268,7 +388,7 @@
         }
 
 
-        .row {
+        .row{
             width: 100%;
             height: auto;
             margin-left: 0%;
@@ -289,16 +409,23 @@
         .col-sm:hover{
             cursor: pointer;
             transform: scale(1.1);
+            border: 1px solid grey;
+            background-color: #0f2e41;
+            color: #f3eaff;
+
         }
         .jumbotron {
             height: 600px;
-            background-image: url("../umidochka/img/fabu7.jpg");
+            background-image: url("../umidochka/img/wallpaper4.jpg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
             color: #f3eaff;
         }
 
         .inside{
+
+        }
+        .inside:hover{
             border: 1px solid grey;
             width: 150px;
             height: 465px;
@@ -309,6 +436,48 @@
             margin-left: 6px;
             margin-top: 20px;
         }
+
+        .card{
+            margin-left: 40px;
+            margin-top: 40px;
+            height: 380px;
+            width: 500px;
+            border: 2px solid grey;
+            box-shadow: 3px 3px 3px 3px #0c5460;
+        }
+        .myrow{
+           margin-left: 10px;
+        }
+        .mypricelist h2{
+            text-align: center;
+            font-family: "Times New Roman";
+        }
+        .card-body{
+            text-align: center;
+            font-family: "Times New Roman";
+
+        }
+        .card:hover{
+            cursor: pointer;
+            transform: scale(1.3);
+        }
+        .btn-success{
+            margin-top: 120px;
+            font-family: "Times New Roman";
+        }
+        .card-text{
+            color: #004a6d;
+            font-weight: bold;
+        }
+        .price_chart{
+            text-align: center;
+            font-family: "Times New Roman";
+            color: #0c5460;
+            margin-top: 5%;
+        }
+
+
+
 
     </style>
     <script>

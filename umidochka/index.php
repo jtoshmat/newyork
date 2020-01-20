@@ -203,7 +203,7 @@ foreach ($mytexts as $line => $mytext) {
     }
     .myimg{
         width: 70%;
-        margin-top: 1px;
+        margin-top: 2px;
     }
 
     .mybadge{
