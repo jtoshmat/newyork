@@ -12,8 +12,8 @@
 </head>
 <body>
 <div class="mybody">
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="mynavbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
             <p class="lead">Life is short but your lashes should not be...</p>
             <hr class="my-4">
             <p>Eyelash Extensions are perfect for special occasions or for everyday wear.</p>
-
+        </div>
         </div>
         <div class="gallery">
 
@@ -81,10 +81,11 @@
                     </div>
                     </div>
                 </div>
-            </div>
+        </div>
 
 
-
+    </div>
+       <!-- <div class="transparent">
             <div class="container">
                 <div class="row">
                     <div class="col-sm">
@@ -123,9 +124,19 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid">
+        -->
+
+
+
+    <div class="parallax">
+        <div class="mylilbox">
+            <h1>Natural Hair Extensions</h1></div>
+        <div class="mylilbox2"><h1>Glamorous lashes</h1></div></div>
+
+
+        <div class="container-fluid" >
             <h2>Start your week with Fabulash!</h2>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" >
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -181,7 +192,7 @@
                 </a>
             </div>
         </div>
-    </div>
+
 <div class="pictures">
     <div class="container">
 
@@ -328,8 +339,93 @@
 </div>
 </body>
     <style>
+
+        .mylilbox{
+            width: 400px;
+            height: 400px;
+            background-color: #1a1d31;
+            float: left;
+            margin-top: 150px;
+            margin-left: 200px;
+            opacity: 0.7;
+            color: #f3eaff;
+
+        }
+        .mylilbox2{
+            width: 400px;
+            height: 400px;
+            background-color: #1a1d31;
+            float: left;
+            margin-top: 150px;
+            margin-left: 10px;
+            opacity: 0.7;
+            color: #f3eaff;
+        }
+        .mylilbox h1{
+
+            float: left;
+            margin: 10px;
+            margin-left: 40px;
+
+        }
+
+
+        .mynavbar{
+            position: fixed;
+            z-index: 1000;
+            width: 100%;
+        }
+
+        .pictures{
+            background-color: #0f2e41;
+        }
+
+        .container-fluid{
+            width: 100%;
+        }
+
+        .my_empty_div{
+            height: 300px;
+        }
+
+        .navbar-expand-lg{
+            background-color: #003b57 !important;
+
+        }
+
+        .active{
+            color: #d44950;
+        }
+
+        .mybody{
+            background-color: #003b57;
+        }
+
+       .parallax{
+           background-image: url("../umidochka/img/stick1.jpg");
+           min-height: 700px;
+           background-attachment: fixed;
+           background-position: center;
+           background-repeat: no-repeat;
+           background-size: cover;
+
+
+
+
+       }
+        .mysticky{
+            width: 50%;
+            height: 564px;
+            float: left;
+            position: fixed;
+            /* left: 10%; */
+            top: 10%;
+            z-index: -10;
+        }
+
         .form1{
             margin-top: 40px;
+            tra
         }
 
         .headerbook{
@@ -410,7 +506,6 @@
         .myheader h4{
             text-align: center;
             margin-top: 20px;
-
         }
 
 
@@ -419,9 +514,6 @@
             height: auto;
             margin-left: 0%;
             padding: 20px;
-
-
-
         }
 
         .col-sm{
@@ -430,6 +522,7 @@
             height: 500px;
             width: 25%;
             box-shadow: 3px 3px 3px 3px #3d546f;
+            background-color: #f3eaff;
         }
 
         .col-sm:hover{
@@ -500,6 +593,11 @@
             font-family: "Times New Roman";
             color: #0c5460;
             margin-top: 5%;
+        }
+        .gallery{
+            background-image: url("../umidochka/img/backeye.jpg");
+
+
         }
 
 
