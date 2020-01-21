@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/umidochka/img/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/cool_wallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/eye1.HEIC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/eye2.HEIC" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/eye3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/eye4.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/eye5.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/eye6.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/eye7.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/form.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/form2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/umi.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umidochka/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umidochka/shilliqurt.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/shilliqurt.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/umidochka/fabulash.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="312" column="31" lean-forward="true" selection-start-line="312" selection-start-column="31" selection-end-line="312" selection-end-column="31" />
+            <state relative-caret-position="353">
+              <caret line="346" column="9" lean-forward="true" selection-start-line="346" selection-start-column="9" selection-end-line="346" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -321,18 +297,18 @@
       <workItem from="1578973213137" duration="594000" />
       <workItem from="1579048208070" duration="24848000" />
       <workItem from="1579299562986" duration="590000" />
-      <workItem from="1579300175177" duration="14440000" />
+      <workItem from="1579300175177" duration="17106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128371000" />
+    <option name="totallyTimeSpent" value="131037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="805" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32241154" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32241154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -352,7 +328,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" weight="0.32697946" />
-      <window_info anchor="right" id="Remote Host" order="4" weight="0.3280116" />
+      <window_info anchor="right" id="Remote Host" order="4" weight="0.327654" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22048193" />
@@ -605,8 +581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/umidochka/fabulash.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="312" column="31" lean-forward="true" selection-start-line="312" selection-start-column="31" selection-end-line="312" selection-end-column="31" />
+        <state relative-caret-position="353">
+          <caret line="346" column="9" lean-forward="true" selection-start-line="346" selection-start-column="9" selection-end-line="346" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />

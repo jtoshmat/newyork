@@ -271,9 +271,11 @@
         </div>
     </div>
  <hr>
-    <div class="container-fluid mycontainer">
+    <div class="container-fluid mycontainer myform">
+        <h1 class="headerbook">Make your appointment!</h1>
+
         <form class="my_container">
-            <div class="form-group">
+            <div class="form-group form1">
                 <label for="exampleInputEmail1">First Name</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
 
@@ -293,24 +295,51 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
+            <div>
+            <select class="form-group">
+                <option>Classic</option>
+                <option>2D</option>
+                <option>3D</option>
+                <option>4D</option>
+                <option>5D</option>
+                <option>Mega Volume</option>
+            </select>
+            </div>
+            <div>
+            <select class="form-group">
+                <option>Natural</option>
+                <option>Doll Eye</option>
+                <option>Open Eye</option>
+                <option>Cat Eye</option>
+                <option>Kim Kardashian</option>
+            </select>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlFile1">Put your own style</label>
+                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
             <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-warning">Submit</button>
         </form>
-
-
-
-
-
     </div>
 </div>
 </body>
     <style>
+        .form1{
+            margin-top: 40px;
+        }
 
-        .submit{
+        .headerbook{
+            margin-left: 35%;
+            margin-top: 70px;
+        }
+
+        .btn-warning{
             text-align: center;
+            margin-bottom: 40px;
         }
 
         .my_container{
@@ -328,15 +357,12 @@
 
         .mycontainer{
             width: 100%;
-            height: 500px;
+            height: auto;
             /*background-image: linear-gradient(to right, rgba(165, 190, 255, 0), rgb(234, 236, 38)); Standard syntax (must be last) */
             background-image: url("../umidochka/img/form2.jpg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
-            opacity: 0.5;
             margin-top: 60px;
-
-
         }
 
         * {
