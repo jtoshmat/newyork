@@ -102,7 +102,19 @@
             </p>
         </div>
     </div>
-    <div class="bottomdiv">Header</div>
+    <div class="bottomdiv">
+        <div class="subscribe">
+            <div class="left_subscribe_child_div">
+                <span>SUBSCRIBE TO OUR TRAVEL NEWSLETTER</span> <br>
+                <span>FRESH DEALS IN YOUR INBOX!</span> <br>
+                <span>Privacy Policy</span>
+            </div>
+            <div class="right_subscribe_child_div">
+                <input><button>SIGN UP</button>
+            </div>
+        </div>
+
+    </div>
 </div>
 </body>
 </html>
