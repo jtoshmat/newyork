@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+}
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    background-color: #efefef;
+    width: 800px;
+    margin: auto;
+    height: 500px;
+}
+
+.header{
+height: 25px;
+    background-color: black;
+    text-align: right;
+}
+nav a{
+    margin:3px;
+    padding:3px;
+}
