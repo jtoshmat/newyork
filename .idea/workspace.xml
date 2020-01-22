@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/umidochka/img/backeye.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/backeyelash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/stick1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/sticky2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
     </list>
@@ -52,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/umidochka/fabulash.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
-              <caret line="358" column="30" lean-forward="true" selection-start-line="358" selection-start-column="30" selection-end-line="358" selection-end-column="30" />
+            <state relative-caret-position="-1104">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="e#4901#7006#0#HTML" />
               </folding>
@@ -256,18 +252,18 @@
       <workItem from="1579048208070" duration="24848000" />
       <workItem from="1579299562986" duration="590000" />
       <workItem from="1579300175177" duration="17662000" />
-      <workItem from="1579580798773" duration="9028000" />
+      <workItem from="1579580798773" duration="10020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140621000" />
+    <option name="totallyTimeSpent" value="141613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="732" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24492754" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24492754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -279,7 +275,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20283689" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.20283689" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32907802" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Database Console" order="12" weight="0.36717662" />
@@ -534,8 +530,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/umidochka/fabulash.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="358" column="30" lean-forward="true" selection-start-line="358" selection-start-column="30" selection-end-line="358" selection-end-column="30" />
+        <state relative-caret-position="-1104">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="e#4901#7006#0#HTML" />
           </folding>
