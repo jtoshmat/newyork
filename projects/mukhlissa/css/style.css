@@ -1,0 +1,63 @@
+.mytexts{
+    background-color: white;
+}
+tr:hover{
+    background-color: #3986c6 !important;
+    color: #e90007 !important;
+}
+tr:nth-child(odd){
+    background-color: #e7e7e7;
+}
+
+tr:first-child{
+    background-color: #45000b !important;
+    color: #ffe14a;
+}
+
+tr{
+    background-color: white;
+    cursor: pointer;
+}
+
+td{
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+
+}
+table{
+    background-color: #e0e0e0;
+    margin: auto;
+    width: 600px;
+}
+#countrylist{
+
+}
+
+body{
+background-color: #330000;
+}
+img{
+    width: 484px;
+    border: 22px solid #92212b;
+    opacity: 0.4;
+}
+
+img:hover{
+    border: 22px dotted #92212b;
+    cursor: move;
+    opacity: 1;
+}
+
+.mymainbox{
+    background-color: #5a9e21;
+    text-align: center;
+}
+
+.myboxtitle{
+    color: #612c18;
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: bolder;
+}
+
