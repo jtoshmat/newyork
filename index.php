@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 <head>
@@ -14,57 +15,22 @@
 </html>
 =======
 <?php
-
-function findMedianNumber($a, $b, $c)
-{
-    /*
-     * a,b,c
-     */
-
-    //a
-    if ($a>=$b && $a<=$c){
-        return $a;
-    }
-    if ($a<=$b && $a>=$c){
-        return $a;
-    }
-     if ($b>=$a && $b<=$c){
-        return $b;
-    }
-    if ($b<=$a && $b>=$c){
-        return $b;
-    }
- if ($c>=$a && $c<=$b){
-        return $c;
-    }
-    if ($c<=$a && $c>=$b){
-        return $c;
-    }
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to MY-IT-EDUCATION.US!</title>
+</head>
+<body>
+>>>>>>> 701e20e0f1fb5e88737f4805b0d0277beda4dab7
 
 
+<h1>Welcome to MY-IT-EDUCATION.US</h1>
 
 
-
-}
-
-echo "1: ";
-var_dump(1 === findMedianNumber(0, 3, 1));
-echo "<hr>";
-echo "2: ";
-var_dump(9 === findMedianNumber(10, 9, 8));
-echo "<hr>";
-echo "3: ";
-var_dump(8 === findMedianNumber(8, 8, 8));
-echo "<hr>";
-echo "4: ";
-var_dump(20 === findMedianNumber(20, 10, 30));
-echo "<hr>";
-echo "5: ";
-var_dump(99 === findMedianNumber(76, 160, 99));
-echo "<hr>";
-echo "6: ";
-var_dump(21 === findMedianNumber(21, 12, 45));
-
-
-
+<<<<<<< HEAD
 >>>>>>> 661c74cdb0550d482f5dcc83bba84470563afe76
+=======
+</body>
+</html>
+>>>>>>> 701e20e0f1fb5e88737f4805b0d0277beda4dab7
