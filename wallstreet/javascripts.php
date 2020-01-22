@@ -5,53 +5,55 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to My Javascript World!</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <script src="../js/jquery-3.4.1.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <title>Document</title>
 </head>
 <body>
-<div id="mybox">
-    <div class="mytext">
-
-        <img src="../img/background-plane.jpg">
-
-    </div>
-    <hr>
-    <button id="hideboxbutton">HIDE THE TEXT</button>
-</div>
-
-
-<style>
-    #mybox{
-        width:300px;
-        height: 300px;
-        background-color: #e90007;
-        margin: auto;
-        text-align: center;
-    }
-
-    .mytext{
-        background-color: #9ae9ff;
-    }
-
-    .mytext img{
-        width:300px;
-    }
-</style>
-
-
 <script>
-    $(function () {
 
-        $("#hideboxbutton").click(function () {
-            $( ".mytext" ).slideUp( 20000 ).delay( 20000 ).fadeIn( 20000 );
+    //String
+    var phone = 'Samsung Galaxy S8 Plus';
+
+    //Integer
+    var age = 25;
 
 
-        });
+    //Boolean
+    var is_correct = false;
 
 
-    });
+    //Array
+    var cars =  ['Audi', 'BMW', 'Mercedes', 'Honda', 'Toyota', 99, 5.25, false];
+    var countries = Array('USA', 'Canada', 'Uzbekistan');
+
+    //Object
+    var building = {
+        'location': 'Marine Park',
+        'School district': 2,
+        'Presinct': 61
+    };
+
+    //doable or float
+    var price = 5.25;
+
+    //NULL
+    var mydreams = null;
+
+    var newyork = 'Big Apple';
+    var NewYork = 'Big Apple 2';
+    var New_york = 'Big Apple 3';
+    var newyorK = 'Big Apple 4';
+    var new_york = 'Big Apple 5';
+
+    var jon = typeof(is_correct);
+    console.log(jon);
+
+
+
+
+
+
+
+
 </script>
 </body>
 </html>
