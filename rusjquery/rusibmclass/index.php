@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="container-fluid">
-    <h1>Welcome to My Javascript Class!</h1>
+    <h1 class="mytitle">Welcome to My Javascript Class!</h1>
 
     <div id="jon">
         <div class="myboxes box1">
@@ -47,6 +47,14 @@
 </div>
 
 <style>
+    body{
+        background-image: url("https://d14209uukh82fi.cloudfront.net/images/users/70499/original/stars.jpg?1464666789");
+    }
+    .mytitle{
+        padding-bottom: 30px;
+        text-align: center;
+        color: #ec364f;
+    }
     .box2 img{
         width: 100%;
         height: 180px;

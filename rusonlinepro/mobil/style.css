@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Poppins, sans-serif;
+    background: url("pics/pic8.jpeg");
+    background-size: cover;
+}
+.mobile{
+    position: relative;
+    width: 270px;
+    height: 480px;
+    background: #020c17;
+}
