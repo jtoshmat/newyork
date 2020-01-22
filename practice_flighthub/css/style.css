@@ -1,0 +1,19 @@
+*{
+    box-sizing:border-box;
+}
+.container-fluid{
+    padding:0;
+    margin:0;
+    background-color:lightgrey;
+}
+
+.header{
+    background-color: #ff0d20;
+    height: 50px;
+    text-align:right;
+}
+.header li{
+    float:left;
+    margin:2px;
+    padding:3px;
+}
