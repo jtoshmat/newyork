@@ -80,10 +80,11 @@
         width: 100%;
     }
     .mybox {
-        width: 40%;
+        width: 400px;
         height: auto;
         background-color: #ffffff;
         border: 2px solid black;
+        margin: auto;
     }
     body {
         background-color: #f1f1f1;
