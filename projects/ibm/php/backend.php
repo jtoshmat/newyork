@@ -16,7 +16,7 @@ class Contactform{
         $last_name = $this->parms['last_name']??null;
         $age = $this->parms['age']??null;
         $email = $this->parms['email']??null;
-        $member = $this->parms['member']??null;
+        $member = $this->parms['member']??1;
         $message = $this->parms['message']??null;
         $sql = "INSERT INTO contacts (first_name, last_name, age, email, member, message) VALUES ('$first_name','$last_name',$age,'$email','$member','$message');";
         $execute = $this->db->sql($sql);
