@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,5 +11,18 @@
 </head>
 <body>
 
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to MY-IT-EDUCATION.US!</title>
+</head>
+<body>
+
+
+<h1>Welcome to MY-IT-EDUCATION.US</h1>
+
+
+>>>>>>> 701e20e0f1fb5e88737f4805b0d0277beda4dab7
 </body>
 </html>
