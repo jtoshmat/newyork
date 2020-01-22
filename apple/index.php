@@ -13,7 +13,7 @@
         <div class="mybox">
             <div class="topdiv">
                 <div style="height: 55px"></div>
-                <div class="jon">Zarafshan Restaraniga Xush <a target="_blank" href="http://google.com">Kelibsiz!</a></div>
+                <div class="jon">Gulchatay Restaraniga Xush <a target="_blank" href="http://google.com">Kelibsiz!</a></div>
             </div>
             <div class="middlediv">
                 <p class="mytitle">What is Lorem Ipsum?</p>
