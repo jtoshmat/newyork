@@ -5,36 +5,37 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>UzFlight markaziy sahifasiga xush kelibsiz!</title>
+    <title>Flighthubga xush kelibsiz</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
 <div class="container-fluid">
     <div class="header">
-        <ul>
-            <li><a href="#">USD</a></li>
-            <li><a href="#">USA</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Support</a></li>
-        </ul>
+        <nav>
+            <a class="mya" href="#">USD</a>
+            <a class="mya" href="#">USA</a>
+            <a class="mya" href="#">Login</a>
+            <a class="mya" href="#">Support</a>
+        </nav>
     </div>
     <div class="topdiv">
         <div class="clublogo top_left_div">
-            <img src="img/logo.png">
+            <img alt="This is my logo" id="logo" src="img/logo.svg">
         </div>
         <div class="clublogo top_middle_div">
-            <ul class="top_middle_menu">
-                <li>Flights</li>
-                <li>Hotels</li>
-                <li>Cars</li>
-                <li>Travel Guides</li>
-                <li>My Trips</li>
-            </ul>
+            <nav>
+                <a class="youa" href="#">Flights</a>
+                <a class="youa" href="#">Hotels</a>
+                <a class="youa" href="#">Cars</a>
+                <a class="youa" href="#">Travel Guides</a>
+                <a class="youa" href="#">My Trips</a>
+            </nav>
         </div>
         <div class="clublogo top_right_div">
+            <br>
             <p>CALL US TOLL FREE 24/7<br>
-                <span>1-800-555-1234</span>
+                <span>1-800-711-1755</span>
             </p>
         </div>
     </div>
@@ -99,12 +100,6 @@
         <div class="mymiddle_right_text">
             <p>See Our<br>
                 Cheapest <span>Flights</span>
-            </p>
-        </div>
-
-        <div class="mymiddle_right_text2">
-            <p>New York<br>
-                to <br> <span>Tashkent</span>
             </p>
         </div>
     </div>
