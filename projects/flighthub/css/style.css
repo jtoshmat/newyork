@@ -97,7 +97,7 @@
     height: 551px;
     background-color: #fe7900;
     margin-top: 26px;
-    background-image: url("../img/formbg.png");
+    background-image: url("../img/formbg2.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -178,9 +178,9 @@ border: none;
     width: 390px;
     height: 97px;
     background-color: black;
-    position: absolute;
-    top: 154px;
-    right: 108px;
+    position: relative;
+    top: -522px;
+    left: 550px;
     text-align: right;
     color: white;
     font-size: 30px;
@@ -191,6 +191,75 @@ border: none;
     font-weight: bolder;
 }
 
+.mymiddle_right_text2 {
+    width: 505px;
+    height: 147px;
+    background-color: black;
+    position: relative;
+    top: -341px;
+    left: 471px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    font-family: "American Typewriter";
+    opacity: 0.3;
+    font-weight: bolder;
+    border-top: 3px solid #bd7a0e;
+    border-bottom: 3px solid #bd7a0e;
+}
+
 .mymiddle_right_text span{
     color: sandybrown;
+}
+
+
+
+
+.subscribe div{
+    display: inline-block;
+    width: 39%;
+    margin-left: 53px;
+    margin-top: 20px;
+
+}
+
+
+.right_subscribe_child_div{
+    position: relative;
+    top:-44px;
+    text-align: center;
+
+}
+
+.right_subscribe_child_div input{
+    width: 74%;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    /* border: 1px springgreen; */
+    border: 1px solid;
+    margin-right: 3px;
+
+}
+
+.right_subscribe_child_div button{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #16a7ce;
+    color: white;
+}
+
+.left_subscribe_child_div span:first-child{
+    font-size: 21px;
+    color: #0078be;
+}
+.left_subscribe_child_div span:nth-child(2){
+    font-size: 16px;
+}
+.left_subscribe_child_div span:last-child{
+    font-size: 12px;
+    color: #0078be;
 }
