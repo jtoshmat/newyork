@@ -129,12 +129,20 @@
 
 
     <div class="parallax">
-        <div class="mylilbox">
-            <h1>Natural Hair Extensions</h1></div>
-        <div class="mylilbox2"><h1>Glamorous lashes</h1></div></div>
+        <div class="container3">
+            <div class="row">
+                <div class="col-sm3">
+                    <h2>Eyelash Extensions</h2>
+                </div>
+                <div class="col-sm3">
+                    <h2>Eyelash Extensions</h2>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-        <div class="container-fluid" >
+        <div class="container-fluid">
             <h2>Start your week with Fabulash!</h2>
             <div id="myCarousel" class="carousel slide" data-ride="carousel" >
                 <!-- Indicators -->
@@ -282,7 +290,7 @@
         </div>
     </div>
  <hr>
-    <div class="container-fluid mycontainer myform">
+    <!--<div class="container-fluid mycontainer myform">
         <h1 class="headerbook">Make your appointment!</h1>
 
         <form class="my_container">
@@ -307,23 +315,23 @@
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div>
-            <select class="form-group">
-                <option>Classic</option>
-                <option>2D</option>
-                <option>3D</option>
-                <option>4D</option>
-                <option>5D</option>
-                <option>Mega Volume</option>
-            </select>
+                <select class="form-group">
+                    <option>Classic</option>
+                    <option>2D</option>
+                    <option>3D</option>
+                    <option>4D</option>
+                    <option>5D</option>
+                    <option>Mega Volume</option>
+                </select>
             </div>
             <div>
-            <select class="form-group">
-                <option>Natural</option>
-                <option>Doll Eye</option>
-                <option>Open Eye</option>
-                <option>Cat Eye</option>
-                <option>Kim Kardashian</option>
-            </select>
+                <select class="form-group">
+                    <option>Natural</option>
+                    <option>Doll Eye</option>
+                    <option>Open Eye</option>
+                    <option>Cat Eye</option>
+                    <option>Kim Kardashian</option>
+                </select>
             </div>
             <div class="form-group">
                 <label for="exampleFormControlFile1">Put your own style</label>
@@ -335,10 +343,114 @@
             </div>
             <button type="submit" class="btn btn-warning">Submit</button>
         </form>
+    </div>-->
+    <div class="my_last_form">
+        <div class="row myrow2">
+            <div class="col-sm-6 col-md-5 col-lg-6 first_col"><img src="../umidochka/img/umi.PNG"></div>
+            <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 sec_col">
+                <div class="container-fluid myformstr">
+                <!--<img class="formpic" src="../umidochka/img/pink.jpg">-->
+
+                    <h2 class="headerbook">Make your appointment!</h2>
+
+                    <form class="my_container">
+                        <div class="form-group form1">
+                            <label for="exampleInputEmail1">First Name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Last Name</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Phone Number</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your phone number with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div>
+                            <select class="form-group">
+                                <option>Classic</option>
+                                <option>2D</option>
+                                <option>3D</option>
+                                <option>4D</option>
+                                <option>5D</option>
+                                <option>Mega Volume</option>
+                            </select>
+                        </div>
+                        <div>
+                            <select class="form-group">
+                                <option>Natural</option>
+                                <option>Doll Eye</option>
+                                <option>Open Eye</option>
+                                <option>Cat Eye</option>
+                                <option>Kim Kardashian</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlFile1">Put your own style</label>
+                            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+
 </div>
 </body>
     <style>
+        .my_last_form{
+            background-image: url("../umidochka/img/lash.jpg");
+        }
+        .myformstr{
+            background-color: #0c1e3d;
+            opacity: 0.4;
+            height: 868px;
+
+        }
+
+        .first_col img{
+            width: 95%;
+            height: auto;
+        }
+        .sec_col {
+            width: 95%;
+            height: 900px;
+        }
+
+        .my_last_form{
+            width: 100%;
+        }
+
+        .container3 h2{
+            color: #3a90ea;
+            margin: 30px;
+            margin-left: 75px;
+        }
+
+        .container3{
+            width: 840px;
+            height: 300px;
+            background-color: #0c1e3d;
+            border: 1px solid black;
+            margin-left: 290px;
+            opacity: 0.6;
+        }
+        col-sm4{
+            background-color: #3a90ea;
+        }
 
         .mylilbox{
             width: 400px;
@@ -377,7 +489,7 @@
         }
 
         .pictures{
-            background-color: #0f2e41;
+            background-image: url("../umidochka/img/lash.jpg");
         }
 
         .container-fluid{
@@ -403,16 +515,13 @@
 
        .parallax{
            background-image: url("../umidochka/img/mywall.jpg");
-           min-height: 700px;
+           min-height: 500px;
            background-attachment: fixed;
            background-position: center;
            background-repeat: no-repeat;
            background-size: cover;
-
-
-
-
        }
+
         .mysticky{
             width: 50%;
             height: 564px;
@@ -563,6 +672,7 @@
             width: 500px;
             border: 2px solid grey;
             box-shadow: 3px 3px 3px 3px #0c5460;
+            margin-bottom: 80px;
         }
         .myrow{
            margin-left: 10px;
@@ -593,6 +703,7 @@
             font-family: "Times New Roman";
             color: #0c5460;
             margin-top: 5%;
+
         }
         .gallery{
             background-image: url("../umidochka/img/backeye.jpg");
