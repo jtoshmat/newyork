@@ -1,41 +1,64 @@
-.container-fluid{
-    background-color: #efefef;
+body{
+    background-color: #eeeeee;
 }
-.header{
+.mybox{
+    width: 1000px;
+    margin: auto;
+}
+.nav1{
     background-color: black;
-    width: 100%;
-    height: 30px;
+    overflow: hidden;
     text-align: right;
+    padding:5px;
 }
-.mya{
-    color: #ffffff;
-}
-.topdiv{
-    background-color: #fafafa;
-    border-bottom: 1px solid #d2d0d0;
-}
-#logo{
-    width: 200px;
-}
-.clublogo{
-    display: inline-block;
-    width: 33%;
-    position: relative;
-}
-.top_left_div{
-    position: relative;
-    top: -10px;
-}
-.top_middle_div{
-    position: relative;
-    top: -23px;
-}
-.top_right_div{
-    text-align: center;
+
+.nav1 a{
+    margin: 8px 8px;
+    color: white;
     font-size: 12px;
 }
-.youa{
-    color:brown;
-    margin: 3px;
-    padding: 2px;
+
+.nav1 a:hover{
+    color: #ff9b6e;
+    text-decoration: none;
+}
+
+.nav2 a{
+    margin: 8px 8px;
+    color: #393939;
+    font-size: 16px;
+}
+
+.nav2 a:hover{
+    text-decoration: none;
+    color: #ff3c66;
+}
+
+.logo_div{
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.logo_div div{
+    display: table-cell;
+    text-align: center;
+    padding:0px;
+    margin: 0px;
+}
+
+.logo_div div:first-child{
+    text-align: left;
+    width: 20%;
+}
+.logo_div div:nth-child(2){
+    width: 55%;
+}
+.logo_div div:last-child{
+    text-align: right;
+    width: 24%;
+}
+
+#logo{
+    width: 100%;
+    margin-top: 14px;
 }
