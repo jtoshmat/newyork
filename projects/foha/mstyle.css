@@ -1,0 +1,23 @@
+body{
+    background-color: #ecffcf;
+}
+
+#header{
+    background-color: #46ddff;
+    color: #ff1a2c;
+    text-align: center;
+}
+
+#content{
+    padding: 10px;
+}
+#lesson{
+    width: 180px;
+    float: left;
+}
+
+#footer{
+    background-color: #ffab13;
+    text-align: right;
+    clear: both;
+}
