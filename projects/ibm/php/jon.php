@@ -1,31 +1,14 @@
 <?php
-$names = ['Jon,', 'Abdulbari', 'Rustam', 'Muhamadjon', 'Dilafruz', 'Oybek', 'Asror', 'Umida'];
-$ages =  [23,34,54,65,76,23,53, 81];
-$location  = ['New York','Chicago','London','Mexico City','Moscow','Kiev','Tokio', 'Tashkent'];
-foreach ($names as $i=>$name){
-    echo "My name is <span>$name</span> and I am <span>$ages[$i]</span> years old and I live in <span>$location[$i]</span>";
+//Today's topic is nothing but the STRINGS
 
-    if ($ages[$i] > 65){
-        echo "< -- AARP member";
-    }
+$comment = 'fuckkkkkkkkkkkkkkk this and damn it, he is a stukach and kozel. I do not like idiots who are also tvars.. shit';
 
-    echo "<hr>";
+$comment = str_replace('fuck','f***', $comment);
+$comment = str_replace('shit','****', $comment);
+$comment = str_replace('damn','****', $comment);
+$comment = str_replace('stukach','***', $comment);
+$comment = str_replace('kozel','****', $comment);
+$comment = str_replace('idiot','****', $comment);
+$comment = str_replace('tvar','****', $comment);
 
-}
-?>
-
-<style>
-
-    span{
-        background-color: #008500;
-        padding:5px;
-        margin: 2px;
-        border-radius: 10px;
-    }
-
-    body{
-        background-color: #490000;
-        color: #ffce5c;
-        font-size:30px;
-    }
-</style>
+echo $comment;
