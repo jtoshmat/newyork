@@ -129,21 +129,12 @@
 
 
     <div class="parallax">
-        <div class="container3">
-            <div class="row">
-                <div class="col-sm3">
-                    <h2>Eyelash Extensions</h2>
-                </div>
-                <div class="col-sm3">
-                    <h2>Eyelash Extensions</h2>
-                </div>
-            </div>
-        </div>
+
     </div>
 
 
         <div class="container-fluid">
-            <h2>Start your week with Fabulash!</h2>
+
             <div id="myCarousel" class="carousel slide" data-ride="carousel" >
                 <!-- Indicators -->
                 <ol class="carousel-indicators">
@@ -203,29 +194,29 @@
 
 <div class="pictures">
     <div class="container">
-
+<h1>Gallery</h1>
         <div class="row">
             <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/lola.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/zarina.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/komosh.JPG"> </div>
         </div>
         <div class="row">
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/mohish.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/asal.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/nilupa.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/client.JPG"> </div>
         </div>
         <div class="row">
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
-            <div class="col"><img src="../umidochka/img/shahzosh.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/feruzpa.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/nigish.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/ozosh.JPG"> </div>
+            <div class="col"><img src="../umidochka/img/jamil.JPG"> </div>
         </div>
 
     </div>
 </div>
-<hr>
+
 <!--Pricelist! -->
 <h1 class="price_chart">Price Chart</h1>
 <div class="row myrow">
@@ -236,7 +227,7 @@
     <div class="card-body">
         <h4 class="card-title">Single Touch</h4>
         <h1 class="card-text">$50</h1>
-        <a href="#" class="btn btn-success">Get it!</a>
+        <a href="#" class="btn btn-success">Book Now!</a>
     </div>
 </div>
     <div class="card" style="width: 18rem;">
@@ -246,7 +237,7 @@
         <div class="card-body">
             <h4 class="card-title">2D</h4>
             <h1 class="card-text">$60</h1>
-            <a href="#" class="btn btn-success">Get it!</a>
+            <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -256,7 +247,7 @@
         <div class="card-body">
             <h4 class="card-title">3D</h4>
             <h1 class="card-text">$70</h1>
-            <a href="#" class="btn btn-success">Get it!</a>
+            <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -266,7 +257,7 @@
         <div class="card-body">
             <h4 class="card-title mytitle">4D</h4>
             <h1 class="card-text">$80</h1>
-            <a href="#" class="btn btn-success">Get it!</a>
+            <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -276,7 +267,7 @@
         <div class="card-body">
             <h4 class="card-title">5D</h4>
             <h1 class="card-text">$90</h1>
-            <a href="#" class="btn btn-success">Get it!</a>
+            <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
     <div class="card" style="width: 18rem;">
@@ -286,7 +277,7 @@
         <div class="card-body">
             <h4 class="card-title">Mega Volume</h4>
             <h1 class="card-text">$100</h1>
-            <a href="#" class="btn btn-success">Get it!</a>
+            <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
  <hr>
@@ -411,8 +402,12 @@
 </div>
 </body>
     <style>
+
         .my_last_form{
-            background-image: url("../umidochka/img/lash.jpg");
+            background-color: white;
+            width: 100%;
+            height: auto;
+
         }
         .myformstr{
             background-color: #0c1e3d;
@@ -434,20 +429,6 @@
             width: 100%;
         }
 
-        .container3 h2{
-            color: #3a90ea;
-            margin: 30px;
-            margin-left: 75px;
-        }
-
-        .container3{
-            width: 840px;
-            height: 300px;
-            background-color: #0c1e3d;
-            border: 1px solid black;
-            margin-left: 290px;
-            opacity: 0.6;
-        }
         col-sm4{
             background-color: #3a90ea;
         }
@@ -489,16 +470,10 @@
         }
 
         .pictures{
-            background-image: url("../umidochka/img/lash.jpg");
+            background-image: url("../umidochka/img/mywall2.jpg");
+
         }
 
-        .container-fluid{
-            width: 100%;
-        }
-
-        .my_empty_div{
-            height: 300px;
-        }
 
         .navbar-expand-lg{
             background-color: #003b57 !important;
@@ -510,11 +485,11 @@
         }
 
         .mybody{
-            background-color: #003b57;
+
         }
 
        .parallax{
-           background-image: url("../umidochka/img/mywall.jpg");
+           background-image: url("../umidochka/img/girl.jpg");
            min-height: 500px;
            background-attachment: fixed;
            background-position: center;
@@ -579,9 +554,7 @@
         hr{
             margin-top: 6%;
         }
-        h2{
-            text-align: center;
-        }
+
         .col h5{
             text-align: center;
         }
@@ -590,10 +563,14 @@
             width: 180px;
             height: 180px;
             margin: 10px;
-            border: 2px solid darkslategrey;
-            box-shadow: 4px 4px 4px 4px #3d546f;
+            border: 2px solid #f3eaff;
+            box-shadow: 5px 5px 5px 5px rgba(6, 82, 121, 0.84);
             margin-top: 20px;
             border-radius: 90px;
+        }
+        .col img{
+            background-image: url("../umidochka/img/shahzosh.JPG");
+
         }
         .col img:hover{
             cursor: pointer;
@@ -673,13 +650,16 @@
             border: 2px solid grey;
             box-shadow: 3px 3px 3px 3px #0c5460;
             margin-bottom: 80px;
+            background-color: #f3eaff;
         }
         .myrow{
            margin-left: 10px;
+
         }
         .mypricelist h2{
             text-align: center;
             font-family: "Times New Roman";
+
         }
         .card-body{
             text-align: center;
@@ -701,16 +681,24 @@
         .price_chart{
             text-align: center;
             font-family: "Times New Roman";
-            color: #0c5460;
-            margin-top: 5%;
+            color: #f3eaff;
+            font-family: 'Roboto', sans-serif;
 
         }
         .gallery{
             background-image: url("../umidochka/img/backeye.jpg");
 
+        }
+        .container h1{
+            text-align: center;
+            color: #043955;
+            font-family: "Curs";
+
 
         }
-
+        body{
+            background-color: #0f2e41;
+        }
 
 
 
