@@ -8,56 +8,81 @@
 <body>
 
 <div class="container-fluid mybox">
-    <div class="profile">
-        <p>
-            <img class="staff_photo" src="https://media.istockphoto.com/photos/portrait-of-a-doctor-picture-id92347250?k=6&m=92347250&s=612x612&w=0&h=xEfKxSuZVFkrdM2uPORSRH-67737aR1ubaDJRQYvCNk=">
-     <br>
-            <span class="staff_name">Sergey Yanovitskiy</span><br>
-            <span class="staff_title">Hospital President</span>
-        </p>
-    </div>
-
-    <div class="profile">
-        <p>
-            <img class="staff_photo" src="https://media.istockphoto.com/photos/confident-african-american-female-doctor-isolated-picture-id175399910?k=6&m=175399910&s=612x612&w=0&h=UvTdfhen9eKtlvB5djetvMAz34TkqnZNngn2M00vEXw=">
-            <br>
-            <span class="staff_name">Sergey Yanovitskiy</span><br>
-            <span class="staff_title">Hospital President</span>
-        </p>
-    </div>
-
-
-    <div class="profile">
-        <p>
-            <img class="staff_photo" src="https://photos.headshotcrew.com/styles/large/s3/cloud/images/36/23/36231-4551.jpg?itok=FBj1ucWS">
-            <br>
-            <span class="staff_name">Sergey Yanovitskiy</span><br>
-            <span class="staff_title">Hospital President</span>
-        </p>
-    </div>
+    <table class="table table-bordered">
+        <tr>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+        </tr>
+        <tr>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+        </tr>
+        <tr>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+        </tr>
+        <tr>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+        </tr>
+        <tr>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+            <td><img src="../img/spring1.jpg"></td>
+        </tr>
+    </table>
 
 
 </div>
 
+
 <style>
-    .profile{
-        width: 150px;
-        overflow: hidden;
-        display: inline-block;
-        text-align: center;
-        margin: 15px 15px;
-    }
-    .staff_photo{
-        width: 145px;
-        height: 145px;
-        border-radius: 50%;
-        border: 5px solid #a60000;
-        padding: 5px;
-        background-color: #b53500;
-    }
-    .mybox{
-        text-align: center;
-    }
+.spring{
+    width: 200px;
+    display:  table-cell;
+    border: 2px solid #fff846;
+}
+
+td img{
+    width: 100%;
+
+}
+
+
+
+tr:nth-child(odd){
+    background-color: red;
+}
+
+
+
+    /*
+            1nchi qator = :first-child
+            2
+            3
+            4  :nth(2)
+            +
+            n
+            Ohirgi qator = :last-child
+
+
+     */
+
+
 </style>
 
 </body>
