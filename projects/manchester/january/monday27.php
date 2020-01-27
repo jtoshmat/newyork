@@ -1,39 +1,55 @@
-<?php
-// C- style Comment
-#Shell style comment
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Math Operation</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+</head>
+<body>
 
-//Single Line Comment
-/*
- * Multiple Lines
- * Line 1
- * Line 2
- */
+<div class="mycalc">
+    <form method="get">
+        <p>
+            <label>Enter Your Number 1: </label>
+            <input value="<?=$_GET['num1']??null;?>" name="num1" type="number" min="0" max="100">
+            <br>
 
+            <label>Pick Your Operator </label>
+            <select name="operator">
+                <option name="+">+</option>
+                <option name="-">-</option>
+                <option name="*">*</option>
+                <option name="/">/</option>
+            </select>
+            <br>
 
-//echo vs print
+            <label>Enter Your Number 2: </label>
+            <input value="<?=$_GET['num2']??null;?>" name="num2" type="number" min="0" max="100">
+            <br>
 
-//echo "Hello World";
-//echo "<hr>";
-//print 'Hello World';
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+</div>
 
-?>
+<div class="results">
+    <?php
+        $total = 0;
+        $num1 = $_GET['num1']??5;
+        $num2 = $_GET['num2']??5;
+        $operator = $_GET['operator']??'-';
 
-<p>This is going to be ignored by PHP and displayed by the browser.</p>
-<?php echo 'While this is going to be parsed.'; ?>
-<p>This will also be ignored by PHP and displayed by the browser.</p>
+        if ($num1 && $num2){
+            $total = eval('return '.$num1.$operator.$num2.';');
+        }
 
+        echo $total;
 
-<?php
-echo 'This is a test';
-?>
+    ?>
+</div>
 
-<?php echo 'This is a test' ?>
-
-<?php echo 'We omitted the last closing tag';?>
-<hr>
-<?php
-echo 'This is a test <br>'; // This is a one-line c++ style comment
-/* This is a multi line comment
-   yet another line of comment */
-echo 'This is yet another test <br>';
-echo 'One Final Test <br>'; # This is a one-line shell-style comment
+</body>
+</html>
