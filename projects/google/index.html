@@ -19,7 +19,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutus.php">About Us</a></li>
             <li><a href="/services">Our Services</a></li>
-            <li><a href="/contactus">Contact Us</a></li>
+            <li><a href="contactus.php">Contact Us</a></li>
             <div class="clearfix"></div>
         </ul>
         <div class="clearfix"></div>
