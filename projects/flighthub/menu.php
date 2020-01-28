@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/bootstrap.css">
+    
 </head>
 <body>
 
@@ -15,7 +16,12 @@
         <ul class="nav">
             <li>HOME</li>
             <li>Contact Us</li>
-            <li>About Us</li>
+            <li>About Us
+                <ul class="firstchild"</ul>
+        <li>Hello</li>
+        <li>
+
+            </li>
             <li>My Photos
                 <ul class="firstchild">
                     <li>Trip to Hawaii</li>
