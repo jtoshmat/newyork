@@ -1,0 +1,59 @@
+body{
+    background-color: #fdbdc9;
+}
+.top{
+    background-color: #af0000;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.top div{
+    padding: 10px;
+}
+#logo {
+    width: 148px;
+    margin-top: -6px;
+    padding-left: 7px;
+    margin-left: 1px;
+}
+.middle{
+    background-color: white;
+    height: 60px;
+    border-bottom: 1px solid #dcdcdc;
+}
+.middle nav a{
+    margin: 22px;
+    color: #415cb6;
+    text-align: right;
+    padding: 0px;
+    margin: 7px;
+}
+.middle nav a:hover{
+    text-decoration: none;
+    color: red;
+    cursor: progress;
+}
+.middle div{
+    display: table-cell;
+    text-align: center;
+}
+.middle div:first-child{
+    text-align: left;
+    width: 30%;
+}
+.middle div a:last-child{
+    text-align: center;
+    width: 50%;
+}
+.h2{
+    text-align: center;
+}
+.div span{
+    text-align: center;
+    margin-right: auto;
+    padding: initial;
+}
+.body{
+    background-image: url("../img/imageback.jpg");
+}
