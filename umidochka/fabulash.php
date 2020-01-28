@@ -13,8 +13,8 @@
 <body>
 <div class="mybody">
     <div class="mynavbar">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"><img src="" </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+            <a class="navbar-brand" href="#"><img class="mylogo" src="https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -133,65 +133,6 @@
     </div>
 
 
-        <div class="container-fluid">
-
-            <div id="myCarousel" class="carousel slide" data-ride="carousel" >
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-
-                    <div class="item active">
-                        <img src="../umidochka/img/eye4.JPG" alt="Eyelash" style="width:100%;">
-                        <div class="carousel-caption">
-                            <h3>Umidochka</h3>
-                            <p>She is the best lashmaker!</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="../umidochka/img/eye3.JPG" alt="Chicago" style="width:100%;">
-                        <div class="carousel-caption">
-                            <h3>Cat Eye Look</h3>
-                            <p>Thank you, Gorgeous!</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="../umidochka/img/eye7.JPG" alt="New York" style="width:100%;">
-                        <div class="carousel-caption">
-                            <h3>Dool Eye Look</h3>
-                            <p>Have a fabulash day!</p>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <img src="../umidochka/img/eye6.JPG" alt="New York" style="width:100%;">
-                        <div class="carousel-caption">
-                            <h3>Dool Eye Look</h3>
-                            <p>Have a fabulash day!</p>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Left and right controls -->
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-        </div>
-
 <div class="pictures">
     <div class="container">
 <h1>Gallery</h1>
@@ -216,6 +157,67 @@
 
     </div>
 </div>
+
+
+<div class="container-fluid">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" >
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+            <div class="item active">
+                <img src="../umidochka/img/eye4.JPG" alt="Eyelash" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Umidochka</h3>
+                    <p>She is the best lashmaker!</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="../umidochka/img/eye3.JPG" alt="Chicago" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Cat Eye Look</h3>
+                    <p>Thank you, Gorgeous!</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="../umidochka/img/eye7.JPG" alt="New York" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Dool Eye Look</h3>
+                    <p>Have a fabulash day!</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="../umidochka/img/eye6.JPG" alt="New York" style="width:100%;">
+                <div class="carousel-caption">
+                    <h3>Dool Eye Look</h3>
+                    <p>Have a fabulash day!</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
 
 <!--Pricelist! -->
 <h1 class="price_chart">Price Chart</h1>
@@ -398,10 +400,15 @@
             </div>
         </div>
     </div>
+    <div class="myformitto"></div>
 
 </div>
 </body>
     <style>
+        .mylogo{
+            margin-top: -40px;
+
+        }
 
         .my_last_form{
             background-color: white;
@@ -461,22 +468,33 @@
             margin-left: 40px;
 
         }
+        .navbar-brand img{
+            width: 200px;
+            padding-bottom: 10px;
+
+        }
 
 
-        .mynavbar{
+        .navbar{
             position: fixed;
             z-index: 1000;
             width: 100%;
+            height: 150px;
+
         }
 
         .pictures{
-            background-image: url("../umidochka/img/mywall2.jpg");
+            background-color: #f3eaff;
 
         }
 
 
         .navbar-expand-lg{
-            background-color: #003b57 !important;
+            background-color: #90b7fa !important;
+            height: 120px;
+
+
+
 
         }
 
@@ -496,16 +514,6 @@
            background-repeat: no-repeat;
            background-size: cover;
        }
-
-        .mysticky{
-            width: 50%;
-            height: 564px;
-            float: left;
-            position: fixed;
-            /* left: 10%; */
-            top: 10%;
-            z-index: -10;
-        }
 
         .form1{
             margin-top: 40px;
@@ -560,13 +568,13 @@
         }
 
         .col img{
-            width: 180px;
-            height: 180px;
+            width: 190px;
+            height: 190px;
             margin: 10px;
-            border: 2px solid #f3eaff;
-            box-shadow: 5px 5px 5px 5px rgba(6, 82, 121, 0.84);
+            border: 4px solid rgba(132, 127, 139, 0.98);
+            box-shadow: 5px 5px 5px 5px rgba(131, 126, 138, 0.84);
             margin-top: 20px;
-            border-radius: 90px;
+            border-radius: 98px;
         }
         .col img{
             background-image: url("../umidochka/img/shahzosh.JPG");

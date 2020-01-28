@@ -2,22 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/umidochka/img/asal.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/client.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/dilnur.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/feruzpa.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/girl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/girls1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/jamil.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/kamila.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/komosh.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/lola.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/mohish.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/mywall2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/nigish.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/nilupa.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/ozosh.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/zarina.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
     </list>
@@ -154,7 +138,7 @@
       <workItem from="1579299562986" duration="590000" />
       <workItem from="1579300175177" duration="17662000" />
       <workItem from="1579580798773" duration="10020000" />
-      <workItem from="1579721163132" duration="15529000" />
+      <workItem from="1579721163132" duration="18330000" />
     </task>
     <servers />
   </component>
@@ -170,9 +154,10 @@
       <screen x="0" y="23" width="1440" height="816" />
     </state>
     <state x="399" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1579721163894" />
-    <state x="1" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1579762531044">
+    <state x="1" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1580235457834">
       <screen x="0" y="23" width="1440" height="816" />
     </state>
-    <state x="1" y="163" width="670" height="676" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1579762531044" />
+    <state x="1" y="163" width="670" height="676" key="search.everywhere.popup/0.23.1440.816@0.23.1440.816" timestamp="1580235457834" />
+    <state x="1" y="164" width="670" height="682" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1580011562172" />
   </component>
 </project>
