@@ -1,21 +1,14 @@
-<?php
-$texts = file_get_contents('../files/mytexts.txt');
-$alltexts = explode(' ', $texts);
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../js/jq"></script>
+</head>
+<body>
 
-echo "<div class='mytext'>";
-
-$lorem = [];
-foreach ($alltexts as $num=>$word){
-    if ($word=='Lorem'){
-        $lorem[] = $num.') '. $word . "\n";
-    }
-
-    if ($word=='Ipsum'){
-        $lorem[] = $num.") Ipsum \n";
-    }
-
-    echo $word. ' ';
-}
-echo "</div>";
-file_put_contents('../files/myoutputs.txt', $lorem);
-?>
+</body>
+</html>
