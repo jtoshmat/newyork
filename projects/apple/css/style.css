@@ -1,0 +1,11 @@
+.mybox{
+    width: 100%;
+    height: 200px;
+    background-color: lightgrey;
+    border-bottom: 5px solid black;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
