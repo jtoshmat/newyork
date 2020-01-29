@@ -4,47 +4,18 @@ $alltexts = explode(' ', $texts);
 
 echo "<div class='mytext'>";
 
+$lorem = [];
 foreach ($alltexts as $num=>$word){
-
-
     if ($word=='Lorem'){
-        echo "<span class='lorem'>Lorem</span>";
-    }else if($word=='Ipsum'){
-        echo "<span class='text'>Ipsum</span>";
+        $lorem[] = $num.') '. $word . "\n";
     }
-    else{
-        echo " $word ";
+
+    if ($word=='Ipsum'){
+        $lorem[] = $num.") Ipsum \n";
     }
+
+    echo $word. ' ';
 }
-
 echo "</div>";
+file_put_contents('../files/myoutputs.txt', $lorem);
 ?>
-
-<style>
-
-    .mytext{
-        width: 500px;
-        height: auto;
-        overflow: auto;
-        border: 1px solid grey;
-        margin: auto;
-    }
-
-    .lorem{
-        background-color: yellow;
-        color: darkred;
-        border: 1px solid black;
-        padding:4px;
-        margin: 2px;
-    }
-
-    .text{
-        background-color: #ff2a9e;
-        color: #fff846;
-        border: 1px solid black;
-        padding:4px;
-        margin: 2px;
-    }
-</style>
-
-
