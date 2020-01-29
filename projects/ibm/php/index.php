@@ -65,17 +65,17 @@
 </div>
 <style>
 
-    .myform table{
+    .myform table {
         width: 400px;
         background-color: #d6f3f9;
         border: 1px solid black;
     }
 
-    table td{
-        padding:10px;
+    table td {
+        padding: 10px;
     }
 
-    tr:last-child td{
+    tr:last-child td {
         text-align: center;
         border-top: 1px solid black;
     }
