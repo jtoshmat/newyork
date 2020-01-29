@@ -2,7 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apple/img/restaraunt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apple/sunat2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apple/sunnat.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/font-awesome.min.css.1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/paris.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/url_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wedding_couple_photo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onboarding/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/css/sunday.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/demo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/homework.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/img/newyork.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/january25.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/january26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/flighthub/css/saturday.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/flighthub/daily.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/flighthub/img/html5_min_requirements.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/flighthub/saturday.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/aboutus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/img/spring1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/january/classroom_exercise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/january/monday27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/jon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/january/monday27.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/january/tuesday28.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/demo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/hyperlinks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/january242020.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/sunday.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/test.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/worldnews.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb#.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb**.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb*.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumb9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumbb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumbnew.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumbo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumboooo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/jumbpink.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/myjumbo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/myjumbo2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/myparallax.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/parallax.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/pink_wall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/jumb3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/myproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/myproject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apple/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/apple/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/airports.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/airports.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/amazon/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/amazon/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flighthub/css/style2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flighthub/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flighthub/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/google/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/google/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/google/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/google/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ibm/php/jon.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ibm/php/jon.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +158,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/umidochka" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -78,8 +170,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/badges" />
       <recent name="$PROJECT_DIR$/umidochka" />
+      <recent name="$PROJECT_DIR$/badges" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/umidochka/img" />
@@ -138,7 +230,7 @@
       <workItem from="1579299562986" duration="590000" />
       <workItem from="1579300175177" duration="17662000" />
       <workItem from="1579580798773" duration="10020000" />
-      <workItem from="1579721163132" duration="18330000" />
+      <workItem from="1579721163132" duration="29015000" />
     </task>
     <servers />
   </component>

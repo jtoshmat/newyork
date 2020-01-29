@@ -13,7 +13,7 @@
 <body>
 <div class="mybody">
     <div class="mynavbar">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#"><img class="mylogo" src="https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp"> </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,14 +31,65 @@
             </div>
         </nav>
     </div>
-    <div>
-        <div class="jumbotron">
+      <!--  <div class="jumbotron">
             <h1 class="display-4">Welcome to Fabulashes!</h1>
             <p class="lead">Life is short but your lashes should not be...</p>
             <hr class="my-4">
             <p>Eyelash Extensions are perfect for special occasions or for everyday wear.</p>
         </div>
+        </div> -->
+        <div class="parallax"> </div>
+    <div class="pbox">
+        <div style="height: 100px" ></div>
+        <div class="p_inside">
+        <h1 class="pheader">Wow! These lashes last for more than a month...</h1>
         </div>
+        </div>
+   <!-- <div class="transparent">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h5>How long Eyelash Extensions last?</h5>
+                    <p class="myp">Lash extensions last through a full growth
+                        cycle of natural eyelashes, typically
+                        six to eight weeks. That said, because
+                        each person's lash growth is somewhat
+                        variable (just hair growth), I suggest
+                        light lash maintenance every three to
+                        four weeks to maintain a full look.</p>
+
+                </div>
+                <div class="col-sm">
+                    <h5>Do Eyelash Extensions ruin your natural lashes?</h5>
+                    <p class="myp">The biggest myth is that lash extensions ruin your
+                        own lashes. They do not. If applied correctly and
+                        properly, they are safe and do not ruin the health
+                        of your natural lashes. Be sure not to rub your eyes
+                        or tug or pull on the extensions because this can
+                        cause lash loss and even damage to your natural lashes.</p>
+
+                </div>
+                <div class="col-sm">
+                    <h5>Do Eyelash Extensions hurt?</h5>
+                    <p class="myp">"Eyelash extensions do not hurt,
+                        if safely applied, Fracassi explains.
+                        "Each individual lash is intricately
+                        placed one at a time on top of your
+                        natural lashes, so essentially the
+                        application is flawless. ... "If
+                        your eyelash extensions are hurting,
+                        immediately contact your technician
+                        to explain the discomfort."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    -->
+
+
+    <div class="parallax1">
+
+    </div>
         <div class="gallery">
 
             <div class="container">
@@ -82,53 +133,9 @@
                     </div>
                 </div>
         </div>
-
-
     </div>
-       <!-- <div class="transparent">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm">
-                        <h5>How long Eyelash Extensions last?</h5>
-                        <p>Lash extensions last through a full growth
-                            cycle of natural eyelashes, typically
-                            six to eight weeks. That said, because
-                            each person's lash growth is somewhat
-                            variable (just hair growth), I suggest
-                            light lash maintenance every three to
-                            four weeks to maintain a full look.</p>
 
-                    </div>
-                    <div class="col-sm">
-                        <h5>Do Eyelash Extensions ruin your natural lashes?</h5>
-                        <p>The biggest myth is that lash extensions ruin your
-                            own lashes. They do not. If applied correctly and
-                            properly, they are safe and do not ruin the health
-                            of your natural lashes. Be sure not to rub your eyes
-                            or tug or pull on the extensions because this can
-                            cause lash loss and even damage to your natural lashes.</p>
-
-                    </div>
-                    <div class="col-sm">
-                        <h5>Do Eyelash Extensions hurt?</h5>
-                        <p>"Eyelash extensions do not hurt,
-                            if safely applied, Fracassi explains.
-                            "Each individual lash is intricately
-                            placed one at a time on top of your
-                            natural lashes, so essentially the
-                            application is flawless. ... "If
-                            your eyelash extensions are hurting,
-                            immediately contact your technician
-                            to explain the discomfort."</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        -->
-
-
-
-    <div class="parallax">
+    <div class="parallax_middle">
 
     </div>
 
@@ -222,7 +229,7 @@
 <!--Pricelist! -->
 <h1 class="price_chart">Price Chart</h1>
 <div class="row myrow">
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 17rem;">
     <div class="mypricelist">
         <h2>Classic</h2>
     </div>
@@ -232,7 +239,7 @@
         <a href="#" class="btn btn-success">Book Now!</a>
     </div>
 </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 17rem;">
         <div class="mypricelist">
             <h2>Natural Set</h2>
         </div>
@@ -242,7 +249,7 @@
             <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 17rem;">
         <div class="mypricelist">
             <h2>Hybrid Set</h2>
         </div>
@@ -252,7 +259,7 @@
             <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 17rem;">
         <div class="mypricelist">
             <h2>Volume Set</h2>
         </div>
@@ -262,7 +269,7 @@
             <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 17rem;">
         <div class="mypricelist">
             <h2>Hybrid Set</h2>
         </div>
@@ -272,7 +279,7 @@
             <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
-    <div class="card" style="width: 18rem;">
+    <div class="card" style="width: 17rem;">
         <div class="mypricelist">
             <h2>Mega Set</h2>
         </div>
@@ -282,7 +289,7 @@
             <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
- <hr>
+
     <!--<div class="container-fluid mycontainer myform">
         <h1 class="headerbook">Make your appointment!</h1>
 
@@ -400,13 +407,56 @@
             </div>
         </div>
     </div>
-    <div class="myformitto"></div>
-
 </div>
+
 </body>
     <style>
+
+        .container-fluid {
+            padding-right: 0;
+            padding-left: 0;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .tales {
+            width: 100%;
+        }
+        .carousel-inner{
+            width:100%;
+            max-height: 500px !important;
+        }
+
+        .item img{
+            height: 500px !important;
+        }
+
+
+        .pbox{
+            width: 100%;
+            height: 500px;
+            background-image: url("../umidochka/img/pink_wall.jpg");
+            background-size: 100% 100%;
+
+        }
+        .p_inside{
+            width: 70%;
+            height: 300px;
+            background-color: #0c1e3d;
+            margin-left: 15%;
+            padding-top: 40px;
+
+        }
+
+        .myp{
+            height: auto;
+        }
+
+        .nav-item active{
+            color: #0c1e3d;
+        }
         .mylogo{
-            margin-top: -40px;
+            margin-top: -20px;
 
         }
 
@@ -469,7 +519,9 @@
 
         }
         .navbar-brand img{
-            width: 200px;
+            width: 150px;
+            height: auto;
+
             padding-bottom: 10px;
 
         }
@@ -479,23 +531,19 @@
             position: fixed;
             z-index: 1000;
             width: 100%;
-            height: 150px;
+            height: 250px;
 
         }
 
         .pictures{
-            background-color: #f3eaff;
+            background-image: url("../umidochka/img/pink_wall.jpg");
 
         }
 
 
         .navbar-expand-lg{
-            background-color: #90b7fa !important;
-            height: 120px;
-
-
-
-
+            background-color: rgba(252, 188, 178, 0.96) !important;
+            height: auto;
         }
 
         .active{
@@ -507,13 +555,29 @@
         }
 
        .parallax{
-           background-image: url("../umidochka/img/girl.jpg");
-           min-height: 500px;
-           background-attachment: fixed;
-           background-position: center;
-           background-repeat: no-repeat;
-           background-size: cover;
-       }
+            background-image: url("../umidochka/img/girl.jpg");
+            min-height: 700px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .parallax_middle{
+            background-image: url("../umidochka/img/screenshot.png");
+            min-height: 700px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .parallax1{
+            background-image: url("../umidochka/img/myjumbo2.jpg");
+            min-height: 300px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
 
         .form1{
             margin-top: 40px;
@@ -628,11 +692,12 @@
 
         }
         .jumbotron {
-            height: 600px;
-            background-image: url("../umidochka/img/wallpaper4.jpg");
+            height: 700px;
+            background-image: url("../umidochka/img/girl.jpg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
             color: #f3eaff;
+            padding-bottom: 80px;
         }
 
         .inside{
@@ -658,10 +723,10 @@
             border: 2px solid grey;
             box-shadow: 3px 3px 3px 3px #0c5460;
             margin-bottom: 80px;
-            background-color: #f3eaff;
+            background-color: #fde6da;
         }
         .myrow{
-           margin-left: 10px;
+           margin-left: 3%;
 
         }
         .mypricelist h2{
@@ -689,7 +754,7 @@
         .price_chart{
             text-align: center;
             font-family: "Times New Roman";
-            color: #f3eaff;
+            color: #043955;
             font-family: 'Roboto', sans-serif;
 
         }
@@ -701,12 +766,11 @@
             text-align: center;
             color: #043955;
             font-family: "Curs";
-
-
         }
-        body{
-            background-color: #0f2e41;
+        .navbar-collapse{
+            margin: 25px;
         }
+
 
 
 
