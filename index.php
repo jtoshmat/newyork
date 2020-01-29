@@ -1,8 +1,13 @@
-<?php
-function inc($a){
-    return $a++;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to MY-IT-EDUCATION.US!</title>
+</head>
+<body>
 
-$jon = inc(5);
-echo $jon;
 
+<h1>Welcome to MY-IT-EDUCATION.US</h1>
+
+
+</body>
+</html>
