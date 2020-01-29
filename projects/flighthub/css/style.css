@@ -191,6 +191,25 @@ border: none;
     font-weight: bolder;
 }
 
+.mymiddle_right_text2 {
+    width: 505px;
+    height: 147px;
+    background-color: black;
+    position: relative;
+    top: -341px;
+    left: 471px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    font-family: "American Typewriter";
+    opacity: 0.3;
+    font-weight: bolder;
+    border-top: 3px solid #bd7a0e;
+    border-bottom: 3px solid #bd7a0e;
+}
+
 .mymiddle_right_text span{
     color: sandybrown;
 }

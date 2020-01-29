@@ -1,0 +1,55 @@
+body{
+    background-color: #0085d0;
+}
+.mycomments{
+    width: 1000px;
+    overflow: hidden;
+    margin: auto;
+    background-color: #ededed;
+    padding:5px;
+    border: 1px solid black;
+    box-shadow: #21486d 5px 5px 5px 5px;
+}
+.mytextarea{
+    width: 550px;
+    height: 180px;
+}
+.profile_photo{
+    width: 70px;
+}
+
+.commentslist li{
+    list-style: none;
+}
+.commentslist li div{
+    float: left;
+}
+.commentslist li div:first-child{
+    width: 10%;
+}
+.commentslist li div:nth-child(2){
+    width: 80%;
+}
+
+.comment_links{
+    text-align: right;
+    width: 97%;
+    margin: 5px;
+    border-bottom: 1px solid #cacaca;
+    margin-bottom: 20px;
+}
+.myform{
+    width: 90%;
+    margin: auto;
+}
+
+.container-fluid{
+    margin-top: 20px;
+}
+
+.like_icon{
+    color: green;
+}
+.dislike_icon{
+    color: #a60000;
+}
