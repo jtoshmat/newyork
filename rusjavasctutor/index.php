@@ -8,8 +8,8 @@
     <title>Document</title>
 </head>
 <body>
+    <h1 id="someText"></h1>
+    <script src="script.js"></script>
 
-
-<script src="script.js"></script>
 </body>
 </html>
