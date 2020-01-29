@@ -1,0 +1,52 @@
+body{
+    background-color: #4a250e;
+}
+.mybox{
+    background-color: #afd029;
+}
+.logodiv{
+
+    display: inline-block;
+}
+
+.logo{
+    width: 300px;
+    margin: 20px;
+}
+
+.menudiv{
+    display: inline-block;
+    float: right;
+}
+
+nav a{
+    margin: 15px 15px;
+    text-decoration: none;
+    color: #0e82b5;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: rebeccapurple;
+    text-decoration: none;
+    border-bottom: 1px dotted yellow;
+}
+
+.contactnumbers{
+    position: relative;
+    top: 41px;
+    left: 46px;
+    text-align: center;
+}
+
+.contactnumbers span:first-child{
+    font-size: 20px;
+    color: #00355b;
+}
+
+.contactnumbers span:last-child{
+    font-size: 40px;
+    color: darkred;
+    font-weight: bolder;
+    font-family: "Adobe Handwriting";
+}
