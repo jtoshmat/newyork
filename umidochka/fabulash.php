@@ -9,6 +9,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/media.css">
+
 </head>
 <body>
 <div class="mybody">
@@ -38,11 +39,23 @@
             <p>Eyelash Extensions are perfect for special occasions or for everyday wear.</p>
         </div>
         </div> -->
-        <div class="parallax"> </div>
+        <div class="parallax">
+
+            <div style="height: 350px" > </div>
+        <p class="topheader">Welcome to our Online Fabulash Site</p>
+
+        </div>
     <div class="pbox">
         <div style="height: 100px" ></div>
         <div class="p_inside">
+
         <h1 class="pheader">Wow! These lashes last for more than a month...</h1>
+            <div style="height: 40px"></div>
+            <p class="pheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in</p>
         </div>
         </div>
    <!-- <div class="transparent">
@@ -411,6 +424,12 @@
 
 </body>
     <style>
+        .topheader{
+        color: rgba(201, 102, 91, 0.85);
+            display: none;
+            font-size: 45px;
+            text-align: center;
+        }
 
         .container-fluid {
             padding-right: 0;
@@ -445,7 +464,13 @@
             background-color: #0c1e3d;
             margin-left: 15%;
             padding-top: 40px;
+            opacity: 0.7;
 
+        }
+        .pheader{
+            text-align: center;
+            margin: 6px;
+            color: #fdbdb4;
         }
 
         .myp{
@@ -723,7 +748,8 @@
             border: 2px solid grey;
             box-shadow: 3px 3px 3px 3px #0c5460;
             margin-bottom: 80px;
-            background-color: #fde6da;
+            background-image: url("../umidochka/img/pink_wall.jpg");
+            background-size: cover;
         }
         .myrow{
            margin-left: 3%;
@@ -774,9 +800,15 @@
 
 
 
-    </style>
-    <script>
 
+    </style>
+
+    <script>
+        $(document).ready(function(){
+            $(".parallax").mouseenter(function () {
+                $(".topheader").fadeIn(3000);
+            });
+        });
     </script>
 </body>
 </html>
