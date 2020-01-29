@@ -1,31 +1,50 @@
 <?php
-$names = ['Jon,', 'Abdulbari', 'Rustam', 'Muhamadjon', 'Dilafruz', 'Oybek', 'Asror', 'Umida'];
-$ages =  [23,34,54,65,76,23,53, 81];
-$location  = ['New York','Chicago','London','Mexico City','Moscow','Kiev','Tokio', 'Tashkent'];
-foreach ($names as $i=>$name){
-    echo "My name is <span>$name</span> and I am <span>$ages[$i]</span> years old and I live in <span>$location[$i]</span>";
+$texts = file_get_contents('../files/mytexts.txt');
+$alltexts = explode(' ', $texts);
 
-    if ($ages[$i] > 65){
-        echo "< -- AARP member";
+echo "<div class='mytext'>";
+
+foreach ($alltexts as $num=>$word){
+
+
+    if ($word=='Lorem'){
+        echo "<span class='lorem'>Lorem</span>";
+    }else if($word=='Ipsum'){
+        echo "<span class='text'>Ipsum</span>";
     }
-
-    echo "<hr>";
-
+    else{
+        echo " $word ";
+    }
 }
+
+echo "</div>";
 ?>
 
 <style>
 
-    span{
-        background-color: #008500;
-        padding:5px;
-        margin: 2px;
-        border-radius: 10px;
+    .mytext{
+        width: 500px;
+        height: auto;
+        overflow: auto;
+        border: 1px solid grey;
+        margin: auto;
     }
 
-    body{
-        background-color: #490000;
-        color: #ffce5c;
-        font-size:30px;
+    .lorem{
+        background-color: yellow;
+        color: darkred;
+        border: 1px solid black;
+        padding:4px;
+        margin: 2px;
+    }
+
+    .text{
+        background-color: #ff2a9e;
+        color: #fff846;
+        border: 1px solid black;
+        padding:4px;
+        margin: 2px;
     }
 </style>
+
+
