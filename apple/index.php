@@ -87,7 +87,7 @@
         margin: auto;
     }
     body {
-        background-color: #f1f1f1;
+        background-color: #fffbf9;
     }
 </style>
 </body>
