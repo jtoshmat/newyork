@@ -1,0 +1,39 @@
+.box{
+    width: 900px;
+    height: 483px;
+    border: 1px solid black;
+    background-color: #00cc00;
+    margin: auto;
+    margin-top: 109px;
+    background-image: url("../img/book.jpg");
+}
+.topline{
+    width: 900px;
+    height: 30px;
+    background-color: #00000a;
+    overflow: hidden;
+    text-align: right;
+}
+.topline nav a{
+    color: white;
+    margin: 20px;
+}
+.topline nav a:hover{
+    color: #00cc00;
+}
+.middle{
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.mytext{
+    background-color: #8c6969;
+    color: black;
+    opacity: 05%;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+
+}

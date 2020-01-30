@@ -1,0 +1,15 @@
+.blue_box {
+    width: 876px;
+    height: 600px;
+    background-color: #5d879d;
+    margin: auto;
+    margin-top: 89px;
+}
+.login_box {
+    width: 500px;
+    height: 462px;
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+
+}
