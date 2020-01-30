@@ -1,0 +1,92 @@
+.container-fluid{
+    width: 1300px;
+}
+.topmenu {
+    width: 1300px;
+    height: 94px;
+    margin: auto;
+    background-color: #ffcb2d;
+    font-family: "Arial";
+    color: #07065c;
+
+
+}
+.topraw{
+    display: inline;
+}
+.logo{
+    width: 20%;
+    height: 50%;
+    position: relative;
+    left: 85px;
+    top: 15px;
+
+
+
+
+}
+.toplist{
+    width: 80%;
+    height: 50%;
+
+
+}
+.toplist ul{
+    float: right;
+    list-style: none;
+    text-align: right;
+    display: flex;
+    padding: 0px 70px 0px 0px;
+    font-size: 13px;
+
+
+}
+.toplist ul li{
+    padding: 0px 20px 0px 0px;
+}
+.btraw{
+    width: 100%;
+    height: 50%;
+
+}
+.btraw ul{
+    float: left;
+    list-style: none;
+    text-align: left;
+    display: flex;
+    padding: 17px 0px 0px 89px;
+    margin: 0;
+    font-size: 15pxpx;
+
+}
+.btraw ul li{
+    padding: 0px 15px 0px 0px;
+}
+.mainmenu{
+    width: 1300px;
+    height: 800px;
+    margin: auto;
+    background-size:  1300px 800px;
+    background-image: url("https://wordpress-308562-967316.cloudwaysapps.com/wp-content/uploads/2014/07/Maldives.png");
+    background-repeat: no-repeat;
+}
+.serchbox{
+    width: 1115px;
+    height: 432px;
+    background-color: black;
+    margin: auto;
+    border-radius: 3px;
+    opacity: 0.7;
+
+}
+
+.footer{
+    width: 100%;
+    height: 143px;
+    background-color: white;
+
+
+}
+body{
+    background-color: whitesmoke;
+}
