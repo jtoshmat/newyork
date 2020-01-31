@@ -10,7 +10,7 @@
 </head>
 <body>
     <button class="open_modal">Open Modal</button>
-    <div class="modal">
+    <div class="modal is-active">
         <header>Hello, World!</header>
         <main>Lorem Ipsum is simply dummy text of
             the printing and typesetting industry.</main>

@@ -48,3 +48,9 @@ echo "</div>";
 </style>
 
 
+<?php
+//Error Types
+    // 1. Notice Error
+    // 2. Warning Error
+    // 3. Fatal Error   
+

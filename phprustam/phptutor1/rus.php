@@ -11,13 +11,20 @@
 
 
     <?php
-
-        function cube($num){
-            return $num * $num * $num;
+        $isMale = true;
+        $isTall = false;
+        if ($isMale && $isTall){
+            echo "You are a tall male";
         }
-
-        echo cube(5);
-
+        elseif ($isMale && !$isTall){
+            echo "You are a short male";
+        }
+        elseif (!$isMale && $isTall){
+            echo "You are not male but are tall";
+        }
+        else{
+            echo "You are not male and not tall";
+        }
     ?>
 </body>
 </html>

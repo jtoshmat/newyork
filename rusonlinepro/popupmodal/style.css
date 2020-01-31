@@ -11,5 +11,51 @@ body{
     align-items: center;
     background: linear-gradient(to bottom right, #FF5858, #CC2E5D);
 }
+button{
+    appearance: none;
+    outline: none;
+    border: none;
+    background: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 25px;
+}
+.open_modal{
+    background: #FFF;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.open_modal:hover{
+    box-shadow: inset 3px 3px rgba(0,0,0, 0.2);
+}
+.close_modal{
+    background: linear-gradient(to right, #FF5858, #CC2E5D);
+    color: #FFF;
+    border-radius: 8px;
+    transition: 0.4s;
+}
+.close_modal:hover{
+    box-shadow: inset 3px 3px rgba(0,0,0,0.2);
+}
+.modal{
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(-200px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    max-width: 480px;
+    background: #FFF;
 
-.m
+}
+header, main, footer{
+    padding: 15px;
+}
+.modal.is-active{
+    opacity: 1;
+    pointer-events: all;
+    transform: translate(-50%, -50%);
+}
