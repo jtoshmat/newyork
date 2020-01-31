@@ -1,0 +1,78 @@
+body{
+    background-color: #DBDBDB;
+}
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.jontoshmatov{
+    width: 1000px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.topdiv{
+    background-color: black;
+    text-align: right;
+    height: 40px;
+}
+
+
+.topdiv a{
+    color: white;
+    margin: 5px 20px;
+    text-decoration: none;
+}
+.topdiv a:hover{
+    color: greenyellow;
+}
+
+.image_box{
+    background-color: white;
+    height: 100px;
+}
+
+.image_box_children{
+    display: inline-block;
+}
+
+.brother1 img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.brother1{
+    width: 20%;
+    padding:2px;
+}
+.brother2{
+    width: 55%;
+    text-align: center;
+}
+.brother2 a{
+    color: #332e2e;
+    margin: 5px 13px;
+}
+.brother3{
+    width: 24%;
+}
+
+.brother3 span:last-child{
+    color: red;
+    font-size: 20px;
+}
+
+.contactus{
+    position: relative;
+    top: 20px;
+}
+.contactus span:last-child{
+    color: red;
+    font-size: 20px;
+    font-family: "American Typewriter";
+    font-weight: bolder;
+}
+.contactus span:last-child a{
+    color: red;
+}
