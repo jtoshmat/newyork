@@ -10,88 +10,63 @@
     <link rel="stylesheet" href="../css/jon.css">
 </head>
 <body>
+
 <?php
-    $numbers = range(1, 1000);
+$parms = $_POST;
+$num1 = $parms['num1']??null;
+$num2 = $parms['num2']??null;
 ?>
+
 <div class="container-fluid">
+    <div class="mybox">
+        <h4>Welcome to MY-IT-EDUCATION.US</h4>
+        <form method="post">
+       <div class="myform">
+            <div>
+                <label>Calculate: </label>
+            </div>
 
-    <table class="table table-bordered">
-        <tr>
-            <th>ID</th>
-            <th>Num</th>
-            <th>Even</th>
-            <th>Nines</th>
-            <th>My Age</th>
-        </tr>
+           <div>
+               <input value="<?=$num1?>" required="required" name="num1" type="number" min="5" max="35">
+           </div>
 
-        <?php
-        $row = 0;
-        $class_even = null;
-        $class_nine = null;
-        $class_myage = null;
-        foreach ($numbers as $id=>$number) {
-            $row++;
-            //2 ga bulinadigan sonlar
-            if ($number%2==0){
-                $class_even = "class='even'";
-            }else{
-                $class_even = null;
-            }
+           <div>
+               <input value="<?=$num2?>" required="required" name="num2" type="number"  min="77" max="103">
+           </div>
 
-            //9ga bulinadigan sonlar
-            if ($number%9==0){
-                $class_nine = "class='nines'";
-            }else{
-                $class_nine = null;
-            }
+           <div>
+               <button type="submit">Submit</button>
+           </div>
+       </div>
+        </form>
 
-            //9ga bulinadigan sonlar
-            if ($number==42){
-                $class_myage = "class='myage'";
-            }else{
-                $class_myage = null;
-            }
-            ?>
-            <tr>
-                <td><?=$row?></td>
-                <td><?=$number?></td>
-
-                <td <?=$class_even?>>
-                    <?php
-                    if ($class_even){
-                        echo $number;
-                    }
-                    ?>
-                </td>
-
-                <td <?=$class_nine?>>
-                    <?php
-                    if ($class_nine){
-                        echo $number;
-                    }
-                    ?>
-                </td>
-
-                <td <?=$class_myage?>>
-                    <?php
-                    if ($class_myage){
-                        echo "<img src='https://www.shareicon.net/data/256x256/2016/04/04/744685_birthday_512x512.png'";
-                    }
-                    ?>
-                </td>
-
-            </tr>
+        <div class="myresults">
             <?php
-        }
-        ?>
+
+            if ($num1<5 || $num1>35){
+                echo "<span class='error'>Your number 1 must be greater than 5 and less than 35</span>";
+                exit;
+            }
+
+            if ($num2<77 || $num2>103){
+                echo "<span class='error'>Your number 2 must be greater than 77 and less than 103</span>";
+                exit;
+            }
 
 
+            for($i=$num1; $i<35; $i++){
+                echo "<div class='num1 myrows'>$i</div>";
 
+            }
 
-    </table>
+            for($y=$num2; $y<103; $y++){
+                echo "<div class='num2 myrows'>$y</div>";
 
+            }
+
+            ?>
+        </div>
+    </div>
 </div>
-
-
 </body>
 </html>
