@@ -10,6 +10,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/media.css">
 
+
 </head>
 <body>
 <div class="mybody">
@@ -41,8 +42,10 @@
         </div> -->
         <div class="parallax">
 
-            <div style="height: 350px" > </div>
-        <p class="topheader">Welcome to our Online Fabulash Site</p>
+            <div style="height: 300px" > </div>
+            <img class="logoimg" src="https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp">
+        <p class="topheader">Welcome to our Online Fabulash Website</p>
+        <!-- <p class="topheader">Fabulash is one of the greatest Lash Studio in Brooklyn</p> -->
 
         </div>
     <div class="pbox">
@@ -101,6 +104,15 @@
 
 
     <div class="parallax1">
+        <div  class="mytoggle" style="height: 150px"></div>
+        <div class="myF myfabu"><p class="myletters mylettersF">F</p></div>
+        <div class="myA myfabu"><p class="myletters mylettersA">A</p></div>
+        <div class="myB myfabu"><p class="myletters mylettersB">B</p></div>
+        <div class="myU myfabu"><p class="myletters mylettersU">U</p></div>
+        <div class="myL myfabu"><p class="myletters mylettersL">L</p></div>
+        <div class="myA2 myfabu"><p class="myletters mylettersA2">A</p></div>
+        <div class="myS myfabu"><p class="myletters mylettersS">S</p></div>
+        <div class="myH myfabu"><p class="myletters mylettersH">H</p></div>
 
     </div>
         <div class="gallery">
@@ -149,7 +161,8 @@
     </div>
 
     <div class="parallax_middle">
-
+        <img  class="powder" src="../umidochka/img/pink_purp.png">
+        <img  class="powder2" src="../umidochka/img/pink_purp.png">
     </div>
 
 
@@ -357,12 +370,12 @@
             <button type="submit" class="btn btn-warning">Submit</button>
         </form>
     </div>-->
-    <div class="my_last_form">
+    <!--  <div class="my_last_form">
         <div class="row myrow2">
             <div class="col-sm-6 col-md-5 col-lg-6 first_col"><img src="../umidochka/img/umi.PNG"></div>
             <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0 sec_col">
                 <div class="container-fluid myformstr">
-                <!--<img class="formpic" src="../umidochka/img/pink.jpg">-->
+                <img class="formpic" src="../umidochka/img/pink.jpg">
 
                     <h2 class="headerbook">Make your appointment!</h2>
 
@@ -419,16 +432,135 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </div> -->
+    <!--<div class="container-fluid mysld">
+        <div class="left_eye"><img class="eyes" src="../umidochka/img/left_eye.jpg"></div>
+        <div class="right_eye"><img class="eyes" src="../umidochka/img/right_eye.JPG"></div>
+        <div class="mytxt"><h3>Eyelashes or Not?...</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis
+            nostrud exercitation ullamco laboris nisi
+            ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu
+            fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt
+            in culpa qui officia deserunt mollit
+            anim id est laborum.</p></div>
+    </div> -->
 
-</body>
+</div>
+<div class="container-fluid">
+    <div style="height: 60px"></div>
+    <div class="myform">
+        <img src="https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp">
+        <br>
+        <form>
+            <table class="table mytable">
+                <tr>
+                    <td><label>First Name:</label></td>
+                    <td><input class="myinputs" name="first_name" type="text" placeholder="Your First Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Last Name:</label></td>
+                    <td><input class="myinputs" name="first_name" type="text" placeholder="Your Last Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Email:</label></td>
+                    <td><input class="myinputs" name="email" type="text" placeholder="Your email goes here"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone:</label></td>
+                    <td><input class="myinputs" name="phone" type="tel" placeholder="***-***-****"></td>
+                </tr>
+                <tr>
+                    <td><label>Choose Category:</label></td>
+                    <td><select>
+                            <option>Classic</option>
+                            <option>2D</option>
+                            <option>3D</option>
+                            <option>4D</option>
+                            <option>5D</option>
+                            <option>Mega Volume</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><label>Choose Style:</label></td>
+                    <td><select>
+                            <option>Natural</option>
+                            <option>Cat eye</option>
+                            <option>Doll Eye</option>
+                            <option>Open Eye</option>
+                            <option>Whispy Look</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td style="text-align: center" colspan="2">
+                        <button class="btn btn-dark" type="reset">Reset</button>
+                        <button class="btn btn-success" type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
     <style>
+        .powder{
+            width: 44%;
+            height: 30%;
+            margin-top: 130px;
+            float: left;
+            display: none;
+        }
+        .powder2{
+            width: 44%;
+            height: 30%;
+            margin-top: -80px;
+            float: right;
+            margin-right: -89px;
+            display: none;
+        }
+        .logoimg{
+            margin-left: 40%;
+            margin-bottom: 20px;
+        }
+
+        /*.left_eye img{
+            width: 25%;
+            height: 400px;
+            float: left;
+
+
+        }
+        .right_eye img{
+            width: 25%;
+            height: 400px;
+            float: left;
+
+        }
+        .mytxt{
+            width: 40%;
+            float: left;
+            height: 400px;
+            padding: 10px;
+            margin-left: 30px;
+        }
+        .mytxt h3{
+            text-align: center;
+        }
+        .mytxt p{
+            text-align: center;
+            font-size: 15px;
+        } */
+
         .topheader{
-        color: rgba(201, 102, 91, 0.85);
+        color: rgba(4, 57, 85, 0.85);
             display: none;
             font-size: 45px;
             text-align: center;
+            text-shadow: #9999ff 3px 3px 3px 3px;
         }
 
         .container-fluid {
@@ -465,6 +597,7 @@
             margin-left: 15%;
             padding-top: 40px;
             opacity: 0.7;
+            display: none;
 
         }
         .pheader{
@@ -593,15 +726,15 @@
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 100% 100%;
         }
         .parallax1{
             background-image: url("../umidochka/img/myjumbo2.jpg");
-            min-height: 300px;
+            min-height: 450px;
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: 100% 100%;
         }
 
         .form1{
@@ -660,8 +793,8 @@
             width: 190px;
             height: 190px;
             margin: 10px;
-            border: 4px solid rgba(132, 127, 139, 0.98);
-            box-shadow: 5px 5px 5px 5px rgba(131, 126, 138, 0.84);
+            border: 4px solid rgba(4, 57, 85, 0.98);
+            box-shadow: 5px 5px 5px 5px rgba(69, 77, 138, 0.84);
             margin-top: 20px;
             border-radius: 98px;
         }
@@ -797,6 +930,68 @@
             margin: 25px;
         }
 
+        .myletters{
+            font-size: 120px;
+            color: ghostwhite;
+            text-align: center;
+            width: auto;
+            margin-left: 10px;
+            display: none;
+
+
+
+
+
+
+
+        }
+        .myfabu{
+            float: left;
+
+        }
+        .table th, .table td {
+            border-top: none!important;
+        }
+
+        .myform label{
+            font-weight: bolder;
+        }
+
+
+        .myform td:last-child{
+            text-align: left;
+        }
+
+        .myform td:first-child{
+            text-align: right;
+        }
+
+        .myinputs{
+            width: 80%;
+            border: 1px solid #043955;
+            border-radius: 20px;
+            height: 38px;
+            padding:5px;
+            padding-left: 10px;
+        }
+
+        .myform{
+            width: 700px;
+            height: auto;
+            margin: auto;
+            background-color: #fcbcb2;
+            border: 1px solid grey;
+            text-align: center;
+            border-radius: 20px;
+        }
+        .myform img{
+            width: 25%;
+            height: 90px;
+
+        }
+
+
+
 
 
 
@@ -804,11 +999,31 @@
     </style>
 
     <script>
-        $(document).ready(function(){
+        $(document).ready(function() {
             $(".parallax").mouseenter(function () {
-                $(".topheader").fadeIn(3000);
+                $(".topheader").slideToggle(3000);
             });
-        });
+        $(".pbox").mouseenter(function () {
+                $(".p_inside").slideDown(1500);
+            });
+            $(".parallax1").hover(function () {
+                    $(".mylettersF").slideDown(3000);
+                    $(".mylettersA").slideDown(4000);
+                    $(".mylettersB").slideDown(5000);
+                    $(".mylettersU").slideDown(6000);
+                    $(".mylettersL").slideDown(7000);
+                    $(".mylettersA2").slideDown(8000);
+                    $(".mylettersS").slideDown(9000);
+                    $(".mylettersH").slideDown(9500);
+            });
+            $(".parallax_middle").mouseenter(function () {
+                $(".powder").fadeIn(5000);
+            });
+            $(".parallax_middle").mouseenter(function () {
+                $(".powder2").fadeIn(4000);
+            });
+         });
+
     </script>
 </body>
 </html>

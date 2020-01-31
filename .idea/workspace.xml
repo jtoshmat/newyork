@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projects/ibm/files/myoutputs.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/ibm/files/mytexts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/ibm/files/test.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/january/wednesday29.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/css/lottery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/img/lottery_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/js/lottery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/lottery.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/lottery_generate_numbers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microsoft/css/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microsoft/css/spring.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microsoft/img/spring.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/kiss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/left_eye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/pink_powder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/pink_purp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/purple_powder.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/right_eye.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ibm/php/jon.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ibm/php/jon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/microsoft/jon.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/microsoft/jon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,16 +83,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/umidochka" />
-      <recent name="$PROJECT_DIR$/badges" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/umidochka/img" />
       <recent name="$PROJECT_DIR$/badges/badges" />
       <recent name="$PROJECT_DIR$/badges" />
       <recent name="$PROJECT_DIR$/umidochka" />
       <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/umidochka" />
+      <recent name="$PROJECT_DIR$/badges" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
@@ -154,7 +144,8 @@
       <workItem from="1579299562986" duration="590000" />
       <workItem from="1579300175177" duration="17662000" />
       <workItem from="1579580798773" duration="10020000" />
-      <workItem from="1579721163132" duration="33440000" />
+      <workItem from="1579721163132" duration="33662000" />
+      <workItem from="1580337525449" duration="17462000" />
     </task>
     <servers />
   </component>
