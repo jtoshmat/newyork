@@ -5,19 +5,15 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Thursday January 30, 2020</title>
+    <title>Welcome to Javascript Class!</title>
     <link rel="stylesheet" href="../../css/bootstrap.css">
-    <link rel="stylesheet" href="css/thursday.css">
+    <link rel="stylesheet" href="../css/friday.css">
+    <script src="../js/scripts.js"></script>
 </head>
 <body>
 <div class="container-fluid">
-
-<div class="mybox">
-
-    <iframe id="myframe" src="https://www.youtube.com/embed/f2fS0fDLQ7g"></iframe>
-
+    <h1>Welcome to Javascript World!</h1>
 </div>
 
-</div>
 </body>
 </html>
