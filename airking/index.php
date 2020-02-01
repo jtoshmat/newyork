@@ -398,8 +398,8 @@
     });
 
     $(function () {
-        $('.hotel').click(function () {
-            
+        $(".hotel").click(function () {
+            $(this).addClass('ic-arrow1').attr('contenteditable', true);
         });
     });
 
