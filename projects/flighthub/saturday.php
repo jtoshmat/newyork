@@ -24,9 +24,9 @@
         </div>
         <div class="image_box_children brother2">
             <nav>
-                <a href="#">Flights</a>
-                <a href="#">Hotels</a>
-                <a href="#">Cars</a>
+                <a href="https://m.uzairways.com/">Flights</a>
+                <a href="https://www.hotels.com/">Hotels</a>
+                <a href="https://www.enterprise.com/en/car-rental/campaigns/enterprise-cars.html?gclid=EAIaIQobChMI2fq-rPef5wIVk5OzCh1tsgozEAAYASAAEgKvafD_BwE&mcid=paidsearch:675&adid=406108504033&targetid=aud-294572907991:kwd-22732630&ef_id=EAIaIQobChMI2fq-rPef5wIVk5OzCh1tsgozEAAYASAAEgKvafD_BwE:G:s&s_kwcid=AL!4824!3!406108504033!e!!g!!enterprise&campaignid=235023733">Cars</a>
                 <a href="#">Travel Guides</a>
                 <a href="#">My Trips</a>
             </nav>

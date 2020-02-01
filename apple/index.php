@@ -75,6 +75,7 @@
         text-align: center;
         font-size: 15px;
         padding-top: 10px;
+        padding-marginal: fun
     }
     .restaraunt_image {
         width: 100%;
