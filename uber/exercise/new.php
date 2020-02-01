@@ -1,34 +1,37 @@
-<?php
-/*$cars = [["Volvo",22,18],["BMW",15,13],["Saab",5,2],["Land Rover",17,15]];
-
-   for($row=0;$row<4;$row++){
-       echo "<p><b>Row number $row</b></p>";
-           echo "<ul>";
-           for($col=0;$col<3;$col++){
-               echo "<li>".$cars[$row][$col]."</li>";}
-           echo "</ul>";}
-*/
-?>
-<input id="age" value="18">
-<input id="dem" type="text" name='textview'>
-<p id="demo"></p>
-<button type="button" onclick="demo()">Show</button>
-<button type="button" onclick='document.getElementById("demo").innerHTML=""'>Hide</button>
-<script>
-    function myFunction() {
-
-
-var age,variable;
-    age = Number(document.getElementById("age").value);
-if(isNaN(age)){ variable = "Input is not a number";
-    document.getElementById("dem").value=variable;}
-else{ variable = (age<18) ? "to yong": "old enough";
-    document.getElementById("dem").value=variable;}
- }
-    car="Hello"
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome-free-5.10.2-web/css/all.css"/>
+</head>
+<body>
+<div class="container-fluid">
+    <table class="table-bordered">
+        <?php
+        $nums = range(1,8);
+        foreach ($nums as $num){
+        echo "<tr>";
+            echo "<td>". "Chess"."</td>";
+            echo "<td>". "Chess"."</td>";
+            echo "<td>". "Chess"."</td>";
+            echo "<td>". "Chess"."</td>";
+            echo "<td>". "Chess"."</td>";
+            echo "<td>". "Chess"."</td>";
+            echo "<td>". "Chess"."</td>";
+            echo "<td>". "Chess"."</td>";
 
 
+        echo "</tr>";}
+        ?>
 
-function demo(){document.getElementById("demo").innerHTML=car;}
+    </table>
 
-</script>
+</div>
+
+</body>
+</html>

@@ -7,17 +7,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Q&A</title>
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+    <script src="/js/jquery-3.4.1.min.js"></script>
+
 </head>
 <body>
 <div class="emptydiv"></div>
 <div class="container-fluid">
 
-    <img id="chase_logo" src="/uzbank/img/chase-logo.png">
+    <img id="chase_logo" display="none" src="/uzbank/img/chase-logo.png">
     <hr>
     <p id="myp1"><b>Money Transfer</b></p>
     <div class="mydiv">
         <form>
-            <span>
+            <span class="span1">
                 <p id="myp2"><b>From:</b></p>
                 <select id="select1">
                 <option>Bank of America</option>
@@ -44,7 +46,7 @@
             <p id="myp2"><b>Amount:</b></p>
             <input id="input" type="number" ></input><br>
             <div class="clearfix"></div>
-            <button id="btn" type="submit" >Transfer</button>
+            <button id="btn" type="submit">Transfer</button>
         </form>
     </div>
 
@@ -91,8 +93,10 @@
         font-family: "Times New Roman";
         font-size: 20px;
         margin-left: 10px;
+        display: none;
     }
     #chase_logo{
+        display: none;
         width: 30%;
         margin-top: 20px;
     }
@@ -104,11 +108,21 @@
         height: 500px;
         background-color: white;
     }
+    .mydiv{
+        display: none;
+    }
     body{
         background-color: #1a6896;
     }
 
 
 </style>
+<script>
+    $(document).ready(function () {
+        $("#chase_logo").show(2000);
+        $(".mydiv").show(2000);
+        $("#myp1").show(2000);
+    });
+</script>
 </body>
 </html>
