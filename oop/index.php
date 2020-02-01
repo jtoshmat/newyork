@@ -1,13 +1,15 @@
 <?php
-namespace Newyork;
-include_once "traits/UtilitiesTrait.php";
-include_once "traits/AdminTrait.php";
-class Brooklyn{
-    use \UtilitiesTrait;
-    use \AdminTrait;
+namespace Nasa;
+include_once 'traits/jontrait.php';
+class Shuttle{
+    use \JonTrait;
+
+    public function testMe()
+    {
+        return "I am overwiting the trait testMe method in the class";
+    }
 }
 
-$kingscounty = new Brooklyn();
+$spacecraft = new Shuttle();
 
-
-echo $kingscounty->isUserAdmin();
+echo $spacecraft->testMe();

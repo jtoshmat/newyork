@@ -1,0 +1,146 @@
+Array
+(
+    [jpg] => Array
+        (
+            [0] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /images/CardSmart_logo.jpg HTTP/1.1" 200 10850
+
+            [1] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/images/CardSmart_logo.jpg HTTP/1.1" 200 10850
+
+            [2] => 127.0.0.1 - - [29/Sep/2019:14:59:56 -0400] "GET /img/office1.jpg HTTP/1.1" 200 642651
+
+            [3] => 127.0.0.1 - - [29/Sep/2019:14:59:56 -0400] "GET /img/office2.jpg HTTP/1.1" 200 632418
+
+            [4] => 127.0.0.1 - - [29/Sep/2019:14:59:56 -0400] "GET /img/office3.jpg HTTP/1.1" 200 121021
+
+            [5] => 127.0.0.1 - - [04/Oct/2019:15:55:19 -0400] "GET /img/plane-over-water2.jpg HTTP/1.1" 200 94647
+
+            [6] => 127.0.0.1 - - [04/Oct/2019:15:55:56 -0400] "GET /img/plane-over-water2.jpg HTTP/1.1" 304 -
+
+            [7] => 127.0.0.1 - - [04/Oct/2019:15:59:56 -0400] "GET /img/plane-over-water2.jpg HTTP/1.1" 304 -
+
+            [8] => 127.0.0.1 - - [04/Oct/2019:17:25:48 -0400] "GET /img/plane-over-water2.jpg HTTP/1.1" 304 -
+
+            [9] => 127.0.0.1 - - [04/Oct/2019:18:04:52 -0400] "GET /img/plane-over-water2.jpg HTTP/1.1" 304 -
+
+            [10] => 127.0.0.1 - - [08/Oct/2019:10:39:04 -0400] "GET /images/CardSmart_logo.jpg HTTP/1.1" 200 10850
+
+            [11] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/images/CardSmart_logo.jpg HTTP/1.1" 200 10850
+
+            [12] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/images/CardSmart_logo.jpg HTTP/1.1" 200 10850
+
+            [13] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/images/CardSmart_logo.jpg HTTP/1.1" 200 10850
+
+            [14] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/photos/slider/1.jpg HTTP/1.1" 404 1250
+
+            [15] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/photos/slider/2.jpg HTTP/1.1" 404 1250
+
+            [16] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/photos/slider/3.jpg HTTP/1.1" 404 1250
+
+            [17] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/photos/imgWithText/1.jpg HTTP/1.1" 404 1250
+
+            [18] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/photos/imgWithText/2.jpg HTTP/1.1" 404 1250
+
+            [19] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/photos/recentWorks/1.jpg HTTP/1.1" 404 1250
+
+            [20] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/photos/recentWorks/2.jpg HTTP/1.1" 404 1250
+
+            [21] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/photos/recentWorks/3.jpg HTTP/1.1" 404 1250
+
+            [22] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/photos/recentWorks/1.jpg HTTP/1.1" 404 1250
+
+            [23] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/photos/recentWorks/2.jpg HTTP/1.1" 404 1250
+
+            [24] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/photos/recentWorks/3.jpg HTTP/1.1" 404 1250
+
+            [25] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/photos/slider/1.jpg HTTP/1.1" 404 1250
+
+            [26] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/slider/2.jpg HTTP/1.1" 404 1250
+
+            [27] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/slider/3.jpg HTTP/1.1" 404 1250
+
+            [28] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/imgWithText/1.jpg HTTP/1.1" 404 1250
+
+            [29] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/imgWithText/2.jpg HTTP/1.1" 404 1250
+
+            [30] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/recentWorks/1.jpg HTTP/1.1" 404 1250
+
+            [31] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/recentWorks/2.jpg HTTP/1.1" 404 1250
+
+            [32] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/recentWorks/3.jpg HTTP/1.1" 404 1250
+
+            [33] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/recentWorks/1.jpg HTTP/1.1" 404 1250
+
+            [34] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/recentWorks/2.jpg HTTP/1.1" 404 1250
+
+            [35] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/photos/recentWorks/3.jpg HTTP/1.1" 404 1250
+::1 - - [11/Oct/2019:17:24:20 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [36] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/photos/slider/1.jpg HTTP/1.1" 404 1250
+
+            [37] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/photos/slider/2.jpg HTTP/1.1" 404 1250
+
+            [38] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/photos/slider/3.jpg HTTP/1.1" 404 1250
+
+            [39] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/photos/imgWithText/1.jpg HTTP/1.1" 404 1250
+
+            [40] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/photos/imgWithText/2.jpg HTTP/1.1" 404 1250
+
+            [41] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/photos/recentWorks/1.jpg HTTP/1.1" 404 1250
+
+            [42] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/photos/recentWorks/2.jpg HTTP/1.1" 404 1250
+
+            [43] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/photos/recentWorks/3.jpg HTTP/1.1" 404 1250
+
+            [44] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/photos/recentWorks/1.jpg HTTP/1.1" 404 1250
+
+            [45] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/photos/recentWorks/2.jpg HTTP/1.1" 404 1250
+
+            [46] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/photos/recentWorks/3.jpg HTTP/1.1" 404 1250
+::1 - - [11/Oct/2019:17:29:37 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [47] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/photos/slider/1.jpg HTTP/1.1" 404 1280
+
+            [48] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/photos/slider/2.jpg HTTP/1.1" 404 1280
+
+            [49] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/photos/slider/3.jpg HTTP/1.1" 404 1280
+
+            [50] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/photos/imgWithText/1.jpg HTTP/1.1" 404 1280
+
+            [51] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/photos/imgWithText/2.jpg HTTP/1.1" 404 1280
+
+            [52] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/photos/recentWorks/1.jpg HTTP/1.1" 404 1280
+
+            [53] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/photos/recentWorks/2.jpg HTTP/1.1" 404 1280
+
+            [54] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/photos/recentWorks/3.jpg HTTP/1.1" 404 1280
+
+            [55] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/photos/recentWorks/1.jpg HTTP/1.1" 404 1280
+
+            [56] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/photos/recentWorks/2.jpg HTTP/1.1" 404 1280
+
+            [57] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/photos/recentWorks/3.jpg HTTP/1.1" 404 1280
+::1 - - [11/Oct/2019:17:48:26 -0400] "OPTIONS * HTTP/1.0" 200 -
+
+            [58] => 127.0.0.1 - - [13/Oct/2019:17:34:23 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 200 11056
+
+            [59] => 127.0.0.1 - - [13/Oct/2019:19:20:31 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 304 -
+
+            [60] => 127.0.0.1 - - [13/Oct/2019:22:54:50 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 304 -
+
+            [61] => 127.0.0.1 - - [14/Oct/2019:08:49:17 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 304 -
+
+            [62] => 127.0.0.1 - - [14/Oct/2019:12:48:14 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 304 -
+
+            [63] => 127.0.0.1 - - [14/Oct/2019:18:17:00 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 304 -
+
+            [64] => 127.0.0.1 - - [16/Oct/2019:12:25:53 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 200 11056
+
+            [65] => 127.0.0.1 - - [19/Oct/2019:17:17:17 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 200 11056
+
+            [66] => 127.0.0.1 - - [19/Oct/2019:17:36:14 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 200 11056
+
+            [67] => 127.0.0.1 - - [19/Oct/2019:18:07:59 -0400] "GET /uzbank/img/amex_icon.jpg HTTP/1.1" 200 11056
+
+        )
+
+)

@@ -1,77 +1,18 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html>
 <head>
-	<title>Demo Project</title>
-	<link href="/css/bootstrap.css" rel="stylesheet">
+    <title>HikmaBank</title>
 </head>
 <body>
-
-	<?php
-
-
-include "../inc/database.php";
-
-$db  = new database();
-$airports = $db->sql("select * from aiports");
-var_dump($airports);
-
-
-
-	?>
-
-<div class="container">
-
-<div class="airports">
-
-<h3> World Airports </h3>
-
-<table class="table table-bordered">
-<tr>
-	<td>ID</td>
-	<td>City</td>
-	<td>Country</td>
-	<td>Code</td>
-</tr>
-
-<tr>
-	<td>ID</td>
-	<td>City</td>
-	<td>Country</td>
-	<td>Code</td>
-</tr>
-
-
-</table>
-
-
-</div>
-
-
-
-<style>
-
-	tr:first-child{
-		background-color: blue;
-		color:white;
-	}
-
-	table{
-		background-color: white;
-
-	}
-
-.airports{
-	width:80%;
-	background-color: lightblue;
-	border:1px solid black;
-	margin:auto;
-	padding:5px;
-}
-
-body{
-}	
-</style>
-
+<form action="index.php" method="post">
+    <input type="radio" name="credit_card" value="MasterCard"
+           checked="checked"> MasterCard
+    <br>
+    <input type="radio" name="credit_card" value="Visa">VISA<br>
+    <input type="radio" name="credit_card" value="American Express">
+    American Express <br>
+    <input type="submit" name="Button" value="Submit">
+</form>
 
 </body>
 </html>

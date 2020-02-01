@@ -7,13 +7,12 @@
         public $con;
         public $error;
 
-        public function __construct()
+        public function __construct($dbname='dbq')
         {
             mysqli_report(MYSQLI_REPORT_STRICT);
             $servername = "127.0.0.1";
             $username = "root";
             $password = "";
-            $dbname = "dbq";
             try {
                 $this->con = new \mysqli($servername, $username, $password, $dbname);
             }catch(Exception $e) {

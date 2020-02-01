@@ -1,16 +1,8 @@
 <?php
-$numbers = range(1,100);
+session_start();
+$_SESSION['name'] = 'Jon Tosh';
 
-foreach ($numbers as $number){
-    $odd = $number % 2;
-
-    if (!$odd) {
-        echo " * ";
-        echo $number . " : " . $odd . "<hr>";
-    }
-
-}
+?>
 
 
-//PHP Basics Variables: (Strings, int, NULL, Floats, Boolean, Arrays, Resources), Operations
-
+<a href="members.php">Members</a>
