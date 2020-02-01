@@ -29,5 +29,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
+    <data-source source="LOCAL" name="bank.data" uuid="bc09f812-dbb4-4abe-8eb8-02bfef9dec84">
+      <driver-ref>derby.embedded</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/Ansar MR/Bank/img/data</jdbc-url>
+    </data-source>
   </component>
 </project>
