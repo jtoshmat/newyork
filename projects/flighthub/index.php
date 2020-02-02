@@ -39,7 +39,7 @@
         </div>
     </div>
     <div class="middlediv">
-        <div style="height: 20px"></div>
+        <div style="..."></div>
         <div id="middle_form_box">
             <div class="mytopboxes middle_form_tripe_box">Round Trip</div>
             <div class="mytopboxes middle_form_tripe_box">One way</div>

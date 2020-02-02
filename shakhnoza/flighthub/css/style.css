@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding: 0;
+    margin: 0;
+    background-color: #efe3e3;
+    width: 800px;
+}
+.header{
+    background-color: white;
+    height: 30px;
+    border-bottom: 1px solid #cacaca;
+}
+.top_left_div img{
+    width: 100px;
+    margin-top: 13px;
+}
+.clublogo{
+    display: inline-block;
+}
+.top_left_div{
+    float: left;
+}

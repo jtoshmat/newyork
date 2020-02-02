@@ -1,34 +1,35 @@
 .container-fluid{
-    width: 1300px;
+    width: 100%;
 }
 .topmenu {
-    width: 1300px;
+    width: 100%;
     height: 94px;
     margin: auto;
+    font-family: Arial;
     background-color: #ffcb2d;
-    font-family: "Arial";
     color: #07065c;
-
-
 }
 .topraw{
-    display: inline;
+    text-align: center;
+    display: flex;
 }
 .logo{
-    width: 20%;
+    width: 30%;
     height: 50%;
     position: relative;
-    left: 85px;
-    top: 15px;
-
-
-
 
 }
-.toplist{
-    width: 80%;
-    height: 50%;
+.logo img{
+    width: 120px;
+    height: 35px;
+    padding-left: 200px;
+    padding-top: 10px;
+}
 
+.toplist{
+    width: 70%;
+    height: 50%;
+    padding-right: 210px;
 
 }
 .toplist ul{
@@ -36,17 +37,18 @@
     list-style: none;
     text-align: right;
     display: flex;
-    padding: 0px 70px 0px 0px;
+    padding: 0 70px 0 0;
     font-size: 13px;
-
-
 }
 .toplist ul li{
-    padding: 0px 20px 0px 0px;
+    padding: 0 20px 0 0;
 }
 .btraw{
     width: 100%;
     height: 50%;
+    padding-left: 220px;
+    z-index: 1;
+
 
 }
 .btraw ul{
@@ -54,13 +56,12 @@
     list-style: none;
     text-align: left;
     display: flex;
-    padding: 17px 0px 0px 89px;
+    padding: 17px 0 0 89px;
     margin: 0;
-    font-size: 15pxpx;
-
+    font-size: 15px;
 }
 .btraw ul li{
-    padding: 0px 15px 0px 0px;
+    padding: 0 15px 0 0;
 }
 .mainmenu{
     width: 1300px;
@@ -77,14 +78,11 @@
     margin: auto;
     border-radius: 3px;
     opacity: 0.7;
-
 }
-
 .footer{
     width: 100%;
     height: 143px;
     background-color: white;
-
 
 }
 body{
