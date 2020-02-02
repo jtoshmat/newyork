@@ -32,23 +32,23 @@
 <br>
         <div id="my_contactus_form">
             <h3>Contact Us</h3>
-            <form method="post">
+            <form method="post" autocomplete="off">
                 <table>
                     <tr>
                         <td><label>First Name:</label></td>
-                        <td><input required="required" name="first_name" type="text" placeholder="Your First Name"></td>
+                        <td><input autocomplete="disable" required="required" name="first_name" type="text" placeholder="Your First Name"></td>
                     </tr>
                     <tr>
                         <td><label>Last Name:</label></td>
-                        <td><input name="last_name" type="text" placeholder="Your Last Name"></td>
+                        <td><input autocomplete="disable" name="last_name" type="text" placeholder="Your Last Name"></td>
                     </tr>
                     <tr>
                         <td><label>Email Address:</label></td>
-                        <td><input required="required"  name="email" type="email" placeholder="Your Email Address"></td>
+                        <td><input autocomplete="disable" required="required"  name="email" type="email" placeholder="Your Email Address"></td>
                     </tr>
                     <tr>
                         <td><label>Phone Number:</label></td>
-                        <td><input required="required"  name="phone" type="tel" placeholder="Your Phone Number"></td>
+                        <td><input autocomplete="disable" required="required"  name="phone" type="tel" placeholder="Your Phone Number"></td>
                     </tr>
                     <tr>
                         <td><label>Your Message:</label></td>
