@@ -25,7 +25,7 @@
                 <a href="index.php">Home</a>
                 <a href="aboutus.php">About Us</a>
                 <a href="#">Our Services</a>
-                <a href="#">Contact Us</a>
+                <a href="contactus.php">Contact Us</a>
             </nav>
         </div>
         <div class="clearfix"></div>

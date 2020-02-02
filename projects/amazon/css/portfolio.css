@@ -164,3 +164,60 @@ body{
     display: inline-block;
     float: right;
 }
+
+#my_contactus_form{
+    clear: left;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+    background-image: url("https://thumbs.dreamstime.com/z/paper-pens-stapler-glasses-white-background-paper-pens-stapler-glasses-white-background-office-white-table-106057757.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#my_contactus_form table{
+    width: 100%;
+}
+
+#my_contactus_form table td:first-child{
+    text-align: right;
+    width: 45%;
+}
+#my_contactus_form table td:last-child{
+    text-align: right;
+    text-align: left;
+    width: 55%;
+}
+
+#my_contactus_form label{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-right: 5px;
+    color: #612b09;
+    font-family: Verdana;
+}
+
+
+
+#my_contactus_form input:not([type=file]){
+    width: 250px;
+    height: 30px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    padding:5px;
+}
+
+#my_contactus_form textarea{
+    width: 250px;
+    height: 150px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    padding:5px;
+}
+
+#my_contactus_form tr:last-child td{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
