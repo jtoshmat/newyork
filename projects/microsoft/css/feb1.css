@@ -1,0 +1,27 @@
+table tr td{
+    border:1px solid black;
+    text-align:center;
+}
+.img{
+    width:100px;
+    height:100px;
+}
+
+table tr:nth-child(odd){
+    background-color:skyblue;
+}
+table tr:nth-child(even){
+    background-color: #cbffd5;
+}
+.form{
+    border:1px solid black;
+    text-align:center;
+    padding:20px;
+    background-color: #ffe4e1;
+}
+.logo{
+    height:90px;
+    width:90px;
+}
+
+

@@ -1,5 +1,26 @@
-.myimage{
-    background-image: url("../../microsoft/travel/img/spring2.jpg");
-    height: 500px;
+body{
+    background-color: #accfff;
 }
+
+.greybox{
+    backgroung-color:white;
+    width: 200px;
+    height: 400px;
+    margin:auto;
+
+
+}
+
+.it_photo{
+    position:relative;
+    right: 40px;
+}
+
+.mylogin_box{
+    height: 432px;
+}
+.bottomdiv{
+    align:center;
+}
+
 
