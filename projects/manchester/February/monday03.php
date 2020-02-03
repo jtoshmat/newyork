@@ -1,16 +1,27 @@
 <?php
-function Uzbekistan($iterable) {
-    if (!is_array($iterable)){
-        echo "Sorry, we only accept countable variables";
-        return false;
-    }
-    foreach ($iterable as $value) {
-        echo $value."<hr>";
-    }
+
+$cars = 'Nexia';
+if ($cars == 'Toyota'){
+    echo 'This is the best car in the world';
+}else if ($cars == 'Mercedes Benz'){
+    echo 'This is very popular car in USA';
+}else {
+    echo "I don't know this car. I know only Alfa Romeo";
 }
 
 
-//$cars = ['Audi','Alfa Rome','BMW'];
-$cars = 'Alfa';
-Uzbekistan($cars);
+
+
+//if statement
+//switch case
+//
+
+
+//Tomorrow
+
+//foreach
+//for loop
+//while
+//do while
+
 
