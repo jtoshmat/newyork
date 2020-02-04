@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/umidochka/img/kiss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/left_eye.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/pink_powder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/pink_purp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/purple_powder.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/right_eye.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
     </list>
@@ -145,7 +140,7 @@
       <workItem from="1579300175177" duration="17662000" />
       <workItem from="1579580798773" duration="10020000" />
       <workItem from="1579721163132" duration="33662000" />
-      <workItem from="1580337525449" duration="17462000" />
+      <workItem from="1580337525449" duration="20143000" />
     </task>
     <servers />
   </component>
@@ -153,6 +148,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="168" y="346" key="NewPhpFileDialog" timestamp="1580753225139">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="168" y="346" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1580753225139" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1579721181446">
       <screen x="0" y="23" width="1440" height="816" />
     </state>

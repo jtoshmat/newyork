@@ -457,7 +457,7 @@
     <div class="myform">
         <img src="https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp">
         <br>
-        <form>
+        <form method="post" action="fabulash.php">
             <table class="table mytable">
                 <tr>
                     <td><label>First Name:</label></td>
@@ -502,6 +502,7 @@
                         <button class="btn btn-success" type="submit">Submit</button>
                     </td>
                 </tr>
+
             </table>
         </form>
     </div>
@@ -989,6 +990,12 @@
             height: 90px;
 
         }
+        .myfooter{
+            width: 100%;
+            height: 300px;
+            background-color: #fcbcb2;
+            border-top: 9px solid #043955;
+        }
 
 
 
@@ -1022,8 +1029,18 @@
             $(".parallax_middle").mouseenter(function () {
                 $(".powder2").fadeIn(4000);
             });
+            $('.datepicker').pickadate({
+                weekdaysShort: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+                showMonthsShort: true
+            })
          });
 
     </script>
 </body>
+<footer>
+    <div style="height: 200px"></div>
+    <div class="myfooter">
+        <hr>
+    </div>
+</footer>
 </html>
