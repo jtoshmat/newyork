@@ -1,0 +1,64 @@
+body{
+    background-color: #d1d1d1;
+}
+.my_blue_line{
+    width: 1925px;
+    height: 104px;
+    background-color: #47449E
+}
+.my_blue_line h1 {
+    width: 41px;
+    height: 35px;
+    color: white;
+    position: relative;
+    left: 91px;
+    top: 29px;
+}
+.sign{
+    width: 80px;
+    height: 33px;
+    background-color: #00c000;
+    border: solid 1px #dcdcdc;
+    position: relative;
+    top: -6px;
+    left: 267px;
+
+}
+.white_box{
+    width: 918px;
+    height: 603px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    top: 98px;
+    left: 10px;
+}
+.white_box h4{
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: 6px;
+}
+.mylogin_box p {
+    color: #a8a8a8;
+    height: 30px;
+    border: solid 1px #d1d1d1;
+    display: inline-block;
+    position: relative;
+    top: 119px;
+    left: 170px;
+    text-align: center;
+}
+.mylogin_box button{
+    width: 615px;
+    height: 53px;
+    color: white;
+    background-color: #47449e;
+    display: inline-block;
+    position: relative;
+    top: 163px;
+    left: 170px;
+    text-align: center;
+    font-weight: bold;
+}

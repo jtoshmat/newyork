@@ -1,14 +1,50 @@
 <?php
-//Today's topic is nothing but the STRINGS
+$texts = file_get_contents('../files/mytexts.txt');
+$alltexts = explode(' ', $texts);
 
-$comment = 'fuckkkkkkkkkkkkkkk this and damn it, he is a stukach and kozel. I do not like idiots who are also tvars.. shit';
+echo "<div class='mytext'>";
 
-$comment = str_replace('fuck','f***', $comment);
-$comment = str_replace('shit','****', $comment);
-$comment = str_replace('damn','****', $comment);
-$comment = str_replace('stukach','***', $comment);
-$comment = str_replace('kozel','****', $comment);
-$comment = str_replace('idiot','****', $comment);
-$comment = str_replace('tvar','****', $comment);
+foreach ($alltexts as $num=>$word){
 
-echo $comment;
+
+    if ($word=='Lorem'){
+        echo "<span class='lorem'>Lorem</span>";
+    }else if($word=='Ipsum'){
+        echo "<span class='text'>Ipsum</span>";
+    }
+    else{
+        echo " $word ";
+    }
+}
+
+echo "</div>";
+?>
+
+<style>
+
+    .mytext{
+        width: 500px;
+        height: auto;
+        overflow: auto;
+        border: 1px solid grey;
+        margin: auto;
+    }
+
+    .lorem{
+        background-color: yellow;
+        color: darkred;
+        border: 1px solid black;
+        padding:4px;
+        margin: 2px;
+    }
+
+    .text{
+        background-color: #ff2a9e;
+        color: #fff846;
+        border: 1px solid black;
+        padding:4px;
+        margin: 2px;
+    }
+</style>
+
+

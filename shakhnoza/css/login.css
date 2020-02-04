@@ -1,15 +1,66 @@
-.blue_box {
-    width: 876px;
-    height: 600px;
-    background-color: #5d879d;
-    margin: auto;
-    margin-top: 89px;
+body{
+    background-color: #1ac1cc;
 }
-.login_box {
-    width: 500px;
-    height: 462px;
+.white_boox{
+    width: 641px;
+    height: 744px;
     background-color: white;
-    border-radius: 5px;
     margin: auto;
+    margin-top: 57px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.welome_back{
+    font-size: 45px;
+    margin: auto;
+    font-family: sans-serif;
+    color: #59e4e6;
+    text-align: center;
+    position: relative;
+    left: auto;
+    top: 87px;
 
+}
+.span{
+    width: 549px;
+    height: 100px;
+    font-size: 20px;
+    color: #a5a5a5;
+    position: relative;
+    left: 46px;
+    top: 198px;
+}
+hr{
+    color: black;
+}
+.login{
+    width: 549px;
+    height: 56px;
+    background-color: #27b3f9;
+    color: white;
+    text-align: center;
+    border-radius: 24px;
+    position: relative;
+    left: 41px;
+    top: 298px;
+}
+.p{
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    margin-left: 10px;
+    position: relative;
+    top: 10px;
+    left: 1px;
+}
+.bottom {
+    width: 495px;
+    height: 53px;
+    color: grey;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 347px;
+    left: 55px;
+    font-family: inherit;
 }
