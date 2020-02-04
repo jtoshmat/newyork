@@ -1,0 +1,223 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #3e0c07;
+}
+
+
+#mycontainer{
+    width: 1000px;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.myheader{
+    height: auto;
+    background-color: #062858;
+    border-bottom: 15px solid #8e0000;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#mylogo{
+    width: 200px;
+    margin: 10px;
+    display: inline-block;
+}
+.mysearchform{
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: 10px;
+    margin: 5px;
+    margin-right: 30px;
+}
+.mysearchform input{
+    background-color: #fff;
+    border-radius: 7px;
+    width: 180px;
+    height: 32px;
+    border: 1px solid #133f80;
+    background-image: url("../../../img/searchicon.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    padding:5px;
+}
+.mysearchform input:hover{
+    background-image: none;
+}
+.mybanner{
+    height: 350px;
+    background-color: #ffffff;
+    background-image: url("../img/my-digital-background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-bottom: 15px solid #8e0000;
+}
+.aboutusbanner{
+    background-image: url("https://previews.123rf.com/images/olgazhurba/olgazhurba1805/olgazhurba180500014/101212078-technology-background-and-abstract-digital-tech-circle-with-various-technological-elements-.jpg");
+}
+
+
+.mybanner_text{
+    width: 370px;
+    font-size: 30px;
+    color: #00a2f9;
+    font-family: Verdana;
+    font-weight: bolder;
+    position: relative;
+    top: 117px;
+    left: 0px;
+    text-align: center;
+    text-shadow: darkblue 2px 2px;
+}
+.mybuttons{
+    background-color: #8e0000;
+    text-align: right;
+    width: 60%;
+    float: right;
+    border-bottom-left-radius: 15px;
+}
+.mybuttons a{
+    margin: 15px 15px;
+    text-decoration: none;
+    position: relative;
+    top: -11px;
+    font-size: 18px;
+    background-color: #6f1313;
+    padding: 4px;
+    border-radius: 8px;
+    border: 1px solid #3d82e8;
+    color: #cfd1d8;
+}
+.mybuttons a:hover{
+    background-color: #cfd1d8;
+    color: #6f1313;
+    border: 2px dotted #6b8ed4;
+    cursor: pointer;
+}
+
+.mytexts{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 3px;
+}
+
+.mytexts:first-letter{
+    font-size: 20px;
+    color: #ffe95c;
+    border-radius: 5px;
+    padding:3px;
+    margin:2px;
+    border-radius: 30px;
+    background-color: black;
+}
+
+.mytexts_cols{
+    column-count: 3;
+}
+.myfooter{
+    margin-top: 10px;
+    border-top: 5px dot-dash #d6d6d6;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/photos/white-wall-texture-for-your-design-white-background-picture-id694408876");
+
+}
+.followus{
+    font-size: 16px;
+    color: brown;
+}
+.followus:first-letter{
+    font-size: 20px;
+    color: #ffe95c;
+    border-radius: 5px;
+    padding:3px;
+    margin:2px;
+    border-radius: 30px;
+    background-color: black;
+}
+.myfooter img{
+    width: 281px;
+}
+
+#youtube{
+    width: 50%;
+    height: 350px;
+    border: 3px solid black;
+    margin: 5px;
+    padding:5px;
+    display: inline-block;
+}
+#youtube_description{
+    width: 48%;
+    display: inline-block;
+    float: right;
+}
+
+#my_contactus_form{
+    clear: left;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+    background-image: url("https://thumbs.dreamstime.com/z/paper-pens-stapler-glasses-white-background-paper-pens-stapler-glasses-white-background-office-white-table-106057757.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#my_contactus_form table{
+    width: 100%;
+}
+
+#my_contactus_form table td:first-child{
+    text-align: right;
+    width: 45%;
+}
+#my_contactus_form table td:last-child{
+    text-align: right;
+    text-align: left;
+    width: 55%;
+}
+
+#my_contactus_form label{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-right: 5px;
+    color: #612b09;
+    font-family: Verdana;
+}
+
+
+
+#my_contactus_form input:not([type=file]){
+    width: 250px;
+    height: 30px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    padding:5px;
+}
+
+#my_contactus_form textarea{
+    width: 250px;
+    height: 150px;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    padding:5px;
+}
+
+#my_contactus_form tr:last-child td{
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
