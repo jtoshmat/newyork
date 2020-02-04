@@ -1,27 +1,37 @@
 <?php
 
-$cars = 'Nexia';
-if ($cars == 'Toyota'){
-    echo 'This is the best car in the world';
-}else if ($cars == 'Mercedes Benz'){
-    echo 'This is very popular car in USA';
-}else {
-    echo "I don't know this car. I know only Alfa Romeo";
+class ManchesterUnited {
+    public function club (){
+        return "England club";
+    }
 }
 
+$test = new ManchesterUnited();
+echo $test ->club();
 
 
 
-//if statement
-//switch case
-//
+/*
+$car = 'Honda';
 
 
-//Tomorrow
+switch ($car){
 
-//foreach
-//for loop
-//while
-//do while
+    case 'Alfa Romeo':
+        echo "I love Italian Cars";
+        break;
 
+    case 'Honda':
+        echo 'This is a very economical and reliable car in the market';
+        break;
+
+    case 'Toyota':
+        echo 'This is another great car Japanese made';
+        break;
+
+    default:
+        echo 'I have never heard of this car in my life.';
+        break;
+}
+*/
 
