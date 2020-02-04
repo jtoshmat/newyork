@@ -508,6 +508,14 @@
     </div>
 
     <style>
+        .btn-dark{
+            text-align: center;
+            margin-top: 120px;
+        }
+        .btn-success{
+            text-align: center;
+        }
+
         .powder{
             width: 44%;
             height: 30%;
