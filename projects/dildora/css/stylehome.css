@@ -1,0 +1,33 @@
+body{
+    background-color: #5e5043;
+}
+.mybox{
+    width: 700px;
+    height:400px;
+    background-color: #157196;
+    margin: auto;
+
+}
+.header {
+    height: 60px;
+    background-color: white;
+
+
+}
+
+.logo img{
+    height: 50px;
+    width:150px;
+}
+.mybox2{
+    color: white;
+
+}
+
+.mycheck img{
+height: 250px;
+    width: 222px;
+    margin:430px;
+    margin-toppx;
+
+}

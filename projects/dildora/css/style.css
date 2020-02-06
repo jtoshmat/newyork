@@ -1,0 +1,11 @@
+body{
+    background-color: red;
+}
+.circle{
+    height:300px;
+    background-color: white;
+    color: orange;
+    border-radius: 800px;
+    background-image: url("https://www.solarsystemscope.com/spacepedia/images/handbook/renders/earth.png");
+
+}
