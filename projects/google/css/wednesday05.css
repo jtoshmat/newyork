@@ -1,0 +1,110 @@
+body{
+    background-color: #a7948b;
+}
+
+#homework{
+    width: 715px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.topdiv{
+    height: 80px;
+    border-bottom: darkblue;
+    background-color: white;
+}
+.topdiv span{
+    position: relative;
+    top: -10px;
+    left: 12px;
+    font-size: 16px;
+}
+.logo{
+    width: 230px;
+    margin:5px;
+}
+.middlediv{
+    background-color: #79c8dd;
+    height: 270px;
+    background-image: url("../img/blue_patterned_background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.mleft{
+    width: 50%;
+    float: left;
+    height: 270px;
+    color: white;
+}
+.mleft_text1{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: initial;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.mleft_text2{
+    font-size: 96px;
+    width: 130px;
+    margin-left: 30px;
+    position: relative;
+    left: 31%;
+    z-index: 1000;
+    top: -9%;
+}
+.percent{
+    font-size: 60px;
+}
+.mleft_text3{
+    text-align: right;
+    position: relative;
+    top: -57px;
+}
+.mright{
+    width: 49%;
+    float: right;
+    height: 270px;
+}
+.check{
+    width: 70%;
+    height: 200px;
+    position: relative;
+    top: 31px;
+    left: 20px;
+}
+.bottomdiv{
+    color: whitesmoke;
+    height: 138px;
+    background-color: #232325;
+    border-top: 4px solid whitesmoke;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.bottomdiv div:first-child{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 3px;
+    font-weight: 800;
+}
+
+.bottomdiv div:nth-child(2){
+    padding-left: 20px;
+    padding-top: 1px;
+}
+.bottomdiv div:last-child{
+    padding-left: 20px;
+    padding-top: 1px;
+}
+.myboldtext:first-child{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.myboldtext:last-child{
+    font-size: 18px;
+    font-weight: bold;
+}

@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+#blankets{
+    width: 1000px;
+    margin: auto;
+    background-color: whitesmoke;
+    margin-top: 40px;
+}
+
+.leftdiv{
+    width: 25%;
+}
+.middlediv{
+    width: 49%;
+    position: relative;
+    top: -60px;
+}
+.rightdiv{
+    width: 25%;
+}
+.boxes{
+    display: inline-block;
+}
+
+.smallboxes{
+    width: 90%;
+    height: 150px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.smallboxes img{
+    width: 100%;
+    height: 150px;
+}
+.heightadjust{
+    height: 20px;
+}

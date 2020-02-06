@@ -19,7 +19,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutus.php">About Us</a></li>
             <li><a href="/services">Our Services</a></li>
-            <li><a href="/contactus">Contact Us</a></li>
+            <li><a href="contactus.php">Contact Us</a></li>
             <div class="clearfix"></div>
         </ul>
         <div class="clearfix"></div>
@@ -58,8 +58,8 @@
                     </p>
                 </td>
                 <td>
-                    <p>
-                        <img class="staff_photo" src="https://photos.headshotcrew.com/styles/large/s3/cloud/images/36/23/36231-4551.jpg?itok=FBj1ucWS">
+                    <p>oto" src="h
+                        <img class="staff_phttps://photos.headshotcrew.com/styles/large/s3/cloud/images/36/23/36231-4551.jpg?itok=FBj1ucWS">
                     </p>
                     <p>
                         <span class="staff_name">Sarah Connor</span><br>

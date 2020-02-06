@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+
+.mybox{
+    width: 800px;
+    height: 500px;
+    background-color: #ececec;
+    margin: auto;
+    border: 1px solid #5f86bd;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-image: url("https://brytonnc.com/wp-content/uploads/2018/03/ThinkstockPhotos-475060994.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.myheader{
+    background-color: #225d90;
+    height: 60px;
+    border-bottom: 6px solid #8e0000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.myheader img{
+    width: 100px;
+    margin: 4px;
+}
+.myquote{
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #8e0000;
+    opacity: 0.7;
+    position: relative;
+    left: 468px;
+    top: 113px;
+    color: white;
+    border-radius: 15px;
+}
+
+.myquote p:first-child{
+    font-size: 16px;
+    font-weight: bolder;
+    text-shadow: #000000 3px 3px;
+}
+
+.myquote p:last-child{
+    font-size: 11px;
+    color: #2bc24d;
+}
+.mytop{
+    display: inline-block;
+}
+
+.mymenu{
+    float: right;
+    position: relative;
+    padding:10px;
+}
+
+.mymenu a{
+    margin: 15px 15px;
+    text-decoration: none;
+    color: white;
+    width: 70px;
+    height: 60px;
+}
+
+.mymenu a:hover{
+    border-bottom: 2px dotted yellowgreen;
+
+}
