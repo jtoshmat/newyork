@@ -10,78 +10,51 @@
 </head>
 <body>
 
+<div class="roditeli">
+    <div class="zohid">Zohid</div>
+    <div class="gulirabo">Gulirabo</div>
+    <div class="rayan">Rayan</div>
+    <div class="clearfix"></div>
 
-<div class="mybox">
-    <table class="table table-bordered">
-        <tr>
-            <th>ID</th>
-            <th>City</th>
-            <th>Country</th>
-        </tr>
 
-        <tr>
-            <td>1</td>
-            <td>Tashkent</td>
-            <td>Uzbekistan</td>
-        </tr>
+    <img class="spring" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7-hiqQ0Izv_dSfmTVHM9xQkW2jo9RQbgFLzxbDCrqm6XI8W5F">
 
-        <tr>
-            <td>2</td>
-            <td>Brooklyn</td>
-            <td>USA</td>
-        </tr>
-
-        <tr>
-            <td>3</td>
-            <td>Moscow</td>
-            <td>Russia</td>
-        </tr>
-
-        <tr>
-            <td>4</td>
-            <td>Kiev</td>
-            <td>Ukraine</td>
-        </tr>
-
-        <tr>
-            <td>5</td>
-            <td>Paris</td>
-            <td>France</td>
-        </tr>
-
-    </table>
 </div>
 
 
 <style>
+    .roditeli{
+        height: 300px;
+        background-color: #2d6498;
+        margin: auto;
+    }
 
-    th{
-        background-color: #4f0000;
+
+
+    .zohid{
+        width: 50%;
+        float: left;
+        background-color: #00cc00;
+    }
+
+    .gulirabo{
+        width: 25%;
+        float: right;
+        background-color: #ff7ead;
+    }
+
+    .rayan{
+        width: 25%;
+        float: right;
+        background-color: rgba(0, 0, 0, 1);
         color: white;
     }
 
-    .mybox{
-        width:80%;
-        margin: auto;
-        margin-top: 60px;
+
+    .spring{
+        width: 100%;
     }
 
-    table{
-        background-color: #ffffff;
-        border-radius: 15px;
-    }
-
-    body{
-        background-color: #162c46;
-    }
-
-    tr:hover{
-        background-color: #c7f585;
-    }
-
-    tr:nth-child(even){
-        background-color: #eeeeee;
-    }
 </style>
 
 </body>
