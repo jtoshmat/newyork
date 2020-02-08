@@ -1,40 +1,25 @@
-<?php
-class Family{
-    public $car;
-    public function __construct()
-    {
-        //$this->car = "<br>Mercedes Benz Maybach S600<br>";
-        //echo "<hr>This is a construct method</hr>";
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LOGIN FORM</title>
+</head>
+<body>
 
-    public function throwWedding(){
-        echo __LINE__;
-        return "<br>Congratulations to both, groom and bride for creating for such a lovely and happy family. <hr>";
-    }
+<div class="container-fluid">
+    <form method="post" action="backend.php">
+       <p>
+        <label>Username:<input value="jon@jon.com" type="email"  name="username" placeholder="username" ></label><br>
+        <label>Password:<input value="1223435f" type="password" name="password" placeholder="password"></label><br>
+       <input type="hidden" value="<?=$_SERVER['REMOTE_ADDR']??false?>" name="ip">
+           <button name="submit" class="btn btn-success">Submit</button>
+       <button name="reset" class="btnremove">Reset</button>
+       </p>
+    </form>
+</div>
 
-    protected function noOldiBerdi(){
-        return "<br>Ha hudoga shukur shu qushni kuchib ketyapdi iya <hr>";
-    }
-
-    public function getMeMethodName(){
-        return __CLASS__;
-    }
-
-    public function __destruct()
-    {
-        //echo "<hr>This is a destruct method</hr>";
-    }
-
-    public function ozginaOldiBerdi(){
-        $ozgina = $this->noOldiBerdi();
-        return $ozgina;
-    }
-}
-
-
-$family = new Family();
-
-echo $family->getMeMethodName();
-
-
-
+</body>
+</html>
