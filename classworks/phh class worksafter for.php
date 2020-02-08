@@ -12,28 +12,42 @@
 <div class="container-fluid" style="text-align: center">
     <div class="header">
         Welcome to My Calculate
-    </div>
+    </        div>
+    <?php
+
+
+
+    ?>
+
     <div class="calculateup">
         <form method="post">
             <label>Calculate :</label>
-            <input name="inp1" type="number" min="5" max="35">
+                     <input name="inp1" type="number" min="5" max="35">
             <input name="inp2" type="number" min="77" max="103">
             <button type="submit">Submit</button>
         </form>
-        <div class="display">Display</div>
     </div>
 
 </div>
 </body>
 <style>
 
+    .summa {
+    text-align: center;
+    font-size: 35px;
+    color: red;
+    }
 </style>
 <?php
 
 $name = $_POST['inp1'];
 $name1 = $_POST['inp2'];
-echo $name;
-echo $name1;
+
+$summa = $name + $name1;
+echo "<span class = 'summa'>The first num is = $name </span><br>";
+echo "<span class = 'summa'>The second num is = $name1 </span><br>";
+
+echo "<span class = 'summa'>The total is = $summa</span>";
 
 
 ?>

@@ -1,17 +1,17 @@
 <?php
 
-$nums = range(1, 1000);
+$nums = range(    1, 1000);
 
 
 for ($i=1; $i<count($nums); $i++){
 
-    if($i%2){
+    if($i%2 === 0){
         echo "<span class='even'> Even</span>";
-    } if($i%9){
+    } else if($i%9 === 0){
         echo "<span class='nine'>This is 9 devided nums</span>";
 
-    }if($i == 24) {
-         echo "<span class='age'>THis is 24</span>";
+    } if($i === 24) {
+         echo "<span class='age'>THis is 25</span>";
     }else{
         echo $i;
     }

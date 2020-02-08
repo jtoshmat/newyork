@@ -5,14 +5,14 @@ $numbers = range(1, 1000);
 
 for ($i=0; $i<count($numbers); $i++){
 
-    if ($i%2){
+    if ($i%3===0){
         echo "<span class='odd'>$i</span>";
     }else{
         echo $i;
     }
     echo "<hr>";
 
-    if ($i>1 && $i<10){
+    if($i>1 && $i<10){
         echo "#############################################";
     }
     if ($i>20 && $i<30){
