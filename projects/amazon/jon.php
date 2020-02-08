@@ -18,8 +18,19 @@
                 <input class="searchinput" type="text" name="keyword" >
             </div>
         </div>
-        <div class="mynav">My Nav</div>
-        <div class="middlediv">Middlediv</div>
+        <div class="mynav">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Our Services</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+        <div class="middlediv">
+            <div class="welcometext">
+                Welcome to our Site!
+            </div>
+        </div>
         <div class="bottomdiv">Bottomdiv</div>
     </div>
 </body>
