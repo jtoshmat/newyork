@@ -10,51 +10,25 @@
 </head>
 <body>
 
-<div class="roditeli">
-    <div class="zohid">Zohid</div>
-    <div class="gulirabo">Gulirabo</div>
-    <div class="rayan">Rayan</div>
-    <div class="clearfix"></div>
-
-
-    <img class="spring" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7-hiqQ0Izv_dSfmTVHM9xQkW2jo9RQbgFLzxbDCrqm6XI8W5F">
-
+<div class="album">
+    <img src="https://x-default-stgec.uplynk.com/ausw/slices/9ca/0e3a3b3bc3ae4d6eac785fb8a26bdb6b/9caea081275a42629810c8570397cd26/poster_df0c03dca9cd4ed49daa4ddb71536fc6.jpeg">
+    <img src="https://media.beliefnet.com/~/media/photos-with-attribution/family/family-parenting-kids-baby-happy_credit-shutterstock.jpg">
 </div>
 
 
 <style>
-    .roditeli{
-        height: 300px;
+    .album{
+        width: 400px;
+        height: 400px;
         background-color: #2d6498;
-        margin: auto;
     }
 
-
-
-    .zohid{
-        width: 50%;
-        float: left;
-        background-color: #00cc00;
-    }
-
-    .gulirabo{
-        width: 25%;
-        float: right;
-        background-color: #ff7ead;
-    }
-
-    .rayan{
-        width: 25%;
-        float: right;
-        background-color: rgba(0, 0, 0, 1);
-        color: white;
-    }
-
-
-    .spring{
+    .album img{
         width: 100%;
+         border: 5px solid #7a2c06;
+        margin-bottom: 20px;
+        padding: 20px;
     }
-
 </style>
 
 </body>
