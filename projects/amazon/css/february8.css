@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+}
+#mywrapper{
+    width: 1000px;
+    margin: auto;
+    height: auto;
+    background-color: #ececec;
+}
+
+.topdiv{
+    height: 100px;
+}
+
+.topdiv_left{
+    width: 50%;
+    display: inline-block;
+}
+.topdiv_left img{
+    width: 211px;
+    margin: 0px;
+    margin-left: 30px;
+}
+
+.topdiv_right{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+.searchinput{
+    width: 209px;
+    height: 24px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-image: url(../../../img/searchicon.png);
+    background-size: 34px 37px;
+    background-repeat: no-repeat;
+    padding: 16px;
+}
+
+.mynav{
+    background-color: black;
+}
+
+.middlediv{
+    height: 400px;
+    background-color: #ff5a06;
+}
+
+.bottomdiv{
+    height: 100px;
+    background-color: #74af35;
+}

@@ -12,7 +12,7 @@
 <div class="container-fluid">
     <form method="post" action="backend.php">
        <p>
-        <label>Username:<input value="jon@jon.com" type="email"  name="username" placeholder="username" ></label><br>
+        <label>Username:<input value="jon@jon.com" type="text"  name="username" placeholder="username" ></label><br>
         <label>Password:<input value="1223435f" type="password" name="password" placeholder="password"></label><br>
        <input type="hidden" value="<?=$_SERVER['REMOTE_ADDR']??false?>" name="ip">
            <button name="submit" class="btn btn-success">Submit</button>

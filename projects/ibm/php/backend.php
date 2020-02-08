@@ -7,9 +7,7 @@ if (!$method=='POST'){
 }
 //Step 2: Validate your IP Address
 $ipaddress = $_SERVER['REMOTE_ADDR'];
-if ($ipaddress == $_POST['ip']){
-    exit("We are good with IPs");
-}else{
+if (!$ipaddress == $_POST['ip']){
     logBadRequests("IPs do not match");
     exit("IP addresses do not match");
 }
@@ -23,6 +21,15 @@ if(!$is_ref_valid){
     logBadRequests("BAD GUY and GTFO: ".__LINE__);
     exit("BAD GUY and GTFO");
 }
+
+//Step 4: input validation.
+$email = $_POST['username']??null;
+if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    var_dump($email);
+    exit;
+}
+echo "Bad Email";
+exit;
 
 
 echo "WOHOOOOOO, ALL VALIDATIONS ARE GOOD";
