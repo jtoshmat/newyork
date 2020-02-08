@@ -1,50 +1,28 @@
-body{
-    background-color: #3e0c07;
+th{
+    background-color: #4e9dff;
+    color: #a51d07;
 }
-.mybox{
-    width: 800px;
-    height: 800px;
+
+tr:nth-child(even){
     background-color: whitesmoke;
-    margin: auto;
-    margin-top: 100px;
+}
+
+.even{
+    background-color: darkred;
+    color: #ffe831;
+}
+
+.nines{
+    background-color: #173d58;
+    color: #ffe831;
+}
+
+.myage{
+    background-color: #173d58;
+    color: #ffe831;
     text-align: center;
 }
 
-.myform{
-    background-color: #5f86bd;
-}
-
-.myresults{
-    background-color: #f3f3f3;
-}
-
-.myform div{
-    display: inline-block;
-    margin: 10px;
-}
-
-.myform label{
-    font-weight: bolder;
-    color: #d4d400;
-}
-
-.error{
-    background-color: red;
-    color: whitesmoke;
-}
-.num1{
-    background-color: #ff0000;
-    display: inline-block;
-    color: yellow;
-}
-
-.num2{
-    background-color: #30eb5a;
-    display: inline-block;
-    color: darkred;
-}
-.myrows{
-    margin: 5px;
-    padding:2px;
-    border: 1px solid black;
+.myage img{
+    width: 50px;
 }

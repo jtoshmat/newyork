@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+.chessboard{
+    width: 800px;
+    height: auto;
+    background-color: #612b09;
+    margin: auto;
+}
+.cells{
+    background-color: #e8ae57;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+
+}
+
+.even{
+    background-color: black;
+    color: white;
+}
+
+
+
+.figure1{
+ cursor: pointer;
+    width: 50px;
+}
