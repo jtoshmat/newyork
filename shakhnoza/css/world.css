@@ -1,8 +1,30 @@
 body{
     background-color: white;
 }
-.red_box{
+.red_box {
     background-color: #7b1a1a;
-    width: 1404px;
-    height: 979px;
+    width: 1750px;
+    height: 977px;
+}
+.world_shape {
+    background-color: #00e200;
+    height: 605px;
+    width: 605px;
+    border-radius: 325px;
+    margin: auto;
+    position: relative;
+    top: 108px;
+    left: 18px;
+    background-image: url(../img/Earth_Day_image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.world_shape p{
+    color: orange;
+    line-height: 561px;
+    text-align: center;
+    font-size: 51px;
+    font-family: -webkit-body;
+    font-weight: normal;
 }
