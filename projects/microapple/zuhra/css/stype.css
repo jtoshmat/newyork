@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+}
+.whitebox{
+    background-color: white;
+    margin: auto;
+    height: 760px;
+    margin-top: 10px;
+}
+.image{
+    background-image: url("../../zuhra/img/spr.jpg");
+    margin: auto;
+    height: 500px;
+    width: 600px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 3px brown solid;
+    border-radius: 40px;
+}
+.little{
+    color: black;
+    font-weight: bolder;
+    font-size: 15px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    opacity: 0.8;
+    border-radius: 40px;
+    text-align: center;
+}
+.image:hover{
+    background-image: url("../../zuhra/img/winter.jpg");
+}
+.little:hover{
+    background-color: red;
+    opacity: 0.8;
+}
