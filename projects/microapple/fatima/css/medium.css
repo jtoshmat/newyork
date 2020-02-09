@@ -1,0 +1,18 @@
+body{
+    background-color: lavender;
+}
+
+#page-wrap { width: 700px; }
+#page-wrap:after { content: "Medium Layout"; }
+#main-content { float: right; width: 440px; height: 300px; }
+#secondary-one { float: left; width: 170px; height: 300px; }
+#secondary-two { display: none; }
+
+#main-content{
+    background-image: url("../img/menu .jpg");
+    background-attachment: fixed;
+}
+#secondary-on{
+    background-image: url("../img/menu_desert.jpeg");
+    background-size: 100% 100%;
+}

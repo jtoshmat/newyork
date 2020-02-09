@@ -1,0 +1,34 @@
+body{
+    background-color: whitesmoke;
+}
+.photo{
+    background-image: url("https://ideas.staticsfly.com/ideas/wp-content/uploads/2019/01/spring-colors-family-photo-1024x684.jpg");
+    background-size: 100% 100%;
+    border: 5px solid brown;
+    border-radius:15px;
+    height:450px;
+    width: 450px;
+    background-repeat:no-repeat;
+    margin:auto;
+}
+.mybox{
+    background-color: #8baba1;
+    height:100px;
+    width:150px;
+    opacity: 0.8;
+    text-align:center;
+    border-bottom-right-radius: 10px;
+    font-weight: bolder;
+    border-top-left-radius: 10px;
+}
+.photo:hover > .smallbox{
+    background-color: red;
+    cursor:pointer;
+}
+.photo:hover {
+    background-image: url("https://www.taradraper.com/wp-content/uploads/photos/2013/12/21/large_25483d76437eaf6c4c01.jpg");
+}
+.smallbox{
+
+}
+
