@@ -2,7 +2,93 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/projects/algorithm/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/algorithm/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/classroom_exercises.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/css/classroom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/css/portfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/davron.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/img/healthshare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/img/my-digital-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/img/social_media_icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/portfolio/aboutus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/portfolio/contactus.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/portfolio/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apple/css/blankets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apple/css/jon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apple/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apple/img/flight_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apple/img/flightlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apple/img/signup_facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apple/jon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/apple/jon2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/barcelona/css/jon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/barcelona/homeworks/jon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/february/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ibm/css/jon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ibm/css/jon2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ibm/php/jon2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/February/monday03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/February/tuesday04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/css/medium.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/css/narrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/css/wide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microsoft/css/thursday.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microsoft/img/3d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microsoft/img/3d2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microsoft/img/3d3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microsoft/img/darkbg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microsoft/img/retro_tv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microsoft/img/solarsystem_bg.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/mukhlissa/css/friday.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/mukhlissa/javascripts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/mukhlissa/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/chessboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/css/chessboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/responsive/css/iphone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/responsive/css/medium.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/responsive/css/narrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/responsive/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/responsive/css/wide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/responsive/example-one.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/responsive/example-three.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/responsive/example-two.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/responsive/js/responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/files/report.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/import.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/queries.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/src/Importer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/src/Report.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/src/Result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/tests/ImporterTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tests/tests/samples/small.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/fruits.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/another_one.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/blackgirl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/blackgirl2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/lady.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/leaf_lash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/lovely.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/mink.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/minklash2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/modelka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/single_lash.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jon.php" beforeDir="false" afterPath="$PROJECT_DIR$/jon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/barcelona/homeworks/gulirabo.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/barcelona/homeworks/gulirabo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/barcelona/homeworks/rayan.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/barcelona/homeworks/rayan.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/flighthub/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/flighthub/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ibm/php/jon.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ibm/php/jon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/manchester/portfolio/lottery.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/manchester/portfolio/lottery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/microsoft/css/form.css" beforeDir="false" afterPath="$PROJECT_DIR$/projects/microsoft/css/form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/microsoft/jon.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects/microsoft/jon.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,16 +163,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/umidochka" />
+      <recent name="$PROJECT_DIR$/badges" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/umidochka/img" />
       <recent name="$PROJECT_DIR$/badges/badges" />
       <recent name="$PROJECT_DIR$/badges" />
       <recent name="$PROJECT_DIR$/umidochka" />
       <recent name="$PROJECT_DIR$/img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/umidochka" />
-      <recent name="$PROJECT_DIR$/badges" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
@@ -140,7 +226,8 @@
       <workItem from="1579580798773" duration="10020000" />
       <workItem from="1579721163132" duration="33662000" />
       <workItem from="1580337525449" duration="20680000" />
-      <workItem from="1580841837860" duration="810000" />
+      <workItem from="1580841837860" duration="5021000" />
+      <workItem from="1581050316383" duration="25224000" />
     </task>
     <servers />
   </component>
@@ -148,9 +235,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="168" y="346" key="NewPhpFileDialog" timestamp="1580753225139">
-      <screen x="0" y="23" width="1440" height="821" />
+    <state x="168" y="342" key="NewPhpFileDialog" timestamp="1580870413785">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
+    <state x="168" y="342" key="NewPhpFileDialog/0.23.1440.812@0.23.1440.812" timestamp="1580870413785" />
     <state x="168" y="346" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1580753225139" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1579721181446">
       <screen x="0" y="23" width="1440" height="816" />

@@ -1,12 +1,22 @@
 body{
     background-color: black;
+    background-image: url("../img/3d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .greybox{
     width: 713px;
     height: 457px;
     margin: auto;
-    background-color: grey;
+    background-color: black;
+    position: relative;
+    left: 120px;
+    top: 161px;
+    background-color: black;
+    background-image: url("../img/3d2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .mylogin_box{
@@ -17,7 +27,7 @@ body{
     border-radius: 5px;
     border: 1px solid #635a5a;
     text-align: center;
-    background-image: url("../img/spring.jpg");
+    background-image: url("../img/3d3.jpg");
     background-size: cover;
 }
 
