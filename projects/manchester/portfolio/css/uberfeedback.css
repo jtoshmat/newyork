@@ -1,0 +1,135 @@
+body {
+    background-color: #5d0211;
+}
+/*#############################*/
+/*Top div codes*/
+#myform {
+    width: 600px;
+    height: auto;
+    background-color: white;
+    border: 1px double black;
+    margin: auto;
+}
+
+.topdiv {
+    height: 135px;
+    background-color: black;
+    border-bottom: 4px solid darkgrey;
+}
+
+.topdiv span {
+    color: white;
+    font-size: 2em;
+    position: relative;
+    top: 63px;
+    margin: 10px;
+    font-family: "American Typewriter";
+}
+
+.logo {
+    width: 60px;
+}
+
+/*#############################*/
+/*Middle div codes*/
+.middlediv {
+    text-align: center;
+}
+
+.customer_photo {
+}
+
+.customer_photo img {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 2px double black;
+    padding: 2px;
+    background-color: #191919;
+    margin-top: 50px;
+}
+
+.star_div {
+    text-align: center;
+}
+
+.star {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-image: url("../../../../img/star_white.png");
+    background-size: 100% 100%;
+}
+
+.star img {
+    width: 100%;
+}
+
+.star:hover {
+    background-image: url("../../../../img/star_black.png");
+}
+
+.selected_star_title {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.categories {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.categories:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/*#############################*/
+/*Footer div codes*/
+.footer{
+    margin-top: 20px;
+    border-top: 3px solid #eeeeee;
+    text-align: center;
+}
+.tip_text{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.amount{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid grey;
+    display: inline-block;
+    margin: 20px;
+    font-size: 30px;
+    line-height: 85px;
+    font-weight: bolder;
+}
+.amount:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.custom_amount{
+    color: #105cff;
+    font-size: 20px;
+    font-family: "American Typewriter";
+    font-weight: bold;
+}
+.done_button{
+    width: 80%;
+    height: 70px;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
