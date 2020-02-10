@@ -1,0 +1,24 @@
+body{
+    background-color: #000000;
+    color: #ffdf3c;
+}
+
+.mybox{
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-image: url("../img/retro_tv.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+#myframe{
+    width: 59%;
+    position: relative;
+    top: 140px;
+    left: 97px;
+    border-radius: 40px;
+    border: 1px solid black;
+}

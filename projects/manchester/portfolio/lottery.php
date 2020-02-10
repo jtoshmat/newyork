@@ -32,8 +32,6 @@ $today = date('m-d-Y');
                 include_once "lottery_generate_numbers.php";
             ?>
 
-
-
         </div>
         <div style="height: 20px"></div>
         <div class="winning_numbers_section">

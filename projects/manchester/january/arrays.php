@@ -1,45 +1,62 @@
 <?php
-class Uzbekistan{
-    public function travel($country){
-        $msg = '';
-        if (strpos($country, 'stan')){
-            $msg .= "<span class='stan'>$country</span> <br>";
-        }else{
-            $msg .= $country;
-        }
-        $msg .= '<hr>';
-        return $msg;
+
+$countries = ['Uzbekistan','Russia','England','China','Morocco','Tailand','France','Nigeria','Germany',
+    'Brasil','Mexico'];
+
+foreach ($countries as $country){
+    if ($country=='Uzbekistan'){
+        echo "<img src='https://cdn3.iconfinder.com/data/icons/world-flags-5/512/96-Uzbekistan_Uzbek_UZB_Tashkent_Asia_asian_country_flag_-512.png'>Uzbekistan";
+    }elseif ($country=='Russia'){
+        echo "<img src='https://lh3.googleusercontent.com/proxy/jogi1CcKbeGaGHQxG93KELaF7A3aiIbbRK-9c7Zbm8heyhdNVvt2rpI82VkmhmmVurH1iZKw5ssAU6tq8H08ox5YyG12SaIJg2AlQ4koGMrDknEFpAvC7gT_7scLdygyGLicTg4OzPLTalI'>Russia";
     }
+
+
+
+
+
+    else{
+        echo $country. "<br>";
+    }
+
+    echo "<hr>";
 }
-$trip = new Uzbekistan();
-echo $trip->travel('Uzbekistan');
-echo "<hr>";
-echo $trip->travel('Ukraine');
-echo "<hr>";
-echo $trip->travel('Russia');
-echo "<hr>";
-echo $trip->travel('USA');
-echo "<hr>";
-echo $trip->travel('Italy');
-echo "<hr>";
-echo $trip->travel('England');
-echo "<hr>";
-echo $trip->travel('Turkmenistan');
-echo "<hr>";
-echo $trip->travel('Parkistan');
-echo "<hr>";
-echo $trip->travel('Tadjikistan');
-echo "<hr>";
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
 <style>
-    .stan{
-        background-color: darkred;
-        color: #ffea38;
-        padding:5px;
-        margin:2px;
+    img{
+        width: 100px;
+        height: 100px;
     }
+
+
+
 </style>
-Collapse
-
-
+</body>
+</html>
 
