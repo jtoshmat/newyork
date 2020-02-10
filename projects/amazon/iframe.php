@@ -12,7 +12,7 @@
 </head>
 <body>
 <div style="height: 121px"></div>
-<div id="living_room"><iframe id="mytv" src="https://www.youtube.com/embed/pb9vH0UIC10" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div id="living_room"><iframe id="mytv" src="https://www.youtube.com/embed/NoZwGfUsxX4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 <div id="remote_control">
     <img src="../../img/tv_remote_control.png">
 </div>

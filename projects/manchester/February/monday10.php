@@ -10,4 +10,4 @@ print_r($get);
 
 echo "<hr>";
 echo "Post dan kelgan danniy <br>";
-print_r($post);
+var_dump($_POST);
