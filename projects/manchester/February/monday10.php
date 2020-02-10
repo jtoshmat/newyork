@@ -1,13 +1,12 @@
 <?php
-$get = $_GET??'N/A';
-$post = $_POST??'N/A';
+//Get
+//Post
+//Request
+//Type juggling - 1 data typedan boshqa data typega o'zgartirish
 
-echo "<pre>";
 
-echo "<hr>";
-echo "Get dan kelgan danniy <br>";
-print_r($get);
+$text = 'Sukhrob';
 
-echo "<hr>";
-echo "Post dan kelgan danniy <br>";
-var_dump($_POST);
+$text = (bool) $text;
+
+echo gettype($text);
