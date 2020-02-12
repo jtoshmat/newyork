@@ -30,6 +30,8 @@
         height: 500px;
         margin: auto;
         margin-top: 60px;
+    padding:10px;
+    overflow: auto;
 
 </style>
 
