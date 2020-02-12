@@ -19,6 +19,7 @@ class Dashboard
 {
     private $db;
     public $cardholder_name;
+    public $bank_ids;
 
     public function __construct()
     {
@@ -37,13 +38,23 @@ class Dashboard
     }
 
     public function displayBankAccounts(){
-        return $this->db->sql("SELECT * FROM bank_accounts WHERE bank_card_id=$this->cardholder_id");
+        $accounts = $this->db->sql("SELECT * FROM bank_accounts WHERE bank_card_id=$this->cardholder_id");
+        foreach ($accounts as $account){
+            $this->bank_ids[] =  $account['bank_id'];
+        }
+        return $accounts;
+    }
+
+    public function displayBanks(){
+        $bank_ids = implode('', $this->bank_ids);
+        $banks = $this->db->sql("SELECT * FROM banks WHERE id IN ($bank_ids) ");
+        return $banks;
     }
 }
 
 $obj = new Dashboard();
 $accounts = $obj->displayBankAccounts();
-
+$banks = $obj->displayBanks();
 ?>
 <!doctype html>
 <html lang="en">
@@ -53,7 +64,7 @@ $accounts = $obj->displayBankAccounts();
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Members Dashboard</title>
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
 </head>
 <body>
 <div class="container-fluid">
@@ -84,21 +95,42 @@ $accounts = $obj->displayBankAccounts();
             <img src="img/line.png">
         </div>
         <div class="mybody">
-            <ul>
                 <?php
-                foreach ($accounts as $account) {
+                foreach ($banks as $bank) {
                     ?>
-                    <li><?=$account['name']?>: $<?=$account['balance']?></li>
+                    <div class="bank_row_class">
+                        <img class="banklogo" src="img/<?=$bank['logo']?>">
+                        <div class="bankinfo"><?=$bank['name']?>: <?=$bank['location']?></div>
+                    </div>
                     <?php
                 }
                 ?>
-            </ul>
-
 
         </div>
     </div>
 </div>
 <style>
+    .bankinfo{
+        float: left;
+    }
+
+    .banklogo{
+        width:100px;
+        height:70px;
+        float: left;
+        border: 1px solid black;
+        margin-right: 10px;
+    }
+
+    .bank_row_class{
+        width:100%;
+        height:100px;
+        padding:10px;
+        margin: 10px;
+        margin-top: 30px;
+        border:1px solid black;
+        background-color: #eef8ff;
+    }
 
     .userprofile img{
         width:30px;
@@ -147,6 +179,7 @@ $accounts = $obj->displayBankAccounts();
     .container-fluid {
         padding-right: 0px;
         padding-left: 0px;
+
     }
     .blankdiv{
         height:38px;

@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculator_Ansar</title>
     <link href="/css/bootstrap.css" rel="stylesheet">
+    <script src="/js/jquery-3.4.1.min.js" type="text/javascript"></script>
+
 
 </head>
 <body>
@@ -62,15 +64,14 @@
 
     .head {
         background-color: black;
-        border: 1px solid #060606;
         width: 24.5%;
-        height: auto;
-        border-radius: 5px;
-        margin-left: 200px;
-        margin-top: 40px;
+        border-radius: 4px;
+        margin-top:100px;
+        margin-left:200px;
     }
 
     .text{
+        border-radius: 7px;
         background-color: #454545;
         border: none;
         width: 100%;
