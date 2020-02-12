@@ -20,8 +20,7 @@
 <div class="mybody">
     <div class="mynavbar">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"><img class="mylogo"
-                                                  src="https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp">
+            <a class="navbar-brand" href="#"><img class="mylogo" src="https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,26 +88,41 @@
 <div class="pbox" id="one">
     <div style="height: 100px"></div>
     <div class="p_inside">
-        <h3 class="pheader">Wow! These lashes last for more than a month...</h3>
+        <h3 class="pheader">Lash Tips</h3>
+        <h4 class="pheader">Aftercare Instructions</h4>
         <div style="height: 40px"></div>
-        <p class="pheader">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in</p>
+        <ul class="myul">
+            <li>Do not get lashes wet for the first 24 hours.</li>
+            <li>Do not use oil-based eye products, creams or waterproof mascara.</li>
+            <li>Use only water-based makeup & makeup remover.</li>
+            <li>Remove makeup around the eye with a cotton swab.</li>
+            <li>Do not perm, tint, or use an eyelash curler.</li>
+            <li>Be careful to avoid pulling extensions or rubbing eyes.</li>
+            <li>Please see a trained lash technician to have your extensions removed.</li>
+            <li>To last your lashes long schedule touch-ups every 3 weeks.</li>
+            <li>Sleep on your back or your side with your lashes off the pillow.</li>
+
+        </ul>
     </div>
     <div class="p_inside1">
-        <h3 class="pheader pheader1">Wow! These lashes last for more than a month...</h3>
+        <h3 class="pheader pheader1">Lash Rules</h3>
+        <h4 class="pheader pheader1">That you should know</h4>
         <div style="height: 40px"></div>
-        <p class="pheader pheader1">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in</p>
+        <ul class="myul1">
+            <li>Just like your nails grow out so do your lashes.</li>
+            <li>Once there gap starts to become obvious you should get a refill.</li>
+            <li>You will lose 2-5 lashes per one day per just one eye.</li>
+            <li>You can roughly expect to lose 3 lashes per one day, which is 21 lashes in one week.</li>
+            <li>Keep them away from Mascara, oil, humidity. </li>
+            <li>Your natural lashes last for 90 days which is 3 month.</li>
+            <li>When they are old enough make sure, they fall by themselves not because of extensions.</li>
+            <li>Brush them every day, for 4 5 times.</li>
+
+        </ul>
     </div>
-    <div style="height: 100px"></div>
+    <div style="height: 60px"></div>
 </div>
-<!-- <div class="transparent">
+ <div class="transparent">
      <div class="container">
          <div class="row">
              <div class="col-sm">
@@ -147,7 +161,7 @@
          </div>
      </div>
  </div>
- -->
+
 
 
 <div class="parallax1" id="two">
@@ -301,8 +315,8 @@
 </div>
 
 
-<!--Pricelist! -->
-<h1 class="price_chart" id="five">Price Chart</h1>
+<!--Pricelist! --><div class="pricelist">
+
 <div class="row myrow">
     <div class="card" style="width: 17rem;">
         <div class="mypricelist">
@@ -364,7 +378,7 @@
             <a href="#" class="btn btn-success">Book Now!</a>
         </div>
     </div>
-
+</div>
 </div>
 <div id="six" style="height: 100px"></div>
 <div class="container-fluid">
@@ -423,11 +437,25 @@
 
 
     <style>
+        .myul{
+            float: left;
+            color: #fa948b;
+            height: auto;
+            padding-bottom: 20px;
+        }
+        .myul1{
+            float: left;
+            color: #043955;
+            height: auto;
+            padding-bottom: 20px;
+
+        }
         .model{
             width: 400px;
         }
         .myhead{
             background-color: #fcbcb2;
+
             width: 100%;
             height: 750px;
         }
@@ -527,6 +555,8 @@
             padding-left: 0;
             margin-right: auto;
             margin-left: auto;
+            background-image: url("../umidochka/img/cosmetics.jpg");
+            background-size: 100% 100%;
         }
 
         .tales {
@@ -546,13 +576,13 @@
         .pbox {
             width: 100%;
             height: 650px;
-            background-image: url("../umidochka/img/pink_wall.jpg");
+            background-image: url("../umidochka/img/clock.jpg");
             background-size: 100% 100%;
 
         }
 
         .p_inside {
-            width: 35%;
+            width: 33%;
             height: auto;
             background-color: #0c1e3d;
             margin-left: 16%;
@@ -561,15 +591,17 @@
             display: none;
             float: left;
 
+
         }
         .p_inside1 {
-            width: 35%;
+            width: 33%;
             height: auto;
             background-color: rgba(253, 128, 114, 0.96);
             float: left;
             padding-top: 7px;
             opacity: 0.7;
             display: none;
+
         }
 
         .pheader {
@@ -675,7 +707,7 @@
         }
 
         .pictures {
-            background-image: url("../umidochka/img/pink_wall.jpg");
+            background-image: url("../umidochka/img/brushnew.jpg");
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }
@@ -704,7 +736,7 @@
         }
 
         .parallax_middle {
-            background-image: url("../umidochka/img/screenshot.png");
+            background-image: url("../umidochka/img/clock.jpg");
             min-height: 400px;
             background-attachment: fixed;
             background-position: center;
@@ -769,11 +801,10 @@
             width: 190px;
             height: 190px;
             margin: 20px;
-            border: 4px solid rgb(250, 148, 139);
+            border: 4px solid rgb(4, 61, 91);
             box-shadow: 5px 5px 5px 5px rgba(69, 77, 138, 0.84);
             margin-top: 20px;
-            border-bottom-right-radius: 30px;
-            border-top-left-radius: 30px;
+
 
         }
 
@@ -785,8 +816,6 @@
         .col img:hover {
             cursor: pointer;
             transform: scale(1.3);
-            border-bottom-right-radius: 30px;
-            border-top-left-radius: 30px;
             background-image: url("https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp");
 
 
@@ -834,18 +863,6 @@
 
         }
 
-        .jumbotron {
-            height: 700px;
-            background-image: url("../umidochka/img/girl.jpg");
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            color: #f3eaff;
-            padding-bottom: 80px;
-        }
-
-        .inside {
-
-        }
 
         .inside:hover {
             border: 1px solid grey;
@@ -904,16 +921,14 @@
             font-weight: bold;
         }
 
-        .price_chart {
-            text-align: center;
-            font-family: "Times New Roman";
-            color: #043955;
-            font-family: 'Roboto', sans-serif;
-
+        .pricelist{
+            background-image: url("../umidochka/img/backeye.jpg");
+            background-size: 100% 100%;
         }
 
         .gallery {
             background-image: url("../umidochka/img/backeye.jpg");
+            background-size: 100% 100%;
 
         }
 
