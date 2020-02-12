@@ -27,11 +27,11 @@ $num2 = $parms['num2']??null;
             </div>
 
            <div>
-               <input value="<?=$num1?>" required="required" name="num1" type="number" min="5" max="35">
+               <input value="<?=$num1?>" required="required" name="num1" type="number" min="1" max="35">
            </div>
 
            <div>
-               <input value="<?=$num2?>" required="required" name="num2" type="number"  min="77" max="103">
+               <input value="<?=$num2?>" required="required" name="num2" type="number"  min="77" max="160">
            </div>
 
            <div>
@@ -43,12 +43,12 @@ $num2 = $parms['num2']??null;
         <div class="myresults">
             <?php
 
-            if ($num1<5 || $num1>35){
+            if ($num1<1 || $num1>35){
                 echo "<span class='error'>Your number 1 must be greater than 5 and less than 35</span>";
                 exit;
             }
 
-            if ($num2<77 || $num2>103){
+            if ($num2<77 || $num2>160){
                 echo "<span class='error'>Your number 2 must be greater than 77 and less than 103</span>";
                 exit;
             }
@@ -59,23 +59,14 @@ $num2 = $parms['num2']??null;
 
             }
 
-            for($y=$num2; $y<103; $y++){
+            for($y=$num2; $y<160; $y++){
                 echo "<div class='num2 myrows'>$y</div>";
 
             }
-
-<<<<<<< HEAD
-<?php
-//Error Types
-    // 1. Notice Error
-    // 2. Warning Error
-    // 3. Fatal Error   
-
-=======
             ?>
         </div>
     </div>
 </div>
 </body>
 </html>
->>>>>>> dfb3c852630bde04016632dfc9eccd0b8b900834
+
