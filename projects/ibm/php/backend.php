@@ -90,10 +90,10 @@ $contacts = $form->listContacts();
 
     }
 
-    th{
+    th {
         background-color: dodgerblue;
         color: #4b0019;
-font-weight: bolder;
+        font-weight: bolder;
     }
 </style>
 
