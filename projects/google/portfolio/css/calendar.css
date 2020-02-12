@@ -1,0 +1,109 @@
+body{
+    background-color: black;
+}
+#calendar{
+    width: 1000px;
+    height: auto;
+    background-color: #0078be;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    text-align: center;
+}
+.calendar_title{
+    color: black;
+    font-size: 3.5em;
+    text-align: center;
+}
+.boxes{
+    width: 230px;
+    height: auto;
+    margin: 5px;
+    background-color: #d3d3d3;
+    display: inline-block;
+    text-align: center;
+}
+.boxes table{
+    width: 100%;
+}
+.boxes td{
+    text-align: center;
+}
+.boxes table tr:first-child td:first-child{
+    color: white;
+}
+.boxes table td:first-child{
+   color: #a60000;
+}
+.boxes table th{
+    background-color: white;
+}
+.january tr:first-child{
+    background-color: #4e8ca1;
+    color: white;
+    font-size: 20px;
+}
+.february tr:first-child{
+    background-color: #a64139;
+    color: white;
+    font-size: 20px;
+}
+.march tr:first-child{
+    background-color: #a6aa31;
+    color: white;
+    font-size: 20px;
+}
+.april tr:first-child{
+    background-color: #67111c;
+    color: white;
+    font-size: 20px;
+}
+.may tr:first-child{
+    background-color: #46716a;
+    color: white;
+    font-size: 20px;
+}
+.june tr:first-child{
+    background-color: #353b5f;
+    color: white;
+    font-size: 20px;
+}
+.july tr:first-child{
+    background-color: #2e5038;
+    color: white;
+    font-size: 20px;
+}
+.august tr:first-child{
+    background-color: #24505c;
+    color: white;
+    font-size: 20px;
+}
+.september tr:first-child{
+    background-color: #392944;
+    color: white;
+    font-size: 20px;
+}
+.october tr:first-child{
+    background-color: #9e6538;
+    color: white;
+    font-size: 20px;
+}
+.november tr:first-child{
+    background-color: #707135;
+    color: white;
+    font-size: 20px;
+}
+.december tr:first-child{
+    background-color: #521619;
+    color: white;
+    font-size: 20px;
+}
+.today{
+    width: 100%;
+    height: 27px;
+    background-color: #7e0000;
+    color: #ffde48;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: bolder;
+}

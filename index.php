@@ -1,13 +1,18 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!doctype html>
+=======
+<!DOCTYPE html>
+>>>>>>> ae85e4c8ceb75bfb8d51839d7645703650d7b855
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
     <title>Document</title>
 </head>
 <body>
@@ -33,52 +38,91 @@
 </head>
 <body>
 >>>>>>> 1120df451df8619eda471cc2b05de8f707a807af
-
-<form class="myform">
-    <p>
-            <label>Search: </label>
-        <input name="keyword" type="text" placeholder="Your keyword">
-
-    </p>
-</form>
-
-<div class="bottomdiv">
-
-    <img id="myimage" src="img/aeroflot%20plane.jpg">
-
+=======
+    <title>Login Form</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="loginform">
+    <form method="post" action="loginform.php">
+        <table class="table">
+            <tr>
+                <th colspan="2"><h4>Members Login Form</h4></th>
+            </tr>
+            <tr>
+                <td><label>Username: </label></td>
+                <td><input required="required" name="email" type="email" placeholder="Your Username"></td>
+            </tr>
+            <tr>
+                <td><label>Password: </label></td>
+                <td><input required="required" name="password" type="password" placeholder="Your Password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="reset">Reset</button>
+                    <button type="submit">Login</button>
+                </td>
+            </tr>
+        </table>
+    </form>
 </div>
-
-
-<script>
-
-    $(function () {
-        $("#myimage").click(function () {
-            $(".myform").submit();
-        });
-    })
-
-
-    var x = 0;
-    $(window).resize(function(){
-        x++;
-        $(".myform input").val('x: ' + x);
-    });
-
-</script>
+>>>>>>> ae85e4c8ceb75bfb8d51839d7645703650d7b855
 
 <style>
 
-    .bottomdiv{
-        position: absolute;
-        bottom: 0px;
-        left: 0px;
-        background-color: #feffac;
-        overflow: auto;
+    input{
+        width: 250px;
+        height: 40px;
+        border-radius: 5px;
+
     }
 
-    img{
-        width: 200px;
+    tr:nth-child(2) td:first-child {
+        text-align: right;
+        padding-right: 5px;
+        width: 42%;
     }
+    tr:nth-child(3) td:first-child {
+        text-align: right;
+        padding-right: 5px;
+        width: 42%;
+    }
+
+    tr:nth-child(2) td:last-child {
+        text-align: left;
+        padding-right: 5px;
+    }
+    tr:nth-child(3) td:last-child {
+        text-align: left;
+        padding-right: 5px;
+    }
+
+
+    td:last-child {
+        text-align: center;
+    }
+
+    th {
+        text-align: center;
+    }
+
+    .table th, .table td {
+        border-top: none;
+    }
+
+    body {
+        background-color: #204369;
+    }
+
+    .loginform {
+        width: 700px;
+        margin: auto;
+        background-color: #e6f3f5;
+        margin-top: 100px;
+        border-radius: 15px;
+    }
+
+
 </style>
 
 <<<<<<< HEAD

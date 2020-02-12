@@ -2,28 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/umidochka/img/backlash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/backlash2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/brush.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/brush2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/brush3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/brushnew.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/clock.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/cloud_lash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/cosmetics.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/cup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/eyeback.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/eyelash form.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/heart_lash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/lash_set.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/lashcup.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/lashes.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/nail_lash.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/receipt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/wallpaper_new.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/living_room.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/star_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/star_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tv_remote_control.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/uber_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loginform.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/css/february8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/css/iframe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/iframe.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/jon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/amazon/weatherphotos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/barcelona/jon.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/css/wednesday05.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/february/wednesday05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/img/blue_patterned_background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/img/check.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/img/delux_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/portfolio/calendar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/google/portfolio/css/calendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ibm/february04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ibm/logs/access.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ibm/php/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ibm/php/february11.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/ibm/php/february11_backend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/February/monday10.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/February/wednesday05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/files/complaints" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/files/ourfiles" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/css/uberfeedback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/img/sukhrob.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/manchester/portfolio/uberfeedback.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/javascript/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/jon/css/iphone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/jon/css/medium.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/jon/css/narrow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/jon/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/jon/css/wide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/js/classroom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/microapple/photos.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/mukhlissa/css/belleforele.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/mukhlissa/css/largedevices.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/mukhlissa/css/mediumdevices.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/mukhlissa/css/smalldevices.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projects/mukhlissa/js/feb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials/tablerows.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ibm/php/backend.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ibm/php/backend.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ibm/php/jon.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ibm/php/jon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ibm/php/jon2.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ibm/php/jon2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/mukhlissa/css/friday.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/mukhlissa/homeworks/belleforelle.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mukhlissa/homeworks/belleforelle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/mukhlissa/javascripts/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/mukhlissa/javascripts/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +192,7 @@
       <workItem from="1579721163132" duration="33662000" />
       <workItem from="1580337525449" duration="20680000" />
       <workItem from="1580841837860" duration="5021000" />
-      <workItem from="1581050316383" duration="34039000" />
+      <workItem from="1581050316383" duration="34534000" />
     </task>
     <servers />
   </component>
