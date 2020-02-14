@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+.bottomleft{
+    float: left;
+}
+.bottomright {
+    float: right;
+}
+.rangemargin {
+    margin: 10px 0px;
+}
+.range {
+    color: #0e661a;
+}
+.ranges {
+    width: 203px;
+    margin: 13px 25px;
+}
+.btn-primary {
+    background-color: #0e316d;
+}
+.stars {
+    width: 220px;
+    margin: 25px 25px 0px 0px;
+}
+.label {
+    text-align: left;
+    font-weight: bold;
+}
+#myform{
+    width: 650px;
+    height: 460px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: rgba(239, 246, 246, 0.96);
+    padding: 20px 30px;
+    border: solid 1px #0e316d;
+    border-radius: 5px;
+}
+/* HIDE RADIO */
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio] + img {
+    cursor: pointer;
+}
+
+/* CHECKED STYLES */
+[type=radio]:checked + img {
+    /*outline: 2px solid #f00;*/
+}
+
+.radios img{
+    width: 30px;
+}
+

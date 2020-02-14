@@ -1,103 +1,59 @@
 <?php
-namespace IBM;
-use Database\database;
-include_once '../../../inc/database.php';
-class Contactform{
-    private $db;
-    public $parms;
-    public function __construct()
-    {
-        $this->db = new database();
-        $this->parms = $_POST;
-    }
-    public function saveContactForm(){
-
-        $first_name = $this->parms['first_name']??null;
-        $last_name = $this->parms['last_name']??null;
-        $age = $this->parms['age']??null;
-        $email = $this->parms['email']??null;
-        $member = $this->parms['member']??1;
-        $message = $this->parms['message']??null;
-        $sql = "INSERT INTO contacts (first_name, last_name, age, email, member, message) VALUES ('$first_name','$last_name',$age,'$email','$member','$message');";
-        $execute = $this->db->sql($sql);
-        return "Thank you for contacting us. We did receive your message.";
-    }
-
-    public function listContacts(){
-        $sql = "SELECT * FROM contacts order by id desc";
-        return $this->db->sql($sql);
-    }
-
+//Step 1: Validate your Method.
+$method = $_SERVER['REQUEST_METHOD'];
+if (!$method=='POST'){
+    logBadRequests("BAD GUY with A BAD METHOD ".__LINE__);
+    exit("BAD GUY with A BAD METHOD");
 }
-$form = new Contactform();
-$form->saveContactForm();
-$contacts = $form->listContacts();
-?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="../../css/bootstrap.css">
-</head>
-<body>
-<div class="container-fluid">
-    <table class="table table-bordered">
-        <tr>
-            <th>ID</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Age</th>
-            <th>Email</th>
-            <th>Memeber</th>
-            <th>Message</th>
-        </tr>
+//Step 2: Validate your IP Address
+$ipaddress = $_SERVER['REMOTE_ADDR'];
+if (!$ipaddress == $_POST['ip']){
+    logBadRequests("IPs do not match");
+    exit("IP addresses do not match");
+}
 
-        <?php
-            foreach ($contacts as $contact) {
-                ?>
-                <tr>
-                    <td><?=$contact['id']?></td>
-                    <td><?=$contact['first_name']?></td>
-                    <td><?=$contact['last_name']?></td>
-                    <td><?=$contact['age']?></td>
-                    <td><?=$contact['email']?></td>
-                    <td><?=$contact['member']?></td>
-                    <td><?=$contact['message']?></td>
-                </tr>
-                <?php
-            }
-        ?>
-    </table>
-</div>
 
-<div class="footer">
-    <a class="btn btn-success" href="index.php">Back To Form</a>
-</div>
+//Step 3: Validate http referer
+$ref = $_SERVER['HTTP_REFERER'];
+$is_ref_valid = ($ref == 'http://newyork.local/projects/ibm/php/jon.php')??false;
 
-<style>
-    .footer{
-        height: 100px;
-        background-color: #4b0019;
-        color: yellow;
-        text-align: center;
+if(!$is_ref_valid){
+    logBadRequests("BAD GUY and GTFO: ".__LINE__);
+    exit("BAD GUY and GTFO");
+}
 
-        padding:20px;
-        margin: 10px;
+//Step 4: input validation.
+$email = $_POST['username']??null;
+if(filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    var_dump($email);
+    exit;
+}
+echo "Bad Email";
+exit;
 
-    }
 
+<<<<<<< HEAD
     th {
         background-color: dodgerblue;
         color: #4b0019;
         font-weight: bolder;
     }
 </style>
+=======
+echo "WOHOOOOOO, ALL VALIDATIONS ARE GOOD";
+>>>>>>> ae85e4c8ceb75bfb8d51839d7645703650d7b855
 
-</body>
-</html>
+function logBadRequests($msg=''){
+    $data = [
+            'IP' => $_SERVER['REMOTE_ADDR'],
+            'REF' => $_SERVER['HTTP_REFERER'],
+            'PORT' => $_SERVER['REMOTE_PORT'],
+            'TIMESTAMP' => date('Y-m-d h:i:s A'),
+            'MESSAGE' => $msg
+    ];
 
+    $detail = implode('; ', $data);
 
+    $input = "  |  Log: ".print_r($detail, true).'  | ';
+    file_put_contents('/Applications/XAMPP/xamppfiles/htdocs/newyork/projects/ibm/logs/access.log', $data);
+}
