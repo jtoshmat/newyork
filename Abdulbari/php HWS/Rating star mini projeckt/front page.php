@@ -50,9 +50,9 @@
         </div>
             <div class="ranges bottomright">
                  <label  class="label rangemargin" for="formControlRange">How Nice Was The Room?</label>
-                 <input type="range" min="0"  name="roomrating" max="11" value="7" class="range"><span class="rangevalue"></span>
+                 <input type="range" min="1"  name="Room rating" max="5" value="3" class="range"><span class="rangevalue"></span>
                 <label class="label rangemargin"  for="formControlRange">How Great Was The Food?</label>
-                <input type="range" min="0"  name="range2" max="11" value="5" class="range"><span class="rangevalue"></span>
+                <input type="range" min="1"  name="Food rating" max="5" value="3" class="range"><span class="rangevalue"></span>
             </div>
         </div>
         <div class="clearfix"></div>
