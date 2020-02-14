@@ -21,7 +21,7 @@
     </div>
     <div class="son2">
         <div class="rightbox">
-            <img src="pics/home.jpg"style="width: 135px">
+            <img src="pics/home.jpg" style="width: 135px">
             <div class="letters">
                 <h2 id="h3">Kishauwau's</h2>
             <h3 id="h5">Starved Rock Area Cabins</h3>

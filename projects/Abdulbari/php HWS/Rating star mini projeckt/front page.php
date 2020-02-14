@@ -6,13 +6,13 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Feedback Form</title>
-    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../../css/bootstrap.css">
     <link rel="stylesheet" href="styles.css">
-    <script src="../../../js/jquery-3.4.1.min.js"></script>
+    <script src="../../../../js/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 <div id="myform">
-    <form class="form" method="post" action="php%20side.php">
+    <form class="form" method="post" action="php side.php">
         <div class="form-group">
             <label class="label" for="formGroupExampleInput">Full Name*</label>
             <input type="text"  name="full_name" class="form-control" required="required" id="formGroupExampleInput" placeholder="Full Name">

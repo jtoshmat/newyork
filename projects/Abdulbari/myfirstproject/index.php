@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../../../css/bootstrap.css">
 </head>
 <body>
 <div class="pic1"><img src="pics/pic1.jpg"> </div>
