@@ -11,11 +11,16 @@ $(function () {
     //7) Object/Json
 
 
-    var age = 42;
-    var first_name = "Jon";
-    var last_name = 'Toshmatov';
+    var first_name = 'Max Smith';
+    var profession = 'Cricket player';
+    var hobbies = "he loves animals and flowers in the garden";
+    var text = first_name + " is a great Hacker " +" and " + hobbies;
 
-    alert(first_name +" "+ last_name + " is " + age +" years old");
+    document.getElementById('result').innerHTML = text;
+
+
+
+
 
 
     alert()
