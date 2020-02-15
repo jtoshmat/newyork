@@ -5,6 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> a3684e9cb728d8456f897e7b81b65f4139672e3c
     <title>Welcome to PHP</title>
     <link rel="stylesheet" href="../../css/bootstrap.css">
 </head>
@@ -86,6 +90,14 @@ $numbers = range(1, 1000);
 
 
     </table>
+<<<<<<< HEAD
+=======
+=======
+    <title>LOGIN FORM</title>
+</head>
+<body>
+>>>>>>> ae85e4c8ceb75bfb8d51839d7645703650d7b855
+>>>>>>> a3684e9cb728d8456f897e7b81b65f4139672e3c
 
     <div class="container-fluid">
         <form method="post" action="backend.php">
