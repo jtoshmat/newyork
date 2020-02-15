@@ -34,15 +34,15 @@
             $cells = range(1, 10);
             foreach ($cells as $num=>$cell) {
                 ?>
-                <tr>
-                    <td contenteditable="true" class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
+                <tr class="mytr">
+                    <td contenteditable="true" class="cells mytd0"><?=$cell?></td>
+                    <td contenteditable="true"  class="cells mytd1"></td>
+                    <td contenteditable="true"  class="cells mytd2"></td>
+                    <td contenteditable="true"  class="cells mytd3"></td>
+                    <td contenteditable="true"  class="cells mytd4"></td>
+                    <td contenteditable="true"  class="cells mytd5"></td>
+                    <td contenteditable="true"  class="cells mytd6"></td>
+                    <td contenteditable="true"  class="cells mytd7"></td>
                 </tr>
                 <?php
             }

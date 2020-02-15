@@ -38,3 +38,9 @@ tr:nth-child(2) td{
 .cells{
     max-width: 100px;
 }
+
+.mytd{
+    background-color: #0b18ff;
+    color: white;
+    border:1px solid black;
+}
