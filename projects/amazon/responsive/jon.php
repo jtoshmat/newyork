@@ -100,11 +100,9 @@
         </div>
     </div>
     <div class="boxes" id="secondary-two">
-
         <ul>
             <li id="products">
                 <img src="https://s3.amazonaws.com/inspire-website-assets/wp-content/uploads/2019/09/20153432/inspire-walkingaround.png">
-
             </li>
             <li id="video">
                 <iframe src="https://www.youtube.com/embed/NoZwGfUsxX4"></iframe>
@@ -124,7 +122,6 @@
             </li>
             <li>FOUR</li>
         </ul>
-
     </div>
 </div>
 </body>

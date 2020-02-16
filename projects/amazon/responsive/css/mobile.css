@@ -4,7 +4,6 @@
 }
 body{
     font: 14px Georgia, serif;
-    background-color: #000000;
 }
 .boxes{
     display: block;
@@ -68,4 +67,7 @@ width: 300px;
     padding:5px;
     background-color: #00aa88;
     border-radius: 10px;
+}
+.content_text{
+    column-count: 1;
 }
