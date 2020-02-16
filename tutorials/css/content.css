@@ -1,0 +1,11 @@
+p::first-letter{
+    display: block;
+    float: left;
+    margin: 3px;
+    color: #ff0700;
+    font-size: 300%;
+}
+
+p{
+    column-count: 4;
+}

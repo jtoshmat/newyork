@@ -32,7 +32,16 @@ echo "Bad Email";
 exit;
 
 
+<<<<<<< HEAD
+    th {
+        background-color: dodgerblue;
+        color: #4b0019;
+        font-weight: bolder;
+    }
+</style>
+=======
 echo "WOHOOOOOO, ALL VALIDATIONS ARE GOOD";
+>>>>>>> ae85e4c8ceb75bfb8d51839d7645703650d7b855
 
 function logBadRequests($msg=''){
     $data = [
