@@ -1,0 +1,39 @@
+body{
+    background-color: mediumvioletred;
+}
+.box{
+    height:400px;
+    width: 600px;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+    background-color: #c97843;
+    height:50px;
+    width: 100%;
+    color: white;
+}
+.logo img{
+    width: 150px;
+    height:50px;
+}
+.text{
+    text-align: right;
+    float: right;
+    margin: 15px 15px 15px 15px;
+}
+.text1{
+    margin: 40px ;
+    margin-top: 10px ;
+}
+.left{
+    color: #c87c42;
+    margin: 40px;
+    margin-top: 15px;
+}
+.right{
+    color: #ca7e44;
+
+}
+
+
