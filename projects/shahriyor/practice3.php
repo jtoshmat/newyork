@@ -22,8 +22,8 @@
     .image {
         width: 100%;
         height: 600px;
-        border: 8px solid red;
-        border-radius: 25px;
+        border: 8px solid green;
+        border-radius: 5px;
     }
 
 
