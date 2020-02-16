@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 14px Georgia, serif;
+    background-color: #a60000;
+}
+.desktopimg{
+    display: none;
+}
+
