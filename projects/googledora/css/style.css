@@ -1,11 +1,18 @@
 body{
     background-color: mediumvioletred;
 }
+
+
+.table th, .table td {
+    border:none;
+}
+
 .box{
-    height:400px;
-    width: 600px;
-    background-color: white;
+    height:600px;
+    width: 1000px;
+    background-color: #dddddd;
     margin: auto;
+    text-align: center;
 }
 .logo{
     background-color: #c97843;
@@ -36,4 +43,55 @@ body{
 
 }
 
+.middle_texts div{
+    width: 49%;
+    display: inline-block;
+}
 
+.middle_texts{
+  margin-bottom: 20px;
+    font-size: 1.5em;
+    font-family: "American Typewriter";
+    color: #cd784d;
+    font-weight: bold;
+
+}
+
+.middle_content div:first-child{
+    position: relative;
+    top: -21px;
+    border-right: 1px dotted #4f4f4f;
+    margin-right: 10px;
+}
+
+.middle_content div:nth-child(2){
+    margin-left: 70px;
+}
+
+.middle_content div{
+    width: 40%;
+    display: inline-block;
+
+}
+
+.legalshield_logo{
+    width: 80%;
+
+}
+
+table tr{
+    border-bottom: 1px dotted grey;
+}
+
+table td{
+    text-align: left;
+}
+
+.price{
+    font-size: 4em;
+    font-family: "American Typewriter";
+    color: #cd784d;
+    position: relative;
+    top: -20px;
+    font-weight: bolder;
+}

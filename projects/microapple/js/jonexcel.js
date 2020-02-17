@@ -7,9 +7,9 @@ $(function () {
 
 
     $(".header_cell").eq(0).click(function () {
-            $(".cells").removeClass('mytd');
-            $(".mytd1").html(1);
-            $(".mytd1").toggleClass("mytd");
+        $(".cells").removeClass('mytd');
+        $(".mytd1").html(1);
+        $(".mytd1").toggleClass("mytd");
     });
 
     $(".header_cell").eq(1).click(function () {
@@ -47,7 +47,6 @@ $(function () {
         $(".mytd7").html(7);
         $(".mytd7").toggleClass("mytd");
     });
-
 
 
 });
