@@ -1,26 +1,89 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="../../css/bootstrap.css">
-    <link rel="stylesheet" href="../../style.css">
-    <h1>MyCalculator</h1>
-</head>
-<body>
-<div class="container-fluid">
-    <div>header</div>
-    <div>middle</div>
-    <div>footer</div>
-</div>
 
 
-</body>
-<style>
 
-</style>
-</html>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+//
+//$myiteducations = ['PHP','SQL','LINUX','SLACK','ZOOM','HTML','CSS','PHOTOSHOP','LARAVEL'];
+//
+//
+//foreach ($myiteducations as $number => $myiteducation){
+//    if ($number%2==0){
+//        echo "<div class='box'>$myiteducation</div>";
+//        echo "<pre>";
+//    }else{
+//        echo "<div class='bag'>$myiteducation</div>";
+//        echo "<pre>";
+//    }
+//}
+//
+//echo "<pre>";
+//echo count($myiteducations);//sizeof
+//
+//
+//?>
+<!---->
+<!--<style>-->
+<!--    .box{-->
+<!--        color: crimson;-->
+<!--        display: inline-block;-->
+<!--        padding: 5px;-->
+<!--    }-->
+<!--    .bag{-->
+<!--        color: darkblue;-->
+<!--        display: inline-block;-->
+<!--        padding: 5px;-->
+<!--    }-->
+<!--</style>-->
+
+
+
+
+<?php
+//$europians = ['Italy', 'England', 'Germany', 'Holland', 'France', 'Belgium',
+//    'Demark', 'Spain', 'Shweden', 'Poland', 'Croatia', 'Romania', 'Portugal'];
+//
+//
+//
+//
+//foreach ($europians as $raqamlash => $europian){
+//    if ($raqamlash%3 == 0){
+//        echo "<div class='box'>$europian</div>";
+//        echo "<pre>";
+//    }else{
+//        echo "<div class='elsebox'>$europian</div>";
+//    }
+//    echo "<pre>";
+//
+//}
+//?>
+<!---->
+<!--<style>-->
+<!--    .box{-->
+<!--        color: crimson;-->
+<!--    }-->
+<!--    .elsebox{-->
+<!--        color: darkblue;-->
+<!--    }-->
+<!--</style>-->

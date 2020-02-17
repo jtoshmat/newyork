@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
 <head>
@@ -42,3 +43,5 @@ if (isset($parms) && !empty($parms)){
 ?>
 </body>
 </html>
+=======
+>>>>>>> 63f5dd87004cf4e41bbd254286a095896e5f202c
