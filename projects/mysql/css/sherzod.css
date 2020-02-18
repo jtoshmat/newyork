@@ -1,0 +1,97 @@
+body{
+    /*background-color: #efccd9;
+    background-image: url("https://storage.pixteller.com/designs/designs-images/2019-03-27/04/business-background-backgrounds-business-1-5c9b8f72752bc.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    background-color: black;
+}
+
+#mysite{
+    width: 1000px;
+    height: 700px;
+    background-color: white;
+    margin: auto;
+    border: 1px solid #8c2430;
+
+    padding:5px;
+    background-image: url("https://wallpaperaccess.com/full/656665.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mymenu{
+    width: 1000px;
+    background-color: #174382;
+    color: #ffc752;
+    margin: auto;
+}
+
+.mymenu a{
+    margin: 15px 15px;
+    color: #ffb9eb;
+    text-decoration: none;
+    font-size: 130%;
+}
+.mymenu a:hover{
+    color: yellow;
+}
+
+.myheader{
+    width: 1000px;
+    background-color: #910919;
+    color: #ffc752;
+    margin: auto;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.logo{
+    width: 230px;
+    position: relative;
+    top: -50px;
+    left: 20px;
+}
+
+.welcome_text{
+    background-color: #bb232e;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+    font-size: 260%;
+    font-family: "American Typewriter";
+    font-weight: bolder;
+    color: #cec491;
+    margin: 30px auto;
+    opacity: 0.9;
+    border-radius: 68px;
+    box-shadow: #38161b 5px 5px 5px 5px;
+    padding-top: 26px;
+    text-shadow: #1c3041 3px 3px;
+    position: relative;
+    top: 50px;
+}
+
+.author_signature{
+    width: 200px;
+    position: relative;
+    top: 280px;
+    left: 640px;
+}
+
+.welcome_text:hover{
+    background-color: #fdc600;
+    cursor: pointer;
+    text-shadow: #1c3041 3px 3px;
+    color: #b21b2a;
+}
+.micky{
+    position: relative;
+    top: 65px;
+    left: 437px;
+    z-index: 1000;
+}
+.welcome_text span:last-child{
+    color: #debc0e;
+
+}
