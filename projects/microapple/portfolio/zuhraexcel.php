@@ -22,27 +22,27 @@
         </tr>
         <tr>
             <td class="highlight_cell" contenteditable="false">&nbsp;</td>
-            <td contenteditable="false">A</td>
-            <td contenteditable="false">B</td>
-            <td contenteditable="false">C</td>
-            <td contenteditable="false">D</td>
-            <td contenteditable="false">E</td>
-            <td contenteditable="false">F</td>
-            <td contenteditable="false">G</td>
+            <td class="header_cell" contenteditable="false">A</td>
+            <td class="header_cell" contenteditable="false">B</td>
+            <td class="header_cell" contenteditable="false">C</td>
+            <td class="header_cell" contenteditable="false">D</td>
+            <td class="header_cell" contenteditable="false">E</td>
+            <td class="header_cell" contenteditable="false">F</td>
+            <td class="header_cell" contenteditable="false">G</td>
         </tr>
         <?php
             $cells = range(1, 10);
             foreach ($cells as $num=>$cell) {
                 ?>
-                <tr>
-                    <td contenteditable="true" class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
-                    <td contenteditable="true"  class="cells"></td>
+                <tr class="mytr">
+                    <td contenteditable="true" class="cells mytd0"><?=$cell?></td>
+                    <td contenteditable="true"  class="cells mytd1"></td>
+                    <td contenteditable="true"  class="cells mytd2"></td>
+                    <td contenteditable="true"  class="cells mytd3"></td>
+                    <td contenteditable="true"  class="cells mytd4"></td>
+                    <td contenteditable="true"  class="cells mytd5"></td>
+                    <td contenteditable="true"  class="cells mytd6"></td>
+                    <td contenteditable="true"  class="cells mytd7"></td>
                 </tr>
                 <?php
             }
