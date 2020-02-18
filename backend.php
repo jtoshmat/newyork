@@ -1,111 +1,22 @@
 <?php
-$keyword = $_GET['keyword']??null;
+session_start();
 
-if (!$keyword){
-    exit("Keyword is empty");
+$username = $_POST['username']??null;
+$password = $_POST['password']??null;
+
+if (!$username || !$password ){
+    header("Location: login.php?msg=Username or password is missing");
+    exit;
 }
 
-$curl = curl_init();
-
-curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://imdb8.p.rapidapi.com/title/find?q=$keyword",
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_FOLLOWLOCATION => true,
-    CURLOPT_ENCODING => "",
-    CURLOPT_MAXREDIRS => 10,
-    CURLOPT_TIMEOUT => 30,
-    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-    CURLOPT_CUSTOMREQUEST => "GET",
-    CURLOPT_HTTPHEADER => array(
-        "x-rapidapi-host: imdb8.p.rapidapi.com",
-        "x-rapidapi-key: 7xMayFzkf7mshXdoD9ndBCxTd8W1p1qjCs3jsn1Hu3R7Y5pOCE"
-    ),
-));
-
-$response = curl_exec($curl);
-
-$outputs = json_decode($response, true);
-
-$err = curl_error($curl);
-
-curl_close($curl);
-
-
-if ($err) {
-    exit("cURL Error #:" . $err);
+if ($username!='jontoshmatov@yahoo.com' || $password != 'abc123'){
+    header("Location: login.php?msg=Username or password did not match with our database");
+    exit;
 }
-$results = $outputs['results']
+
+$_SESSION['user_logged_in'] = true;
+header("Location: dashboard.php");
+exit;
 ?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Search Results</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-</head>
-<body>
-
-<table class="table table-bordered">
-    <tr>
-        <th>ID</th>
-        <th>Image</th>
-        <th>runningTimeInMinutes</th>
-        <th>title</th>
-        <th>titleType</th>
-        <th>year</th>
-        <th>principals</th>
-    </tr>
-    <?php
-    foreach ($results as $result) {
-        ?>
-        <tr>
-            <td><?=$result['id']?></td>
-            <td>
-                <?php
-                    $img = $result['image']['url']??null;
-                    if ($img) {
-                        ?>
-                        <img class="img" src="<?=$img?>">
-                        <?php
-                    }
-                ?>
 
 
-
-
-            </td>
-            <td><?=$result['runningTimeInMinutes']??null?></td>
-            <td><?=$result['title']??null?></td>
-            <td><?=$result['titleType']??null?></td>
-            <td><?=$result['year']??null?></td>
-            <td><?=$result['principals'][0]['legacyNameText']??null?></td>
-        </tr>
-
-        <?php
-    }
-    ?>
-
-</table>
-
-<style>
-
-    table{
-        background-color: white;
-    }
-
-    body{
-        background-color: black;
-    }
-
-    .img{
-        width: 200px;
-        height: 150px;
-    }
-</style>
-
-
-</body>
-</html>
