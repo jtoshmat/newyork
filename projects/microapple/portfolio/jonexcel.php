@@ -14,7 +14,6 @@
 <body>
 
 <div id="excel">
-
     <table class="table table-bordered">
         <tr>
             <td>fx</td>
@@ -22,13 +21,13 @@
         </tr>
         <tr>
             <td class="highlight_cell" contenteditable="false">&nbsp;</td>
-            <td class="header_cell" contenteditable="false">A</td>
-            <td class="header_cell" contenteditable="false">B</td>
-            <td class="header_cell" contenteditable="false">C</td>
-            <td class="header_cell" contenteditable="false">D</td>
-            <td class="header_cell" contenteditable="false">E</td>
-            <td class="header_cell" contenteditable="false">F</td>
-            <td class="header_cell" contenteditable="false">G</td>
+            <td data-id="0" class="header_cell" contenteditable="false">A</td>
+            <td data-id="1" class="header_cell" contenteditable="false">B</td>
+            <td data-id="2" class="header_cell" contenteditable="false">C</td>
+            <td data-id="3" class="header_cell" contenteditable="false">D</td>
+            <td data-id="4" class="header_cell" contenteditable="false">E</td>
+            <td data-id="5" class="header_cell" contenteditable="false">F</td>
+            <td data-id="6" class="header_cell" contenteditable="false">G</td>
         </tr>
         <?php
             $cells = range(1, 10);
