@@ -8,9 +8,6 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-//Session
-
-?>
+<h1>PHP</h1>
 </body>
-</html>
+</html><?php
