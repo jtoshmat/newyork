@@ -14,9 +14,11 @@ if (!$user_logged_in){
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 <h3>Member Account Detail</h3>
+<h4>Welcome <?=$_SESSION['user_full_name']?></h4>
 <p>
     <nav>
         <a href="dashboard.php"> Home </a> |
@@ -32,5 +34,18 @@ if (!$user_logged_in){
         width: 100%;
     }
 </style>
+
+<script>
+    $(function () {
+        $('a[href$="logout.php"]:first').click(function () {
+            var ask = confirm("Are you sure you want to logout from the session?");
+            if (!ask){
+                return false;
+            }
+        });
+    })
+</script>
+
+
 </body>
 </html>

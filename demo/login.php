@@ -18,20 +18,30 @@
         <div class="alert alert-danger"><?= $_GET['msg'] ?? null ?></div>
         <?php
     }
+    $username = $_COOKIE['username']??null;
     ?>
-
     <p>
         <label>Username: </label>
-        <input name="username" type="email" placeholder="Your Username">
+        <input value="<?=$username?>" name="username" type="email" placeholder="Your Username">
     </p>
     <p>
         <label>Password: </label>
-        <input name="password" type="password" placeholder="Your Password">
+        <input value="" name="password" type="password" placeholder="Your Password">
     </p>
+    <p><label>Remember me: </label><input class="checkbox" type="checkbox" name="remember_me" value="1"></p>
     <p>
         <button type="reset">Reset</button>
         <button type="submit">Submit</button>
     </p>
 </form>
+
+<style>
+    .checkbox{
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        margin: 5px;
+    }
+</style>
 </body>
 </html>
