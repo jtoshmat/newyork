@@ -31,3 +31,17 @@ var_dump($str['1.1']);
 var_dump(isset($str['1.1']));
 echo "<hr>";
 echo addcslashes("zoo['-']", 'z..A');
+echo "<hr>";
+$str = "O'Reilly?";
+eval("echo '" . addslashes($str) . "';");
+echo "<hr>";
+echo addcslashes('w3resource.com', '3');
+echo "<hr>";
+echo addslashes('"Thank Y"ou');
+echo "<hr>";
+$string_name='umida';
+echo bin2hex($string_name);
+echo "<hr>";
+$string_name='jon';
+echo print_r(count_chars($string_name,0));
+

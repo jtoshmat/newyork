@@ -48,7 +48,7 @@ $results = $outputs['results']
 </head>
 <body>
 
-<table class="table table-bordered">
+<table class="table table-dark">
     <tr>
         <th>ID</th>
         <th>Image</th>
@@ -73,9 +73,6 @@ $results = $outputs['results']
                     }
                 ?>
 
-
-
-
             </td>
             <td><?=$result['runningTimeInMinutes']??null?></td>
             <td><?=$result['title']??null?></td>
@@ -92,17 +89,10 @@ $results = $outputs['results']
 
 <style>
 
-    table{
-        background-color: white;
-    }
-
-    body{
-        background-color: black;
-    }
 
     .img{
         width: 200px;
-        height: 150px;
+        height: 200px;
     }
 </style>
 
