@@ -1,0 +1,18 @@
+body{
+    background-color: red;
+}
+.box1{
+    height:500px ;
+    width: 800px;
+    background-color: white;
+    margin: auto;
+}
+.box12{
+    height: 250px;
+    width: 800px;
+    background-color: #00aa88;
+}
+.img{
+    margin: 5px;
+    float: right;
+}

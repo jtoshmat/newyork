@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+#demo{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    background-color: white;
+    align-items: center;
+
+}
+.circle{
+    text-align: center;
+}
+.circle_text{
+    text-align: center;
+    position: relative;
+    top: 190px;
+}
+.circle_text span:first-child{
+    font-size: 200%;
+    font-weight: bolder;
+    color: black;
+}
+.circle_text span:last-child{
+    font-size: 120%;
+    font-weight: bold;
+    color: black;
+}
+.circle{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    border-radius: 50%;
+    position: relative;
+    top: -1095px;
+
+}
+.smallcircles{
+    width: 150px;
+    height: 150px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: black 5px 5px 5px 5px;
+}
+.circle1{
+    top: 90px;
+    left: 400px;
+    background-image: url("https://d1y8sb8igg2f8e.cloudfront.net/images/shutterstock_407112565.width-800.jpg");
+
+}
+
+.circle2{
+    top: 0px;
+    left: 620px;
+    background-image: url("https://si.wsj.net/public/resources/images/BN-NK520_FORDjp_P_20160405174225.jpg");
+
+}
+.circle3{
+    top: 40px;
+    left: 745px;
+    background-image: url("https://cdn.britannica.com/06/156706-050-0A94E29E/harvesting-wheat.jpg");
+
+}
+.circle4{
+    top: 100px;
+    left: 730px;
+    background-image: url("https://o.aolcdn.com/images/dims?quality=85&image_uri=https%3A%2F%2Fo.aolcdn.com%2Fimages%2Fdims%3Fcrop%3D4182%252C2783%252C0%252C0%26quality%3D85%26format%3Djpg%26resize%3D1600%252C1065%26image_uri%3Dhttps%253A%252F%252Fs.yimg.com%252Fos%252Fcreatr-images%252F2019-10%252Fa83966b0-ee96-11e9-97d5-ca54b3143a2f%26client%3Da1acac3e1b3290917d92%26signature%3D52c6abee06173ed9700f5a61b5c9f1a6b50ba497&client=amp-blogside-v2&signature=42928178fa873541633c0bfd2aebb2432f95cd32");
+}
+.circle5{
+    top: 120px;
+    left: 580px;
+    background-image: url("https://hhp-blog.s3.amazonaws.com/2018/07/iStock-836685320.jpg");
+}
+
+.circle6{
+    top: 0px;
+    left: 330px;
+    background-image: url("https://d21xlh2maitm24.cloudfront.net/nyc/times-square.jpg?mtime=20160513150423");
+}
+.circle7{
+    top: -310px;
+    left: 125px;
+    background-image: url("https://blogs.nvidia.com/wp-content/uploads/2016/09/deep-learning-speeds-diagnosis-of-kids-growth-problems.jpg");
+}
+
+.circle8{
+    top: -690px;
+    left: 100px;
+    background-image: url("https://previews.123rf.com/images/vadimgozhda/vadimgozhda1504/vadimgozhda150400072/38295057-group-of-happy-young-students-in-a-college-.jpg");
+}
+
+.circle9{
+    top: -1030px;
+    left: 202px;
+    background-image: url("https://image.shutterstock.com/image-photo/portrait-elderly-couple-having-picnic-260nw-1544406479.jpg");
+}
