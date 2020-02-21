@@ -30,7 +30,7 @@ body{
 }
 #myform{
     width: 650px;
-    height: 460px;
+    height: auto;
     margin: auto;
     margin-top: 70px;
     background-color: rgba(239, 246, 246, 0.96);
