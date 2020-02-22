@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+
+
+<div id="game">
+<div class="boxes">Red</div>
+<div class="boxes">Blue</div>
+<div class="boxes">Green</div>
+<div class="boxes">Black</div>
+<div class="boxes">White</div>
+<div class="boxes">Brown</div>
+<div class="boxes">Yellow</div>
+<div class="boxes">Purple</div>
+<hr>
+ <button class="btn btn-info" id="start_over">Start Over</button>
+ <button class="btn btn-info" id="reload_window">Reload Window</button>
+ <button class="btn btn-danger" id="fadein">Fade IN</button>
+    <div id="hidden_content">
+        This content is hidden
+    </div>
+</div>
+
+
+
+<script>
+    $(function () {
+        $(".boxes").click(function () {
+            var color = $(this).text();
+            $(this).css("background-color", color);
+        });
+        $("#start_over").click(function () {
+            $(".boxes").css("background-color",'white');
+        });
+
+        $(".boxes").dblclick(function () {
+            $(this).fadeOut("slow");
+        });
+
+        $("#reload_window").click(function () {
+            location.reload();
+        });
+
+        $("#fadein").click(function () {
+            $("#hidden_content").fadeIn("slow");
+        });
+
+
+    });
+</script>
+
+
+<style>
+    #hidden_content{
+        display: none;
+        background-color: red;
+        height: 100px;
+        width: 400px;
+    }
+    .boxes{
+        width: 100px;
+        height: 100px;
+        border: 1px solid #910919;
+        display: inline-block;
+        margin: 10px;
+        cursor: pointer;
+    }
+    body{
+        background-color: black;
+    }
+    #game{
+        width: 600px;
+        height: 400px;
+        margin: 100px auto;
+        background-color: white;
+        text-align: center;
+    }
+</style>
+</body>
+</html>

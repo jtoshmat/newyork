@@ -1,17 +1,20 @@
 body{
-    background-color: black;
+    background-color: red;
 }
 #calendar{
     width: 1000px;
     height: auto;
     background-color: #0078be;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/Z6VQjjpNWzc8v3eKbFEVY7A5-0Q=/0x0:2260x1507/1200x800/filters:focal(950x574:1310x934)/cdn.vox-cdn.com/uploads/chorus_image/image/63257386/GettyImages_474615175.0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin: auto;
     margin-top: 50px;
     border-radius: 15px;
-    text-align: center;
+   text-align: center;
 }
 .calendar_title{
-    color: black;
+    color: #fbffc1;
     font-size: 3.5em;
     text-align: center;
 }
@@ -33,13 +36,13 @@ body{
     color: white;
 }
 .boxes table td:first-child{
-   color: #a60000;
+    color: #a60000;
 }
 .boxes table th{
     background-color: white;
 }
 .january tr:first-child{
-    background-color: #4e8ca1;
+    background-color: red;
     color: white;
     font-size: 20px;
 }
@@ -69,12 +72,12 @@ body{
     font-size: 20px;
 }
 .july tr:first-child{
-    background-color: #2e5038;
+    background-color:blueviolet;
     color: white;
     font-size: 20px;
 }
 .august tr:first-child{
-    background-color: #24505c;
+    background-color: #af1933;
     color: white;
     font-size: 20px;
 }

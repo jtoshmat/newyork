@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: #3e5d72;
+}
+#mylogin{
+    height: 600px;
+    width: 1000px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+.mylogin_form_left{
+    display: inline-block;
+    background-color: #206ac2;
+    width: 50%;
+    background-image: url("../img/blue_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.mylogin_form_right{
+    display: inline-block;
+    background-color: #ffffff;
+    width: 49.5%;
+}

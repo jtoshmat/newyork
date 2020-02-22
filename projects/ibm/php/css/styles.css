@@ -9,6 +9,8 @@ body{
     margin-top: 70px;
     background-color: white;
 }
+.form{
+}
 
 /* HIDE RADIO */
 [type=radio] {
@@ -30,5 +32,8 @@ body{
 
 .radios img{
     width: 60px;
+}
+.form-control {
+    width: 300px;
 }
 

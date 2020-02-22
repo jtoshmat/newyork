@@ -12,7 +12,7 @@
 </head>
 <body>
 <div id="myform">
-<form method="post" action="february11_backend.php">
+<form class="form" method="post" action="february11_backend.php">
     <p><label>Full Name: </label></p>
     <p><input required="required" name="full_name" type="text" placeholder="Full Name"></p>
 
@@ -24,23 +24,23 @@
 
         <label>
             <input type="radio" name="rating" value="1" checked>
-            <img class="star" data-rating="1" src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/rating-star-icon-11-256.png">
+            <img class="star" data-rating="1" src="https://cdn4.iconfinder.com/data/icons/line-icons-2/256/star-512.png">
         </label>
         <label>
             <input type="radio" name="rating" value="2" checked>
-            <img class="star" data-rating="2" src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/rating-star-icon-11-256.png">
+            <img class="star" data-rating="2" src="https://cdn4.iconfinder.com/data/icons/line-icons-2/256/star-512.png">
         </label>
         <label>
             <input type="radio" name="rating" value="3" checked>
-            <img class="star" data-rating="3" src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/rating-star-icon-11-256.png">
+            <img class="star" data-rating="3" src="https://cdn4.iconfinder.com/data/icons/line-icons-2/256/star-512.png">
         </label>
         <label>
             <input type="radio" name="rating" value="4" checked>
-            <img class="star" data-rating="4" src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/rating-star-icon-11-256.png">
+            <img class="star" data-rating="4" src="https://cdn4.iconfinder.com/data/icons/line-icons-2/256/star-512.png">
         </label>
         <label>
             <input type="radio" name="rating" value="5" checked>
-            <img class="star" data-rating="5" src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/rating-star-icon-11-256.png">
+            <img class="star" data-rating="5" src="https://cdn4.iconfinder.com/data/icons/line-icons-2/256/star-512.png">
         </label>
 
     </p>
@@ -54,10 +54,10 @@
         $(function () {
         $(".star").mouseover(function () {
             var rating = $(this).data('rating');
-            $(".star").attr("src", 'https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/rating-star-icon-11-256.png');
+            $(".star").attr("src", 'https://cdn4.iconfinder.com/data/icons/line-icons-2/256/star-512.png');
 
             for(var i=0; i<rating; i++) {
-                $(".star").eq(i).attr("src", 'https://iconsplace.com/wp-content/uploads/_icons/000080/256/png/rating-star-icon-9-256.png');
+                $(".star").eq(i).attr("src", 'https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/rating-star-icon-11-256.png');
             }
         });
         })
