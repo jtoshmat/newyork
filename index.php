@@ -2,16 +2,21 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!doctype html>
 =======
 <!DOCTYPE html>
 >>>>>>> ae85e4c8ceb75bfb8d51839d7645703650d7b855
+=======
+<!doctype html>
+>>>>>>> 831219569093709c7ce544f22342ce65ed2c7d83
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <title>Document</title>
 </head>
@@ -128,6 +133,15 @@
 <<<<<<< HEAD
 >>>>>>> 7397dd0d917dd9396ddc0416dcc0c1e39c114154
 =======
+=======
+    <title>Document</title>
+</head>
+<body>
+<?php
+//Session
+
+?>
+>>>>>>> 831219569093709c7ce544f22342ce65ed2c7d83
 </body>
 </html>
 >>>>>>> 1120df451df8619eda471cc2b05de8f707a807af

@@ -10,7 +10,7 @@
        <body>
        <h1>Welcome to Rayan's homeworks page!</h1>
 
-     <backgroundcoler>HOME. ABOUT. US. APPLE.
+<hr>
 
 
 
@@ -22,16 +22,32 @@
 
                        <style>
 
-                       button{
-                           background-color:  #3888dd;
+                       button {
+                           background-color: #dd489a;
                            color: black;
-                           border-radius: : 30px;
-                           padding-top: 50px;
-                           padding-right: 50px;
-                           padding-bottom: 50px;
-                           padding-left:50px;
+                           border-radius:: 30px;
+                           padding-top: 20px;
+                           padding-right: 20px;
+                           padding-bottom: 20px;
+                           padding-left: 20px;
+                           border:10px solid;
+                       }
+                       body{
+                          color: #11edff;
+                          background: #6e284e;
+                       }
+                           button{
+                            color:pink;
+                             background-color: #9999ff;
+                            pointer:auto;
+                           }
+
 
                           </STYLE>
-
-                           APPLE IS THE BEST BECAUSE ITS VERY EASY TO USE
-
+                           <hr>
+                           APPLE IS THE BEST BECAUSE <br>ITS VERY EASY TO USE
+                           <BR>i
+                           <BR>i
+                           <BR>i
+                          <br>\/
+                           <BR>RIGHT ?
