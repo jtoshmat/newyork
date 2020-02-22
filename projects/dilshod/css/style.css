@@ -1,0 +1,22 @@
+body{
+    background-color: #fee7d2;
+}
+tr:first-child{
+    background-color: green;
+    color: white;
+}
+
+
+table {
+    width: 500px;
+    background-color: white;
+}
+
+
+table td{
+    border:1px solid black;
+    padding:10px;
+    text-align: center;
+
+
+}

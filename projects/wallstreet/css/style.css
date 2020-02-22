@@ -1,0 +1,47 @@
+.mybtn:hover{
+    background-color: black;
+    color: #ffd841;
+}
+.mybtn{
+    width:70%;
+}
+.myinput input{
+    width:70%;
+    height: 30px;
+    color: #393939;
+    border:1px solid black;
+    border-radius: 5px;
+}
+.user_icon{
+    width: 140px;
+    position: relative;
+    top: 70px;
+    left: 343px;
+}
+.formtitle{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.myinput{
+    text-align: center;
+
+}
+.loginform{
+    width: 47%;
+    height:auto;
+    background-color: #ffffff;
+    margin: auto;
+    border:1px solid black;
+    box-shadow: black 5px 5px 5px 5px;
+    border-radius: 5px;
+}
+#box1{
+    width: 830px;
+    height:500px;
+    background-color: #7f7f7f;
+    margin: auto;
+}
+
+body{
+    background-color: black;
+}
