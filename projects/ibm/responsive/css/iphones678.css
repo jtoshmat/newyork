@@ -1,0 +1,30 @@
+#mysite{
+ width: 100%;
+    background-size: cover;
+}
+.myheader{
+    width: 100%;
+}
+.mymenu{
+    width: 100%;
+}
+.mymenu a {
+    margin: 14px;
+    color: #ffb9eb;
+    text-decoration: none;
+    font-size: 113%;
+}
+.logo {
+    top: 13px;
+}
+.welcome_text{
+    width: 95%;
+height: 154px;
+    font-size: 146%;
+}
+.topheight{
+    height: 3px;
+}
+body{
+    background-color: white;
+}
