@@ -19,7 +19,7 @@
         </nav>
     </div>
     <div class="mycontent">
-        <div class="mytext">
+        <div contenteditable="true" class="mytext">
             <?=$content[0]['description']??"Your content goes here"?>
         </div>
     </div>
