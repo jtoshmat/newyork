@@ -1,16 +1,33 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <style>
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+        .box:after{
+            content: "Hello";
+        }
+
+    </style>
 </head>
 <body>
-<?php
-//Session
 
-?>
+<div class="box">1</div>
+<div class="box">1</div>
+<div class="box">1</div>
+<div class="box">1</div>
+<div class="box">1</div>
+
+
 </body>
 </html>
