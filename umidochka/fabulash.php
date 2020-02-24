@@ -380,7 +380,7 @@
     </div>
 </div>
 </div>
-<div id="six" style="height: 100px"></div>
+<div id="six"></div>
 <div class="container-fluid">
     <div style="height: 60px"></div>
     <div class="myform">
@@ -555,7 +555,7 @@
             padding-left: 0;
             margin-right: auto;
             margin-left: auto;
-            background-image: url("../umidochka/img/cosmetics.jpg");
+            background-image: url("../umidochka/img/form_super.jpg");
             background-size: 100% 100%;
         }
 
@@ -576,7 +576,7 @@
         .pbox {
             width: 100%;
             height: 650px;
-            background-image: url("../umidochka/img/clock.jpg");
+            background-image: url("../umidochka/img/serum.jpg");
             background-size: 100% 100%;
 
         }
@@ -736,7 +736,7 @@
         }
 
         .parallax_middle {
-            background-image: url("../umidochka/img/clock.jpg");
+            background-image: url("../umidochka/img/leaf_lash.png");
             min-height: 400px;
             background-attachment: fixed;
             background-position: center;
@@ -922,8 +922,8 @@
         }
 
         .pricelist{
-            background-image: url("../umidochka/img/backeye.jpg");
-            background-size: 100% 100%;
+           /* background-image: url("../umidochka/img/backeye.jpg");
+            background-size: 100% 100%; */
         }
 
         .gallery {
