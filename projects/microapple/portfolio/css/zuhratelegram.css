@@ -45,11 +45,13 @@ body{
     padding:5px;
     border: 1px solid grey;
     border-radius: 5px;
+    background-color: #f1f1f1;
 }
 .searchicon{
     font-size: 120%;
     color: #5d5d5d;
     padding:2px;
+    margin-left: 8px;
 }
 /*
     *********************************
@@ -99,9 +101,9 @@ body{
     border-bottom: 1px solid darkgrey;
 }
 .topdiv_left{
-     display: inline-block;
+    display: inline-block;
     width: 48%;
- }
+}
 .topdiv_right{
     display: inline-block;
     width: 50%;
@@ -135,6 +137,47 @@ body{
     background-size: 100% 100%;
     overflow: auto;
 }
+.left_bubble{
+    float: left;
+    position: relative;
+    background: antiquewhite;
+    border-radius: .4em;
+    width: 100px;
+}
+.left_bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #00aabb;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.right_bubble{
+    float: right;
+    position: relative;
+    background: #00aabb;
+    border-radius: .4em;
+}
+.right_bubble:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #00aabb;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-left: -20px;
+}
 /*
     *********************************
     Bottom Div starts here
@@ -158,4 +201,7 @@ body{
     padding:5px;
     margin-left: 3px;
     margin-right: 3px;
+}
+.search{
+    font-weight: bold;
 }

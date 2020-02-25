@@ -11,6 +11,4 @@ $("#chat_input").keydown(function (e) {
     }
 
 });
-
-
 });
