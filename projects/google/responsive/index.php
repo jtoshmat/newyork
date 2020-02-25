@@ -14,6 +14,16 @@
     <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/tablets.css' />
     <link rel='stylesheet' media='screen and (min-width: 901px)' href='css/desktops.css' />
 
+    <!-- ----------- iPhone 6+, 7+ and 8+ ---------- -->
+    <link rel='stylesheet' media='screen and (min-width: 414px) and (max-wdith:736px)' href='css/iphone678.css' />
+
+    <!-- ----------- Galaxy S6 ---------- -->
+    <link rel='stylesheet' media='screen and (min-width: 360px) and (max-wdith:640px)' href='css/galaxy6.css' />
+
+    and (device-width: 360px)
+    and (device-height: 640px)
+
+
 </head>
 <body>
 <div id="mysite">
