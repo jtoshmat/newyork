@@ -86,7 +86,7 @@ body{
 }
 .user_full_name{
     font-weight: bolder;
-    font-size: 130%;
+    font-size: 100%;
     color: #174382;
 }
 /*
@@ -159,3 +159,13 @@ body{
     margin-left: 3px;
     margin-right: 3px;
 }
+<<<<<<< HEAD
+=======
+/*Chat texts properties*/
+.chat_texts{
+    font-size: medium;
+    font-family: "Adobe Handwriting";
+    word-wrap: break-word;
+    margin: 0px 0px 0px 5px;
+}
+>>>>>>> 48d3367635a74d1e3f986791df4b952ff6a0a58a
