@@ -18,305 +18,111 @@
         <div class="searchinput">
             <i class="fas fa-book-reader searchicon"></i><input name="keyword" type="text" placeholder="Your Keyword">
         </div>
-        <div class="chat_users">
+        <div data-userid="1" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
                         <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
                     </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
+                    <td><span class="user_full_name">Shuhrat Qarshiev</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
                     <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
                 </tr>
 
             </table>
 
         </div>
-        <div class="chat_users">
+        <div data-userid="2" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
                         <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
                     </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
+                    <td><span class="user_full_name">Sunnat Tashev</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
                     <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
                 </tr>
 
             </table>
 
         </div>
-        <div class="chat_users">
+        <div data-userid="3" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
                         <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
                     </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
+                    <td><span class="user_full_name">Shakhnoza A</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
                     <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
                 </tr>
 
             </table>
 
         </div>
-        <div class="chat_users">
+        <div data-userid="4" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
                         <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
                     </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
+                    <td><span class="user_full_name">Bobur Kadirov</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
                     <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
                 </tr>
 
             </table>
 
         </div>
-        <div class="chat_users">
+        <div data-userid="5" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
                         <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
                     </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
+                    <td><span class="user_full_name">Fatima Maksudova</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
                     <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
                 </tr>
 
             </table>
 
         </div>
-        <div class="chat_users">
+        <div data-userid="6" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
                         <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
                     </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
+                    <td><span class="user_full_name">Zuhra Maksudova</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
                     <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
                 </tr>
 
             </table>
 
         </div>
-        <div class="chat_users">
+        <div data-userid="7" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
                         <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
                     </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
+                    <td><span class="user_full_name">Asror Umarov</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
                     <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
                 </tr>
 
             </table>
 
         </div>
-        <div class="chat_users">
+        <div data-userid="8" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
                         <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
                     </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
+                    <td><span class="user_full_name">Jon Toshmatov</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
                     <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
                 </tr>
 
             </table>
 
         </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
 
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
-        <div class="chat_users">
-            <table class="table left_window_table">
-                <tr>
-                    <td>
-                        <img class="profile_photo" src="/img/default_photo_cirle_profile.png">
-                    </td>
-                    <td><span class="user_full_name">Lena Oxton</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
-                    <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
-                </tr>
-
-            </table>
-
-        </div>
     </div>
     <div class="rightwindow">
         <div class="topdiv">
@@ -330,66 +136,7 @@
             </div>
         </div>
         <div class="middlediv">
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
-            <div class="left_bubble">hdfsjdhfsjhdfsjdf</div>
+            <div class="left_bubble"></div>
         </div>
         <div class="bottomdiv">
             <i class="fas fa-paperclip"></i>
