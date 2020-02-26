@@ -1,0 +1,62 @@
+.myitedu {
+    height: 100px;
+    width: 100%;
+}
+
+.title {
+    float: right;
+    color: white;
+    width: 50%;
+    margin-top: 40px;
+}
+
+.uz {
+    height: 415px;
+    width: 100%;
+    border: solid 5px;
+}
+
+.menu {
+    background-color: black;
+}
+
+.menu a {
+    margin: 18px 6px;
+    color: white;
+    font-size: 90%;
+    text-decoration: none;
+}
+
+.logo {
+    width: 200px;
+    margin: -6px;
+
+}
+
+.header {
+    height: 85px;
+    background-color: #000000;
+}
+
+.middle {
+    height: 415px;
+    width: 100%;
+    background-color: #b47bf9;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(214, 92, 26);
+    width: 100%;
+}
+
+body {
+    background-color: #f3ff94;
+}
+
+.mybox {
+    background-color: #f9f254;
+    width: 700px;
+    height: auto;
+    margin: 100px auto;
+}
