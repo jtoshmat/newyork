@@ -7,13 +7,12 @@
     <script rel="script" src="../javascripts/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://max
-    cdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel='stylesheet' media='screen and (max-width: 700px)' href='css/narrow.css'/>
     <link rel='stylesheet' media='screen and (min-width: 701px) and (max-width: 900px)' href='css/medium.css'/>
-
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
 
 </head>
 <body>
@@ -134,6 +133,7 @@
                      variable (just hair growth), I suggest
                      light lash maintenance every three to
                      four weeks to maintain a full look.</p>
+
 
              </div>
              <div class="col-sm">
@@ -405,6 +405,14 @@
                     <td><input class="myinputs" name="phone" type="tel" placeholder="***-***-****"></td>
                 </tr>
                 <tr>
+                    <td><label>Date:</label></td>
+                    <td><input class="myinputs" name="date" type="date" placeholder="Selcet Date"></td>
+                </tr>
+                <tr>
+                    <td><label>Time:</label></td>
+                    <td><input class="myinputs" name="time" type="time" placeholder="Select Time"></td>
+                </tr>
+                <tr>
                     <td><label>Choose Category:</label></td>
                     <td><select>
                             <option>Classic</option>
@@ -437,349 +445,350 @@
 
 
     <style>
-        .myul{
-            float: left;
-            color: #fa948b;
-            height: auto;
-            padding-bottom: 20px;
-        }
-        .myul1{
-            float: left;
-            color: #043955;
-            height: auto;
-            padding-bottom: 20px;
-
-        }
-        .model{
-            width: 400px;
-        }
-        .myhead{
-            background-color: #fcbcb2;
-
-            width: 100%;
-            height: 750px;
-        }
-        .box1{
-            float: left;
-            width: 40%;
-        }
-        .box2{
-            float: left;
-            width: 60%;
-        }
-        .flex{
-            display: inline-block;
-            font-size: 100px;
-            color: rgba(55, 53, 58, 0.95);
-            margin-top: 120px;
-            font-family: "Times New Roman";
-            margin-left: 20px;
-        }
-
-        .flip-box {
-            background-color: transparent;
-            width: 300px;
-            height: 200px;
-            perspective: 1000px;
-            margin: auto;
-        }
-
-        .flip-box-inner {
-            position: relative;
-            text-align: center;
-            transition: transform 0.8s;
-            transform-style: preserve-3d;
-        }
-
-        .flip-box:hover .flip-box-inner {
-            transform: rotateY(180deg);
-        }
-
-        .flip-box-front, .flip-box-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-        }
-
-        .flip-box-back {
-            transform: rotateY(180deg);
-        }
-
-        #fabutoggle {
-            margin-left: 30px;
-        }
-
-        .btn-dark {
-            text-align: center;
-            margin-top: 120px;
-        }
-
-        .btn-success {
-            text-align: center;
-        }
-
-        .powder {
-            width: 44%;
-            height: 30%;
-            margin-top: 130px;
-            float: left;
-            display: none;
-        }
-
-        .powder2 {
-            width: 44%;
-            height: 30%;
-            margin-top: -80px;
-            float: right;
-            margin-right: -89px;
-            display: none;
-        }
-
-        .logoimg {
-            margin-left: 40%;
-            margin-bottom: 20px;
-        }
-
-        .topheader {
-            color: rgba(4, 57, 85, 0.85);
-            display: none;
-            font-size: 45px;
-            text-align: center;
-            text-shadow: #9999ff 3px 3px 3px 3px;
-        }
-
-        .container-fluid {
-            padding-right: 0;
-            padding-left: 0;
-            margin-right: auto;
-            margin-left: auto;
-            background-image: url("../umidochka/img/form_super.jpg");
-            background-size: 100% 100%;
-        }
-
-        .tales {
-            width: 100%;
-        }
-
-        .carousel-inner {
-            width: 100%;
-            max-height: 500px !important;
-        }
-
-        .item img {
-            height: 500px !important;
-        }
-
-
-        .pbox {
-            width: 100%;
-            height: 650px;
-            background-image: url("../umidochka/img/serum.jpg");
-            background-size: 100% 100%;
-
-        }
-
-        .p_inside {
-            width: 33%;
-            height: auto;
-            background-color: #0c1e3d;
-            margin-left: 16%;
-            padding-top: 7px;
-            opacity: 0.7;
-            display: none;
-            float: left;
-
-
-        }
-        .p_inside1 {
-            width: 33%;
-            height: auto;
-            background-color: rgba(253, 128, 114, 0.96);
-            float: left;
-            padding-top: 7px;
-            opacity: 0.7;
-            display: none;
-
-        }
-
-        .pheader {
-            text-align: center;
-            margin: 6px;
-            color: #fa948b;
-        }
-        .pheader1 {
-            text-align: center;
-            margin: 6px;
-            color: #043955;
-        }
-
-        .myp {
-            height: auto;
-        }
-
-        .nav-item active {
-            color: #0c1e3d;
-        }
-
-        .mylogo {
-            margin-top: -20px;
-
-        }
-
-        .my_last_form {
-            background-color: white;
-            width: 100%;
-            height: auto;
-
-        }
-
-        .myformstr {
-            background-color: #0c1e3d;
-            opacity: 0.4;
-            height: 868px;
-
-        }
-
-        .first_col img {
-            width: 95%;
-            height: auto;
-        }
-
-        .sec_col {
-            width: 95%;
-            height: 900px;
-        }
-
-        .my_last_form {
-            width: 100%;
-        }
-
-        col-sm4 {
-            background-color: #3a90ea;
-        }
-
-        .mylilbox {
-            width: 400px;
-            height: 400px;
-            background-color: #1a1d31;
-            float: left;
-            margin-top: 150px;
-            margin-left: 200px;
-            opacity: 0.7;
-            color: #f3eaff;
-
-        }
-
-        .mylilbox2 {
-            width: 400px;
-            height: 400px;
-            background-color: #1a1d31;
-            float: left;
-            margin-top: 150px;
-            margin-left: 10px;
-            opacity: 0.7;
-            color: #f3eaff;
-        }
-
-        .mylilbox h1 {
-
-            float: left;
-            margin: 10px;
-            margin-left: 40px;
-
-        }
-
-        .navbar-brand img {
-            width: 150px;
-            height: auto;
-            padding-bottom: 10px;
-        }
-
-
-        .navbar {
-            position: fixed;
-            z-index: 1000;
-            width: 100%;
-            height: 250px;
-
-        }
-
-        .pictures {
-            background-image: url("../umidochka/img/brushnew.jpg");
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-
-
-        .navbar-expand-lg {
-            background-color: rgba(252, 188, 178, 0.96) !important;
-            height: auto;
-        }
-
-        .active {
-            color: #d44950;
-        }
-
-        .mybody {
-
-        }
-
-        .parallax {
-            background-image: url("../umidochka/img/girl.jpg");
-            min-height: 600px;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-
-        .parallax_middle {
-            background-image: url("../umidochka/img/leaf_lash.png");
-            min-height: 400px;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-        }
-
-        .parallax1 {
-            background-image: url("../umidochka/img/myjumbo2.jpg");
-            min-height: 500px;
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-        }
-
-        .form1 {
-            margin-top: 40px;
-            tra
-        }
-
-        .headerbook {
-            margin-left: 35%;
-            margin-top: 70px;
-        }
-
-        .btn-warning {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-
-
-
-        .form-group {
-            color: #0f2e41;
-            width: 40%;
-
-        }
-
-        #emailHelp {
-            color: #0f2e41;
-        }
-            /*background-image: linear-gradient(to right, rgba(165, 190, 255, 0), rgb(234, 236, 38)); Standard syntax (must be last) */
+
+    .myul{
+        float: left;
+        color: #fa948b;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .myul1{
+        float: left;
+        color: #043955;
+        height: auto;
+        padding-bottom: 20px;
+
+    }
+    .model{
+        width: 400px;
+    }
+    .myhead{
+        background-color: #fcbcb2;
+
+        width: 100%;
+        height: 750px;
+    }
+    .box1{
+        float: left;
+        width: 40%;
+    }
+    .box2{
+        float: left;
+        width: 60%;
+    }
+    .flex{
+        display: inline-block;
+        font-size: 100px;
+        color: rgba(55, 53, 58, 0.95);
+        margin-top: 120px;
+        font-family: "Times New Roman";
+        margin-left: 20px;
+    }
+
+    .flip-box {
+        background-color: transparent;
+        width: 300px;
+        height: 200px;
+        perspective: 1000px;
+        margin: auto;
+    }
+
+    .flip-box-inner {
+        position: relative;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+    }
+
+    .flip-box:hover .flip-box-inner {
+        transform: rotateY(180deg);
+    }
+
+    .flip-box-front, .flip-box-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    .flip-box-back {
+        transform: rotateY(180deg);
+    }
+
+    #fabutoggle {
+        margin-left: 30px;
+    }
+
+    .btn-dark {
+        text-align: center;
+        margin-top: 120px;
+    }
+
+    .btn-success {
+        text-align: center;
+    }
+
+    .powder {
+        width: 44%;
+        height: 30%;
+        margin-top: 130px;
+        float: left;
+        display: none;
+    }
+
+    .powder2 {
+        width: 44%;
+        height: 30%;
+        margin-top: -80px;
+        float: right;
+        margin-right: -89px;
+        display: none;
+    }
+
+    .logoimg {
+        margin-left: 40%;
+        margin-bottom: 20px;
+    }
+
+    .topheader {
+        color: rgba(4, 57, 85, 0.85);
+        display: none;
+        font-size: 45px;
+        text-align: center;
+        text-shadow: #9999ff 3px 3px 3px 3px;
+    }
+
+    .container-fluid {
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        background-image: url("../umidochka/img/cover2.jpg");
+        background-size: 100% 100%;
+    }
+
+    .tales {
+        width: 100%;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        max-height: 500px !important;
+    }
+
+    .item img {
+        height: 500px !important;
+    }
+
+
+    .pbox {
+        width: 100%;
+        height: 650px;
+        background-image: url("../umidochka/img/cover6.jpg");
+        background-size: 100% 100%;
+
+    }
+
+    .p_inside {
+        width: 33%;
+        height: auto;
+        background-color: #0c1e3d;
+        margin-left: 16%;
+        padding-top: 7px;
+        opacity: 0.7;
+        display: none;
+        float: left;
+
+
+    }
+    .p_inside1 {
+        width: 33%;
+        height: auto;
+        background-color: rgba(253, 128, 114, 0.96);
+        float: left;
+        padding-top: 7px;
+        opacity: 0.7;
+        display: none;
+
+    }
+
+    .pheader {
+        text-align: center;
+        margin: 6px;
+        color: #fa948b;
+    }
+    .pheader1 {
+        text-align: center;
+        margin: 6px;
+        color: #043955;
+    }
+
+    .myp {
+        height: auto;
+    }
+
+    .nav-item active {
+        color: #0c1e3d;
+    }
+
+    .mylogo {
+        margin-top: -20px;
+
+    }
+
+    .my_last_form {
+        background-color: white;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .myformstr {
+        background-color: #0c1e3d;
+        opacity: 0.4;
+        height: 868px;
+
+    }
+
+    .first_col img {
+        width: 95%;
+        height: auto;
+    }
+
+    .sec_col {
+        width: 95%;
+        height: 900px;
+    }
+
+    .my_last_form {
+        width: 100%;
+    }
+
+    col-sm4 {
+        background-color: #3a90ea;
+    }
+
+    .mylilbox {
+        width: 400px;
+        height: 400px;
+        background-color: #1a1d31;
+        float: left;
+        margin-top: 150px;
+        margin-left: 200px;
+        opacity: 0.7;
+        color: #f3eaff;
+
+    }
+
+    .mylilbox2 {
+        width: 400px;
+        height: 400px;
+        background-color: #1a1d31;
+        float: left;
+        margin-top: 150px;
+        margin-left: 10px;
+        opacity: 0.7;
+        color: #f3eaff;
+    }
+
+    .mylilbox h1 {
+
+        float: left;
+        margin: 10px;
+        margin-left: 40px;
+
+    }
+
+    .navbar-brand img {
+        width: 150px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+
+    .navbar {
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+        height: 250px;
+
+    }
+
+    .pictures {
+        background-image: url("../umidochka/img/cover6.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+
+    .navbar-expand-lg {
+        background-color: rgba(252, 188, 178, 0.96) !important;
+        height: auto;
+    }
+
+    .active {
+        color: #d44950;
+    }
+
+    .mybody {
+
+    }
+
+    .parallax {
+        background-image: url("../umidochka/img/girl.jpg");
+        min-height: 600px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .parallax_middle {
+        background-image: url("../umidochka/img/leaf_lash.png");
+        min-height: 400px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .parallax1 {
+        background-image: url("../umidochka/img/myjumbo2.jpg");
+        min-height: 500px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .form1 {
+        margin-top: 40px;
+        tra
+    }
+
+    .headerbook {
+        margin-left: 35%;
+        margin-top: 70px;
+    }
+
+    .btn-warning {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+
+
+    .form-group {
+        color: #0f2e41;
+        width: 40%;
+
+    }
+
+    #emailHelp {
+        color: #0f2e41;
+    }
+        /*background-image: linear-gradient(to right, rgba(165, 190, 255, 0), rgb(234, 236, 38)); Standard syntax (must be last) */
 
         * {
             box-sizing: border-box;
@@ -1049,13 +1058,24 @@
     <div class="myfooter">
         <hr>
         <nav>
-            <a href="#">Home</a> <br>
-            <a href="#">About Us</a> <br>
-            <a href="#">Gallery</a> <br>
-            <a href="#">Price List</a> <br>
-            <a href="#">Location</a> <br>
-            <a href="#">Booking</a>
+            <i class="fas fa-home mysearch"></i>
+            <i class="fas fa-address-card mysearch"></i>
+            <img class="myfab" src="https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp">
+            <i class="fas fa-map-marker-alt mysearch"></i>
+            <i class="fas fa-git-alt mysearch"></i>
+            <i class="fas fa-address-book mysearch"></i>
         </nav>
     </div>
+    <style>
+        .myfab{
+            width: 45px;
+            height: 45px;
+        }
+        .mysearch{
+            font-size: 250%;
+            color: #043d5b;
+            margin-left: 40px;
+        }
+    </style>
 </footer>
 </html>

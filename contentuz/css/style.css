@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+#mywrapper{
+    background-color: white;
+    width: 1000px;
+    height: auto;
+    margin: 100px auto;
+    border: 5px solid #910919;
+}
+.myheader{
+    height: 100px;
+    background-color: #cff5c2;
+
+}
+.title{
+    display: inline-block;
+    float: right;
+    width: 740px;
+    position: relative;
+    left: 10px;
+    top: 23px;
+    font-size: 200%;
+}
+.logo{
+    width: 150px;
+    min-width: 150px;
+    max-width: 180px;
+}
+.mynav{
+    height: auto;
+    background-color: #206ac2;
+    border-top: 5px solid #122657;
+    border-bottom: 5px solid #122657;
+}
+.mynav a{
+    margin: 15px 15px;
+    color: white;
+    font-size: 130%;
+    font-family: "American Typewriter";
+    text-decoration: none;
+}
+
+.mynav a:hover{
+    color: #ffc752;
+}
+
+.mycontent{
+    height: 600px;
+    background-color: #e9b081;
+    overflow: auto;
+
+}
+.mytext{
+    padding:10px;
+}
+
+.edit_logo{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    z-index: 100;
+}
+.edit_logo input{
+    width: 200px;
+}

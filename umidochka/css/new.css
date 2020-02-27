@@ -1,0 +1,44 @@
+body{
+    background-color: #1d75b3;
+}
+.box1{
+    width: 800px;
+    height: 120px;
+    background-color: #a8d5ff;
+    margin: auto;
+    margin-top: 100px;
+}
+.middle{
+    width: 800px;
+    height: 30px;
+    background-color: #6e0d1a;
+    margin: auto;
+}
+.box2{
+    background-image: url("../../umidochka/img/shahzosh.JPG");
+    background-size: 100% 100%;
+}
+.box2{
+    width: 800px;
+    height: 400px;
+    background-color: #fa948b;
+    margin: auto;
+
+}
+.box3{
+    width: 800px;
+    height: 200px;
+    background-color: #28ffc9;
+    margin: auto;
+}
+.img{
+    width: 120px;
+    height: 90px;
+    margin: 10px;
+    float: left;
+}
+.myh3{
+    float: left;
+    margin-left: 450px;
+    margin-top: 50px;
+}

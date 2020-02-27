@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!doctype html>
 =======
 <!DOCTYPE html>
@@ -135,13 +136,44 @@
 =======
 =======
     <title>Document</title>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+        .box:after{
+            content: "Hello";
+        }
+
+    </style>
+>>>>>>> 618c7661a9ca590d28420d5b45b49d288676c921
 </head>
 <body>
-<?php
-//Session
 
+<<<<<<< HEAD
 ?>
 >>>>>>> 831219569093709c7ce544f22342ce65ed2c7d83
+=======
+<div class="box">1</div>
+<div class="box">1</div>
+<div class="box">1</div>
+<div class="box">1</div>
+<div class="box">1</div>
+
+
+>>>>>>> 618c7661a9ca590d28420d5b45b49d288676c921
 </body>
 </html>
 >>>>>>> 1120df451df8619eda471cc2b05de8f707a807af
