@@ -8,6 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Welcome to MyPress!</title>
     <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="/js/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 <div id="mycontent">
@@ -38,12 +39,17 @@
         <img class="social_media_icons"
              src="https://www.techymob.com/wp-content/uploads/2019/05/social-icons-A-min.png">
     </div>
-    <div class="blog_content">
+    <button id="savebutton">Save</button>
+    <div class="blog_content" contenteditable="false">
        <?=$site[0]['description']?>
     </div>
 
 </div>
 <style>
+
+    #savebutton{
+        display: none;
+    }
 
     .mytitle{
         float: right;
@@ -137,5 +143,24 @@
         background-color: white;
     }
 </style>
+<script>
+    $(function () {
+        $(".blog_content").dblclick(function () {
+            $("#savebutton").fadeIn('slow');
+            var editable = $(this).attr("contenteditable");
+            if (editable){
+                $(this).attr("contenteditable", true);
+            }else{
+                $(this).attr("contenteditable", false);
+            }
+        });
+
+        $("#savebutton").click(function () {
+            var txt = $(".blog_content").text();
+            alert(txt);
+        });
+
+    });
+</script>
 </body>
 </html>
