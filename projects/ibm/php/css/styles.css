@@ -7,9 +7,10 @@ body{
     height: 600px;
     margin: auto;
     margin-top: 70px;
-    background-color: white;
+    background-color: #ced4da;
 }
 .form{
+    text-align: center;
 }
 
 /* HIDE RADIO */
