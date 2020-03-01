@@ -11,11 +11,14 @@ $(function () {
         e.preventDefault();
     }
 
+
+
 });
 
 
     //User profiles activities on the left panel.
     $(".chat_users").click(function () {
+        $('.middlediv').scrollTop($('.middlediv')[0].scrollHeight);
         var userid = $(this).data('userid');
         var fullname = null;
         /*

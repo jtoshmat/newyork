@@ -8,12 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/fontawesome/css/all.css">
+    <script src="/js/jquery-3.4.1.min.js"></script>
 </head>
 <body>
-
-
-
-
     <div id="browser">
             <div class="topdiv">
                 <i class="fas fa-circle mycircle"></i>
@@ -28,7 +25,7 @@
                         <i class="fas fa-arrow-left mybuttons"></i>
                         <i class="fas fa-arrow-right mybuttons"></i>
                         <i class="fas fa-window-close mybuttons"></i>
-                        <i class="fas fa-home mybuttons"></i>
+                        <i data-url="http://newyork.local" class="fas fa-home mybuttons"></i>
                         <input placeholder="http://newyork.local/projects" class="myinput" name="keyword" type="text">
                     </div>
                     <div class="topdivb">
@@ -38,18 +35,24 @@
                         <i class="fas fa-folder mybuttons"></i><span class="mybutton_texts">Referrer-Policy</span>
                     </div>
                 </div>
-
             </div>
-            <div class="contentdiv">Content</div>
+            <div class="contentdiv">
+                <iframe id="content_window" src="https://www.maxxor.com/blog/wp-content/uploads/2013/01/CNN-website-1024x589.jpg"></iframe>
+            </div>
     </div>
-
-
-
-
-
-
-
 <style>
+    html, body{
+        width: 100%;
+        height: 100%;
+    }
+    #content_window{
+        width: 100%;
+        height: 700px;
+        overflow: auto;
+    }
+    .contentdiv img{
+        width: 100%;
+    }
     .mybutton_texts{
         color: whitesmoke;
         font-size: 80%;
@@ -70,6 +73,7 @@
         color: #e4e4e4;
         margin-left: 15px;
         margin-top: 10px;
+        cursor: pointer;
     }
     .topdivletters{
         position: relative;
@@ -129,9 +133,27 @@
         }
     #browser{
         width: 100%;
-        height: 600px;
+        height: auto;
         background-color: #f3f3f3;
     }
 </style>
+<script>
+    $(function(){
+        $(".myinput").keypress(function(event){
+            var keycode = (event.keyCode ? event.keyCode : event.which);
+            if(keycode == '13'){
+                var url = $(this).val();
+                $("#content_window").attr("src", url);
+                return false;
+            }
+        });
+        $(".mybuttons").click(function () {
+            var url = $(this).data('url');
+            if (url){
+                $("#content_window").attr("src", url);
+            }
+        });
+    });
+</script>
 </body>
 </html>
