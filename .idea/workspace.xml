@@ -2,42 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ckeditor/samples/february21.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contentuz/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contentuz/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contentuz/getcontent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contentuz/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contentuz/img/attorney.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contentuz/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contentuz/savecontent.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/February/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/February/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/February/monday24.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/February/myday.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/February/tuesday25.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/manchester/February/wednesday26.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microapple/css/february22.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microapple/february/jon22.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microapple/js/february22.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microapple/portfolio/css/telegram.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microapple/portfolio/telegram/img/telegram_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microapple/portfolio/telegram/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects/microapple/portfolio/telegram/js/telegram.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/css/new.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/brush2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/cover.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/cover2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/cover4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/img/cover6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/task/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/task/monday.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/img/background1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/umidochka/text.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ckeditor/samples/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ckeditor/samples/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/ibm/php/february21.php" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ibm/php/february21.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umidochka/img/brush3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/img/brush3.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,16 +79,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/umidochka" />
+      <recent name="$PROJECT_DIR$/badges" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/umidochka/img" />
       <recent name="$PROJECT_DIR$/badges/badges" />
       <recent name="$PROJECT_DIR$/badges" />
       <recent name="$PROJECT_DIR$/umidochka" />
       <recent name="$PROJECT_DIR$/img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/umidochka" />
-      <recent name="$PROJECT_DIR$/badges" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.php">
@@ -180,7 +148,10 @@
       <workItem from="1582344509485" duration="40000" />
       <workItem from="1582344553950" duration="1053000" />
       <workItem from="1582410058288" duration="59000" />
-      <workItem from="1582414027749" duration="12825000" />
+      <workItem from="1582414027749" duration="13130000" />
+      <workItem from="1582846670060" duration="6474000" />
+      <workItem from="1583102582858" duration="824000" />
+      <workItem from="1583122366249" duration="1092000" />
     </task>
     <servers />
   </component>
@@ -188,14 +159,15 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="168" y="346" key="NewPhpFileDialog" timestamp="1582591098444">
-      <screen x="0" y="23" width="1440" height="823" />
+    <state x="168" y="347" key="NewPhpFileDialog" timestamp="1582867175390">
+      <screen x="0" y="23" width="1440" height="825" />
     </state>
     <state x="168" y="342" key="NewPhpFileDialog/0.23.1440.812@0.23.1440.812" timestamp="1580870413785" />
     <state x="168" y="343" key="NewPhpFileDialog/0.23.1440.814@0.23.1440.814" timestamp="1581661065252" />
     <state x="168" y="346" key="NewPhpFileDialog/0.23.1440.821@0.23.1440.821" timestamp="1581987075888" />
     <state x="168" y="346" key="NewPhpFileDialog/0.23.1440.822@0.23.1440.822" timestamp="1582580854978" />
     <state x="168" y="346" key="NewPhpFileDialog/0.23.1440.823@0.23.1440.823" timestamp="1582591098444" />
+    <state x="168" y="347" key="NewPhpFileDialog/0.23.1440.825@0.23.1440.825" timestamp="1582867175390" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1579721181446">
       <screen x="0" y="23" width="1440" height="816" />
     </state>

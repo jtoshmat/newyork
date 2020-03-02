@@ -42,8 +42,11 @@
     </div>
 </div>
 <div class="myhead">
+
     <div style="height: 150px"></div>
-    <div class="box1"><img class="model" src="../umidochka/img/modelka.png"></div>
+    <div class="box1">
+
+ </div>
     <div class="box2">
         <div class="flex"><p class="umi wordF">F</p></div>
         <div class="flex"><p class="umi wordA">A</p></div>
@@ -56,13 +59,50 @@
     </div>
 </div>
 
-<!--  <div class="jumbotron">
-      <h1 class="display-4">Welcome to Fabulashes!</h1>
-      <p class="lead">Life is short but your lashes should not be...</p>
-      <hr class="my-4">
-      <p>Eyelash Extensions are perfect for special occasions or for everyday wear.</p>
-  </div>
-  </div> -->
+<div>
+    <p class="cloud-text cloud-title">FABULASH</p>
+    <p class="cloud-text attribute">Photo by <a href="https://unsplash.com/photos/Xk0uzYL3lyY?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Setu Anand</a> on <a href="https://unsplash.com/search/photos/coal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+
+</div>
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Coiny');
+
+    .cloud-text {
+        font-family: 'Coiny', cursive;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/clouds.jpg);
+        background-size: auto;
+        background-attachment: unset;
+        background-position: 0%;
+        width: 80%;
+        margin: 10%;
+        font-size: 134px;
+        animation: clouds-moving infinite 220s;
+        animation-fill-mode: forwards;
+        animation-play-state: running;
+        animation-timing-function: linear;
+        text-align: center;
+    }
+    @keyframes clouds-moving {
+        0% {
+            background-position: 0%;
+        }
+        50% {
+            background-position: 100%;
+        }
+        100% {
+            background-position: 0%;
+        }
+    }
+    .attribute {
+        position: relative;
+        font-size: 26px;
+        text-align: center;
+    }
+
+</style>
+
 <div class="parallax" id="zero">
 
     <div style="height: 200px"></div>
@@ -460,15 +500,18 @@
 
     }
     .model{
-        width: 400px;
+
     }
     .myhead{
         background-color: #fcbcb2;
-
+        background-image: url("https://t4.ftcdn.net/jpg/03/07/14/51/240_F_307145124_sRY1g8QJHXjM1w6hQtaFLrf0lUdTfVoN.jpg");
+        background-size: 100% 100%;
         width: 100%;
         height: 750px;
     }
     .box1{
+
+
         float: left;
         width: 40%;
     }
@@ -1009,7 +1052,7 @@
 
         .myfooter {
             width: 100%;
-            height: 300px;
+            height: 500px;
             background-color: #fcbcb2;
             border-top: 9px solid #043955;
         }
@@ -1044,10 +1087,6 @@
             $(".parallax_middle").mouseenter(function () {
                 $(".powder2").fadeIn(4000);
             });
-            $('.datepicker').pickadate({
-                weekdaysShort: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
-                showMonthsShort: true
-            })
         });
 
 
@@ -1056,26 +1095,54 @@
 <footer>
     <div style="height: 200px"></div>
     <div class="myfooter">
-        <hr>
+
+        <nav class="container mylastnav">
+            <a href="#">Home |</a>
+            <a href="#">About Us |</a>
+            <a href="#">Fabulashes |</a>
+            <a href="#">About Volumes |</a>
+            <a href="#">Gallery |</a>
+            <a href="#">Pricing |</a>
+            <a href="#">Booking |</a>
+            <a href="#">Location |</a>
+        </nav>
+        <div class="container myicon">
+            <hr>
         <nav>
             <i class="fas fa-home mysearch"></i>
-            <i class="fas fa-address-card mysearch"></i>
-            <img class="myfab" src="https://static.wixstatic.com/media/ea9f87_ef96d9cfee8c47989e7e9205b5d79816~mv2.png/v1/fill/w_241,h_120,al_c,q_85,usm_0.66_1.00_0.01/Fabulash%20-%20Logo.webp">
-            <i class="fas fa-map-marker-alt mysearch"></i>
-            <i class="fas fa-git-alt mysearch"></i>
-            <i class="fas fa-address-book mysearch"></i>
+            <i class="fab fa-facebook mysearch"></i>
+            <i class="fab fa-youtube mysearch"></i>
+            <i class="fab fa-instagram mysearch"></i>
+            <i class="fab fa-telegram mysearch"></i>
+            <i class="fab fa-whatsapp mysearch"></i>
+
         </nav>
+            <hr>
+        </div>
+
     </div>
     <style>
-        .myfab{
-            width: 45px;
-            height: 45px;
+        .mylastnav{
+           text-align: center;
+            margin-bottom: 10px;
+            margin-top: 40px;
+            font-size: 18px;
+            font-family: "Times New Roman";
         }
+        .mylastnav a{
+            color: white;
+        }
+
         .mysearch{
-            font-size: 250%;
-            color: #043d5b;
-            margin-left: 40px;
+            font-size: 30px;
+            color: #143f5b;
         }
+        .myicon{
+            text-align: center;
+
+        }
+
+
     </style>
 </footer>
 </html>
