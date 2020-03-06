@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4208626c-d29e-41a9-9fe3-dbdb30662e22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/umidochka/img/background1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/umidochka/text.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umidochka/fabulash.php" beforeDir="false" afterPath="$PROJECT_DIR$/umidochka/fabulash.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +148,7 @@
       <workItem from="1582414027749" duration="13130000" />
       <workItem from="1582846670060" duration="6474000" />
       <workItem from="1583102582858" duration="824000" />
-      <workItem from="1583122366249" duration="1092000" />
+      <workItem from="1583122366249" duration="1679000" />
     </task>
     <servers />
   </component>
