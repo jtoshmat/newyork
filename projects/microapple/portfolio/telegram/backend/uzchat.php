@@ -15,12 +15,12 @@ class UzChat
 
     public function fetchChats(){
         $userid = (int) $this->parms['userid'];
-        $sql = "SELECT * FROM users WHERE id = $userid";
+        $sql = "SELECT * FROM chats WHERE (from_userid = $userid AND to_userid = 2) or (from_userid = 2 AND to_userid = $userid) order by id asc;";
         return $this->db->sql($sql);
     }
 }
 $obj = new UzChat();
-$profiles = $obj->fetchChats();
+$chats = $obj->fetchChats();
 echo "<pre>";
 ?>
 <!doctype html>
@@ -40,15 +40,17 @@ echo "<pre>";
         <tr>
             <th>ID</th>
             <th>Full Name</th>
-            <th>Email</th>
-            <th>Photo</th>
+            <th>From User</th>
+            <th>To User</th>
+            <th>Message</th>
         </tr>
-        <?php foreach ($profiles as $field=>$profile):?>
+        <?php foreach ($chats as $field=>$chat):?>
         <tr>
             <td><?=print_r($field)?></td>
-            <td><?=$profile['name']?></td>
-            <td><?=$profile['email']?></td>
-            <td><img src="<?=$profile['avatar']?>"></td>
+            <td><?=$chat['id']?></td>
+            <td><?=$chat['from_userid']?></td>
+            <td><?=$chat['to_userid']?></td>
+            <td><?=$chat['message']?></td>
         </tr>
         <?php
             endforeach;
