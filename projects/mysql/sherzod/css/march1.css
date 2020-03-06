@@ -1,0 +1,41 @@
+body{background-color: #b6d0d4blue}
+#uzbek_university {
+    background-color: lightyellow;
+    width: 1500px;
+    height: 800px;
+    margin: auto;}
+
+.topbox {
+    width: 100%;
+    height: 50%;
+    display: inline-block;
+    background-color: red;
+    heght:300px;}
+.topleft {
+        width:30%;
+        height:100%;
+        display: inline-block;
+        float: left;
+        background-color: orange;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHj5QsyEu_j_o5T-FJbzkrxrWRjP_nfnkxMZFCe-kzVJh0elLt");
+}
+.topmiddle{
+        width:30%;
+        height:100%;
+        display: inline-block;
+        background-color: black;
+topright{
+        width: 30%;
+        height:100%;
+        float: right;
+        display: inline-block;
+        background-color: brown;
+    }
+
+
+.bottombox {
+    width: 100%;
+    height: 50%;
+
+    background-color: green;
+    }
