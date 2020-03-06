@@ -1,0 +1,72 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #faf591;
+    background-image: url("../img/school_background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: cursive;
+}
+#school{
+    width: 70%;
+    height: 80%;
+    margin: 158px auto;
+    padding: 10px;
+    padding-top: 20px;
+    padding-right: 20px;
+    overflow: auto;
+}
+#school p{
+    font-size: 105%;
+    font-family: cursive;
+    font-weight: bold;
+}
+#school p:first-letter{
+    background-color: #c93a29;
+    color: yellow;
+    /* display: flex; */
+    float: left;
+    padding: 5px;
+    margin: 4px;
+    border-radius: 10px;
+    font-size: 174%;
+    width: 100px;
+}
+
+#school hr:after{
+    background-color: blue;
+}
+.story_header{
+    text-align: center;
+}
+
+.story_header a{
+    padding:10px;
+    margin: 5px 5px;
+    background-color: #c93a29;
+    border-radius: 20px;
+    text-decoration: none;
+    border: 1px double red;
+    color: #ffe63b;
+}
+.story_header a:hover{
+    background-color: #ffe63b;
+    color: #c93a29 ;
+}
+
+.fa-arrow-up{
+    color: #d25539;
+    background-color: #fbe253;
+    font-size: 96%;
+    border-radius: 50%;
+    padding: 9px;
+    margin: 2px;
+    cursor: pointer;
+    float: right;
+}
+
+#school h2{
+    margin-top:10px;
+}
