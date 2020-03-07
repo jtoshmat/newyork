@@ -27,9 +27,7 @@
                     <td><span class="user_full_name">Shuhrat Qarshiev</span><br><i class="fas fa-smile smileicon"></i> It is funny..</td>
                     <td>11:28 PM<br><i class="fas fa-check checkicon"></i><i class="fas fa-check checkicon"></i></td>
                 </tr>
-
             </table>
-
         </div>
         <div data-userid="22" class="chat_users">
             <table class="table left_window_table">
@@ -145,6 +143,8 @@
             <i class="fas fa-microphone"></i>
         </div>
     </div>
+
 </div>
+
 </body>
 </html>
