@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+}
+/*BROWSER*/
+#browser{
+    width: 100%;
+    height: 600px;
+    background-color: #f3f3f3;
+}
+/*TOPDIV*/
+.topdiv{
+    width: 100%;
+    height: 50px;
+    background-color: #1b331b;
+}
+/*MYCIRCLES*/
+.mycircle{
+    padding-top: 25px;
+    padding-left: -4px;
+    font-size: 85%;
+    margin-left: 7px;
+}
+.mycircle:first-child{
+    color: #ff3e1b;
+}
+.mycircle:nth-child(2){
+    color: #ffcd76;
+}
+.mycircle:nth-child(3){
+    color: #00e200;
+}
+/*MYTAB*/
+.mytab{
+    width: 236px;
+    height: 41px;
+    background-color: #1f4c20;
+    position: relative;
+    left: 79px;
+    top: -32px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    color: white;
+    padding: 10px;
+    font-size: 100%;
+}
+/*MYPLUS*/
+.myplus{
+    font-size: 80%;
+    color: white;
+    position: relative;
+    top: -63px;
+    left: 325px;
+}
+/*TOPDIV2*/
+.topdiv2{
+    background-color: #1f4c20;
+    width: 100%;
+    height: 80px;
+}
+/*TOPDIVLLETERS
+.topdivletters{
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+*/
+/*TOPDIVA*/
+.topdiva{
+    height: 40px;
+    position: relative;
+    left: 10px;
+}
+/*MYINPUT*/
+.myinput{
+    width: 73%;
+    border-radius: 20px;
+    height: 27px;
+    position: relative;
+    top: -3px;
+    left: 20px;
+    border: none;
+    padding-left: 10px;
+}
+/*MYBUTTON*/
+.mybuttons{
+    color: #e4e4e4;
+    margin-left: 5px;
+}
+/*MYBUTTON_TEXTS*/
+.mybutton_texts{
+    color: whitesmoke;
+    font-size: 80%;
+    margin: 0 0 5px 5px;
+    position: relative;
+    left: 3px;
+    top: -1px;
+}

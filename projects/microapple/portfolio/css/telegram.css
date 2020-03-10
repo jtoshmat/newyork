@@ -67,6 +67,8 @@ body{
 .profile_photo{
     width: 50px;
     margin-left: 3px;
+    position: relative;
+    top: 7px;
 }
 .table th, .table td {
     padding: 0;
@@ -82,7 +84,7 @@ body{
 }
 .smileicon{
     font-size: 120%;
-    color: #ffd84b;
+    color: #00e200;
 }
 .user_full_name{
     font-weight: bolder;
@@ -97,6 +99,7 @@ body{
 .topdiv{
     width: 100%;
     border-bottom: 1px solid darkgrey;
+    background-image: url("");
 }
 .topdiv_left{
      display: inline-block;
@@ -112,8 +115,9 @@ body{
 }
 .searchicon2{
     font-size: 160%;
-    color: darkgrey;
-    margin: 10px;
+    color: #a9255e;
+    position: relative;
+    top: 10px;
 }
 .topdiv_left{
     margin: 0px 0px 0px 10px;
@@ -136,6 +140,44 @@ body{
     overflow: auto;
 }
 /*
+.left_bubble {
+    position: relative;
+    border-radius: .4em;
+}
+.left_bubble:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-left-color: #00aabb;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-right: -20px;
+}
+
+.right_bubble {
+    position: relative;
+    background-color: white;
+    border-radius: .4em;
+}
+.right_bubble:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-left-color: white;
+    border-right: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-right: -20px;
+}
     *********************************
     Bottom Div starts here
     *********************************
@@ -144,12 +186,13 @@ body{
     text-align: center;
     margin-top: 7px;
 }
-.bottomdiv i{
+.bottomdiv{
     font-size: 130%;
-    color: red;
+    color: #2963ff;
     margin-left: 3px;
     margin-right: 3px;
 }
+
 .bottomdiv input{
     width: 85%;
     border: 1px solid grey;
@@ -159,6 +202,23 @@ body{
     margin-left: 3px;
     margin-right: 3px;
 }
+<<<<<<< HEAD
+.smileicon2{
+    color: #e2b022;
+    font-size: 130%;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.fa-microphone{
+    color: #00c6fd;
+    font-size: 130%;
+}
+.fa-paperclip{
+    color: #00c6fd;
+    font-size: 130%;
+}
+
+
 /*Chat texts properties*/
 .chat_texts{
     font-size: medium;
