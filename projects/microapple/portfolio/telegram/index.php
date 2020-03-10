@@ -146,5 +146,27 @@
         </div>
     </div>
 </div>
+
+<style>
+
+    .chatmessages{
+        width: 100%;
+        display: block;
+        margin: auto;
+        padding:5px;
+        border-bottom: 1px dotted red;
+
+    }
+    .left_user_chat{
+        float: left;
+        text-align: left;
+    }
+    .right_user_chat{
+        float: right;
+        text-align: right;
+    }
+</style>
+
+
 </body>
 </html>
