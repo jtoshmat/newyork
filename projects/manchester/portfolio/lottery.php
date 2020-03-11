@@ -27,11 +27,9 @@ $today = date('m-d-Y');
         </div>
         <div style="height: 30px"></div>
         <div class="winning_numbers_section">
-
             <?php
-                include_once "lottery_generate_numbers.php";
+            include_once "lottery_generate_numbers.php";
             ?>
-
         </div>
         <div style="height: 20px"></div>
         <div class="winning_numbers_section">
@@ -39,7 +37,6 @@ $today = date('m-d-Y');
                 <input type="hidden" name="play" value="1">
                 <button class="push_button">PLAY</button>
             </form>
-
         </div>
     </div>
 </div>
