@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table and Form exercises</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/march12.css">
+</head>
+<body>
+<div id="march12">
+
+    <h3>My Form</h3>
+
+    <form class="contact_form" method="post" action="contactus.php">
+        <table class="table">
+            <tr>
+                <td class="left_td">
+                    First Name:
+                </td>
+                <td class="right_td">
+                    <input required="required" name="first_name" type="text" placeholder="Your First Name">
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td">
+                    Last Name:
+                </td>
+                <td class="right_td">
+                    <input name="last_name" type="text" placeholder="Your Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td">
+                    Phone Number:
+                </td>
+                <td class="right_td">
+                    <input required="required" name="phone" type="tel" placeholder="Your Phone Number">
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td">
+                    Your Email:
+                </td>
+                <td class="right_td">
+                    <input required="required" name="email" type="email" placeholder="Your Email Address">
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td">
+                    Upload Photo:
+                </td>
+                <td class="right_td">
+                    <input name="upload_file" type="file" placeholder="Upload your photo">
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td">
+                    Your Message:
+                </td>
+                <td class="right_td">
+                        <textarea required="required" name="your_message" placeholder="Your message goes here"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="last_td" colspan="2">
+                    <button class="btn btn-dark" type="reset">RESET</button>
+                    <button class="btn btn-success" type="submit">SUBMIT</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+<!--
+
+    <h3>My Table</h3>
+
+    <table class="table table-bordered">
+
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+
+
+        <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+
+
+        <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+        </tr>
+
+    </table>
+
+    -->
+</div>
+</body>
+</html>

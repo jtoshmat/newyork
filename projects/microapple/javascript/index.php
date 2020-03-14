@@ -26,7 +26,7 @@
 
     #result{
         background-color: whitesmoke;
-        width: 500px;
+        width: 700px;
         height: 500px;
         margin: auto;
         margin-top: 60px;

@@ -138,7 +138,7 @@
         </div>
         <div class="bottomdiv">
             <i class="fas fa-paperclip"></i>
-            <input name="chat" id="chat_input" placeholder="Your message">
+            <input name="chat" id="messenger" placeholder="Your message">
             <i class="fas fa-smile smileicon"></i>
             <i class="fas fa-microphone"></i>
         </div>

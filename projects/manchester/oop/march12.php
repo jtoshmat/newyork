@@ -1,45 +1,14 @@
 <?php
-
-namespace Vehicles;
-
-class Car
+class march12
 {
-    private $make;
+    public $model;
 
-    public function __get($name)
+    public function __construct()
     {
-        return $this->$name;
+        $this->model = 'Stelvio';
     }
-
-    public function __set($name, $value)
-    {
-        return $this->$name = $value;
-    }
-
-
-    public function __clone()
-    {
-        exit("<br>I am sorry, you can not clone this object<br>");
-    }
-
-
 }
 
-$obj = new Car();
-
-
-$obj->make = 'Honda';
-
-echo $obj->make;
-
-echo "<hr>";
-
-$obj2 = clone $obj;
-
-
-echo "<hr>";
-
-echo "You are comparing:<br>";
 
 
 
