@@ -5,15 +5,10 @@ $(function () {
     });
 });
 var number = '';
-var number1 = '';
 var operator = '';
-var number2 = '';
 var is_new = true;
-
 function dispatch(input) {
-
     number+=input;
-
     if (input=='+'){
         operator = '+';
     }else if (input == '-'){
@@ -24,8 +19,6 @@ function dispatch(input) {
     }else if (input == '/'){
         operator = '/';
     }
-
-
     if (input == 'reset'){
         display(input, true);
         return false;
@@ -48,25 +41,14 @@ function dispatch(input) {
     }
     display(number);
 }
-
 function execute() {
     var numbers = $(".result").text();
     var result = eval(numbers);
     display(result);
+    operator = '';
+    number = '';
+    is_new = true;
     return false;
-}
-
-function add(input) {
-    alert("Plus bosildi");
-}
-function minus(input) {
-    alert("Minus bosildi");
-}
-function multiply(input) {
-    alert("multiply bosildi");
-}
-function divide(input) {
-    alert("divide bosildi");
 }
 function display(input, reset=false) {
     if (reset){
