@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+.system{
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    margin: 10px auto;
+}
+.table th,td{
+    font-size: 80%;
+    color: #0092c5;
+    text-align: center;
+}
+
+.table{
+    width: 200px;
+}
