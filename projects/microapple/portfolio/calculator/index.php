@@ -28,7 +28,7 @@
             <td data-num="7">7</td>
             <td data-num="8">8</td>
             <td data-num="9">9</td>
-            <td data-num="x" class="orange_td">&#215;</td>
+            <td data-num="*" class="orange_td">&#215;</td>
         </tr>
         <tr>
             <td data-num="4">4</td>
