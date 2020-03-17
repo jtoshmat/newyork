@@ -18,7 +18,7 @@
         <div class="searchinput">
             <i class="fas fa-book-reader searchicon"></i><input name="keyword" type="text" placeholder="Your Keyword">
         </div>
-        <div data-userid="1" class="chat_users">
+        <div data-userid="3" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
@@ -31,7 +31,7 @@
             </table>
 
         </div>
-        <div data-userid="2" class="chat_users">
+        <div data-userid="22" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
@@ -109,7 +109,7 @@
             </table>
 
         </div>
-        <div data-userid="8" class="chat_users">
+        <div data-userid="2" class="chat_users">
             <table class="table left_window_table">
                 <tr>
                     <td>
@@ -146,5 +146,27 @@
         </div>
     </div>
 </div>
+
+<style>
+
+    .chatmessages{
+        width: 100%;
+        display: block;
+        margin: auto;
+        padding:5px;
+        border-bottom: 1px dotted red;
+
+    }
+    .left_user_chat{
+        float: left;
+        text-align: left;
+    }
+    .right_user_chat{
+        float: right;
+        text-align: right;
+    }
+</style>
+
+
 </body>
 </html>

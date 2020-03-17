@@ -1,9 +1,11 @@
 <?php
 
-$i=1;
 
-do{
-    echo "$i WOHOOOOOOO";
-    echo "<br>";
-    $i++;
-}while($i<5);
+function xizmatlar (){
+    return "Sorry, we can nnot do this function";
+}
+
+echo "";
+
+
+?>

@@ -15,13 +15,13 @@ class UzChat
 
     public function fetchChats(){
         $userid = (int) $this->parms['userid'];
-        $sql = "SELECT * FROM users WHERE id = $userid";
+        $sql = "SELECT * FROM chats WHERE (from_userid = $userid AND to_userid = 3) or (from_userid = 2 AND to_userid = $userid) order by id asc;";
         return $this->db->sql($sql);
     }
 }
 $obj = new UzChat();
-$profiles = $obj->fetchChats();
-echo "<pre>";
+$chats = $obj->fetchChats();
+$userid = (int) $obj->parms['userid'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -36,25 +36,33 @@ echo "<pre>";
 <body>
 
 <div>
-    <table class="table table-bordered">
-        <tr>
-            <th>ID</th>
-            <th>Full Name</th>
-            <th>Email</th>
-            <th>Photo</th>
-        </tr>
-        <?php foreach ($profiles as $field=>$profile):?>
-        <tr>
-            <td><?=print_r($field)?></td>
-            <td><?=$profile['name']?></td>
-            <td><?=$profile['email']?></td>
-            <td><img src="<?=$profile['avatar']?>"></td>
-        </tr>
-        <?php
-            endforeach;
-        ?>
+    <h2>Welcome to Chat! 22222</h2>
 
-    </table>
+
+    <?php foreach ($chats as $field=>$chat):?>
+    <?php
+        if ($userid==$chat['from_userid']):
+    ?>
+
+    <div class="left_user_chat chatmessages">
+        <?=$chat['message']?>
+    </div>
+
+    <?else:?>
+
+    <div class="right_user_chat chatmessages">
+        <?=$chat['message']?>
+    </div>
+
+    <?php
+            endif;
+    ?>
+
+
+    <?php
+    endforeach;
+    ?>
+
 </div>
 
 </body>
