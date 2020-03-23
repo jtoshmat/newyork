@@ -32,6 +32,7 @@ tr:nth-child(2) td{
 }
 .highlight_cell{
     background-color: #c5c5c5;
+
     color: #171513;
 }
 
@@ -41,6 +42,8 @@ tr:nth-child(2) td{
 
 .mytd{
     background-color: #0b18ff;
-    color: white;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fimg.favpng.com%2F2%2F21%2F0%2Fcircle-gold-clip-art-png-favpng-eU1HZaQq4KUg642k9FKFSxdJE.jpg");
+    background-size: 100% 100%;
+    color: black;
     border:1px solid black;
 }

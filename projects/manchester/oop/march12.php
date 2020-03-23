@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 namespace Vehicles;
 class Car
 {
@@ -8,9 +9,17 @@ class Car
         return $this->$name;
     }
     public function __set($name, $value)
+=======
+class march12
+{
+    public $model;
+
+    public function __construct()
+>>>>>>> 58545d17237b271ef6a66087a9657a7b94a29f31
     {
-        return $this->$name = $value;
+        $this->model = 'Stelvio';
     }
+<<<<<<< HEAD
     public function __clone()
     {
         exit("<br>I am sorry, you can not clone this object<br>");
@@ -24,6 +33,10 @@ echo "<hr>";
 $obj2 = clone $obj;
 echo "<hr>";
 echo "You are comparing:<br>";
+=======
+}
+
+>>>>>>> 58545d17237b271ef6a66087a9657a7b94a29f31
 
 
 

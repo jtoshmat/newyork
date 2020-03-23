@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+#demo{
+    background-image: url("https://s3-us-west-2.amazonaws.com/uw-s3-cdn/wp-content/uploads/sites/6/2017/11/04133712/waterfall.jpg");
+    background-size: 100% 100%;
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+    align-items: center;
+}
+
+.circle{
+    background-image: url("https://3.bp.blogspot.com/-xO1SiYIAckg/Vou0VCkq3NI/AAAAAAAACGI/S-N_UIdphUY/s1600/bidik.png");
+    background-size: 100% 100%;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    vertical-align: middle;
+    border-radius: 50%;
+    position: relative;
+    bottom: 909px;
+    box-shadow: 10px 10px 10px;
+}
+
+.smallcircles{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.circle1{
+    background-image: url("https://i0.wp.com/2.bp.blogspot.com/-GniW7XVPMMg/UWbiyrUm0wI/AAAAAAAAMuo/S6llmOpJEFQ/s1600/Dp+Bbm+Bahasa+Arab+Allah.gif?w=400&h=300");
+    background-size: 100% 100%;
+    top: 132px;
+    left: 416px;
+    box-shadow: 10px 10px 10px;
+}
+
+.circle2{
+    background-image: url("https://sitqonlumajang.files.wordpress.com/2017/03/gambar-dp-bbm-dzikir-allah-bergerak.gif");
+    background-size: 100% 100%;
+    top: 84px;
+    left: 675px;
+    box-shadow: 10px 10px 10px;
+}
+
+.circle3{
+    background-image: url("https://i.pinimg.com/236x/b9/8f/04/b98f04d2a7c791d96becc98fd603040c.jpg");
+    background-size: 100% 100%;
+    top: -53px;
+    left: 169px;
+    box-shadow: 10px 10px 10px;
+}
+
+.circle4{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ41ZJKhkSKtVGWaT0gmCQpnjco7LItU2K6IEdVTntD5VkM9VOR");
+    background-size: 100% 100%;
+    background-color: #3b0919;
+    top: 9px;
+    left: 86px;
+    box-shadow: 10px 10px 10px;
+}
+
+.circle5{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR_olayWQMadIN_UxL-5gGN4ofrbAnJQktarpI34dDlVcAbCJJt");
+    background-size: 100% 100%;
+    top: 96px;
+    left: 183px;
+    box-shadow: 10px 10px 10px;
+}
+
+.circle6{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQa1sbr7aRF1KUpYciripfHgKQFQroDauPsOpwPyMHu96KFA5ry");
+    background-size: 100% 100%;
+    top: 49px;
+    left: 414px;
+    box-shadow: 10px 10px 10px;
+}
+
+.circle7{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwSXGx-ZpdxvzpjCwvSldZQaOP8_kxNL0zrAigqexWo3oAI_ZI");
+    background-size: 100% 100%;
+    top: -437px;
+    left: 763px;
+    box-shadow: 10px 10px 10px;
+}
+
+
+.circle8{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfNI9X5jrGycOepF4zGnZlHPcXEToXUApBPQXKAyun5neerO6r");
+    background-size: 100% 100%;
+    top: -354px;
+    left: 673px;
+    box-shadow: 10px 10px 10px;
+}
+
+.circle:hover{
+    background-image: url("https://muslimskeptic.com/wpcom-113638781/wp-content/uploads/2016/07/Muhammad-White-Circle.jpg");
+    background-size: 100% 100%;
+}
+
+
+.circle1:hover{
+    background-image: url("https://muslimskeptic.com/wpcom-113638781/wp-content/uploads/2016/07/Muhammad-White-Circle.jpg");
+    background-size: 100% 100%;
+}
+
+
+.circle2:hover{
+    background-image: url("https://muslimskeptic.com/wpcom-113638781/wp-content/uploads/2016/07/Muhammad-White-Circle.jpg");
+    background-size: 100% 100%;
+}
+
+
+.circle3:hover{
+    background-image: url("https://muslimskeptic.com/wpcom-113638781/wp-content/uploads/2016/07/Muhammad-White-Circle.jpg");
+    background-size: 100% 100%;
+}
+
+
+.circle4:hover{
+    background-image: url("https://muslimskeptic.com/wpcom-113638781/wp-content/uploads/2016/07/Muhammad-White-Circle.jpg");
+    background-size: 100% 100%;
+}
+
+
+
+.circle5:hover{
+    background-image: url("https://muslimskeptic.com/wpcom-113638781/wp-content/uploads/2016/07/Muhammad-White-Circle.jpg");
+    background-size: 100% 100%;
+}
+
+
+
+.circle6:hover{
+    background-image: url("https://muslimskeptic.com/wpcom-113638781/wp-content/uploads/2016/07/Muhammad-White-Circle.jpg");
+    background-size: 100% 100%;
+}
+
+
+
+.circle7:hover{
+    background-image: url("https://muslimskeptic.com/wpcom-113638781/wp-content/uploads/2016/07/Muhammad-White-Circle.jpg");
+    background-size: 100% 100%;
+}
+
+
+.circle8:hover{
+    background-image: url("https://muslimskeptic.com/wpcom-113638781/wp-content/uploads/2016/07/Muhammad-White-Circle.jpg");
+    background-size: 100% 100%;
+}
