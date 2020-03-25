@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="css/calendar.css">
 </head>
 <body>
+<?php
+    $current_year = $_GET['year']??date('Y');
+    $current_month = $_GET['month']??date('m');
+    $current_day = date('d');
+    $calendar_month_name = date('F', strtotime("$current_year-$current_month-$current_day"));
+?>
     <div id="calendar">
       <div id="calendar_header">
           <div class="left_div header_divs">
@@ -29,28 +35,32 @@
           <div class="right_div header_divs">
           <input class="search_input" type="text" name="keyword" placeholder="Search">
               <div class="right_btns">
-                  <div class="header_btns header_middle_btns"><i class="fas fa-arrow-left"></i></div>
-                  <div class="header_btns header_middle_btns">Today</div>
-                  <div class="header_btns header_middle_btns"><i class="fas fa-arrow-right"></i></div>
+                  <div class="header_btns header_middle_btns">
+                      <a href="index.php?year=<?=$current_year?>&month=<?=$current_month-1?>"><i class="fas fa-arrow-left"></a></i>
+                  </div>
+                  <div class="header_btns header_middle_btns">
+                      <a href="index.php?year=<?=date('Y');?>&month=<?=date('m');?>">Today</a>
+                  </div>
+                  <div class="header_btns header_middle_btns">
+                      <a href="index.php?year=<?=$current_year?>&month=<?=$current_month+1?>"><i class="fas fa-arrow-right"></a></i>
+                  </div>
               </div>
           </div>
       </div>
       <div id="calendar_title">
-          <span class="title_month">March</span>
-          <span class="title_year">2020</span>
+          <span class="title_month"><?=$calendar_month_name?></span>
+          <span class="title_year"><?=$current_year?></span>
       </div>
       <div id="calendar_table">
           <table class="table">
               <?php
                 $days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
               ?>
-
               <tr>
                   <?foreach ($days as $day):?>
                     <th><?=$day?></th>
                   <?endforeach;?>
               </tr>
-
               <?php $days = 0; for($i=0; $i<5; $i++):?>
                   <tr>
                   <?php for($y=0; $y<7; $y++): $days++;?>
