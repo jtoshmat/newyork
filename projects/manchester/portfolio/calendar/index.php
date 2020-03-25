@@ -20,8 +20,20 @@
               <div class="header_btns">Calendars</div>
               <div class="header_btns"> + </div>
           </div>
-          <div class="middle_div header_divs"> buttons</div>
-          <div class="right_div header_divs"> search </div>
+          <div class="middle_div header_divs">
+              <div class="header_btns header_middle_btns">Day</div>
+              <div class="header_btns header_middle_btns">Week</div>
+              <div class="header_btns header_middle_btns">Month</div>
+              <div class="header_btns header_middle_btns">Year</div>
+          </div>
+          <div class="right_div header_divs">
+          <input class="search_input" type="text" name="keyword" placeholder="Search">
+              <div class="right_btns">
+                  <div class="header_btns header_middle_btns"><i class="fas fa-arrow-left"></i></div>
+                  <div class="header_btns header_middle_btns">Today</div>
+                  <div class="header_btns header_middle_btns"><i class="fas fa-arrow-right"></i></div>
+              </div>
+          </div>
       </div>
       <div id="calendar_title">
           <span class="title_month">March</span>
