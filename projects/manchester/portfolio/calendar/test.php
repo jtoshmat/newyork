@@ -68,33 +68,29 @@
                     <th><?=$day?></th>
                   <?endforeach;?>
               </tr>
-              <?php $days = 0; for($i=0; $i<5; $i++):?>
-                  <tr>
-                  <?php for($y=0; $y<7; $y++): $days++;?>
-                      <? if ($days<=$current_total_days):?>
-                          <?php
-                          $first_day = null;
-                          if ($days == 1){
-                              $first_day = $current_first_day;
-                          }
-                          $current_week_num = date('w', strtotime("$current_year-$current_month-$days"));
-                          $total_empty_cells = $current_week_num - $y;
-                          for($e=0; $e<$total_empty_cells; $e++){
-                              echo "<td>999</td>";
-                          }
+              <?php for($day=1; $day<=31; $day++):
 
-                          ?>
+                  $y=0;
+                  $last_td = null;
+                  if ($day%7==0){
+                      $last_td = '!!!';
+                      $y++;
+                  }
+                  $current_week_num = date('w', strtotime("$current_year-$current_month-$day"));
+                  $total_empty_cells = $current_week_num - $y;
+                  ?>
 
-                          <? if (date('d') == $days):?>
-                                <td class="calendar_today"><div><?=$days?></div></td>
-                                <?else:?>
-                                <td><div><?=$days.': '.$total_empty_cells?></div></td>
-                          <?endif?>
+                      <?if ($day%7==0):?>
+                      <tr>
+
+                          <td><div><?=$day.':'.$last_td?></div></td>
 
 
+                      </tr>
                       <?endif?>
-                  <?endfor;?>
-                  </tr>
+
+
+
               <?endfor;?>
 
 
