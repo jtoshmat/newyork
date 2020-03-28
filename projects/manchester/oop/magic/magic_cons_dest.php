@@ -1,9 +1,10 @@
 <?php
 namespace Goverment;
 
-class Meeting{
-    public function __construct()//$parms
+class Meeting
 {
+    public function __construct()//$parms
+    {
         $parms = $_REQUEST;
         //check meeting participants
         //check reports
