@@ -13,8 +13,7 @@ body{
 #calculator{
     width: 700px;
     height: auto;
-    margin: 100px auto;
-    border: 1px solid #a4a4a4;
+    margin: 1px auto;
     background-color: #647585;
 }
 .orange_td{
@@ -42,4 +41,18 @@ body{
 
 .signs:hover{
     background-color: #835b35 !important;
+}
+
+.title{
+    width: 700px;
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+    top: 67px;
+    background-color: #5bc0de;
+    height: 60px;
+    display: block;
+    font-size: 190%;
+    line-height: 55px;
+    border: 2px solid #031f2f;
 }

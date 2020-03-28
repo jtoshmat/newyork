@@ -13,7 +13,10 @@
     <script src="js/myscripts.js"></script>
 </head>
 <body>
+<div class="title">MYITEDU Calculator</div>
 <div id="calculator">
+
+
     <table class="table table-bordered">
         <tr>
             <td class="result" colspan="4">0</td>
