@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+}
+#mybox{
+    width: 90%;
+    height: 500px;
+    background-color: #5bc0de;
+    background-image: url("https://blog-www.pods.com/wp-content/uploads/2019/08/MG_6_1_Miami.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 50px auto;
+}

@@ -16,6 +16,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>NYC Air King</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
 </head>
 
 <header>
