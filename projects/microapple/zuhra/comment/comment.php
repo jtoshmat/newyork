@@ -5,23 +5,35 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../../css/bootstrap.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>COMMENT</title>
 </head>
 <body>
+
+<?php
+require_once "../database.php";
+$db = new \Database\database();
+$post_id = $_GET['post_id']??1;
+$post_id = (int) $post_id;
+
+$post = $db->sql("SELECT * FROM posts WHERE id = $post_id");
+$comments = $db->sql("SELECT * FROM comments WHERE post_id = $post_id order by id desc");
+$post = $post[0];
+?>
+
 <div class = container-fluid>
     <div class="top">
         <img class="pic" src="https://nordicapis.com/wp-content/uploads/Profile-Pic-Circle-Grey-Large.png" alt="profile">
-        <span class="name">Luke Hernandez</span>
+        <span class="name"><?=$post['author_name']?></span>
             <br>
         <span class="time">4 hrs <i class ="fas fa-globe-americas"></i></span>
         <i class="fas fa-ellipsis-h"></i>
     </div>
     <div class="middle">
-        <img class="utah" src="https://cdn1.gttwl.net/attachments/global/1490097216_original.png?w=640&h=480&fit=crop&crop=entropy&auto=format,enhance&q=60" alt="utah">
+        <?=$post['description']?>
         <span class="likes"> <i class="far fa-thumbs-up"></i>10</span>
-        <span class="comments">59 comments</span><br>
+        <span class="comments"><?=count($comments)?> comments</span><br>
     </div>
     <div class="medium2">
         <hr>
@@ -36,18 +48,34 @@
     </div>
     <div class="bottom">
         <div class="comments">
+           <ul>
+               <?foreach ($comments as $comment):?>
+               <li><?=$comment['comment']?></li>
+               <?endforeach;?>
+           </ul>
         </div>
         <div class="commentbox">
             <img class = "profile"src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Circle-icons-profile.svg/1200px-Circle-icons-profile.svg.png" alt="prof">
-            <input type="text" placeholder="Write a comment...">
+            <form method="post" action="post_comment.php">
+            <input name="your_comment" type="text" placeholder="Write a comment...">
+            <input name="post_id" value="<?=$post_id?>" type="hidden">
+                <button type="submit">Post</button>
+            </form>
         </div>
     </div>
 </div>
-</body>
 <style>
-    html{
-        padding: 0;
-        margin: 0;
+
+    *{
+        margin:0px;
+        padding:0px;
+    }
+
+    .middle img{
+        width:100%;
+    }
+    html, body{
+        width:100%;
         height: 100%;
     }
     body{
@@ -56,8 +84,10 @@
     .container-fluid{
         background-color: #ffffff;
         margin: auto;
-        height: 750px;
+        height: auto;
         width: 500px;
+        overflow: hidden;
+        padding-bottom: 60px;
     }
     .pic {
         height: 45px;
@@ -107,17 +137,21 @@
         margin: 4px;
     }
     .comments{
-        color: grey;
+        color: black;
         font-size: smaller;
-        margin: 5px;
-        float: right;
+        margin-bottom: 20px;
+        display: block;
     }
+    .comments li{
+        margin-bottom: 20px;
+    }
+
     td{
         padding-left: 64px;
 
     }
     .medium2{
-        height: 250px;
+        height:100px;
     }
     .profile{
         height: 35px;
@@ -135,4 +169,5 @@
     }
 
 </style>
+</body>
 </html>

@@ -23,7 +23,7 @@
         $current_month = 0;
     }
     //@TODO Fix the previous and next buttons - JT 03/31/2020 -> header_btns header_middle_btns
-    //@TODO Build a calendar create form when double clicked on any active day of the month
+    //@TODO Build a calendar create form when double clicked on any active day of the month -> https://getbootstrap.com/docs/4.0/components/modal/
     //@TODO Make the calendar searchable
 
 
@@ -104,10 +104,6 @@
                           if ($priority==2){
                               $today_events = 'today_events_high';
                           }
-
-
-
-
                               if ($day<$current_first_day){
                                   echo "<td class='blank_day'>&nbsp;</td>";
                               }else{
