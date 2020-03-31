@@ -14,9 +14,9 @@
 <?php
     $current_year = $_GET['year']??date('Y');
     $current_month = $_GET['month']??date('m');
-    $current_day = date('d');
-    $calendar_month_name = date('F', strtotime("$current_year-$current_month-$current_day"));
-    $current_total_days = date('t', strtotime("$current_year-$current_month-$current_day"));
+    $today_day = date('d');
+    $calendar_month_name = date('F', strtotime("$current_year-$current_month-$today_day"));
+    $current_total_days = date('t', strtotime("$current_year-$current_month-$today_day"));
     $current_first_day_name = date('D', strtotime("$current_year-$current_month-1"));
     $current_first_day = date('w', strtotime("$current_year-$current_month-1")) + 1;
 
@@ -57,43 +57,43 @@
           <span class="title_year"><?=$current_year?></span>
       </div>
       <div id="calendar_table">
-
           <table class="table">
               <?php
-                $day_names =$days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
-              ?>
-
-
-              <?
+              $day_names =$days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
               $day = 0;
-              $day2 = 1;
+              $current_calendar_day = 1;
               $total_tr = abs(31/7);
-
               echo "<tr>\n";
               foreach ($day_names as $day_name){
-                  echo "<td>$day_name</td>\n";
+                  echo "<th>$day_name</th>\n";
               }
               echo "</tr>";
-
               for($tr=0; $tr<5; $tr++) {
+                  $calendar_today_class = null;
                   echo "<tr>\n";
                       for ($td = 0; $td < 7; $td++) {
                           $day++;
+
+                      if ($current_calendar_day == $today_day){
+                          $calendar_today_class = "class='calendar_today_class'";
+                      }else{
+                          $calendar_today_class = null;
+                      }
                               if ($day<$current_first_day){
-                                  echo "<td>&nbsp;</td>";
+                                  echo "<td class='blank_day'>&nbsp;</td>";
                               }else{
-                                  echo "<td>$day2</td>";
+                                  if ($current_calendar_day<=31) {
+                                      echo "<td $calendar_today_class><div>$current_calendar_day</div></td>";
+                                  }else{
+                                      echo "<td class='blank_day'>&nbsp;</td>";
+                                  }
                               }
-                          $day2++;
-
-                              $day2 = $day+2-$current_first_day;
-
+                          $current_calendar_day++;
+                          $current_calendar_day = $day+2-$current_first_day;
                       }
                   echo "</tr>\n";
               }
               ?>
-
-
           </table>
       </div>
       <div id="calendar_footer">
