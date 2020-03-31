@@ -15,7 +15,6 @@ body{
     font-family: "Apple Braille";
     color:black;
 }
-
 /* My Calendar CSS starts here*/
 #calendar{
     width: 1500px;
@@ -43,7 +42,9 @@ body{
     height: auto;
     background-color: #e7e7e7;
 }
-
+#calendar_table tr:last-child td:last-child{
+    border-right: 1px solid #b9b7b7;
+}
 .title_month{
     font-size: 200%;
     font-weight: bolder;
@@ -54,11 +55,9 @@ body{
     font-size: 200%;
     padding-top: 20px;
 }
-
 .table th, .table td {
     border-top: none;
 }
-
 td{
     border: 1px solid #b9b7b7;
     height: 140px;
@@ -70,14 +69,12 @@ td{
     text-align: right;
     font-weight: bolder;
 }
-
 td:last-child{
     border-right: 0px;
 }
 td:first-child{
     border-left: 0px;
 }
-
 td:hover{
     background-color: #dedede;
     cursor: pointer;
@@ -188,6 +185,8 @@ th{
 .right_btns div{
     background-color: whitesmoke;
 }
-
-
+.right_btns a{
+    color:black;
+    text-decoration: none;
+}
 /* My Calendar CSS ends here*/

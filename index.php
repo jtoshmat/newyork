@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 //date_default_timezone_set('Europe/Moscow');
 
@@ -32,3 +33,16 @@ adasdasdasd
 </body>
 </html>
 >>>>>>> f5e404d9490c6375d212b8f54288e95de4c72588
+=======
+<?php
+
+require_once "inc/database.php";
+$db = new \Database\database();
+
+$records = $db->sql("SELECT * FROM airports");
+
+echo "<pre>";
+print_r($records);
+
+
+>>>>>>> 81f8101471daebaf80f9b303db7d76dcaeb78c4c
