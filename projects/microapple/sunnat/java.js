@@ -11,10 +11,6 @@ var position ="Director";
 var hobbies ="He loves reading books and play chess";
 
 var text = first_name +
-
-
-
-
-    document.getElementById(elementid.'result').innerHTML = text;
+    document.getElementById(elementid.('result').innerHTML = text;
 
 }

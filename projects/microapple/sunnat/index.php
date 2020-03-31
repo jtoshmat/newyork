@@ -37,8 +37,7 @@
     </div>
 
     <div id="main-content">
-        <img src="https://image.roku.com/developer_channels/prod/b4cfc9dfd91807325beb09f6e6910cd46da1dd654c6c365e2ab1fdc8ad22f867.png"
-             width="100%" height="100%">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/NoZwGfUsxX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <div id="secondary-one">
