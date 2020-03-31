@@ -45,11 +45,13 @@ body{
     padding:5px;
     border: 1px solid grey;
     border-radius: 5px;
+    background-color: #f1f1f1;
 }
 .searchicon{
     font-size: 120%;
     color: #5d5d5d;
     padding:2px;
+    margin-left: 8px;
 }
 /*
     *********************************
@@ -67,8 +69,6 @@ body{
 .profile_photo{
     width: 50px;
     margin-left: 3px;
-    position: relative;
-    top: 7px;
 }
 .table th, .table td {
     padding: 0;
@@ -84,11 +84,11 @@ body{
 }
 .smileicon{
     font-size: 120%;
-    color: #00e200;
+    color: #ffd84b;
 }
 .user_full_name{
     font-weight: bolder;
-    font-size: 100%;
+    font-size: 130%;
     color: #174382;
 }
 /*
@@ -99,12 +99,11 @@ body{
 .topdiv{
     width: 100%;
     border-bottom: 1px solid darkgrey;
-    background-image: url("");
 }
 .topdiv_left{
-     display: inline-block;
+    display: inline-block;
     width: 48%;
- }
+}
 .topdiv_right{
     display: inline-block;
     width: 50%;
@@ -115,9 +114,8 @@ body{
 }
 .searchicon2{
     font-size: 160%;
-    color: #a9255e;
-    position: relative;
-    top: 10px;
+    color: darkgrey;
+    margin: 10px;
 }
 .topdiv_left{
     margin: 0px 0px 0px 10px;
@@ -139,45 +137,48 @@ body{
     background-size: 100% 100%;
     overflow: auto;
 }
-/*
-.left_bubble {
+.left_bubble{
+    float: left;
     position: relative;
+    background: antiquewhite;
     border-radius: .4em;
+    width: 100px;
 }
-.left_bubble:after{
+.left_bubble:after {
     content: '';
     position: absolute;
-    right: 0;
+    left: 0;
     top: 50%;
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-left-color: #00aabb;
-    border-right: 0;
+    border-right-color: #00aabb;
+    border-left: 0;
     border-bottom: 0;
     margin-top: -10px;
-    margin-right: -20px;
+    margin-left: -20px;
 }
-
-.right_bubble {
+.right_bubble{
+    float: right;
     position: relative;
-    background-color: white;
+    background: #00aabb;
     border-radius: .4em;
 }
 .right_bubble:after{
     content: '';
     position: absolute;
-    right: 0;
+    left: 0;
     top: 50%;
     width: 0;
     height: 0;
     border: 20px solid transparent;
-    border-left-color: white;
-    border-right: 0;
+    border-right-color: #00aabb;
+    border-left: 0;
     border-bottom: 0;
     margin-top: -10px;
-    margin-right: -20px;
+    margin-left: -20px;
 }
+/*
     *********************************
     Bottom Div starts here
     *********************************
@@ -186,13 +187,12 @@ body{
     text-align: center;
     margin-top: 7px;
 }
-.bottomdiv{
+.bottomdiv i{
     font-size: 130%;
-    color: #2963ff;
+    color: red;
     margin-left: 3px;
     margin-right: 3px;
 }
-
 .bottomdiv input{
     width: 85%;
     border: 1px solid grey;
@@ -202,32 +202,6 @@ body{
     margin-left: 3px;
     margin-right: 3px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-.smileicon2{
-    color: #e2b022;
-    font-size: 130%;
-    margin-left: 3px;
-    margin-right: 3px;
+.search{
+    font-weight: bold;
 }
-.fa-microphone{
-    color: #00c6fd;
-    font-size: 130%;
-}
-.fa-paperclip{
-    color: #00c6fd;
-    font-size: 130%;
-}
-
-
->>>>>>> b16680d6d4ce91b2f1298dc3fb55d85b95916b73
-/*Chat texts properties*/
-.chat_texts{
-    font-size: medium;
-    font-family: "Adobe Handwriting";
-    word-wrap: break-word;
-    margin: 0px 0px 0px 5px;
-}
->>>>>>> 48d3367635a74d1e3f986791df4b952ff6a0a58a

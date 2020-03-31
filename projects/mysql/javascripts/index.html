@@ -1,29 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Welcome to Javascript Class</title>
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <script src="js/myscripts.js"></script>
-</head>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <body>
 
-<style>
-    .mydiv{
-        color: #006400;
-    }
-    .mydiv2{
-        color: #ffffff;
-        display: block;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background-color: red;
-        margin: 10px;
-        text-align: center;
-    }
-</style>
+<div ng-app="myApp" ng-controller="myCtrl">
 
+    First Name: <input type="text" ng-model="firstName"><br>
+    Last Name: <input type="text" ng-model="lastName"><br>
+    <br>
+    Full Name: {{firstName + " " + lastName}}
+
+</div>
+
+<script>
+    var app = angular.module('myApp', []);
+    app.controller('myCtrl', function($scope) {
+        $scope.firstName= "John";
+        $scope.lastName= "Doe";
+    });
+</script>
 
 </body>
 </html>
