@@ -84,7 +84,7 @@ th{
     border-bottom: 1px solid #b9b7b7;
     color: #652727;
 }
-.calendar_today div{
+.calendar_today_class div{
     width: 45px;
     height: 45px;
     border-radius: 50%;
@@ -188,5 +188,20 @@ th{
 .right_btns a{
     color:black;
     text-decoration: none;
+}
+.blank_day{
+    background-color: #f1f3f5;
+}
+.today_events_normal{
+    background-color: #269840;
+    color: white;
+}
+.today_events_medium{
+    background-color: #daa333;
+    color: white;
+}
+.today_events_high{
+    background-color: #961d3c;
+    color: white;
 }
 /* My Calendar CSS ends here*/
