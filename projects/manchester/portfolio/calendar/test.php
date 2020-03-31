@@ -12,15 +12,13 @@
 </head>
 <body>
 <?php
-    $current_year = $_GET['year']??date('Y');
-    $current_month = $_GET['month']??date('m');
-    $today_day = date('d');
-    $calendar_month_name = date('F', strtotime("$current_year-$current_month-$today_day"));
-    $current_total_days = date('t', strtotime("$current_year-$current_month-$today_day"));
-    $current_first_day_name = date('D', strtotime("$current_year-$current_month-1"));
-    $current_first_day = date('w', strtotime("$current_year-$current_month-1")) + 1;
-
-
+    $current_year = $_GET['year']??date('Y'); //Tested and working - JT
+    $current_month = $_GET['month']??date('m'); //Tested and working - JT
+    $today_day = date('d'); //Tested and working - JT
+    $calendar_month_name = date('F', strtotime("$current_year-$current_month-1")); //Tested and working - JT
+    $current_total_days = date('t', strtotime("$current_year-$current_month-1")); //Tested and working - JT
+    $current_first_day_name = date('D', strtotime("$current_year-$current_month-1")); //Tested and working - JT
+    $current_first_day = date('w', strtotime("$current_year-$current_month-1")) + 1; //Tested and working - JT
 ?>
     <div id="calendar">
       <div id="calendar_header">
@@ -41,13 +39,13 @@
           <input class="search_input" type="text" name="keyword" placeholder="Search">
               <div class="right_btns">
                   <div class="header_btns header_middle_btns">
-                      <a href="index.php?year=<?=$current_year?>&month=<?=$current_month-1?>"><i class="fas fa-arrow-left"></a></i>
+                      <a href="test.php?year=<?=$current_year?>&month=<?=$current_month-1?>"><i class="fas fa-arrow-left"></a></i>
                   </div>
                   <div class="header_btns header_middle_btns">
-                      <a href="index.php?year=<?=date('Y');?>&month=<?=date('m');?>">Today</a>
+                      <a href="test.php?year=<?=date('Y');?>&month=<?=date('m');?>">Today</a>
                   </div>
                   <div class="header_btns header_middle_btns">
-                      <a href="index.php?year=<?=$current_year?>&month=<?=$current_month+1?>"><i class="fas fa-arrow-right"></a></i>
+                      <a href="test.php?year=<?=$current_year?>&month=<?=$current_month+1?>"><i class="fas fa-arrow-right"></a></i>
                   </div>
               </div>
           </div>
@@ -68,7 +66,7 @@
                   echo "<th>$day_name</th>\n";
               }
               echo "</tr>";
-              for($tr=0; $tr<5; $tr++) {
+              for($tr=0; $tr<=5; $tr++) {
                   $calendar_today_class = null;
                   echo "<tr>\n";
                       for ($td = 0; $td < 7; $td++) {
@@ -82,7 +80,7 @@
                               if ($day<$current_first_day){
                                   echo "<td class='blank_day'>&nbsp;</td>";
                               }else{
-                                  if ($current_calendar_day<=31) {
+                                  if ($current_calendar_day <= $current_total_days) {
                                       echo "<td $calendar_today_class><div>$current_calendar_day</div></td>";
                                   }else{
                                       echo "<td class='blank_day'>&nbsp;</td>";
