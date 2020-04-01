@@ -19,6 +19,24 @@
     $current_total_days = date('t', strtotime("$current_year-$current_month-1")); //Tested and working - JT
     $current_first_day_name = date('D', strtotime("$current_year-$current_month-1")); //Tested and working - JT
     $current_first_day = date('w', strtotime("$current_year-$current_month-1")) + 1; //Tested and working - JT
+    if ($current_month>=12){
+        $current_month = 0;
+    }
+    //@TODO Fix the previous and next buttons - JT 03/31/2020 -> header_btns header_middle_btns
+    //@TODO Build a calendar create form when double clicked on any active day of the month
+    //@TODO Make the calendar searchable
+
+
+    require_once '../database.php';
+    $db = new \Database\database();
+    $sql = "SELECT * FROM calendar WHERE year = $current_year and month = $current_month";
+    $events = $db->sql($sql);
+
+    $daily_events = [];
+    foreach ($events as $event){
+        $daily_events[$event['day']] = $event;
+    }
+
 ?>
     <div id="calendar">
       <div id="calendar_header">
@@ -77,11 +95,24 @@
                       }else{
                           $calendar_today_class = null;
                       }
+                              $myevents = $daily_events[$current_calendar_day]['title']??null;
+                              $priority = $daily_events[$current_calendar_day]['priority']??0;
+                              $today_events = 'today_events_normal';
+                              if ($priority==1){
+                                  $today_events = 'today_events_medium';
+                              }
+                          if ($priority==2){
+                              $today_events = 'today_events_high';
+                          }
+
+
+
+
                               if ($day<$current_first_day){
                                   echo "<td class='blank_day'>&nbsp;</td>";
                               }else{
                                   if ($current_calendar_day <= $current_total_days) {
-                                      echo "<td $calendar_today_class><div>$current_calendar_day</div></td>";
+                                      echo "<td $calendar_today_class><div>$current_calendar_day <span class='$today_events'> $myevents </span></div></td>";
                                   }else{
                                       echo "<td class='blank_day'>&nbsp;</td>";
                                   }
