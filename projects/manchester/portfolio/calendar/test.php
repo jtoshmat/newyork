@@ -46,6 +46,7 @@
 <div class="modal fade" id="calendarModal" tabindex="-1" role="dialog" aria-labelledby="calendarModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
+            <form method="post" action="backend/save_event.php">
             <div class="modal-header">
                 <h5 class="modal-title" id="calendarModalLabel">New event</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -53,32 +54,27 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form>
                     <div class="form-group">
                         <label for="recipient-name" class="col-form-label">Title:</label>
-                        <input type="text" class="form-control" id="recipient-name">
+                        <input name="title" required="required" type="text" class="form-control" id="recipient-name">
                     </div>
                     <div class="form-group">
                         <label for="message-text" class="col-form-label">Description:</label>
-                        <textarea class="form-control" id="message-text"></textarea>
+                        <textarea name="description" required="required" class="form-control" id="message-text"></textarea>
                     </div>
-
                     <div class="form-group">
                         <label for="date-text" class="col-form-label">Event Time:</label>
-                            <input type="time" id="date-text" class="form-control">
+                            <input required="required" type="time" id="date-text" name="event_time" class="form-control">
                         <input type="hidden" name="year" type="number" value="<?=$current_year?>">
                         <input type="hidden"  name="month" type="number" value="<?=$current_month?>">
                         <input id="form_today_day" type="hidden"  name="day" type="number" value="<?=$today_day?>">
                     </div>
-
-
-                </form>
             </div>
             <div class="modal-footer">
-
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Create</button>
+                <button type="submit" class="btn btn-primary">Create</button>
             </div>
+            </form>
         </div>
     </div>
 </div>
