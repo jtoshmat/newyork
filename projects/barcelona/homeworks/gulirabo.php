@@ -115,8 +115,11 @@
 
 </style>
 
-</body>
-<table class="table table-bordered">
+<nav>
+
+</nav>
+
+
 
 </body>
 </html>

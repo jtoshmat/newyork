@@ -1,0 +1,19 @@
+.myh1{
+    color: #41d8b4;
+    text-align: center;
+}
+
+#myparagraph{
+    column-count: 2;
+}
+
+body{
+    background-color: #b3aeab;
+}
+.mybox{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin: ;
+
+}

@@ -45,6 +45,7 @@ $comments = $obj->fetchAllComments();
     <title>Post Comment</title>
     <link rel="stylesheet" href="../../css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 <div class="container-fluid">
