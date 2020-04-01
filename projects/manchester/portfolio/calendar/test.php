@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/fontawesome/css/all.css">
     <link rel="stylesheet" href="css/calendar.css">
+    <script src="/js/jquery.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 <body>
 <?php
@@ -22,8 +26,8 @@
     if ($current_month>=12){
         $current_month = 0;
     }
-    //@TODO Fix the previous and next buttons - JT 03/31/2020 -> header_btns header_middle_btns
-    //@TODO Build a calendar create form when double clicked on any active day of the month
+    //@TODO Fix the previous and next buttons - JT 03/31/2020 -> header_btns header_middle_btns - CANCELLED
+    //@TODO Build a calendar create form when double clicked on any active day of the month -> https://getbootstrap.com/docs/4.0/components/modal/
     //@TODO Make the calendar searchable
 
 
@@ -38,6 +42,47 @@
     }
 
 ?>
+
+<div class="modal fade" id="calendarModal" tabindex="-1" role="dialog" aria-labelledby="calendarModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="calendarModalLabel">New event</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Title:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="message-text" class="col-form-label">Description:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="date-text" class="col-form-label">Event Time:</label>
+                            <input type="time" id="date-text" class="form-control">
+                        <input type="hidden" name="year" type="number" value="<?=$current_year?>">
+                        <input type="hidden"  name="month" type="number" value="<?=$current_month?>">
+                        <input id="form_today_day" type="hidden"  name="day" type="number" value="<?=$today_day?>">
+                    </div>
+
+
+                </form>
+            </div>
+            <div class="modal-footer">
+
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Create</button>
+            </div>
+        </div>
+    </div>
+</div>
+
     <div id="calendar">
       <div id="calendar_header">
           <div class="left_div header_divs">
@@ -72,6 +117,9 @@
           <span class="title_month"><?=$calendar_month_name?></span>
           <span class="title_year"><?=$current_year?></span>
       </div>
+
+
+
       <div id="calendar_table">
           <table class="table">
               <?php
@@ -79,6 +127,9 @@
               $day = 0;
               $current_calendar_day = 1;
               $total_tr = abs(31/7);
+
+              $popup_modal = "data-toggle=\"modal\" data-target=\"#calendarModal\" data-whatever=\"@mdo\"";
+
               echo "<tr>\n";
               foreach ($day_names as $day_name){
                   echo "<th>$day_name</th>\n";
@@ -91,9 +142,9 @@
                           $day++;
 
                       if ($current_calendar_day == $today_day){
-                          $calendar_today_class = "class='calendar_today_class'";
+                          $calendar_today_class = "class='calendar_today_class my_date_class'";
                       }else{
-                          $calendar_today_class = null;
+                          $calendar_today_class = "class='my_date_class'";
                       }
                               $myevents = $daily_events[$current_calendar_day]['title']??null;
                               $priority = $daily_events[$current_calendar_day]['priority']??0;
@@ -104,15 +155,11 @@
                           if ($priority==2){
                               $today_events = 'today_events_high';
                           }
-
-
-
-
                               if ($day<$current_first_day){
                                   echo "<td class='blank_day'>&nbsp;</td>";
                               }else{
                                   if ($current_calendar_day <= $current_total_days) {
-                                      echo "<td $calendar_today_class><div>$current_calendar_day <span class='$today_events'> $myevents </span></div></td>";
+                                      echo "<td data-date='$current_calendar_day' $popup_modal $calendar_today_class><div>$current_calendar_day <span class='$today_events'> $myevents </span></div><i class=\"fas fa-plus-circle calendar_add_icon\"></i></td>";
                                   }else{
                                       echo "<td class='blank_day'>&nbsp;</td>";
                                   }
@@ -129,5 +176,22 @@
           &copy; Shadiyarov.us <?=date('Y');?>
       </div>
     </div>
+
+<script>
+
+    $(function () {
+
+        $(".my_date_class").click(function () {
+            var selectedDate = $(this).data('date');
+            $("#form_today_day").val(selectedDate);
+        });
+
+    });
+
+    $('#sandbox-container input').datepicker({
+    });
+</script>
+
+
 </body>
 </html>

@@ -204,4 +204,19 @@ th{
     background-color: #961d3c;
     color: white;
 }
+
+.calendar_add_icon{
+    color: #959494;
+    font-size: medium;
+    position: sticky;
+    top: 120%;
+    z-index: 1000;
+    display: none;
+
+}
+
+.my_date_class:hover > .calendar_add_icon{
+    display: block;
+}
+
 /* My Calendar CSS ends here*/
