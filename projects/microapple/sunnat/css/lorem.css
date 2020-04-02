@@ -1,0 +1,57 @@
+body{
+ background-color: black;
+}
+.box{
+    width: 1200px;
+    height: 700px;
+    margin: auto;
+    background-image: url("https://cms-tc.pbskids.org/daniel-tiger-website/Story-Thumbs/story-thumb_big-brother@2x.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.list{
+    width: 39%;
+    height: 455px;
+    position: relative;
+    top: 90px;
+    left: 681px;
+    opacity: 82%;
+    border-radius: 15px;
+    overflow: scroll;
+    background-color: #bdbdbd;
+}
+.list h3{
+    font-weight: bolder;
+    text-align: center;
+    color: saddlebrown;
+    margin: 5px;
+}
+.button{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 85%;
+}
+.button span{
+    margin: 3px;
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+}
+.list h2{
+    text-align: left;
+    color: saddlebrown;
+    font-size: 100%;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+p::first-letter{
+    display: block;
+    float: left;margin: 3px;
+    color: white;
+    font-size: 300%;
+    background-color: purple;
+    font-weight: bolder;
+}

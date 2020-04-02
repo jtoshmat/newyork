@@ -32,18 +32,18 @@ body{
     color: #000000;
 }
 .message{
-    width:100px;
+    width:300px;
     font-size: 120%;
     font-family: "Arial";
 }
 .messagetext{
-    width:300px;
+    width:1000px;
 }
 .last_td{
     text-align: center;
 }
 
-#contact_us_backend{
+#contact_form{
     width: 70%;
     height: auto;
     background-color: #3fde58;

@@ -9,8 +9,6 @@
 <body>
 <div id="march12">
 <div class="head"> <h3>ABOUT YOU</h3></div>
-
-
     <form class="contact_form" method="post" action="data.php">
         <table class="table">
             <tr>
@@ -41,26 +39,28 @@
                     <input required="required" name="phone" type="phone" placeholder="Fax number">
                 </td>
             </tr>
-            <td class="left_td">
-                Email:
-            </td>
-            <td class="right_td">
-                <input required="required" name="email" type="email" placeholder="Email Address">
-            </td>
-            <td>
+            <tr>
                 <td class="left_td">
-                    Upload Photo:
+                 Email:
+                </td>
+                <td class="right_td">
+                 <input required="required" name="email" type="email" placeholder="Email Address">
+                </td>
+                <td class="left_td">
+                    Photo:
                 </td>
                 <td class="right_td">
                     <input name="upload_file" type="file" placeholder="Upload your photo">
                 </td>
-            </td>
+            </tr>
             <tr>
                 <td class="message">
                     Message:
                 </td>
                 <td class="messagetext">
-                    <textarea required="required" name="your_message" placeholder="Type Your Message"></textarea>
+                    <label>
+                        <textarea required="required" name="your_message" placeholder="Type Your Message"></textarea>
+                    </label>
                 </td>
             </tr>
             <tr>
@@ -71,8 +71,6 @@
             </tr>
         </table>
     </form>
-
-
 </div>
 </body>
 </html>
