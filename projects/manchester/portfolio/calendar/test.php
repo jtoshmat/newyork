@@ -33,7 +33,7 @@
 
     require_once '../database.php';
     $db = new \Database\database();
-    $sql = "SELECT * FROM calendar WHERE year = $current_year and month = $current_month order by id desc limit 3";
+    $sql = "SELECT * FROM calendar WHERE year = $current_year and month = $current_month order by id desc";
     $events = $db->sql($sql);
 
     $daily_events = [];

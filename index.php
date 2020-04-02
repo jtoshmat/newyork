@@ -1,11 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello There</title>
+</head>
+<body>
 <?php
-
-require_once "inc/database.php";
-$db = new \Database\database();
-
-$records = $db->sql("SELECT * FROM airports");
-
-echo "<pre>";
-print_r($records);
+$name = 'Sukhrob Shadiyarov';
+echo $name;
+?>
+</body>
+</html>
 
 
