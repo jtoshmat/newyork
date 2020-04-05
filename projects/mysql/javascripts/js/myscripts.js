@@ -312,8 +312,7 @@ document.getElementsByClassName("mydivclass")[0].innerHTML="0) Hello There Class
 document.getElementsByClassName("mydivclass")[1].innerHTML="1) Hello There Class and there can be more like you in the same document";
 document.getElementsByClassName("mydivclass")[2].innerHTML="2) Hello There Class and there can be more like you in the same document";
 */
-
-
+/*
 document.getElementById("mydiv").addEventListener("dblclick", function(){
   alert("You clicked");
 });
@@ -322,4 +321,119 @@ document.getElementById("mydiv").addEventListener("dblclick", function(){
 document.getElementById('mydiv').oncontextmenu = function() {
     return false;
 }
+
+ */
+/*
+let name = 'Svet';
+let city = 'Pittsburgh, PA';
+let hobby = 'play with dogs';
+let specialty = 'Software Engineer Jr';
+let age = 20;
+let is_he_good_person = true;
+
+
+let result = "My name is "+name+" and I live in "+city+" . I am a "+ specialty+" and I am "+age+" years old. Do I like programming? "+is_he_good_person;
+
+
+document.write('My Result: ' + result);*/
+/*
+let calculate_salary = {
+    'maosh':100000,
+    'bayrampoluchkasi': 20000,
+    'paycheck':function (filing_status) {
+        let tax = 15;
+        if (filing_status=='single'){
+            tax = 25;
+        }
+
+        let total_taxes = (this.salary + this.bonus) * tax / 100;
+        let gross = this.salary + this.bonus - total_taxes;
+        return gross;
+    }
+};
+document.write(calculate_salary.paycheck('joint'));
+const DOB = '01/01/1990'; // variableni teskarisi.. yani uzgaruvchan emas
+DOB = '02/02/2000';
+document.write(DOB);
+ */
+
+$(function () {
+let stop = false;
+$(".photo").click(function () {
+    var id = $(this).data('id');
+
+    if (id==1) {
+        $(".photo" + id + " img").attr('src', 'https://previews.123rf.com/images/urospoteko/urospoteko1502/urospoteko150200027/36499845-nature-spring-scene-vector.jpg');
+    }else if (id==2){
+        $(".photo" + id + " img").attr('src', 'https://www.lacrosseschools.org/spence/wp-content/uploads/sites/17/2018/02/warmth-clipart-spring-break-7.png');
+    }else if (id==3){
+        $(".photo" + id + " img").attr('src','https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtgwglpYt--L_o8TxEZXPQoCUtW3xziMbPu0F6wL4C_4iINYrr&usqp=CAU');
+    }else{
+        $(".photo" + id + " img").attr('src', 'https://static1.squarespace.com/static/538fc639e4b0aee513991a08/538fd9f4e4b06dffdfc01d40/56cca23355598604a52873b7/1456252607655/?format=1500w');
+    }
+
+});
+
+    function changeImage(count){
+        let random_num = Math.floor((Math.random() * 4) + 1);
+        let random_img_num = Math.floor((Math.random() * 4) + 1);
+        let random_img_num2 = Math.floor((Math.random() * 4) + 1);
+        let imgs = [
+            'https://previews.123rf.com/images/urospoteko/urospoteko1502/urospoteko150200027/36499845-nature-spring-scene-vector.jpg',
+            'https://previews.123rf.com/images/urospoteko/urospoteko1502/urospoteko150200027/36499845-nature-spring-scene-vector.jpg',
+            'https://www.lacrosseschools.org/spence/wp-content/uploads/sites/17/2018/02/warmth-clipart-spring-break-7.png',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtgwglpYt--L_o8TxEZXPQoCUtW3xziMbPu0F6wL4C_4iINYrr&usqp=CAU',
+            'https://static1.squarespace.com/static/538fc639e4b0aee513991a08/538fd9f4e4b06dffdfc01d40/56cca23355598604a52873b7/1456252607655/?format=1500w'
+        ];
+        $(".photo"+random_num+" span").text(random_num + count);
+        $(".photo"+random_num+" img").attr('src',imgs[random_img_num]);
+        $(".photo"+random_img_num+" img").toggle();
+        let num1 = Math.floor((Math.random() * 100) + 1);
+        let num2 = Math.floor((Math.random() * 100) + 1);
+        let num3 = Math.floor((Math.random() * 100) + 1);
+        let num4 = Math.floor((Math.random() * 100) + 1);
+        let num5 = Math.floor((Math.random() * 100) + 1);
+        let num6 = Math.floor((Math.random() * 100) + 1);
+
+        console.log(num1+' '+num2+' '+num3+' '+num4+' '+num5+' '+num6 );
+
+        let winning_number = [66,37,29,91,41,24];
+        //Prizes: all numbers $1000
+        //5 numbers $800
+        //4 numbers $600
+        //3 numbers $300
+        //2 number $10
+        //1 number $1
+    }
+
+
+    $("#btn_start").click(function () {
+        stop = false;
+    });
+    $("#btn_stop").click(function () {
+        stop = true;
+    });
+
+
+    let count = 0;
+    setInterval(function(){
+        if (stop){
+            return false;
+        }
+
+        count++;
+        changeImage(count);
+    }, 1000);
+
+
+
+
+
+
+});
+
+
+
+
+
 

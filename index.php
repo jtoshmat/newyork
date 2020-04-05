@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 //date_default_timezone_set('Europe/Moscow');
 
@@ -34,15 +35,20 @@ adasdasdasd
 </html>
 >>>>>>> f5e404d9490c6375d212b8f54288e95de4c72588
 =======
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hello There</title>
+</head>
+<body>
+>>>>>>> 15ce8eb6af8343fb33a319e5fd772834e305964d
 <?php
-
-require_once "inc/database.php";
-$db = new \Database\database();
-
-$records = $db->sql("SELECT * FROM airports");
-
-echo "<pre>";
-print_r($records);
+$name = 'Sukhrob Shadiyarov';
+echo $name;
+?>
+</body>
+</html>
 
 
 >>>>>>> 81f8101471daebaf80f9b303db7d76dcaeb78c4c
