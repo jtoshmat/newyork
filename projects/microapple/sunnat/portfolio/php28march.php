@@ -15,8 +15,7 @@
 include_once '../../database.php';
 $db = new \database\database();
 $result =$db->sql("SELECT * FROM users");
-echo "<pre>";
-print_r($result);
+
 ?>
 <div class="container-fluid">
     <div class="commentbox">
