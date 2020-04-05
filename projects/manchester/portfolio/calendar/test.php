@@ -33,7 +33,7 @@
 
     require_once '../database.php';
     $db = new \Database\database();
-    $sql = "SELECT * FROM calendar WHERE year = $current_year and month = $current_month";
+    $sql = "SELECT * FROM calendar WHERE year = $current_year and month = $current_month order by id desc";
     $events = $db->sql($sql);
 
     $daily_events = [];
@@ -143,6 +143,7 @@
                           $calendar_today_class = "class='my_date_class'";
                       }
                               $myevents = $daily_events[$current_calendar_day]['title']??null;
+                              $myevents = substr($myevents,0,15);
                               $priority = $daily_events[$current_calendar_day]['priority']??0;
                               $today_events = 'today_events_normal';
                               if ($priority==1){
@@ -155,7 +156,14 @@
                                   echo "<td class='blank_day'>&nbsp;</td>";
                               }else{
                                   if ($current_calendar_day <= $current_total_days) {
-                                      echo "<td data-date='$current_calendar_day' $popup_modal $calendar_today_class><div>$current_calendar_day <span class='$today_events'> $myevents </span></div><i class=\"fas fa-plus-circle calendar_add_icon\"></i></td>";
+                                      echo "<td data-date='$current_calendar_day' $popup_modal $calendar_today_class>
+                                            <div>$current_calendar_day 
+                                            </div>
+                                            <i class=\"fas fa-plus-circle calendar_add_icon\"></i>
+                                                <span class='$today_events'> $myevents </span>
+                                                
+                                            </td>";
+
                                   }else{
                                       echo "<td class='blank_day'>&nbsp;</td>";
                                   }
