@@ -50,7 +50,7 @@ if (isset($_SESSION['shopping_cart_qty'])){
                             }
                             ?>
                         </select>
-                        <button data-id="<?=$product['id']?>" class="myadd" id="add<?=$product['id']?> type="button">
+                        <button data-id="<?=$product['id']?>" class="myadd" id="add<?=$product['id']?>" type="button">
                             <i class="fas fa-plus myplus"></i>
                         </button>
                     </td>

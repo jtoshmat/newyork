@@ -37,17 +37,17 @@ if (isset($_SESSION['shopping_cart_qty'])){
                 <?foreach ($products as $product):?>
                 <tr>
                     <td><?=$product['id']?></td>
-                    <td><img src="<?=$product['image']?>"> </td>
+                    <td><img alt="" src="<?=$product['image']?>"> </td>
                     <td><?=$product['product_name']?></td>
                     <td><?=$product['price']?></td>
                     <td><?=$product['quantity']?></td>
                     <td>
-                        <select name="qty" id="qty<?=$product['id']?>">
+                        <select  name="qty" id="qty<?=$product['id']?>">
                             <?for($i=1; $i<=$product['quantity']; $i++):?>
                             <option value="<?=$i?>"><?=$i?></option>
                             <?endfor?>
                         </select>
-                        <button data-id="<?=$product['id']?>" class="myadd" id="add<?=$product['id']?> type="button">
+                        <button type="button" data-id="<?=$product['id']?>" class="myadd" id="add<?=$product['id']?>">
                             <i class="fas fa-plus myplus"></i>
                         </button>
                     </td>
