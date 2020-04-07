@@ -357,6 +357,8 @@ DOB = '02/02/2000';
 document.write(DOB);
  */
 
+
+
 $(function () {
 
 $(".photo").click(function () {
