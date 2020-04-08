@@ -1,15 +1,39 @@
 <?php
 session_start();
-$username = $_POST['username'];
-$password = $_POST['password'];
+$username = $_POST['username']??null;
+$password = $_POST['password']??null;
 
 if (!$username || !$password){
-    header("Location: login.php?msg=Username or password missing");
-    exit;
+    exit('sorry');
 }
-if ($username != 'sukhrobshadiyarov@outlook.com' || $password != 'abc123'){
-    header("Location: login.php?msg=User name or password incorrect");
-    exit;
+
+if ($username !='sukhrobshadiyarov@outlook.com' || $password !='abc123'){
+    exit('sorry');
 }
-$_SESSION['account_logged']= true;
-header("Location: dashboard.php");
+
+$_SESSION['user_logged_in'] = true;
+?>
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Backend</h1>
+
+
+<div>
+    <nav>
+        <a href="dashboard.php">Dashboard</a>
+        <a href="account.php">ACCOUNT</a>
+    </nav>
+</div>
+
+</body>
+</html>

@@ -73,4 +73,53 @@ function sortirovka($city, $count)
 
 </style>
 
+    <?php
+
+
+class Football{
+    public function clubs($name){
+        $players = ['Pogba','Pirlo','Zidane','Figo','Ronaldo','Messi','Totti','Henry', 'Robben','Ribery'];
+        foreach ($players as $count=>$player){
+            $count++;
+            echo "<pre>";
+            echo $count. '.' .$player. ' ' .$name;
+        }
+    }
+}
+
+$result = new \Football();
+$result->clubs('Putin');
+
+?>
+
+<?php
+
+$players = ['Pogba','Pirlo','Zidane','Figo','Ronaldo','Messi','Totti','Henry', 'Robben','Ribery'];
+
+foreach ($players as $count=>$player){
+    if ($count%3==0){
+        echo "<pre>";
+        echo "<div class='main'>$player</div>";
+    }else{
+        echo "<pre>";
+        echo "<div class='second'>$player</div>";
+    }
+}
+
+?>
+
+<style>
+
+    .main{
+        color: red;
+    }
+    .second{
+        color: blue;
+    }
+
+</style>
+
+
+
+
 

@@ -18,12 +18,9 @@ if (isset($_SESSION['shopping_cart_qty'])){
     <script src="/js/jquery.js"></script>
 </head>
 <body>
-<?include_once 'backend/products.php'?>
+<?include_once 'backend/shoppingcart.php'?>
 <div class="container-fluid">
-    <div id="checkout_display">
-        <a href="checkout.php"><i class="fas fa-shopping-cart"></i> (<span id="total_items"><?=$shopping_cart_qty?></span>)</a>
-    </div>
-    <div class="mytitle">Welcome to my online shop!</div>
+    <div class="mytitle">Checkout Page</div>
     <div id="shoppingcart">
             <table class="table table-bordered mytable">
                 <tr>
@@ -40,12 +37,18 @@ if (isset($_SESSION['shopping_cart_qty'])){
                     <td><img src="<?=$product['image']?>"> </td>
                     <td><?=$product['product_name']?></td>
                     <td><?=$product['price']?></td>
-                    <td><?=$product['quantity']?></td>
+                    <td><?=$product['qty']?></td>
                     <td>
                         <select name="qty" id="qty<?=$product['id']?>">
-                            <?for($i=1; $i<=$product['quantity']; $i++):?>
-                            <option value="<?=$i?>"><?=$i?></option>
-                            <?endfor?>
+                            <?
+                            for($i=1; $i<=$product['qty']; $i++){
+                                if ($product['qty'] == $i){
+                                    echo "<option selected value='$i'>$i</option>";
+                                }else{
+                                    echo "<option value='$i'>$i</option>";
+                                }
+                            }
+                            ?>
                         </select>
                         <button data-id="<?=$product['id']?>" class="myadd" id="add<?=$product['id']?> type="button">
                             <i class="fas fa-plus myplus"></i>
@@ -56,34 +59,36 @@ if (isset($_SESSION['shopping_cart_qty'])){
                 <?endforeach;?>
             </table>
     </div>
+    <div id="shoppingcart_buttons">
+        <button class="btn btn-dark" id="reset_my_shoppingcart_button">Reset</button>
+        <button class="btn btn-success" id="checkout_my_shoppingcart_button">Checkout</button>
+    </div>
 </div>
 <script>
     $(function () {
-        $('.myadd').click(function () {
-            let product_id = $(this).data('id');
-            let qty = $("#qty"+product_id).val();
-            let mydata = {
-                'product_id': product_id,
-                'qty':qty
-            };
-            $.post( "backend/backend.php",mydata, function( output ) {
-                let total = output;
-                $("#total_items").text(total);
-                return false;
-                //document.location = "http://newyork.local/tutorials/shoppingcart/index.php";
-            });
+        $("#reset_my_shoppingcart_button").click(function () {
+            let ask = confirm("Are you sure you want to empty your basket?");
+            if (ask){
+                $.post( "backend/emptyshoppingcart.php", function( output ) {
+                    alert("Your basket is empty and you are now being redirected to shopping page");
+                    document.location = "http://newyork.local/tutorials/shoppingcart/index.php";
+                    return false;
+                });
+            }
         });
     });
 </script>
 <style>
 
-    .myplus{
-        font-size: 130%;
+    #shoppingcart_buttons{
+        width: 80%;
+        height:  auto;
+        margin: 1px auto;
+        text-align: right;
     }
 
-    #checkout_display a{
-        text-decoration: none;
-        color: wheat;
+    .myplus{
+        font-size: 130%;
     }
 
     #checkout_display{

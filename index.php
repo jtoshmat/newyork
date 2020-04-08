@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php
 //date_default_timezone_set('Europe/Moscow');
 
@@ -52,3 +53,7 @@ echo $name;
 
 
 >>>>>>> 81f8101471daebaf80f9b303db7d76dcaeb78c4c
+=======
+<?php
+echo "index";
+>>>>>>> 44c4bad2677af2ce7eb6c4df47748689f6d358ac
