@@ -1,9 +1,7 @@
 <?php
-include 'backend/database.php';
-$db = new \Database\database();
-$user = $db->sql("SELECT * FROM users WHERE id=1");
-echo "<pre>";
-$pwd = password_hash("password", PASSWORD_BCRYPT);
-echo $pwd;
+$password = 'password';
+$hash_password = md5($password);
+
+echo $password;
 echo "<hr>";
-echo $user[0]['password'];
+echo $hash_password;

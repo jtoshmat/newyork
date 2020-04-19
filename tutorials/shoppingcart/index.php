@@ -18,11 +18,12 @@ if (isset($_SESSION['shopping_cart_qty'])) {
     <script src="/js/jquery.js"></script>
 </head>
 <body>
+<? include 'includes/modal.php' ?>
 <? include_once 'backend/products.php' ?>
 <div class="container-fluid">
     <div id="checkout_display">
-        <a href="checkout.php"><i class="fas fa-shopping-cart"></i> (<span
-                    id="total_items"><?= $shopping_cart_qty ?></span>)</a>
+        <a id="total_items_btn" href="checkout.php"><i class="fas fa-shopping-cart"></i> <span
+                    id="total_items"><?= $shopping_cart_qty ?></span></a>
     </div>
     <div class="mytitle">Welcome to my online shop!</div>
     <div id="product_search_form">
@@ -86,6 +87,14 @@ if (isset($_SESSION['shopping_cart_qty'])) {
 </div>
 <script>
     $(function () {
+        $("#total_items_btn").click(function () {
+            let total_items = $("#total_items_btn").text();
+            if (total_items==0){
+                $("#myiteduModal").modal('show');
+                $(".modal-body").html('Your shopping cart is empty, please add products first.');
+                return false;
+            }
+        });
         $('.myadd').click(function () {
             let product_id = $(this).data('id');
             let qty = $("#qty" + product_id).val();
@@ -103,6 +112,14 @@ if (isset($_SESSION['shopping_cart_qty'])) {
     });
 </script>
 <style>
+
+    #total_items:before{
+        content: '(';
+    }
+    #total_items:after{
+        content: ')';
+    }
+
     #product_search_form label{
         font-size: 1.5em;
     }
@@ -207,5 +224,7 @@ if (isset($_SESSION['shopping_cart_qty'])) {
     }
 
 </style>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
