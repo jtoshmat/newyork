@@ -1,0 +1,263 @@
+<!-- <!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="/js/jquery.js"></script>
+</head>
+<body>
+
+<div id="mybox">
+    MY BOX
+</div>
+
+<style>
+    #mybox{
+        background-color: #113068;
+        width: 200px;
+        height: 200px;
+        color: white;
+    }
+</style>
+
+<script>
+    $(function () {
+        $("#mybox").click(function () {
+            let color = prompt("Please enter the color:");
+            $(this).css("background-color",color);
+        });
+    });
+</script>
+
+</body>
+</html> -->
+<!--<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="/js/jquery.js"></script>
+</head>
+<body>
+
+<div class="mybox item1"><span>21 years old</span></div>
+<div class="mybox item2"><span>0 year old</span></div>
+<div class="mybox item3"><span>25 years old</span></div>
+<div class="mybox item4"><span>18 years old</span></div>
+<hr>
+<div id="result">
+
+</div>
+<hr>
+<input id="myinput" name="keyword" placeholder="Enter your image title">
+<hr>
+<button class="btn btn-info" id="reset_btn">Reset</button>
+<button class="btn btn-success" id="purchase_btn">Purchase</button>
+<style>
+
+    #myinput{
+        width: 520px;
+        height: 45px;
+        border: none;
+        border:1px solid black;
+        border-radius: 10px;
+    }
+
+    #myinput::placeholder{
+        padding-left: 50px;
+    }
+
+    #result{
+        background-color: black;
+        color: #ffbb43;
+        padding:5px;
+        font-size: 140%;
+    }
+    .mybox_clicked{
+        border: 10px dotted #ff2b1f;
+    }
+    .mybox span{
+        background-color: #0f110e;
+        color: yellow;
+        font-size: 110%;
+        font-family: "American Typewriter";
+        letter-spacing: 3px;
+        padding:5px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .mybox{
+        cursor: pointer;
+        background-color: #113068;
+        width: 400px;
+        height: 400px;
+        color: white;
+        background-image: url("https://images.axios.com/v9PMpP6yM7cybEsDD9hKbctu4tQ=/0x256:5120x3136/1920x1080/2019/11/01/1572630588212.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin: 10px;
+
+    }
+    .item1{
+        background-image: url("https://cdn.britannica.com/07/190707-131-8F7AEBD5/types-alcohol-shelves-Bucharest-pub-Romania.jpg");
+    }
+    .item2{
+        background-image: url("https://media.mehrnews.com/d/2020/02/04/4/3371550.jpg");
+    }
+    .item3{
+        background-image: url("https://www.motortrend.com/uploads/sites/5/2019/12/MotorTrend-Most-Important-Cars-of-the-Decade.jpg");
+    }
+</style>
+
+<script>
+    $(function () {
+        let counter = 0;
+        $("#reset_btn").click(function () {
+            $(".mybox").fadeIn();
+        });
+        $("#purchase_btn").click(function () {
+            let age = prompt("How old are you?");
+            //var d = new Date();
+            //var current_year = d.getFullYear();
+            //let age = current_year - dob;
+            if (age<18){
+                $(".mybox").fadeOut('slow');
+                $(".item2").fadeIn('slow')
+            }else if(age<21 && age > 18){
+                $(".mybox").fadeOut('slow');
+                $(".item2").fadeIn('slow');
+                $(".item4").fadeIn('slow');
+            }else if(age<25 && age > 21){
+                $(".mybox").fadeOut('slow');
+                $(".item1").fadeIn('slow');
+                $(".item2").fadeIn('slow');
+                $(".item4").fadeIn('slow');
+            }else if(age>25){
+                $(".mybox").fadeOut('slow');
+                $(".item1").fadeIn('slow');
+                $(".item2").fadeIn('slow');
+                $(".item3").fadeIn('slow');
+                $(".item4").fadeIn('slow');
+            }
+
+        });
+        $(".mybox").click(function () {
+            counter++;
+            if (counter>1){
+                alert("I am sorry you are allowed to select only 1 items");
+                return false;
+            }
+            $(this).toggleClass('mybox_clicked');
+            $("#result").html("Counter: "+counter);
+        });
+    });
+
+
+
+</script>
+
+</body>
+</html> -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="/js/jquery.js"></script>
+</head>
+<body>
+
+
+<div id="jon">
+
+    <div>
+        Search: <input name="keyword" type="text"><button>Search</button>
+    </div>
+    <hr>
+
+    <div data-country="Uzbekistan" class="myimg">
+        <img src="https://www.globalresearch.ca/wp-content/uploads/2019/05/uzbekistan.jpg">
+    </div>
+
+    <div data-country="Ukraine" class="myimg">
+        <img src="https://static.coindesk.com/wp-content/uploads/2017/08/ukraine-europe-e1502484605407.jpg">
+    </div>
+
+    <div data-country="Brazil" class="myimg">
+        <img src="https://ca-times.brightspotcdn.com/dims4/default/d6c49a0/2147483647/strip/true/crop/2048x1151+0+0/resize/840x472!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F61%2Ffb%2Fdc921ccd651569c24e142804d3b7%2Fla-1553121437-jhhmvks1tp-snap-image">
+    </div>
+    <h4>The airports for <span id="selected_country_name">Uzbekistan</span></h4>
+    <table class="table table-bordered" id="mytable_results">
+
+    </table>
+</div>
+<style>
+
+    th{
+        background-color: darkred;
+        color: #ffc45b;
+    }
+
+    td, th{
+        border:1px solid black !important;
+    }
+
+    table{
+        background-color: whitesmoke;
+        border: 1px solid black;
+    }
+
+    body{
+        background-color: #202f58;
+        color: whitesmoke;
+    }
+
+    #jon{
+        width: 64%;
+        margin: 100px 100px;
+        text-align: center;
+    }
+
+    .myimg img{
+        width: 300px;
+        height: 250px;
+    }
+    .myimg{
+        width: auto;
+        height: auto;
+        display: inline-block;
+        margin: 10px;
+        border: 5px double darkred;
+        cursor: alias;
+    }
+</style>
+<script>
+    $(function () {
+        $(".myimg").click(function () {
+            let country = $(this).data('country');
+            $("#selected_country_name").html(country);
+            let input = {
+                'country': country
+            };
+            $.post( "../backend/getairports.php", input, function( output ) {
+                $("#mytable_results").html(output);
+            });
+
+        })
+    });
+</script>
+</body>
+</html> -->
