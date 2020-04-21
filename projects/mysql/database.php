@@ -15,6 +15,7 @@
             $password = "";
             try {
                 $this->con = new \mysqli($servername, $username, $password, $dbname);
+                $this->con->set_charset("utf8mb4");
             }catch(Exception $e) {
                 $this->error = $e->getMessage();
             }
