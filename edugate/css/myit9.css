@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-html,body{
+
+html, body {
     width: 100%;
     height: 100%;
 }
@@ -18,24 +19,32 @@ html,body{
     background-color: #1b2132;
     color: green;
 }
-.mybox10{
+
+.mybox10 {
     width: 15%;
     margin-left: 35px;
     padding-top: 15px;
+    padding-left: 15px;
     display: inline-block;
 }
-.mybox13{
+
+.mybox13 {
     color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .mybox14 {
-    display: inline;
+    float: right;
+    display: inline-block;
 }
-.mybox15{
+
+.mybox15 {
     display: inline;
     float: right;
 }
-.mybox2{
+
+.mybox2 {
     width: 100%;
     height: 72px;
     padding-top: 7px;
@@ -43,8 +52,9 @@ html,body{
     margin-top: 0px;
     background-color: #ffffff;
 }
-.mybox3{
-    width:100%;
+
+.mybox3 {
+    width: 100%;
     height: 300px;
     background-color: #a4c3ff;
 }

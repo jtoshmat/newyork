@@ -18,27 +18,29 @@
 
     <div class="mybox1">
         <div class="mybox10 mybox11">
-            <i class="fas fa-envelope myenv"></i> <span>admin@myitedu.com</span>
+            <i class="fas fa-envelope myenv"> </i>
+            <a href="e-mail">admin@myitedu.com </a>
         </div>
         <div class="mybox10 mybox12">
-            <i class="fas fa-phone"> </i> <span>+84909015345</span>
+            <i class="fas fa fa-phone-alt"> </i>
+            <a href="call">+84 909 015 345</a>
         </div>
         <div class="mybox10 mybox13">
             <i class="fab fa-facebook"> </i>
-            <i class="fab fa-google"> </i>
-            <i class="fab fa-instagram"> </i>
+            <i class="fab fa-google-plus"> </i>
             <i class="fab fa-twitter"> </i>
-            <i class="fab fa-dribble"> </i>
-            <i class="fab fa-youtube"> </i>
-
-    </div>
+            <i class="fab fa-dribbble"> </i>
+            <i class="fab fa-pinterest"> </i>
+            <i class="fab fa-instagram"> </i>
+            <span class="mybox14">Login | Register</span>
+        </div>
     </div>
 
     <div class="mybox2">
-     <img src="http://wp.swlabs.co/edugate/wp-content/uploads/2015/12/logo-1.png" alt="picture">
+        <img src="http://wp.swlabs.co/edugate/wp-content/uploads/2015/12/logo-1.png" alt="picture">
     </div>
     <div class="mybox3"></div>
-    
+
 </div>
 
 </body>
