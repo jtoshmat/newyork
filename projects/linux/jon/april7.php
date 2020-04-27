@@ -41,11 +41,10 @@ $airports = $db->sql("SELECT * FROM airports LIMIT 20;");
             <td><?php echo $airport['country']?></td>
             <td><?php echo $airport['code']?></td>
             <td><?php echo $airport['world_area_code']?></td>
+            <?php
+      endforeach;
+      ?>
         </tr>
-        <?php
-        endforeach;
-        ?>
-
     </table>
 </div>
 

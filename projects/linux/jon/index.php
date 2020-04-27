@@ -53,7 +53,7 @@
         color: yellow;
 
     }
-    .left_menu_nav li:hover{
+    .left_menu_nav li:hover {
         background-color: darkred;
         cursor: pointer;
     }
@@ -127,6 +127,7 @@ body{
     height: 40px;
     background-color: #630000;
     box-shadow: #98836d 5px 5px 85px 0px;
+    color: green;
 }
     #mycontent{
         width: 100%;
