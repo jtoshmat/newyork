@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Calculator</title>
-    <link rel="stylesheet" href="/css/bootstrap.css"
+    <link rel="stylesheet" href="/css/bootstrap.css">
     <script src="/js/jquery.js"></script>
 </head>
 <body>
@@ -55,31 +55,28 @@
     .mytitle {
         text-align: center;
     }
-
     td:hover {
         background-color: #b6b7b8;
         cursor: pointer;
     }
-
     tr td:last-child {
         background-color: #fd8d0f !important;
     }
-
     tr td:last-child:hover {
         background-color: #eb7c0f !important;
     }
-
     tr:nth-child(2) td {
         background-color: #494a4d;
     }
-
+    tr:nth-child(2) td:hover {
+        background-color: #757677;
+    }
     th {
         background-color: #4e5052;
         color: white;
         text-align: right;
         font-size: 200%;
     }
-
     td {
         background-color: #757677;
         color: white;
@@ -87,20 +84,21 @@
         font-size: 130%;
         width: 30px;
     }
-
     .container {
         background-color: whitesmoke;
         padding: 10px;
         margin: 50px auto;
     }
-
     body {
         background-color: #0a1630;
     }
 </style>
 <script>
     $(function () {
-    alert("asddd");
+        $("td").click(function () {
+            let val = $(this).text();
+            $(".display_area").html(val);
+        });
     });
 </script>
 </body>
