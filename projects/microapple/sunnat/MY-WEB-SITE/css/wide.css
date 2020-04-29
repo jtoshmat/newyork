@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: white;
+}
+/*------>HEADER<-----*/
+.header {
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 3px;
+    display: inline-flex;
+}
+.blog{
+    font-size: 120%;
+    color: grey;
+    padding: 3px;
+    margin: 5px;
+}
+hd {
+    color: black;
+
+}
+.header a {
+    float: right;
+    color: black;
+    margin: 25px;
+    position: relative;
+    top: -10px;
+    left: 900px;
+    text-decoration: none;
+}
+.header a:hover {
+    color: #73a322;
+}
+#icon {
+    display: none;
+}
+/*------>LEFT_DIV<-----*/
+.left_div{
+    width: 40%;
+    height: 100%;
+}
+.image_box img{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+.left_div h4{
+    position: relative;
+    top: 80px;
+    left: 170px;
+    font-weight: bolder;
+}
+.biograpy{
+    color: #bababa;
+    position: relative;
+    top: 85px;
+    left: 180px;
+}
+.biograpy hd{
+    color: #909090;
+}
+.get_in_touch{
+    position: relative;
+    top: 100px;
+    left: 178px;
+    color: darkgrey;
+    font-size: medium;
+}
+.get_in_touch hd{
+    text-decoration: #6b8ed4;
+    color: #666666;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.btn{
+    position: relative;
+    top: 130px;
+    left: 170px;
+}
+/*------>RIGHT_DIV<-----*/
+.right_div{
+    width: 60%;
+    height: 100%;
+    float: right;
+    position: relative;
+    top: -720px;
+    text-align: center;
+}
+.first_image h3{
+    margin: 20px;
+    font-size: 200%;
+    font-weight: bolder;
+}
+.first_image p{
+    position: relative;
+    top: -25px;
+    color: lightgrey;
+}
+.mylock{
+    position: relative;
+    top: 35px;
+    left: -180px;
+    font-size: 150%;
+}
+.first_image img{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    top: -30px;
+    left: 5px;
+}
+.second_image h3{
+    font-size: 200%;
+    font-weight: bolder;
+}
+.second_image p{
+    position: relative;
+    top: -25px;
+    color: lightgrey;
+}
+.mylock{
+    position: relative;
+    top: 35px;
+    left: -180px;
+    font-size: 150%;
+}
+.second_image img{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    top: -30px;
+    left: 5px;
+}
+.third_image h3{
+    font-size: 200%;
+    font-weight: bolder;
+}
+.third_image p{
+    position: relative;
+    top: -25px;
+    color: lightgrey;
+}
+.mylock{
+    position: relative;
+    top: 35px;
+    left: -180px;
+    font-size: 150%;
+}
+.third_image img{
+    width: 800px;
+    height: 500px;
+    position: relative;
+    top: -30px;
+    left: 5px;
+}
+/*------>BOTTOM_DIV<-----*/
+.bottom_div{
+    color: black;
+    position: relative;
+    top: 80px;
+    left: -260px;
+}
+#copyright{
+    position: relative;
+    left: 1px;
+    top: 3px;
+    font-size: 200%;
+    color: black;
+}
+.fas{
+    display: none;
+}
+.menu{
+    display: none;
+}
+/*------>ABOUT_ME_PAGE<-----*/
+.figure{
+    width: 300px;
+    position: relative;
+    left: 40%;
+    top: 50px;
+}
+#myname{
+    color: black;
+    font-size: 150%;
+    font-weight: bolder;
+    position: relative;
+    left: 40px;
+}
+.figure-caption{
+    color: darkgrey;
+}
+/*------>CONTACT_PAGE<-----*/
+.contact{
+    width: 100%;
+    height: 95px;
+}
+.contact h4{
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: "American Typewriter";
+    margin: 20px auto;
+}
+.contact p{
+    text-align: center;
+    color: darkgrey;
+    font-size: 130%;
+}
+.input_div{
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+.name_input{
+    width: 40%;
+    border-radius: 5px;
+}
+.email_input{
+    width: 40%;
+    border-radius: 5px;
+}
+.textarea{
+    width: 40%;
+    height: 200px;
+    border-radius: 5px;
+}
+.btn{
+    position: relative;
+    top: 40px;
+    left: -340px;
+}
+.demo{
+    position: relative;
+    left: 800px;
+    top: -365px;
+    color: darkgrey;
+    font-size: medium;
+}
+
+.demo hd{
+    text-decoration: #6b8ed4;
+    color: #666666;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.follow{
+    position: relative;
+    top: -350px;
+    left: 800px;
+}
+.fab{
+    font-size: 200%;
+    cursor: pointer;
+    margin: 5px;
+}
+#instagram{
+    color: #c32aa3;
+}
+#facebook{
+    color: #3b5998;
+}
+#linkedin{
+    color: #0e76a8;
+}
+#twitter{
+    color: #1DA1F2;
+}
+#phone{
+    position: relative;
+    top: -330px;
+    left: 800px;
+}
+.call{
+    position: relative;
+    top: -320px;
+    left: 800px;
+    display: none;
+}

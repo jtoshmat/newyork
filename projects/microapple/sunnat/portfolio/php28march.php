@@ -11,12 +11,6 @@
     <link rel="stylesheet" href="../../../../fontawesome/css/all.css">
 </head>
 <body>
-<?php
-include_once '../../database.php';
-$db = new \database\database();
-$result =$db->sql("SELECT * FROM users");
-
-?>
 <div class="container-fluid">
     <div class="commentbox">
         <div class="youtubelogo">
