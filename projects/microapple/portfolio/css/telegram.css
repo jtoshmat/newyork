@@ -203,6 +203,9 @@ body{
     margin-right: 3px;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
 .smileicon2{
     color: #e2b022;
     font-size: 130%;
@@ -219,6 +222,7 @@ body{
 }
 
 
+>>>>>>> b16680d6d4ce91b2f1298dc3fb55d85b95916b73
 /*Chat texts properties*/
 .chat_texts{
     font-size: medium;
@@ -226,3 +230,4 @@ body{
     word-wrap: break-word;
     margin: 0px 0px 0px 5px;
 }
+>>>>>>> 48d3367635a74d1e3f986791df4b952ff6a0a58a

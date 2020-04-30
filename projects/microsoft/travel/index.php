@@ -46,14 +46,14 @@
 
     <div class="bottomdiv">
         <div class="container1 bottomcontainer">
-            <img src="img/pin.svg">
+            <img src="../img/pin.svg">
         </div>
         <div class="container2 bottomcontainer">
             <p>Unlock up to 42% off select hotels when you book a flight on Expedia</p>
             <p>Your discount lasts until your trip starts</p>
         </div>
         <div class="container3 bottomcontainer">
-            <img src="img/illustration-v2.svg">
+            <img src="../img/illustration-v2.svg">
         </div>
     </div>
 
@@ -145,7 +145,7 @@
         width: 100%;
         height: 550px;
         background-color: #000000;
-        background-image: url("img/imgad.jpg");
+        background-image: url("../img/imgad.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
 

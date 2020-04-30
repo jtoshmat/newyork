@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.whitebox{
+    height: 300px;
+    width: 300px;
+    color: red;
+    background-color: white;
+    margin-top: 219px;
+    margin-left: 247px;
+    text-align: center;
+    padding-top: 120px;
+    font-size: 30px;
+    font-style: italic;
+    font-variant: all-petite-caps;
+}

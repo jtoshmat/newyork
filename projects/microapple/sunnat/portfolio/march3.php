@@ -28,7 +28,7 @@
             $(this).css('background-color', 'blue');
         });
         $(".box").dblclick(function () {
-            $(this).fadeOut('fast');
+            $(this).fadeOut('slow');
         });
 
     });

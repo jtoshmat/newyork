@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: white;
+}
+/*------>HEADER<-----*/
+.header{
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+#list{
+    position: relative;
+    top: -35px;
+    right: -780px;
+    font-size: 150%;
+    cursor: pointer;
+}
+#icons{
+    position: relative;
+    left: 5px;
+}
+.blog{
+    font-size: 120%;
+    color: grey;
+    padding: 5px;
+    margin: 5px;
+}
+hd {
+    color: black;
+
+}
+.header a{
+    display: none;
+}
+#icon{
+    font-size: 150%;
+    color: black;
+    float: right;
+    padding: 10px;
+    position: relative;
+    top: -40px;
+}
+/*------>LEFT_DIV<-----*/
+.image_box img{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 230px;
+    top: 50px;
+}
+.left_div h4{
+    position: relative;
+    top: 75px;
+    left: 320px;
+    font-weight: bolder;
+}
+.biograpy{
+    color: #bababa;
+    position: relative;
+    top: 100px;
+    left: 330px;
+}
+.biograpy hd{
+    color: #909090;
+}
+.get_in_touch{
+    position: relative;
+    top: 130px;
+    left: 330px;
+    color: darkgrey;
+    font-size: medium;
+}
+.get_in_touch hd{
+    text-decoration: #6b8ed4;
+    color: #666666;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.btn{
+    position: relative;
+    top: 150px;
+    left: 327px;
+}
+/*------>RIGHT_DIV<-----*/
+.right_div{
+    width: 100%;
+    height: 100%;
+    float: right;
+    position: relative;
+    top: 180px;
+    text-align: center;
+}
+.first_image h3{
+    font-size: 200%;
+    font-weight: bolder;
+}
+.first_image p{
+    position: relative;
+    top: -25px;
+    color: lightgrey;
+}
+.mylock{
+    position: relative;
+    top: 35px;
+    left: -180px;
+    font-size: 150%;
+}
+.first_image img{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    top: -40px;
+    left: 5px;
+}
+.second_image h3{
+    font-size: 200%;
+    font-weight: bolder;
+}
+.second_image p{
+    position: relative;
+    top: -25px;
+    color: lightgrey;
+}
+.mylock{
+    position: relative;
+    top: 35px;
+    left: -180px;
+    font-size: 150%;
+}
+.second_image img{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    top: -40px;
+    left: 5px;
+}
+.third_image h3{
+    font-size: 200%;
+    font-weight: bolder;
+}
+.third_image p{
+    position: relative;
+    top: -25px;
+    color: lightgrey;
+}
+.mylock{
+    position: relative;
+    top: 35px;
+    left: -180px;
+    font-size: 150%;
+}
+.third_image img{
+    width: 700px;
+    height: 600px;
+    position: relative;
+    top: -40px;
+    left: 5px;
+}
+/*------>BOTTOM_DIV<-----*/
+.bottom_div{
+    color: black;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+#copyright{
+    position: relative;
+    left: -160px;
+    top: 23px;
+    font-size: 100%;
+}
+.menu{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    list-style: none;
+    background-color: black;
+    position: relative;
+    left: 602px;
+    top: -7px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 100%;
+    color: white;
+    font-weight: bolder;
+    padding: 18px;
+    display: none;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #73a322;
+}
+/*------>ABOUT_ME_PAGE<-----*/
+.figure{
+    width: 300px;
+    position: relative;
+    left: 33%;
+    top: 50px;
+}
+#myname{
+    color: black;
+    font-size: 150%;
+    font-weight: bolder;
+    position: relative;
+    left: 40px;
+}
+/*------>CONTACT_PAGE<-----*/
+.contact{
+    width: 100%;
+    height: 100px;
+}
+.contact h4{
+    text-align: center;
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: "American Typewriter";
+    margin: 20px auto;
+}
+.contact p{
+    text-align: center;
+    color: darkgrey;
+    font-size: 130%;
+}
+.input_div{
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.name_input{
+    width: 93%;
+    border-radius: 5px;
+}
+.email_input{
+    width: 93%;
+    border-radius: 5px;
+}
+.textarea{
+    width: 93%;
+    height: 200px;
+    border-radius: 5px;
+}
+.btn{
+    position: relative;
+    top: 40px;
+    left: -400px;
+}
+.demo{
+    position: relative;
+    left: 40px;
+    top: 130px;
+    color: darkgrey;
+    font-size: medium;
+}
+
+.demo hd{
+    text-decoration: #6b8ed4;
+    color: #666666;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.follow{
+    position: relative;
+    top: -60px;
+    left: 500px;
+}
+.fab{
+    font-size: 200%;
+    cursor: pointer;
+    margin: 5px;
+}
+#instagram{
+    color: #c32aa3;
+}
+#facebook{
+    color: #3b5998;
+}
+#linkedin{
+    color: #0e76a8;
+}
+#twitter{
+    color: #1DA1F2;
+}
+#phone{
+    position: relative;
+    top: -60px;
+    left: 40px;
+}
+.call{
+    position: relative;
+    left: 40px;
+    top: -45px;
+    display: none;
+}

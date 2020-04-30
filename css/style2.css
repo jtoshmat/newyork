@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: #efefef;
+    width:1085px;
+    padding:0;
+    margin:0;
+    margin:auto;
+    height:500px;
+}
+nav{
+text-align: right;
+background-color: black;
+}
+

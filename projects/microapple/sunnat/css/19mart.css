@@ -1,0 +1,118 @@
+body{
+    background-color: cadetblue;
+}
+.bigbox{
+    display: inline-flex;
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+    background-image: url("https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.leftdiv{
+    display: block;
+    width: 250px;
+}
+.middlediv{
+    display: block;
+    margin-top: 30px;
+    width: 500px;
+}
+.rightdiv{
+    display: block;
+    width: 250px;
+}
+.left-top-div{
+    margin: 15px 0 0 7px;
+    border: 1px solid green;
+    width: 95%;
+    height: 280px;
+    background-image: url("https://images.pexels.com/photos/1227520/pexels-photo-1227520.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.left-bottom-div{
+    margin: 15px 0 0 7px;
+    border: 1px solid green;
+    width: 95%;
+    height: 280px;
+    background-image: url("https://images.unsplash.com/photo-1508349937151-22b68b72d5b1?ixlib=rb-1.2.1&w=1000&q=80");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.right-top-div{
+    margin: 15px 0 0 7px;
+    border: 1px solid green;
+    width: 95%;
+    height: 280px;
+    background-image: url("https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.right-bottom-div{
+    margin: 15px 0 0 7px;
+    border: 1px solid green;
+    width: 95%;
+    height: 280px;
+    background-image: url("https://lh3.googleusercontent.com/proxy/WSfiPtrygYtfDE5b0FBrJXAFtuGSndjzz9fIvucmUNsE8s7wffcR9eiysofrWmmmQGznlor5jgWo48GhJNYkJ2W5p4AKCyhNBb3-rcDFJvoS49laMRm6y5mOdFqqvPNsXYxz");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.left-top-div:hover{
+    box-shadow: 0 0 35px greenyellow;
+}
+.left-bottom-div:hover{
+    box-shadow: 0 0 35px blue;
+}
+.right-top-div:hover{
+    box-shadow: 0 0 35px greenyellow;
+}
+.right-bottom-div:hover{
+    box-shadow: 0 0 35px blue;
+}
+.bigbox h3{
+    text-align: center;
+    color: #00e200;
+}
+.bigbox p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 90%;
+    font-weight: bolder;
+    margin: 0 0 0 10px;
+}
+.bigbox ul{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 90%;
+}
+.bigbox hd{
+    color: #00e200;
+}
+.bigbox table {
+    position: relative;
+    top: 50px;
+    margin:10px 0 0 40px;
+    width: 400px;
+    height: 5px;
+    color: whitesmoke;
+    font-size: 70%;
+    border-color: #0092c5;
+}
+.first-child{
+    background-color: yellow;
+    color: black;
+}
+.btn{
+    position: relative;
+    top: 84px;
+    left: 175px;
+}

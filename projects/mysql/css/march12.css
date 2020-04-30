@@ -49,3 +49,13 @@ body{
     padding:20px;
     text-align: center;
 }
+
+.special_left_td{
+    text-align: right;
+    font-size: 130% !important;
+    font-family: "American Typewriter";
+}
+.special_right_td{
+    text-align: left;
+    font-size: 130% !important;
+}
