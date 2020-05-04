@@ -21,6 +21,47 @@ if (isset($_SESSION['shopping_cart_qty'])) {
 <? include 'includes/modal.php' ?>
 <? include_once 'backend/products.php' ?>
 <div class="container-fluid">
+    <div class="mynavbar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <?php if (isset($_SESSION['user'])):?>
+                <img class="user_avatar" src="../../img/default_photo_cirle_profile.png">
+            <?php endif?>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/tutorials/shoppingcart/backend/logout.php">Logout</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+
     <div id="checkout_display">
         <a id="total_items_btn" href="checkout.php"><i class="fas fa-shopping-cart"></i> <span
                     id="total_items"><?= $shopping_cart_qty ?></span></a>
@@ -112,6 +153,13 @@ if (isset($_SESSION['shopping_cart_qty'])) {
     });
 </script>
 <style>
+    .user_avatar{
+        width: 40px;
+    }
+    .container-fluid{
+        margin:0px !important;
+        padding: 0px !important;
+    }
 
     #total_items:before{
         content: '(';
@@ -170,8 +218,8 @@ if (isset($_SESSION['shopping_cart_qty'])) {
 
     #checkout_display {
         position: absolute;
-        right: 1%;
-        top: 20px;
+        right: 0%;
+        top: 70px;
         width: 200px;
         text-align: center;
         padding: 10px;
