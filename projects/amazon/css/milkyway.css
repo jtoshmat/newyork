@@ -1,0 +1,111 @@
+h1 {
+    color: #e32360;
+}
+
+body {
+    background-image: url("https://ak4.picdn.net/shutterstock/videos/1019365444/thumb/1.jpg");
+    background-size: cover;
+}
+
+/*.mytable table {
+    margin: 20px;
+}
+
+table tr, td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: grey;
+}
+
+.myimg {
+    width: 50px;
+    height: 50px;
+}
+*/
+h2 {
+    color: #e32360;
+    text-align: center;
+}
+
+p {
+    color: #2ce3cd;
+}
+
+.box {
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    color: #00a2f9;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    margin: 20px;
+    text-align: center;
+    line-height: 60px;
+    background-image: url("https://media.istockphoto.com/vectors/water-circle-splash-element-vector-id675962296?k=6&m=675962296&s=612x612&w=0&h=sM9_knTm4Xumh9C6ki55tTe41_25eaw2gG63d36OvTw=");
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 22px;
+
+}
+.box:hover{
+    background-image: url("https://nineplanets.org/wp-content/uploads/2019/09/jupiter.png");
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+
+}
+.solar {
+    margin: auto;
+    width: 720px;
+    height: 200px;
+
+}
+
+h3 {
+    color: #e32360;
+    margin: auto;
+}
+
+
+#myform {
+    width: 500px;
+    margin: auto;
+}
+.my_second_form{
+    width: 500px;
+    height: 600px;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 10%;
+}
+h1{
+    text-align: center;
+
+}
+.inside{
+    margin-left: 53px;
+    border: 2px solid darkgreen;
+    width: 350px;
+    height: 400px;
+    background-color: #0c5460;
+    padding: 20px;
+    border-radius: 10%;
+}
+.myinp{
+    margin-left: 28px;
+}
+#myinput{
+    margin-left: 58px;
+}
+.mybtn{
+ margin-left: 80px;
+}
+.container{
+    background-color: #00a2f9;
+    height: 400px;
+}
+.container-fluid{
+    background-color: #e32360;
+    height: 400px;
+}
