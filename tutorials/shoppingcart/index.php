@@ -18,7 +18,7 @@ if (isset($_SESSION['shopping_cart_qty'])){
     <script src="/js/jquery.js"></script>
 </head>
 <body>
-<?include_once 'backend/products.php'?>
+<?php include_once 'backend/products.php'?>
 <div class="container-fluid">
     <div id="checkout_display">
         <a href="checkout.php"><i class="fas fa-shopping-cart"></i> (<span id="total_items"><?=$shopping_cart_qty?></span>)</a>
@@ -34,18 +34,18 @@ if (isset($_SESSION['shopping_cart_qty'])){
                     <th>Product Qty</th>
                     <th>Action</th>
                 </tr>
-                <?foreach ($products as $product):?>
+                <?php foreach ($products as $product):?>
                 <tr>
-                    <td><?=$product['id']?></td>
-                    <td><img src="<?=$product['image']?>"> </td>
-                    <td><?=$product['product_name']?></td>
-                    <td><?=$product['price']?></td>
-                    <td><?=$product['quantity']?></td>
+                    <td><?php=$product['id']?></td>
+                    <td><img src="<?php=$product['image']?>"> </td>
+                    <td><?php=$product['product_name']?></td>
+                    <td><?php=$product['price']?></td>
+                    <td><?php=$product['quantity']?></td>
                     <td>
-                        <select name="qty" id="qty<?=$product['id']?>">
-                            <?for($i=1; $i<=$product['quantity']; $i++):?>
-                            <option value="<?=$i?>"><?=$i?></option>
-                            <?endfor?>
+                        <select name="qty" id="qty<?php=$product['id']?>">
+                            <?phpfor($i=1; $i<=$product['quantity']; $i++):?>
+                            <option value="<?php=$i?>"><?php=$i?></option>
+                            <?phpendfor?>
                         </select>
                         <button data-id="<?=$product['id']?>" class="myadd" id="add<?=$product['id']?> type="button">
                             <i class="fas fa-plus myplus"></i>
