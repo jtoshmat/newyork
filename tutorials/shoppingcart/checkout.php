@@ -76,7 +76,23 @@ if (isset($_SESSION['shopping_cart_qty'])){
                 });
             }
         });
+
+        $("#checkout_my_shoppingcart_button").click(function () {
+            let ask = confirm("Are you sure you want to check out?");
+            if (ask){
+                $.post( "backend/mail.php", function( output ) {
+                    console.log(output);
+                    alert("the user has been updated in the email");
+                    //document.location = "http://newyork.local/tutorials/shoppingcart/checkout.php";
+                    return false;
+                });
+            }
+        });
+
     });
+
+
+    //$('#msgModal').modal('show')
 </script>
 <style>
 
@@ -145,5 +161,7 @@ if (isset($_SESSION['shopping_cart_qty'])){
     }
 
 </style>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -10,7 +10,9 @@ class Shoppingcart{
         $this->db = new database('MY-IT-EDUCATION.US');
     }
     public function listProducts(){
-        $sql = "SELECT * FROM shopping_cart WHERE user_id = 2;";
+        $user_id = 2;
+        $this->db->con->real_escape_string($user_id);
+        $sql = "SELECT * FROM shopping_cart WHERE user_id = '$user_id';";
         return $this->db->sql($sql);
     }
 }

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MY IT EDUCATION for kids</title>
     <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="../css/sherzod.css">
+    <link rel="stylesheet" href="../../css/sherzod.css">
 </head>
 <body>
 <div style="height: 100px"></div>
