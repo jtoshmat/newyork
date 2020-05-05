@@ -18,12 +18,8 @@ if (isset($_SESSION['shopping_cart_qty'])) {
     <script src="/js/jquery.js"></script>
 </head>
 <body>
-<<<<<<< HEAD
 <? include 'includes/modal.php' ?>
 <? include_once 'backend/products.php' ?>
-=======
-<?php include_once 'backend/products.php'?>
->>>>>>> 9ba2f27ee1d32d01d5266e9eae0e9c3f29838364
 <div class="container-fluid">
     <div class="mynavbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -95,7 +91,6 @@ if (isset($_SESSION['shopping_cart_qty'])) {
             </tr>
             <? foreach ($products as $product): ?>
                 <tr>
-<<<<<<< HEAD
                     <td><?= $product['id'] ?></td>
                     <td><img src="<?= $product['image'] ?>"></td>
                     <td><?= $product['product_name'] ?></td>
@@ -116,29 +111,6 @@ if (isset($_SESSION['shopping_cart_qty'])) {
                             </select>
                             <button data-id="<?= $product['id'] ?>" class="myadd" id="add<?= $product['id'] ?> type="
                                     button">
-=======
-                    <th>ID</th>
-                    <th>Image</th>
-                    <th>Product Name</th>
-                    <th>Product Price</th>
-                    <th>Product Qty</th>
-                    <th>Action</th>
-                </tr>
-                <?php foreach ($products as $product):?>
-                <tr>
-                    <td><?php=$product['id']?></td>
-                    <td><img src="<?php=$product['image']?>"> </td>
-                    <td><?php=$product['product_name']?></td>
-                    <td><?php=$product['price']?></td>
-                    <td><?php=$product['quantity']?></td>
-                    <td>
-                        <select name="qty" id="qty<?php=$product['id']?>">
-                            <?phpfor($i=1; $i<=$product['quantity']; $i++):?>
-                            <option value="<?php=$i?>"><?php=$i?></option>
-                            <?phpendfor?>
-                        </select>
-                        <button data-id="<?=$product['id']?>" class="myadd" id="add<?=$product['id']?> type="button">
->>>>>>> 9ba2f27ee1d32d01d5266e9eae0e9c3f29838364
                             <i class="fas fa-plus myplus"></i>
                             </button>
 

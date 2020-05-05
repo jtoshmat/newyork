@@ -1,44 +1,46 @@
 <?php
 
-class Sleeper
-{
-    protected $_age;
-    protected $_HeadCap;
-    private $_FavoriteColor;
-    public $_tastes;
+$curl = curl_init();
 
-    public function __construct()
+curl_setopt_array($curl, array(
+    CURLOPT_URL => "https://api.sandbox.paypal.com/v2/checkout/orders",
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_ENCODING => "",
+    CURLOPT_MAXREDIRS => 10,
+    CURLOPT_TIMEOUT => 30,
+    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    CURLOPT_CUSTOMREQUEST => "POST",
+    CURLOPT_POSTFIELDS => '{
+  "intent": "CAPTURE",
+  "purchase_units": [
     {
-        $this->_age = 21;
-        $this->_HeadCap = true;
-        $this->_FavoriteColor = 'red';
-        $this->_tastes = array('Music', 'cinema', 'curling');
+      "reference_id": "PUHF",
+      "amount": {
+        "currency_code": "USD",
+        "value": "100.00"
+      }
     }
+  ],
+  "application_context": {
+    "return_url": "",
+    "cancel_url": ""
+  }
+}',
+    CURLOPT_HTTPHEADER => array(
+        'accept: application/json',
+        'accept-language: en_US',
+        'authorization: Bearer access_token$sandbox$mjjf2wv8g3fqrf2f$f2a61efd831539ec120ca45d257f2de0',
+        'content-type: application/json'
+    ),
+));
 
-    public function __sleep()
-    {
-        echo 'SLEEP.';
-        return array('_age', '_HeadCap', '_FavoriteColor','_tastes');
-    }
+$response = curl_exec($curl);
+$err = curl_error($curl);
 
-    public function __wakeup()
-    {
-        echo 'WAKEUP';
-        $this->_age = 19;
+curl_close($curl);
 
-    }
-
-    public function doSomething(){
-        return $this->_age;
-    }
+if ($err) {
+    echo "cURL Error #:" . $err;
+} else {
+    echo $response;
 }
-
-$obj = new Sleeper();
-
-$jon = serialize($obj);
-
-print_r($jon);
-echo "<hr>";
-
-$jon2 = unserialize($jon);
-print_r($jon2->doSomething());
