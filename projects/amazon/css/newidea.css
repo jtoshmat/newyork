@@ -1,0 +1,73 @@
+
+body {background-image:url("https://i.ytimg.com/vi/0R5ZmhklHFE/maxresdefault.jpg");
+background-size: cover;
+background-repeat: no-repeat ;
+}
+
+h1 {
+    color: #e3185f;
+    font-weight: bold;
+
+
+}
+h2 {color: #e32360}
+.cooc {
+    width:500px;
+    height: 500px;
+    border-radius: 250px;
+    border: 5px solid black;
+}
+
+.mytable{
+    text-align: center;
+    width: 700px;
+    height: 700px;
+
+    margin: auto;
+}
+.mytable table{
+    margin: auto;
+}
+table tr, td {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: grey;
+}
+/*
+table td:first-child{
+    background-color: #0c5460;
+}
+td:last-child{
+    background-color: yellow;
+}
+td:nth-child(2){
+    background-color: #e32360;
+}
+td:nth-child(3){
+    background-color: #403ce3;
+}
+td:nth-child(4){
+    background-color: #e3742c;
+}
+td:nth-child(5){
+    background-color: #2ce3cd;
+}
+*/
+td:nth-child(odd){
+    background-color: #0c5460;
+}
+td:nth-child(even){
+    background-color: whitesmoke;
+}
+.myimg
+{
+    width: 120px;
+height: 120px;
+}
+td:nth-child(2) {
+    background-image: url("https://unherd.com/wp-content/uploads/2018/09/GettyImages-951840912.jpg");
+    background-size: 100% 100% ;
+
+
+}

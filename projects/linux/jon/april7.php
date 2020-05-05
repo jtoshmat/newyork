@@ -6,11 +6,6 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
 </head>
 <body>
-<?php
-require_once '../database.php';
-$db = new \Database\database();
-$airports = $db->sql("SELECT * FROM airports LIMIT 20;");
-?>
 <div id="my_table_div">
     <h3>The world airports directory</h3>
 
@@ -32,19 +27,68 @@ $airports = $db->sql("SELECT * FROM airports LIMIT 20;");
             <th>Code</th>
         </tr>
 
-        <?php
-        foreach($airports as $airport):
-        ?>
+
         <tr>
-            <td><?php echo $airport['code']?></td>
-            <td><?php echo $airport['city']?></td>
-            <td><?php echo $airport['country']?></td>
-            <td><?php echo $airport['code']?></td>
-            <td><?php echo $airport['world_area_code']?></td>
+            <td>1111</td>
+            <td>New York</td>
+            <td>USA</td>
+            <td>22222</td>
+            <td>33333</td>
         </tr>
-        <?php
-        endforeach;
-        ?>
+
+
+        <tr>
+            <td>1111</td>
+            <td>New York</td>
+            <td>USA</td>
+            <td>22222</td>
+            <td>33333</td>
+        </tr>
+
+
+        <tr>
+            <td>1111</td>
+            <td>New York</td>
+            <td>USA</td>
+            <td>22222</td>
+            <td>33333</td>
+        </tr>
+
+
+        <tr>
+            <td>1111</td>
+            <td>New York</td>
+            <td>USA</td>
+            <td>22222</td>
+            <td>33333</td>
+        </tr>
+
+
+        <tr>
+            <td>1111</td>
+            <td>New York</td>
+            <td>USA</td>
+            <td>22222</td>
+            <td>33333</td>
+        </tr>
+
+
+        <tr>
+            <td>1111</td>
+            <td>New York</td>
+            <td>USA</td>
+            <td>22222</td>
+            <td>33333</td>
+        </tr>
+
+        <tr>
+            <td>1111</td>
+            <td>New York</td>
+            <td>USA</td>
+            <td>22222</td>
+            <td>33333</td>
+        </tr>
+
 
     </table>
 </div>
