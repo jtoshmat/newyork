@@ -34,13 +34,9 @@ foreach($mevalar as $meva){
     }
 </style>
 */
-
-
 /*$students = file_get_contents('files/students.txt');
 $students = str_replace(';','<hr>', $students);
 echo $students;*/
-
-
 //$oshxona = array('qoshiq','qozon','sanchqi','kabgir'); //depreciated
 //         0        1      2         3
 /*$oshxona = ['qoshiq','qozon','sanchqi','kabgir']; //recommended
@@ -48,19 +44,12 @@ echo $students;*/
 $yashash_xonasi = ['tv','divan','stol','stul','lampa','soat'];
 
 $jajjilar_xonasi = ['beshik','butylka',159,'uynchoqlar',null,'toshak',true,'adyol'];*/
-
-
 $numbers = range(1, 100);
-
-
 //And bolsa && ---> AND
 //Or bolsa || --> OR
-
 /*$students = file_get_contents('files/students.txt');
 $students = str_replace(';','<hr>', $students);
 echo $students;*/
-
-
 //$oshxona = array('qoshiq','qozon','sanchqi','kabgir'); //depreciated
     //         0        1      2         3
 /*$oshxona = ['qoshiq','qozon','sanchqi','kabgir']; //recommended
@@ -68,15 +57,9 @@ echo $students;*/
 $yashash_xonasi = ['tv','divan','stol','stul','lampa','soat'];
 
 $jajjilar_xonasi = ['beshik','butylka',159,'uynchoqlar',null,'toshak',true,'adyol'];*/
-
-
 $numbers = range(1, 100);
-
-
 //And bolsa && ---> AND
 //Or bolsa || --> OR
-
-
 
 /*foreach ($numbers as $number){
     if ($number%9==0 || $number%19==0){
@@ -88,7 +71,7 @@ $numbers = range(1, 100);
 $nine=[];
 $nineteen=[];
 foreach ($numbers as $number){
-if ($number%2==0){
+if ($number%2 !== 0){
     $nine[] = $number;
 }
 if ($number%3==0){
