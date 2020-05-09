@@ -57,10 +57,9 @@ echo $students;*/
 $yashash_xonasi = ['tv','divan','stol','stul','lampa','soat'];
 
 $jajjilar_xonasi = ['beshik','butylka',159,'uynchoqlar',null,'toshak',true,'adyol'];*/
-$numbers = range(1, 100);
+//$numbers = range(1, 100);
 //And bolsa && ---> AND
 //Or bolsa || --> OR
-
 /*foreach ($numbers as $number){
     if ($number%9==0 || $number%19==0){
         echo "<div class='yes'>$number</div>";
@@ -71,10 +70,10 @@ $numbers = range(1, 100);
 $nine=[];
 $nineteen=[];
 foreach ($numbers as $number){
-if ($number%2 !== 0){
+if ($number%9 == 0){
     $nine[] = $number;
 }
-if ($number%3==0){
+if ($number%19 == 0){
     $nineteen[] = $number;
 }
 }
@@ -84,8 +83,26 @@ echo "<hr>";
 
 echo "<pre>";
 print_r($nineteen);
+echo "<hr>";
+
+/*$numbers = range(1, 100);
+$ok=[];
+$no=[];
+foreach ($numbers as $number) {
+    if ($number%9 == 0) {
+        $ok[] = "9 ga bo'linmaydi";
+
+
+} else {
+        $ok[] = $number;
+    }
+}
+echo "<pre>";
+print_r($ok);
+echo "<hr>";*/
 ?>
 
+<!--
 <style>
     .yes{
         width: 70px;
@@ -112,3 +129,4 @@ print_r($nineteen);
         border-radius: 50%;
     }
 </style>
+-->
