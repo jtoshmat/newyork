@@ -1,5 +1,5 @@
 <?php
-$numbers = range(1, 100);
+$numbers = range(1, 200);
 /*$nine=[];
 $nineteen=[];
 foreach ($numbers as $number){
@@ -26,7 +26,7 @@ foreach ($numbers as $number){
 echo "<pre>";
 print_r($num9or19);
 echo "<hr>";*/
-/*$no_9_19=[];
+$no_9_19=[];
 foreach ($numbers as $number){
 if ($number%9 !== 0 AND $number !==19){
     $no_9_19[] = $number;
@@ -34,18 +34,22 @@ if ($number%9 !== 0 AND $number !==19){
 }
 echo "<pre>";
 print_r($no_9_19);
-echo "<hr>";*/
-
-$ok=[];
+echo "<hr>";
+/*$ok=[];
 $no=[];
 foreach ($numbers as $number) {
-    if ($number%9 == 0 AND $number%19 == 0) {
-        $ok[] = 1; //"9 va 19 ga bolinadi";
+    if ($number%9 == 00) {
+        $ok[] = $number;
+}   elseif ($number%19 == 0){
+        $ok[]= $number;
 }   else{
-        $no = $number;
+        $no[]= $number;
+    }
 }
-
 echo "<pre>";
-print_r($no);
-}
-echo "<hr>";
+print_r($ok);
+echo '<hr>';
+print_r($no);*/
+
+
+
