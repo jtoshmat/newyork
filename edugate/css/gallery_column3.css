@@ -1,0 +1,64 @@
+.topbox{
+    width: 100%;
+    height: 52px;
+    background-color: #07152c;
+   }
+.left_box_table{
+     color: white;
+     height: 20px;
+     margin-right: 10px;
+     float: left;
+     padding: 10px;
+ }
+.left_box_table:hover{
+    color: #1cab2b;
+    height: 20px;
+}
+.right_box_table{
+    color: white;
+    height: 20px;
+    margin-right: 10px;
+    float: right;
+    padding: 10px;
+    font-size: larger;
+}
+.right_box_table:hover{
+    color: #1cab2b;
+    height: 20px;
+}
+.right_box_table2{
+    color: white;
+    height: 20px;
+    margin-right: 5px;
+    float: right;
+    padding: 10px;
+    font-size: larger;
+}
+.right_box_table2:hover{
+    color: #1cab2b;
+    height: 20px;
+
+}
+.bottombox{
+    width: 100%;
+    height: 140px;
+    background-color: #ffffff;
+}
+.logo{
+   height: 30px;
+    width: 20%;
+    float: left;
+}
+.navigation{
+    margin: 15px;
+   text-align: right;
+    color: #242c42;
+}
+.middle_box {
+    background-image: url("http://wp.swlabs.co/edugate/wp-content/uploads/2016/01/banner-1.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    color:green;
+}
