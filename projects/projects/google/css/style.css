@@ -1,0 +1,113 @@
+.table th, .table td {
+    border: none;
+}
+.staff_name{
+    font-weight: bolder;
+    font-size: 16px;
+    color: black;
+}
+.staff_title{
+    font-size: 16px;
+    color: #3e3434;
+}
+.staff_photo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.myhr{
+    height: 5px;
+    background-color: #ececec;
+    margin-top: 20px;
+}
+.mytext{
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    column-count: 1;
+}
+.mybanner{
+    height: 450px;
+    background-image: url("http://www.palletizedtrucking.com/wp-content/uploads/2015/09/Transparent-background-with-dots.png");
+    background-size: 100% 100%;
+    text-align: center;
+}
+.mytitle:hover{
+    text-shadow: #e0dcff 3px 5px;
+    cursor: pointer;
+    color:red;
+}
+
+.mytitle{
+    position: relative;
+    width: 60%;
+    margin: auto;
+    top: 40%;
+    font-size: 40px;
+    font-family: "American Typewriter";
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    text-shadow: #420e0e 3px 5px;
+}
+
+.mycontainer{
+    width: 100%;
+    height: 460px;
+    background-color: darkblue;
+    background-image: url("https://www.wellstar.org/Locations/Hospital%20Images/banner-atlantamedicalsouth.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-bottom: 16px solid #005899;
+}
+
+
+.mynav ul li:hover{
+    background-color: #ff5a6e;
+}
+
+.mynav ul li {
+    float: left;
+    padding: 5px;
+    list-style: none;
+    background-color: #760000;
+    width: 124px;
+    height: 38px;
+    border-right: 1px solid white;
+    margin-right: 12px;
+    text-align: center;
+}
+
+.mynav ul li a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    font-family: "American Typewriter";
+}
+
+
+.mynav{
+    width: 100%;
+    height: 38px;
+    background-color: black;
+    color: white;
+}
+
+.topdiv img{
+    width: 370px;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+
+.container-fluid{
+    padding: 0;
+    margin-top: 0;
+}
+
+.topdiv{
+    width: 100%;
+    height: 120px;
+    background-color: #005899;
+    color: #ffe55d;
+}

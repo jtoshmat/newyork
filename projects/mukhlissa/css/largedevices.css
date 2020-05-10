@@ -1,0 +1,35 @@
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+}
+
+.mylogodiv{
+    text-align: center;
+    background-color: #ff5a06;
+    overflow: hidden;
+}
+.yourwrapper{
+    text-align: center;
+}
+
+
+
+.menubuttons {
+    text-align: center;
+    /* float: none; */
+    /* width: auto; */
+    margin: 0;
+    margin: 23px 10px;
+}
+.menubuttons a{
+    margin: 2px;
+    background-color: #74af35;
+}
+
+.logo{
+    width: 250px;
+    margin: 20px;
+    float: left;
+}

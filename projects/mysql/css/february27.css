@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+}
+
+#mywall {
+    background-color: white;
+    width: 1500px;
+    height: 800px;
+    margin: auto;
+}
+
+.leftbox {
+    width: 33%;
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    font-size: 200%;
+    color: #f5f13b;
+    line-height: 300px;
+    text-shadow: black 2px 2px;
+}
+
+.middlebox {
+    width: 34%;
+    display: inline-block;
+    height: 100%;
+}
+
+.rightbox {
+    width: 33%;
+    display: inline-block;
+    float: right;
+    height: 100%;
+    text-align: center;
+    font-size: 200%;
+    color: #f5f13b;
+    line-height: 300px;
+    text-shadow: black 2px 2px;
+}
+
+.large_img {
+    width: 90%;
+    height: 300px;
+    margin: 40px auto;
+    border: 5px double black;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQJva5Wax-DriVruXXkQfbKtrxoanrRdY7XLq9DYROuKVjTwTRD");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.left_img {
+    background-image: url("https://www.mickeyshannon.com/photos/moraine-lake-sunrise-brilliance.jpg");
+}
+
+.small_img{
+    width: 35%;
+    height: 135px;
+    margin: 40px auto;
+    border: 5px double black;
+    background-image: url("https://cdn1.vectorstock.com/i/1000x1000/68/10/certificate-of-appreciation-template-vector-10376810.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.bottom_img{
+    margin-top: -16px;
+    background-image: url("https://stmcomputers.edublogs.org/files/2013/12/hoc-StMCertificate-o5zi5b.png");
+}
+
+

@@ -1,0 +1,88 @@
+body{
+    background-color: white;
+}
+#parentbox{
+    width:90%;
+    height: auto;
+    background-color: #8ee9ff;
+    margin: 20px auto;
+}
+.topbox{
+    width:100%;
+    height: 200px;
+    background-color: #7c1b18;
+    margin: auto;
+}
+.middlebox{
+    width:100%;
+    height: 70px;
+    background-color: #0c1769;
+    margin: auto;
+}
+.bottombox{
+    width:100%;
+    height: 1000px;
+    background-color: ivory;
+    margin: 5px;
+
+}
+.logo {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.search_input {
+    float: right;
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 44px;
+    position: relative;
+    top: 213px;
+    right: 100px;
+    background-image: url("../img/searchicon.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+}
+.mynav{
+    width: 100%;
+    height: auto;
+    background-color: #0e267c;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.mynav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px 15px;
+    font-size: 130%;
+    font-family: "American Typewriter", serif;
+}
+.bottombox{
+    width: 100%;
+    height:  auto;
+    background-color: ivory;
+}
+.bottombox h2, h4{
+    color: red;
+    font-weight: bolder;
+}
+.bottombox div{
+    padding:5px;
+    width: 100%;
+    display: inline-block;
+    text-align:justify;
+}
+.bottombox div:first-letter{
+    display: block;
+    float: left;
+    padding:15px;
+    margin:1px;
+    border-radius: 50%;
+    background-color: yellow;
+    color:darkred;
+    border:1px solid black;
+    font-size: 150%;
+
+}

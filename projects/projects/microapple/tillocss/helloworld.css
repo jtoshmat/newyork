@@ -1,0 +1,16 @@
+body {
+    background-color: #7d0000;
+}
+#imagebox{
+    background-color: #1e7fff;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 50px;
+    background-image: url("https://d3n8a8pro7vhmx.cloudfront.net/ipc/pages/1780/attachments/original/1557491312/Earth_Day_image.png?1557491312");
+    background-size: 100% 100%;
+    line-height: 550px;
+}

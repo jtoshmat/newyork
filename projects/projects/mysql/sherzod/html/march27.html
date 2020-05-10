@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>MARCH27</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+
+</head>
+<html>
+
+<body>
+
+<script>
+    /*for(var i = 0; i <= 100; i++) {
+        document.write(i);
+        if (i%4==0){document.write(' ****');
+        }
+        document.write('<br>');
+    }*/
+    //Yig'indi
+    document.write("Dastlabki n ta sonlar yig'indisi");
+    document.write('<br>');
+    var s = 0, n = 10;
+    for (var k = 1; k <= n; k++) {
+        s = s + k;
+        document.write("n=", k, "da", " -   ", "S<sub>"+k+"</sub>=", s)
+        document.write('<br>');
+    }
+    ;
+    document.writeln('S=', s);
+    document.write('<br>');
+    document.write('----------------------------------');
+    document.write('<br>');
+
+
+    // ko'paytma
+    document.write('<br>');
+    document.write("Dastlabki n ta sonlar ko'paytamasi yoki n!(n faktorial)");
+    document.write('<br>');
+    var p = 1;
+    for (var k = 1; k <= n; k++) {
+        p = p * k;
+        document.write(k, "!=", p);
+        document.write('<br>');
+    }
+    ;
+    document.write('P=', p);
+    document.write('<br>');
+    document.write('----------------------------------');
+    document.write('<br>');
+
+
+    // Toq sonlar yig'indisi
+    document.write('<br>');
+    document.write("Toq sonlar yig'insi");
+    var s = 0;
+    document.write('<br>');
+    for (var k = 1; k <= n; k++) {
+        if (k % 2 == 1) {
+            s = s + k;
+            document.write("k=", k, "da", " -   ", "S<sub>"+k+"</sub>=", s);
+            document.write('<br>');
+        }
+        ;
+    }
+</script>
+<style>
+ sub{
+     vertical-align: sub;
+     font-size: smaller;
+ }
+</style>
+
+</body>
+</html>

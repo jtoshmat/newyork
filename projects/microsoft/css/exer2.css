@@ -1,0 +1,21 @@
+body{
+    background-color: red;
+}
+.bluecircle{
+    height: 300px;
+    width: 300px;
+    color: whitesmoke;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    margin-top: 219px;
+    margin-left: 247px;
+}
+.hello{
+    margin-top: -160px;
+    margin-left: 382px;
+    position: relative; !important;
+    font-variant: all-small-caps;
+    font-size: 18px;
+}
