@@ -26,16 +26,16 @@ foreach ($numbers as $number){
 echo "<pre>";
 print_r($num9or19);
 echo "<hr>";*/
-$no_9_19=[];
+/*$no_9_19=[];
 foreach ($numbers as $number){
-if ($number%9 !== 0 AND $number !==19){
+if ($number%9 !== 0 AND $number !== 19){
     $no_9_19[] = $number;
 }
 }
 echo "<pre>";
 print_r($no_9_19);
-echo "<hr>";
-/*$ok=[];
+echo "<hr>";*/
+$ok=[];
 $no=[];
 foreach ($numbers as $number) {
     if ($number%9 == 00) {
@@ -47,9 +47,9 @@ foreach ($numbers as $number) {
     }
 }
 echo "<pre>";
-print_r($ok);
+//print_r($ok);
 echo '<hr>';
-print_r($no);*/
+print_r($no);
 
 
 
