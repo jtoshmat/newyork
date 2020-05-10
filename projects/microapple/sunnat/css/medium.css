@@ -1,0 +1,62 @@
+html  body {
+    background-image: url("https://wallpapercave.com/wp/wp2562825.jpg");
+}
+#header{
+    background-image: url("https://wallpapercave.com/wp/nsu3cSp.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    border-radius: 20px;
+}
+#page-wrap {
+    width: 700px;
+}
+
+#page-wrap:after {
+    content: "Medium Layout";
+}
+
+#main-content {
+    border-radius: 20px;
+    background-color: black;
+    float: right;
+    width: 440px;
+    height: 300px;
+}
+
+#secondary-one {
+    background-image: url("https://image.shutterstock.com/image-vector/abstract-background-pc-desktop-wallpaper-260nw-464677097.jpg");
+    float: left;
+    width: 170px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+}
+#secondary-one input{
+    background-color: #7EE2DC;
+    color: white;
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid grey;
+    height: 33px;
+    padding-left: 9px;
+}
+#secondary-one p {
+    margin: 1px;
+    padding: 1px;
+}
+.getstarted button{
+    background-image: url("https://storage.needpix.com/rsynced_images/background-4232859_1280.png");
+    width: 100px;
+    height: 100px;
+    background-color: #F5030D;
+    border-radius: 50%;
+    color: black;
+    margin-top: 11px;
+    margin-right: 11px;
+}
+#secondary-two {
+    display: none;
+}
+.birthday{
+    color: navajowhite;
+}

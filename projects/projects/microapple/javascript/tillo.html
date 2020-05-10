@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../../css/bootstrap-grid.css">
+    <script src="../../../js/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+<div style="height: 20px"></div>
+<div id="game">
+<div class="boxes">orange</div>
+<div class="boxes">blue</div>
+<div class="boxes">green</div>
+<div class="boxes">black</div>
+<div class="boxes">purple</div>
+<div class="boxes">red</div>
+<div class="boxes">yellow</div>
+<div class="boxes">brown</div>
+    <hr>
+    <button class="btn btn-info" id="start_over"><strong><em>Start over</em></strong></button>
+    <button class="btn btn-info" id="reload_window"><strong><em>Reload Window</em></strong></button>
+</div>
+ <style>
+     body{
+         background-color: black;
+     }
+     #game{
+         background-image: url("https://images.unsplash.com/photo-1553481187-be93c21490a9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+         background-size: 100% 100%;
+         width: 600px;
+         height: 600px;
+         margin: 10px auto;
+         text-align: center;
+         border-radius: 20px;
+     }
+     .boxes{
+         width: 150px;
+         height: 150px;
+         border-radius: 50%;
+         border: 1px solid black;
+         display: inline-block;
+         margin: 10px;
+         cursor: pointer;
+         box-shadow: 10px 10px 10px;
+         color: #FFA92B;
+         background-color: white;
+         text-align: center;
+         line-height: middle;
+     }
+     .btn{
+         background-color: green;
+         color: white;
+         border: none;
+     }
+</style>
+<script>
+    $(function () {
+        $(".boxes").click(function () {
+            var color = $(this).text();
+            $(this).css("background-color",color);
+        });
+        $(function () {
+            $("#start_over").click(function () {
+                $(".boxes").css ("background-color",'white');
+            });
+            $(function () {
+                $(".boxes").dblclick(function () {
+                    $(this).fadeOut("slow");
+                });
+             $(function () {
+                 $("#reload_window").click(function () {
+                     location.reload();
+                 });
+             });
+            });
+        });
+    });
+</script>
+</body>
+</html>

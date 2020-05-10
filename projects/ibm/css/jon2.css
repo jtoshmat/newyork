@@ -1,0 +1,50 @@
+body{
+    background-color: #3e0c07;
+}
+.mybox{
+    width: 800px;
+    height: 800px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.myform{
+    background-color: #5f86bd;
+}
+
+.myresults{
+    background-color: #f3f3f3;
+}
+
+.myform div{
+    display: inline-block;
+    margin: 10px;
+}
+
+.myform label{
+    font-weight: bolder;
+    color: #d4d400;
+}
+
+.error{
+    background-color: red;
+    color: whitesmoke;
+}
+.num1{
+    background-color: #ff0000;
+    display: inline-block;
+    color: yellow;
+}
+
+.num2{
+    background-color: #30eb5a;
+    display: inline-block;
+    color: darkred;
+}
+.myrows{
+    margin: 5px;
+    padding:2px;
+    border: 1px solid black;
+}

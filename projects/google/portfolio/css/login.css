@@ -1,0 +1,68 @@
+body{
+    background-color: #000000;
+}
+.orange_box{
+    width: 700px;
+    height: 460px;
+    background-color: #f5693e;
+    margin: auto;
+    margin-top: 100px;
+}
+.white_box{
+    width: 40%;
+    height: 300px;
+    background-color: #75ffa8;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: black 0px 0px 28px 3px;
+    text-align: center;
+
+}
+.space_between_orange_white_boxes{
+    height: 87px;
+}
+.form_box{
+    width: 86%;
+    margin: auto;
+}
+.avatar{
+    width: 100px;
+    position: relative;
+    top: -48px;
+}
+.form_title{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -44px;
+    font-size: 24px;
+    font-family: "Arial Rounded MT Bold";
+    font-weight: bolder;
+}
+.form{
+    position: relative;
+    top: -28px;
+}
+.form input{
+    width: 100%;
+    height: 33px;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    border: none;
+    padding-left: 34%;
+    border: 5px dotted red;
+    color: #5193f9;
+}
+.form button{
+    background-color: #4790fb;
+    width: 100%;
+    height: 33px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.form_box a{
+    color: darkred;
+    position: relative;
+    top: -30px;
+}

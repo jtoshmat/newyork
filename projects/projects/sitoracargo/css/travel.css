@@ -1,0 +1,299 @@
+.mediamimgs{
+    width: 100px;
+    border:1px solid red;
+    border-radius: 10px;
+    margin:5px;
+    cursor: move;
+}
+.boldnames{
+    background-color: red;
+    padding:3px;
+    margin: 3px;
+}
+.destination_desc{
+    background-color: #467297;
+    width: 240px;
+    height: 518px;
+    float: right;
+    overflow: auto;
+    border-left: 3px solid #a7655a;
+    opacity: 0.9;
+    color: #dadee1;
+    font-size: 14px;
+    font-family: serif;
+    display: none;
+}
+
+
+body{
+    background-image: url("../img/main6.jpg");
+    background-size: cover;
+    margin-top: auto ;
+    float: initial;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#presentation_window{
+    width: 1320px;
+    text-align: center;
+    margin: auto;
+}
+
+#topheader{
+background-color: #0e1850;
+}
+
+.header1 {
+   /* background-color: #1636e2;*/
+    color: #fffdfe;
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+    float: left;
+ }
+
+ .options {
+    float: right;
+     top: 10px;
+     position: relative;
+ }
+ #USA  {
+     background-image: url("../img/usaflag.jpg");
+     list-style-type: none;
+     box-sizing: border-box;
+     background-size: 100% 100%;
+     border: 1px solid #202cff;
+     color: transparent;
+     user-select: none;
+     border-radius: 3px;
+     box-shadow: black 1px 1px 1px 1px;
+
+
+
+ }
+ #TURKEY {
+     background-image: url("../img/turkeyfg.png");
+     background-size: 100% 100%;
+     border: 1px solid #202cff;
+     color: transparent;
+     user-select: none;
+     border-radius: 3px;
+     box-shadow: black 1px 1px 1px 1px;
+ }
+ #JAPAN {
+     background-image: url("../img/japanfg.jpg");
+     background-size: 100% 100%;
+     border: 1px solid #202cff;
+     display: inline-block;
+     color: transparent;
+     user-select: none;
+     border-radius: 3px;
+     box-shadow: black 1px 1px 1px 1px;
+
+ }
+ #AUS {
+     background-image: url("../img/uastraliafg.jpeg");
+     background-size: 100% 100%;
+     border: 1px solid #202cff;
+     color: transparent;
+     user-select: none;
+     border-radius: 3px;
+     box-shadow: black 1px 1px 1px 1px;
+ }
+ #USA:hover {
+       cursor: pointer;
+   }
+#TURKEY:hover {
+    cursor: pointer;
+}
+#JAPAN:hover {
+    cursor: pointer;
+}
+#AUS:hover {
+    cursor: pointer;
+}
+
+.leftwindow {
+    float: left;
+    margin-top: 40px;
+    margin-left: 100px;
+
+
+}
+#usimg {
+    border: solid blue;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+
+}
+#usimg1 {
+    border: solid blue;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+#usimg2 {
+    border: solid blue;
+    float: left;
+    margin-top: 10px;
+    border-radius: 10px;
+
+
+}
+.rightwindow {
+    float: right;
+    margin-top: 63px;
+    margin-right: 100px;
+    background-image: url(../img/us3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 811px;
+    height: 520px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: black 5px 5px 5px 5px;
+}
+
+#usimg3 {
+    border: solid blue;
+    position: page;
+    border-radius: 20px;
+
+}
+.button2 {
+    position: fixed;
+    left: 0;
+    top: 50%;
+}
+
+.leftimgs{
+cursor: pointer;
+    width: 290px;
+    height: 170px;
+}
+
+.leftimgs:hover{
+    opacity: 0.8;
+    width: 300px;
+    height: 180px;
+}
+
+.rightimgs{
+    height:500px;
+    width:800px;
+}
+
+.flags{
+    width:38px;
+    height: 23px;
+    border:1px solid #85b1ca;
+}
+.flags:hover{
+    cursor: pointer;
+}
+
+.callusnow{
+    background-color: #510006;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 90px;
+    font-size: 40px;
+    border: 1px solid #520006;
+    box-shadow: black 5px 5px 5px 5px;
+    border-radius: 10px;
+    color: #ffd246;
+    cursor: pointer;
+}
+
+
+/*
+Media Queries
+ */
+
+@media (min-width: 601px) {
+    body{
+        background-image: url("../img/jpn_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-image: url("../img/jpn_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-image: url("../img/jpn_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-image: url("../img/uzb_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-image: url("../img/rus_bg.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-image: url("../img/turkey.jpg");
+        background-size: cover;
+        margin-top: auto ;
+        float: initial;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

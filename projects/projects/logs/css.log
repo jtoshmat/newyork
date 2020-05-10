@@ -1,0 +1,496 @@
+Array
+(
+    [css] => Array
+        (
+            [0] => 192.168.1.6 - - [27/Sep/2019:10:16:32 -0400] "GET /dashboard/stylesheets/normalize.css HTTP/1.1" 200 6876
+
+            [1] => 192.168.1.6 - - [27/Sep/2019:10:16:32 -0400] "GET /dashboard/stylesheets/all.css HTTP/1.1" 200 479442
+
+            [2] => 127.0.0.1 - - [27/Sep/2019:10:30:50 -0400] "GET /dashboard/stylesheets/normalize.css HTTP/1.1" 200 6876
+
+            [3] => 127.0.0.1 - - [27/Sep/2019:10:30:50 -0400] "GET /dashboard/stylesheets/all.css HTTP/1.1" 200 479442
+
+            [4] => 127.0.0.1 - - [27/Sep/2019:10:36:01 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [5] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /css/lightslider.css HTTP/1.1" 200 1611
+
+            [6] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /css/bootstrap.min.css HTTP/1.1" 200 18209
+
+            [7] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /css/template.css HTTP/1.1" 200 2520
+
+            [8] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /css/app.min.css HTTP/1.1" 200 18360
+
+            [9] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /css/phpkb.css?v1 HTTP/1.1" 200 7107
+
+            [10] => 127.0.0.1 - - [27/Sep/2019:17:45:40 -0400] "GET /css/phpkb-icons.css HTTP/1.1" 200 20949
+
+            [11] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/css/phpkb.css?v1.0.2 HTTP/1.1" 200 4710
+
+            [12] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/css/morris.css HTTP/1.1" 200 260
+
+            [13] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/css/jquery.gritter.css HTTP/1.1" 200 627
+
+            [14] => 127.0.0.1 - - [27/Sep/2019:17:45:53 -0400] "GET /admin/css/style.default.css?v1.0.1 HTTP/1.1" 200 14911
+
+            [15] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/bootstrap.min.css?v1.0.0 HTTP/1.1" 200 18255
+
+            [16] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/jquery-ui-1.10.3.css HTTP/1.1" 200 4202
+
+            [17] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/bootstrap-override.css?v0.0.3 HTTP/1.1" 200 4552
+
+            [18] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/font-awesome.min.css HTTP/1.1" 200 7047
+
+            [19] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/animate.delay.css HTTP/1.1" 200 520
+
+            [20] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/animate.min.css HTTP/1.1" 200 4643
+
+            [21] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/toggles.css HTTP/1.1" 200 756
+
+            [22] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/select2.css HTTP/1.1" 200 3331
+
+            [23] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/lato.css HTTP/1.1" 200 506
+
+            [24] => 127.0.0.1 - - [27/Sep/2019:17:45:54 -0400] "GET /admin/css/roboto.css HTTP/1.1" 200 631
+
+            [25] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/select/css/bootstrap-select.css HTTP/1.1" 200 1669
+
+            [26] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /css/bootstrap-editable.css HTTP/1.1" 200 3607
+
+            [27] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/css/cardsmart.css?v1.0.2 HTTP/1.1" 200 944
+
+            [28] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/css/dropit.css HTTP/1.1" 200 769
+
+            [29] => 127.0.0.1 - - [27/Sep/2019:17:46:03 -0400] "GET /admin/js/venobox/venobox.css HTTP/1.1" 200 1426
+
+            [30] => 127.0.0.1 - - [27/Sep/2019:18:03:15 -0400] "GET /admin/js/select/css/bootstrap-select.css.map HTTP/1.1" 200 3432
+
+            [31] => 127.0.0.1 - - [29/Sep/2019:12:02:46 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [32] => 127.0.0.1 - - [29/Sep/2019:12:28:49 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [33] => 127.0.0.1 - - [29/Sep/2019:12:46:49 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [34] => 127.0.0.1 - - [29/Sep/2019:12:47:33 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [35] => 127.0.0.1 - - [29/Sep/2019:13:25:12 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [36] => 127.0.0.1 - - [30/Sep/2019:13:55:42 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [37] => 127.0.0.1 - - [30/Sep/2019:18:47:09 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [38] => 127.0.0.1 - - [02/Oct/2019:18:28:11 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [39] => 127.0.0.1 - - [03/Oct/2019:11:40:39 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [40] => 127.0.0.1 - - [04/Oct/2019:15:55:19 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [41] => 127.0.0.1 - - [04/Oct/2019:16:54:27 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [42] => 127.0.0.1 - - [04/Oct/2019:16:54:46 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [43] => 127.0.0.1 - - [04/Oct/2019:16:59:17 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [44] => 127.0.0.1 - - [04/Oct/2019:16:59:43 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [45] => 127.0.0.1 - - [04/Oct/2019:17:00:59 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [46] => 127.0.0.1 - - [04/Oct/2019:17:13:48 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [47] => 127.0.0.1 - - [04/Oct/2019:17:26:46 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [48] => 127.0.0.1 - - [04/Oct/2019:17:32:02 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [49] => 127.0.0.1 - - [04/Oct/2019:17:33:05 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [50] => 127.0.0.1 - - [05/Oct/2019:13:14:48 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [51] => 127.0.0.1 - - [05/Oct/2019:13:20:23 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [52] => 127.0.0.1 - - [08/Oct/2019:10:39:04 -0400] "GET /css/lightslider.css HTTP/1.1" 200 1611
+
+            [53] => 127.0.0.1 - - [08/Oct/2019:10:39:04 -0400] "GET /css/template.css HTTP/1.1" 200 2520
+
+            [54] => 127.0.0.1 - - [08/Oct/2019:10:39:04 -0400] "GET /css/bootstrap.min.css HTTP/1.1" 200 18209
+
+            [55] => 127.0.0.1 - - [08/Oct/2019:10:39:04 -0400] "GET /css/phpkb-icons.css HTTP/1.1" 200 20949
+
+            [56] => 127.0.0.1 - - [08/Oct/2019:10:39:04 -0400] "GET /css/app.min.css HTTP/1.1" 200 18360
+
+            [57] => 127.0.0.1 - - [08/Oct/2019:10:39:04 -0400] "GET /css/phpkb.css?v1 HTTP/1.1" 200 7107
+
+            [58] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/morris.css HTTP/1.1" 200 260
+
+            [59] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/phpkb.css?v1.0.2 HTTP/1.1" 200 4710
+
+            [60] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/jquery.gritter.css HTTP/1.1" 200 627
+
+            [61] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/style.default.css?v1.0.1 HTTP/1.1" 200 14911
+
+            [62] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/bootstrap-override.css?v0.0.3 HTTP/1.1" 200 4552
+
+            [63] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/jquery-ui-1.10.3.css HTTP/1.1" 200 4202
+
+            [64] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/bootstrap.min.css?v1.0.0 HTTP/1.1" 200 18255
+
+            [65] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/font-awesome.min.css HTTP/1.1" 200 7047
+
+            [66] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/animate.delay.css HTTP/1.1" 200 520
+
+            [67] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/animate.min.css HTTP/1.1" 200 4643
+
+            [68] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/toggles.css HTTP/1.1" 200 756
+
+            [69] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/select2.css HTTP/1.1" 200 3331
+
+            [70] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/lato.css HTTP/1.1" 200 506
+
+            [71] => 127.0.0.1 - - [08/Oct/2019:10:41:22 -0400] "GET /admin/css/roboto.css HTTP/1.1" 200 631
+
+            [72] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/phpkb.css?v1.0.2 HTTP/1.1" 200 4710
+
+            [73] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/style.default.css?v1.0.1 HTTP/1.1" 200 14911
+
+            [74] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/bootstrap-override.css?v0.0.3 HTTP/1.1" 200 4552
+
+            [75] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/jquery-ui-1.10.3.css HTTP/1.1" 200 4202
+
+            [76] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/bootstrap.min.css?v1.0.0 HTTP/1.1" 200 18256
+
+            [77] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/font-awesome.min.css HTTP/1.1" 200 7047
+
+            [78] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/animate.min.css HTTP/1.1" 200 4643
+
+            [79] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/animate.delay.css HTTP/1.1" 200 520
+
+            [80] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/select2.css HTTP/1.1" 200 3331
+
+            [81] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/toggles.css HTTP/1.1" 200 756
+
+            [82] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/lato.css HTTP/1.1" 200 506
+
+            [83] => 127.0.0.1 - - [08/Oct/2019:10:48:17 -0400] "GET /admin/css/roboto.css HTTP/1.1" 200 631
+
+            [84] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/style.default.css?v1.0.1 HTTP/1.1" 200 14914
+
+            [85] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/phpkb.css?v1.0.2 HTTP/1.1" 200 4710
+
+            [86] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/bootstrap-override.css?v0.0.3 HTTP/1.1" 200 4552
+
+            [87] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/jquery-ui-1.10.3.css HTTP/1.1" 200 4202
+
+            [88] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/font-awesome.min.css HTTP/1.1" 200 7047
+
+            [89] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/bootstrap.min.css?v1.0.0 HTTP/1.1" 200 18256
+
+            [90] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/animate.min.css HTTP/1.1" 200 4643
+
+            [91] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/toggles.css HTTP/1.1" 200 756
+
+            [92] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/animate.delay.css HTTP/1.1" 200 520
+
+            [93] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/select2.css HTTP/1.1" 200 3331
+
+            [94] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/lato.css HTTP/1.1" 200 506
+
+            [95] => 127.0.0.1 - - [08/Oct/2019:10:49:05 -0400] "GET /admin/css/roboto.css HTTP/1.1" 200 631
+
+            [96] => 127.0.0.1 - - [08/Oct/2019:10:49:42 -0400] "GET /admin/js/select/css/bootstrap-select.css HTTP/1.1" 200 1669
+
+            [97] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /css/bootstrap-editable.css HTTP/1.1" 200 3607
+
+            [98] => 127.0.0.1 - - [08/Oct/2019:10:50:25 -0400] "GET /admin/js/venobox/venobox.css HTTP/1.1" 200 1426
+
+            [99] => 127.0.0.1 - - [08/Oct/2019:10:55:12 -0400] "GET /admin/js/venobox/venobox.css?v1.0.0 HTTP/1.1" 200 1426
+
+            [100] => 127.0.0.1 - - [08/Oct/2019:10:55:18 -0400] "GET /admin/css/dropit.css HTTP/1.1" 200 769
+
+            [101] => 127.0.0.1 - - [08/Oct/2019:10:55:45 -0400] "GET /admin/css/jquery-labelauty.css HTTP/1.1" 200 900
+
+            [102] => 127.0.0.1 - - [08/Oct/2019:10:55:45 -0400] "GET /admin/css/prettyPhoto.css HTTP/1.1" 200 2765
+
+            [103] => 127.0.0.1 - - [08/Oct/2019:10:55:52 -0400] "GET /admin/css/cardsmart.css?v1.0.2 HTTP/1.1" 200 944
+
+            [104] => 127.0.0.1 - - [08/Oct/2019:12:14:45 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [105] => 127.0.0.1 - - [08/Oct/2019:19:16:27 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [106] => 127.0.0.1 - - [09/Oct/2019:11:23:35 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [107] => 127.0.0.1 - - [10/Oct/2019:12:39:33 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [108] => 127.0.0.1 - - [10/Oct/2019:12:45:36 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [109] => 127.0.0.1 - - [10/Oct/2019:13:02:12 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [110] => 127.0.0.1 - - [10/Oct/2019:13:03:57 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [111] => 127.0.0.1 - - [10/Oct/2019:13:11:36 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [112] => 127.0.0.1 - - [10/Oct/2019:13:48:24 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [113] => 127.0.0.1 - - [10/Oct/2019:13:48:24 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [114] => 127.0.0.1 - - [10/Oct/2019:13:56:58 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [115] => 127.0.0.1 - - [10/Oct/2019:13:57:09 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [116] => 127.0.0.1 - - [10/Oct/2019:13:57:55 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [117] => 127.0.0.1 - - [10/Oct/2019:13:58:01 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [118] => 127.0.0.1 - - [10/Oct/2019:13:59:01 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [119] => 127.0.0.1 - - [10/Oct/2019:13:59:18 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [120] => 127.0.0.1 - - [10/Oct/2019:13:59:21 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [121] => 127.0.0.1 - - [10/Oct/2019:13:59:21 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [122] => 127.0.0.1 - - [10/Oct/2019:13:59:28 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [123] => 127.0.0.1 - - [10/Oct/2019:14:00:24 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [124] => 127.0.0.1 - - [10/Oct/2019:14:00:36 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [125] => 127.0.0.1 - - [10/Oct/2019:14:01:17 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [126] => 127.0.0.1 - - [10/Oct/2019:14:01:35 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [127] => 127.0.0.1 - - [10/Oct/2019:14:01:52 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [128] => 127.0.0.1 - - [10/Oct/2019:14:02:09 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [129] => 127.0.0.1 - - [10/Oct/2019:18:00:18 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [130] => 127.0.0.1 - - [10/Oct/2019:18:00:38 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [131] => 127.0.0.1 - - [10/Oct/2019:18:00:39 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [132] => 127.0.0.1 - - [10/Oct/2019:18:00:49 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [133] => 127.0.0.1 - - [11/Oct/2019:17:07:40 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [134] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/bootstrap.css HTTP/1.1" 404 1250
+
+            [135] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/dl-menu.css HTTP/1.1" 404 1250
+
+            [136] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/font-awesome.min.css HTTP/1.1" 404 1250
+
+            [137] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/magnific-popup.css HTTP/1.1" 404 1250
+
+            [138] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/superfish.css HTTP/1.1" 404 1250
+
+            [139] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/audio/nouislider.fox.css HTTP/1.1" 404 1250
+
+            [140] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/audio/nouislider.space.css HTTP/1.1" 404 1250
+
+            [141] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/custom.css HTTP/1.1" 404 1250
+
+            [142] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/bootstrap.css HTTP/1.1" 404 1250
+
+            [143] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/font-awesome.min.css HTTP/1.1" 404 1250
+
+            [144] => 127.0.0.1 - - [11/Oct/2019:17:23:54 -0400] "GET /corporate/css/dl-menu.css HTTP/1.1" 404 1250
+
+            [145] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/css/magnific-popup.css HTTP/1.1" 404 1250
+
+            [146] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/css/superfish.css HTTP/1.1" 404 1250
+
+            [147] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/css/audio/nouislider.fox.css HTTP/1.1" 404 1250
+
+            [148] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/css/audio/nouislider.space.css HTTP/1.1" 404 1250
+
+            [149] => 127.0.0.1 - - [11/Oct/2019:17:23:55 -0400] "GET /corporate/css/custom.css HTTP/1.1" 404 1250
+
+            [150] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/css/bootstrap.css HTTP/1.1" 404 1250
+
+            [151] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/css/font-awesome.min.css HTTP/1.1" 404 1250
+
+            [152] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/css/superfish.css HTTP/1.1" 404 1250
+
+            [153] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/css/dl-menu.css HTTP/1.1" 404 1250
+
+            [154] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/css/audio/nouislider.fox.css HTTP/1.1" 404 1250
+
+            [155] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/css/audio/nouislider.space.css HTTP/1.1" 404 1250
+
+            [156] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/css/magnific-popup.css HTTP/1.1" 404 1250
+
+            [157] => 127.0.0.1 - - [11/Oct/2019:17:24:11 -0400] "GET /corporate/css/custom.css HTTP/1.1" 404 1250
+
+            [158] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/css/bootstrap.css HTTP/1.1" 404 1250
+
+            [159] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/css/font-awesome.min.css HTTP/1.1" 404 1250
+
+            [160] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/css/dl-menu.css HTTP/1.1" 404 1250
+
+            [161] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/css/magnific-popup.css HTTP/1.1" 404 1250
+
+            [162] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/css/superfish.css HTTP/1.1" 404 1250
+
+            [163] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/css/audio/nouislider.fox.css HTTP/1.1" 404 1250
+
+            [164] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/css/audio/nouislider.space.css HTTP/1.1" 404 1250
+
+            [165] => 127.0.0.1 - - [11/Oct/2019:17:24:12 -0400] "GET /corporate/css/custom.css HTTP/1.1" 404 1250
+
+            [166] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/font-awesome.min.css HTTP/1.1" 404 1250
+
+            [167] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/dl-menu.css HTTP/1.1" 404 1250
+
+            [168] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/bootstrap.css HTTP/1.1" 404 1250
+
+            [169] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/superfish.css HTTP/1.1" 404 1250
+
+            [170] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/magnific-popup.css HTTP/1.1" 404 1250
+
+            [171] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/audio/nouislider.fox.css HTTP/1.1" 404 1250
+
+            [172] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/audio/nouislider.space.css HTTP/1.1" 404 1250
+
+            [173] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/custom.css HTTP/1.1" 404 1250
+
+            [174] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/bootstrap.css HTTP/1.1" 404 1250
+
+            [175] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/font-awesome.min.css HTTP/1.1" 404 1250
+
+            [176] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/dl-menu.css HTTP/1.1" 404 1250
+
+            [177] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/magnific-popup.css HTTP/1.1" 404 1250
+
+            [178] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/superfish.css HTTP/1.1" 404 1250
+
+            [179] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/audio/nouislider.fox.css HTTP/1.1" 404 1250
+
+            [180] => 127.0.0.1 - - [11/Oct/2019:17:29:29 -0400] "GET /corporate/css/audio/nouislider.space.css HTTP/1.1" 404 1250
+
+            [181] => 127.0.0.1 - - [11/Oct/2019:17:29:30 -0400] "GET /corporate/css/custom.css HTTP/1.1" 404 1250
+
+            [182] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/dl-menu.css HTTP/1.1" 404 1280
+
+            [183] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/bootstrap.css HTTP/1.1" 404 1280
+
+            [184] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/magnific-popup.css HTTP/1.1" 404 1280
+
+            [185] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/superfish.css HTTP/1.1" 404 1280
+
+            [186] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/font-awesome.min.css HTTP/1.1" 404 1280
+
+            [187] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/audio/nouislider.fox.css HTTP/1.1" 404 1280
+
+            [188] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/audio/nouislider.space.css HTTP/1.1" 404 1280
+
+            [189] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/custom.css HTTP/1.1" 404 1280
+
+            [190] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/bootstrap.css HTTP/1.1" 404 1280
+
+            [191] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/font-awesome.min.css HTTP/1.1" 404 1280
+
+            [192] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/dl-menu.css HTTP/1.1" 404 1280
+
+            [193] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/magnific-popup.css HTTP/1.1" 404 1280
+
+            [194] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/superfish.css HTTP/1.1" 404 1280
+
+            [195] => 127.0.0.1 - - [11/Oct/2019:17:48:18 -0400] "GET /corporate/css/audio/nouislider.fox.css HTTP/1.1" 404 1280
+
+            [196] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/css/audio/nouislider.space.css HTTP/1.1" 404 1280
+
+            [197] => 127.0.0.1 - - [11/Oct/2019:17:48:19 -0400] "GET /corporate/css/custom.css HTTP/1.1" 404 1280
+
+            [198] => 127.0.0.1 - - [11/Oct/2019:20:13:32 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [199] => 127.0.0.1 - - [11/Oct/2019:20:13:32 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [200] => 127.0.0.1 - - [11/Oct/2019:20:13:42 -0400] "GET /_templates/jake/css/prod.css?v=277 HTTP/1.1" 404 1210
+
+            [201] => 127.0.0.1 - - [13/Oct/2019:13:30:26 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [202] => 127.0.0.1 - - [13/Oct/2019:13:41:56 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [203] => 127.0.0.1 - - [13/Oct/2019:13:42:05 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [204] => 127.0.0.1 - - [13/Oct/2019:13:42:22 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [205] => 127.0.0.1 - - [13/Oct/2019:13:47:47 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [206] => 127.0.0.1 - - [13/Oct/2019:13:52:36 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [207] => 127.0.0.1 - - [13/Oct/2019:13:53:09 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [208] => 127.0.0.1 - - [13/Oct/2019:13:54:52 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [209] => 127.0.0.1 - - [13/Oct/2019:13:56:42 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [210] => 127.0.0.1 - - [13/Oct/2019:13:56:42 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [211] => 127.0.0.1 - - [13/Oct/2019:13:57:20 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [212] => 127.0.0.1 - - [13/Oct/2019:14:06:21 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [213] => 127.0.0.1 - - [13/Oct/2019:14:08:49 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [214] => 127.0.0.1 - - [13/Oct/2019:23:03:30 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [215] => 127.0.0.1 - - [13/Oct/2019:23:04:15 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [216] => 127.0.0.1 - - [14/Oct/2019:12:01:32 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [217] => 127.0.0.1 - - [14/Oct/2019:18:14:15 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [218] => 127.0.0.1 - - [15/Oct/2019:19:12:19 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [219] => 127.0.0.1 - - [15/Oct/2019:19:17:36 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [220] => 127.0.0.1 - - [15/Oct/2019:19:19:07 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [221] => 127.0.0.1 - - [15/Oct/2019:19:22:36 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [222] => 127.0.0.1 - - [15/Oct/2019:19:23:53 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [223] => 127.0.0.1 - - [15/Oct/2019:19:47:41 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [224] => 127.0.0.1 - - [15/Oct/2019:19:49:58 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [225] => 127.0.0.1 - - [15/Oct/2019:19:52:57 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [226] => 127.0.0.1 - - [15/Oct/2019:19:56:47 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [227] => 127.0.0.1 - - [15/Oct/2019:19:56:59 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [228] => 127.0.0.1 - - [16/Oct/2019:12:25:37 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [229] => 127.0.0.1 - - [16/Oct/2019:13:01:00 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [230] => 127.0.0.1 - - [16/Oct/2019:18:15:16 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [231] => 127.0.0.1 - - [16/Oct/2019:19:37:21 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [232] => 127.0.0.1 - - [17/Oct/2019:12:18:01 -0400] "GET /css/sales/style.css HTTP/1.1" 200 5227
+
+            [233] => 127.0.0.1 - - [17/Oct/2019:12:18:01 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [234] => 127.0.0.1 - - [17/Oct/2019:12:22:07 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [235] => 127.0.0.1 - - [17/Oct/2019:15:25:48 -0400] "GET /css/bootstrap.css HTTP/1.1" 304 -
+
+            [236] => 127.0.0.1 - - [17/Oct/2019:15:25:48 -0400] "GET /css/sales/style.css HTTP/1.1" 304 -
+
+            [237] => 127.0.0.1 - - [17/Oct/2019:17:23:05 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [238] => 127.0.0.1 - - [18/Oct/2019:16:59:28 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [239] => 127.0.0.1 - - [18/Oct/2019:18:37:00 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [240] => 127.0.0.1 - - [18/Oct/2019:18:42:16 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [241] => 127.0.0.1 - - [18/Oct/2019:18:43:11 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [242] => 127.0.0.1 - - [18/Oct/2019:18:43:33 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [243] => 127.0.0.1 - - [18/Oct/2019:18:53:55 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [244] => 127.0.0.1 - - [18/Oct/2019:19:09:13 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [245] => 127.0.0.1 - - [18/Oct/2019:19:12:38 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [246] => 127.0.0.1 - - [18/Oct/2019:19:23:17 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [247] => 127.0.0.1 - - [18/Oct/2019:19:23:26 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [248] => 127.0.0.1 - - [18/Oct/2019:19:27:00 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [249] => 127.0.0.1 - - [18/Oct/2019:19:27:15 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [250] => 127.0.0.1 - - [18/Oct/2019:19:27:20 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [251] => 127.0.0.1 - - [18/Oct/2019:19:28:15 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [252] => 127.0.0.1 - - [18/Oct/2019:19:33:21 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [253] => 127.0.0.1 - - [18/Oct/2019:19:33:30 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [254] => 127.0.0.1 - - [18/Oct/2019:19:35:02 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [255] => 127.0.0.1 - - [18/Oct/2019:19:36:57 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [256] => 127.0.0.1 - - [18/Oct/2019:19:44:51 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [257] => 127.0.0.1 - - [18/Oct/2019:20:14:01 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [258] => 127.0.0.1 - - [18/Oct/2019:20:14:33 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [259] => 127.0.0.1 - - [18/Oct/2019:20:14:34 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [260] => 127.0.0.1 - - [18/Oct/2019:20:51:30 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [261] => 127.0.0.1 - - [18/Oct/2019:21:03:55 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [262] => 127.0.0.1 - - [18/Oct/2019:22:29:48 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [263] => 127.0.0.1 - - [19/Oct/2019:13:05:44 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [264] => 127.0.0.1 - - [19/Oct/2019:13:29:55 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [265] => 127.0.0.1 - - [19/Oct/2019:13:55:56 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [266] => 127.0.0.1 - - [19/Oct/2019:13:56:11 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [267] => 127.0.0.1 - - [19/Oct/2019:14:00:41 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [268] => 127.0.0.1 - - [19/Oct/2019:14:02:49 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [269] => 127.0.0.1 - - [19/Oct/2019:14:03:24 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [270] => 127.0.0.1 - - [19/Oct/2019:14:11:49 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [271] => 127.0.0.1 - - [19/Oct/2019:14:16:11 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [272] => 127.0.0.1 - - [19/Oct/2019:14:16:34 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [273] => 127.0.0.1 - - [19/Oct/2019:17:35:01 -0400] "GET /css/bootstrap.css HTTP/1.1" 304 -
+
+            [274] => 127.0.0.1 - - [19/Oct/2019:18:05:43 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [275] => 127.0.0.1 - - [19/Oct/2019:18:05:58 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [276] => 127.0.0.1 - - [20/Oct/2019:13:31:11 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [277] => 127.0.0.1 - - [20/Oct/2019:14:31:54 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [278] => 127.0.0.1 - - [21/Oct/2019:18:19:08 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [279] => 127.0.0.1 - - [21/Oct/2019:18:49:51 -0400] "GET /css/bootstrap.css.map HTTP/1.1" 200 492048
+
+            [280] => 127.0.0.1 - - [21/Oct/2019:18:50:18 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [281] => 127.0.0.1 - - [21/Oct/2019:18:57:54 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [282] => 127.0.0.1 - - [21/Oct/2019:18:58:35 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [283] => 127.0.0.1 - - [21/Oct/2019:19:04:08 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [284] => 127.0.0.1 - - [21/Oct/2019:19:04:15 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [285] => 127.0.0.1 - - [21/Oct/2019:19:04:49 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [286] => 127.0.0.1 - - [21/Oct/2019:19:07:19 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [287] => 127.0.0.1 - - [21/Oct/2019:19:17:27 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [288] => 127.0.0.1 - - [21/Oct/2019:19:18:33 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [289] => 127.0.0.1 - - [21/Oct/2019:19:20:45 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [290] => 127.0.0.1 - - [21/Oct/2019:19:24:25 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [291] => 127.0.0.1 - - [21/Oct/2019:19:28:19 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [292] => 127.0.0.1 - - [21/Oct/2019:19:30:55 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [293] => 127.0.0.1 - - [21/Oct/2019:19:31:46 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [294] => 127.0.0.1 - - [21/Oct/2019:19:34:11 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [295] => 127.0.0.1 - - [21/Oct/2019:19:39:27 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [296] => 127.0.0.1 - - [21/Oct/2019:19:41:49 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [297] => 127.0.0.1 - - [21/Oct/2019:19:42:07 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [298] => 127.0.0.1 - - [21/Oct/2019:19:42:38 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [299] => 127.0.0.1 - - [21/Oct/2019:19:49:55 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [300] => 127.0.0.1 - - [21/Oct/2019:20:11:07 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [301] => 127.0.0.1 - - [21/Oct/2019:20:11:22 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [302] => 127.0.0.1 - - [21/Oct/2019:20:12:02 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [303] => 127.0.0.1 - - [21/Oct/2019:20:30:36 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [304] => 127.0.0.1 - - [21/Oct/2019:20:41:39 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [305] => 127.0.0.1 - - [21/Oct/2019:20:47:35 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [306] => 127.0.0.1 - - [21/Oct/2019:20:59:10 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+            [307] => 127.0.0.1 - - [22/Oct/2019:00:05:53 -0400] "GET /css/bootstrap.css HTTP/1.1" 200 
+        )
+
+)

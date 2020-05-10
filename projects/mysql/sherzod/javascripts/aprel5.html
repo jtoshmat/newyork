@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aprel5</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="/js/jquery.js"></script>
+</head>
+
+
+<body>
+
+<div id="winning_display_image">
+    <img src="https://4.bp.blogspot.com/-4oOrcV1-yys/VjPm84xJh1I/AAAAAAAALCo/GaWOCv-9iZY/s320/Congrats%2Bconfetti.gif">
+</div>
+
+<div class="ball ball1"><span>0</span></div>
+<div class="ball ball2"><span>0</span></div>
+<div class="ball ball3"><span>0</span></div>
+<div class="ball ball4"><span>0</span></div>
+<div class="ball ball5"><span>0</span></div>
+<div class="ball ball6"><span>0</span></div>
+<div class="clearfix"></div>
+
+<div class="ball balla1"><span>1</span></div>
+<div class="ball balla2"><span>2</span></div>
+<div class="ball balla3"><span>3</span></div>
+<div class="ball balla4"><span>4</span></div>
+<div class="ball balla5"><span>5</span></div>
+<div class="ball balla6"><span>6</span></div>
+
+<div class="clearfix"></div>
+<hr>
+<div id="jackpot_display"></div>
+<hr>
+<div class="mybuttons">
+    <button id="reset_numbers_btn" class="btn btn-dark">Reset</button>
+    <button id="change_numbers_btn" class="btn btn-dark">Change</button>
+</div>
+
+<style>
+    .ball{
+        width: 200px;
+        height: 200px;
+        display: inline-block;
+        float: left;
+        margin: 10px;
+        text-align: center;
+        border-radius: 50%;
+        border: 8px double #4f0001;
+    }
+    .ball1{background-color: red;}
+    .ball2{background-color: #2cbf59;}
+    .ball3{background-color: purple;}
+    .ball4{background-color: orange;}
+    .ball5{background-color: blue;}
+    .ball6{background-color: violet;}
+
+
+    .balla1{background-color: red;}
+    .balla2{background-color: #2cbf59;}
+    .balla3{background-color: purple;}
+    .balla4{background-color: orange;}
+    .balla5{background-color: blue;}
+    .balla6{background-color: violet;}
+
+    .ball span{
+        position: relative;
+        top: 8px;
+        padding:5px;
+        color: black;
+        font-size: 500%;
+    }
+
+    #winning_display_image{
+        width: 580px;
+        position: absolute;
+        top: 8%;
+        left: 26%;
+        z-index: 1000;
+        background-color: #ffffeb;
+        display: none;
+    }
+    #winning_display_image img{
+        width: 100%;
+    }
+</style>
+
+
+<script>
+    $(function () {
+    let stop = false;
+    myTimer();
+    let winning_numbers = [1,2,3,4,5,6];
+
+        $("#reset_numbers_btn").click(function () {
+            //resetNumbers();
+            stop=true;
+            console.clear();
+            $("#winning_display_image").hide();
+        });
+
+        $("#change_numbers_btn").click(function () {
+            stop = false;
+            myTimer();
+        });
+
+    function resetNumbers() {
+        $(".ball1").html("<span> </span>");
+        $(".ball2").html("<span> </span>");
+        $(".ball3").html("<span> </span>");
+        $(".ball4").html("<span> </span>");
+        $(".ball5").html("<span> </span>");
+        $(".ball6").html("<span> </span>");
+    }
+
+    function changeNumber() {
+        let number1 = generateRandomNumber();
+        let number2 = generateRandomNumber();
+        let number3 = generateRandomNumber();
+        let number4 = generateRandomNumber();
+        let number5 = generateRandomNumber();
+        let number6 = generateRandomNumber();
+
+        let jackpot = [];
+        for (let n=0; n<winning_numbers.length; n++){
+            if (winning_numbers[0] == number1){
+                jackpot[1] = number1;
+            }
+            if (winning_numbers[1] == number2){
+                jackpot[2] = number2;
+            }
+            if (winning_numbers[2] == number3){
+                jackpot[3] = number3;
+            }
+            if (winning_numbers[3] == number4){
+                jackpot[4] = number4;
+            }
+            if (winning_numbers[4] == number5){
+                jackpot[5] = number5;
+            }
+            if (winning_numbers[5] == number6){
+                jackpot[6] = number6;
+            }
+        }
+
+        let orni = [];
+        let total_win = 0;
+        for (let w=1; w<jackpot.length+1; w++){
+            console.log("total win:" + total_win);
+            orni[w] = jackpot[w]??0;
+
+            if (w==1 && jackpot[w]>0){
+                total_win++;
+                orni[1] = 'chappak chappak';
+            }
+            if (w==2 && jackpot[w]>0 && total_win>=1){
+                total_win++;
+                orni[2] = '$100 dollar';
+            }
+            if (w==3 && jackpot[w]>0  && total_win>=2){ //<---- WIP
+                total_win++;
+                orni[3] = '$300 dollar';
+            }
+            if (w==4 && jackpot[w]>0 && total_win>=3){
+                total_win++;
+                orni[4] = '$500 dollar';
+            }
+            if (w==5 && jackpot[w]>0 && total_win>=4){
+                total_win++;
+                orni[5] = '$800 dollar';
+            }
+            if (w==6 && jackpot[w]>0 && total_win>=5){
+                total_win++;
+                orni[6] = jackpot[w];
+            }
+
+            if (total_win==3){
+                stop=true;
+                $("#winning_display_image").show();
+                break;
+                //alert("You just won $300 dollars WOHOOO!!!");
+                //break;
+            }
+            if (total_win==4){
+                stop=true;
+                $("#winning_display_image").show();
+                alert("You just won $500 dollars WOHOOO!!!");
+                break;
+            }
+            if (total_win==5){
+                stop=true;
+                alert("You just won $800 dollars WOHOOO!!!");
+                break;
+            }
+            if (total_win==6){
+                stop=true;
+                alert("***** JACKPOT ******");
+                break;
+            }
+        }
+
+
+
+        $(".ball1").html("<span>"+number1+"</span>");
+        $(".ball2").html("<span>"+number2+"</span>");
+        $(".ball3").html("<span>"+number3+"</span>");
+        $(".ball4").html("<span>"+number4+"</span>");
+        $(".ball5").html("<span>"+number5+"</span>");
+        $(".ball6").html("<span>"+number6+"</span>");
+
+        if (orni.length>0) {
+            console.log(orni);
+        }
+    }
+    function generateRandomNumber(maxNumber=6) {
+        return Math.floor((Math.random() * maxNumber) + 1);
+    }
+    function myTimer() {
+        let mycount = 0;
+        setInterval(function(){
+            if (stop){
+                return false;
+            }
+            mycount++;
+            changeNumber();
+        }, 100);
+    }
+    })
+</script>
+
+</body>
+</html>

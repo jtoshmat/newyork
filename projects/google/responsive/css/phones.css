@@ -1,0 +1,23 @@
+#mysite {
+    width: 100%;
+    margin: 0;
+}
+.myheader{
+    text-align: center;
+}
+.mycontent{
+    height: 300px;
+}
+.youtube{
+    height: 350px;
+    background-color: #021427;
+    padding: 5px;
+    text-align: center;
+    border: none;
+}
+#youtube_iframe{
+    width: 100%;
+    height: 100%;
+    background: black;
+    border: none;
+}

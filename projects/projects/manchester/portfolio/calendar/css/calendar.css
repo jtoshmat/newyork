@@ -1,0 +1,222 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+html, body{
+    margin: 0px;
+    padding:0px;
+    width:100%;
+    height: 100%;
+    box-sizing: content-box;
+}
+body{
+    background-color: #d7d7d7;
+    font-size: 120%;
+    font-family: "Apple Braille";
+    color:black;
+}
+/* My Calendar CSS starts here*/
+#calendar{
+    width: 1500px;
+    height: 1000px;
+    border: 1px solid darkgrey;
+    background-color: #d9d9d9;
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 1px;
+}
+#calendar_header{
+    width: 100%;
+    height: 80px;
+    background-color: #2f2929;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#calendar_title{
+    width: 100%;
+    height: 80px;
+    background-color: #e7e7e7;
+}
+#calendar_table{
+    width: 100%;
+    height: auto;
+    background-color: #e7e7e7;
+}
+#calendar_table tr:last-child td:last-child{
+    border-right: 1px solid #b9b7b7;
+}
+.title_month{
+    font-size: 200%;
+    font-weight: bolder;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.title_year{
+    font-size: 200%;
+    padding-top: 20px;
+}
+.table th, .table td {
+    border-top: none;
+}
+td{
+    border: 1px solid #b9b7b7;
+    height: 140px;
+    width: 140px;
+    min-height: 140px;
+    min-width: 140px;
+    max-height: 140px;
+    max-width: 140px;
+    text-align: right;
+    font-weight: bolder;
+}
+td:last-child{
+    border-right: 0px;
+}
+td:first-child{
+    border-left: 0px;
+}
+td:hover{
+    background-color: #dedede;
+    cursor: pointer;
+}
+th{
+    text-align: right;
+    border-bottom: 1px solid #b9b7b7;
+    color: #652727;
+}
+.calendar_today_class div{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    right: -83%;
+    top: -10px;
+    color: whitesmoke;
+}
+#calendar_footer{
+    text-align: center;
+    color: grey;
+    font-size: 130%;
+    width: 100%;
+    height: 90px;
+    background-color: #2f2929;
+    position: relative;
+    top: -20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-top: 20px;
+}
+.header_divs{
+    display: inline-block;
+    width: 33%;
+    position: relative;
+    top: 17px;
+}
+.left_div{
+    float: left;
+    text-align: left;
+    position: relative;
+    top: 17px;
+    left: 18px;
+    width: 23%;
+}
+.middle_div{
+    width: 44%;
+    text-align: center;
+}
+.right_div{
+    float: right;
+    text-align: right;
+}
+.circle1{
+    color: red;
+}
+.circle2{
+    color: orange;
+}
+.circle3{
+    color: green;
+}
+.header_btns{
+    display: inline-block;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    padding: 1px;
+    text-align: center;
+    height: 28px;
+    padding-left: 9px;
+    padding-right: 12px;
+    font-size: 80%;
+    cursor: pointer;
+}
+.header_middle_btns{
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+.header_middle_btns:first-child{
+    margin-left: 100px;
+}
+.search_input{
+    background-image: url("/img/searchicon.png");
+    width: 286px;
+    height: 31px;
+    border-radius: 10px;
+    border: 1px solid darkgrey;
+    background-size: 10% 100%;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-right: 20px;
+    color: darkgrey;
+    background-position-x: 4px;
+}
+.search_input::placeholder{
+    padding-left: 10px;
+    font-size: 80%;
+    color: lightgrey;
+}
+.right_btns{
+    position: relative;
+    top: 43px;
+    right: 10px;
+}
+.right_btns div{
+    background-color: whitesmoke;
+}
+.right_btns a{
+    color:black;
+    text-decoration: none;
+}
+.blank_day{
+    background-color: #f1f3f5;
+}
+.today_events_normal{
+    background-color: #269840;
+    color: white;
+}
+.today_events_medium{
+    background-color: #daa333;
+    color: white;
+}
+.today_events_high{
+    background-color: #961d3c;
+    color: white;
+}
+
+.calendar_add_icon{
+    color: #959494;
+    font-size: medium;
+    position: sticky;
+    top: 120%;
+    z-index: 1000;
+    display: none;
+
+}
+
+.my_date_class:hover > .calendar_add_icon{
+    display: block;
+}
+
+/* My Calendar CSS ends here*/

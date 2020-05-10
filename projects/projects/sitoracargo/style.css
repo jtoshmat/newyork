@@ -1,0 +1,186 @@
+
+body, h1, h3 {
+    margin: 0;
+    font-size: 12px;
+}
+.sitora {
+    width: 70%;
+    margin: 0 auto;
+
+}
+.clr {
+    clear:both;
+}
+.buxoro1 {
+    background-color: #4CAF50;
+    color: #ff3126;
+    /*padding-bottom: 20px;*/
+    /*padding-left:25px ;*/
+    /*padding-right: 30px;*/
+    /*padding-top: 25px;*/
+    padding: 25px 30px;
+    border: 5px solid red;
+    margin-top: 10px;
+}
+.buxoro1 h1 {
+    color: #00c6fd;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Raleway', sans-serif;
+}
+.buxoro2 {
+    border: 5px dashed blue;
+    margin-top: 5px;
+    background-color: #00c6fd;
+    padding: 10px;
+}
+.buxoro2 h1 {
+    color: #e2191c;
+    text-align: center;
+}
+.button {
+    border-color: red;
+    border-radius: 3px;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: red;
+    color: #fffdfe;
+}
+.buxoro3 {
+    margin: 10px 0;
+    border: 3px solid brown;
+
+}
+.buxoro3 h1 {
+    text-align: center;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    font-size: larger;
+}
+.boxes {
+    padding: 17px;
+}
+.boxes li {
+    list-style-type: none;
+    padding: 5px 0;
+    border-bottom: 1px solid blue;
+
+}
+.Phila{
+
+}
+.Phila label {
+    display: block;
+    font-size: 10px;
+    color: rgba(20, 16, 255, 0.91);
+
+
+
+}
+.Phila input, textarea {
+    margin: 3px 0;
+    padding: 3px;
+    display: block;
+    width: 90%;
+
+}
+.block {
+    float: right;
+    width: 33.3%;
+    border:1px solid blue;
+    padding: 5px;
+    box-sizing: border-box;
+
+}
+.content {
+    width: 70%;
+    float: left;
+}
+.sidebar {
+    float:left;
+    width:30%;
+    background-color: #00c6fd;
+    color: red;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+.relative {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #aee256;
+    top: 0;
+}
+.absalute {
+    position: relative;
+    bottom: 10px;
+    right: 0;
+
+}
+.absalute2 {
+    position: relative;
+    bottom: 0;
+    right: 0;
+
+}
+.button2 {
+    position: fixed;
+    left: 0;
+    top: 50%;
+}
+.list-items li {
+    color: red;
+    padding: 5px;
+    list-style-type: none;
+
+}
+.list-items li:first-child {
+    background-color: blue;
+}
+.list-items li:last-child {
+    background-color: green;
+
+}
+.list-items li:nth-child(even) {
+    background-color: #5effe4;
+}
+.table1 {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table1 th {
+    border: 1px solid black;
+    text-align: center;
+    background-color: #4CAF50;
+    padding: 5px;
+}
+
+.table1 td {
+    text-align: center;
+    border: 1px solid black;
+    background-color: #9999ff;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
