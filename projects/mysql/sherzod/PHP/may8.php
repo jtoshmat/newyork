@@ -38,18 +38,20 @@ echo "<hr>";*/
 $ok=[];
 $no=[];
 foreach ($numbers as $number) {
-    if ($number%9 == 00) {
-        $ok[] = $number;
+    if ($number%9 == 0) {
+        $nine[] = $number;
 }   elseif ($number%19 == 0){
-        $ok[]= $number;
+        $nineteen[]= $number;
 }   else{
         $no[]= $number;
     }
 }
 echo "<pre>";
-//print_r($ok);
-echo '<hr>';
 print_r($no);
+echo '<hr>';
+print_r($nine);
+echo '<hr>';
+print_r($nineteen);
 
 
 
