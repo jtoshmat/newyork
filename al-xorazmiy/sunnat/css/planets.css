@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 110%;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #0a1630;
+}
+
+#planets {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://wallpaperplay.com/walls/full/1/8/3/364649.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-size: 110%;
+    color: greenyellow;
+}
+
+.left {
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.right {
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+
+.circles {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 40px;
+    position: relative;
+    top: -36px;
+    left: 48px;
+}
+
+#sun {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/sun.jpeg");
+}
+
+#mercury {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/mercury.jpg");
+}
+
+#venus {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/venus.jpg");
+}
+
+#earth {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/earth2.jpg");
+}
+
+#mars {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/mars.jpg");
+}
+
+#jupiter {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/jupiter.jpg");
+}
+
+#saturn {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/saturn.jpg");
+}
+
+#uranus {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/uranus.jpg");
+}
+
+#neptune {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../img/neptune1.jpg");
+}
+.comment1{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    position: relative;
+    top: -683px;
+    left: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+}
+.comment1 hd{
+    color: red;
+    font-size: 110%;
+}
+.comment2{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    position: relative;
+    top: -658px;
+    left: 392px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+}
+.comment2 hd{
+    color: red;
+    font-size: 110%;
+}
+.comment3{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 10px;
+    position: relative;
+    top: -680px;
+    left: 585px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+}
+.comment3 hd{
+    color: red;
+    font-size: 110%;
+}.comment4{
+     width: 400px;
+     height: auto;
+     background-color: white;
+     color: black;
+     font-weight: bolder;
+     padding: 10px;
+     position: relative;
+     top: -372px;
+     left: 87px;
+     border-top-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+    display: none;
+ }
+.comment4 hd{
+    color: red;
+    font-size: 110%;
+}.comment5{
+     width: 400px;
+     height: auto;
+     background-color: white;
+     color: black;
+     font-weight: bolder;
+     padding: 10px;
+     position: relative;
+     top: -380px;
+     left: 385px;
+     border-top-left-radius: 20px;
+     border-bottom-right-radius: 20px;
+    display: none;
+ }
+.comment5 hd{
+    color: red;
+    font-size: 110%;
+}
+.labels{
+    font-size: 130%;
+    color: white;
+    font-weight: bolder;
+}
+.right input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 150%;
+}
+.btn{
+    color: blue;
+    background-color: greenyellow;
+    font-weight: bolder;
+    font-size: 110%;
+    width: 100px;
+    position: relative;
+    left: 100px;
+}
+
+
