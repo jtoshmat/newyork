@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="../../../css/bootstrap.css">
 </head>
 <body>
+<div style="height: 50px"></div>
 <?if(isset($_GET['msg'])):?>
 <div class="alert alert-info"><?=$_GET['msg']?></div>
 <?endif;?>
+<div style="height: 10px"></div>
 <form method="post" action="homework1back.php">
-    <label>your age:</label><br>
+    <label>Your age:</label><br>
     <input name="age" type="number"><br>
-    <label>when u came to America:</label><br>
+    <label>When u came to America:</label><br>
     <input name="usa" type="number"><br>
     <button class="btn btn-success">Submit</button>
 </form>

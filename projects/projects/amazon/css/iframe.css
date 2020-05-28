@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+
+#living_room{
+    width: 1400px;
+    height: 881px;
+    background-color: #cfc4a4;
+    background-image: url(../../../img/living_room.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    border: 5px double #211902;
+    text-align: center;
+}
+#mytv{
+    width: 34%;
+    height: 254px;
+    position: relative;
+    left: 8%;
+    top: 12%;
+}
+
+#remote_control{
+    width: 107px;
+    position: relative;
+    top: -370px;
+    left: 1540px;
+    z-index: 100;
+    text-align: center;
+}
+
+#remote_control img{
+    width: 100%;
+    cursor: pointer;
+}

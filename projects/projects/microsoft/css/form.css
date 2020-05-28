@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    background-image: url("../img/3d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.greybox{
+    width: 713px;
+    height: 457px;
+    margin: auto;
+    background-color: black;
+    position: relative;
+    left: 120px;
+    top: 161px;
+    background-color: black;
+    background-image: url("../img/3d2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mylogin_box{
+    width: 360px;
+    height: 350px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid #635a5a;
+    text-align: center;
+    background-image: url("../img/3d3.jpg");
+    background-size: cover;
+}
+
+.profile_photo{
+    width: 100px;
+    position: relative;
+    left: -6px;
+    top: -49px;
+}
+
+.myform{
+    width: 90%;
+    margin: auto;
+    z-index: 10;
+    position: relative;
+    top: -20px;
+
+}
+
+.formlogin input{
+    width: 99%;
+    height: 40px;
+    border: 1px solid #8d959c;
+    border-radius: 2px;
+    color: grey;
+    padding-left: 10px;
+}
+
+.formlogin button{
+    width: 99%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.bottomdiv{
+    text-align: center;
+    background-color: #eeeeee;
+    position: relative;
+    height: 68px;
+    top: -28px;
+    border-top: 1px solid #ded9d9;
+}
+
+.bottomdiv a{
+    margin-top: 20px;
+}
+.title{
+    font-size: 21px;
+    color: #716565;
+    font-family: monospace;
+}

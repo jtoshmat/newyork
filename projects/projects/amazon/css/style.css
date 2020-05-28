@@ -1,0 +1,34 @@
+body{
+    background-color: #92081b;
+    color: #ffdb51;
+}
+
+nav a{
+    color:greenyellow;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #e2ff92;
+    background-color: #0b18ff;
+    border-radius: 5px;
+    padding:3px;
+    margin:1px;
+}
+
+img{
+    background-color: #ff79a8;
+    border: 5px solid #f1f5fe;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin:20px;
+    opacity: 0.6;
+}
+
+img:hover{
+    opacity: 1;
+    cursor: move;
+    border: 5px solid #9afe1f;
+    background-color: #deff68;
+}

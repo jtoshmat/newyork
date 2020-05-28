@@ -1,0 +1,37 @@
+.mymenu{
+    background-color: #1f4d6b;
+}
+.mymenu a{
+    margin: 15px 15px;
+    color: white;
+    font-size: 120%;
+    text-decoration: none;
+}
+.logo{
+    width: 150px;
+    margin: 10px;
+}
+
+.footer{
+    height: 50px;
+    background-color: #2d6498;
+    width: 100%;
+}
+.content{
+    height: 450px;
+    background-color: red;
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+#mybox{
+    background-color: white;
+    width: 700px;
+    height: auto;
+    margin: 100px auto;
+}
+.title{
+    float: right;
+    color: white;
+}

@@ -1,0 +1,55 @@
+body {
+    background-color: #00a2f9;
+    text-align: center;
+    color: #e32360;
+}
+.box1 {
+    background-color: whitesmoke;
+}
+
+.box2 {
+
+    background-color: grey;
+}
+.box3
+{
+    background-color: #0c5460;
+
+}
+.box4
+{
+    background-color: #116013;
+
+}
+
+.myimg
+{
+    width: 70px;
+    height: 70px;
+    margin-left: -180px;
+
+}
+li{
+    margin-left: 100px;
+}
+
+.mybox
+{
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+    float: left;
+    margin-top: 50px;
+}
+
+h3
+{
+    color: #0c1e3d;
+}
+.box2 h3 {
+    color: #e32360;
+}
+
+.box3 h3 {
+     color: yellowgreen;
+ }

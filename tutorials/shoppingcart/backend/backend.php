@@ -6,9 +6,13 @@ class Backend{
     protected $db;
     public $parms;
     public $product;
+    private $user_id;
     public function __construct()
     {
         session_start();
+        if (!isset($_SESSION['user'])){
+            exit("You must be logged on");
+        }
         $this->db = new database('MY-IT-EDUCATION.US');
         $this->parms = $_POST;
         if (isset($_SESSION['shopping_cart_qty'])) {
@@ -16,6 +20,9 @@ class Backend{
         }else{
             $_SESSION['shopping_cart_qty'] = 0;
         }
+
+        $this->user_id = $_SESSION['user']['user_id'];
+
         $this->getProductDetails();
         $this->addToCart();
     }
@@ -45,7 +52,7 @@ class Backend{
         if ($found){
             $sql = "UPDATE shopping_cart SET qty = $qty WHERE product_id = $product_id";
         }else {
-            $sql = "INSERT INTO shopping_cart (product_id, price, qty, user_id, product_name, image) VALUES ($product_id,$price,$qty,2, '$product_name','$image');";
+            $sql = "INSERT INTO shopping_cart (product_id, price, qty, user_id, product_name, image) VALUES ($product_id,$price,$qty,$this->user_id, '$product_name','$image');";
         }
         $this->db->sql($sql);
         return true;

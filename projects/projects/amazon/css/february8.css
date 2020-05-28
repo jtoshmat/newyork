@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+#mywrapper{
+    width: 1000px;
+    margin: auto;
+    height: auto;
+    background-color: #ececec;
+}
+
+.topdiv{
+    height: 100px;
+}
+
+.topdiv_left{
+    width: 50%;
+    display: inline-block;
+}
+.topdiv_left img{
+    width: 211px;
+    margin: 0px;
+    margin-left: 30px;
+}
+
+.topdiv_right{
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+.searchinput{
+    width: 209px;
+    height: 24px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-image: url(../../../img/searchicon.png);
+    background-size: 34px 37px;
+    background-repeat: no-repeat;
+    padding: 16px;
+}
+
+.mynav{
+    background-color: black;
+    border-bottom: 11px solid #47840f;
+}
+.mynav a{
+    color: white;
+    margin: 15px 15px;
+    text-decoration: none;
+}
+
+.mynav a:hover{
+    border-bottom: 2px dotted yellow;
+}
+
+.middlediv{
+    height: 450px;
+    background-color: #ff5a06;
+    background-image: url("../../../img/plane-over-water2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.welcometext{
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 120px;
+    left: 51px;
+    text-shadow: black 3px 3px;
+}
+
+.bottomdiv{
+    height: 100px;
+    background-color: #74af35;
+}

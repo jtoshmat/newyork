@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+#mybox{
+    background-color: white;
+    width: 820px;
+    height: 600px;
+    margin: auto;
+    margin-top: 70px;
+}
+.imagebox{
+    display: inline-block;
+}
+.boxes{
+    width: 380px;
+    height: 285px;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 11px;
+    ma
+}
+

@@ -1,0 +1,10 @@
+body{
+    background-color: #7a0736;
+    color: #ffdb51;
+}
+
+.spring_image{
+    width: 70%;
+    height: 620px;
+    border: 20px double yellow;
+}

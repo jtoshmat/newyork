@@ -1,0 +1,63 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-image: url("/img/blue_bg.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#mysite{
+    width: 1000px;
+    height: auto;
+    background-color: #042a4f;
+    margin: 100px auto;
+}
+.myheader{
+    background-color: #6d0000;
+    height: 100px;
+}
+.logo{
+    width: 315px;
+    margin: 5px;
+}
+.mynavigation{
+    width: 100%;
+    height: 40px;
+    background-color: #2faff9;
+    padding:5px;
+}
+.mynavigation a{
+    margin: 15px 15px;
+    color: #910000;
+    font-family: "Arial Rounded MT Bold";
+    font-size: 130%;
+    text-decoration: none;
+}
+.mynavigation a:hover{
+    color: #9bff41;
+}
+.mycontent{
+    height: 500px;
+    background-image: url("https://miro.medium.com/max/8000/1*JrHDbEdqGsVfnBYtxOitcw.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top: 5px solid #01162b;
+    border-bottom: 5px solid #01162b;
+    color: wheat;
+    text-shadow: #0f0f0f 2px 2px;
+    font-size: 120%;
+}
+.myfooter{
+    height: 100px;
+    background-color: #2faff9;
+    text-align: center;
+    border-bottom: 5px solid #01162b;
+}
+.social_media_icons{
+    width: 300px;
+    margin-top: 15px;
+}
+.youtube{
+    display: none;
+}
