@@ -10,6 +10,18 @@
 </head>
 <body>
 
+<?php
+$status = false;
+$form_submitted = $post['form_submitted']??null;
+if ($form_submitted AND $form_submitted == 1){
+    require_once '../../inc/database.php'; #Mana shuni topa olmadim
+    $db = new \Database\database();
+    $items = $db->sql("SELECT * FROM menu");
+    $e_mail = $_POST['e_mail']??null;
+    $password = $_POST['password']??null;
+    $status = true;
+}
+?>
 <div class="container-fluid">
 <h3>Welcome to Bensonhurst Digital Library</h3>
     <hr>
@@ -27,13 +39,9 @@
         <input name="form_submitted" type="hidden" value="1">
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
-    <?else:?>
     <div class="result">
-    <ul>
-        <?foreach ($books as $book):?>
-        <li><?=$book['']?></li>
-        <?endforeach;?>
-    </ul>
+    <?else:?>
+        sdfdsgdfgdgdfgfdgdf
     </div>
     <?endif;?>
 </div>
