@@ -14,14 +14,24 @@
 $status = false;
 $form_submitted = $post['form_submitted']??null;
 if ($form_submitted AND $form_submitted == 1){
-    require_once '../../inc/database.php'; #Mana shuni topa olmadim
-    $db = new \Database\database();
-    $items = $db->sql("SELECT * FROM menu");
+    require_once "../../../../../inc/database.php";
+    $db = new \Database\database("library");
+    $books = $db->sql("SELECT * FROM digitlibrary");
     $e_mail = $_POST['e_mail']??null;
     $password = $_POST['password']??null;
     $status = true;
 }
 ?>
+
+<!--
+include "../../../../../inc/database.php";
+$db = new \Database\database("library");
+$library = $db->sql("SELECT * FROM digitlibrary");
+
+echo "<pre>";
+print_r($library);-->
+
+
 <div class="container-fluid">
 <h3>Welcome to Bensonhurst Digital Library</h3>
     <hr>

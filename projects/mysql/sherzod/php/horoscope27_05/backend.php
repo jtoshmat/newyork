@@ -1,27 +1,65 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-<nav>
-    <a href="backend.php?sign=aquarius">Aquarius</a>
-    <a href="backend.php?sign=pisces">Pisces</a>
-    <a href="backend.php?sign=aries">Aries</a>
-    <a href="backend.php?sign=taurus">Taurus</a>
-    <a href="backend.php?sign=gemini">Gemini</a>
-    <a href="backend.php?sign=cancer">Cancer</a>
-    <a href="backend.php?sign=leo">Leo</a>
-    <a href="backend.php?sign=virgo">Virgo</a>
-    <a href="backend.php?sign=libra">Libra</a>
-    <a href="backend.php?sign=scorpio">Scorpio</a>
-    <a href="backend.php?sign=sagittarius">Sagittarius</a>
-    <a href="backend.php?sign=capricorn">Capricorn</a>
-</nav>
+<?php
 
-</body>
-</html>
+$curl = curl_init();
+
+curl_setopt_array($curl, array(
+    CURLOPT_URL => "https://solswtestapi.p.rapidapi.com/subtract",
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_FOLLOWLOCATION => true,
+    CURLOPT_ENCODING => "",
+    CURLOPT_MAXREDIRS => 10,
+    CURLOPT_TIMEOUT => 30,
+    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    CURLOPT_CUSTOMREQUEST => "POST",
+    CURLOPT_POSTFIELDS => "{  \"minuend\": 8,  \"subtrahend\": 10}",
+    CURLOPT_HTTPHEADER => array(
+        "accept: application/json",
+        "content-type: application/json",
+        "x-rapidapi-host: solswtestapi.p.rapidapi.com",
+        "x-rapidapi-key: 6ced4cd34dmsh6dcd81cab6a54f3p16f5a9jsn6dcff53e2541"
+    ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+    echo "cURL Error #:" . $err;
+} else {
+    echo $response;
+}
+/* $curl = curl_init();
+
+curl_setopt_array($curl, array(
+    CURLOPT_URL => "https://sameer-kumar-aztro-v1.p.rapidapi.com/?sign=$sign&day=today",
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_FOLLOWLOCATION => true,
+    CURLOPT_ENCODING => "",
+    CURLOPT_MAXREDIRS => 10,
+    CURLOPT_TIMEOUT => 30,
+    CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    CURLOPT_CUSTOMREQUEST => "POST",
+    CURLOPT_POSTFIELDS => "",
+    CURLOPT_HTTPHEADER => array(
+        "content-type: application/x-www-form-urlencoded",
+        "x-rapidapi-host: sameer-kumar-aztro-v1.p.rapidapi.com",
+        "x-rapidapi-key: 6ced4cd34dmsh6dcd81cab6a54f3p16f5a9jsn6dcff53e2541"
+    ),
+));
+
+$response = curl_exec($curl);
+$err = curl_error($curl);
+
+curl_close($curl);
+
+if ($err) {
+    echo "cURL Error #:" . $err;
+} else {
+    echo $response;
+}*/
+
+
+
+
