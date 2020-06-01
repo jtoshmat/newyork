@@ -22,7 +22,7 @@ print_r($sum);*/
 echo "<pre>";
 print_r($numbers);*/
 /*************************************/
-/*$numbers = range(1,20);
+/*$numbers = range(1,10);
 $sum = array_sum($numbers);
 echo "<pre>";
 print_r($sum);*/

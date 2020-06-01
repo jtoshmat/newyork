@@ -290,7 +290,7 @@ include "covid19backend.php";
             </tr>
 
             <tr>
-                <td><?php print_r($response->confirmed)?></td>
+                <td><?php print_r($response:->confirmed)?></td>
                 <td><?php print_r($response->recovered)?></td>
                 <td><?php print_r($response->critical)?></td>
                 <td><?php print_r($response->deaths)?></td>
