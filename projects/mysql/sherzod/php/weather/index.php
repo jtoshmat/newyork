@@ -322,11 +322,11 @@ include 'backend.php';
     }
     #country{
         width: 500px;
-}
+    }
     .table{
         width: 500px;
-        background-color: rgba(165, 218, 222, 0.16);
-}
+        background-color: rgba(165, 218, 222, 0.45);
+    }
 </style>
 
 </body>
