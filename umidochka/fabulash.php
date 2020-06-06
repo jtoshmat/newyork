@@ -59,12 +59,17 @@
     </div>
 </div>
 
-<div>
+<div id="myfont">
     <p class="cloud-text cloud-title">FABULASH</p>
     <p class="cloud-text attribute">Photo by <a href="https://unsplash.com/photos/Xk0uzYL3lyY?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Setu Anand</a> on <a href="https://unsplash.com/search/photos/coal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
 
 </div>
+
+
 <style>
+
+
+
     @import url('https://fonts.googleapis.com/css?family=Coiny');
 
     .cloud-text {
@@ -78,7 +83,7 @@
         width: 80%;
         margin: 10%;
         font-size: 134px;
-        animation: clouds-moving infinite 220s;
+        animation: clouds-moving infinite 250s;
         animation-fill-mode: forwards;
         animation-play-state: running;
         animation-timing-function: linear;
@@ -99,6 +104,7 @@
         position: relative;
         font-size: 26px;
         text-align: center;
+        background-color: #fd6c65;
     }
 
 </style>
@@ -268,7 +274,17 @@
 </div>
 </div>
 
-<div class="parallax_middle"></div>
+<div class="parallax_middle">
+    <span class="mymove">F</span>
+    <span class="mymove2">A</span>
+    <span class="mymove3">B</span>
+    <span class="mymove4">U</span>
+    <span class="mymove5">L</span>
+    <span class="mymove6">A</span>
+    <span class="mymove7">S</span>
+    <span class="mymove8">H</span>
+
+</div>
 
 <div class="pictures" id="four">
     <div id="container-fluid">
@@ -295,7 +311,7 @@
 </div>
 
 
-<div class="container-fluid">
+<div class="container-fluid myslide">
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -485,6 +501,119 @@
 
 
     <style>
+        .carousel{
+            height: 500px;
+        }
+        div{
+            text-align: center;
+        }
+        .mymove{
+            width: 60px;
+            height: 60px;
+            color: #0c1b3a;
+            position: relative;
+            animation-name: example;
+            animation-duration: 2s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            font-size: 120px;
+        }
+        .mymove2{
+            width: 60px;
+            height: 60px;
+            color: #0c1b3a;
+            position: relative;
+            animation-name: example;
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            font-size: 120px;
+
+        }
+        .mymove3{
+            width: 60px;
+            height: 60px;
+            color: #0c1b3a;
+            position: relative;
+            animation-name: example;
+            animation-duration: 4s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            font-size: 120px;
+
+        }
+
+        .mymove4{
+            width: 60px;
+            height: 60px;
+            color: #0c1b3a;
+            position: relative;
+            animation-name: example;
+            animation-duration: 5s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            font-size: 120px;
+
+        }
+
+        .mymove5{
+            width: 60px;
+            height: 60px;
+            color: #0c1b3a;
+            position: relative;
+            animation-name: example;
+            animation-duration: 6s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            font-size: 120px;
+
+        }
+
+        .mymove6{
+            width: 60px;
+            height: 60px;
+            color: #0c1b3a;
+            position: relative;
+            animation-name: example;
+            animation-duration: 7s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            font-size: 120px;
+
+        }
+
+        .mymove7{
+            width: 60px;
+            height: 60px;
+            color: #0c1b3a;
+            position: relative;
+            animation-name: example;
+            animation-duration: 8s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            font-size: 120px;
+
+        }
+        .mymove8{
+            width: 60px;
+            height: 60px;
+            color: #0c1b3a;
+            position: relative;
+            animation-name: example;
+            animation-duration: 9s;
+            animation-delay: 2s;
+            animation-fill-mode: both;
+            font-size: 120px;
+
+        }
+
+
+
+
+        @keyframes example {
+            from {top: 0px; color: #f7fafa;}
+            to {top: 150px; color: #0c1b3a;}
+        }
 
     .myul{
         float: left;
@@ -617,7 +746,8 @@
 
     .carousel-inner {
         width: 100%;
-        max-height: 500px !important;
+        max-height: 700px !important;
+        border: 5px solid #f8b9b0;
     }
 
     .item img {
@@ -762,6 +892,7 @@
         background-image: url("../umidochka/img/cover6.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
+
     }
 
 
@@ -937,7 +1068,7 @@
             border: 2px solid grey;
             box-shadow: 3px 3px 3px 3px #0c5460;
             margin-bottom: 80px;
-            background-image: url("../umidochka/img/pink_wall.jpg");
+            background-image: url("../umidochka/img/backeye.jpg");
             background-size: cover;
         }
 
@@ -966,6 +1097,7 @@
         .btn-success {
             margin-top: 120px;
             font-family: "Times New Roman";
+
         }
 
         .card-text {
