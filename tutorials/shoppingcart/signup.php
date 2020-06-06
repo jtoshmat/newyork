@@ -28,7 +28,7 @@ if (isset($_SESSION['shopping_cart_qty'])) {
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Members Login</h1>
+            <h1 class="display-4">Sign up</h1>
             <?if(isset($_GET['msg'])):?>
             <div class="alert alert-danger">Error: <?=$_GET['msg']?></div>
             <?endif;?>
@@ -37,23 +37,27 @@ if (isset($_SESSION['shopping_cart_qty'])) {
             <p class="lead">
 
 
-            <form method="post" action="backend/loginprocess.php">
+            <form method="post" action="backend/signupprocess.php">
                 <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
-                    <input required="required" name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <input required="required" name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email Address">
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>
-                    <input required="required"  name="password" type="password" class="form-control" id="exampleInputPassword1">
+                    <input required="required"  name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Your password">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Confirm Password</label>
+                    <input required="required"  name="confirm_password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirm Password">
                 </div>
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
                     <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                 </div>
                 <button type="reset" class="btn btn-dark">Reset</button>
-                <button type="submit" class="btn btn-primary">Login</button>
-                <a href="signup.php" class="btn btn-info">Sign Up</a>
+                <button type="submit" class="btn btn-primary">Sign Up</button>
+                <a href="login.php" class="btn btn-info">Login</a>
                 <a href="forgot.php" class="btn btn-danger">Forgot Password</a>
             </form>
 

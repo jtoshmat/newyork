@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+<?php
+$animal = $_GET['animal']??'lion';
+
+    $animals = [
+        'lion' => [
+'name' => 'King Lion',
+'age' => 6,
+'img' =>'https://resize.hswstatic.com/w_907/gif/lion.jpg',
+'food' => 'meat'
+
+],
+'tiger' => [
+'name' => 'Bengal Tiger King',
+'age' => 8,
+'img' =>'https://www.tigers-world.com/wp-content/uploads/Bengal.jpg',
+'food' => 'meat and grass'
+],
+'elephant' => [
+'name' => 'King of the Sahara',
+'age' => 2,
+'img' =>'https://anthropocenemagazine.org/wp-content/uploads/2020/02/elephant.jpg',
+'food' => 'grass and tree leaves'
+],
+'crocodile' => [
+'name' => 'King of the Mud',
+'age' => 67,
+'img' =>'https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/23/2017/08/sc-aquarium-nile-crocodile-edit1.jpg',
+'food' => 'meat and some fish'
+],
+
+'zebra' => [
+'name' => 'Tallest in the jungle',
+'age' => 34,
+'img' =>'https://s3.amazonaws.com/hudsonalpha/wp-content/uploads/2020/03/31082714/Common_zebra_1.jpg',
+'food' => 'tall trees leaves and some fruites'
+],
+];
+?>
+<div class="container-fluid">
+
+    <div class="leftbox boxes">
+        <img src="<?=$animals[$animal]['img']?>"><br>
+        <label>Name: </label> <?=$animals[$animal]['name']?><br>
+        <label>Age: </label> <?=$animals[$animal]['age']?><br>
+        <label>Food: </label> <?=$animals[$animal]['food']?><br>
+    </div>
+
+    <div class="rightbox boxes">
+        <h4>Animals</h4>
+        <ul>
+            <li><a href="may22.php?animal=lion">Lion</a></li>
+            <li><a href="may22.php?animal=tiger">Tiger</a></li>
+            <li><a href="may22.php?animal=elephant">Elephant</a></li>
+            <li><a href="may22.php?animal=crocodile">Crocodile</a></li>
+            <li><a href="may22.php?animal=zebra">Zebra</a></li>
+        </ul>
+    </div>
+
+</div>
+
+<style>
+
+    .rightbox a{
+        color: yellow;
+    }
+
+    .rightbox li{
+        list-style: none;
+    }
+
+    .leftbox img{
+        width: 50%;
+        border: 1px solid black;
+    }
+
+    .container-fluid{
+        text-align: center;
+    }
+
+    .leftbox{
+        background-color: #00a900;
+        float: left;
+    }
+
+    .rightbox{
+        background-color: #872315;
+        float: right;
+    }
+
+    .boxes{
+        width: 40%;
+        height: 300px;
+        display: inline-block;
+        border: 1px solid black;
+        margin: auto;
+    }
+
+
+    body{
+        background-color: #142842;
+        color: whitesmoke;
+    }
+</style>
+
+
+</body>
+</html>
+
+
+<?php
+//Boolean = data type which accept of these two values: True or False
+
+//add
+//substract
+//multiply
+//divide
+//remainder
+
+
+$numbers = range(1,100);
+
+foreach ($numbers as $a){
+    $b = $a + 1;
+    echo "$a) Addition: $a + $b = ". add($a, $b) ."<br>";
+echo "Substruct $a - $b =  ". substract($a, $b) ."<br>";
+echo "Multiply: $a * $b =  ". multiply($a, $b) ."<br>";
+echo "Divide: $a / $b =  ". divide($a, $b) ."<br>";
+echo "Remainder: $a % $b =  ". remainder($a, $b) ."<hr>";
+}
+
+function add($a, $b){
+return $a + $b;
+}
+
+function substract($a, $b){
+return $a - $b;
+}
+
+function multiply($a, $b){
+return $a * add($a, $b); // $a = 2; $b = 3 | 2 * (2+3)
+}
+
+function divide($a, $b){
+return $a / $b;
+}
+
+function remainder($a, $b){
+return $a % $b;
+}
