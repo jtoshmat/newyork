@@ -3,8 +3,13 @@ $country = $_GET['country']??"Uzbekistan";
 
 $curl = curl_init();
 
+$today = date("Y-m-d"); //2020-04-01
+
+
+
+
 curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://covid-19-data.p.rapidapi.com/report/country/name?date-format=YYYY-MM-DD&format=json&date=2020-04-01&name=Italy",
+    CURLOPT_URL => "https://covid-19-data.p.rapidapi.com/report/country/name?date-format=YYYY-MM-DD&format=json&date=2020-05-30&name=$country",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
@@ -28,9 +33,8 @@ curl_close($curl);
 if ($err) {
     echo "cURL Error #:" . $err;
 } else {
-    $response = json_decode($response);
+    $response = json_decode($response)[0];
 }
-
-/*echo "<pre>";
-print_r($response);
+echo "<pre>";
+var_dump($response);
 exit;

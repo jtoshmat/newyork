@@ -25,7 +25,7 @@ include "covid19backend.php";
     <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <picture><img src="assets/img/covid19_logo.png" style="width: 95px;margin-left: -14px;margin-top: -2px;"></picture>
         <form method="get">
-        <select class="border rounded border-secondary float-right" type="search" style="background-color: rgba(255,255,255,0.06);padding-left: 6px;margin-left: 35px;margin-top: -3px;color: white " placeholder="Search by country">
+        <select name="country" class="border rounded border-secondary float-right" type="search" style="background-color: rgba(255,255,255,0.06);padding-left: 6px;margin-left: 35px;margin-top: -3px;color: white " placeholder="Search by country">
         <?php if (isset($country)): ?>
             <option value="Uzbekistan"><?=$country?></option>
         <?endif;?>
@@ -275,7 +275,7 @@ include "covid19backend.php";
         <option value="Zambia">Zambia</option>
         <option value="Zimbabwe">Zimbabwe</option>
         </select>
-        <button class="btn btn-primary" type="button" style="height: 27px;padding: 5px;padding-top: 0px;margin-left: 9px;margin-top: -2px;">Search</button>
+        <button class="btn btn-primary" type="submit" style="height: 27px;padding: 5px;padding-top: 0px;margin-left: 9px;margin-top: -2px;">Search</button>
         </form>
     </div>
 </nav>
@@ -290,10 +290,10 @@ include "covid19backend.php";
             </tr>
 
             <tr>
-                <td><?php print_r($response:->confirmed)?></td>
-                <td><?php print_r($response->recovered)?></td>
-                <td><?php print_r($response->critical)?></td>
-                <td><?php print_r($response->deaths)?></td>
+                <td><?=$response->provinces[0]->confirmed?></td>
+                <td><?=$response->provinces[0]->recovered?></td>
+                <td><?=$response->provinces[0]->active?></td>
+                <td><?=$response->provinces[0]->deaths?></td>
             </tr>
         </table>
     </div>
