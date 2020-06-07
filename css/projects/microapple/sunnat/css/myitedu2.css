@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.section{
+    background-image: url("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    perspective: 1000px;
+}
+.section:hover .phone{
+    transform: translateY(0)rotateY(-15deg);
+}
+.section:hover .tablets{
+    transform: translateY(0)rotateY(-15deg);
+}
+.section:hover .desctop{
+    transform: translateY(0)rotateY(-15deg);
+}
+.phone{
+    width: 200px;
+    height: 280px;
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+    background-image: url("https://image.slidesharecdn.com/htmlandcss-140821100138-phpapp02/95/html-and-css-1-638.jpg?cb=1408618332");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 3;
+    box-shadow: 15px 15px 15px 0 white;
+    transition: 1s;
+    transform: translateY(100%);
+    transition-delay: 0.2s;
+}
+.tablets{
+    width: 300px;
+    height: 380px;
+    position: absolute;
+    left: 150px;
+    bottom: 0;
+    background-image: url("https://s3-eu-west-1.amazonaws.com/sdz-upload/prod/upload/js2.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    box-shadow: 15px 15px 15px 0 white;
+    transition: 1s;
+    transform: translateY(100%);
+    transition-delay: 0.4s;
+}
+.desctop{
+    width: 500px;
+    height: 480px;
+    position: absolute;
+    left: 300px;
+    bottom: 0;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRxlf-VDJ_242E1lTt2HsPwKB0JezoIL_RjFOKhTDHWHeq3s-pg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    box-shadow: 15px 15px 15px 0 white;
+    transition: 1s;
+    transform: translateY(100%);
+    transition-delay: 0.6s;
+}
+.section h1{
+    font-weight: bolder;
+    font-size: 200%;
+    color: yellow;
+}

@@ -1,0 +1,97 @@
+body{
+    background-color: #c5c890;
+}
+
+#parent_box{
+    background-color: #c5c890;
+    width: 701px;
+    height: auto;
+    margin: auto;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+}
+
+.children{
+    width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    display: inline-block;
+    margin: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    box-shadow: 20px 20px 20px;
+}
+
+.children h1{
+    color: #0e316d;
+    font-size: 400%;
+    margin-right: 152px;
+    margin-right: 152px;
+    margin-bottom: -87px;
+}
+
+.orangebox{
+    width: 100%;
+    height: 70px;
+    background-color: #b37400;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    margin-top: -23px;
+    color: white;
+}
+
+.bluebox{
+    width: 100%;
+    height: 70px;
+    background-color: #304066;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    margin-top: -23px;
+    color: white;
+}
+
+.greenbox{
+    width: 100%;
+    height: 70px;
+    background-color: #91bb73;
+    border-bottom-right-radius: 35px;
+    border-bottom-left-radius: 35px;
+    margin-top: -23px;
+    color: white;
+}
+
+
+.h2div{
+    color: #19049c;
+    margin-bottom: -10px;
+    margin-top: -15px;
+}
+
+.pdiv{
+    margin-left: 70px;
+}
+
+.children li{
+    font-size: large;
+    text-align: center;
+}
+
+.pdiv2{
+    margin-left: 124px;
+}
+
+.pdiv3{
+    margin-left: 124px;
+    margin-bottom: 1px;
+    color: #ffffff;
+
+}
+.children h6{
+    color: white;
+}
+
+

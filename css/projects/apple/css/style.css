@@ -1,0 +1,28 @@
+.mybox{
+    width: 100%;
+    height: auto;
+    background-color: #afd029;
+    border-bottom: 20px solid black;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.mydivs{
+    display: inline-block;
+}
+.textdiv{
+    float: right;
+}
+
+.textdiv a{
+    margin: 15px 15px;
+    text-decoration: none;
+    color: #0274ba;
+}
+
+.logodiv img{
+    width: 230px;
+}

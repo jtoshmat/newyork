@@ -1,0 +1,219 @@
+body {
+    background-color: black;
+}
+
+.bigbox {
+    background-image: url("https://i.ytimg.com/vi/PDmUmo5EOGw/maxresdefault.jpg");
+    background-size: 100% 100%;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+}
+
+.apple {
+    width: 100%;
+    height: 32px;
+    background-color: #415873;
+    margin: 0;
+}
+
+.apple_menu {
+    display: inline-block;
+    text-align: right;
+}
+
+.phpbox {
+    width: 200px;
+    height: auto;
+    font-size: 120%;
+    color: white;
+    background-color: #3d3d3d;
+    text-align: left;
+    padding: 5px;
+    opacity: 70%;
+    position: relative;
+    left: 56px;
+    top: -5px;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+}
+
+.filebox {
+    width: 325px;
+    height: 427px;
+    font-size: 120%;
+    color: white;
+    background-color: #3d3d3d;
+    text-align: left;
+    opacity: 70%;
+    position: relative;
+    top: -6px;
+    left: 147px;
+    cursor: pointer;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+}
+
+.services_box {
+    width: 325px;
+    height: 81px;
+    font-size: 120%;
+    color: white;
+    background-color: #3d3d3d;
+    text-align: left;
+    opacity: 70%;
+    position: relative;
+    top: -211px;
+    left: 257px;
+    cursor: pointer;
+    padding: 5px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+}
+
+.services_box ul {
+    list-style: none;
+}
+
+.phpstorm_span span:hover {
+    font-size: 121%;
+}
+
+.file_span span:hover {
+    font-size: 121%;
+}
+
+.phpstorm {
+    position: relative;
+    left: -10px;
+}
+
+.file {
+    position: relative;
+    left: -5px;
+}
+
+.apple_icon {
+    width: 97px;
+    height: 67px;
+    font-size: 115%;
+    color: white;
+    background-color: #3d3d3d;
+    text-align: left;
+    opacity: 70%;
+    position: relative;
+    top: -5px;
+    left: 1px;
+    cursor: pointer;
+    padding: 13px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: none;
+}
+
+.restart {
+    color: black;
+    background-color: #00e200;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.shutdown {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.apple_menu_ul li {
+    float: left;
+    list-style: none;
+    z-index: 10;
+    margin: -10px 5px 5px 5px;
+    font-size: 110%;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-apple {
+    position: relative;
+    left: -33px;
+}
+
+.fa-wifi {
+    position: relative;
+    left: 160px;
+    top: -24px;
+    color: white;
+}
+
+.fa-bluetooth {
+    position: relative;
+    left: 131px;
+    top: -41px;
+    color: white;
+}
+
+.fa-battery-full {
+    position: relative;
+    left: 226px;
+    top: -58px;
+    color: white;
+}
+
+.battery {
+    position: relative;
+    left: 225px;
+    top: -59px;
+    color: white;
+}
+
+.wed {
+    position: relative;
+    left: 385px;
+    top: -76px;
+    color: white;
+    font-weight: bold;
+}
+
+.fa-search {
+    position: relative;
+    left: 432px;
+    top: -94px;
+    color: white;
+}
+
+.fa-list {
+    position: relative;
+    left: 476px;
+    top: -113px;
+    color: white;
+}
+
+.fa-cog {
+    font-size: 24px;
+    list-style: none;
+    color: white;
+    position: relative;
+    left: -34px;
+    top: -9px;
+}
+
+.services1 {
+    position: relative;
+    left: -23px;
+    top: -13px;
+}
+
+.no_services {
+    color: #767676;
+}

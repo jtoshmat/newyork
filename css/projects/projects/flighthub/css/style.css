@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.container-fluid{
+    padding:0;
+    margin:0;
+    background-color: #efefef;
+    width: 1085px;
+    margin: auto;
+}
+
+.header{
+    background-color: black;
+    height: 24px;
+    text-align: right;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header li{
+    float: right;
+    padding: 0px 49px 1px 5px;
+}
+
+.header li a{
+    color:#d6cfcf;
+    font-size: 12px;
+    text-transform: none;
+}
+
+.topdiv{
+    height: 68px;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6cece;
+}
+.top_left_div img{
+    width: 200px;
+    margin-top: 13px;
+}
+.clublogo{
+    display: inline-block;
+}
+
+.top_left_div{
+    float: left;
+    width: 20%;
+}
+.top_middle_div{
+    float: left;
+    width: 49%;
+}
+.top_right_div{
+    float: right;
+    width: 30%;
+    text-align: center;
+}
+
+.top_right_div p{
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 55px;
+    padding: 0;
+    font-size: 12px;
+    margin-bottom: -5px !important;
+}
+.top_right_div p span{
+    font-size: 27px;
+    color: red;
+    font-family: "American Typewriter";
+    font-weight: bolder;
+}
+
+.top_middle_menu{
+    list-style: none;
+}
+
+.top_middle_menu li{
+    float: left;
+    width: 85px;
+    text-align: center;
+    color: #271f1f;
+    margin-top: 17px;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.top_middle_menu li:hover{
+    color: #128290;
+}
+
+.middlediv{
+    width: 90%;
+    margin: auto;
+    height: 551px;
+    background-color: #fe7900;
+    margin-top: 26px;
+    background-image: url("../img/formbg2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#middle_form_box{
+    width: 450px;
+    height: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #dadada;
+    margin-left: 20px;
+    text-align: center;
+}
+.mytopboxes{
+    display: inline-block;
+    width: 140px;
+    border: 1px solid #d8c9c9;
+    background-color: #f9f9f9;
+    height: 38px;
+    margin-top: 20px;
+    line-height: 30px;
+    cursor: pointer;
+    margin-left: -5px;
+}
+.mytopboxes:first-child{
+    background-color: #2d6498;
+    color: white;
+}
+.mytopboxes:hover{
+    background-color: #dadada;
+    color:black;
+}
+
+.myform input{
+    width: 100%;
+    height: 34px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    padding:5px;
+
+}
+.myform td{
+    text-align: left;
+    border: none;
+}
+.myform td span{
+    font-size: 13px;
+}
+.td_options{
+    text-align: center !important;
+}
+.td_options button{
+    width: 80%;
+    height: 46px;
+    background-color: #ff8441;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: none;
+}
+
+input[type=checkbox]{
+border: none;
+    width: 10px;
+}
+
+.td_options2:first-child{
+    text-align: right !important;
+}
+.td_options2:last-child{
+    text-align: left !important;
+}
+
+.mymiddle_right_text{
+    width: 390px;
+    height: 97px;
+    background-color: black;
+    position: relative;
+    top: -522px;
+    left: 550px;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    font-family: "American Typewriter";
+    opacity: 0.7;
+    font-weight: bolder;
+}
+
+.mymiddle_right_text2 {
+    width: 505px;
+    height: 147px;
+    background-color: black;
+    position: relative;
+    top: -341px;
+    left: 471px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-right: 5px;
+    text-transform: uppercase;
+    font-family: "American Typewriter";
+    opacity: 0.3;
+    font-weight: bolder;
+    border-top: 3px solid #bd7a0e;
+    border-bottom: 3px solid #bd7a0e;
+}
+
+.mymiddle_right_text span{
+    color: sandybrown;
+}
+
+
+
+
+.subscribe div{
+    display: inline-block;
+    width: 39%;
+    margin-left: 53px;
+    margin-top: 20px;
+
+}
+
+
+.right_subscribe_child_div{
+    position: relative;
+    top:-44px;
+    text-align: center;
+
+}
+
+.right_subscribe_child_div input{
+    width: 74%;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    /* border: 1px springgreen; */
+    border: 1px solid;
+    margin-right: 3px;
+
+}
+
+.right_subscribe_child_div button{
+    height: 45px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #16a7ce;
+    color: white;
+}
+
+.left_subscribe_child_div span:first-child{
+    font-size: 21px;
+    color: #0078be;
+}
+.left_subscribe_child_div span:nth-child(2){
+    font-size: 16px;
+}
+.left_subscribe_child_div span:last-child{
+    font-size: 12px;
+    color: #0078be;
+}

@@ -1,0 +1,65 @@
+body {
+    background-color: darkslategray;
+}
+
+#calculator {
+    width: 400px;
+    border: 1px solid black;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.results {
+    width: 99%;
+    height: 90px;
+    background-color: #252525;
+    border: 1px solid black;
+    margin: 2px 1px 1px 2px;
+    border-radius: 15px;
+    text-align: center;
+    color: saddlebrown;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 200%;
+    padding: 15px;
+}
+
+.numbers {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #252525;
+    display: inline-flex;
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 200%;
+    cursor: pointer;
+}
+
+#reload_window {
+    background-color: darkgrey;
+}
+
+#prosta {
+    background-color: darkgrey;
+}
+
+#protsent {
+    background-color: darkgrey;
+}
+
+#operator {
+    background-color: #e2b022;
+}
+
+#go {
+    background-color: #e2b022;
+}
+
+#nomalum {
+    color: #252525;
+}

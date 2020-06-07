@@ -1,0 +1,80 @@
+.item img{
+    width: 100%;
+}
+/*
+    body{
+        background-image: url("../img/bg.jpg");
+    }
+    */
+
+.middle_text{
+    color: #77124d;
+    text-shadow: 2px 2px #ddd9d5;
+
+}
+
+.logo{
+    width: 200px;
+    margin: 20px;
+    float: left;
+}
+
+.myslides{
+    /* background-color: red;*/
+    height: 400px;
+    background-image: url("../img/belleforelle1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top: 5px solid #6b1a49;
+    border-bottom: 5px solid #6b1a49;
+    margin-bottom: 20px;
+}
+
+.col-sm {
+    border: 1px solid #d3cbc2;
+    height: auto;
+    margin-right: 5px;
+    background-color: #e1d9d7;
+    box-shadow: #c4cfe2 5px 5px 5px 5px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
+}
+
+.bottom_buttons {
+    text-align: center;
+}
+.bottom_buttons button {
+    background-color: #504b30;
+    border-radius: 5px;
+    border: 1px inset #98b7b5;
+    color: white;
+    padding: 8px;
+}
+
+.bottom_buttons button:hover{
+    background-color: #746f4d;
+    color: #ffce7f;
+}
+
+.menubuttons {
+    text-align: center;
+    float: right;
+    width: 550px;
+    margin: 20px;
+
+}
+
+
+button:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+
+
+

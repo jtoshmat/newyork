@@ -1,0 +1,26 @@
+/*
+  This code is for phone devices
+ */
+body{
+    background-image: url("https://wallpapercave.com/wp/wp2562825.jpg");
+    background-size: cover;
+    background-color: #7ee2dc;
+}
+
+#mybox{
+    width: 350px;
+    height: 350px;
+    background-color: #3b92f8;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    line-height: 44px;
+
+}
+
+.topempty{
+    display: block;
+    height: 100px;
+}

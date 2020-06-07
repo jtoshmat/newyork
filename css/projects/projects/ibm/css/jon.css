@@ -1,0 +1,28 @@
+th{
+    background-color: #4e9dff;
+    color: #a51d07;
+}
+
+tr:nth-child(even){
+    background-color: whitesmoke;
+}
+
+.even{
+    background-color: darkred;
+    color: #ffe831;
+}
+
+.nines{
+    background-color: #173d58;
+    color: #ffe831;
+}
+
+.myage{
+    background-color: #173d58;
+    color: #ffe831;
+    text-align: center;
+}
+
+.myage img{
+    width: 50px;
+}

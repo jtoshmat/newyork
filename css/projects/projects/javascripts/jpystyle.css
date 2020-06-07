@@ -1,0 +1,28 @@
+body{
+    background-image: linear-gradient(to right, #5bfffc, yellow);
+    width: 100%;
+    height: auto;
+}
+
+#headname{
+    padding: 5%;
+    font-family: "Arial Unicode MS";
+    font-size: larger;
+    margin: 10%;
+}
+#mainbox{
+    background-image: linear-gradient(to right, #6efa58, #46cdea);
+    width: 59%;
+    border-radius: 60px;
+    padding: 3%;
+    text-align: center;
+    margin: 10%;
+}
+
+#output{
+    background-color: #abdde5;
+    width: 38%;
+    border-radius: 6px;
+    color: #0b18ff;
+    padding:5px;
+}

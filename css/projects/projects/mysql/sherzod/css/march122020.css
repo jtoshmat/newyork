@@ -1,0 +1,19 @@
+body{
+     background-color: lightgoldenrodyellow;
+ }
+#march122020{
+    width: 500px;
+    height: auto;
+    /* border: 1px solid black;*/
+    /*margin: 50px auto;*/
+    background-color: antiquewhite;
+}
+table tr:nth-child(even){
+    background-color: #9afe1f;
+}
+table tr:nth-child(odd){
+    background-color: #fe6767;
+}
+table tr:first-child{
+    background-color: brown;
+}

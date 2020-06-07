@@ -1,0 +1,97 @@
+body{
+    background-color: #153515;
+}
+
+#stadium_name{
+    position: relative;
+    left: -27px;
+    top: -10px;
+    font-size: 260%;
+    text-align: center;
+    text-shadow: black 2px 2px;
+    color: white;
+    z-index: 1000;
+}
+
+#stadium{
+    width: 1500px;
+    height: 852px;
+    margin: 15px auto;
+    background-color: #407201;
+    border: 1px solid #062402;
+    box-shadow: black 5px 5px 5px 5px;
+    background-image: url("../img/stadium.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#ball{
+    position: relative;
+    left: 711px;
+    top: 312px;
+    width: 80px;
+    z-index: 999;
+}
+
+#left_entrance{
+    position: relative;
+    left: 501px;
+    top: 470px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ffb90a;
+    border: 1px solid #062402;
+    box-shadow: black 5px 5px 5px 5px;
+    text-align: center;
+    writing-mode: vertical-lr;
+}
+
+#right_entrance{
+    position: relative;
+    left: 882px;
+    top: 470px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ff9d8d;
+    border: 1px solid #062402;
+    box-shadow: black 5px 5px 5px 5px;
+    text-align: center;
+    writing-mode: vertical-lr;
+}
+
+.players_position{
+    position: relative;
+    left: 501px;
+    top: 371px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1561fe;
+    border: 1px solid #062402;
+    box-shadow: black 5px 5px 5px 5px;
+    text-align: center;
+    writing-mode: vertical-lr;
+}
+.left_player1 {
+    left: 121px;
+    top: 322px;
+}
+.left_player2{
+    left: 501px;
+    top: 371px;
+}
+.left_player3{
+    left: 501px;
+    top: 371px;
+}
+.left_player4{
+    left: 501px;
+    top: 371px;
+}
+.left_player5{
+    left: 501px;
+    top: 371px;
+}
+

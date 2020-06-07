@@ -1,0 +1,113 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+body{
+    background-color: #00000a;
+    background-image: url("../img/download5.jpeg");
+    background-size: cover;
+}
+.box1{
+    background-color: #3f729d;
+    background-image: url("../img/back4.jpeg");
+    background-size: cover;
+    width: 520px;
+    height: 480px;
+    border: 1px solid black;
+    margin: auto;
+}
+.header{
+    height: 46px;
+    border-bottom: 1px solid #1f4d6b;
+    box-shadow: #2c5d7d 0px 3px 5px;
+    background-color: #57a4de;
+    background-image: url("../img/back3.jpeg");
+    background-size: cover;
+}
+.header button a:hover{
+    color: #73a322;
+}
+.header button{
+    color: white;
+    background-color: #5498c6;
+    border-radius: 4px;
+    height: 34px;
+    width: 70px;
+    position: relative;
+    left: 60%;
+    top: 2px;
+}
+.loginform{
+    width: 65%;
+    height: 370px;
+    background-color: #d5e7f5;
+    background-image: url("../img/back2.png");
+    background-size: cover;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid whitesmoke;
+}
+.loginform2{
+    width: 90%;
+    margin: auto;
+    height: 339px;
+}
+.facebook_button_div{
+    text-align: center;
+}
+.facebook_button_div img{
+    width: 90%;
+    height: 43px;
+}
+.formdiv{
+    text-align: center;
+}
+.formdiv input{
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid grey;
+    height: 33px;
+    padding-left: 9px;
+}
+.formdiv p{
+    margin: 0px;
+    padding: 0px;
+}
+.createaccount{
+    text-align: left;
+    color: #0076bc;
+    margin-left: 17px; !important;
+    padding-bottom: 5px !important;
+}
+.myinputs{
+    margin-bottom: 9px !important;
+}
+.dropdownmenu, .terms{
+    font-size: 15px;
+}
+.getstarted{
+    text-align: right;
+}
+.getstarted button{
+    width: 100px;
+    height: 52px;
+    background-color: #87b824;
+    border: 1px solid #73a322;
+    border-radius: 5px;
+    color: white;
+    margin-top: 11px;
+    margin-right: 11px;
+}
+.terms a{
+    color:#0080cb;
+    text-decoration: none;
+    font-weight: bold;
+}
+.birthday{
+    color: #FFA612;
+}
+.birthday a:hover{
+    color: #5BE8F0;
+}

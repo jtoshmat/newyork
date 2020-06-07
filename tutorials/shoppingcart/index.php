@@ -20,6 +20,7 @@ if (isset($_SESSION['shopping_cart_qty'])) {
 <body>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?php include_once 'backend/products.php'?>
 =======
 <? include 'includes/modal.php' ?>
@@ -32,6 +33,10 @@ if (isset($_SESSION['shopping_cart_qty'])) {
 <?php include_once 'backend/products.php'?>
 >>>>>>> 9ba2f27ee1d32d01d5266e9eae0e9c3f29838364
 >>>>>>> fcd5e0a8a300292365df59d3ac759d1bc9397165
+=======
+<? include 'includes/modal.php' ?>
+<? include_once 'backend/products.php' ?>
+>>>>>>> e8c61a2ecc1eea5ed234fc3626d1886c034516e2
 <div class="container-fluid">
     <div class="mynavbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -131,7 +136,6 @@ if (isset($_SESSION['shopping_cart_qty'])) {
             </tr>
             <? foreach ($products as $product): ?>
                 <tr>
-<<<<<<< HEAD
                     <td><?= $product['id'] ?></td>
                     <td><img src="<?= $product['image'] ?>"></td>
                     <td><?= $product['product_name'] ?></td>
@@ -152,6 +156,7 @@ if (isset($_SESSION['shopping_cart_qty'])) {
                             </select>
                             <button data-id="<?= $product['id'] ?>" class="myadd" id="add<?= $product['id'] ?> type="
                                     button">
+<<<<<<< HEAD
 <<<<<<< HEAD
 >>>>>>> fc820f9ba1e0ea1203d6180dfb572b9b36cef404
 =======
@@ -179,6 +184,8 @@ if (isset($_SESSION['shopping_cart_qty'])) {
                         <button data-id="<?=$product['id']?>" class="myadd" id="add<?=$product['id']?> type="button">
 >>>>>>> 9ba2f27ee1d32d01d5266e9eae0e9c3f29838364
 >>>>>>> fcd5e0a8a300292365df59d3ac759d1bc9397165
+=======
+>>>>>>> e8c61a2ecc1eea5ed234fc3626d1886c034516e2
                             <i class="fas fa-plus myplus"></i>
                             </button>
 

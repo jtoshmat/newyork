@@ -1,0 +1,163 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+#chatbox{
+    width: 1200px;
+    height: 800px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px auto;
+}
+.leftbox{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    overflow: auto;
+    background-color: rgba(0, 255, 206, 0.14);
+}
+.rightbox{
+    width: 70%;
+    height: 100%;
+    border: none;
+    display: inline-block;
+    float: right;
+    overflow: right;
+}
+.searchicon{
+    font-size: 130%;
+    color: #0092c5;
+    padding: 5px;
+}
+.searchinput input{
+    width: 88%;
+    height: 40px;
+    margin: 4px;
+    padding:8px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    color: #0092c5;
+}
+.chat_users {
+    height: auto;
+    margin-top: 20px;
+}
+.profile_photo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 7px;
+}
+.table th, .table td {
+    padding: 0;
+    vertical-align: baseline;
+    border: 1px solid black;
+}
+.left_box_table{
+    font-size: 100%;
+}
+.checkicon{
+    color: mediumseagreen;
+    font-size: 110%;
+
+}
+.smileicon{
+    font-size: 120%;
+    color: #a30000;
+}
+.user_full_name{
+    font-weight: bolder;
+    font-size: 140%;
+    color: #174382;
+}
+.chat_users:hover{
+    color: #0092c5;
+}
+.topdiv{
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+    background-color: rgba(0, 200, 255, 0.25);
+}
+.topdiv_left{
+    display: inline-block;
+    width: 48%;
+}
+.topdiv_right{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    top: -13px;
+
+}
+.searchicon2{
+    font-size: 160%;
+    color: #a9255e;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+}
+.topdiv_left{
+    margin: 0px 0px 0px 10px;
+    font-size: 80%;
+}
+.topdiv_left span:first-child{
+    font-weight: bolder;
+    font-size: 120%;
+}
+.topdiv_left span:last-child{
+    font-size: 105%;
+    color: #6cbaf6;
+}
+.middlediv{
+    height: 85%;
+    background-color: #b4ea88;
+    background-image: url("https://media.istockphoto.com/photos/defocused-green-background-picture-id925561778?k=6&m=925561778&s=612x612&w=0&h=0ng60JNYKIBUr2zrLbVXsfO4t35nrxoQ2mMRNtx9A_g=");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+.bottomdiv{
+    text-align: center;
+    margin-top: 7px;
+    position: relative;
+    top: 12px;
+}
+.bottomdiv{
+    font-size: 130%;
+    color: #2963ff;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.bottomdiv input{
+    width: 85%;
+    border: 1px solid grey;
+    height: 40px;
+    border-radius: 5px;
+    padding:5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.smileicon2{
+    color: #e2b022;
+    font-size: 130%;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.fa-microphone{
+    color: #00c6fd;
+    font-size: 130%;
+}
+.fa-paperclip{
+    color: #00c6fd;
+    font-size: 130%;
+}
