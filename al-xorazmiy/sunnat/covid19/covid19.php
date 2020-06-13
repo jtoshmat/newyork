@@ -5,11 +5,13 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Covid-19</title>
     <link rel="stylesheet" href="../../../css/bootstrap.css">
     <link rel="stylesheet" href="../../../js/jquery-3.4.1.min.js">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="../../../fontawesome/css/all.css">
+    <script src="assets/js/jquery.min.js"></script>
 </head>
 <body>
 <?php
@@ -25,7 +27,7 @@ include "covid19backend.php";
     <div class="container-fluid"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <picture><img src="assets/img/covid19_logo.png" style="width: 95px;margin-left: -14px;margin-top: -2px;"></picture>
         <form method="get">
-        <select class="border rounded border-secondary float-right" type="search" style="background-color: rgba(255,255,255,0.06);padding-left: 6px;margin-left: 35px;margin-top: -3px;color: white " placeholder="Search by country">
+        <select name="country" class="border rounded border-secondary float-right" type="search" style="background-color: rgba(255,255,255,0.06);padding-left: 6px;margin-left: 35px;margin-top: -3px;color: white " placeholder="Search by country">
         <?php if (isset($country)): ?>
             <option value="Uzbekistan"><?=$country?></option>
         <?endif;?>
@@ -211,7 +213,7 @@ include "covid19backend.php";
         <option value="Qatar">Qatar</option>
         <option value="Reunion">Reunion</option>
         <option value="Romania">Romania</option>
-        <option value="Russian Federation">Russian Federation</option>
+        <option value="Russian">Russian Federation</option>
         <option value="Rwanda">Rwanda</option>
         <option value="Saint Helena">Saint Helena</option>
         <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
@@ -260,7 +262,7 @@ include "covid19backend.php";
         <option value="Ukraine">Ukraine</option>
         <option value="United Arab Emirates">United Arab Emirates</option>
         <option value="United Kingdom">United Kingdom</option>
-        <option value="United States">United States</option>
+        <option value="Usa">United States</option>
         <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
         <option value="Uruguay">Uruguay</option>
         <option value="Uzbekistan">Uzbekistan</option>
@@ -275,36 +277,92 @@ include "covid19backend.php";
         <option value="Zambia">Zambia</option>
         <option value="Zimbabwe">Zimbabwe</option>
         </select>
-        <button class="btn btn-primary" type="button" style="height: 27px;padding: 5px;padding-top: 0px;margin-left: 9px;margin-top: -2px;">Search</button>
+        <button class="btn btn-primary" type="submit" style="height: 27px;padding: 5px;padding-top: 0px;margin-left: 9px;margin-top: -2px;">Search</button>
         </form>
     </div>
 </nav>
     <div id="results">
-        You have selected <?=$country?>
+        You have selected:<hd><?=$country?></hd>
         <table class="table table-bordered">
             <tr class="mytable">
-                <th>Country</th>
-                <th>Recovered</th>
-                <th>Critical</th>
-                <th>Death</th>
+                <th>Country<i id="icons" class="fas fa-globe-americas"></i></th>
+                <th>Recovered<i id="icons2" class="fas fa-heart"></i></th>
+                <th>Active<i id="icons3" class="fas fa-heartbeat"></i></i></th>
+                <th>Death<i id="icons4" class="fas fa-skull-crossbones"></i></th>
             </tr>
 
             <tr>
-                <td><?php print_r($response:->confirmed)?></td>
-                <td><?php print_r($response->recovered)?></td>
-                <td><?php print_r($response->critical)?></td>
-                <td><?php print_r($response->deaths)?></td>
+                <td><?=$response->provinces[0]->confirmed?></td>
+                <td><?=$response->provinces[0]->recovered?></td>
+                <td><?=$response->provinces[0]->active?></td>
+                <td><?=$response->provinces[0]->deaths?></td>
             </tr>
         </table>
     </div>
 
 </div>
+<style>
+    #results{
+        background-color: #5779e0;
+        color: whitesmoke;
+        text-align: center;
+    }
+    #results:hover{
+        background-color: rgba(110, 135, 213, 0.7);
+        color: whitesmoke;
+        text-align: center;
+    }
+    #results hd{
+        color: #e2295a;
+        font-weight: bolder;
+        font-size: 130%;
+        margin: 10px;
+        text-decoration: initial;
+    }
+    .table td{
+        background-color: #3998a6;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    .table td:hover{
+        background-color: rgba(57, 152, 166, 0.7);
+        color: whitesmoke;
+    }
+
+    .table th{
+        background-color: #312771;
+        color: #e11d51;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .table th:hover{
+        background-color: rgba(49, 39, 113, 0.8);
+        color: #e11d51;
+        margin: 10px;
+    }
+
+    #icons{
+        margin: 10px;
+        color: #1b82fe;
+    }
+    #icons2{
+        margin: 10px;
+        color: #fe1b2e;
+    }
+    #icons3{
+        margin: 10px;
+        color: #72fe1b;
+    }
+
+    #icons4{
+        margin: 10px;
+        color: #2d93a1;
+    }
+</style>
 <div style="margin-top: 11px;"><canvas data-bs-chart="{&quot;type&quot;:&quot;line&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;January&quot;,&quot;February&quot;,&quot;March&quot;,&quot;April&quot;,&quot;May&quot;,&quot;June&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;Revenue&quot;,&quot;backgroundColor&quot;:&quot;#4e73df&quot;,&quot;borderColor&quot;:&quot;#4e73df&quot;,&quot;data&quot;:[&quot;4500&quot;,&quot;5300&quot;,&quot;6250&quot;,&quot;7800&quot;,&quot;9800&quot;,&quot;15000&quot;],&quot;fill&quot;:true}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:true,&quot;legend&quot;:{&quot;display&quot;:false},&quot;title&quot;:{}}}"></canvas></div>
-<script
-        src="assets/js/jquery.min.js"></script>
+
 <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 <script src="assets/js/chart.min.js"></script>
 <script src="assets/js/bs-init.js"></script>
-<script src="covid.js"></script>
 </body>
 </html>

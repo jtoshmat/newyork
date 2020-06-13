@@ -1,11 +1,15 @@
 <?php
-$country = $_GET['country']??"Uzbekistan";
+$city = $_GET['city']??'New_York';
+
+$City = [];
+
+
+
 
 $curl = curl_init();
-$today = date("Y-m-d");
 
 curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://covid-19-data.p.rapidapi.com/report/country/name?date-format=YYYY-MM-DD&format=json&date=2020-05-31&name=$country",
+    CURLOPT_URL => "https://aladhan.p.rapidapi.com/timingsByCity?city=$city&country=USA",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
@@ -14,7 +18,7 @@ curl_setopt_array($curl, array(
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => array(
-        "x-rapidapi-host: covid-19-data.p.rapidapi.com",
+        "x-rapidapi-host: aladhan.p.rapidapi.com",
         "x-rapidapi-key: a8ffce9bebmshf7ec9d45dc197fcp1ce2f9jsnd6da02ec8b57"
     ),
 ));
@@ -24,10 +28,10 @@ $err = curl_error($curl);
 
 curl_close($curl);
 
-
-
 if ($err) {
     echo "cURL Error #:" . $err;
 } else {
-    $response = json_decode($response)[0];
+    $City = json_decode($response);
 }
+
+

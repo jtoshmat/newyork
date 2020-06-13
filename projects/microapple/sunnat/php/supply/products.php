@@ -1,6 +1,6 @@
 <?php
 namespace Supply;
-require_once "database.php";
+require_once "../../../../../inc/database.php";
 use Database\database;
 
 
