@@ -14,15 +14,16 @@
     <h1>Welcome to my city!</h1>
 
 
-    <nav>
-        <a href="switch.php?city=Tashkent">Tashkent</a>
-        <a href="switch.php?city=Dallas">Dallas</a>
-        <a href="switch.php?city=Miami">Miami</a>
+    <nav class="text">
+        <a class="picture1" href="switch.php?city=Tashkent">Tashkent</a>
+        <a class="picture2" href="switch.php?city=Dallas">Dallas</a>
+        <a class="picture3" href="switch.php?city=Miami">Miami</a>
     </nav>
 
 
 <?php
 $city = $_GET['city']??'Tashkent';
+
 switch ($city) {
 
     case "Tashkent";
@@ -52,17 +53,47 @@ switch ($city) {
    </div>
 
 <style>
+    body{
+        background-color:#5bc0de;
+    }
+
+    .picture1{
+        color: #00cc00;
+    }
+    .picture2{
+        color: #5313b8;
+    }
+    .picture3{
+        color: indianred;
+    }
+
+    h1{
+        text-align: center;
+        color: #6d0e10;
+    }
+    .text{
+        text-align: center;
+        font-size: 200%;
+        font-style: oblique;
+    }
 
     .container-fluid{
-        text-align: center;
+        width: 800px;
+        height: 700px;
+        background-color: whitesmoke;
+        margin-top: 20px;
+        
     }
     h1{
         color: #0f6674;
     }
+    .images img{
+        width: 770px;
+        height: 500px;
 
+
+    }
 
 </style>
-
-
 </body>
 </html>
