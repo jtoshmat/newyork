@@ -21,36 +21,36 @@
     </nav>
 
 
-<?php
-$city = $_GET['city']??'Tashkent';
+    <?php
+    $city = $_GET['city']??'Tashkent';
 
-switch ($city) {
+    switch ($city) {
 
-    case "Tashkent";
-        $img = "https://kalpak-travel.com/wp-content/uploads/2019/04/tashkent.jpg";
-        break;
+        case "Tashkent";
+            $img = "https://kalpak-travel.com/wp-content/uploads/2019/04/tashkent.jpg";
+            break;
 
-    case "Dallas";
-       $img = "https://blog.buckitdream.com/wp-content/uploads/2017/11/dallas-img.jpg";
-        break;
+        case "Dallas";
+            $img = "https://blog.buckitdream.com/wp-content/uploads/2017/11/dallas-img.jpg";
+            break;
 
-    case "Miami";
-        $img = "https://www.casino.org/news/wp-content/uploads/2017/05/miamibeach.jpeg";
-        break;
+        case "Miami";
+            $img = "https://www.casino.org/news/wp-content/uploads/2017/05/miamibeach.jpeg";
+            break;
 
-    default;
-        $img = "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/593807d32171f_RHlUtt8__880.jpg";
-        break;
+        default;
+            $img = "https://static.boredpanda.com/blog/wp-content/uploads/2017/06/593807d32171f_RHlUtt8__880.jpg";
+            break;
 
-}
-?>
+    }
+    ?>
 
     <div class="images">
         <img  src="<?=$img?>">
 
 
     </div>
-   </div>
+</div>
 
 <style>
     body{
@@ -82,7 +82,7 @@ switch ($city) {
         height: 700px;
         background-color: whitesmoke;
         margin-top: 20px;
-        
+
     }
     h1{
         color: #0f6674;
