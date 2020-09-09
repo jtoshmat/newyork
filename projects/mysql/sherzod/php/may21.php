@@ -14,7 +14,7 @@
 $status = false;
 $form_submitted = $post['form_submitted']??null;
 if ($form_submitted AND $form_submitted == 1){
-    require_once "../../../../../inc/database.php";
+    require_once "inc/database.php";
     $db = new \Database\database("library");
     $books = $db->sql("SELECT * FROM digitlibrary");
     $e_mail = $_POST['e_mail']??null;
@@ -23,7 +23,7 @@ if ($form_submitted AND $form_submitted == 1){
 }
 ?>
 
-<!--
+<!--"../../../../../inc/database.php";
 include "../../../../../inc/database.php";
 $db = new \Database\database("library");
 $library = $db->sql("SELECT * FROM digitlibrary");

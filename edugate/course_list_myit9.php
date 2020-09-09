@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/fontawesome/css/all.css">
     <script src="/js/jquery.js"></script>
 
-</head>
+</head> 
 <body>
 
 <div id="wrapper">
