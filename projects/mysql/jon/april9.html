@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <script src="/js/jquery.js"></script>
+</head>
+<body>
+
+
+<div id="jon">
+
+    <div>
+        Search: <input name="keyword" type="text"><button>Search</button>
+    </div>
+    <hr>
+
+    <div data-country="Uzbekistan" class="myimg">
+        <img src="https://www.globalresearch.ca/wp-content/uploads/2019/05/uzbekistan.jpg">
+    </div>
+
+    <div data-country="Ukraine" class="myimg">
+        <img src="https://static.coindesk.com/wp-content/uploads/2017/08/ukraine-europe-e1502484605407.jpg">
+    </div>
+
+    <div data-country="Brazil" class="myimg">
+        <img src="https://ca-times.brightspotcdn.com/dims4/default/d6c49a0/2147483647/strip/true/crop/2048x1151+0+0/resize/840x472!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F61%2Ffb%2Fdc921ccd651569c24e142804d3b7%2Fla-1553121437-jhhmvks1tp-snap-image">
+    </div>
+    <h4>The airports for <span id="selected_country_name">Uzbekistan</span></h4>
+    <table class="table table-bordered" id="mytable_results">
+
+    </table>
+</div>
+<style>
+
+   th{
+        background-color: darkred;
+        color: #ffc45b;
+    }
+
+   td, th{
+       border:1px solid black !important;
+   }
+
+    table{
+        background-color: whitesmoke;
+        border: 1px solid black;
+    }
+
+    body{
+        background-color: #202f58;
+        color: whitesmoke;
+    }
+
+    #jon{
+        width: 80%;
+        margin: 100px auto;
+        text-align: center;
+    }
+
+    .myimg img{
+        width: 300px;
+        height: 250px;
+    }
+    .myimg{
+        width: auto;
+        height: auto;
+        display: inline-block;
+        margin: 10px;
+        border: 5px double darkred;
+        cursor: alias;
+    }
+</style>
+<script>
+    $(function () {
+        $(".myimg").click(function () {
+            let country = $(this).data('country');
+            $("#selected_country_name").html(country);
+            let input = {
+                'country': country
+            };
+            $.post( "backend/getairports.php", input, function( output ) {
+                $("#mytable_results").html(output);
+            });
+
+        })
+    });
+</script>
+</body>
+</html>

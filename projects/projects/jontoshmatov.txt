@@ -1,0 +1,38 @@
+
+<?php
+    include 'inc/database.php';
+    $airports = $db->sql("select * from airports where country_abbr = 'Uz'");
+
+   foreach($airports as $airport){
+       echo $airport['city']."<br>";
+   }
+
+Хаммага Салом,
+Утганги лавхамизда биз HTML ва CSS ёрдами билан кандай килиб калкулатор ясашни урганган едик.
+Бугун ман сизларга сахифага яни веб аппликатионга MySQL дан информация чикаришни курсатаман.
+Biz buni mashgulotda HTML, CSS, Bootstrap, PHP, SQL, MySQL tillari va technologiylardan foidalanamiz.
+кани унда бошладик
+
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic Calculator</title>
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <script src="/js/bootstrap.js"></script>
+</head>
+<body>
+
+<h1>Blank Page</h1>
+
+<p>
+    Team, <br>
+
+    Please use this blank page as your new starting page.
+
+
+</p>
+
+</body>
+</html>

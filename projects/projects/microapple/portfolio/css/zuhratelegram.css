@@ -1,0 +1,207 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #0a1630;
+}
+/*
+    *********************************
+    Chatbox Div starts here
+    *********************************
+ */
+#chatbox{
+    width: 1200px;
+    min-width: 1200px;
+    max-width: 1200px;
+    height: 800px;
+    border: 1px solid black;
+    background-color: white;
+    margin: 10px auto;
+}
+.leftwindow{
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    overflow: auto;
+}
+.rightwindow{
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    float: right;
+    border-left: 1px solid grey;
+    overflow: auto;
+}
+.searchinput input{
+    width: 88%;
+    height: 40px;
+    margin: 5px;
+    padding:5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+.searchicon{
+    font-size: 120%;
+    color: #5d5d5d;
+    padding:2px;
+    margin-left: 8px;
+}
+/*
+    *********************************
+    Chat Div starts here
+    *********************************
+ */
+.chat_users{
+    height: auto;
+    margin-top: 20px;
+}
+.chat_users:hover{
+    background-color: #308bd2;
+    cursor: pointer;
+}
+.profile_photo{
+    width: 50px;
+    margin-left: 3px;
+}
+.table th, .table td {
+    padding: 0;
+    vertical-align: baseline;
+    border-top: 0;
+}
+.left_window_table{
+    font-size: 87%;
+}
+.checkicon{
+    color: green;
+    font-size: 110%;
+}
+.smileicon{
+    font-size: 120%;
+    color: #ffd84b;
+}
+.user_full_name{
+    font-weight: bolder;
+    font-size: 130%;
+    color: #174382;
+}
+/*
+    *********************************
+    Top Div starts here
+    *********************************
+ */
+.topdiv{
+    width: 100%;
+    border-bottom: 1px solid darkgrey;
+}
+.topdiv_left{
+    display: inline-block;
+    width: 48%;
+}
+.topdiv_right{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    position: relative;
+    top: -13px;
+
+}
+.searchicon2{
+    font-size: 160%;
+    color: darkgrey;
+    margin: 10px;
+}
+.topdiv_left{
+    margin: 0px 0px 0px 10px;
+    font-size: 80%;
+}
+.topdiv_left span:first-child{
+    font-weight: bolder;
+    font-size: 120%;
+}
+.topdiv_left span:last-child{
+    font-size: 105%;
+    color: #6cbaf6;
+}
+.middlediv{
+    height: 85%;
+    background-color: #b4ea88;
+    background-image: url("../telegram/img/telegram_bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+.left_bubble{
+    float: left;
+    position: relative;
+    background: antiquewhite;
+    border-radius: .4em;
+    width: 100px;
+}
+.left_bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #00aabb;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.right_bubble{
+    float: right;
+    position: relative;
+    background: #00aabb;
+    border-radius: .4em;
+}
+.right_bubble:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-right-color: #00aabb;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+/*
+    *********************************
+    Bottom Div starts here
+    *********************************
+ */
+.bottomdiv{
+    text-align: center;
+    margin-top: 7px;
+}
+.bottomdiv i{
+    font-size: 130%;
+    color: red;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.bottomdiv input{
+    width: 85%;
+    border: 1px solid grey;
+    height: 40px;
+    border-radius: 5px;
+    padding:5px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.search{
+    font-weight: bold;
+}

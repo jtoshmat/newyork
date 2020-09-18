@@ -1,11 +1,11 @@
 <?php
-$covid = $_GET['covid']??'Uzbekisitan';
+$country = $_GET['country']??'Uzbekisitan';
 
 
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-    CURLOPT_URL => "https://covid-19-data.p.rapidapi.com/country?format=json&name=$covid",
+    CURLOPT_URL => "https://covid-19-data.p.rapidapi.com/country?format=json&name=$country",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_FOLLOWLOCATION => true,
     CURLOPT_ENCODING => "",
@@ -28,7 +28,11 @@ if ($err) {
     echo "cURL Error #:" . $err;
 } else {
     $response = json_decode($response);
-    var_dump($response);
+
+
+}
+if (empty($response)){
+    header('Location: covid.php');
 }
 ?>
 
@@ -43,7 +47,7 @@ if ($err) {
     <link rel="stylesheet" href="../css/bootstrap.css">
 </head>
 <body>
-<div class="container">
+<div class="container-fluid">
 <h2 style="text-align: center">Search Covid-19 information here</h2>
     <table class="table table-danger">
         <tr><td>country</td><td><?php print_r($response[0]->country)?></td></tr>

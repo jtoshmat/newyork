@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table and Form</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/march15.css">
+</head>
+<body>
+<div id="march12">
+<div class="head"> <h3>ABOUT YOU</h3></div>
+    <form class="contact_form" method="post" action="data.php">
+        <table class="table">
+            <tr>
+                <td class="left_td">
+                    First Name:
+                </td>
+                <td class="right_td">
+                    <input required="required" name="first_name" type="text" placeholder="Insert First Name">
+                </td>
+                <td class="left_td">
+                    Last Name:
+                </td>
+                <td class="right_td">
+                    <input name="last_name" type="text" placeholder="Insert Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td">
+                    Phone:
+                </td>
+                <td class="right_td">
+                    <input required="required" name="phone" type="tel" placeholder="Phone Number">
+                </td>
+                <td class="left_td">
+                    Fax:
+                </td>
+                <td class="right_td">
+                    <input required="required" name="phone" type="phone" placeholder="Fax number">
+                </td>
+            </tr>
+            <tr>
+                <td class="left_td">
+                 Email:
+                </td>
+                <td class="right_td">
+                 <input required="required" name="email" type="email" placeholder="Email Address">
+                </td>
+                <td class="left_td">
+                    Photo:
+                </td>
+                <td class="right_td">
+                    <input name="upload_file" type="file" placeholder="Upload your photo">
+                </td>
+            </tr>
+            <tr>
+                <td class="message">
+                    Message:
+                </td>
+                <td class="messagetext">
+                    <label>
+                        <textarea required="required" name="your_message" placeholder="Type Your Message"></textarea>
+                    </label>
+                </td>
+            </tr>
+            <tr>
+                <td class="last_td" colspan="2">
+                    <button class="btn btn-dark" type="reset">RESET</button>
+                    <button class="btn btn-success" type="submit">SUBMIT</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

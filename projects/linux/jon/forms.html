@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+
+<div class="myform_header">
+    My Form
+</div>
+
+</div>
+<div class="myform">
+    <form>
+        <table class="table mytable">
+
+            <tr>
+                <td>First Name:</td>
+                <td><input name="first_name" type="text" placeholder="Your First Name"></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input name="first_name" type="text" placeholder="Your Last Name"></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input name="first_name" type="number" placeholder="Your Age"></td>
+            </tr>
+            <tr>
+                <td>DOB</td>
+                <td><input name="dob" type="date" ></td>
+            </tr>
+
+            <tr>
+                <td>Mobile Phone</td>
+                <td><input name="mobile" type="tel" placeholder="347-576-4951"></td>
+            </tr>
+
+            <tr>
+                <td>Country of Residence</td>
+                <td>
+                    <select name="country">
+                        <option value="usa">USA</option>
+                        <option value="uzbekistan">Uzbekistan</option>
+                        <option value="russia">Russia</option>
+                        <option value="others">Other Countries</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>What language are you interested in: </td>
+                <td>
+                    <label>PHP <input type="checkbox" name="languages" value="PHP"></label>&nbsp;
+                    <label>Java <input type="checkbox" name="languages" value="Java"></label>&nbsp;
+                    <label>C# <input type="checkbox" name="languages" value="csharp"></label>&nbsp;
+                    <label>Python <input type="checkbox" name="languages" value="python"></label>&nbsp;
+                    <label>.Net <input type="checkbox" name="languages" value="net"></label>&nbsp;
+                </td>
+            </tr>
+
+            <tr>
+                <td>Do you know how to work with Linux?</td>
+                <td>
+                    <label><input type="radio" name="linux" value="1"> Yes</label> &nbsp;
+                    <label><input type="radio" name="linux" value="0"> No</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Type Yes if you agree with our terms and conditions:</td>
+                <td contenteditable="true">
+                    Type Here
+                </td>
+            </tr>
+            <tr>
+                <td class="btn_td" colspan="2">
+                    <button class="btn btn-dark" type="reset">Reset</button>
+                    <button class="btn btn-success" type="submit">Submit</button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</div>
+<style>
+    td:first-child{
+        text-align: right;
+        padding-right: 5px;
+        width: 300px;
+        color: #be5f16;
+    }
+    .mytable input::placeholder{
+        color: #00cc00;
+        padding-left: 20px;
+        font-family: "American Typewriter";
+    }
+
+    .mytable input{
+        width: 90%;
+        height: 40px;
+        border-radius: 10px;
+        border: 1px solid darkred;
+    }
+
+    .btn_td{
+        text-align: center !important;
+    }
+    .table th, .table td {
+        border-top: none;
+    }
+    .myform_header{
+        width: 1000px;
+        margin: 30px auto;
+        background-color: whitesmoke;
+        color: darkred;
+        text-align: center;
+        font-size: 1.7em;
+        border-radius: 30px;
+    }
+    .myform{
+        border-radius: 15px;
+        width: 1000px;
+        background-color: whitesmoke;
+        margin: 5px auto;
+    }
+    body{
+        background-color: #113068;
+    }
+</style>
+</body>
+</html>

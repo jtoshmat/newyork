@@ -1,0 +1,30 @@
+body{
+    background-color: #c9c2a1;
+}
+table{
+    background-color: white;
+}
+th{
+    background-color: #336ba8;
+    color: white;
+    font-size: 18px;
+}
+.container-fluid{
+    text-align: center;
+}
+h1{
+    color: #9a2f00;
+    text-shadow: #3f0940 2px 2px;
+}
+td{
+    text-align: left;
+    font-size: 11px;
+}
+
+tr:nth-child(even){
+    background-color: #ededed;
+}
+
+.url_icon{
+    width: 50px;
+}

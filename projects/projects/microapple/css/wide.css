@@ -1,0 +1,9 @@
+body{
+    background-color: rgba(0, 0, 0, 0.98);
+    background-image: url("https://lh3.googleusercontent.com/proxy/YWY5J6JWju6vdZ5mt12bmTzFr4gL25xhfquLYcd5FTCazAIp16FRol1b0LRPwgYH9pmzzM5gKx_skVGPsdV2KnMElwxqz835sCCChD4aSR0GAvbXs_VKJlExqnzpP_8GMg0d1pTLl4-j1lmsYGzHlvfh8gFqTFyJ4DrynMUCng");
+    background-size: cover;
+}
+.topdiv{
+    background-color: black;
+    color: #c8f8ff;
+}
