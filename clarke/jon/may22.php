@@ -5,10 +5,14 @@
 
 //String - a collection of all characters (A-Z 0-9 jsdhab125162539897415@$#%$&^%*&^(*&()*_)
 //Integer - Whole numbers -10000000 to 10000000
-//Boolean - True or False
-
-
+//Boolean - True or False numeric conversion => 1 or 0
 //NULL
+$money = null;
+
+
+
+
+
 //Array
 //Float
 //Object

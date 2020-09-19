@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #a71a47;
+}
+.post{
+    width: 400px;
+    height: 670px;
+    background-color: white;
+    border: 1px solid black;
+    margin: 20px auto;
+}
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 10px;
+}
+.name{
+    position: relative;
+    top: -50px;
+    left: 78px;
+}
+.name p{
+    color: #6b8ed4;
+    font-size: 120%;
+    font-weight: bolder;
+}
+.fa-ellipsis-h{
+    position: relative;
+    top: -40px;
+    left: 270px;
+}
+.imagebox {
+    width: 98%;
+    height: 40%;
+    margin: 5px;
+    position: relative;
+    top: -70px;
+}
+.icons{
+    font-size: 150%;
+    color: grey;
+    position: relative;
+    top: -73px;
+    margin: 5px 5px 5px 5px;
+}
+#bookmark{
+    position: relative;
+    left: 275px;
+    font-size: 130%;
+}
+#heart{
+    font-size: 110%;
+    color: red;
+}
+.commentbox{
+    width: 97%;
+    height: 200px;
+    border: 1px solid black;
+    position: relative;
+    top: -76px;
+    left: 6px;
+    overflow: scroll;
+}
+#input{
+    width: 97%;
+    height: 40px;
+    position: relative;
+    top: -70px;
+    left: 7px;
+}
+.btn{
+    position: relative;
+    top: -69px;
+    left: 160px;
+}
